@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">CICAN DUBLIN ARCHIVE</title>
+<desc id="desc">A black and white social preview for an independent archive of Dublin's historic streets, buildings and overlooked heritage.</desc>
+<defs>
+  <linearGradient id="fade" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".92"/><stop offset="1" stop-color="#aaa" stop-opacity=".52"/></linearGradient>
+  <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".3"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <pattern id="grain" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".45" fill="#fff" opacity=".12"/></pattern>
+</defs>
+<rect width="1200" height="630" fill="#050505"/>
+<rect width="1200" height="630" fill="url(#grain)" opacity=".22"/>
+<path d="M52 54H1148M52 576H1148" stroke="#fff" stroke-opacity=".35" stroke-width="1"/>
+<text x="600" y="102" text-anchor="middle" fill="#cfcfcf" font-family="Arial,Helvetica,sans-serif" font-size="17" letter-spacing="8">AN INDEPENDENT DUBLIN HERITAGE ARCHIVE</text>
+<text x="600" y="178" text-anchor="middle" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="55" font-weight="600" letter-spacing="8">CICAN</text>
+<text x="600" y="225" text-anchor="middle" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="500" letter-spacing="5">DUBLIN ARCHIVE</text>
+<g fill="none" stroke="url(#fade)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".83">
+  <!-- Dublin Custom House-inspired civic silhouette -->
+  <path d="M260 456H940M290 456V440H910V456M315 440V355H885V440"/>
+  <path d="M335 355L600 300L865 355M360 355L600 309L840 355"/>
+  <path d="M390 355V440M440 355V440M490 355V440M540 355V440M590 355V440M640 355V440M690 355V440M740 355V440M790 355V440M840 355V440"/>
+  <path d="M365 374H855M365 420H855"/>
+  <path d="M570 300V280Q600 248 630 280V300M580 280V263Q600 238 620 263V280M600 238V226M592 226H608"/>
+  <path d="M570 300H630M584 280H616"/>
+  <!-- Roofline and adjoining Georgian buildings -->
+  <path d="M135 456V375H250V456M125 375H260L240 357H145Z"/>
+  <path d="M150 375V350H235V375M160 350V333H225V350M170 333H215"/>
+  <path d="M155 395H175V418H155ZM205 395H225V418H205ZM155 430H175V450H155ZM205 430H225V450H205Z"/>
+  <path d="M950 456V375H1065V456M940 375H1075L1055 357H960Z"/>
+  <path d="M965 375V350H1050V375M975 350V333H1040V350M985 333H1025"/>
+  <path d="M975 395H995V418H975ZM1025 395H1045V418H1025ZM975 430H995V450H975ZM1025 430H1045V450H1025Z"/>
+  <!-- Street stones -->
+  <path d="M90 480Q600 455 1110 480M110 497Q600 472 1090 497M160 515Q600 493 1040 515M235 532Q600 514 965 532" stroke-opacity=".42"/>
+  <path d="M210 480L195 497M310 476L300 493M415 472L410 490M520 469L520 487M630 469L635 487M745 472L755 490M855 476L870 493M960 480L980 497" stroke-opacity=".32"/>
+</g>
+<path d="M110 456H1090" stroke="url(#ground)" stroke-width="2"/>
+<text x="600" y="552" text-anchor="middle" fill="#dedede" font-family="Arial,Helvetica,sans-serif" font-size="17" letter-spacing="5">DISCOVER · VERIFY · PRESERVE</text>
+</svg>

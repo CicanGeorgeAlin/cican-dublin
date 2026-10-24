@@ -1,0 +1,97 @@
+{
+  "version": "1.0",
+  "scope": "Dublin City and County Dublin",
+  "purpose": "A layered geographic framework for research coverage, fieldwork planning and map navigation. Administrative boundaries and working zones are separate layers.",
+  "boundary_policy": [
+    "The four local authority areas form the primary administrative coverage layer for Dublin.",
+    "Postal districts are operational work zones only; they are not legal boundaries and do not cover every part of County Dublin as a complete administrative system.",
+    "Townlands are the preferred fine-grained statutory geography for later rural and peri-urban subdivision; use official Tailte Éireann boundary datasets and preserve dataset version and attribution.",
+    "Neighbourhoods, parks, corridors and coastal zones may be added as overlapping fieldwork zones, not as substitutes for statutory boundaries.",
+    "Do not assign a discovery to a local authority solely from a postal district label where the boundary is uncertain; verify the point against an authoritative boundary layer.",
+    "Coverage status describes archive research and fieldwork, never the completeness of the underlying physical heritage."
+  ],
+  "local_authorities": [
+    {
+      "id": "DUB-LA-001",
+      "name": "Dublin City Council",
+      "geographic_type": "LOCAL_AUTHORITY",
+      "status": "NOT_YET_RESEARCHED",
+      "source_ids": [
+        "SRC-DUB-LOCAL-AUTH-001"
+      ],
+      "coverage_notes": "City authority area. Use official boundary geometry to determine inclusion for individual discoveries."
+    },
+    {
+      "id": "DUB-LA-002",
+      "name": "Fingal County Council",
+      "geographic_type": "LOCAL_AUTHORITY",
+      "status": "NOT_YET_RESEARCHED",
+      "source_ids": [
+        "SRC-DUB-LOCAL-AUTH-001",
+        "SRC-DUB-TOWNLANDS-2026"
+      ],
+      "coverage_notes": "Northern and north-western part of the Dublin local authority region; include urban, coastal and rural settlements."
+    },
+    {
+      "id": "DUB-LA-003",
+      "name": "South Dublin County Council",
+      "geographic_type": "LOCAL_AUTHORITY",
+      "status": "NOT_YET_RESEARCHED",
+      "source_ids": [
+        "SRC-DUB-LOCAL-AUTH-001"
+      ],
+      "coverage_notes": "Western and south-western part of the Dublin local authority region; include urban, suburban and rural settlements."
+    },
+    {
+      "id": "DUB-LA-004",
+      "name": "Dún Laoghaire-Rathdown County Council",
+      "geographic_type": "LOCAL_AUTHORITY",
+      "status": "NOT_YET_RESEARCHED",
+      "source_ids": [
+        "SRC-DUB-LOCAL-AUTH-001"
+      ],
+      "coverage_notes": "Southern and south-eastern part of the Dublin local authority region, including coastal and upland locations."
+    }
+  ],
+  "working_zone_layers": [
+    {
+      "id": "DUB-WZ-POSTAL",
+      "name": "Dublin postal districts",
+      "geographic_type": "POSTAL_DISTRICT_LAYER",
+      "status": "INITIAL_FRAMEWORK",
+      "record_file": "data/districts.json",
+      "notes": "Operational discovery and fieldwork groupings only. Not a complete administrative boundary layer."
+    },
+    {
+      "id": "DUB-WZ-TOWNLAND",
+      "name": "Official townlands",
+      "geographic_type": "TOWNLAND_LAYER",
+      "status": "SOURCE_IDENTIFIED_NOT_IMPORTED",
+      "source_ids": [
+        "SRC-DUB-TOWNLANDS-2026"
+      ],
+      "notes": "Next detailed statutory subdivision layer. Import only Dublin County records from the authoritative 2026 Tailte Éireann dataset, retaining source identifiers and boundary version."
+    },
+    {
+      "id": "DUB-WZ-NEIGHBOURHOOD",
+      "name": "Neighbourhood and settlement zones",
+      "geographic_type": "NEIGHBOURHOOD_LAYER",
+      "status": "NOT_YET_RESEARCHED",
+      "notes": "Add named neighbourhoods and settlements as fieldwork groupings with documented provenance; boundaries may be informal or overlapping."
+    },
+    {
+      "id": "DUB-WZ-FIELD",
+      "name": "Fieldwork routes and corridors",
+      "geographic_type": "FIELDWORK_LAYER",
+      "status": "NOT_YET_RESEARCHED",
+      "notes": "Add walkable routes, streets, parks, waterfronts and heritage clusters after discovery research. A route is not an administrative area."
+    }
+  ],
+  "coverage_statuses": [
+    "NOT_YET_RESEARCHED",
+    "RESEARCH_IN_PROGRESS",
+    "INITIAL_RESEARCH_COMPLETE",
+    "FIELDWORK_IN_PROGRESS",
+    "FIELDWORK_REVIEWED"
+  ]
+}

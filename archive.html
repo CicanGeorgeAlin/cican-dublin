@@ -367,14 +367,14 @@ function timelineMarkup(record){
  const text=[record.historical_description||"",record.historical_period||""].join(" ");
  const years=[...new Set((text.match(/(?:c\.?\s*)?\b(?:1[0-9]{3}|20[0-2][0-9])(?:\s*[–-]\s*(?:1[0-9]{3}|20[0-2][0-9]))?\b/g)||[]))];
  if(!years.length)return '<p class="muted-copy">No dated milestones have yet been separated from the source record.</p>';
- return '<ol class="timeline">'+years.map(value=>{
+ return '<p class="muted-copy">Date references are drawn from the current catalogue description and period field; this is not yet a complete chronology.</p><ol class="timeline">'+years.map(value=>{
   const cleanYear=value.replace(/^c\.?\s*/,"");
   const sentence=(record.historical_description||"").split(/(?<=[.!?])\s+/).find(part=>part.includes(cleanYear.split(/[–-]/)[0]));
   return '<li><span class="timeline-date">'+esc(value)+'</span><span class="timeline-detail">'+esc(sentence||"Date recorded in the historical period field; event detail not separately stated.")+'</span></li>';
  }).join("")+'</ol>';
 }
 function evidenceMarkup(record){
- const labels={VERIFIED:"REGISTER-VERIFIED",PARTIALLY_VERIFIED:"PARTIALLY VERIFIED",RESEARCH_LEAD:"RESEARCH LEAD"};
+ const labels={VERIFIED:"SOURCE-VERIFIED",PARTIALLY_VERIFIED:"PARTIALLY VERIFIED",RESEARCH_LEAD:"RESEARCH LEAD"};
  const label=labels[record.verification_status]||"STATUS NOT SET";
  const note=record.verification_status==="VERIFIED"?"Core catalogue details are supported by the linked source records. Current condition and access should still be checked on site.":record.verification_status==="PARTIALLY_VERIFIED"?"Some details are supported, but at least one element remains to be checked against primary evidence or field photography.":"This record is a research lead; treat its details as provisional until corroborated.";
  return '<div class="evidence-status"><span>'+esc(label)+'</span><p>'+esc(note)+'</p></div>';
@@ -398,7 +398,7 @@ function openRecord(id,updateUrl=true){
  const photo='<section class="photo-upload"><h3>YOUR PHOTOGRAPH</h3><label class="photo-picker" for="placePhoto">ADD A PHOTO</label><input id="placePhoto" type="file" accept="image/*" capture="environment"><div id="photoPreview" class="photo-preview" aria-live="polite">Choose a photograph from your device.</div><p class="photo-help">This is a local preview only. It is not uploaded or saved to the public archive. Permanent publishing is not enabled yet; no account token or password is requested here.</p></section>';
  $("#detailBody").innerHTML=
   '<section class="history-section"><h3>HISTORY</h3><p class="history-text">'+esc(record.historical_description||"Historical research is in progress.")+'</p>'+(record.historical_significance?'<p class="history-significance">'+esc(record.historical_significance)+'</p>':'')+'</section>'+
-  '<details class="fold" open><summary>DATES &amp; EVENTS</summary>'+timelineMarkup(record)+'</details>'+
+  '<details class="fold" open><summary>HISTORICAL TIMELINE</summary>'+timelineMarkup(record)+'</details>'+
   '<details class="fold"><summary>WHAT TO LOOK FOR</summary>'+photoBrief+'</details>'+
   '<details class="fold"><summary>NEARBY ARCHIVE PLACES</summary>'+nearbyMarkup(record)+'</details>'+
   photo+

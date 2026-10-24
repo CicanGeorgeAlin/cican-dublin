@@ -35,12 +35,84 @@ dialog{width:min(700px,calc(100% - 24px));max-height:88vh;overflow:auto;backgrou
 .detail-body{padding:20px 22px}.detail-body p{font-size:12px;line-height:1.7;color:#bbb}.meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:17px 0}.meta{border:1px solid #292929;padding:10px}.meta small{display:block;font-size:8px;color:#888;letter-spacing:.12em;text-transform:uppercase}.meta b{font-size:10px;font-weight:550}.detail-body h3{font-size:10px;letter-spacing:.13em;text-transform:uppercase;margin:22px 0 8px}.detail-note{border-left:2px solid #777;padding:8px 12px;margin:14px 0;color:#aaa;font-size:11px;line-height:1.65}.source-list small{display:block;color:#777;font-size:9px;margin-top:3px}.related-link{display:inline-block;margin:4px 6px 4px 0;border:1px solid #444;padding:7px 9px;font-size:10px}.detail-body ul{font-size:11px;line-height:1.8;color:#bbb;padding-left:18px}.source-list a{display:block;font-size:11px;text-decoration:underline;text-underline-offset:3px;margin:8px 0}.detail-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}.detail-actions a,.detail-actions button{background:transparent;border:1px solid #555;color:#eee;padding:10px 12px;font-size:10px;cursor:pointer}
 @media(max-width:900px){.gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.toolbar-side{width:100%;justify-content:space-between}.wrap{width:calc(100% - 28px)}header{height:64px}.navlinks{gap:12px;font-size:8px}.hero{padding:42px 0 30px}.gallery{grid-template-columns:1fr;gap:22px}.photo{aspect-ratio:5/3}.toolbar{align-items:flex-start;flex-direction:column}.controls{width:100%}.controls input{max-width:none}.controls select{max-width:135px}.foot{align-items:flex-start;flex-direction:column}.meta-grid{grid-template-columns:1fr}}
+
+/* Readability and calmer archive layout */
+.fold{border-top:1px solid #303030;margin-top:16px;padding:14px 0}.fold summary{cursor:pointer;color:#eee;font-size:14px;font-weight:600;list-style:none}.fold summary::-webkit-details-marker{display:none}.fold summary:after{content:"＋";float:right;color:#999}.fold[open] summary:after{content:"−"}.fold .meta-grid{margin-top:15px}.fold ul{margin-top:12px}
+body{font-size:16px;line-height:1.6}
+.wrap{width:min(1320px,calc(100% - 48px))}
+.hero{padding:52px 0 38px}
+h1{font-size:clamp(40px,6.2vw,76px);line-height:.98;margin:18px 0 18px}
+.intro{font-size:16px;line-height:1.75;max-width:650px;color:#c2c2c2}
+.stats{gap:34px;margin-top:30px}
+.stat{font-size:11px;letter-spacing:.08em}
+.stat b{font-size:24px;margin-bottom:3px}
+.archive{padding:38px 0 88px}
+.controls input,.controls select{font-size:14px;padding:13px 14px;min-height:48px}
+.count{font-size:12px;letter-spacing:.04em}
+.chip{font-size:11px;padding:9px 13px;letter-spacing:.04em}
+.filters{gap:9px;margin-bottom:28px}
+.gallery{gap:30px}
+.photo{aspect-ratio:5/3}
+.photo-mark{font-size:34px}
+.photo-label{font-size:10px;letter-spacing:.14em}
+.item-copy{padding:15px 2px 6px}
+.item-top{font-size:10px;letter-spacing:.08em}
+.item h2{font-size:clamp(19px,2vw,23px);line-height:1.2;margin:9px 0 7px}
+.item-location{font-size:13px;line-height:1.5;color:#aaa}
+.item-status{font-size:10px;padding:5px 8px}
+.detail-head{padding:24px 26px}
+.detail-head h2{font-size:clamp(25px,4vw,32px)}
+.detail-kicker{font-size:11px}
+.close{font-size:12px;padding:9px 13px}
+.detail-body{padding:24px 26px}
+.detail-body p{font-size:15px;line-height:1.75;color:#c5c5c5}
+.meta-grid{gap:12px;margin:22px 0}
+.meta{padding:13px}
+.meta small{font-size:10px;margin-bottom:4px}
+.meta b{font-size:13px;line-height:1.5}
+.detail-body h3{font-size:12px;margin:25px 0 10px}
+.detail-note{font-size:13px;line-height:1.7;padding:12px 15px}
+.source-entry{margin:14px 0}
+.source-list a{font-size:14px}
+.source-entry small{font-size:12px;line-height:1.6}
+.related-link{font-size:12px;padding:9px 12px}
+.detail-body ul{font-size:14px;line-height:1.8}
+.detail-actions a,.detail-actions button{font-size:12px;padding:12px 15px}
+footer{padding:30px 0 40px}
+.foot strong{font-size:12px}.foot span{font-size:11px}
+@media(max-width:700px){
+ .wrap{width:calc(100% - 32px)}
+ .hero{padding:38px 0 28px}
+ .intro{font-size:15px;line-height:1.7}
+ .stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+ .stat{font-size:9px;line-height:1.4}
+ .stat b{font-size:22px}
+ .archive{padding:28px 0 64px}
+ .controls{flex-direction:column}
+ .controls input,.controls select{width:100%;max-width:none;min-height:50px;font-size:15px}
+ .toolbar-side{align-items:center}
+ .count{font-size:11px}
+ .filters{flex-wrap:nowrap;overflow-x:auto;padding-bottom:8px;scrollbar-width:thin}
+ .chip{flex:0 0 auto;font-size:11px}
+ .gallery{grid-template-columns:1fr;gap:28px}
+ .photo{aspect-ratio:16/10}
+ .item h2{font-size:22px}
+ .item-location{font-size:14px}
+ .item-top{font-size:10px}
+ .detail-head{padding:19px 18px}
+ .detail-body{padding:19px 18px}
+ .detail-body p{font-size:15px}
+ .meta-grid{grid-template-columns:1fr 1fr}
+ .meta{padding:11px}
+ .meta b{font-size:12px}
+}
+
 </style>
 </head>
 <body>
-<header><div class="wrap nav"><a class="brand" href="#top"><span class="mark">C</span><span>CICAN<br>DUBLIN ARCHIVE</span></a><nav class="navlinks"><a href="#archive">Photographic archive</a><a href="https://github.com/CicanGeorgeAlin/cican-dublin-archive">Project ↗</a></nav></div></header>
-<main id="top"><section class="wrap hero"><div class="eyebrow">Dublin · Ireland · A living visual record</div><h1>SEE DUBLIN<br>THROUGH ITS DETAILS.</h1><p class="intro">An independent archive of Dublin's monuments, buildings, memorials and overlooked historic details. <strong>Every photograph in this gallery will be taken in person by CICAN GEORGE ALIN.</strong> Research guides each visit; original photographs become the permanent visual record.</p><div class="stats" aria-label="Archive overview"><div class="stat"><b id="totalStat">—</b><span>CATALOGUED RECORDS</span></div><div class="stat"><b id="verifiedStat">—</b><span>VERIFIED RECORDS</span></div><div class="stat"><b id="photoStat">—</b><span>AWAITING PHOTOGRAPHY</span></div></div></section>
-<section class="wrap archive" id="archive"><div class="toolbar"><div class="controls"><input id="search" type="search" placeholder="Search the archive…" aria-label="Search archive"><select id="district"><option value="">All districts</option></select><select id="sort"><option value="district">District order</option><option value="name">Name A–Z</option></select></div><div class="toolbar-side"><span class="count" id="count" aria-live="polite">LOADING</span><button id="reset" class="chip reset" type="button">Reset filters</button></div></div>
+<header><div class="wrap nav"><a class="brand" href="#top"><span class="mark">C</span><span>CICAN<br>DUBLIN ARCHIVE</span></a><nav class="navlinks"><a href="#archive">Archive</a><a href="https://github.com/CicanGeorgeAlin/cican-dublin-archive">Project ↗</a></nav></div></header>
+<main id="top"><section class="wrap hero"><div class="eyebrow">Dublin · Ireland · A living visual record</div><h1>SEE DUBLIN<br>THROUGH ITS DETAILS.</h1><p class="intro">Explore Dublin’s historic places and small details. Each record guides an in-person visit, where CICAN GEORGE ALIN creates the archive’s original photographs.</p><div class="stats" aria-label="Archive overview"><div class="stat"><b id="totalStat">—</b><span>CATALOGUED RECORDS</span></div><div class="stat"><b id="verifiedStat">—</b><span>VERIFIED RECORDS</span></div><div class="stat"><b id="photoStat">—</b><span>AWAITING PHOTOGRAPHY</span></div></div></section>
+<section class="wrap archive" id="archive"><div class="toolbar"><div class="controls"><input id="search" type="search" placeholder="Search places, streets or objects…" aria-label="Search archive"><select id="district"><option value="">All districts</option></select><select id="sort"><option value="district">District order</option><option value="name">Name A–Z</option></select></div><div class="toolbar-side"><span class="count" id="count" aria-live="polite">LOADING</span><button id="reset" class="chip reset" type="button">Clear</button></div></div>
 <div class="filters" id="filters"><button class="chip active" data-filter="ALL">All</button><button class="chip" data-filter="MONUMENT">Monuments</button><button class="chip" data-filter="MEMORIAL">Memorials</button><button class="chip" data-filter="ARCHITECTURE">Architecture</button><button class="chip" data-filter="INSCRIPTION">Inscriptions</button><button class="chip" data-filter="STREET_DETAIL">Street details</button><button class="chip" data-filter="PUBLIC_ART">Public art</button><button class="chip" data-filter="INFRASTRUCTURE">Infrastructure</button></div>
 <div class="gallery" id="gallery"><div class="empty">Loading catalogue…</div></div></section></main>
 <footer><div class="wrap foot"><strong>CICAN DUBLIN ARCHIVE</strong><span>CREATED BY CICAN GEORGE ALIN · ORIGINAL FIELD PHOTOGRAPHY ONLY</span></div></footer>
@@ -71,7 +143,7 @@ function render(){
  let rows=objects.filter(record=>(active==="ALL"||record.category===active)&&(!district||record.district===district)&&(!query||clean(recordText(record)).includes(query)));
  rows.sort((a,b)=>sort==="name"?a.name.localeCompare(b.name):a.district.localeCompare(b.district,undefined,{numeric:true})||a.name.localeCompare(b.name));
  $("#count").textContent=rows.length+" OF "+objects.length+" RECORDS";
- $("#gallery").innerHTML=rows.length?rows.map(record=>'<article class="item" data-open="'+esc(record.id)+'" role="button" tabindex="0" aria-label="Open record: '+esc(record.name)+'"><div class="photo" role="img" aria-label="Original field photograph not yet added for '+esc(record.name)+'"><span class="photo-mark">＋</span><span class="photo-label">Awaiting founder photograph</span></div><div class="item-copy"><div class="item-top"><span>'+esc(record.category.replaceAll("_"," "))+' · '+esc(record.id)+'</span><span class="item-status '+(record.verification_status==="VERIFIED"?"":"partial")+'">'+esc(record.verification_status.replaceAll("_"," "))+'</span></div><h2>'+esc(record.name)+'</h2><div class="item-location">'+esc(record.district)+' · '+esc(record.address)+'</div></div></article>').join(""):'<div class="empty"><strong>No matching records.</strong><br>Try a different search or reset the filters.</div>';
+ $("#gallery").innerHTML=rows.length?rows.map(record=>'<article class="item" data-open="'+esc(record.id)+'" role="button" tabindex="0" aria-label="Open record: '+esc(record.name)+'"><div class="photo" role="img" aria-label="Original field photograph not yet added for '+esc(record.name)+'"><span class="photo-mark">＋</span><span class="photo-label">PHOTO TO BE ADDED</span></div><div class="item-copy"><div class="item-top"><span>'+esc(record.category.replaceAll("_"," "))+' · '+esc(record.id)+'</span><span class="item-status '+(record.verification_status==="VERIFIED"?"":"partial")+'">'+esc(record.verification_status.replaceAll("_"," "))+'</span></div><h2>'+esc(record.name)+'</h2><div class="item-location">'+esc(record.district)+' · '+esc(record.address)+'</div></div></article>').join(""):'<div class="empty"><strong>No matching records.</strong><br>Try a different search or reset the filters.</div>';
 }
 function safeUrl(value){
  try{const url=new URL(value);return ["https:","http:"].includes(url.protocol)?url.href:"#"}catch{return "#"}
@@ -89,9 +161,9 @@ function openRecord(id,updateUrl=true){
  const sourceSection=linkedSources.length?linkedSources.map(source=>'<div class="source-entry"><a href="'+esc(safeUrl(source.url))+'" target="_blank" rel="noopener noreferrer">'+esc(source.name)+' ↗</a><small>'+esc([source.publisher,source.specific_reference,source.notes].filter(Boolean).join(" · "))+'</small></div>').join(""):'<p>Source details are not yet linked to this record.</p>';
  const notes=record.research_notes?'<div class="detail-note">'+esc(record.research_notes)+'</div>':'';
  const significance=record.historical_significance?'<p>'+esc(record.historical_significance)+'</p>':'';
- const checklist=(record.photography_brief||[]).length?'<h3>Photography checklist</h3><ul>'+record.photography_brief.map(item=>'<li>'+esc(item)+'</li>').join("")+'</ul>':'';
+ const checklist=(record.photography_brief||[]).length?'<details class="fold"><summary>Photography guide · '+record.photography_brief.length+' points</summary><ul>'+record.photography_brief.map(item=>'<li>'+esc(item)+'</li>').join("")+'</ul></details>':'';
  const map=record.map_url?'<a href="'+esc(safeUrl(record.map_url))+'" target="_blank" rel="noopener noreferrer">Open location ↗</a>':'';
- $("#detailBody").innerHTML='<p>'+esc(record.historical_description)+'</p>'+significance+notes+'<div class="meta-grid"><div class="meta"><small>Location</small><b>'+esc(record.address)+'</b></div><div class="meta"><small>District</small><b>'+esc(record.district)+'</b></div><div class="meta"><small>Period</small><b>'+esc(record.historical_period)+'</b></div><div class="meta"><small>Access</small><b>'+esc(record.access_status)+'</b></div><div class="meta"><small>NIAH reference</small><b>'+esc(record.national_inventory_reference||"Not assigned")+'</b></div><div class="meta"><small>Irish Grid reference</small><b>'+esc(record.national_grid_reference||"Not supplied")+'</b></div></div>'+parentSection+childSection+checklist+'<h3>Historical sources</h3><div class="source-list">'+sourceSection+'</div><div class="detail-actions">'+map+'</div><p class="detail-note">Photography: '+esc(record.photography_status.replaceAll("_"," "))+'. The archive uses original photographs taken in person; no substitute image is displayed.</p>';
+ $("#detailBody").innerHTML='<p>'+esc(record.historical_description)+'</p>'+significance+notes+'<details class="fold"><summary>Location and record details</summary><div class="meta-grid"><div class="meta"><small>Location</small><b>'+esc(record.address)+'</b></div><div class="meta"><small>District</small><b>'+esc(record.district)+'</b></div><div class="meta"><small>Period</small><b>'+esc(record.historical_period)+'</b></div><div class="meta"><small>Access</small><b>'+esc(record.access_status)+'</b></div><div class="meta"><small>NIAH reference</small><b>'+esc(record.national_inventory_reference||"Not assigned")+'</b></div><div class="meta"><small>Irish Grid reference</small><b>'+esc(record.national_grid_reference||"Not supplied")+'</b></div></div></details>'+parentSection+childSection+checklist+'<h3>Historical sources</h3><div class="source-list">'+sourceSection+'</div><div class="detail-actions">'+map+'</div><p class="detail-note">Photography: '+esc(record.photography_status.replaceAll("_"," "))+'. The archive uses original photographs taken in person; no substitute image is displayed.</p>';
  if(!$("#detail").open)$("#detail").showModal();
  if(updateUrl)history.pushState({recordId:id},"","#object="+encodeURIComponent(id));
 }

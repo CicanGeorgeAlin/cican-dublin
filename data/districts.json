@@ -2,9 +2,9 @@
   {
     "name": "Dublin 1",
     "description": "North City",
-    "status": "NOT_YET_RESEARCHED",
+    "status": "RESEARCH_IN_PROGRESS",
     "geographic_type": "POSTAL_DISTRICT",
-    "coverage_notes": "Operational fieldwork zone only; not an administrative boundary. Research coverage is not yet complete."
+    "coverage_notes": "Initial discovery research is active. Five new records were added in discovery batch 001 (2026-10-24); the district is not comprehensively surveyed and field photography remains outstanding. Operational fieldwork zone only; not an administrative boundary."
   },
   {
     "name": "Dublin 2",

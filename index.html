@@ -21,8 +21,15 @@ h1{font-size:clamp(36px,6vw,70px);line-height:.95;letter-spacing:-.075em;margin:
 .archive{padding:34px 0 80px}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:18px}
 .controls{display:flex;gap:8px;flex:1}.controls input,.controls select{background:#0a0a0a;border:1px solid #333;color:#eee;padding:11px 12px;font-size:11px;min-width:0}.controls input{flex:1;max-width:420px}.controls select{max-width:180px}
 .count{font-size:10px;color:#888;white-space:nowrap;letter-spacing:.08em}.toolbar-side{display:flex;align-items:center;gap:10px}.reset{white-space:nowrap}.related-list{display:flex;flex-wrap:wrap;gap:5px}.source-entry{margin:10px 0}.source-entry small{display:block;color:#777;font-size:9px;line-height:1.55;margin-top:3px}.source-list a{display:block;font-size:11px;text-decoration:underline;text-underline-offset:3px}.related-link{background:transparent;color:#eee;border:1px solid #444;padding:7px 9px;font-size:10px;cursor:pointer}
-.filters{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 22px}.chip{border:1px solid #333;background:transparent;color:#aaa;padding:7px 10px;font-size:9px;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}.chip.active,.chip:hover{border-color:#eee;color:#fff}
-.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.filters{display:none}.chip{border:1px solid #333;background:transparent;color:#aaa;padding:7px 10px;font-size:9px;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}.chip.active,.chip:hover{border-color:#eee;color:#fff}
+.gallery{display:flex;flex-direction:column;border-top:1px solid #292929}
+.compact-item{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:17px 4px;border-bottom:1px solid #292929;cursor:pointer}
+.compact-item .item-copy{padding:0;min-width:0}
+.compact-item h2{font-size:17px;margin:0 0 4px}
+.compact-item .item-location{font-size:12px}
+.item-arrow{color:#888;font-size:20px;padding:0 6px}
+.compact-item:hover h2,.compact-item:hover .item-arrow{color:#fff}
+.compact-item:focus-visible{outline:1px solid #aaa;outline-offset:-2px}
 .item{min-width:0;cursor:pointer}.photo{aspect-ratio:4/3;background:linear-gradient(145deg,#101010,#080808);border:1px solid #292929;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;transition:border-color .2s}
 .item:hover .photo{border-color:#777}.photo:before{content:"";position:absolute;inset:12px;border:1px solid #202020}
 .photo-mark{font-size:28px;color:#626262;line-height:1}.photo-label{position:absolute;bottom:19px;left:0;right:0;text-align:center;font-size:8px;letter-spacing:.2em;color:#777;text-transform:uppercase}
@@ -33,7 +40,7 @@ footer{border-top:1px solid var(--line);padding:25px 0 35px}.foot{display:flex;j
 dialog{width:min(700px,calc(100% - 24px));max-height:88vh;overflow:auto;background:#090909;color:#f5f5f5;border:1px solid #555;padding:0}dialog::backdrop{background:#000d;backdrop-filter:blur(4px)}
 .detail-head{padding:20px 22px;border-bottom:1px solid #333;display:flex;justify-content:space-between;gap:16px}.detail-head h2{font-size:23px;line-height:1.12;letter-spacing:-.05em;margin:7px 0}.detail-kicker{font-size:9px;color:#999;letter-spacing:.16em}.close{background:none;border:1px solid #555;color:#fff;padding:7px 10px;cursor:pointer}
 .detail-body{padding:20px 22px}.detail-body p{font-size:12px;line-height:1.7;color:#bbb}.meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:17px 0}.meta{border:1px solid #292929;padding:10px}.meta small{display:block;font-size:8px;color:#888;letter-spacing:.12em;text-transform:uppercase}.meta b{font-size:10px;font-weight:550}.detail-body h3{font-size:10px;letter-spacing:.13em;text-transform:uppercase;margin:22px 0 8px}.detail-note{border-left:2px solid #777;padding:8px 12px;margin:14px 0;color:#aaa;font-size:11px;line-height:1.65}.source-list small{display:block;color:#777;font-size:9px;margin-top:3px}.related-link{display:inline-block;margin:4px 6px 4px 0;border:1px solid #444;padding:7px 9px;font-size:10px}.detail-body ul{font-size:11px;line-height:1.8;color:#bbb;padding-left:18px}.source-list a{display:block;font-size:11px;text-decoration:underline;text-underline-offset:3px;margin:8px 0}.detail-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}.detail-actions a,.detail-actions button{background:transparent;border:1px solid #555;color:#eee;padding:10px 12px;font-size:10px;cursor:pointer}
-@media(max-width:900px){.gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
 @media(max-width:600px){.toolbar-side{width:100%;justify-content:space-between}.wrap{width:calc(100% - 28px)}header{height:64px}.navlinks{gap:12px;font-size:8px}.hero{padding:42px 0 30px}.gallery{grid-template-columns:1fr;gap:22px}.photo{aspect-ratio:5/3}.toolbar{align-items:flex-start;flex-direction:column}.controls{width:100%}.controls input{max-width:none}.controls select{max-width:135px}.foot{align-items:flex-start;flex-direction:column}.meta-grid{grid-template-columns:1fr}}
 
 /* Readability and calmer archive layout */
@@ -50,7 +57,7 @@ h1{font-size:clamp(40px,6.2vw,76px);line-height:.98;margin:18px 0 18px}
 .controls input,.controls select{font-size:14px;padding:13px 14px;min-height:48px}
 .count{font-size:12px;letter-spacing:.04em}
 .chip{font-size:11px;padding:9px 13px;letter-spacing:.04em}
-.filters{gap:9px;margin-bottom:28px}
+.filters{display:none}
 .gallery{gap:30px}
 .photo{aspect-ratio:5/3}
 .photo-mark{font-size:34px}
@@ -129,7 +136,6 @@ footer{padding:30px 0 40px}
 <header><div class="wrap nav"><a class="brand" href="#top"><span class="mark">C</span><span>CICAN<br>DUBLIN ARCHIVE</span></a><nav class="navlinks"><a href="#archive">Archive</a><a href="https://github.com/CicanGeorgeAlin/cican-dublin-archive">Project ↗</a></nav></div></header>
 <main id="top"><section class="wrap hero"><div class="eyebrow">DUBLIN · IRELAND</div><h1>CICAN DUBLIN ARCHIVE.</h1><p class="intro">Explore. Visit. Photograph.</p></section>
 <section class="wrap archive" id="archive"><div class="toolbar"><div class="controls"><input id="search" type="search" placeholder="Search the archive…" aria-label="Search archive"></div><div class="toolbar-side"><span class="count" id="count" aria-live="polite">LOADING</span></div></div>
-<div class="filters" id="filters"><button class="chip active" data-filter="ALL">All</button><button class="chip" data-filter="MONUMENT">Monuments</button><button class="chip" data-filter="MEMORIAL">Memorials</button><button class="chip" data-filter="ARCHITECTURE">Architecture</button><button class="chip" data-filter="INSCRIPTION">Inscriptions</button><button class="chip" data-filter="STREET_DETAIL">Street details</button><button class="chip" data-filter="PUBLIC_ART">Public art</button><button class="chip" data-filter="INFRASTRUCTURE">Infrastructure</button></div>
 <div class="gallery" id="gallery"><div class="empty">Loading catalogue…</div></div></section></main>
 <footer><div class="wrap foot"><strong>CICAN DUBLIN ARCHIVE</strong><span>CREATED BY CICAN GEORGE ALIN · ORIGINAL FIELD PHOTOGRAPHY ONLY</span></div></footer>
 <dialog id="detail"><div class="detail-head"><div><div class="detail-kicker" id="detailId"></div><h2 id="detailName"></h2><div class="detail-kicker" id="detailStatus"></div></div><button class="close" id="close">CLOSE ✕</button></div><div class="detail-body" id="detailBody"></div></dialog>
@@ -137,7 +143,7 @@ footer{padding:30px 0 40px}
 const $=selector=>document.querySelector(selector);
 const esc=value=>String(value??"").replace(/[&<>"']/g,char=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char]));
 const clean=value=>String(value??"").normalize("NFD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase().trim();
-let objects=[],sources=[],active="ALL";
+let objects=[],sources=[];
 let selectedPhotoUrl=null;
 function recordText(record){
  const sourceRows=(record.sources||[]).map(id=>sources.find(source=>source.id===id)).filter(Boolean);
@@ -151,10 +157,10 @@ function recordText(record){
 }
 function render(){
  const query=clean($("#search").value);
- let rows=objects.filter(record=>(active==="ALL"||record.category===active)&&(!query||clean(recordText(record)).includes(query)));
+ let rows=objects.filter(record=>!query||clean(recordText(record)).includes(query));
  rows.sort((a,b)=>a.name.localeCompare(b.name));
  $("#count").textContent=rows.length+" OF "+objects.length+" RECORDS";
- $("#gallery").innerHTML=rows.length?rows.map(record=>'<article class="item" data-open="'+esc(record.id)+'" role="button" tabindex="0" aria-label="Open record: '+esc(record.name)+'"><div class="photo" role="img" aria-label="Original field photograph not yet added for '+esc(record.name)+'"><span class="photo-mark">＋</span><span class="photo-label">PHOTO TO BE ADDED</span></div><div class="item-copy"><div class="item-top"><span>'+esc(record.category.replaceAll("_"," "))+' · '+esc(record.id)+'</span><span class="item-status '+(record.verification_status==="VERIFIED"?"":"partial")+'">'+esc(record.verification_status.replaceAll("_"," "))+'</span></div><h2>'+esc(record.name)+'</h2><div class="item-location">'+esc(record.district)+' · '+esc(record.address)+'</div></div></article>').join(""):'<div class="empty"><strong>No matching records.</strong><br>Try a different search or reset the filters.</div>';
+ $("#gallery").innerHTML=rows.length?rows.map(record=>'<article class="item compact-item" data-open="'+esc(record.id)+'" role="button" tabindex="0" aria-label="Open record: '+esc(record.name)+'"><div class="item-copy"><h2>'+esc(record.name)+'</h2><div class="item-location">'+esc(record.district)+' · '+esc(record.address)+'</div></div><span class="item-arrow" aria-hidden="true">↗</span></article>').join(""):'<div class="empty">No matching objects. Try another search.</div>';
 }
 function safeUrl(value){
  try{const url=new URL(value);return ["https:","http:"].includes(url.protocol)?url.href:"#"}catch{return "#"}
@@ -210,7 +216,6 @@ $("#detail").addEventListener("click",event=>{if(event.target===$("#detail"))clo
 $("#detail").addEventListener("cancel",event=>{event.preventDefault();closeRecord()});
 window.addEventListener("popstate",syncFromUrl);
 $("#search").addEventListener("input",render);
-$("#filters").addEventListener("click",event=>{const button=event.target.closest("[data-filter]");if(!button)return;active=button.dataset.filter;document.querySelectorAll(".chip[data-filter]").forEach(chip=>chip.classList.toggle("active",chip===button));render()});
 
 Promise.all(["objects","sources"].map(name=>fetch("./data/"+name+".json").then(response=>{if(!response.ok)throw Error("Could not load "+name+" catalogue (HTTP "+response.status+")");return response.json()}))).then(([objectData,sourceData])=>{
  if(!Array.isArray(objectData)||!Array.isArray(sourceData))throw Error("The archive data format is invalid.");

@@ -192,39 +192,66 @@ footer{background:#080808}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero-primary,.compact-item,.item-arrow{transition:none}}
 
+
+/* Simple photographic catalogue */
+body{background:#070707;color:#f4f4f4}
+header{height:62px}
+.mark{width:31px;height:31px}
+.simple-hero{padding:42px 0 30px;border-bottom:1px solid #292929}
+.simple-hero h1{font-size:clamp(27px,4vw,43px);line-height:1.05;letter-spacing:-.055em;margin:12px 0 9px}
+.simple-hero p{max-width:570px;color:#aaa;font-size:14px;line-height:1.65;margin:0}
+.list-heading{display:flex;justify-content:space-between;align-items:end;gap:15px;margin-bottom:18px}
+.list-heading h2{font-size:21px;letter-spacing:-.04em;margin:5px 0 0}
+.archive{padding-top:32px;padding-bottom:70px}
+.toolbar{margin-bottom:13px}
+.controls{width:100%}
+.controls input{width:100%;max-width:520px;background:#0c0c0c;border:1px solid #343434;padding:12px 14px;font-size:14px;min-height:46px}
+.gallery{display:flex;flex-direction:column;border-top:1px solid #2a2a2a}
+.compact-item{display:grid;grid-template-columns:88px minmax(0,1fr) 20px;align-items:center;gap:15px;padding:13px 2px;border-bottom:1px solid #292929;cursor:pointer;transition:background .18s,padding .18s}
+.compact-item:hover{background:#ffffff08;padding-left:8px;padding-right:8px}
+.thumb{width:88px;height:72px;display:grid;place-items:center;overflow:hidden;background:#111;border:1px solid #303030;position:relative}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.thumb-placeholder{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;color:#777;font-size:8px;letter-spacing:.1em}
+.thumb-placeholder span:first-child{font-size:19px;color:#aaa}
+.compact-item .item-copy{padding:0;min-width:0}
+.compact-item h2{font-size:15px;line-height:1.35;margin:0 0 4px;letter-spacing:-.02em}
+.compact-item .item-location{font-size:11px;color:#999;line-height:1.45}
+.item-meta{font-size:9px;color:#777;text-transform:uppercase;letter-spacing:.1em;margin-top:5px}
+.item-arrow{font-size:17px;color:#777;padding:0;text-align:right}
+.compact-item:hover .item-arrow{color:#fff}
+footer{padding:22px 0 28px}
+@media(max-width:600px){
+ .wrap{width:calc(100% - 30px)}
+ header{height:58px}
+ .simple-hero{padding:31px 0 23px}
+ .simple-hero h1{font-size:29px}
+ .simple-hero p{font-size:13px}
+ .archive{padding-top:26px}
+ .list-heading h2{font-size:19px}
+ .compact-item{grid-template-columns:76px minmax(0,1fr) 17px;gap:12px;padding:12px 0}
+ .thumb{width:76px;height:66px}
+ .compact-item h2{font-size:14px}
+ .compact-item .item-location{font-size:10px}
+ .item-meta{font-size:8px}
+ .count{font-size:10px}
+}
+
 </style>
 </head>
 <body>
 <header><div class="wrap nav"><a class="brand" href="#top"><span class="mark">C</span><span>CICAN<br>DUBLIN ARCHIVE</span></a><nav class="navlinks"><a href="#archive">Archive</a><a href="https://github.com/CicanGeorgeAlin/cican-dublin-archive">Project ↗</a></nav></div></header>
 <main id="top">
-<section class="wrap hero hero-new">
-  <div class="hero-copy">
-    <div class="eyebrow"><span class="eyebrow-dot"></span> AN OPEN FIELD ARCHIVE · DUBLIN, IRELAND</div>
-    <h1>A city full<br>of stories.<br><span>Look closer.</span></h1>
-    <p class="intro">A growing visual record of Dublin’s historic places, details and overlooked heritage — researched, visited and photographed one story at a time.</p>
-    <div class="hero-actions">
-      <a class="hero-primary" href="#archive">EXPLORE THE ARCHIVE <span>↘</span></a>
-      <a class="hero-secondary" href="#field-notes">HOW IT WORKS</a>
-    </div>
-    <div class="hero-credit">AN INDEPENDENT ARCHIVE CREATED BY <strong>CICAN GEORGE ALIN</strong></div>
-  </div>
-  <div class="hero-art" aria-label="CICAN Dublin Archive visual emblem">
-    <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
-    <div class="art-cross cross-one"></div><div class="art-cross cross-two"></div>
-    <div class="art-core"><span>C</span><small>DUBLIN<br>ARCHIVE</small></div>
-    <div class="art-label label-top">FIELD NOTES <b>001—∞</b></div>
-    <div class="art-label label-bottom"><b>EST. 2026</b><span>MADE TO BE DISCOVERED</span></div>
-    <div class="art-coordinate">53° 20′ N<br>06° 15′ W</div>
-  </div>
-  <div class="hero-bottom"><span>HISTORY IS ALL AROUND US.</span><span>SCROLL TO EXPLORE ↓</span></div>
+<section class="wrap simple-hero">
+  <div class="eyebrow">DUBLIN · IRELAND</div>
+  <h1>CICAN DUBLIN ARCHIVE</h1>
+  <p>A growing collection of Dublin’s historic places and details, researched and photographed in person.</p>
 </section>
-<section class="wrap principles" id="field-notes">
-  <div class="principle"><span>01</span><div><b>DISCOVER</b><small>Explore researched heritage records.</small></div></div>
-  <div class="principle"><span>02</span><div><b>VISIT</b><small>Find the place and see it for yourself.</small></div></div>
-  <div class="principle"><span>03</span><div><b>PRESERVE</b><small>Photograph it. Help keep its story alive.</small></div></div>
+<section class="wrap archive" id="archive">
+  <div class="list-heading"><div><span class="eyebrow">THE COLLECTION</span><h2>Explore the archive</h2></div><span class="count" id="count" aria-live="polite">LOADING</span></div>
+  <div class="toolbar"><div class="controls"><input id="search" type="search" placeholder="Search places and objects…" aria-label="Search archive"></div></div>
+  <div class="gallery" id="gallery"><div class="empty">Loading catalogue…</div></div>
 </section>
-<section class="wrap archive" id="archive"><div class="toolbar"><div class="controls"><input id="search" type="search" placeholder="Search the archive…" aria-label="Search archive"></div><div class="toolbar-side"><span class="count" id="count" aria-live="polite">LOADING</span></div></div>
-<div class="gallery" id="gallery"><div class="empty">Loading catalogue…</div></div></section></main>
+</main>
 <footer><div class="wrap foot"><strong>CICAN DUBLIN ARCHIVE</strong><span>CREATED BY CICAN GEORGE ALIN · ORIGINAL FIELD PHOTOGRAPHY ONLY</span></div></footer>
 <dialog id="detail"><div class="detail-head"><div><div class="detail-kicker" id="detailId"></div><h2 id="detailName"></h2><div class="detail-kicker" id="detailStatus"></div></div><button class="close" id="close">CLOSE ✕</button></div><div class="detail-body" id="detailBody"></div></dialog>
 <script>
@@ -243,12 +270,23 @@ function recordText(record){
   ...sourceRows.flatMap(source=>[source.id,source.name,source.publisher,source.specific_reference,source.notes])
  ].join(" ");
 }
+function photoPath(record){
+ const value=record.photo||record.thumbnail||record.image||record.photo_url||"";
+ if(typeof value!=="string"||!value.trim())return "";
+ const path=value.trim();
+ if(path.startsWith("photos/")||path.startsWith("./photos/"))return path;
+ try{const url=new URL(path);return ["https:","http:"].includes(url.protocol)?url.href:""}catch{return ""}
+}
 function render(){
  const query=clean($("#search").value);
  let rows=objects.filter(record=>!query||clean(recordText(record)).includes(query));
  rows.sort((a,b)=>a.name.localeCompare(b.name));
- $("#count").textContent=rows.length+" OF "+objects.length+" RECORDS";
- $("#gallery").innerHTML=rows.length?rows.map(record=>'<article class="item compact-item" data-open="'+esc(record.id)+'" role="button" tabindex="0" aria-label="Open record: '+esc(record.name)+'"><div class="item-copy"><h2>'+esc(record.name)+'</h2><div class="item-location">'+esc(record.district)+' · '+esc(record.address)+'</div></div><span class="item-arrow" aria-hidden="true">↗</span></article>').join(""):'<div class="empty">No matching objects. Try another search.</div>';
+ $("#count").textContent=rows.length+" OBJECTS";
+ $("#gallery").innerHTML=rows.length?rows.map(record=>{
+  const photo=photoPath(record);
+  const thumb=photo?'<div class="thumb"><img src="'+esc(photo)+'" alt="'+esc(record.name)+'" loading="lazy"></div>':'<div class="thumb"><div class="thumb-placeholder"><span>＋</span><span>PHOTO TO COME</span></div></div>';
+  return '<article class="item compact-item" data-open="'+esc(record.id)+'" role="button" tabindex="0" aria-label="Open record: '+esc(record.name)+'">'+thumb+'<div class="item-copy"><h2>'+esc(record.name)+'</h2><div class="item-location">'+esc(record.district)+' · '+esc(record.address)+'</div><div class="item-meta">'+esc(record.category.replaceAll("_"," "))+'</div></div><span class="item-arrow" aria-hidden="true">↗</span></article>';
+ }).join(""):'<div class="empty">No matching objects. Try another search.</div>';
 }
 function safeUrl(value){
  try{const url=new URL(value);return ["https:","http:"].includes(url.protocol)?url.href:"#"}catch{return "#"}

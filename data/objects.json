@@ -451,5 +451,174 @@
     "sources": [
       "NIAH-50910280"
     ]
+  },
+  {
+    "id": "DUB-MON-0007",
+    "name": "Jim Larkin Monument",
+    "category": "MONUMENT",
+    "district": "Dublin 1",
+    "address": "O'Connell Street Lower, outside the former Clerys building, Dublin 1",
+    "historical_period": "1980",
+    "historical_description": "Freestanding bronze figure of James ('Big Jim') Larkin with outstretched arms, designed by Oisín Kelly and erected in 1980 on a square-plan tooled granite pedestal. NIAH records gilt lettering and inset bronze plaques on the south, east and west faces.",
+    "historical_significance": "Commemorates labour leader Jim Larkin and recalls his address to an illegal assembly from a hotel balcony during the 1913 Lockout.",
+    "national_inventory_reference": "50010519",
+    "national_grid_reference": "315925, 234593",
+    "latitude": null,
+    "longitude": null,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Public street setting; photograph from the footpath without obstructing pedestrians or entering the carriageway.",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Jim+Larkin+Monument+O%27Connell+Street+Lower+Dublin+1",
+    "photography_brief": [
+      "Full statue and pedestal from all safe public viewpoints",
+      "Bronze surface, face, hands and outstretched arms",
+      "Gilt lettering on the granite pedestal",
+      "Each inset bronze plaque square-on and legible",
+      "Wide context showing the monument's street setting"
+    ],
+    "sources": [
+      "NIAH-50010519"
+    ],
+    "feature_type": "PRIMARY_OBJECT",
+    "coordinate_status": "NOT_SET",
+    "research_notes": "NIAH record accessed 2026-10-24. Coordinates retained only in the source's stated grid reference field; no decimal GPS derived. On-site check required for present condition and access."
+  },
+  {
+    "id": "DUB-INS-0002",
+    "name": "Jim Larkin Monument pedestal inscription plaques",
+    "category": "INSCRIPTION",
+    "district": "Dublin 1",
+    "address": "Three faces of the granite pedestal of the Jim Larkin Monument, O'Connell Street Lower, Dublin 1",
+    "historical_period": "1980",
+    "historical_description": "NIAH records inset bronze plaques on the south, east and west faces of the monument pedestal. The inscriptions include words attributed to Jim Larkin and commemorative commendations by Patrick Kavanagh and Seán O'Casey. Exact text and punctuation are to be transcribed from founder photographs.",
+    "historical_significance": "The inscriptions form an integral documentary component of the monument and preserve quotations and literary tributes associated with the labour leader.",
+    "national_inventory_reference": "Associated with NIAH 50010519",
+    "national_grid_reference": "315925, 234593",
+    "latitude": null,
+    "longitude": null,
+    "verification_status": "PARTIALLY_VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": "DUB-MON-0007",
+    "access_status": "Public street setting; photograph from the footpath without obstructing pedestrians.",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Jim+Larkin+Monument+O%27Connell+Street+Lower+Dublin+1",
+    "photography_brief": [
+      "Photograph each of the three plaques straight-on",
+      "Capture complete wording, line breaks and punctuation",
+      "Record which pedestal face each plaque occupies",
+      "Do not publish a transcription until checked against original photographs"
+    ],
+    "sources": [
+      "NIAH-50010519"
+    ],
+    "feature_type": "MICRO_DETAIL",
+    "coordinate_status": "NOT_SET",
+    "research_notes": "Existence and placement are recorded by NIAH; complete wording has not yet been independently transcribed."
+  },
+  {
+    "id": "DUB-STR-0002",
+    "name": "Talbot Street cast-iron P&T post box",
+    "category": "STREET_DETAIL",
+    "district": "Dublin 1",
+    "address": "Talbot Street, Dublin 1 (NIAH 50010137; verify exact pavement position in the field)",
+    "historical_period": "Circa 1935",
+    "historical_description": "Freestanding round-plan cast-iron post box with plinth base, raised P&T insignia, moulded neck, dentillated frieze and shallow domed cap. NIAH records a Carron Company, Stirlingshire maker's mark on the rear of the base.",
+    "historical_significance": "Regional-rated example of early Irish state postal street furniture; the P&T insignia dates it to the early years of the Irish Republic.",
+    "national_inventory_reference": "50010137",
+    "national_grid_reference": "316517, 234862",
+    "latitude": null,
+    "longitude": null,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Public footpath; do not obstruct postal operations or pedestrian movement.",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Post+Box+Talbot+Street+Dublin+1",
+    "photography_brief": [
+      "Full post box including plinth and cap",
+      "P&T insignia and front elevation",
+      "Carron Company maker's mark on rear base",
+      "Moulded neck, dentillated frieze and cap",
+      "Context photograph establishing exact location"
+    ],
+    "sources": [
+      "NIAH-50010137"
+    ],
+    "feature_type": "PRIMARY_OBJECT",
+    "coordinate_status": "NOT_SET",
+    "research_notes": "NIAH gives grid coordinates 316517, 234862; decimal GPS intentionally left null pending controlled coordinate conversion and field verification."
+  },
+  {
+    "id": "DUB-STR-0003",
+    "name": "Victorian cast-iron pillar post box, Gardiner Street Upper",
+    "category": "STREET_DETAIL",
+    "district": "Dublin 1",
+    "address": "Gardiner Street Upper, Dublin 1 (NIAH 50010760; verify exact pavement position in the field)",
+    "historical_period": "Circa 1880",
+    "historical_description": "Freestanding cylindrical cast-iron pillar box with flat-domed top and fluted collar. The shaft bears Queen Victoria's VR royal insignia; the base carries the maker's inscription A. HANDYSIDE & CO. LTD. DERBY & LONDON.",
+    "historical_significance": "Regional-rated Victorian street object that remains in postal use and documents the design and manufacture of nineteenth-century cast-iron postal infrastructure.",
+    "national_inventory_reference": "50010760",
+    "national_grid_reference": "315856, 235627",
+    "latitude": null,
+    "longitude": null,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Public footpath; avoid obstructing postal operations or pedestrians.",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Gardiner+Street+Upper+Dublin+1",
+    "photography_brief": [
+      "Full pillar box from front and side",
+      "VR insignia and fluted collar",
+      "Flat-domed cap and body profile",
+      "Maker's inscription at base",
+      "Context photograph establishing exact position"
+    ],
+    "sources": [
+      "NIAH-50010760"
+    ],
+    "feature_type": "PRIMARY_OBJECT",
+    "coordinate_status": "NOT_SET",
+    "research_notes": "NIAH gives grid coordinates 315856, 235627; decimal GPS intentionally left null pending controlled coordinate conversion and field verification."
+  },
+  {
+    "id": "DUB-BLD-0005",
+    "name": "10 Talbot Street",
+    "category": "ARCHITECTURE",
+    "district": "Dublin 1",
+    "address": "10 Talbot Street, Dublin 1",
+    "historical_period": "Circa 1840",
+    "historical_description": "NIAH records a terraced two-bay, three-storey former house with a later ground-floor shopfront. Surviving upper-floor features include Flemish-bond red brickwork, gauged brick segmental-headed window openings, granite sills, timber sash windows (some replacements) and a decorative brick eaves course.",
+    "historical_significance": "One of the few Talbot Street buildings identified by NIAH as predating the destruction associated with the 1916 Rising; it retains Victorian fabric and contributes to the historic street terrace.",
+    "national_inventory_reference": "50010206",
+    "national_grid_reference": "316154, 234766",
+    "latitude": null,
+    "longitude": null,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Photograph the public-facing exterior from the footpath; do not enter private premises without permission.",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=10+Talbot+Street+Dublin+1",
+    "photography_brief": [
+      "Full façade, including roofline and shopfront",
+      "Upper-floor Flemish-bond brickwork",
+      "Segmental-headed windows and granite sills",
+      "Decorative brick eaves course",
+      "Relationship to adjoining historic terrace"
+    ],
+    "sources": [
+      "NIAH-50010206"
+    ],
+    "feature_type": "PRIMARY_OBJECT",
+    "coordinate_status": "NOT_SET",
+    "research_notes": "NIAH record and registration number identified; direct page retrieval was restricted during this research pass, so source details are retained as indexed NIAH record data and should be checked against the live register before publication."
   }
 ]

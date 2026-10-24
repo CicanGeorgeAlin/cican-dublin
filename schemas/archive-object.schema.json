@@ -247,7 +247,10 @@
               "const": "NOT_SET"
             }
           }
-        }
+        },
+        "required": [
+          "coordinate_status"
+        ]
       }
     },
     {

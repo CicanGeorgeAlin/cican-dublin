@@ -311,5 +311,65 @@
     "source_type": "OTHER",
     "specific_reference": "EPSG:29902; TM65 to WGS 84 (2), transformation operation 1641",
     "notes": "Defines the legacy TM65 / Irish Grid projected coordinate reference system in metres and its transformation to WGS 84. The published transformation accuracy is 1 metre; this does not establish the accuracy of the source NIAH point centroid."
+  },
+  {
+    "id": "NIAH-50010291",
+    "name": "Lower Abbey Street post box",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010291/lower-abbey-street-dublin-1-co-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration No. 50010291",
+    "notes": "NIAH describes a c.1905 cast-iron pillar box on the north side of Abbey Street Lower, with ER VII insignia and Handyside maker's lettering; published coordinates 316132, 234580."
+  },
+  {
+    "id": "NIAH-50010458",
+    "name": "Jervis Street twin post box",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010458/jervis-street-dublin-1-co-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration No. 50010458",
+    "notes": "NIAH describes a c.1930 twin-aperture cast-iron post box on the east side of Jervis Street near Mary Street, with Gaelic P & T lettering; published coordinates 315482, 234563."
+  },
+  {
+    "id": "NIAH-50010515",
+    "name": "O'Connell Street Lower double post box",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010515/oconnell-street-lower-dublin-1-co-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration No. 50010515",
+    "notes": "NIAH describes an oval cast-iron double post box, c.1940, with P & T insignia and paired letter apertures; published coordinates 315972, 234488."
+  },
+  {
+    "id": "NIAH-50010555",
+    "name": "O'Connell Street Upper twin post box",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010555/oconnell-street-upper-dublin-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration No. 50010555",
+    "notes": "NIAH describes a c.1930 twin post box at the north end of O'Connell Street at Cathal Brugha Street, with Gaelic P & T lettering; published coordinates 315851, 234897."
+  },
+  {
+    "id": "NIAH-50060629",
+    "name": "North Circular Road Edward VII post box",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50060629/north-circular-road-dublin-1-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration No. 50060629",
+    "notes": "NIAH describes a c.1905 Edward VII cast-iron pillar box outside No. 530 on the south side of North Circular Road, with Handyside maker's mark; published coordinates 316297, 235613."
+  },
+  {
+    "id": "NIAH-50010954",
+    "name": "Mountjoy Square West Victorian post box",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010954/mountjoy-square-west-grenville-street-dublin-1-co-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration No. 50010954",
+    "notes": "NIAH describes a c.1890 Victorian cast-iron pillar box at the southwest corner of Mountjoy Square, with VR insignia and Handyside & Co maker's mark; published coordinates 316022, 235339."
   }
 ]

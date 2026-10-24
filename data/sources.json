@@ -731,5 +731,55 @@
     "source_type": "OFFICIAL_REGISTER",
     "specific_reference": "NIAH Registration 50010069",
     "notes": "NIAH describes a c.1830 Georgian house with bootscraper, granite platform, railings and coal-hole cover; grid reference 316870, 235474."
+  },
+  {
+    "id": "NIAH-50930231",
+    "name": "1 Pembroke Street Upper",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50930231/embassy-of-greece-1-pembroke-street-upper-dublin-2-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50930231",
+    "notes": "NIAH describes a c.1825 townhouse with granite platform, cast-iron bootscraper, five granite steps, iron railings and coal-hole cover; grid reference 316386, 233025."
+  },
+  {
+    "id": "NIAH-50930035",
+    "name": "14 Pembroke Street Lower",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50930035/14-pembroke-street-lower-dublin-2-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50930035",
+    "notes": "NIAH describes a c.1850 townhouse with cast-iron balconettes, granite platform and steps, iron railings and coal-hole cover; grid reference 316453, 233219."
+  },
+  {
+    "id": "NIAH-50930242",
+    "name": "13 Pembroke Street Upper",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50930242/13-pembroke-street-upper-dublin-2-co-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50930242",
+    "notes": "NIAH describes a c.1825 townhouse with granite platform and steps, decorative cast-iron corner posts, railings and coal-hole cover; grid reference 316318, 232970."
+  },
+  {
+    "id": "NIAH-50010727",
+    "name": "4 Sherrard Street Lower",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010727/4-sherrard-street-lower-dublin-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50010727",
+    "notes": "NIAH describes a c.1830 house with original granite paving, cast-iron bootscraper, railings and coal-hole cover; grid reference 316008, 235753."
+  },
+  {
+    "id": "NIAH-50011089",
+    "name": "619 North Circular Road",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50011089/619-north-circular-road-dublin-co-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50011089",
+    "notes": "NIAH describes a c.1830 townhouse with cast-iron bootscraper, original wrought-iron railings and cast-iron corner posts; grid reference 316567, 235543."
   }
 ]

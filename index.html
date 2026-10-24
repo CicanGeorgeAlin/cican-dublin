@@ -107,11 +107,34 @@ footer{padding:30px 0 40px}
  .meta b{font-size:12px}
 }
 
+
+.fieldwork{padding:28px 0 34px;border-bottom:1px solid var(--line)}
+.fieldwork-shell{border:1px solid #343434;background:radial-gradient(ellipse at 85% 0%,#202020 0%,#0b0b0b 48%,#080808 100%);padding:24px;display:grid;grid-template-columns:1.1fr .9fr;gap:22px}
+.fieldwork-kicker{font-size:10px;letter-spacing:.2em;color:#aaa;text-transform:uppercase}
+.fieldwork h2{font-size:clamp(23px,3vw,34px);letter-spacing:-.05em;line-height:1.08;margin:10px 0}
+.fieldwork-copy{font-size:14px;color:#aaa;max-width:560px;line-height:1.7}
+.location-card{border:1px solid #383838;background:#050505b8;padding:18px;display:flex;flex-direction:column;justify-content:space-between;gap:14px}
+.location-state{font-size:13px;color:#ddd;line-height:1.6}.location-coords{font-size:11px;color:#888;overflow-wrap:anywhere}
+.action-primary,.action-secondary{border:1px solid #777;background:#f2f2f2;color:#080808;padding:13px 16px;font-size:11px;font-weight:750;letter-spacing:.1em;cursor:pointer;text-transform:uppercase}
+.action-secondary{background:transparent;color:#eee;border-color:#555}
+.fieldwork-actions{display:flex;gap:8px;flex-wrap:wrap}
+.fieldwork-note{font-size:10px;color:#777;line-height:1.6}
+.photo-tool{margin-top:18px;border:1px solid #333;padding:16px;background:#060606}
+.photo-preview{display:none;width:100%;max-height:320px;object-fit:contain;background:#111;margin-top:12px;border:1px solid #333}
+.photo-status{font-size:12px;color:#bbb;line-height:1.6;margin-top:10px}
+@media(max-width:700px){.fieldwork-shell{grid-template-columns:1fr;padding:18px;gap:14px}.fieldwork{padding:22px 0}.location-card{min-height:170px}.fieldwork-copy{font-size:13px}}
 </style>
 </head>
 <body>
 <header><div class="wrap nav"><a class="brand" href="#top"><span class="mark">C</span><span>CICAN<br>DUBLIN ARCHIVE</span></a><nav class="navlinks"><a href="#archive">Archive</a><a href="https://github.com/CicanGeorgeAlin/cican-dublin-archive">Project ↗</a></nav></div></header>
 <main id="top"><section class="wrap hero"><div class="eyebrow">Dublin · Ireland · A living visual record</div><h1>SEE DUBLIN<br>THROUGH ITS DETAILS.</h1><p class="intro">Explore Dublin’s historic places and small details. Each record guides an in-person visit, where CICAN GEORGE ALIN creates the archive’s original photographs.</p><div class="stats" aria-label="Archive overview"><div class="stat"><b id="totalStat">—</b><span>CATALOGUED RECORDS</span></div><div class="stat"><b id="verifiedStat">—</b><span>VERIFIED RECORDS</span></div><div class="stat"><b id="photoStat">—</b><span>AWAITING PHOTOGRAPHY</span></div></div></section>
+<section class="wrap fieldwork" id="fieldwork" aria-label="Fieldwork GPS"><div class="fieldwork-shell">
+<div><div class="fieldwork-kicker">CICAN · FIELDWORK MODE</div><h2>THE CITY IS THE ARCHIVE.<br>GO OUT AND FIND IT.</h2>
+<p class="fieldwork-copy">Find your position, choose a heritage record, walk to the location and photograph the real object. Your location stays on this device and is used only while this page is open.</p>
+<div class="fieldwork-actions"><button class="action-primary" id="locateMe" type="button">◎ MY LOCATION</button><a class="action-secondary" href="#archive">EXPLORE OBJECTS ↓</a></div>
+<p class="fieldwork-note">Your browser asks permission before sharing GPS. On Android, the photo picker may offer Google Photos if available on your device.</p></div>
+<div class="location-card"><div><div class="fieldwork-kicker">YOUR CURRENT POSITION</div><div class="location-state" id="locationState" role="status">Waiting for location permission.</div><div class="location-coords" id="locationCoords">No coordinates received yet.</div></div><div class="fieldwork-kicker">GPS IS PRIVATE · NOT SAVED TO THE ARCHIVE</div></div>
+</div></section>
 <section class="wrap archive" id="archive"><div class="toolbar"><div class="controls"><input id="search" type="search" placeholder="Search places, streets or objects…" aria-label="Search archive"><select id="district"><option value="">All districts</option></select><select id="sort"><option value="district">District order</option><option value="name">Name A–Z</option></select></div><div class="toolbar-side"><span class="count" id="count" aria-live="polite">LOADING</span><button id="reset" class="chip reset" type="button">Clear</button></div></div>
 <div class="filters" id="filters"><button class="chip active" data-filter="ALL">All</button><button class="chip" data-filter="MONUMENT">Monuments</button><button class="chip" data-filter="MEMORIAL">Memorials</button><button class="chip" data-filter="ARCHITECTURE">Architecture</button><button class="chip" data-filter="INSCRIPTION">Inscriptions</button><button class="chip" data-filter="STREET_DETAIL">Street details</button><button class="chip" data-filter="PUBLIC_ART">Public art</button><button class="chip" data-filter="INFRASTRUCTURE">Infrastructure</button></div>
 <div class="gallery" id="gallery"><div class="empty">Loading catalogue…</div></div></section></main>
@@ -122,6 +145,21 @@ const $=selector=>document.querySelector(selector);
 const esc=value=>String(value??"").replace(/[&<>"']/g,char=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char]));
 const clean=value=>String(value??"").normalize("NFD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase().trim();
 let objects=[],sources=[],active="ALL";
+let currentPosition=null,selectedPhotoUrl=null;
+function setLocationState(message,coords=""){$("#locationState").textContent=message;$("#locationCoords").textContent=coords||"";}
+function locateUser(){
+ if(!navigator.geolocation){setLocationState("This browser does not support GPS location.");return;}
+ setLocationState("Requesting your device location…");
+ navigator.geolocation.getCurrentPosition(position=>{
+  currentPosition={latitude:position.coords.latitude,longitude:position.coords.longitude,accuracy:position.coords.accuracy};
+  setLocationState("Location acquired · accuracy about "+Math.round(position.coords.accuracy)+" metres.",currentPosition.latitude.toFixed(6)+", "+currentPosition.longitude.toFixed(6));
+ },error=>{
+  const messages={1:"Location permission denied. Allow access in browser settings and try again.",2:"Your device could not determine a location. Check GPS and try again.",3:"Location request timed out. Try again outdoors."};
+  setLocationState(messages[error.code]||"Could not retrieve your location.");
+ },{enableHighAccuracy:true,timeout:20000,maximumAge:0});
+}
+$("#locateMe").addEventListener("click",locateUser);
+window.addEventListener("load",()=>{if(navigator.geolocation)locateUser();});
 
 function recordText(record){
  const sourceRows=(record.sources||[]).map(id=>sources.find(source=>source.id===id)).filter(Boolean);
@@ -162,8 +200,11 @@ function openRecord(id,updateUrl=true){
  const notes=record.research_notes?'<details class="fold"><summary>Research note</summary><div class="detail-note">'+esc(record.research_notes)+'</div></details>':'';
  const significance=record.historical_significance?'<p>'+esc(record.historical_significance)+'</p>':'';
  const checklist=(record.photography_brief||[]).length?'<details class="fold"><summary>Photography guide · '+record.photography_brief.length+' points</summary><ul>'+record.photography_brief.map(item=>'<li>'+esc(item)+'</li>').join("")+'</ul></details>':'';
- const map=record.map_url?'<a href="'+esc(safeUrl(record.map_url))+'" target="_blank" rel="noopener noreferrer">Open location ↗</a>':'';
- $("#detailBody").innerHTML='<p>'+esc(record.historical_description)+'</p>'+significance+notes+'<details class="fold"><summary>Location and record details</summary><div class="meta-grid"><div class="meta"><small>Location</small><b>'+esc(record.address)+'</b></div><div class="meta"><small>District</small><b>'+esc(record.district)+'</b></div><div class="meta"><small>Period</small><b>'+esc(record.historical_period)+'</b></div><div class="meta"><small>Access</small><b>'+esc(record.access_status)+'</b></div><div class="meta"><small>NIAH reference</small><b>'+esc(record.national_inventory_reference||"Not assigned")+'</b></div><div class="meta"><small>Irish Grid reference</small><b>'+esc(record.national_grid_reference||"Not supplied")+'</b></div></div></details>'+parentSection+childSection+checklist+'<details class="fold"><summary>Historical sources · '+linkedSources.length+'</summary><div class="source-list">'+sourceSection+'</div></details><div class="detail-actions">'+map+'</div><p class="detail-note">Photography: '+esc(record.photography_status.replaceAll("_"," "))+'. The archive uses original photographs taken in person; no substitute image is displayed.</p>';
+ const destination=record.address+", "+record.district+", Dublin, Ireland";
+ const mapHref="https://www.google.com/maps/dir/?api=1&destination="+encodeURIComponent(destination)+"&travelmode=walking"+(currentPosition?"&origin="+encodeURIComponent(currentPosition.latitude+","+currentPosition.longitude):"");
+ const map='<a class="action-primary" href="'+esc(mapHref)+'" target="_blank" rel="noopener noreferrer">↗ WALK TO THIS OBJECT</a>';
+ const photoAction='<button class="action-secondary" id="choosePhoto" type="button">＋ ADD PHOTOGRAPH</button>';
+ $("#detailBody").innerHTML='<p>'+esc(record.historical_description)+'</p>'+significance+notes+'<details class="fold"><summary>Location and record details</summary><div class="meta-grid"><div class="meta"><small>Location</small><b>'+esc(record.address)+'</b></div><div class="meta"><small>District</small><b>'+esc(record.district)+'</b></div><div class="meta"><small>Period</small><b>'+esc(record.historical_period)+'</b></div><div class="meta"><small>Access</small><b>'+esc(record.access_status)+'</b></div><div class="meta"><small>NIAH reference</small><b>'+esc(record.national_inventory_reference||"Not assigned")+'</b></div><div class="meta"><small>Irish Grid reference</small><b>'+esc(record.national_grid_reference||"Not supplied")+'</b></div></div></details>'+parentSection+childSection+checklist+'<details class="fold"><summary>Historical sources · '+linkedSources.length+'</summary><div class="source-list">'+sourceSection+'</div></details><div class="detail-actions">'+map+photoAction+'</div><section class="photo-tool" aria-label="Add original field photograph"><h3>ADD YOUR FIELD PHOTOGRAPH</h3><p class="fieldwork-note">Take a new photograph or choose an existing original. The Android file picker may show Google Photos alongside your device gallery.</p><input id="photoInput" type="file" accept="image/*" capture="environment" hidden><img class="photo-preview" id="photoPreview" alt="Selected field photograph preview"><div class="photo-status" id="photoStatus">No photograph selected.</div><p class="fieldwork-note">Photo selection and preview work here. Permanent archive upload needs a secure upload service; a GitHub access token must never be exposed in this public website.</p></section><p class="detail-note">Photography: '+esc(record.photography_status.replaceAll("_"," "))+'. The archive uses original photographs taken in person; no substitute image is displayed.</p>';
  if(!$("#detail").open)$("#detail").showModal();
  if(updateUrl)history.pushState({recordId:id},"","#object="+encodeURIComponent(id));
 }
@@ -178,7 +219,19 @@ function syncFromUrl(){
 }
 $("#gallery").addEventListener("click",event=>{const card=event.target.closest("[data-open]");if(card)openRecord(card.dataset.open)});
 $("#gallery").addEventListener("keydown",event=>{const card=event.target.closest("[data-open]");if(card&&(event.key==="Enter"||event.key===" ")){event.preventDefault();openRecord(card.dataset.open)}});
-$("#detailBody").addEventListener("click",event=>{const button=event.target.closest("[data-related]");if(button)openRecord(button.dataset.related)});
+$("#detailBody").addEventListener("click",event=>{
+ const related=event.target.closest("[data-related]");if(related){openRecord(related.dataset.related);return;}
+ if(event.target.closest("#choosePhoto"))$("#photoInput").click();
+});
+$("#detailBody").addEventListener("change",event=>{
+ if(event.target.id!=="photoInput")return;
+ const file=event.target.files&&event.target.files[0];if(!file)return;
+ if(!file.type.startsWith("image/")){$("#photoStatus").textContent="Please select an image file.";return;}
+ if(selectedPhotoUrl)URL.revokeObjectURL(selectedPhotoUrl);
+ selectedPhotoUrl=URL.createObjectURL(file);
+ $("#photoPreview").src=selectedPhotoUrl;$("#photoPreview").style.display="block";
+ $("#photoStatus").textContent="Selected: "+file.name+" · "+Math.round(file.size/1024)+" KB. Preview ready; not yet uploaded to the archive.";
+});
 $("#close").addEventListener("click",()=>closeRecord());
 $("#detail").addEventListener("click",event=>{if(event.target===$("#detail"))closeRecord()});
 $("#detail").addEventListener("cancel",event=>{event.preventDefault();closeRecord()});

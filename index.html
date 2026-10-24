@@ -236,20 +236,65 @@ footer{padding:22px 0 28px}
  .count{font-size:10px}
 }
 
+
+/* Walk-first, text-only field guide */
+:root{--bg:#070707;--line:#292929;--white:#f5f5f5}
+body{background:#070707;color:var(--white)}
+header{height:60px}
+.simple-hero{padding:36px 0 28px;border-bottom:1px solid #292929}
+.simple-hero h1{font-size:clamp(30px,5vw,48px);line-height:1.05;letter-spacing:-.065em;margin:11px 0 10px}
+.simple-hero p{font-size:14px;color:#aaa;line-height:1.7;margin:0;max-width:540px}
+.simple-hero p strong{color:#fff;letter-spacing:.06em;font-size:12px}
+.archive{padding:30px 0 72px}
+.list-heading{display:flex;justify-content:space-between;align-items:end;gap:12px;margin-bottom:18px}
+.list-heading h2{font-size:20px;letter-spacing:-.04em;margin:5px 0 0}
+.controls{width:100%}
+.controls input{width:100%;max-width:560px;min-height:46px;padding:12px 14px;font-size:14px;background:#0d0d0d;border:1px solid #363636;color:#fff;border-radius:3px}
+.gallery{display:flex;flex-direction:column;border-top:1px solid #303030;margin-top:14px}
+.place-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;align-items:center;padding:17px 2px;border-bottom:1px solid #292929;transition:background .18s,padding .18s}
+.place-row:hover{background:#ffffff07;padding-left:9px;padding-right:9px}
+.place-info{min-width:0;cursor:pointer}
+.place-name{font-size:16px;line-height:1.35;font-weight:650;letter-spacing:-.02em;margin:0 0 5px}
+.place-address{font-size:12px;color:#999;line-height:1.5}
+.place-category{font-size:9px;color:#777;letter-spacing:.11em;text-transform:uppercase;margin-top:6px}
+.place-actions{display:flex;align-items:center;gap:8px}
+.details-button{border:1px solid #444;background:transparent;color:#bbb;padding:10px 11px;font-size:10px;cursor:pointer}
+.walk-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:#f1f1ed;color:#090909;border:1px solid #f1f1ed;padding:12px 15px;min-height:42px;font-size:10px;font-weight:800;letter-spacing:.09em;white-space:nowrap;transition:background .18s,transform .18s}
+.walk-button:hover{background:#fff;transform:translateY(-1px)}
+.walk-button span{font-size:15px}
+.details-button:hover{border-color:#aaa;color:#fff}
+.empty{padding:24px 4px;color:#999;font-size:13px}
+footer{padding:22px 0 30px}
+.detail-actions{margin:22px 0 8px}
+.detail-actions .action-primary{display:inline-flex;align-items:center;justify-content:center;background:#f1f1ed;color:#090909;border:0;font-weight:800;padding:15px 18px;font-size:12px;letter-spacing:.1em}
+@media(max-width:540px){
+ .wrap{width:calc(100% - 30px)}
+ .simple-hero{padding:30px 0 23px}
+ .simple-hero h1{font-size:34px}
+ .archive{padding-top:25px}
+ .place-row{grid-template-columns:minmax(0,1fr);gap:12px;padding:15px 0}
+ .place-actions{justify-content:space-between}
+ .walk-button{flex:1;min-height:46px}
+ .details-button{min-height:46px;padding:10px 14px}
+ .place-name{font-size:15px}
+ .place-address{font-size:11px}
+ .list-heading h2{font-size:19px}
+}
+
 </style>
 </head>
 <body>
 <header><div class="wrap nav"><a class="brand" href="#top"><span class="mark">C</span><span>CICAN<br>DUBLIN ARCHIVE</span></a><nav class="navlinks"><a href="#archive">Archive</a><a href="https://github.com/CicanGeorgeAlin/cican-dublin-archive">Project ↗</a></nav></div></header>
 <main id="top">
 <section class="wrap simple-hero">
-  <div class="eyebrow">DUBLIN · IRELAND</div>
-  <h1>CICAN DUBLIN ARCHIVE</h1>
-  <p>A growing collection of Dublin’s historic places and details, researched and photographed in person.</p>
+ <div class="eyebrow">DUBLIN · IRELAND</div>
+ <h1>Find a place. Walk to it.</h1>
+ <p>Choose a historic place below. Tap <strong>WALK THERE</strong> to open walking directions in Google Maps.</p>
 </section>
 <section class="wrap archive" id="archive">
-  <div class="list-heading"><div><span class="eyebrow">THE COLLECTION</span><h2>Explore the archive</h2></div><span class="count" id="count" aria-live="polite">LOADING</span></div>
-  <div class="toolbar"><div class="controls"><input id="search" type="search" placeholder="Search places and objects…" aria-label="Search archive"></div></div>
-  <div class="gallery" id="gallery"><div class="empty">Loading catalogue…</div></div>
+ <div class="list-heading"><div><span class="eyebrow">YOUR DUBLIN FIELD GUIDE</span><h2>Places to explore</h2></div><span class="count" id="count" aria-live="polite">LOADING</span></div>
+ <div class="toolbar"><div class="controls"><input id="search" type="search" placeholder="Search places…" aria-label="Search archive"></div></div>
+ <div class="gallery" id="gallery"><div class="empty">Loading places…</div></div>
 </section>
 </main>
 <footer><div class="wrap foot"><strong>CICAN DUBLIN ARCHIVE</strong><span>CREATED BY CICAN GEORGE ALIN · ORIGINAL FIELD PHOTOGRAPHY ONLY</span></div></footer>
@@ -270,23 +315,18 @@ function recordText(record){
   ...sourceRows.flatMap(source=>[source.id,source.name,source.publisher,source.specific_reference,source.notes])
  ].join(" ");
 }
-function photoPath(record){
- const value=record.photo||record.thumbnail||record.image||record.photo_url||"";
- if(typeof value!=="string"||!value.trim())return "";
- const path=value.trim();
- if(path.startsWith("photos/")||path.startsWith("./photos/"))return path;
- try{const url=new URL(path);return ["https:","http:"].includes(url.protocol)?url.href:""}catch{return ""}
+function walkingUrl(record){
+ const destination=record.address+", "+record.district+", Dublin, Ireland";
+ return "https://www.google.com/maps/dir/?api=1&destination="+encodeURIComponent(destination)+"&travelmode=walking";
 }
 function render(){
  const query=clean($("#search").value);
  let rows=objects.filter(record=>!query||clean(recordText(record)).includes(query));
  rows.sort((a,b)=>a.name.localeCompare(b.name));
- $("#count").textContent=rows.length+" OBJECTS";
+ $("#count").textContent=rows.length+" PLACES";
  $("#gallery").innerHTML=rows.length?rows.map(record=>{
-  const photo=photoPath(record);
-  const thumb=photo?'<div class="thumb"><img src="'+esc(photo)+'" alt="'+esc(record.name)+'" loading="lazy"></div>':'<div class="thumb"><div class="thumb-placeholder"><span>＋</span><span>PHOTO TO COME</span></div></div>';
-  return '<article class="item compact-item" data-open="'+esc(record.id)+'" role="button" tabindex="0" aria-label="Open record: '+esc(record.name)+'">'+thumb+'<div class="item-copy"><h2>'+esc(record.name)+'</h2><div class="item-location">'+esc(record.district)+' · '+esc(record.address)+'</div><div class="item-meta">'+esc(record.category.replaceAll("_"," "))+'</div></div><span class="item-arrow" aria-hidden="true">↗</span></article>';
- }).join(""):'<div class="empty">No matching objects. Try another search.</div>';
+  return '<article class="place-row"><div class="place-info" data-open="'+esc(record.id)+'" role="button" tabindex="0" aria-label="View details for '+esc(record.name)+'"><h3 class="place-name">'+esc(record.name)+'</h3><div class="place-address">'+esc(record.address)+' · '+esc(record.district)+'</div><div class="place-category">'+esc(record.category.replaceAll("_"," "))+'</div></div><div class="place-actions"><button class="details-button" type="button" data-open="'+esc(record.id)+'">DETAILS</button><a class="walk-button" href="'+esc(walkingUrl(record))+'" target="_blank" rel="noopener noreferrer"><span>↗</span> WALK THERE</a></div></article>';
+ }).join(""):'<div class="empty">No matching places. Try another search.</div>';
 }
 function safeUrl(value){
  try{const url=new URL(value);return ["https:","http:"].includes(url.protocol)?url.href:"#"}catch{return "#"}
@@ -308,8 +348,8 @@ function openRecord(id,updateUrl=true){
  const destination=record.address+", "+record.district+", Dublin, Ireland";
  const mapHref="https://www.google.com/maps/dir/?api=1&destination="+encodeURIComponent(destination)+"&travelmode=walking";
  const map='<a class="action-primary" href="'+esc(mapHref)+'" target="_blank" rel="noopener noreferrer">↗ WALK TO THIS OBJECT</a>';
- const photoAction='<button class="action-secondary" id="choosePhoto" type="button">＋ ADD PHOTOGRAPH</button>';
- $("#detailBody").innerHTML='<p>'+esc(record.historical_description)+'</p>'+significance+notes+'<details class="fold"><summary>Location and record details</summary><div class="meta-grid"><div class="meta"><small>Location</small><b>'+esc(record.address)+'</b></div><div class="meta"><small>District</small><b>'+esc(record.district)+'</b></div><div class="meta"><small>Period</small><b>'+esc(record.historical_period)+'</b></div><div class="meta"><small>Access</small><b>'+esc(record.access_status)+'</b></div><div class="meta"><small>NIAH reference</small><b>'+esc(record.national_inventory_reference||"Not assigned")+'</b></div><div class="meta"><small>Irish Grid reference</small><b>'+esc(record.national_grid_reference||"Not supplied")+'</b></div></div></details>'+parentSection+childSection+checklist+'<details class="fold"><summary>Historical sources · '+linkedSources.length+'</summary><div class="source-list">'+sourceSection+'</div></details><div class="detail-actions">'+map+photoAction+'</div><details class="fold photo-tool" id="photoFold"><summary>Photograph this object</summary><input id="photoInput" type="file" accept="image/*" capture="environment" hidden><p class="fieldwork-note">Take a photo or choose one from your device.</p><img class="photo-preview" id="photoPreview" alt="Selected photograph preview"><div class="photo-status" id="photoStatus">No photograph selected.</div></details><p class="detail-note">Photography: '+esc(record.photography_status.replaceAll("_"," "))+'. The archive uses original photographs taken in person; no substitute image is displayed.</p>';
+ const photoAction='';
+ $("#detailBody").innerHTML='<p>'+esc(record.historical_description)+'</p>'+significance+notes+'<details class="fold"><summary>Location and record details</summary><div class="meta-grid"><div class="meta"><small>Location</small><b>'+esc(record.address)+'</b></div><div class="meta"><small>District</small><b>'+esc(record.district)+'</b></div><div class="meta"><small>Period</small><b>'+esc(record.historical_period)+'</b></div><div class="meta"><small>Access</small><b>'+esc(record.access_status)+'</b></div><div class="meta"><small>NIAH reference</small><b>'+esc(record.national_inventory_reference||"Not assigned")+'</b></div><div class="meta"><small>Irish Grid reference</small><b>'+esc(record.national_grid_reference||"Not supplied")+'</b></div></div></details>'+parentSection+childSection+checklist+'<details class="fold"><summary>Historical sources · '+linkedSources.length+'</summary><div class="source-list">'+sourceSection+'</div></details><div class="detail-actions">'+map+photoAction+'</div>';
  if(!$("#detail").open)$("#detail").showModal();
  if(updateUrl)history.pushState({recordId:id},"","#object="+encodeURIComponent(id));
 }
@@ -322,21 +362,13 @@ function syncFromUrl(){
  if(id&&objects.some(record=>record.id===id)){if(!$("#detail").open)openRecord(id,false)}
  else if($("#detail").open)$("#detail").close();
 }
-$("#gallery").addEventListener("click",event=>{const card=event.target.closest("[data-open]");if(card)openRecord(card.dataset.open)});
-$("#gallery").addEventListener("keydown",event=>{const card=event.target.closest("[data-open]");if(card&&(event.key==="Enter"||event.key===" ")){event.preventDefault();openRecord(card.dataset.open)}});
+$("#gallery").addEventListener("click",event=>{const target=event.target.closest("[data-open]");if(target)openRecord(target.dataset.open)});
+$("#gallery").addEventListener("keydown",event=>{const target=event.target.closest("[data-open]");if(target&&(event.key==="Enter"||event.key===" ")){event.preventDefault();openRecord(target.dataset.open)}});
 $("#detailBody").addEventListener("click",event=>{
  const related=event.target.closest("[data-related]");if(related){openRecord(related.dataset.related);return;}
- if(event.target.closest("#choosePhoto")){$("#photoFold").open=true;$("#photoInput").click();}
+ 
 });
-$("#detailBody").addEventListener("change",event=>{
- if(event.target.id!=="photoInput")return;
- const file=event.target.files&&event.target.files[0];if(!file)return;
- if(!file.type.startsWith("image/")){$("#photoStatus").textContent="Please select an image file.";return;}
- if(selectedPhotoUrl)URL.revokeObjectURL(selectedPhotoUrl);
- selectedPhotoUrl=URL.createObjectURL(file);
- $("#photoPreview").src=selectedPhotoUrl;$("#photoPreview").style.display="block";
- $("#photoStatus").textContent="Selected: "+file.name+" · "+Math.round(file.size/1024)+" KB. Preview ready; not yet uploaded to the archive.";
-});
+
 $("#close").addEventListener("click",()=>closeRecord());
 $("#detail").addEventListener("click",event=>{if(event.target===$("#detail"))closeRecord()});
 $("#detail").addEventListener("cancel",event=>{event.preventDefault();closeRecord()});

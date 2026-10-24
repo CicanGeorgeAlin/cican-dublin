@@ -130,11 +130,99 @@ footer{padding:30px 0 40px}
 .photo-preview{display:none;width:100%;max-height:320px;object-fit:contain;background:#111;margin-top:12px;border:1px solid #333}
 .photo-status{font-size:12px;color:#bbb;line-height:1.6;margin-top:10px}
 @media(max-width:700px){.fieldwork-shell{grid-template-columns:1fr;padding:18px;gap:14px}.fieldwork{padding:22px 0}.location-card{min-height:170px}.fieldwork-copy{font-size:13px}}
+
+/* Editorial landing page refresh */
+:root{--bg:#070707;--line:#292929;--muted:#9a9a9a;--white:#f4f2ed}
+body{background:#070707;color:var(--white);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+header{background:#070707eF;border-bottom-color:#252525}
+.mark{border-color:#8b8b8b;box-shadow:0 0 26px #fff2;font-weight:800}
+.navlinks a{transition:color .2s}
+.hero-new{position:relative;min-height:590px;padding:74px 0 28px;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:35px;border-bottom:1px solid #292929;overflow:hidden}
+.hero-new:before{content:"";position:absolute;width:580px;height:580px;right:4%;top:-40%;background:radial-gradient(circle,#7772 0%,#3331 38%,transparent 70%);pointer-events:none}
+.hero-copy{position:relative;z-index:1;padding-bottom:28px}
+.hero-new .eyebrow{display:flex;align-items:center;gap:10px;color:#aaa;font-size:10px;letter-spacing:.19em}
+.eyebrow-dot{width:7px;height:7px;border-radius:50%;background:#eee;box-shadow:0 0 12px #fff9}
+.hero-new h1{font-size:clamp(58px,8.1vw,108px);line-height:.89;letter-spacing:-.085em;font-weight:760;margin:29px 0 25px}
+.hero-new h1 span{color:#8f8f8f}
+.hero-new .intro{font-size:16px;line-height:1.8;max-width:510px;color:#b8b8b8}
+.hero-actions{display:flex;align-items:center;gap:22px;flex-wrap:wrap;margin-top:32px}
+.hero-primary{display:inline-flex;align-items:center;gap:26px;padding:15px 18px;background:#f1f0eb;color:#090909;font-size:10px;font-weight:800;letter-spacing:.12em;transition:transform .2s,background .2s}
+.hero-primary span{font-size:17px}.hero-primary:hover{transform:translateY(-2px);background:#fff}
+.hero-secondary{font-size:10px;letter-spacing:.13em;color:#c4c4c4;border-bottom:1px solid #666;padding:8px 0}
+.hero-credit{font-size:9px;letter-spacing:.13em;color:#777;margin-top:42px}.hero-credit strong{color:#ccc;font-weight:650}
+.hero-art{position:relative;z-index:1;width:min(100%,490px);aspect-ratio:1/1;justify-self:center;display:grid;place-items:center}
+.hero-art:before{content:"";position:absolute;inset:9%;border:1px solid #343434;border-radius:50%}
+.hero-art:after{content:"";position:absolute;inset:19%;border:1px dashed #3a3a3a;border-radius:50%}
+.art-orbit{position:absolute;border:1px solid #555;border-radius:50%;transform:rotate(-28deg)}
+.orbit-one{inset:15% 3%;}.orbit-two{inset:3% 22%;transform:rotate(38deg);border-color:#383838}
+.art-cross{position:absolute;background:#333}.cross-one{width:1px;height:88%;}.cross-two{height:1px;width:88%}
+.art-core{width:40%;aspect-ratio:1;border:1px solid #aaa;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;background:radial-gradient(circle,#242424,#090909 72%);box-shadow:0 0 70px #fff1,inset 0 0 40px #fff1}
+.art-core span{font-size:clamp(70px,10vw,120px);font-weight:800;line-height:.9;letter-spacing:-.12em;padding-right:.1em;text-shadow:0 0 24px #fff5}
+.art-core small{font-size:8px;line-height:1.5;letter-spacing:.25em;text-align:center;color:#aaa;margin-top:13px}
+.art-label{position:absolute;display:flex;flex-direction:column;gap:4px;font-size:8px;letter-spacing:.17em;color:#888}
+.art-label b{color:#ddd;font-size:10px;font-weight:600}.label-top{top:11%;left:10%}.label-bottom{bottom:10%;right:2%;text-align:right}
+.art-coordinate{position:absolute;bottom:18%;left:4%;font-size:9px;line-height:1.6;letter-spacing:.12em;color:#777}
+.hero-bottom{grid-column:1/-1;display:flex;justify-content:space-between;padding-top:16px;border-top:1px solid #292929;font-size:9px;letter-spacing:.17em;color:#777}
+.principles{display:grid;grid-template-columns:repeat(3,1fr);border-bottom:1px solid #292929;padding:0}
+.principle{display:flex;align-items:center;gap:16px;padding:23px 18px;border-right:1px solid #292929}
+.principle:first-child{padding-left:0}.principle:last-child{border-right:0}
+.principle>span{font-size:11px;color:#777;letter-spacing:.1em}
+.principle div{display:flex;flex-direction:column;gap:3px}
+.principle b{font-size:10px;letter-spacing:.14em}.principle small{font-size:11px;color:#888}
+.archive{padding-top:48px}
+.archive .toolbar{margin-bottom:24px}
+.archive .controls input{background:#0d0d0d;border-color:#383838;border-radius:2px}
+.compact-item{padding:21px 7px;transition:padding .2s,border-color .2s}
+.compact-item:hover{padding-left:13px;border-bottom-color:#777}
+.compact-item h2{font-size:19px;letter-spacing:-.035em}
+.compact-item .item-location{font-size:13px;color:#929292}
+.item-arrow{font-size:23px;transition:transform .2s}.compact-item:hover .item-arrow{transform:translate(3px,-3px)}
+footer{background:#080808}
+@media(max-width:760px){
+ .hero-new{min-height:0;padding:48px 0 22px;grid-template-columns:1fr;gap:8px}
+ .hero-new h1{font-size:clamp(58px,14vw,86px);margin:24px 0 19px}
+ .hero-new .intro{font-size:15px}
+ .hero-art{width:min(78vw,350px);margin:5px auto 0}
+ .hero-credit{margin-top:30px}
+ .hero-bottom{margin-top:8px;font-size:8px}
+ .principle{padding:16px 9px;gap:9px;align-items:flex-start;flex-direction:column}
+ .principle:first-child{padding-left:0}
+ .principle small{font-size:10px;line-height:1.45}
+ .archive{padding-top:32px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero-primary,.compact-item,.item-arrow{transition:none}}
+
 </style>
 </head>
 <body>
 <header><div class="wrap nav"><a class="brand" href="#top"><span class="mark">C</span><span>CICAN<br>DUBLIN ARCHIVE</span></a><nav class="navlinks"><a href="#archive">Archive</a><a href="https://github.com/CicanGeorgeAlin/cican-dublin-archive">Project ↗</a></nav></div></header>
-<main id="top"><section class="wrap hero"><div class="eyebrow">DUBLIN · IRELAND</div><h1>CICAN DUBLIN ARCHIVE.</h1><p class="intro">Explore. Visit. Photograph.</p></section>
+<main id="top">
+<section class="wrap hero hero-new">
+  <div class="hero-copy">
+    <div class="eyebrow"><span class="eyebrow-dot"></span> AN OPEN FIELD ARCHIVE · DUBLIN, IRELAND</div>
+    <h1>A city full<br>of stories.<br><span>Look closer.</span></h1>
+    <p class="intro">A growing visual record of Dublin’s historic places, details and overlooked heritage — researched, visited and photographed one story at a time.</p>
+    <div class="hero-actions">
+      <a class="hero-primary" href="#archive">EXPLORE THE ARCHIVE <span>↘</span></a>
+      <a class="hero-secondary" href="#field-notes">HOW IT WORKS</a>
+    </div>
+    <div class="hero-credit">AN INDEPENDENT ARCHIVE CREATED BY <strong>CICAN GEORGE ALIN</strong></div>
+  </div>
+  <div class="hero-art" aria-label="CICAN Dublin Archive visual emblem">
+    <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+    <div class="art-cross cross-one"></div><div class="art-cross cross-two"></div>
+    <div class="art-core"><span>C</span><small>DUBLIN<br>ARCHIVE</small></div>
+    <div class="art-label label-top">FIELD NOTES <b>001—∞</b></div>
+    <div class="art-label label-bottom"><b>EST. 2026</b><span>MADE TO BE DISCOVERED</span></div>
+    <div class="art-coordinate">53° 20′ N<br>06° 15′ W</div>
+  </div>
+  <div class="hero-bottom"><span>HISTORY IS ALL AROUND US.</span><span>SCROLL TO EXPLORE ↓</span></div>
+</section>
+<section class="wrap principles" id="field-notes">
+  <div class="principle"><span>01</span><div><b>DISCOVER</b><small>Explore researched heritage records.</small></div></div>
+  <div class="principle"><span>02</span><div><b>VISIT</b><small>Find the place and see it for yourself.</small></div></div>
+  <div class="principle"><span>03</span><div><b>PRESERVE</b><small>Photograph it. Help keep its story alive.</small></div></div>
+</section>
 <section class="wrap archive" id="archive"><div class="toolbar"><div class="controls"><input id="search" type="search" placeholder="Search the archive…" aria-label="Search archive"></div><div class="toolbar-side"><span class="count" id="count" aria-live="polite">LOADING</span></div></div>
 <div class="gallery" id="gallery"><div class="empty">Loading catalogue…</div></div></section></main>
 <footer><div class="wrap foot"><strong>CICAN DUBLIN ARCHIVE</strong><span>CREATED BY CICAN GEORGE ALIN · ORIGINAL FIELD PHOTOGRAPHY ONLY</span></div></footer>

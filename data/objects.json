@@ -858,5 +858,72 @@
     "feature_type": "PRIMARY_OBJECT",
     "coordinate_status": "NOT_SET",
     "research_notes": "NIAH registration 50010222; grid reference retained. Do not assume interior access; photograph the exterior from lawful public viewpoints."
+  },
+  {
+    "id": "DUB-STR-0005",
+    "name": "Four Victorian cast-iron bollards, north end of O’Connell Street",
+    "category": "STREET_DETAIL",
+    "district": "Dublin 1",
+    "address": "Central mall at the north end of O’Connell Street, Dublin 1",
+    "historical_period": "Circa 1880",
+    "historical_description": "NIAH records a group of four cast-iron bollards on the central mall at the north end of O’Connell Street. The bollards are round in plan and approximately one metre high, with pinched cylindrical forms, decorative scrollwork, pierced openings and domed caps with foliate motifs. The inventory describes them as set in recent granite paving.",
+    "historical_significance": "A surviving group of ornate Victorian street furniture contributing to the accumulated historic streetscape of O’Connell Street. NIAH suggests they may originally have functioned as air vents; this proposed function is not treated as certain.",
+    "national_inventory_reference": "50010556",
+    "national_grid_reference": "315817, 234965",
+    "latitude": null,
+    "longitude": null,
+    "coordinate_status": "NOT_SET",
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Public central mall; photograph from pedestrian areas and remain clear of traffic, tram infrastructure and temporary restrictions.",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=O%27Connell+Street+Upper%2C+Dublin+1",
+    "photography_brief": [
+      "Photograph all four bollards as a group and individually",
+      "Record full height, cap and foliate motifs",
+      "Capture scrollwork, pierced openings and cylindrical profile",
+      "Document their relationship to the central mall and granite paving"
+    ],
+    "sources": [
+      "NIAH-50010556"
+    ],
+    "feature_type": "PRIMARY_OBJECT",
+    "research_notes": "NIAH registration 50010556. The inventory proposes, but does not prove, an original air-vent function. Current condition and exact on-site positions await founder field photography."
+  },
+  {
+    "id": "DUB-STR-0006",
+    "name": "Historic Custom House Docks boundary wall on Commons Street",
+    "category": "STREET_DETAIL",
+    "district": "Dublin 1",
+    "address": "Commons Street, beside Connolly Station, Dublin 1",
+    "historical_period": "Circa 1830; later twentieth-century alterations",
+    "historical_description": "NIAH records a high limestone and granite boundary wall built circa 1830 along Commons Street at the rear of Connolly Station. Its fabric includes a rubble limestone lower section, a dressed granite string course, coursed dressed limestone blocks and granite coping. The record notes remains of former openings, later infill and a historic cobbled street surface with granite kerbs alongside the wall.",
+    "historical_significance": "A surviving fragment of the former security boundary around the Custom House docks complex, documenting the industrial and commercial history of Dublin’s north quays. A local legend attributes the wall to French prisoners, but that story is not established by the inventory and is not presented as fact.",
+    "national_inventory_reference": "50060568",
+    "national_grid_reference": "316869, 234776",
+    "latitude": null,
+    "longitude": null,
+    "coordinate_status": "NOT_SET",
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Photograph from lawful public viewpoints on Commons Street. Respect railway property, active transport operations and any barriers or access restrictions.",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Commons+Street%2C+Dublin+1",
+    "photography_brief": [
+      "Full surviving wall elevation and its street relationship",
+      "Limestone rubble lower section and granite string course",
+      "Dressed limestone upper courses and granite coping",
+      "Blocked or altered former openings and brick jamb remains",
+      "Original cobbled street surface and granite kerbs beside the wall"
+    ],
+    "sources": [
+      "NIAH-50060568"
+    ],
+    "feature_type": "PRIMARY_OBJECT",
+    "research_notes": "NIAH registration 50060568. The NIAH description records twentieth-century alterations and the adjacent cobbled street surface. The French-prisoner story is explicitly treated as unverified folklore. Exact surviving extent and current condition await field photography."
   }
 ]

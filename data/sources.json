@@ -781,5 +781,45 @@
     "source_type": "OFFICIAL_REGISTER",
     "specific_reference": "NIAH Registration 50011089",
     "notes": "NIAH describes a c.1830 townhouse with cast-iron bootscraper, original wrought-iron railings and cast-iron corner posts; grid reference 316567, 235543."
+  },
+  {
+    "id": "NIAH-50010393",
+    "name": "50 Middle Abbey Street",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010393/dublin-1-apartments-50-middle-abbey-street-dublin-1-co-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50010393",
+    "notes": "NIAH describes a c.1750 Georgian house with two entrance lamp standards bearing the Harte manufacturer's name; grid reference 315744, 234459."
+  },
+  {
+    "id": "NIAH-50930293",
+    "name": "18 Pembroke Street Upper",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50930293/18-pembroke-street-upper-dublin-2-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50930293",
+    "notes": "NIAH describes a c.1825 townhouse with a lamp standard over granite plinth, coal-hole cover, granite steps and decorative railings; grid reference 316299, 232993."
+  },
+  {
+    "id": "NIAH-50020527",
+    "name": "Pearse Street Art Deco electric lamp standard",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50020527/pearse-street-dublin-2-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50020527",
+    "notes": "NIAH describes a c.1935 reinforced-concrete double-headed electric lamp standard with copper-roofed frosted-glass lanterns on the south side of Pearse Street; grid reference 316136, 234204."
+  },
+  {
+    "id": "NIAH-50100594",
+    "name": "Huband Bridge, Warrington Place and Percy Place",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50100594/huband-bridge-warrington-place-percy-place-dublin-2-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50100594",
+    "notes": "NIAH describes the 1791 single-arch Grand Canal bridge with granite and limestone masonry, inscribed plaque, cast-iron balustrades and a parapet lamp standard; grid reference 317136, 233192."
   }
 ]

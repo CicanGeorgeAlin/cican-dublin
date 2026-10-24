@@ -365,11 +365,11 @@ function safeUrl(value){
 }
 function timelineMarkup(record){
  const text=[record.historical_description||"",record.historical_period||""].join(" ");
- const years=[...new Set((text.match(/(?:c\\.?\\s*)?\\b(?:1[0-9]{3}|20[0-2][0-9])(?:\\s*[–-]\\s*(?:1[0-9]{3}|20[0-2][0-9]))?\\b/g)||[]))];
+ const years=[...new Set((text.match(/(?:c\.?\s*)?\b(?:1[0-9]{3}|20[0-2][0-9])(?:\s*[–-]\s*(?:1[0-9]{3}|20[0-2][0-9]))?\b/g)||[]))];
  if(!years.length)return '<p class="muted-copy">No dated milestones have yet been separated from the source record.</p>';
  return '<ol class="timeline">'+years.map(value=>{
-  const cleanYear=value.replace(/^c\\.?\\s*/,"");
-  const sentence=(record.historical_description||"").split(/(?<=[.!?])\\s+/).find(part=>part.includes(cleanYear.split(/[–-]/)[0]));
+  const cleanYear=value.replace(/^c\.?\s*/,"");
+  const sentence=(record.historical_description||"").split(/(?<=[.!?])\s+/).find(part=>part.includes(cleanYear.split(/[–-]/)[0]));
   return '<li><span class="timeline-date">'+esc(value)+'</span><span class="timeline-detail">'+esc(sentence||"Date recorded in the historical period field; event detail not separately stated.")+'</span></li>';
  }).join("")+'</ol>';
 }

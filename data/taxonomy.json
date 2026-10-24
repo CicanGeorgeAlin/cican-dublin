@@ -1,0 +1,180 @@
+{
+  "version": "1.0",
+  "purpose": "Controlled discovery vocabulary for classifying every physical heritage feature without restricting the archive to famous landmarks.",
+  "category_codes": [
+    {
+      "code": "ARCHITECTURE",
+      "label": "Historic architecture",
+      "description": "Buildings and identifiable architectural fabric.",
+      "examples": [
+        "façades",
+        "doors",
+        "windows",
+        "roof features",
+        "cornices",
+        "stonework",
+        "structural elements"
+      ]
+    },
+    {
+      "code": "MONUMENT",
+      "label": "Monuments and public sculpture",
+      "description": "Freestanding commemorative or sculptural works.",
+      "examples": [
+        "statues",
+        "busts",
+        "monuments",
+        "fountains",
+        "sculptural groups"
+      ]
+    },
+    {
+      "code": "MEMORIAL",
+      "label": "Memorials",
+      "description": "Places or objects created to commemorate people or events.",
+      "examples": [
+        "war memorials",
+        "famine memorials",
+        "commemorative installations"
+      ]
+    },
+    {
+      "code": "INSCRIPTION",
+      "label": "Inscriptions and plaques",
+      "description": "Individually identifiable written or engraved features.",
+      "examples": [
+        "name plaques",
+        "dates",
+        "dedication tablets",
+        "carved lettering",
+        "memorial inscriptions"
+      ]
+    },
+    {
+      "code": "STREET_DETAIL",
+      "label": "Street furniture and micro-details",
+      "description": "Distinct public-realm objects and small urban features.",
+      "examples": [
+        "lamp standards",
+        "bollards",
+        "railings",
+        "drain covers",
+        "boundary stones",
+        "street signs"
+      ]
+    },
+    {
+      "code": "PUBLIC_ART",
+      "label": "Public art",
+      "description": "Artworks installed in publicly accessible settings that are not better classified as monuments or memorials.",
+      "examples": [
+        "murals",
+        "modern sculpture",
+        "decorative installations"
+      ]
+    },
+    {
+      "code": "ARCHAEOLOGY",
+      "label": "Archaeology and historic remains",
+      "description": "Visible or officially recorded archaeological fabric and remains.",
+      "examples": [
+        "medieval walls",
+        "buried-site markers",
+        "ruins",
+        "earthworks"
+      ]
+    },
+    {
+      "code": "INFRASTRUCTURE",
+      "label": "Historic infrastructure",
+      "description": "Engineering and civic infrastructure with documentary or heritage value.",
+      "examples": [
+        "bridges",
+        "quays",
+        "canal structures",
+        "waterworks",
+        "historic road features"
+      ]
+    },
+    {
+      "code": "LANDSCAPE",
+      "label": "Historic landscapes and designed spaces",
+      "description": "Historic parks, gardens, estates and designed landscape features.",
+      "examples": [
+        "garden layouts",
+        "follies",
+        "gates",
+        "walls",
+        "avenues",
+        "landscape structures"
+      ]
+    },
+    {
+      "code": "TRANSPORT_HERITAGE",
+      "label": "Industrial and transport heritage",
+      "description": "Physical remains associated with transport, industry and engineering.",
+      "examples": [
+        "railway features",
+        "dock equipment",
+        "industrial machinery",
+        "tram infrastructure"
+      ]
+    },
+    {
+      "code": "BURIAL_ART",
+      "label": "Cemeteries and burial art",
+      "description": "Graves, cemetery structures and funerary art.",
+      "examples": [
+        "headstones",
+        "mausoleums",
+        "cemetery gates",
+        "carved symbols"
+      ]
+    },
+    {
+      "code": "COMMERCIAL_HISTORY",
+      "label": "Commercial and everyday history",
+      "description": "Historic commercial and everyday objects visible in the built environment.",
+      "examples": [
+        "shopfronts",
+        "painted signs",
+        "advertising panels",
+        "maker marks"
+      ]
+    },
+    {
+      "code": "OTHER",
+      "label": "Other documented feature",
+      "description": "A temporary holding category when no established category fits; review before publication.",
+      "examples": [
+        "unclassified physical feature"
+      ]
+    }
+  ],
+  "feature_types": [
+    {
+      "code": "SITE",
+      "definition": "A geographic place or complex that may contain many independently catalogued objects."
+    },
+    {
+      "code": "PRIMARY_OBJECT",
+      "definition": "A distinct building, structure, monument or other main physical object."
+    },
+    {
+      "code": "MICRO_DETAIL",
+      "definition": "A separately identifiable component or small feature with its own documentation value."
+    },
+    {
+      "code": "SURFACE_OR_SEQUENCE",
+      "definition": "A continuous area or repeated physical sequence documented at an appropriate parent level."
+    }
+  ],
+  "classification_rules": [
+    "Choose one primary category per record. Use research_notes to describe secondary characteristics rather than assigning multiple primary categories.",
+    "Use MICRO_DETAIL for an independently identifiable feature attached to a parent object; set parent_id to the parent record.",
+    "Use SITE for a larger place and create child records only for independently identifiable objects or details.",
+    "Use SURFACE_OR_SEQUENCE for a street, pavement, wall or repeated fabric; do not create a separate record for every indistinguishable stone or unit.",
+    "Choose the most specific category supported by the evidence. Do not infer age or heritage status from appearance alone.",
+    "Use OTHER only temporarily and review it during taxonomy maintenance."
+  ]
+}

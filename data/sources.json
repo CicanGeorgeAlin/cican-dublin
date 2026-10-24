@@ -1,4 +1,107 @@
-{
-  "schema_version": "1.0",
-  "sources": []
-}
+[
+  {
+    "id": "NIAH-50010320",
+    "name": "O'Connell Monument",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010320/oconnell-monument-dublin-city",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "NIAH-50010528",
+    "name": "General Post Office",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010528/general-post-office-oconnell-street-lower-dublin-1-dublin",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "NIAH-50010527",
+    "name": "GPO lantern bases and wheel guards",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010527/general-post-office-gpo-oconnell-street-lower-dublin-1-dublin",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "NIAH-50010002",
+    "name": "Famine Memorial",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010002/famine-custom-house-quay-dublin-1-dublin",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "NIAH-50010133",
+    "name": "The Custom House",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010133/custom-house-custom-house-quay-beresford-place-dublin-1-co-dublin",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "NIAH-50020253",
+    "name": "Henry Grattan Monument",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50020253/henry-grattan-monument-college-green-dublin-2-dublin",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "NIAH-50020252",
+    "name": "Thomas Davis Monument",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50020252/thomas-davis-monument-college-green-dublin-2-dublin",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "NIAH-50020521",
+    "name": "George Salmon Statue",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50020521/george-salmon-statue-trinity-college-dublin-2-dublin",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "NIAH-50020520",
+    "name": "Lecky Statue",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50020520/lecky-statue-trinity-college-dublin-2-dublin",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "NIAH-50020374",
+    "name": "Edmund Burke Statue",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50020374/edmund-burke-statue-dublin-city",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "NIAH-50020518",
+    "name": "Cactus Provisoire",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50020518/cactus-provisoire-trinity-college-dublin-2-dublin",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "NIAH-50020517",
+    "name": "Reclining Figures",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50020517/reclining-figures-trinity-college-dublin-2-dublin",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "NIAH-50910009",
+    "name": "City Hall",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50910009/city-hall-cork-hill-exchange-court-dublin-2-dublin",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "NIAH-50910280",
+    "name": "Old Detective Office",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50910280/old-detective-office-1-exchange-court-dublin-2-dublin",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "NIAH-GPO-HISTORY",
+    "name": "GPO — Building of the Month",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/building-of-the-month/the-general-post-office-oconnell-street-dublin-1/",
+    "accessed": "2026-10-24"
+  }
+]

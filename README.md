@@ -30,11 +30,13 @@ RESEARCH → VERIFY → REGISTER → PLAN FIELDWORK → FOUNDER PHOTOGRAPHS → 
 
 ## Repository structure
 - `data/objects.json` — master object catalogue.
-- `data/districts.json` — 22 geographic research zones.
+- `data/districts.json` — 22 postal-district work zones.
+- `data/coverage-zones.json` — four Dublin local authorities and layered geographic coverage plan.
 - `data/categories.json` — discovery taxonomy.
 - `data/sources.json` — source registry.
 - `schemas/` — JSON Schema contracts for objects, sources and geographic zones.
 - `documentation/DATA-ARCHITECTURE.md` — canonical data model, coordinate provenance and validation rules.
+- `documentation/GEOGRAPHIC-COVERAGE.md` — official boundary sources, geographic layers and coverage workflow.
 - `routes/` — proposed and completed fieldwork plans.
 - `research/` — source-based investigations.
 - `photos/originals/` — founder's original photographs.

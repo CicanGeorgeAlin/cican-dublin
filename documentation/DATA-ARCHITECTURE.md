@@ -15,7 +15,8 @@ This document defines the common data model used by the research catalogue, map,
 | `data/objects.json` | Master catalogue of physical discoveries |
 | `data/sources.json` | Reusable evidence/source registry |
 | `data/districts.json` | Geographic research and coverage zones |
-| `data/categories.json` | Human-readable discovery taxonomy |
+| `data/categories.json` | Human-readable category descriptions used by the current site |
+| `data/taxonomy.json` | Controlled category codes, feature types and classification rules |
 | `routes/` | Curated field routes and mission groupings |
 | `photos/originals/` | Founder-supplied original photographs |
 | `line-art/` | Approved derivative illustrations |

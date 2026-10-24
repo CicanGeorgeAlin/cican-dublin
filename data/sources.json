@@ -103,5 +103,33 @@
     "publisher": "Department of Housing, Local Government and Heritage",
     "url": "https://www.buildingsofireland.ie/building-of-the-month/the-general-post-office-oconnell-street-dublin-1/",
     "accessed": "2026-10-24"
+  },
+  {
+    "id": "SRC-DUB-LOCAL-AUTH-001",
+    "name": "The four Dublin council areas",
+    "publisher": "Dublin.ie",
+    "url": "https://dublin.ie/live/life-in-dublin/dublin-council-areas/",
+    "accessed": "2026-10-24",
+    "source_type": "GOVERNMENT",
+    "notes": "Identifies Dublin City Council, Fingal County Council, South Dublin County Council and Dún Laoghaire-Rathdown County Council as the four local authorities serving County Dublin."
+  },
+  {
+    "id": "SRC-DUB-TOWNLANDS-2026",
+    "name": "Townlands — National Statutory Boundaries — Ungeneralised 2026",
+    "publisher": "Tailte Éireann via data.gov.ie",
+    "url": "https://data.gov.ie/dataset/townlands-national-statutory-boundaries-ungeneralised-20261",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "2026 national statutory boundary dataset; townlands layer; Tailte Éireann",
+    "notes": "Official townland boundary dataset. Confirm reuse licence and attribution conditions before redistributing extracted geometry."
+  },
+  {
+    "id": "SRC-DUB-BOUNDARY-OPEN-DATA",
+    "name": "Tailte Éireann Boundary Data",
+    "publisher": "Tailte Éireann",
+    "url": "https://tailte.ie/map-shop/professional-map-products/boundary-data/",
+    "accessed": "2026-10-24",
+    "source_type": "GOVERNMENT",
+    "notes": "Describes administrative and statutory boundary products, including counties, local authority areas, townlands and electoral divisions, and cautions that legal boundary delineation must be checked against the relevant Ordnance Map."
   }
 ]

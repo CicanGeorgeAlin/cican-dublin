@@ -281,10 +281,39 @@ footer{padding:22px 0 30px}
  .list-heading h2{font-size:19px}
 }
 
+
+/* Focused place detail: history, one photo action, and walking directions */
+.brand{gap:0;font-size:11px;letter-spacing:.16em}
+.mark{display:none}
+.detail-head{align-items:flex-start}
+#detailStatus{display:none}
+.detail-body{padding:22px}
+.detail-body h3{font-size:10px;letter-spacing:.16em;color:#aaa;margin:0 0 12px}
+.history-section{margin-bottom:25px}
+.history-text{font-size:16px!important;line-height:1.85!important;color:#e0e0e0!important;margin:0 0 12px}
+.history-significance{font-size:14px!important;line-height:1.75!important;color:#aaa!important;border-left:2px solid #666;padding:8px 0 8px 14px;margin:14px 0 0}
+.photo-upload{border-top:1px solid #303030;border-bottom:1px solid #303030;padding:19px 0;margin:20px 0}
+.photo-upload input{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+.photo-picker{display:inline-block;border:1px solid #666;padding:11px 15px;font-size:11px;letter-spacing:.1em;cursor:pointer}
+.photo-picker:hover{background:#eee;color:#050505}
+.photo-preview{margin-top:12px;min-height:40px;color:#888;font-size:12px}
+.photo-preview img{display:block;max-width:100%;max-height:360px;object-fit:contain;border:1px solid #333;margin-bottom:8px}
+.photo-preview span{display:block;color:#bbb}
+.photo-help{font-size:11px!important;line-height:1.6!important;color:#777!important;margin:9px 0 0!important}
+.place-facts{display:grid;gap:12px;margin:20px 0}
+.place-facts div{display:flex;flex-direction:column;gap:4px}
+.place-facts span{font-size:9px;letter-spacing:.13em;color:#777}
+.place-facts b{font-size:13px;font-weight:500;color:#ddd}
+.detail-actions{margin:22px 0 18px}
+.detail-actions .action-primary{display:flex;justify-content:center;align-items:center;width:100%;min-height:54px;font-size:12px;letter-spacing:.12em}
+.source-fold{margin-top:14px}
+@media(max-width:600px){.detail-body{padding:18px}.history-text{font-size:15px!important}.detail-actions .action-primary{min-height:56px}}
+
+.thumb,.thumb-placeholder,.photo,.photo-mark,.photo-label{display:none!important}
 </style>
 </head>
 <body>
-<header><div class="wrap nav"><a class="brand" href="#top"><span class="mark">C</span><span>CICAN<br>DUBLIN ARCHIVE</span></a><nav class="navlinks"><a href="#archive">Archive</a><a href="https://github.com/CicanGeorgeAlin/cican-dublin-archive">Project ↗</a></nav></div></header>
+<header><div class="wrap nav"><a class="brand" href="#top"><span>CICAN DUBLIN ARCHIVE</span></a><nav class="navlinks"><a href="#archive">Archive</a><a href="https://github.com/CicanGeorgeAlin/cican-dublin-archive">Project ↗</a></nav></div></header>
 <main id="top">
 <section class="wrap simple-hero">
  <div class="eyebrow">DUBLIN · IRELAND</div>
@@ -334,22 +363,29 @@ function safeUrl(value){
 function openRecord(id,updateUrl=true){
  const record=objects.find(item=>item.id===id);if(!record)return;
  const linkedSources=(record.sources||[]).map(id=>sources.find(source=>source.id===id)).filter(Boolean);
- $("#detailId").textContent=record.id+" / "+record.category.replaceAll("_"," ");
+ $("#detailId").textContent=record.id;
  $("#detailName").textContent=record.name;
- $("#detailStatus").textContent=record.verification_status.replaceAll("_"," ")+" · "+record.photography_status.replaceAll("_"," ");
- const parent=record.parent_id?objects.find(item=>item.id===record.parent_id):null;
- const children=objects.filter(item=>item.parent_id===record.id);
- const parentSection=record.parent_id?'<h3>Part of a larger site</h3><div class="related-list">'+(parent?'<button class="related-link" type="button" data-related="'+esc(parent.id)+'">'+esc(parent.name)+' ↗</button>':'<p>Parent record not found in the current catalogue.</p>')+'</div>':'';
- const childSection=children.length?'<h3>Related details</h3><div class="related-list">'+children.map(child=>'<button class="related-link" type="button" data-related="'+esc(child.id)+'">'+esc(child.name)+' ↗</button>').join("")+'</div>':'';
- const sourceSection=linkedSources.length?linkedSources.map(source=>'<div class="source-entry"><a href="'+esc(safeUrl(source.url))+'" target="_blank" rel="noopener noreferrer">'+esc(source.name)+' ↗</a><small>'+esc([source.publisher,source.specific_reference,source.notes].filter(Boolean).join(" · "))+'</small></div>').join(""):'<p>Source details are not yet linked to this record.</p>';
- const notes=record.research_notes?'<details class="fold"><summary>Research note</summary><div class="detail-note">'+esc(record.research_notes)+'</div></details>':'';
- const significance=record.historical_significance?'<p>'+esc(record.historical_significance)+'</p>':'';
- const checklist=(record.photography_brief||[]).length?'<details class="fold"><summary>Photography guide · '+record.photography_brief.length+' points</summary><ul>'+record.photography_brief.map(item=>'<li>'+esc(item)+'</li>').join("")+'</ul></details>':'';
+ $("#detailStatus").textContent="";
  const destination=record.address+", "+record.district+", Dublin, Ireland";
  const mapHref="https://www.google.com/maps/dir/?api=1&destination="+encodeURIComponent(destination)+"&travelmode=walking";
- const map='<a class="action-primary" href="'+esc(mapHref)+'" target="_blank" rel="noopener noreferrer">↗ WALK TO THIS OBJECT</a>';
- const photoAction='';
- $("#detailBody").innerHTML='<p>'+esc(record.historical_description)+'</p>'+significance+notes+'<details class="fold"><summary>Location and record details</summary><div class="meta-grid"><div class="meta"><small>Location</small><b>'+esc(record.address)+'</b></div><div class="meta"><small>District</small><b>'+esc(record.district)+'</b></div><div class="meta"><small>Period</small><b>'+esc(record.historical_period)+'</b></div><div class="meta"><small>Access</small><b>'+esc(record.access_status)+'</b></div><div class="meta"><small>NIAH reference</small><b>'+esc(record.national_inventory_reference||"Not assigned")+'</b></div><div class="meta"><small>Irish Grid reference</small><b>'+esc(record.national_grid_reference||"Not supplied")+'</b></div></div></details>'+parentSection+childSection+checklist+'<details class="fold"><summary>Historical sources · '+linkedSources.length+'</summary><div class="source-list">'+sourceSection+'</div></details><div class="detail-actions">'+map+photoAction+'</div>';
+ const sourceSection=linkedSources.length?'<div class="source-list">'+linkedSources.map(source=>'<div class="source-entry"><a href="'+esc(safeUrl(source.url))+'" target="_blank" rel="noopener noreferrer">'+esc(source.name)+' ↗</a><small>'+esc([source.publisher,source.specific_reference].filter(Boolean).join(" · "))+'</small></div>').join("")+'</div>':'<p>Historical references are being added.</p>';
+ const photo='<section class="photo-upload"><h3>YOUR PHOTOGRAPH</h3><label class="photo-picker" for="placePhoto">ADD A PHOTO</label><input id="placePhoto" type="file" accept="image/*" capture="environment"><div id="photoPreview" class="photo-preview" aria-live="polite">Choose a photograph from your device.</div><p class="photo-help">Choose a photo of this place. It will preview here; publishing it permanently to the archive requires a secure upload step.</p></section>';
+ $("#detailBody").innerHTML=
+  '<section class="history-section"><h3>HISTORY</h3><p class="history-text">'+esc(record.historical_description||"Historical research is in progress.")+'</p>'+(record.historical_significance?'<p class="history-significance">'+esc(record.historical_significance)+'</p>':'')+'</section>'+
+  photo+
+  '<section class="place-facts"><div><span>PERIOD</span><b>'+esc(record.historical_period||"Not established")+'</b></div><div><span>ADDRESS</span><b>'+esc(record.address)+', '+esc(record.district)+'</b></div></section>'+
+  '<div class="detail-actions"><a class="action-primary" href="'+esc(mapHref)+'" target="_blank" rel="noopener noreferrer">WALK THERE ↗</a></div>'+
+  '<details class="fold source-fold"><summary>SOURCES · '+linkedSources.length+'</summary>'+sourceSection+'</details>';
+ const photoInput=$("#placePhoto");
+ photoInput.addEventListener("change",()=>{
+  const file=photoInput.files&&photoInput.files[0];
+  const preview=$("#photoPreview");
+  if(!file){preview.textContent="Choose a photograph from your device.";return;}
+  if(!file.type.startsWith("image/")){preview.textContent="Please choose an image file.";return;}
+  if(window.currentArchivePhotoUrl)URL.revokeObjectURL(window.currentArchivePhotoUrl);
+  window.currentArchivePhotoUrl=URL.createObjectURL(file);
+  preview.innerHTML='<img alt="Selected photograph of '+esc(record.name)+'" src="'+window.currentArchivePhotoUrl+'"><span>'+esc(file.name)+'</span>';
+ });
  if(!$("#detail").open)$("#detail").showModal();
  if(updateUrl)history.pushState({recordId:id},"","#object="+encodeURIComponent(id));
 }

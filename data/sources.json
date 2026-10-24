@@ -171,5 +171,25 @@
     "source_type": "OFFICIAL_REGISTER",
     "specific_reference": "NIAH Registration No. 50010206",
     "notes": "NIAH records a c.1840 terraced house with surviving Victorian upper-floor fabric, Flemish-bond brickwork, granite sills and decorative brick eaves course; coordinates 316154, 234766."
+  },
+  {
+    "id": "SRC-DCC-BHA18",
+    "name": "Dublin City Development Plan 2022–2028 — Policy BHA18",
+    "publisher": "Dublin City Council",
+    "url": "https://www.dublincity.ie/dublin-city-development-plan-2022-2028/written-statement/chapter-11-built-heritage-and-archaeology/115-policies-and-objectives",
+    "accessed": "2026-10-24",
+    "source_type": "GOVERNMENT",
+    "specific_reference": "Section 11.5; Policy BHA18 — Historic Ground Surfaces, Street Furniture and Public Realm",
+    "notes": "Council policy identifies historic ground surfaces and public-realm features including milestones, jostle stones, ward stones, bollards, coal-hole covers, gratings, boot scrapers, cast-iron basement lights, street skylights, water troughs, post boxes, lampposts and railings."
+  },
+  {
+    "id": "SRC-NIAH-NORTH-CITY",
+    "name": "Architectural Inventory of Dublin North City",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/app/uploads/2019/10/Dublin-North-City.pdf",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "Introduction and scope of the Dublin North City architectural inventory",
+    "notes": "NIAH publication says over 2,800 structures were recorded in phases during 2011–2014 and explicitly notes that the inventory should not be regarded as exhaustive; it highlights overlooked domestic/commercial buildings, canal and railway structures, coal-hole covers, post boxes, railings and gates."
   }
 ]

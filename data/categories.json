@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Monuments & public sculpture",
+    "description": "Statues, memorials, fountains, busts and commemorative works."
+  },
+  {
+    "name": "Inscriptions & plaques",
+    "description": "Carved dates, memorial plaques, engraved stones and historic messages."
+  },
+  {
+    "name": "Historic architecture",
+    "description": "Protected buildings, façades, doors, windows and decorative details."
+  },
+  {
+    "name": "Streets & infrastructure",
+    "description": "Bridges, gates, paving, milestones, lamps and historic street furniture."
+  },
+  {
+    "name": "Archaeology & medieval traces",
+    "description": "Recorded monuments, ruins, Viking and medieval remains."
+  },
+  {
+    "name": "Industrial & transport heritage",
+    "description": "Canals, railways, docks, workshops and engineering features."
+  },
+  {
+    "name": "Cemeteries & burial art",
+    "description": "Gravestones, memorial sculpture, symbols and cemetery architecture."
+  },
+  {
+    "name": "Commercial & everyday history",
+    "description": "Shopfronts, painted signs, old advertisements and maker marks."
+  },
+  {
+    "name": "Parks, estates & landscapes",
+    "description": "Historic gardens, boundary features, follies and estate remains."
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Dublin 1",
+    "description": "North City",
+    "status": "NOT_YET_RESEARCHED"
+  },
+  {
+    "name": "Dublin 2",
+    "description": "Historic Centre",
+    "status": "NOT_YET_RESEARCHED"
+  },
+  {
+    "name": "Dublin 3",
+    "description": "North-East Dublin",
+    "status": "NOT_YET_RESEARCHED"
+  },
+  {
+    "name": "Dublin 4",
+    "description": "South-East Dublin",
+    "status": "NOT_YET_RESEARCHED"
+  },
+  {
+    "name": "Dublin 5",
+    "description": "North-East suburbs",
+    "status": "NOT_YET_RESEARCHED"
+  },
+  {
+    "name": "Dublin 6",
+    "description": "Rathmines and surrounding areas",
+    "status": "NOT_YET_RESEARCHED"
+  },
+  {
+    "name": "Dublin 6W",
+    "description": "South-West suburbs",
+    "status": "NOT_YET_RESEARCHED"
+  },
+  {
+    "name": "Dublin 7",
+    "description": "Smithfield and surrounding areas",
+    "status": "NOT_YET_RESEARCHED"
+  },
+  {
+    "name": "Dublin 8",
+    "description": "The Liberties and Kilmainham",
+    "status": "NOT_YET_RESEARCHED"
+  },
+  {
+    "name": "Dublin 9",
+    "description": "Drumcondra and surrounding areas",
+    "status": "NOT_YET_RESEARCHED"
+  },
+  {
+    "name": "Dublin 10",
+    "description": "Ballyfermot",
+    "status": "NOT_YET_RESEARCHED"
+  },
+  {
+    "name": "Dublin 11",
+    "description": "Finglas",
+    "status": "NOT_YET_RESEARCHED"
+  },
+  {
+    "name": "Dublin 12",
+    "description": "Crumlin and surrounding areas",
+    "status": "NOT_YET_RESEARCHED"
+  },
+  {
+    "name": "Dublin 13",
+    "description": "Coastal North Dublin",
+    "status": "NOT_YET_RESEARCHED"
+  },
+  {
+    "name": "Dublin 14",
+    "description": "South Dublin",
+    "status": "NOT_YET_RESEARCHED"
+  },
+  {
+    "name": "Dublin 15",
+    "description": "Blanchardstown",
+    "status": "NOT_YET_RESEARCHED"
+  },
+  {
+    "name": "Dublin 16",
+    "description": "South-West Dublin",
+    "status": "NOT_YET_RESEARCHED"
+  },
+  {
+    "name": "Dublin 17",
+    "description": "North-East Dublin",
+    "status": "NOT_YET_RESEARCHED"
+  },
+  {
+    "name": "Dublin 18",
+    "description": "South-East Dublin",
+    "status": "NOT_YET_RESEARCHED"
+  },
+  {
+    "name": "Dublin 20",
+    "description": "Chapelizod",
+    "status": "NOT_YET_RESEARCHED"
+  },
+  {
+    "name": "Dublin 22",
+    "description": "Clondalkin",
+    "status": "NOT_YET_RESEARCHED"
+  },
+  {
+    "name": "Dublin 24",
+    "description": "Tallaght",
+    "status": "NOT_YET_RESEARCHED"
+  }
+]

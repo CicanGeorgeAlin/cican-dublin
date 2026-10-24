@@ -1,0 +1,273 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cicangeorgealin.github.io/cican-dublin-archive/schemas/archive-object.schema.json",
+  "title": "CICAN Dublin Archive Object",
+  "description": "One discoverable physical site, object, feature or micro-detail. Existing catalogue records remain compatible; provenance fields are available for future enrichment.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "category",
+    "district",
+    "address",
+    "historical_period",
+    "historical_description",
+    "historical_significance",
+    "national_inventory_reference",
+    "national_grid_reference",
+    "latitude",
+    "longitude",
+    "verification_status",
+    "photography_status",
+    "line_art_status",
+    "publication_status",
+    "parent_id",
+    "access_status",
+    "map_url",
+    "photography_brief",
+    "sources"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^DUB-[A-Z]{3}-[0-9]{4,}$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "MONUMENT",
+        "ARCHITECTURE",
+        "STREET_DETAIL",
+        "MEMORIAL",
+        "INSCRIPTION",
+        "PUBLIC_ART",
+        "ARCHAEOLOGY",
+        "INFRASTRUCTURE",
+        "LANDSCAPE",
+        "TRANSPORT_HERITAGE",
+        "BURIAL_ART",
+        "COMMERCIAL_HISTORY",
+        "OTHER"
+      ]
+    },
+    "district": {
+      "type": "string",
+      "minLength": 1
+    },
+    "address": {
+      "type": "string"
+    },
+    "historical_period": {
+      "type": "string"
+    },
+    "historical_description": {
+      "type": "string"
+    },
+    "historical_significance": {
+      "type": "string"
+    },
+    "national_inventory_reference": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "national_grid_reference": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "latitude": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": -90,
+      "maximum": 90
+    },
+    "longitude": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": -180,
+      "maximum": 180
+    },
+    "coordinate_source": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "coordinate_accuracy_m": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "coordinate_status": {
+      "type": "string",
+      "enum": [
+        "NOT_SET",
+        "ADDRESS_APPROXIMATE",
+        "SOURCE_DERIVED",
+        "FIELD_VERIFIED"
+      ]
+    },
+    "address_source": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": [
+        "RESEARCH_LEAD",
+        "PARTIALLY_VERIFIED",
+        "VERIFIED"
+      ]
+    },
+    "photography_status": {
+      "type": "string",
+      "enum": [
+        "TO_PHOTOGRAPH",
+        "PHOTOGRAPHED"
+      ]
+    },
+    "line_art_status": {
+      "type": "string",
+      "enum": [
+        "TO_CREATE",
+        "LINE_ART_CREATED"
+      ]
+    },
+    "publication_status": {
+      "type": "string",
+      "enum": [
+        "NOT_PUBLISHED",
+        "PUBLISHED"
+      ]
+    },
+    "parent_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "access_status": {
+      "type": "string"
+    },
+    "photography_restrictions": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "map_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "photography_brief": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "feature_type": {
+      "type": "string",
+      "enum": [
+        "SITE",
+        "PRIMARY_OBJECT",
+        "MICRO_DETAIL",
+        "SURFACE_OR_SEQUENCE"
+      ]
+    },
+    "research_notes": {
+      "type": "string"
+    },
+    "last_researched": {
+      "type": "string",
+      "format": "date"
+    },
+    "field_visit_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "original_photo_paths": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "line_art_paths": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "latitude": {
+            "type": "number"
+          },
+          "longitude": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "latitude",
+          "longitude"
+        ]
+      },
+      "then": {
+        "properties": {
+          "coordinate_status": {
+            "not": {
+              "const": "NOT_SET"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "photography_status": {
+            "const": "PHOTOGRAPHED"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "original_photo_paths": {
+            "minItems": 1
+          }
+        },
+        "required": [
+          "original_photo_paths"
+        ]
+      }
+    }
+  ]
+}

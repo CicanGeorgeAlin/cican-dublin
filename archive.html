@@ -4,6 +4,21 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#050505">
 <meta name="description" content="Explore the CICAN Dublin Archive field guide and walking directions to historic places across Dublin.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CICAN DUBLIN ARCHIVE">
+<meta property="og:title" content="CICAN DUBLIN ARCHIVE — Explore the Archive">
+<meta property="og:description" content="Discover, verify and preserve Dublin's historic streets, buildings, objects and overlooked heritage.">
+<meta property="og:url" content="https://cicangeorgealin.github.io/cican-dublin-archive/archive.html">
+<meta property="og:image" content="https://cicangeorgealin.github.io/cican-dublin-archive/assets/social-preview.png">
+<meta property="og:image:secure_url" content="https://cicangeorgealin.github.io/cican-dublin-archive/assets/social-preview.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="CICAN Dublin Archive — independent archive of Dublin heritage with a fine-line illustration of historic Dublin architecture.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CICAN DUBLIN ARCHIVE — Explore the Archive">
+<meta name="twitter:description" content="Discover, verify and preserve Dublin's historic streets, buildings, objects and overlooked heritage.">
+<meta name="twitter:image" content="https://cicangeorgealin.github.io/cican-dublin-archive/assets/social-preview.png">
 <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
 <link rel="canonical" href="https://cicangeorgealin.github.io/cican-dublin-archive/archive.html">
 <title>Explore the Archive — CICAN Dublin Archive</title>
@@ -261,6 +276,7 @@ header{height:60px}
 .details-button{border:1px solid #444;background:transparent;color:#bbb;padding:10px 11px;font-size:10px;cursor:pointer}
 .walk-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:#f1f1ed;color:#090909;border:1px solid #f1f1ed;padding:12px 15px;min-height:42px;font-size:10px;font-weight:800;letter-spacing:.09em;white-space:nowrap;transition:background .18s,transform .18s}
 .walk-button:hover{background:#fff;transform:translateY(-1px)}
+.walk-button.is-disabled{background:#171717;color:#777;border-color:#333;opacity:.6;cursor:not-allowed;pointer-events:none}
 .walk-button span{font-size:15px}
 .details-button:hover{border-color:#aaa;color:#fff}
 .empty{padding:24px 4px;color:#999;font-size:13px}
@@ -347,8 +363,12 @@ function recordText(record){
   ...sourceRows.flatMap(source=>[source.id,source.name,source.publisher,source.specific_reference,source.notes])
  ].join(" ");
 }
+function hasGps(record){
+ return Number.isFinite(record.latitude)&&Number.isFinite(record.longitude)&&Math.abs(record.latitude)<=90&&Math.abs(record.longitude)<=180;
+}
 function walkingUrl(record){
- const destination=record.address+", "+record.district+", Dublin, Ireland";
+ if(!hasGps(record))return null;
+ const destination=record.latitude.toFixed(7)+","+record.longitude.toFixed(7);
  return "https://www.google.com/maps/dir/?api=1&destination="+encodeURIComponent(destination)+"&travelmode=walking";
 }
 function render(){
@@ -357,7 +377,9 @@ function render(){
  rows.sort((a,b)=>a.name.localeCompare(b.name));
  $("#count").textContent=rows.length+" PLACES";
  $("#gallery").innerHTML=rows.length?rows.map(record=>{
-  return '<article class="place-row"><div class="place-info" data-open="'+esc(record.id)+'" role="button" tabindex="0" aria-label="View details for '+esc(record.name)+'"><h3 class="place-name">'+esc(record.name)+'</h3><div class="place-address">'+esc(record.address)+' · '+esc(record.district)+'</div><div class="place-category">'+esc(record.category.replaceAll("_"," "))+'</div></div><div class="place-actions"><button class="details-button" type="button" data-open="'+esc(record.id)+'">DETAILS</button><a class="walk-button" href="'+esc(walkingUrl(record))+'" target="_blank" rel="noopener noreferrer"><span>↗</span> WALK THERE</a></div></article>';
+  const walk=walkingUrl(record);
+  const walkAction=walk?'<a class="walk-button" href="'+esc(walk)+'" target="_blank" rel="noopener noreferrer"><span>↗</span> WALK THERE</a>':'<span class="walk-button is-disabled" aria-disabled="true">GPS PENDING</span>';
+  return '<article class="place-row"><div class="place-info" data-open="'+esc(record.id)+'" role="button" tabindex="0" aria-label="View details for '+esc(record.name)+'"><h3 class="place-name">'+esc(record.name)+'</h3><div class="place-address">'+esc(record.address)+' · '+esc(record.district)+'</div><div class="place-category">'+esc(record.category.replaceAll("_"," "))+'</div></div><div class="place-actions"><button class="details-button" type="button" data-open="'+esc(record.id)+'">DETAILS</button>'+walkAction+'</div></article>';
  }).join(""):'<div class="empty">No matching places. Try another search.</div>';
 }
 function safeUrl(value){
@@ -390,8 +412,7 @@ function openRecord(id,updateUrl=true){
  $("#detailId").textContent=record.id;
  $("#detailName").textContent=record.name;
  $("#detailStatus").textContent="";
- const destination=record.address+", "+record.district+", Dublin, Ireland";
- const mapHref="https://www.google.com/maps/dir/?api=1&destination="+encodeURIComponent(destination)+"&travelmode=walking";
+ const mapHref=walkingUrl(record);
  const sourceSection=linkedSources.length?'<div class="source-list">'+linkedSources.map(source=>'<div class="source-entry"><a href="'+esc(safeUrl(source.url))+'" target="_blank" rel="noopener noreferrer">'+esc(source.name)+' ↗</a><small>'+esc([source.publisher,source.specific_reference].filter(Boolean).join(" · "))+'</small></div>').join("")+'</div>':'<p>Historical references are being added.</p>';
  const brief=(record.photography_brief||[]);
  const photoBrief=brief.length?'<ul class="photo-brief">'+brief.map(item=>'<li>'+esc(item)+'</li>').join("")+'</ul>':'<p class="muted-copy">A detailed photography brief has not yet been added.</p>';
@@ -402,9 +423,9 @@ function openRecord(id,updateUrl=true){
   '<details class="fold"><summary>WHAT TO LOOK FOR</summary>'+photoBrief+'</details>'+
   '<details class="fold"><summary>NEARBY ARCHIVE PLACES</summary>'+nearbyMarkup(record)+'</details>'+
   photo+
-  '<section class="place-facts"><div><span>PERIOD</span><b>'+esc(record.historical_period||"Not established")+'</b></div><div><span>ADDRESS</span><b>'+esc(record.address)+', '+esc(record.district)+'</b></div><div><span>ACCESS</span><b>'+esc(record.access_status||"Check local access conditions")+'</b></div></section>'+
+  '<section class="place-facts"><div><span>PERIOD</span><b>'+esc(record.historical_period||"Not established")+'</b></div><div><span>ADDRESS</span><b>'+esc(record.address)+', '+esc(record.district)+'</b></div><div><span>GPS POINT</span><b>'+(hasGps(record)?esc(record.latitude.toFixed(7)+", "+record.longitude.toFixed(7)):"Not yet sourced")+'</b></div><div><span>COORDINATE STATUS</span><b>'+(record.coordinate_status==="FIELD_VERIFIED"?"FIELD VERIFIED":"SOURCE-DERIVED · FIELD CHECK PENDING")+'</b></div><div><span>ACCESS</span><b>'+esc(record.access_status||"Check local access conditions")+'</b></div></section>'+
   evidenceMarkup(record)+
-  '<div class="detail-actions"><a class="action-primary" href="'+esc(mapHref)+'" target="_blank" rel="noopener noreferrer">WALK THERE ↗</a></div>'+
+  '<div class="detail-actions">'+(mapHref?'<a class="action-primary" href="'+esc(mapHref)+'" target="_blank" rel="noopener noreferrer">WALK THERE ↗</a>':'<span class="fieldwork-note">GPS LOCATION PENDING — walking directions are not available until a source coordinate is recorded.</span>')+'</div>'+
   '<details class="fold source-fold"><summary>SOURCES · '+linkedSources.length+'</summary>'+sourceSection+'</details>';
  const photoInput=$("#placePhoto");
  photoInput.addEventListener("change",()=>{

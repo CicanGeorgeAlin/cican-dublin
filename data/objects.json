@@ -10,15 +10,15 @@
     "historical_significance": "Major national monument at the southern entrance to O'Connell Street.",
     "national_inventory_reference": "50010320",
     "national_grid_reference": "315969, 234442",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 53.3477252,
+    "longitude": -6.2593567,
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Public realm; check temporary event restrictions.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=O'Connell%20Monument%20O'Connell%20Street%20Lower%2C%20Dublin%201",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3477252%2C-6.2593567&travelmode=walking",
     "photography_brief": [
       "Full monument from front and sides",
       "O'Connell figure and bronze details",
@@ -26,8 +26,13 @@
       "Granite plinth and inscriptions"
     ],
     "sources": [
-      "NIAH-50010320"
-    ]
+      "NIAH-50010320",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ],
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED"
   },
   {
     "id": "DUB-BLD-0001",
@@ -40,15 +45,15 @@
     "historical_significance": "Headquarters of the 1916 Easter Rising and major civic landmark.",
     "national_inventory_reference": "50010528",
     "national_grid_reference": "315881, 234624",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 53.349379,
+    "longitude": -6.2606109,
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Public exterior; interior access subject to operating hours and venue rules.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=General%20Post%20Office%20(GPO)%20O'Connell%20Street%20Lower%2C%20Dublin%201",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3493790%2C-6.2606109&travelmode=walking",
     "photography_brief": [
       "Full façade from across O'Connell Street",
       "Six Ionic columns and portico ceiling",
@@ -58,8 +63,13 @@
     ],
     "sources": [
       "NIAH-50010528",
-      "NIAH-GPO-HISTORY"
-    ]
+      "NIAH-GPO-HISTORY",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ],
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED"
   },
   {
     "id": "DUB-STR-0001",
@@ -72,15 +82,15 @@
     "historical_significance": "Rare surviving early nineteenth-century street furniture associated with the GPO.",
     "national_inventory_reference": "50010527",
     "national_grid_reference": "315899, 234629",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 53.3494199,
+    "longitude": -6.2603389,
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": "DUB-BLD-0001",
     "access_status": "Public realm; avoid obstructing pedestrians.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=GPO%20historic%20cast-iron%20lantern%20bases%20and%20wheel%20guards%20In%20front%20of%20the%20General%20Post%20Office%2C%20O'Connell%20Street%20Lower%2C%20Dublin%201",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3494199%2C-6.2603389&travelmode=walking",
     "photography_brief": [
       "Both lantern bases in full",
       "Fluted panels, moulding and finials",
@@ -88,8 +98,13 @@
       "Relationship to GPO portico"
     ],
     "sources": [
-      "NIAH-50010527"
-    ]
+      "NIAH-50010527",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ],
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED"
   },
   {
     "id": "DUB-MEM-0001",
@@ -102,15 +117,15 @@
     "historical_significance": "Public memorial commemorating the Great Famine and the suffering and emigration associated with it.",
     "national_inventory_reference": "50010002",
     "national_grid_reference": "316587, 234492",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 53.3480385,
+    "longitude": -6.2500632,
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Public quayside; check temporary works and riverfront conditions.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Famine%20Memorial%20%E2%80%94%20Rowan%20Gillespie%20Custom%20House%20Quay%2C%20Dublin%201",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3480385%2C-6.2500632&travelmode=walking",
     "photography_brief": [
       "Entire group from both ends",
       "Each of the six figures",
@@ -118,8 +133,13 @@
       "Bronze plaques and granite setts"
     ],
     "sources": [
-      "NIAH-50010002"
-    ]
+      "NIAH-50010002",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ],
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED"
   },
   {
     "id": "DUB-INS-0001",
@@ -132,15 +152,15 @@
     "historical_significance": "Names form part of the memorial composition; individual wording must be transcribed from legible photographs.",
     "national_inventory_reference": "Associated with 50010002",
     "national_grid_reference": "316587, 234492",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 53.3480385,
+    "longitude": -6.2500632,
     "verification_status": "PARTIALLY_VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": "DUB-MEM-0001",
     "access_status": "Public quayside; do not step onto restricted surfaces.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Bronze%20name%20plaques%20within%20the%20Famine%20Memorial%20paving%20Granite-sett%20surround%20of%20Famine%20Memorial%2C%20Custom%20House%20Quay%2C%20Dublin%201",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3480385%2C-6.2500632&travelmode=walking",
     "photography_brief": [
       "Photograph each plaque square-on",
       "Capture complete wording and punctuation",
@@ -148,8 +168,13 @@
       "Verify transcription against photograph"
     ],
     "sources": [
-      "NIAH-50010002"
-    ]
+      "NIAH-50010002",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ],
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED"
   },
   {
     "id": "DUB-BLD-0002",
@@ -162,15 +187,15 @@
     "historical_significance": "One of Dublin's major neoclassical civic buildings and a key War of Independence site.",
     "national_inventory_reference": "50010133",
     "national_grid_reference": "316377, 234558",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 53.3486774,
+    "longitude": -6.2531908,
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Public exterior; interior access subject to OPW opening and photography rules.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=The%20Custom%20House%20Custom%20House%20Quay%2C%20Beresford%20Place%2C%20Dublin%201",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3486774%2C-6.2531908&travelmode=walking",
     "photography_brief": [
       "Full river-facing façade and dome",
       "Central portico and sculptural details",
@@ -178,8 +203,13 @@
       "Corner pavilions and stonework"
     ],
     "sources": [
-      "NIAH-50010133"
-    ]
+      "NIAH-50010133",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ],
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED"
   },
   {
     "id": "DUB-MON-0002",
@@ -192,15 +222,15 @@
     "historical_significance": "Commemorates the politician associated with the campaign for legislative independence.",
     "national_inventory_reference": "50020253",
     "national_grid_reference": "315949, 234073",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 53.3444156,
+    "longitude": -6.2597919,
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Traffic island; photograph only from safe pedestrian viewpoints.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Henry%20Grattan%20Monument%20College%20Green%2C%20Dublin%202",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3444156%2C-6.2597919&travelmode=walking",
     "photography_brief": [
       "Full statue and pedestal",
       "Bronze figure and details",
@@ -208,8 +238,13 @@
       "Two surviving seahorse gas-lamp standards"
     ],
     "sources": [
-      "NIAH-50020253"
-    ]
+      "NIAH-50020253",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ],
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED"
   },
   {
     "id": "DUB-MON-0003",
@@ -222,15 +257,15 @@
     "historical_significance": "Commemorates Irish writer and nationalist thinker Thomas Davis (1814–1845); occupies the site of the former William of Orange statue.",
     "national_inventory_reference": "50020252",
     "national_grid_reference": "315894, 234065",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 53.3443558,
+    "longitude": -6.2606202,
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Traffic island; use safe public pedestrian viewpoints only.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Thomas%20Davis%20Monument%20and%20Fountain%20College%20Green%2C%20Dublin%202",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3443558%2C-6.2606202&travelmode=walking",
     "photography_brief": [
       "Full statue and fountain",
       "Four bronze herald figures",
@@ -239,8 +274,13 @@
       "Footpath plaque from safe position"
     ],
     "sources": [
-      "NIAH-50020252"
-    ]
+      "NIAH-50020252",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ],
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED"
   },
   {
     "id": "DUB-MON-0004",
@@ -253,15 +293,15 @@
     "historical_significance": "Commemorates George Salmon (1819–1904), Provost of Trinity College from 1888 to 1904.",
     "national_inventory_reference": "50020521",
     "national_grid_reference": "316112, 234055",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 53.3442183,
+    "longitude": -6.2573524,
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Trinity College campus; check visitor access and photography policy.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=George%20Salmon%20Statue%20Trinity%20College%20Dublin%2C%20north%20of%20the%20Campanile%2C%20College%20Green%2C%20Dublin%202",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3442183%2C-6.2573524&travelmode=walking",
     "photography_brief": [
       "Full seated figure and chair",
       "Marble carving",
@@ -269,8 +309,13 @@
       "Context with Campanile"
     ],
     "sources": [
-      "NIAH-50020521"
-    ]
+      "NIAH-50020521",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ],
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED"
   },
   {
     "id": "DUB-MON-0005",
@@ -283,15 +328,15 @@
     "historical_significance": "Commemorates Irish historian and political theorist W. E. H. Lecky (1838–1903).",
     "national_inventory_reference": "50020520",
     "national_grid_reference": "316112, 234093",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 53.3445595,
+    "longitude": -6.2573384,
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Trinity College campus; check visitor access and photography policy.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Lecky%20Statue%20Trinity%20College%20Dublin%2C%20Library%20Square%2C%20Dublin%202",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3445595%2C-6.2573384&travelmode=walking",
     "photography_brief": [
       "Full seated bronze figure",
       "Maker's name and date",
@@ -299,8 +344,13 @@
       "Wider view of Library Square"
     ],
     "sources": [
-      "NIAH-50020520"
-    ]
+      "NIAH-50020520",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ],
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED"
   },
   {
     "id": "DUB-MON-0006",
@@ -313,15 +363,15 @@
     "historical_significance": "Commemorates Edmund Burke (1729–1797), Dublin-born political thinker and Trinity alumnus.",
     "national_inventory_reference": "50020374",
     "national_grid_reference": "315991, 234090",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 53.3445591,
+    "longitude": -6.2591554,
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Trinity College campus; check visitor access and photography policy.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Edmund%20Burke%20Statue%20Trinity%20College%20Dublin%2C%20north%20of%20main%20entrance%2C%20College%20Green%2C%20Dublin%202",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3445591%2C-6.2591554&travelmode=walking",
     "photography_brief": [
       "Full standing figure",
       "Bronze surface and pose",
@@ -329,8 +379,13 @@
       "Context with college entrance"
     ],
     "sources": [
-      "NIAH-50020374"
-    ]
+      "NIAH-50020374",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ],
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED"
   },
   {
     "id": "DUB-ART-0001",
@@ -343,15 +398,15 @@
     "historical_significance": "Nationally rated public artwork recorded by NIAH.",
     "national_inventory_reference": "50020518",
     "national_grid_reference": "316124, 234000",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 53.3437217,
+    "longitude": -6.2571924,
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Trinity College campus; check visitor access and photography policy.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Cactus%20Provisoire%20%E2%80%94%20Alexander%20Calder%20Fellows%20Square%2C%20Trinity%20College%20Dublin%2C%20Dublin%202",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3437217%2C-6.2571924&travelmode=walking",
     "photography_brief": [
       "Whole sculpture from multiple directions",
       "Welds, rivets and steel forms",
@@ -359,8 +414,13 @@
       "Cobbled setting and limestone plaque"
     ],
     "sources": [
-      "NIAH-50020518"
-    ]
+      "NIAH-50020518",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ],
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED"
   },
   {
     "id": "DUB-ART-0002",
@@ -373,15 +433,15 @@
     "historical_significance": "Nationally rated modern sculpture contrasting with classical architecture.",
     "national_inventory_reference": "50020517",
     "national_grid_reference": "316118, 234100",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 53.3446211,
+    "longitude": -6.2572458,
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Trinity College campus; check visitor access and photography policy.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Reclining%20Figures%20%E2%80%94%20Henry%20Moore%20Library%20Square%2C%20Trinity%20College%20Dublin%2C%20Dublin%202",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3446211%2C-6.2572458&travelmode=walking",
     "photography_brief": [
       "Sculpture from accessible sides",
       "Bronze form and texture",
@@ -389,8 +449,13 @@
       "Context with Library Square"
     ],
     "sources": [
-      "NIAH-50020517"
-    ]
+      "NIAH-50020517",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ],
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED"
   },
   {
     "id": "DUB-BLD-0003",
@@ -403,15 +468,15 @@
     "historical_significance": "Major eighteenth-century civic building associated with Dublin's commercial and municipal history.",
     "national_inventory_reference": "50910009",
     "national_grid_reference": "315460, 233998",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 53.3438489,
+    "longitude": -6.2671578,
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Public exterior; interior subject to City Hall visitor rules.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=City%20Hall%20(former%20Royal%20Exchange)%20Cork%20Hill%2C%20Dublin%202",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3438489%2C-6.2671578&travelmode=walking",
     "photography_brief": [
       "Full exterior from Cork Hill",
       "Portico and columns",
@@ -419,8 +484,13 @@
       "Commemorative inscriptions"
     ],
     "sources": [
-      "NIAH-50910009"
-    ]
+      "NIAH-50910009",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ],
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED"
   },
   {
     "id": "DUB-BLD-0004",
@@ -433,15 +503,15 @@
     "historical_significance": "Building with documented associations with policing and the revolutionary period.",
     "national_inventory_reference": "50910280",
     "national_grid_reference": "315484, 233985",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 53.3437269,
+    "longitude": -6.2668023,
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Public street view; not a visitor attraction. Do not enter private premises.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Old%20Detective%20Office%2C%201%20Exchange%20Court%201%20Exchange%20Court%2C%20Dublin%202",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3437269%2C-6.2668023&travelmode=walking",
     "photography_brief": [
       "Full façade from public space",
       "Commemorative granite plaque",
@@ -449,8 +519,13 @@
       "Brickwork and sash windows"
     ],
     "sources": [
-      "NIAH-50910280"
-    ]
+      "NIAH-50910280",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ],
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED"
   },
   {
     "id": "DUB-MON-0007",
@@ -463,15 +538,15 @@
     "historical_significance": "Commemorates labour leader Jim Larkin and recalls his address to an illegal assembly from a hotel balcony during the 1913 Lockout.",
     "national_inventory_reference": "50010519",
     "national_grid_reference": "315925, 234593",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 53.3490909,
+    "longitude": -6.2599619,
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Public street setting; photograph from the footpath without obstructing pedestrians or entering the carriageway.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Jim+Larkin+Monument+O%27Connell+Street+Lower+Dublin+1",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3490909%2C-6.2599619&travelmode=walking",
     "photography_brief": [
       "Full statue and pedestal from all safe public viewpoints",
       "Bronze surface, face, hands and outstretched arms",
@@ -480,11 +555,15 @@
       "Wide context showing the monument's street setting"
     ],
     "sources": [
-      "NIAH-50010519"
+      "NIAH-50010519",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "PRIMARY_OBJECT",
-    "coordinate_status": "NOT_SET",
-    "research_notes": "NIAH record accessed 2026-10-24. Coordinates retained only in the source's stated grid reference field; no decimal GPS derived. On-site check required for present condition and access."
+    "coordinate_status": "SOURCE_DERIVED",
+    "research_notes": "NIAH record accessed 2026-10-24. Coordinates retained only in the source's stated grid reference field; no decimal GPS derived. On-site check required for present condition and access.",
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null
   },
   {
     "id": "DUB-INS-0002",
@@ -497,15 +576,15 @@
     "historical_significance": "The inscriptions form an integral documentary component of the monument and preserve quotations and literary tributes associated with the labour leader.",
     "national_inventory_reference": "Associated with NIAH 50010519",
     "national_grid_reference": "315925, 234593",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 53.3490909,
+    "longitude": -6.2599619,
     "verification_status": "PARTIALLY_VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": "DUB-MON-0007",
     "access_status": "Public street setting; photograph from the footpath without obstructing pedestrians.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Jim+Larkin+Monument+O%27Connell+Street+Lower+Dublin+1",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3490909%2C-6.2599619&travelmode=walking",
     "photography_brief": [
       "Photograph each of the three plaques straight-on",
       "Capture complete wording, line breaks and punctuation",
@@ -513,11 +592,15 @@
       "Do not publish a transcription until checked against original photographs"
     ],
     "sources": [
-      "NIAH-50010519"
+      "NIAH-50010519",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "NOT_SET",
-    "research_notes": "Existence and placement are recorded by NIAH; complete wording has not yet been independently transcribed."
+    "coordinate_status": "SOURCE_DERIVED",
+    "research_notes": "Existence and placement are recorded by NIAH; complete wording has not yet been independently transcribed.",
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null
   },
   {
     "id": "DUB-STR-0002",
@@ -530,15 +613,15 @@
     "historical_significance": "Regional-rated example of early Irish state postal street furniture; the P&T insignia dates it to the early years of the Irish Republic.",
     "national_inventory_reference": "50010137",
     "national_grid_reference": "316517, 234862",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 53.3513768,
+    "longitude": -6.2509778,
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Public footpath; do not obstruct postal operations or pedestrian movement.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Post+Box+Talbot+Street+Dublin+1",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3513768%2C-6.2509778&travelmode=walking",
     "photography_brief": [
       "Full post box including plinth and cap",
       "P&T insignia and front elevation",
@@ -547,11 +630,15 @@
       "Context photograph establishing exact location"
     ],
     "sources": [
-      "NIAH-50010137"
+      "NIAH-50010137",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "PRIMARY_OBJECT",
-    "coordinate_status": "NOT_SET",
-    "research_notes": "NIAH gives grid coordinates 316517, 234862; decimal GPS intentionally left null pending controlled coordinate conversion and field verification."
+    "coordinate_status": "SOURCE_DERIVED",
+    "research_notes": "NIAH gives grid coordinates 316517, 234862; decimal GPS intentionally left null pending controlled coordinate conversion and field verification.",
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null
   },
   {
     "id": "DUB-STR-0003",
@@ -564,15 +651,15 @@
     "historical_significance": "Regional-rated Victorian street object that remains in postal use and documents the design and manufacture of nineteenth-century cast-iron postal infrastructure.",
     "national_inventory_reference": "50010760",
     "national_grid_reference": "315856, 235627",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 53.3583922,
+    "longitude": -6.2606193,
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Public footpath; avoid obstructing postal operations or pedestrians.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Gardiner+Street+Upper+Dublin+1",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3583922%2C-6.2606193&travelmode=walking",
     "photography_brief": [
       "Full pillar box from front and side",
       "VR insignia and fluted collar",
@@ -581,11 +668,15 @@
       "Context photograph establishing exact position"
     ],
     "sources": [
-      "NIAH-50010760"
+      "NIAH-50010760",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "PRIMARY_OBJECT",
-    "coordinate_status": "NOT_SET",
-    "research_notes": "NIAH gives grid coordinates 315856, 235627; decimal GPS intentionally left null pending controlled coordinate conversion and field verification."
+    "coordinate_status": "SOURCE_DERIVED",
+    "research_notes": "NIAH gives grid coordinates 315856, 235627; decimal GPS intentionally left null pending controlled coordinate conversion and field verification.",
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null
   },
   {
     "id": "DUB-BLD-0005",
@@ -598,15 +689,15 @@
     "historical_significance": "One of the few Talbot Street buildings identified by NIAH as predating the destruction associated with the 1916 Rising; it retains Victorian fabric and contributes to the historic street terrace.",
     "national_inventory_reference": "50010206",
     "national_grid_reference": "316154, 234766",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 53.3505944,
+    "longitude": -6.2564614,
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Photograph the public-facing exterior from the footpath; do not enter private premises without permission.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=10+Talbot+Street+Dublin+1",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3505944%2C-6.2564614&travelmode=walking",
     "photography_brief": [
       "Full façade, including roofline and shopfront",
       "Upper-floor Flemish-bond brickwork",
@@ -615,11 +706,15 @@
       "Relationship to adjoining historic terrace"
     ],
     "sources": [
-      "NIAH-50010206"
+      "NIAH-50010206",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "PRIMARY_OBJECT",
-    "coordinate_status": "NOT_SET",
-    "research_notes": "NIAH record and registration number identified; direct page retrieval was restricted during this research pass, so source details are retained as indexed NIAH record data and should be checked against the live register before publication."
+    "coordinate_status": "SOURCE_DERIVED",
+    "research_notes": "NIAH record and registration number identified; direct page retrieval was restricted during this research pass, so source details are retained as indexed NIAH record data and should be checked against the live register before publication.",
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null
   },
   {
     "id": "DUB-INF-0001",
@@ -632,15 +727,15 @@
     "historical_significance": "A major surviving piece of late nineteenth-century railway engineering that links Connolly Station on the north side of the Liffey with the south-side rail network; its construction transformed the city skyline and remains part of the active transport system.",
     "national_inventory_reference": "50010134",
     "national_grid_reference": "316486, 234845",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 53.351231,
+    "longitude": -6.2514493,
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Public-facing exterior or street object; respect private property, traffic, active transport infrastructure and any posted access restrictions.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Loop%20Line%20railway%20viaduct%20over%20Talbot%20Street%20Talbot%20Street%2C%20Dublin%201",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3512310%2C-6.2514493&travelmode=walking",
     "photography_brief": [
       "Full viaduct span and bow-string profile from safe public viewpoints",
       "Riveted steelwork and star motifs in parapet",
@@ -649,11 +744,15 @@
       "Context showing the railway crossing Talbot Street"
     ],
     "sources": [
-      "NIAH-50010134"
+      "NIAH-50010134",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "PRIMARY_OBJECT",
-    "coordinate_status": "NOT_SET",
-    "research_notes": "NIAH registration 50010134; grid reference retained as supplied. Active railway infrastructure: no access to tracks, bridge structure or restricted railway property."
+    "coordinate_status": "SOURCE_DERIVED",
+    "research_notes": "NIAH registration 50010134; grid reference retained as supplied. Active railway infrastructure: no access to tracks, bridge structure or restricted railway property.",
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null
   },
   {
     "id": "DUB-STR-0004",
@@ -666,15 +765,15 @@
     "historical_significance": "A well-preserved Edwardian post box still in use, documenting late British-era postal infrastructure and historic granite street edging.",
     "national_inventory_reference": "50010238",
     "national_grid_reference": "316004, 234830",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 53.3512021,
+    "longitude": -6.2586894,
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Public-facing exterior or street object; respect private property, traffic, active transport infrastructure and any posted access restrictions.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Marlborough%20Street%20Edwardian%20post%20box%20West%20side%20of%20Marlborough%20Street%2C%20Dublin%201%2C%20north%20of%20the%20Pro-Cathedral",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3512021%2C-6.2586894&travelmode=walking",
     "photography_brief": [
       "Full post box and granite kerb setting",
       "RE VII POST OFFICE insignia and crown",
@@ -683,11 +782,15 @@
       "Context photograph establishing exact pavement position"
     ],
     "sources": [
-      "NIAH-50010238"
+      "NIAH-50010238",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "PRIMARY_OBJECT",
-    "coordinate_status": "NOT_SET",
-    "research_notes": "NIAH registration 50010238; grid reference retained. Verify exact current position and condition on site."
+    "coordinate_status": "SOURCE_DERIVED",
+    "research_notes": "NIAH registration 50010238; grid reference retained. Verify exact current position and condition on site.",
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null
   },
   {
     "id": "DUB-BLD-0006",
@@ -700,15 +803,15 @@
     "historical_significance": "One of a small number of eighteenth-century buildings surviving on Marlborough Street; the upper façade retains an important historic composition despite alterations at ground level.",
     "national_inventory_reference": "50010218",
     "national_grid_reference": "316059, 234692",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 53.3499507,
+    "longitude": -6.2579144,
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Public-facing exterior or street object; respect private property, traffic, active transport infrastructure and any posted access restrictions.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=23%20Marlborough%20Street%2023%20Marlborough%20Street%2C%20Dublin%201",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3499507%2C-6.2579144&travelmode=walking",
     "photography_brief": [
       "Full façade and roofline",
       "Flemish-bond brickwork and parapet",
@@ -717,11 +820,15 @@
       "Relationship to adjoining terrace"
     ],
     "sources": [
-      "NIAH-50010218"
+      "NIAH-50010218",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "PRIMARY_OBJECT",
-    "coordinate_status": "NOT_SET",
-    "research_notes": "NIAH registration 50010218; grid reference retained. Photograph only from public pavement; present commercial use may alter the ground-floor appearance."
+    "coordinate_status": "SOURCE_DERIVED",
+    "research_notes": "NIAH registration 50010218; grid reference retained. Photograph only from public pavement; present commercial use may alter the ground-floor appearance.",
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null
   },
   {
     "id": "DUB-BLD-0007",
@@ -734,15 +841,15 @@
     "historical_significance": "An unusual surviving mid-eighteenth-century townhouse whose distinctive chimney-like feature and doorway contribute to the historic character of Marlborough Street.",
     "national_inventory_reference": "50010235",
     "national_grid_reference": "315982, 234867",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 53.3515392,
+    "longitude": -6.2590061,
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Public-facing exterior or street object; respect private property, traffic, active transport infrastructure and any posted access restrictions.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=77%20Marlborough%20Street%2077%20Marlborough%20Street%2C%20Dublin%201",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3515392%2C-6.2590061&travelmode=walking",
     "photography_brief": [
       "Full façade and roofline",
       "Distinctive chimney feature, limestone pedestal and console",
@@ -751,11 +858,15 @@
       "Context with the street corner and adjoining buildings"
     ],
     "sources": [
-      "NIAH-50010235"
+      "NIAH-50010235",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "PRIMARY_OBJECT",
-    "coordinate_status": "NOT_SET",
-    "research_notes": "NIAH registration 50010235; grid reference retained. NIAH notes that the projecting chimney feature may relate to a demolished adjoining building; do not assert its original function without further evidence."
+    "coordinate_status": "SOURCE_DERIVED",
+    "research_notes": "NIAH registration 50010235; grid reference retained. NIAH notes that the projecting chimney feature may relate to a demolished adjoining building; do not assert its original function without further evidence.",
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null
   },
   {
     "id": "DUB-BLD-0008",
@@ -768,15 +879,15 @@
     "historical_significance": "A Georgian townhouse retaining a strong combination of brick, granite, timber joinery and metal boundary details, all independently valuable for close-up field photography.",
     "national_inventory_reference": "50010230",
     "national_grid_reference": "315991, 234836",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 53.3512588,
+    "longitude": -6.2588823,
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Public-facing exterior or street object; respect private property, traffic, active transport infrastructure and any posted access restrictions.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=82%20Marlborough%20Street%2082%20Marlborough%20Street%2C%20Dublin%201",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3512588%2C-6.2588823&travelmode=walking",
     "photography_brief": [
       "Full façade including raised basement",
       "Doorcase, fanlight and granite entrance platform",
@@ -785,11 +896,15 @@
       "Basement grille and stone courses"
     ],
     "sources": [
-      "NIAH-50010230"
+      "NIAH-50010230",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "PRIMARY_OBJECT",
-    "coordinate_status": "NOT_SET",
-    "research_notes": "NIAH registration 50010230; grid reference retained. The railings and entrance platform should be photographed as details of the parent building rather than duplicated as unrelated records unless field evidence supports a distinct record."
+    "coordinate_status": "SOURCE_DERIVED",
+    "research_notes": "NIAH registration 50010230; grid reference retained. The railings and entrance platform should be photographed as details of the parent building rather than duplicated as unrelated records unless field evidence supports a distinct record.",
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null
   },
   {
     "id": "DUB-BLD-0009",
@@ -802,15 +917,15 @@
     "historical_significance": "A substantial mid-nineteenth-century institutional building with unusually rich masonry and decorative details, documenting the architectural development of Talbot Street.",
     "national_inventory_reference": "50010207",
     "national_grid_reference": "316136, 234755",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 53.3504996,
+    "longitude": -6.2567356,
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Public-facing exterior or street object; respect private property, traffic, active transport infrastructure and any posted access restrictions.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Talbot%20House%2C%209%20Talbot%20Street%209%20Talbot%20Street%2C%20Dublin%201",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3504996%2C-6.2567356&travelmode=walking",
     "photography_brief": [
       "Full eleven-bay façade and central breakfront",
       "Granite ashlar ground floor and rusticated quoins",
@@ -819,11 +934,15 @@
       "Basement openings and street relationship"
     ],
     "sources": [
-      "NIAH-50010207"
+      "NIAH-50010207",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "PRIMARY_OBJECT",
-    "coordinate_status": "NOT_SET",
-    "research_notes": "NIAH registration 50010207; grid reference retained. Check present access and avoid entering the building without permission."
+    "coordinate_status": "SOURCE_DERIVED",
+    "research_notes": "NIAH registration 50010207; grid reference retained. Check present access and avoid entering the building without permission.",
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null
   },
   {
     "id": "DUB-BLD-0010",
@@ -836,15 +955,15 @@
     "historical_significance": "A significant nineteenth-century institutional building associated with the National Model Schools, retaining a carefully composed granite façade and substantial architectural detail.",
     "national_inventory_reference": "50010222",
     "national_grid_reference": "316048, 234830",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 53.3511924,
+    "longitude": -6.258029,
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Public-facing exterior or street object; respect private property, traffic, active transport infrastructure and any posted access restrictions.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=National%20Model%20Schools%2C%20Marlborough%20Street%20%E2%80%94%20main%20school%20building%20Marlborough%20Street%2C%20Dublin%201",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3511924%2C-6.2580290&travelmode=walking",
     "photography_brief": [
       "Full front elevation and seven-bay composition",
       "Granite ashlar walling and entrance porch",
@@ -853,11 +972,15 @@
       "Context and present-day access signage"
     ],
     "sources": [
-      "NIAH-50010222"
+      "NIAH-50010222",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "PRIMARY_OBJECT",
-    "coordinate_status": "NOT_SET",
-    "research_notes": "NIAH registration 50010222; grid reference retained. Do not assume interior access; photograph the exterior from lawful public viewpoints."
+    "coordinate_status": "SOURCE_DERIVED",
+    "research_notes": "NIAH registration 50010222; grid reference retained. Do not assume interior access; photograph the exterior from lawful public viewpoints.",
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null
   },
   {
     "id": "DUB-STR-0005",
@@ -870,16 +993,16 @@
     "historical_significance": "A surviving group of ornate Victorian street furniture contributing to the accumulated historic streetscape of O’Connell Street. NIAH suggests they may originally have functioned as air vents; this proposed function is not treated as certain.",
     "national_inventory_reference": "50010556",
     "national_grid_reference": "315817, 234965",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_status": "NOT_SET",
+    "latitude": 53.3524554,
+    "longitude": -6.2614468,
+    "coordinate_status": "SOURCE_DERIVED",
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Public central mall; photograph from pedestrian areas and remain clear of traffic, tram infrastructure and temporary restrictions.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=O%27Connell+Street+Upper%2C+Dublin+1",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3524554%2C-6.2614468&travelmode=walking",
     "photography_brief": [
       "Photograph all four bollards as a group and individually",
       "Record full height, cap and foliate motifs",
@@ -887,10 +1010,14 @@
       "Document their relationship to the central mall and granite paving"
     ],
     "sources": [
-      "NIAH-50010556"
+      "NIAH-50010556",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "PRIMARY_OBJECT",
-    "research_notes": "NIAH registration 50010556. The inventory proposes, but does not prove, an original air-vent function. Current condition and exact on-site positions await founder field photography."
+    "research_notes": "NIAH registration 50010556. The inventory proposes, but does not prove, an original air-vent function. Current condition and exact on-site positions await founder field photography.",
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null
   },
   {
     "id": "DUB-STR-0006",
@@ -903,16 +1030,16 @@
     "historical_significance": "A surviving fragment of the former security boundary around the Custom House docks complex, documenting the industrial and commercial history of Dublin’s north quays. A local legend attributes the wall to French prisoners, but that story is not established by the inventory and is not presented as fact.",
     "national_inventory_reference": "50060568",
     "national_grid_reference": "316869, 234776",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_status": "NOT_SET",
+    "latitude": 53.3505269,
+    "longitude": -6.2457261,
+    "coordinate_status": "SOURCE_DERIVED",
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Photograph from lawful public viewpoints on Commons Street. Respect railway property, active transport operations and any barriers or access restrictions.",
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Commons+Street%2C+Dublin+1",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3505269%2C-6.2457261&travelmode=walking",
     "photography_brief": [
       "Full surviving wall elevation and its street relationship",
       "Limestone rubble lower section and granite string course",
@@ -921,9 +1048,13 @@
       "Original cobbled street surface and granite kerbs beside the wall"
     ],
     "sources": [
-      "NIAH-50060568"
+      "NIAH-50060568",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "PRIMARY_OBJECT",
-    "research_notes": "NIAH registration 50060568. The NIAH description records twentieth-century alterations and the adjacent cobbled street surface. The French-prisoner story is explicitly treated as unverified folklore. Exact surviving extent and current condition await field photography."
+    "research_notes": "NIAH registration 50060568. The NIAH description records twentieth-century alterations and the adjacent cobbled street surface. The French-prisoner story is explicitly treated as unverified folklore. Exact surviving extent and current condition await field photography.",
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null
   }
 ]

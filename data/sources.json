@@ -291,5 +291,25 @@
     "source_type": "GOVERNMENT",
     "specific_reference": "Dublin City Heritage Plan 2002–2012 Review of Architectural Heritage Projects, pp. 28–29; study dated 2009 and supplementary 2010 setted-streets resurvey",
     "notes": "Council review describes a historic street-furniture and street-surfaces inventory and reports 27 streets with complete granite-flagged pavements, approximately 118 streets with surviving kerbstones, 37 streets with complete setted surfaces (including some modern reinstatements), and a 2010 resurvey identifying 78 streets/lanes. These are historical survey totals, not a current condition count; named streets and present survival must be checked before creating object records."
+  },
+  {
+    "id": "SRC-NIAH-NATIONAL-DATASET",
+    "name": "National Inventory of Architectural Heritage (NIAH) National Dataset — coordinate provenance",
+    "publisher": "Department of Housing, Local Government and Heritage via data.gov.ie",
+    "url": "https://data.gov.ie/dataset/national-inventory-of-architectural-heritage-niah-national-dataset",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "Spatial Reference Systems and provenance metadata",
+    "notes": "Dataset metadata identifies Irish Transverse Mercator (ITM, EPSG:2157) as the current spatial reference system and states that downloads include both Irish Grid and ITM coordinates to facilitate transition. It also explains that existing point centroids were digitised relative to OSI 6-inch mapping and that the older IG-referenced series requires revision against larger-scale ITM mapping. This is why converted points are source-derived and still require field checking."
+  },
+  {
+    "id": "SRC-EPSG-TM65-29902",
+    "name": "TM65 / Irish Grid — EPSG:29902 and WGS 84 transformation",
+    "publisher": "EPSG Geodetic Parameter Dataset",
+    "url": "https://epsg.io/29902",
+    "accessed": "2026-10-24",
+    "source_type": "OTHER",
+    "specific_reference": "EPSG:29902; TM65 to WGS 84 (2), transformation operation 1641",
+    "notes": "Defines the legacy TM65 / Irish Grid projected coordinate reference system in metres and its transformation to WGS 84. The published transformation accuracy is 1 metre; this does not establish the accuracy of the source NIAH point centroid."
   }
 ]

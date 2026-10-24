@@ -10,7 +10,7 @@ https://cicangeorgealin.github.io/cican-dublin-archive/
 
 ## Current catalogue
 
-The catalogue currently contains **29 records** across Dublin 1 and Dublin 2, linked to **34 source entries**. This batch added two separately documented street-fabric records: four Victorian cast-iron bollards on O’Connell Street and the historic Custom House Docks boundary wall on Commons Street.
+The catalogue currently contains **29 records** across Dublin 1 and Dublin 2, linked to **36 source entries**. This batch added two separately documented street-fabric records: four Victorian cast-iron bollards on O’Connell Street and the historic Custom House Docks boundary wall on Commons Street.
 
 - **27 VERIFIED** records.
 - **2 PARTIALLY_VERIFIED** records, where specific details still require field confirmation.
@@ -67,7 +67,15 @@ The website displays research records as placeholders until original field photo
 
 ## Geographic and coordinate accuracy
 
-National Grid references are preserved separately. Latitude and longitude remain null until reliable conversion or field verification. Postal districts are operational research zones, not proof that an area has been fully surveyed.
+All **29 current records** now have decimal WGS 84 coordinates derived from their published NIAH Irish Grid references (TM65 / Irish Grid, EPSG:29902), transformed using EPSG operation 1641. The original Irish Grid references remain preserved in the catalogue. Every WALK THERE link uses the record's latitude and longitude as its Google Maps walking destination, not an address or street-name search.
+
+These are **source-derived map points, not founder-recorded GPS fixes**. NIAH dataset metadata explains that legacy point centroids were digitised relative to OSI 6-inch mapping and may need revision against larger-scale mapping. The EPSG coordinate transformation has a published 1 m accuracy, but that does not establish the accuracy of the underlying NIAH point. Field verification remains outstanding; no coordinate is labelled FIELD_VERIFIED until checked on site. Future records must retain a published coordinate reference or another documented source—never estimate a pin from an address.
+
+Postal districts are operational research zones, not proof that an area has been fully surveyed.
+
+## Social sharing
+
+The homepage and archive page use the same 1200 × 630 CICAN feature image for Open Graph and large-card social previews. GitHub Actions renders the PNG from the repository's SVG source during deployment.
 
 ## Founder
 

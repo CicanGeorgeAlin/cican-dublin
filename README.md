@@ -33,6 +33,8 @@ RESEARCH → VERIFY → REGISTER → PLAN FIELDWORK → FOUNDER PHOTOGRAPHS → 
 - `data/districts.json` — 22 geographic research zones.
 - `data/categories.json` — discovery taxonomy.
 - `data/sources.json` — source registry.
+- `schemas/` — JSON Schema contracts for objects, sources and geographic zones.
+- `documentation/DATA-ARCHITECTURE.md` — canonical data model, coordinate provenance and validation rules.
 - `routes/` — proposed and completed fieldwork plans.
 - `research/` — source-based investigations.
 - `photos/originals/` — founder's original photographs.

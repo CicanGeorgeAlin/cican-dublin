@@ -20,7 +20,7 @@ h1{font-size:clamp(36px,6vw,70px);line-height:.95;letter-spacing:-.075em;margin:
 .intro{max-width:680px;color:#aaa;font-size:13px;line-height:1.8;margin:0}.intro strong{color:#eee;font-weight:600}.stats{display:flex;gap:28px;flex-wrap:wrap;margin-top:28px}.stat{font-size:9px;letter-spacing:.13em;color:#777}.stat b{display:block;color:#f2f2f2;font-size:18px;letter-spacing:-.04em;margin-bottom:4px}.stat span{display:block}
 .archive{padding:34px 0 80px}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:18px}
 .controls{display:flex;gap:8px;flex:1}.controls input,.controls select{background:#0a0a0a;border:1px solid #333;color:#eee;padding:11px 12px;font-size:11px;min-width:0}.controls input{flex:1;max-width:420px}.controls select{max-width:180px}
-.count{font-size:10px;color:#888;white-space:nowrap;letter-spacing:.08em}
+.count{font-size:10px;color:#888;white-space:nowrap;letter-spacing:.08em}.toolbar-side{display:flex;align-items:center;gap:10px}.reset{white-space:nowrap}.related-list{display:flex;flex-wrap:wrap;gap:5px}.source-entry{margin:10px 0}.source-entry small{display:block;color:#777;font-size:9px;line-height:1.55;margin-top:3px}.source-list a{display:block;font-size:11px;text-decoration:underline;text-underline-offset:3px}.related-link{background:transparent;color:#eee;border:1px solid #444;padding:7px 9px;font-size:10px;cursor:pointer}
 .filters{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 22px}.chip{border:1px solid #333;background:transparent;color:#aaa;padding:7px 10px;font-size:9px;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}.chip.active,.chip:hover{border-color:#eee;color:#fff}
 .gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
 .item{min-width:0;cursor:pointer}.photo{aspect-ratio:4/3;background:linear-gradient(145deg,#101010,#080808);border:1px solid #292929;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;transition:border-color .2s}
@@ -34,41 +34,94 @@ dialog{width:min(700px,calc(100% - 24px));max-height:88vh;overflow:auto;backgrou
 .detail-head{padding:20px 22px;border-bottom:1px solid #333;display:flex;justify-content:space-between;gap:16px}.detail-head h2{font-size:23px;line-height:1.12;letter-spacing:-.05em;margin:7px 0}.detail-kicker{font-size:9px;color:#999;letter-spacing:.16em}.close{background:none;border:1px solid #555;color:#fff;padding:7px 10px;cursor:pointer}
 .detail-body{padding:20px 22px}.detail-body p{font-size:12px;line-height:1.7;color:#bbb}.meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:17px 0}.meta{border:1px solid #292929;padding:10px}.meta small{display:block;font-size:8px;color:#888;letter-spacing:.12em;text-transform:uppercase}.meta b{font-size:10px;font-weight:550}.detail-body h3{font-size:10px;letter-spacing:.13em;text-transform:uppercase;margin:22px 0 8px}.detail-note{border-left:2px solid #777;padding:8px 12px;margin:14px 0;color:#aaa;font-size:11px;line-height:1.65}.source-list small{display:block;color:#777;font-size:9px;margin-top:3px}.related-link{display:inline-block;margin:4px 6px 4px 0;border:1px solid #444;padding:7px 9px;font-size:10px}.detail-body ul{font-size:11px;line-height:1.8;color:#bbb;padding-left:18px}.source-list a{display:block;font-size:11px;text-decoration:underline;text-underline-offset:3px;margin:8px 0}.detail-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}.detail-actions a,.detail-actions button{background:transparent;border:1px solid #555;color:#eee;padding:10px 12px;font-size:10px;cursor:pointer}
 @media(max-width:900px){.gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:600px){.wrap{width:calc(100% - 28px)}header{height:64px}.navlinks{gap:12px;font-size:8px}.hero{padding:42px 0 30px}.gallery{grid-template-columns:1fr;gap:22px}.photo{aspect-ratio:5/3}.toolbar{align-items:flex-start;flex-direction:column}.controls{width:100%}.controls input{max-width:none}.controls select{max-width:135px}.foot{align-items:flex-start;flex-direction:column}.meta-grid{grid-template-columns:1fr}}
+@media(max-width:600px){.toolbar-side{width:100%;justify-content:space-between}.wrap{width:calc(100% - 28px)}header{height:64px}.navlinks{gap:12px;font-size:8px}.hero{padding:42px 0 30px}.gallery{grid-template-columns:1fr;gap:22px}.photo{aspect-ratio:5/3}.toolbar{align-items:flex-start;flex-direction:column}.controls{width:100%}.controls input{max-width:none}.controls select{max-width:135px}.foot{align-items:flex-start;flex-direction:column}.meta-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 <header><div class="wrap nav"><a class="brand" href="#top"><span class="mark">C</span><span>CICAN<br>DUBLIN ARCHIVE</span></a><nav class="navlinks"><a href="#archive">Photographic archive</a><a href="https://github.com/CicanGeorgeAlin/cican-dublin-archive">Project ↗</a></nav></div></header>
 <main id="top"><section class="wrap hero"><div class="eyebrow">Dublin · Ireland · A living visual record</div><h1>SEE DUBLIN<br>THROUGH ITS DETAILS.</h1><p class="intro">An independent archive of Dublin's monuments, buildings, memorials and overlooked historic details. <strong>Every photograph in this gallery will be taken in person by CICAN GEORGE ALIN.</strong> Research guides each visit; original photographs become the permanent visual record.</p><div class="stats" aria-label="Archive overview"><div class="stat"><b id="totalStat">—</b><span>CATALOGUED RECORDS</span></div><div class="stat"><b id="verifiedStat">—</b><span>VERIFIED RECORDS</span></div><div class="stat"><b id="photoStat">—</b><span>AWAITING PHOTOGRAPHY</span></div></div></section>
-<section class="wrap archive" id="archive"><div class="toolbar"><div class="controls"><input id="search" type="search" placeholder="Search the archive…" aria-label="Search archive"><select id="district"><option value="">All districts</option></select><select id="sort"><option value="district">District order</option><option value="name">Name A–Z</option></select></div><span class="count" id="count">LOADING</span></div>
+<section class="wrap archive" id="archive"><div class="toolbar"><div class="controls"><input id="search" type="search" placeholder="Search the archive…" aria-label="Search archive"><select id="district"><option value="">All districts</option></select><select id="sort"><option value="district">District order</option><option value="name">Name A–Z</option></select></div><div class="toolbar-side"><span class="count" id="count" aria-live="polite">LOADING</span><button id="reset" class="chip reset" type="button">Reset filters</button></div></div>
 <div class="filters" id="filters"><button class="chip active" data-filter="ALL">All</button><button class="chip" data-filter="MONUMENT">Monuments</button><button class="chip" data-filter="MEMORIAL">Memorials</button><button class="chip" data-filter="ARCHITECTURE">Architecture</button><button class="chip" data-filter="INSCRIPTION">Inscriptions</button><button class="chip" data-filter="STREET_DETAIL">Street details</button><button class="chip" data-filter="PUBLIC_ART">Public art</button><button class="chip" data-filter="INFRASTRUCTURE">Infrastructure</button></div>
 <div class="gallery" id="gallery"><div class="empty">Loading catalogue…</div></div></section></main>
 <footer><div class="wrap foot"><strong>CICAN DUBLIN ARCHIVE</strong><span>CREATED BY CICAN GEORGE ALIN · ORIGINAL FIELD PHOTOGRAPHY ONLY</span></div></footer>
 <dialog id="detail"><div class="detail-head"><div><div class="detail-kicker" id="detailId"></div><h2 id="detailName"></h2><div class="detail-kicker" id="detailStatus"></div></div><button class="close" id="close">CLOSE ✕</button></div><div class="detail-body" id="detailBody"></div></dialog>
 <script>
-const $=s=>document.querySelector(s),esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const $=selector=>document.querySelector(selector);
+const esc=value=>String(value??"").replace(/[&<>"']/g,char=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char]));
+const clean=value=>String(value??"").normalize("NFD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase().trim();
 let objects=[],sources=[],active="ALL";
+
+function recordText(record){
+ const sourceRows=(record.sources||[]).map(id=>sources.find(source=>source.id===id)).filter(Boolean);
+ return [
+  record.id,record.name,record.address,record.district,record.category,record.historical_period,
+  record.historical_description,record.historical_significance,record.national_inventory_reference,
+  record.national_grid_reference,record.research_notes,record.access_status,
+  ...(record.photography_brief||[]),
+  ...sourceRows.flatMap(source=>[source.id,source.name,source.publisher,source.specific_reference,source.notes])
+ ].join(" ");
+}
+function updateStats(){
+ $("#totalStat").textContent=objects.length;
+ $("#verifiedStat").textContent=objects.filter(record=>record.verification_status==="VERIFIED").length;
+ $("#photoStat").textContent=objects.filter(record=>record.photography_status==="TO_PHOTOGRAPH").length;
+}
 function render(){
- const q=$("#search").value.trim().toLowerCase(),d=$("#district").value,sort=$("#sort").value;
- let rows=objects.filter(o=>(active==="ALL"||o.category===active)&&(!d||o.district===d)&&(!q||[o.id,o.name,o.address,o.district,o.category,o.historical_period,o.historical_description,o.historical_significance,o.national_inventory_reference,o.national_grid_reference,o.research_notes,...(o.photography_brief||[])].join(" ").toLowerCase().includes(q)));
- rows.sort((a,b)=>(sort==="name"?a.name.localeCompare(b.name):a.district.localeCompare(b.district)||a.name.localeCompare(b.name)));
+ const query=clean($("#search").value),district=$("#district").value,sort=$("#sort").value;
+ let rows=objects.filter(record=>(active==="ALL"||record.category===active)&&(!district||record.district===district)&&(!query||clean(recordText(record)).includes(query)));
+ rows.sort((a,b)=>sort==="name"?a.name.localeCompare(b.name):a.district.localeCompare(b.district,undefined,{numeric:true})||a.name.localeCompare(b.name));
  $("#count").textContent=rows.length+" OF "+objects.length+" RECORDS";
- $("#gallery").innerHTML=rows.length?rows.map(o=>'<article class="item" data-open="'+esc(o.id)+'"><div class="photo" role="img" aria-label="Awaiting original field photograph of '+esc(o.name)+'"><span class="photo-mark">＋</span><span class="photo-label">Awaiting founder photograph</span></div><div class="item-copy"><div class="item-top"><span>'+esc(o.category.replaceAll("_"," "))+' · '+esc(o.id)+'</span><span class="item-status '+(o.verification_status==="VERIFIED"?"":"partial")+'">'+esc(o.verification_status.replaceAll("_"," "))+'</span></div><h2>'+esc(o.name)+'</h2><div class="item-location">'+esc(o.district)+' · '+esc(o.address)+'</div></div></article>').join(""):'<div class="empty"><strong>No matching records.</strong><br>Try another search or category.</div>';
+ $("#gallery").innerHTML=rows.length?rows.map(record=>'<article class="item" data-open="'+esc(record.id)+'" role="button" tabindex="0" aria-label="Open record: '+esc(record.name)+'"><div class="photo" role="img" aria-label="Original field photograph not yet added for '+esc(record.name)+'"><span class="photo-mark">＋</span><span class="photo-label">Awaiting founder photograph</span></div><div class="item-copy"><div class="item-top"><span>'+esc(record.category.replaceAll("_"," "))+' · '+esc(record.id)+'</span><span class="item-status '+(record.verification_status==="VERIFIED"?"":"partial")+'">'+esc(record.verification_status.replaceAll("_"," "))+'</span></div><h2>'+esc(record.name)+'</h2><div class="item-location">'+esc(record.district)+' · '+esc(record.address)+'</div></div></article>').join(""):'<div class="empty"><strong>No matching records.</strong><br>Try a different search or reset the filters.</div>';
 }
-function openRecord(id){
- const o=objects.find(x=>x.id===id);if(!o)return;
- const refs=(o.sources||[]).map(id=>sources.find(s=>s.id===id)).filter(Boolean);
- $("#detailId").textContent=o.id+" / "+o.category.replaceAll("_"," ");
- $("#detailName").textContent=o.name;
- $("#detailStatus").textContent=o.verification_status+" · "+o.photography_status;
- $("#detailBody").innerHTML='<p>'+esc(o.historical_description)+'</p><p>'+esc(o.historical_significance||"")+'</p><div class="meta-grid"><div class="meta"><small>Location</small><b>'+esc(o.address)+'</b></div><div class="meta"><small>District</small><b>'+esc(o.district)+'</b></div><div class="meta"><small>Period</small><b>'+esc(o.historical_period)+'</b></div><div class="meta"><small>Access</small><b>'+esc(o.access_status)+'</b></div><div class="meta"><small>NIAH reference</small><b>'+esc(o.national_inventory_reference||"Not assigned")+'</b></div><div class="meta"><small>Irish Grid reference</small><b>'+esc(o.national_grid_reference||"Not supplied")+'</b></div></div><h3>Photography checklist</h3><ul>'+(o.photography_brief||[]).map(x=>"<li>"+esc(x)+"</li>").join("")+'</ul><h3>Historical sources</h3><div class="source-list">'+(refs.length?refs.map(s=>'<a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.name)+' ↗</a>').join(""):"<p>Source details pending.</p>")+'</div><div class="detail-actions"><a href="'+esc(o.map_url)+'" target="_blank" rel="noopener">Open location ↗</a></div><p>Photographs will appear here only after the founder has visited the location and added an original image to the archive.</p>';
- $("#detail").showModal();history.replaceState(null,"","#object="+encodeURIComponent(id));
+function safeUrl(value){
+ try{const url=new URL(value);return ["https:","http:"].includes(url.protocol)?url.href:"#"}catch{return "#"}
 }
-$("#gallery").addEventListener("click",e=>{const card=e.target.closest("[data-open]");if(card)openRecord(card.dataset.open)});
-$("#close").addEventListener("click",()=>{$("#detail").close();history.replaceState(null,"",location.pathname+location.search)});
-$("#detail").addEventListener("click",e=>{if(e.target===$("#detail"))$("#detail").close()});
-$("#search").addEventListener("input",render);$("#district").addEventListener("change",render);$("#sort").addEventListener("change",render);
-$("#filters").addEventListener("click",e=>{const b=e.target.closest("[data-filter]");if(!b)return;active=b.dataset.filter;document.querySelectorAll(".chip").forEach(x=>x.classList.toggle("active",x===b));render()});
-Promise.all(["objects","sources"].map(n=>fetch("./data/"+n+".json").then(r=>{if(!r.ok)throw Error("Could not load "+n);return r.json()}))).then(([o,s])=>{objects=o;sources=s;$("#totalStat").textContent=objects.length;$("#verifiedStat").textContent=objects.filter(x=>x.verification_status==="VERIFIED").length;$("#photoStat").textContent=objects.filter(x=>x.photography_status==="TO_PHOTOGRAPH").length;const districts=[...new Set(objects.map(o=>o.district))].sort();$("#district").innerHTML='<option value="">All districts</option>'+districts.map(d=>'<option value="'+esc(d)+'">'+esc(d)+'</option>').join("");render();const id=new URLSearchParams(location.hash.slice(1)).get("object");if(id)openRecord(id)}).catch(err=>{$("#gallery").innerHTML='<div class="empty"><strong>Catalogue unavailable.</strong><br>'+esc(err.message)+'</div>';$("#count").textContent="LOAD ERROR"});
+function openRecord(id,updateUrl=true){
+ const record=objects.find(item=>item.id===id);if(!record)return;
+ const linkedSources=(record.sources||[]).map(id=>sources.find(source=>source.id===id)).filter(Boolean);
+ $("#detailId").textContent=record.id+" / "+record.category.replaceAll("_"," ");
+ $("#detailName").textContent=record.name;
+ $("#detailStatus").textContent=record.verification_status.replaceAll("_"," ")+" · "+record.photography_status.replaceAll("_"," ");
+ const parent=record.parent_id?objects.find(item=>item.id===record.parent_id):null;
+ const children=objects.filter(item=>item.parent_id===record.id);
+ const parentSection=record.parent_id?'<h3>Part of a larger site</h3><div class="related-list">'+(parent?'<button class="related-link" type="button" data-related="'+esc(parent.id)+'">'+esc(parent.name)+' ↗</button>':'<p>Parent record not found in the current catalogue.</p>')+'</div>':'';
+ const childSection=children.length?'<h3>Related details</h3><div class="related-list">'+children.map(child=>'<button class="related-link" type="button" data-related="'+esc(child.id)+'">'+esc(child.name)+' ↗</button>').join("")+'</div>':'';
+ const sourceSection=linkedSources.length?linkedSources.map(source=>'<div class="source-entry"><a href="'+esc(safeUrl(source.url))+'" target="_blank" rel="noopener noreferrer">'+esc(source.name)+' ↗</a><small>'+esc([source.publisher,source.specific_reference,source.notes].filter(Boolean).join(" · "))+'</small></div>').join(""):'<p>Source details are not yet linked to this record.</p>';
+ const notes=record.research_notes?'<div class="detail-note">'+esc(record.research_notes)+'</div>':'';
+ const significance=record.historical_significance?'<p>'+esc(record.historical_significance)+'</p>':'';
+ const checklist=(record.photography_brief||[]).length?'<h3>Photography checklist</h3><ul>'+record.photography_brief.map(item=>'<li>'+esc(item)+'</li>').join("")+'</ul>':'';
+ const map=record.map_url?'<a href="'+esc(safeUrl(record.map_url))+'" target="_blank" rel="noopener noreferrer">Open location ↗</a>':'';
+ $("#detailBody").innerHTML='<p>'+esc(record.historical_description)+'</p>'+significance+notes+'<div class="meta-grid"><div class="meta"><small>Location</small><b>'+esc(record.address)+'</b></div><div class="meta"><small>District</small><b>'+esc(record.district)+'</b></div><div class="meta"><small>Period</small><b>'+esc(record.historical_period)+'</b></div><div class="meta"><small>Access</small><b>'+esc(record.access_status)+'</b></div><div class="meta"><small>NIAH reference</small><b>'+esc(record.national_inventory_reference||"Not assigned")+'</b></div><div class="meta"><small>Irish Grid reference</small><b>'+esc(record.national_grid_reference||"Not supplied")+'</b></div></div>'+parentSection+childSection+checklist+'<h3>Historical sources</h3><div class="source-list">'+sourceSection+'</div><div class="detail-actions">'+map+'</div><p class="detail-note">Photography: '+esc(record.photography_status.replaceAll("_"," "))+'. The archive uses original photographs taken in person; no substitute image is displayed.</p>';
+ if(!$("#detail").open)$("#detail").showModal();
+ if(updateUrl)history.pushState({recordId:id},"","#object="+encodeURIComponent(id));
+}
+function closeRecord(updateUrl=true){
+ if($("#detail").open)$("#detail").close();
+ if(updateUrl&&location.hash.startsWith("#object="))history.replaceState(null,"",location.pathname+location.search);
+}
+function syncFromUrl(){
+ const id=location.hash.startsWith("#object=")?decodeURIComponent(location.hash.slice(8)):"";
+ if(id&&objects.some(record=>record.id===id)){if(!$("#detail").open)openRecord(id,false)}
+ else if($("#detail").open)$("#detail").close();
+}
+$("#gallery").addEventListener("click",event=>{const card=event.target.closest("[data-open]");if(card)openRecord(card.dataset.open)});
+$("#gallery").addEventListener("keydown",event=>{const card=event.target.closest("[data-open]");if(card&&(event.key==="Enter"||event.key===" ")){event.preventDefault();openRecord(card.dataset.open)}});
+$("#detailBody").addEventListener("click",event=>{const button=event.target.closest("[data-related]");if(button)openRecord(button.dataset.related)});
+$("#close").addEventListener("click",()=>closeRecord());
+$("#detail").addEventListener("click",event=>{if(event.target===$("#detail"))closeRecord()});
+$("#detail").addEventListener("cancel",event=>{event.preventDefault();closeRecord()});
+window.addEventListener("popstate",syncFromUrl);
+$("#search").addEventListener("input",render);
+$("#district").addEventListener("change",render);
+$("#sort").addEventListener("change",render);
+$("#filters").addEventListener("click",event=>{const button=event.target.closest("[data-filter]");if(!button)return;active=button.dataset.filter;document.querySelectorAll(".chip[data-filter]").forEach(chip=>chip.classList.toggle("active",chip===button));render()});
+$("#reset").addEventListener("click",()=>{$("#search").value="";$("#district").value="";$("#sort").value="district";active="ALL";document.querySelectorAll(".chip[data-filter]").forEach(chip=>chip.classList.toggle("active",chip.dataset.filter==="ALL"));render();$("#search").focus()});
+Promise.all(["objects","sources"].map(name=>fetch("./data/"+name+".json").then(response=>{if(!response.ok)throw Error("Could not load "+name+" catalogue (HTTP "+response.status+")");return response.json()}))).then(([objectData,sourceData])=>{
+ if(!Array.isArray(objectData)||!Array.isArray(sourceData))throw Error("The archive data format is invalid.");
+ objects=objectData;sources=sourceData;updateStats();
+ const districts=[...new Set(objects.map(record=>record.district).filter(Boolean))].sort((a,b)=>a.localeCompare(b,undefined,{numeric:true}));
+ $("#district").innerHTML='<option value="">All districts</option>'+districts.map(value=>'<option value="'+esc(value)+'">'+esc(value)+'</option>').join("");
+ render();syncFromUrl();
+}).catch(error=>{$("#gallery").innerHTML='<div class="empty"><strong>The catalogue could not be loaded.</strong><br>'+esc(error.message)+'<br>Please refresh in a moment.</div>';$("#count").textContent="LOAD ERROR"});
 </script>
 </body></html>

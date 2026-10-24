@@ -10,11 +10,11 @@ https://cicangeorgealin.github.io/cican-dublin-archive/
 
 ## Current catalogue
 
-The catalogue currently contains **49 records** across Dublin 1 and Dublin 2, linked to **56 source entries**. Recent batches added twenty individually documented pieces of cast-iron street furniture: Victorian, Edwardian and early Free State post boxes, plus a nineteenth-century triple gas-lamp standard.
+The catalogue currently contains **57 records** across Dublin 1 and Dublin 2, linked to **64 source entries**. Recent batches added twenty-eight individually documented discoveries, including historic post boxes, gas and electric lamp standards, coal-hole covers, boot scrapers, railings and Georgian entrance details.
 
-- **47 VERIFIED** records.
+- **55 VERIFIED** records.
 - **2 PARTIALLY_VERIFIED** records, where specific details still require field confirmation.
-- **49 awaiting original founder photography**.
+- **57 awaiting original founder photography**.
 - No record is marked photographed, illustrated or published.
 
 This is an expanding research inventory, not a complete survey of Dublin.
@@ -67,7 +67,7 @@ The website displays research records as placeholders until original field photo
 
 ## Geographic and coordinate accuracy
 
-All **49 current records** now have decimal WGS 84 coordinates derived from their published NIAH Irish Grid references (TM65 / Irish Grid, EPSG:29902), transformed using EPSG operation 1641. The original Irish Grid references remain preserved in the catalogue. Every WALK THERE link uses the record's latitude and longitude as its Google Maps walking destination, not an address or street-name search.
+All **57 current records** now have decimal WGS 84 coordinates derived from their published NIAH Irish Grid references (TM65 / Irish Grid, EPSG:29902), transformed using EPSG operation 1641. The original Irish Grid references remain preserved in the catalogue. Every WALK THERE link uses the record's latitude and longitude as its Google Maps walking destination, not an address or street-name search.
 
 These are **source-derived map points, not founder-recorded GPS fixes**. NIAH dataset metadata explains that legacy point centroids were digitised relative to OSI 6-inch mapping and may need revision against larger-scale mapping. The EPSG coordinate transformation has a published 1 m accuracy, but that does not establish the accuracy of the underlying NIAH point. Field verification remains outstanding; no coordinate is labelled FIELD_VERIFIED until checked on site. Future records must retain a published coordinate reference or another documented source—never estimate a pin from an address.
 

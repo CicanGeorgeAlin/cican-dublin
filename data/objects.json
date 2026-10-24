@@ -1,1 +1,455 @@
-[]
+[
+  {
+    "id": "DUB-MON-0001",
+    "name": "O'Connell Monument",
+    "category": "MONUMENT",
+    "district": "Dublin 1",
+    "address": "O'Connell Street Lower, Dublin 1",
+    "historical_period": "1866–1883",
+    "historical_description": "Bronze monument to Daniel O'Connell, conceived by John Henry Foley in 1866 and completed by Thomas Brock in 1883. It includes a high-relief frieze and multiple figures around a granite plinth.",
+    "historical_significance": "Major national monument at the southern entrance to O'Connell Street.",
+    "national_inventory_reference": "50010320",
+    "national_grid_reference": "315969, 234442",
+    "latitude": null,
+    "longitude": null,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Public realm; check temporary event restrictions.",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=O'Connell%20Monument%20O'Connell%20Street%20Lower%2C%20Dublin%201",
+    "photography_brief": [
+      "Full monument from front and sides",
+      "O'Connell figure and bronze details",
+      "High-relief frieze and individual figures",
+      "Granite plinth and inscriptions"
+    ],
+    "sources": [
+      "NIAH-50010320"
+    ]
+  },
+  {
+    "id": "DUB-BLD-0001",
+    "name": "General Post Office (GPO)",
+    "category": "ARCHITECTURE",
+    "district": "Dublin 1",
+    "address": "O'Connell Street Lower, Dublin 1",
+    "historical_period": "1814–1818; rebuilt 1925–1932",
+    "historical_description": "Neoclassical post office designed by Francis Johnston, with a six-column Ionic portico. Built 1814–1818, damaged during the 1916 Easter Rising and reconstructed in the 1920s. NIAH describes surviving physical traces including bullet marks.",
+    "historical_significance": "Headquarters of the 1916 Easter Rising and major civic landmark.",
+    "national_inventory_reference": "50010528",
+    "national_grid_reference": "315881, 234624",
+    "latitude": null,
+    "longitude": null,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Public exterior; interior access subject to operating hours and venue rules.",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=General%20Post%20Office%20(GPO)%20O'Connell%20Street%20Lower%2C%20Dublin%201",
+    "photography_brief": [
+      "Full façade from across O'Connell Street",
+      "Six Ionic columns and portico ceiling",
+      "Pediment, sculpture and clock",
+      "Visible bullet marks and repairs",
+      "Commemorative panels and inscriptions"
+    ],
+    "sources": [
+      "NIAH-50010528",
+      "NIAH-GPO-HISTORY"
+    ]
+  },
+  {
+    "id": "DUB-STR-0001",
+    "name": "GPO historic cast-iron lantern bases and wheel guards",
+    "category": "STREET_DETAIL",
+    "district": "Dublin 1",
+    "address": "In front of the General Post Office, O'Connell Street Lower, Dublin 1",
+    "historical_period": "Circa 1820",
+    "historical_description": "Pair of cast-iron lantern-post bases and six domed wheel-guards recorded by NIAH. Lantern bases are described as likely early nineteenth-century; wheel-guard date is less certain.",
+    "historical_significance": "Rare surviving early nineteenth-century street furniture associated with the GPO.",
+    "national_inventory_reference": "50010527",
+    "national_grid_reference": "315899, 234629",
+    "latitude": null,
+    "longitude": null,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": "DUB-BLD-0001",
+    "access_status": "Public realm; avoid obstructing pedestrians.",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=GPO%20historic%20cast-iron%20lantern%20bases%20and%20wheel%20guards%20In%20front%20of%20the%20General%20Post%20Office%2C%20O'Connell%20Street%20Lower%2C%20Dublin%201",
+    "photography_brief": [
+      "Both lantern bases in full",
+      "Fluted panels, moulding and finials",
+      "Each accessible wheel guard",
+      "Relationship to GPO portico"
+    ],
+    "sources": [
+      "NIAH-50010527"
+    ]
+  },
+  {
+    "id": "DUB-MEM-0001",
+    "name": "Famine Memorial — Rowan Gillespie",
+    "category": "MEMORIAL",
+    "district": "Dublin 1",
+    "address": "Custom House Quay, Dublin 1",
+    "historical_period": "1997",
+    "historical_description": "Six bronze figures by Rowan Gillespie, erected in 1997. The figures carry bundles and face east along Custom House Quay. Bronze commemorative plaques are set among granite paving stones around the group.",
+    "historical_significance": "Public memorial commemorating the Great Famine and the suffering and emigration associated with it.",
+    "national_inventory_reference": "50010002",
+    "national_grid_reference": "316587, 234492",
+    "latitude": null,
+    "longitude": null,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Public quayside; check temporary works and riverfront conditions.",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Famine%20Memorial%20%E2%80%94%20Rowan%20Gillespie%20Custom%20House%20Quay%2C%20Dublin%201",
+    "photography_brief": [
+      "Entire group from both ends",
+      "Each of the six figures",
+      "Bundles, clothing, faces and dog figure",
+      "Bronze plaques and granite setts"
+    ],
+    "sources": [
+      "NIAH-50010002"
+    ]
+  },
+  {
+    "id": "DUB-INS-0001",
+    "name": "Bronze name plaques within the Famine Memorial paving",
+    "category": "INSCRIPTION",
+    "district": "Dublin 1",
+    "address": "Granite-sett surround of Famine Memorial, Custom House Quay, Dublin 1",
+    "historical_period": "1997",
+    "historical_description": "NIAH describes bronze commemorative plaques dispersed among granite setts around the sculpture. Individual plaques and inscriptions require on-site transcription and photographic verification.",
+    "historical_significance": "Names form part of the memorial composition; individual wording must be transcribed from legible photographs.",
+    "national_inventory_reference": "Associated with 50010002",
+    "national_grid_reference": "316587, 234492",
+    "latitude": null,
+    "longitude": null,
+    "verification_status": "PARTIALLY_VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": "DUB-MEM-0001",
+    "access_status": "Public quayside; do not step onto restricted surfaces.",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Bronze%20name%20plaques%20within%20the%20Famine%20Memorial%20paving%20Granite-sett%20surround%20of%20Famine%20Memorial%2C%20Custom%20House%20Quay%2C%20Dublin%201",
+    "photography_brief": [
+      "Photograph each plaque square-on",
+      "Capture complete wording and punctuation",
+      "Record plaque position relative to figures",
+      "Verify transcription against photograph"
+    ],
+    "sources": [
+      "NIAH-50010002"
+    ]
+  },
+  {
+    "id": "DUB-BLD-0002",
+    "name": "The Custom House",
+    "category": "ARCHITECTURE",
+    "district": "Dublin 1",
+    "address": "Custom House Quay, Beresford Place, Dublin 1",
+    "historical_period": "Begun 1781; reconstructed 1926–1929",
+    "historical_description": "Neoclassical custom house designed by James Gandon. Construction began in 1781. Gutted by fire in May 1921 during the War of Independence and restored in 1926–1929. NIAH attributes exterior carvings to Edward Smyth.",
+    "historical_significance": "One of Dublin's major neoclassical civic buildings and a key War of Independence site.",
+    "national_inventory_reference": "50010133",
+    "national_grid_reference": "316377, 234558",
+    "latitude": null,
+    "longitude": null,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Public exterior; interior access subject to OPW opening and photography rules.",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=The%20Custom%20House%20Custom%20House%20Quay%2C%20Beresford%20Place%2C%20Dublin%201",
+    "photography_brief": [
+      "Full river-facing façade and dome",
+      "Central portico and sculptural details",
+      "Exterior carvings and riverine heads",
+      "Corner pavilions and stonework"
+    ],
+    "sources": [
+      "NIAH-50010133"
+    ]
+  },
+  {
+    "id": "DUB-MON-0002",
+    "name": "Henry Grattan Monument",
+    "category": "MONUMENT",
+    "district": "Dublin 2",
+    "address": "College Green, Dublin 2",
+    "historical_period": "1876",
+    "historical_description": "Bronze statue by John Henry Foley, erected in 1876 on a dressed limestone pedestal. NIAH also records two former gas-lamp standards with carved seahorses to the east.",
+    "historical_significance": "Commemorates the politician associated with the campaign for legislative independence.",
+    "national_inventory_reference": "50020253",
+    "national_grid_reference": "315949, 234073",
+    "latitude": null,
+    "longitude": null,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Traffic island; photograph only from safe pedestrian viewpoints.",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Henry%20Grattan%20Monument%20College%20Green%2C%20Dublin%202",
+    "photography_brief": [
+      "Full statue and pedestal",
+      "Bronze figure and details",
+      "Name panels and base",
+      "Two surviving seahorse gas-lamp standards"
+    ],
+    "sources": [
+      "NIAH-50020253"
+    ]
+  },
+  {
+    "id": "DUB-MON-0003",
+    "name": "Thomas Davis Monument and Fountain",
+    "category": "MONUMENT",
+    "district": "Dublin 2",
+    "address": "College Green, Dublin 2",
+    "historical_period": "1966",
+    "historical_description": "Bronze statue by Edward Delaney, erected in 1966. Includes circular fountain with four bronze figures, panels depicting famine and scenes from Davis's poetry, and an inset footpath plaque.",
+    "historical_significance": "Commemorates Irish writer and nationalist thinker Thomas Davis (1814–1845); occupies the site of the former William of Orange statue.",
+    "national_inventory_reference": "50020252",
+    "national_grid_reference": "315894, 234065",
+    "latitude": null,
+    "longitude": null,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Traffic island; use safe public pedestrian viewpoints only.",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Thomas%20Davis%20Monument%20and%20Fountain%20College%20Green%2C%20Dublin%202",
+    "photography_brief": [
+      "Full statue and fountain",
+      "Four bronze herald figures",
+      "Inset bronze panels",
+      "Celtic-script name and date",
+      "Footpath plaque from safe position"
+    ],
+    "sources": [
+      "NIAH-50020252"
+    ]
+  },
+  {
+    "id": "DUB-MON-0004",
+    "name": "George Salmon Statue",
+    "category": "MONUMENT",
+    "district": "Dublin 2",
+    "address": "Trinity College Dublin, north of the Campanile, College Green, Dublin 2",
+    "historical_period": "1911; moved in 1964",
+    "historical_description": "Seated white Galway-marble statue erected in 1911 and moved to its present position in 1964. NIAH describes a limestone plinth with incised lettering.",
+    "historical_significance": "Commemorates George Salmon (1819–1904), Provost of Trinity College from 1888 to 1904.",
+    "national_inventory_reference": "50020521",
+    "national_grid_reference": "316112, 234055",
+    "latitude": null,
+    "longitude": null,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Trinity College campus; check visitor access and photography policy.",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=George%20Salmon%20Statue%20Trinity%20College%20Dublin%2C%20north%20of%20the%20Campanile%2C%20College%20Green%2C%20Dublin%202",
+    "photography_brief": [
+      "Full seated figure and chair",
+      "Marble carving",
+      "Plinth lettering and gold-leaf details",
+      "Context with Campanile"
+    ],
+    "sources": [
+      "NIAH-50020521"
+    ]
+  },
+  {
+    "id": "DUB-MON-0005",
+    "name": "Lecky Statue",
+    "category": "MONUMENT",
+    "district": "Dublin 2",
+    "address": "Trinity College Dublin, Library Square, Dublin 2",
+    "historical_period": "1906",
+    "historical_description": "Cast-bronze seated figure of W. E. H. Lecky, cast by Sir William Goscombe John and erected in 1906 on a carved granite plinth.",
+    "historical_significance": "Commemorates Irish historian and political theorist W. E. H. Lecky (1838–1903).",
+    "national_inventory_reference": "50020520",
+    "national_grid_reference": "316112, 234093",
+    "latitude": null,
+    "longitude": null,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Trinity College campus; check visitor access and photography policy.",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Lecky%20Statue%20Trinity%20College%20Dublin%2C%20Library%20Square%2C%20Dublin%202",
+    "photography_brief": [
+      "Full seated bronze figure",
+      "Maker's name and date",
+      "Granite plinth lettering",
+      "Wider view of Library Square"
+    ],
+    "sources": [
+      "NIAH-50020520"
+    ]
+  },
+  {
+    "id": "DUB-MON-0006",
+    "name": "Edmund Burke Statue",
+    "category": "MONUMENT",
+    "district": "Dublin 2",
+    "address": "Trinity College Dublin, north of main entrance, College Green, Dublin 2",
+    "historical_period": "1868",
+    "historical_description": "Standing electro-typed copper-bronze figure by J. H. Foley, erected in 1868 on a stepped granite plinth with incised lettering.",
+    "historical_significance": "Commemorates Edmund Burke (1729–1797), Dublin-born political thinker and Trinity alumnus.",
+    "national_inventory_reference": "50020374",
+    "national_grid_reference": "315991, 234090",
+    "latitude": null,
+    "longitude": null,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Trinity College campus; check visitor access and photography policy.",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Edmund%20Burke%20Statue%20Trinity%20College%20Dublin%2C%20north%20of%20main%20entrance%2C%20College%20Green%2C%20Dublin%202",
+    "photography_brief": [
+      "Full standing figure",
+      "Bronze surface and pose",
+      "Plinth lettering and granite carving",
+      "Context with college entrance"
+    ],
+    "sources": [
+      "NIAH-50020374"
+    ]
+  },
+  {
+    "id": "DUB-ART-0001",
+    "name": "Cactus Provisoire — Alexander Calder",
+    "category": "PUBLIC_ART",
+    "district": "Dublin 2",
+    "address": "Fellows Square, Trinity College Dublin, Dublin 2",
+    "historical_period": "Cast 1967; installed 1978",
+    "historical_description": "Welded and riveted painted sheet-steel sculpture by Alexander Calder, cast in 1967 and installed at Trinity in 1978. It stands in a cobbled circular setting with an inscribed limestone plaque.",
+    "historical_significance": "Nationally rated public artwork recorded by NIAH.",
+    "national_inventory_reference": "50020518",
+    "national_grid_reference": "316124, 234000",
+    "latitude": null,
+    "longitude": null,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Trinity College campus; check visitor access and photography policy.",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Cactus%20Provisoire%20%E2%80%94%20Alexander%20Calder%20Fellows%20Square%2C%20Trinity%20College%20Dublin%2C%20Dublin%202",
+    "photography_brief": [
+      "Whole sculpture from multiple directions",
+      "Welds, rivets and steel forms",
+      "Painted surface",
+      "Cobbled setting and limestone plaque"
+    ],
+    "sources": [
+      "NIAH-50020518"
+    ]
+  },
+  {
+    "id": "DUB-ART-0002",
+    "name": "Reclining Figures — Henry Moore",
+    "category": "PUBLIC_ART",
+    "district": "Dublin 2",
+    "address": "Library Square, Trinity College Dublin, Dublin 2",
+    "historical_period": "1967",
+    "historical_description": "Freestanding abstract bronze sculpture by Henry Moore, erected in 1967 on a polished black-granite plinth in the north-west corner of Library Square.",
+    "historical_significance": "Nationally rated modern sculpture contrasting with classical architecture.",
+    "national_inventory_reference": "50020517",
+    "national_grid_reference": "316118, 234100",
+    "latitude": null,
+    "longitude": null,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Trinity College campus; check visitor access and photography policy.",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Reclining%20Figures%20%E2%80%94%20Henry%20Moore%20Library%20Square%2C%20Trinity%20College%20Dublin%2C%20Dublin%202",
+    "photography_brief": [
+      "Sculpture from accessible sides",
+      "Bronze form and texture",
+      "Granite plinth",
+      "Context with Library Square"
+    ],
+    "sources": [
+      "NIAH-50020517"
+    ]
+  },
+  {
+    "id": "DUB-BLD-0003",
+    "name": "City Hall (former Royal Exchange)",
+    "category": "ARCHITECTURE",
+    "district": "Dublin 2",
+    "address": "Cork Hill, Dublin 2",
+    "historical_period": "1769–1779",
+    "historical_description": "Former Royal Exchange, built largely of Portland stone between 1769 and 1779 and now used as Dublin City Hall. NIAH rates the building of national significance.",
+    "historical_significance": "Major eighteenth-century civic building associated with Dublin's commercial and municipal history.",
+    "national_inventory_reference": "50910009",
+    "national_grid_reference": "315460, 233998",
+    "latitude": null,
+    "longitude": null,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Public exterior; interior subject to City Hall visitor rules.",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=City%20Hall%20(former%20Royal%20Exchange)%20Cork%20Hill%2C%20Dublin%202",
+    "photography_brief": [
+      "Full exterior from Cork Hill",
+      "Portico and columns",
+      "Stonework, steps and railings",
+      "Commemorative inscriptions"
+    ],
+    "sources": [
+      "NIAH-50910009"
+    ]
+  },
+  {
+    "id": "DUB-BLD-0004",
+    "name": "Old Detective Office, 1 Exchange Court",
+    "category": "ARCHITECTURE",
+    "district": "Dublin 2",
+    "address": "1 Exchange Court, Dublin 2",
+    "historical_period": "Circa 1830",
+    "historical_description": "Four-storey building formerly used as a Royal Irish Constabulary barracks and detective office associated with Dublin Castle. NIAH notes a commemorative granite plaque above the entrance and links to executions during the War of Independence.",
+    "historical_significance": "Building with documented associations with policing and the revolutionary period.",
+    "national_inventory_reference": "50910280",
+    "national_grid_reference": "315484, 233985",
+    "latitude": null,
+    "longitude": null,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Public street view; not a visitor attraction. Do not enter private premises.",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Old%20Detective%20Office%2C%201%20Exchange%20Court%201%20Exchange%20Court%2C%20Dublin%202",
+    "photography_brief": [
+      "Full façade from public space",
+      "Commemorative granite plaque",
+      "Doorcase and cornice",
+      "Brickwork and sash windows"
+    ],
+    "sources": [
+      "NIAH-50910280"
+    ]
+  }
+]

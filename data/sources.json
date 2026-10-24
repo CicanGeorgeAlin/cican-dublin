@@ -261,5 +261,35 @@
     "source_type": "OFFICIAL_REGISTER",
     "specific_reference": "NIAH Registration No. 50010222",
     "notes": "NIAH survey record; coordinates retained in the archive as the published grid reference. Decimal GPS remains null pending coordinate conversion and field verification."
+  },
+  {
+    "id": "NIAH-50010556",
+    "name": "O’Connell Street Upper — four cast-iron bollards",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010556/oconnell-street-upper-dublin-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration No. 50010556",
+    "notes": "Indexed NIAH survey record describes four ornate cast-iron bollards, c.1880, on the central mall at the north end of O’Connell Street; published grid coordinates 315817, 234965. NIAH suggests they may have functioned as air vents; this is not certain."
+  },
+  {
+    "id": "NIAH-50060568",
+    "name": "Commons Street — historic Custom House Docks boundary wall",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50060568/commons-street-dublin-1-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration No. 50060568",
+    "notes": "Indexed NIAH survey record describes a c.1830 limestone and granite boundary wall associated with the former Custom House docks, with a surviving cobbled street surface and granite kerbs; published grid coordinates 316869, 234776. French-prisoner attribution is folklore, not confirmed provenance."
+  },
+  {
+    "id": "SRC-DCC-HISTORIC-STREET-SURFACES-2009",
+    "name": "Historic Street Surfaces Conservation Study and Guidance Manual — summary in Dublin City Heritage Plan review",
+    "publisher": "Dublin City Council",
+    "url": "https://www.dublincity.ie/sites/default/files/2021-04/dchp-2002-2012-architecture-projects-review.pdf",
+    "accessed": "2026-10-24",
+    "source_type": "GOVERNMENT",
+    "specific_reference": "Dublin City Heritage Plan 2002–2012 Review of Architectural Heritage Projects, pp. 28–29; study dated 2009 and supplementary 2010 setted-streets resurvey",
+    "notes": "Council review describes a historic street-furniture and street-surfaces inventory and reports 27 streets with complete granite-flagged pavements, approximately 118 streets with surviving kerbstones, 37 streets with complete setted surfaces (including some modern reinstatements), and a 2010 resurvey identifying 78 streets/lanes. These are historical survey totals, not a current condition count; named streets and present survival must be checked before creating object records."
   }
 ]

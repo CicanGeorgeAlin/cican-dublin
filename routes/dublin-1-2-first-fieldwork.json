@@ -1,0 +1,37 @@
+{
+  "id": "DUB-ROUTE-0001",
+  "name": "First fieldwork pass — Dublin 1 and Dublin 2",
+  "status": "PROPOSED_NOT_VISITED",
+  "prepared": "2026-10-24",
+  "notes": "This is a grouped photography assignment, not a confirmed route measurement. Check access, temporary closures, weather and safe pedestrian approaches on the day. Trinity College locations require confirmation of visitor access and photography rules.",
+  "groups": [
+    {
+      "district": "Dublin 1",
+      "title": "North City and Custom House Quay",
+      "stops": [
+        "DUB-MON-0001",
+        "DUB-BLD-0001",
+        "DUB-STR-0001",
+        "DUB-BLD-0002",
+        "DUB-MEM-0001",
+        "DUB-INS-0001"
+      ]
+    },
+    {
+      "district": "Dublin 2",
+      "title": "College Green and nearby historic centre",
+      "stops": [
+        "DUB-MON-0002",
+        "DUB-MON-0003",
+        "DUB-BLD-0003",
+        "DUB-BLD-0004",
+        "DUB-MON-0006",
+        "DUB-MON-0004",
+        "DUB-MON-0005",
+        "DUB-ART-0001",
+        "DUB-ART-0002"
+      ]
+    }
+  ],
+  "completion_rule": "Do not change any object's photography_status until the founder confirms that its original photograph has been uploaded and archived."
+}

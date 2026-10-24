@@ -131,5 +131,45 @@
     "accessed": "2026-10-24",
     "source_type": "GOVERNMENT",
     "notes": "Describes administrative and statutory boundary products, including counties, local authority areas, townlands and electoral divisions, and cautions that legal boundary delineation must be checked against the relevant Ordnance Map."
+  },
+  {
+    "id": "NIAH-50010519",
+    "name": "Jim Larkin Monument, O'Connell Street Lower",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010519/jim-larkin-monument-oconnell-street-lower-dublin-1-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration No. 50010519",
+    "notes": "NIAH record describes the 1980 bronze monument by Oisín Kelly, granite pedestal and three inset bronze inscription plaques; ITM/Irish grid coordinates recorded by NIAH as 315925, 234593."
+  },
+  {
+    "id": "NIAH-50010137",
+    "name": "Talbot Street Post Box",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010137/talbot-street-dublin-1-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration No. 50010137",
+    "notes": "NIAH records a c.1935 freestanding cast-iron P&T post box with Carron Company maker's mark; coordinates 316517, 234862."
+  },
+  {
+    "id": "NIAH-50010760",
+    "name": "Gardiner Street Upper Post Box",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010760/gardiner-street-upper-dublin-1-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration No. 50010760",
+    "notes": "NIAH records a c.1880 Victorian cast-iron pillar box bearing VR insignia and A. Handyside & Co. maker's inscription; coordinates 315856, 235627."
+  },
+  {
+    "id": "NIAH-50010206",
+    "name": "10 Talbot Street",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010206/talbot-street-dublin-1-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration No. 50010206",
+    "notes": "NIAH records a c.1840 terraced house with surviving Victorian upper-floor fabric, Flemish-bond brickwork, granite sills and decorative brick eaves course; coordinates 316154, 234766."
   }
 ]

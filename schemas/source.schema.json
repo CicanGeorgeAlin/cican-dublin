@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cicangeorgealin.github.io/cican-dublin-archive/schemas/source.schema.json",
+  "title": "CICAN Dublin Archive Source",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "publisher",
+    "url",
+    "accessed"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "publisher": {
+      "type": "string",
+      "minLength": 1
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "accessed": {
+      "type": "string",
+      "format": "date"
+    },
+    "source_type": {
+      "type": "string",
+      "enum": [
+        "OFFICIAL_REGISTER",
+        "GOVERNMENT",
+        "ARCHIVE",
+        "PRIMARY_DOCUMENT",
+        "ACADEMIC",
+        "SPECIALIST",
+        "OTHER"
+      ]
+    },
+    "specific_reference": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

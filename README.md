@@ -10,9 +10,9 @@ https://cicangeorgealin.github.io/cican-dublin-archive/
 
 ## Current catalogue
 
-The catalogue currently contains **27 records** across Dublin 1 and Dublin 2, linked to **31 source entries**.
+The catalogue currently contains **29 records** across Dublin 1 and Dublin 2, linked to **34 source entries**. This batch added two separately documented street-fabric records: four Victorian cast-iron bollards on O’Connell Street and the historic Custom House Docks boundary wall on Commons Street.
 
-- **25 VERIFIED** records.
+- **27 VERIFIED** records.
 - **2 PARTIALLY_VERIFIED** records, where specific details still require field confirmation.
 - **27 awaiting original founder photography**.
 - No record is marked photographed, illustrated or published.

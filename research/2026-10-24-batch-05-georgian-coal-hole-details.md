@@ -65,6 +65,26 @@
 - **3 Mountjoy Square North:** the NIAH record combines a coal-hole cover and entrance details with the historic association of meetings of the banned First Dáil in 1919.
 - **17–18 Nassau Street:** a cast-iron basement light and coal-hole cover survive together in granite paving.
 
+### DUB-BLD-0027 — 83 Amiens Street — Henshaw-inscribed coal-hole cover
+- NIAH 50010087; c.1832.
+- Original cast-iron coal-hole cover in a granite slab, inscribed “Henshaw Dublin”; cast-iron bootscraper and shared granite entrance platform.
+- Published Irish Grid reference: 316789, 235194.
+
+### DUB-BLD-0028 — 8 Charleville Mall
+- NIAH 50010067; c.1830.
+- Granite entrance platform, cast-iron bootscraper, wrought-iron railings, urn-finial corner posts and coal-hole cover.
+- Published Irish Grid reference: 316879, 235466.
+
+### DUB-BLD-0029 — 9 Charleville Mall
+- NIAH 50010068; c.1830.
+- Notable balconettes, cast-iron bootscraper, railings and coal-hole cover.
+- Published Irish Grid reference: 316875, 235469.
+
+### DUB-BLD-0030 — 10 Charleville Mall
+- NIAH 50010069; c.1830.
+- Granite platform, cast-iron bootscraper, railings, urn-finial corner posts and coal-hole cover.
+- Published Irish Grid reference: 316870, 235474.
+
 ## Coordinate qualification
 
 The coordinates are NIAH building/site points converted from published Irish Grid references. They take the founder to the property frontage; they do **not** pinpoint the individual coal-hole cover or bootscraper. Separate micro-detail records and precise object-level coordinates must wait until the founder photographs and GPS-checks each feature in the field.
@@ -90,7 +110,7 @@ The coordinates are NIAH building/site points converted from published Irish Gri
 - NIAH-50100085 — https://www.buildingsofireland.ie/buildings-search/building/50100085/17-18-nassau-street-dublin-2-co-dublin
 - NIAH-50010820 — https://www.buildingsofireland.ie/buildings-search/building/50010820/dublin-adult-learning-centre-dublin-city
 - NIAH-50060408 — https://www.buildingsofireland.ie/buildings-search/building/50060408/585-north-circular-road-dublin-1-dublin
-- Related lead, 83 Amiens Street / NIAH 50010087 — https://www.buildingsofireland.ie/buildings-search/building/50010087/g-s-medical-meehan-architects-83-amiens-street-dublin-1-co-dublin
+
 
 ## Integrity note
 

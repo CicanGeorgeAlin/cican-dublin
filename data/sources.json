@@ -691,5 +691,45 @@
     "source_type": "OFFICIAL_REGISTER",
     "specific_reference": "NIAH Registration 50060408",
     "notes": "NIAH describes a c.1820 house with cast-iron bootscraper, coal-hole cover in granite flagstone, and basement railings; grid reference 316388, 235615."
+  },
+  {
+    "id": "NIAH-50010087",
+    "name": "83 Amiens Street",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010087/g-s-medical-meehan-architects-83-amiens-street-dublin-1-co-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50010087",
+    "notes": "NIAH describes a c.1832 house with an original cast-iron coal-hole cover in a granite slab inscribed Henshaw Dublin, a bootscraper and railings; grid reference 316789, 235194."
+  },
+  {
+    "id": "NIAH-50010067",
+    "name": "8 Charleville Mall",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010067/8-charleville-mall-dublin-1-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50010067",
+    "notes": "NIAH describes a c.1830 Georgian house with cast-iron bootscraper, granite platform, railings and coal-hole cover; grid reference 316879, 235466."
+  },
+  {
+    "id": "NIAH-50010068",
+    "name": "9 Charleville Mall",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010068/charleville-mall-dublin-1-dublin-city",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50010068",
+    "notes": "NIAH describes a c.1830 house with balconettes, cast-iron bootscraper, railings and coal-hole cover; grid reference 316875, 235469."
+  },
+  {
+    "id": "NIAH-50010069",
+    "name": "10 Charleville Mall",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010069/10-charleville-mall-dublin-1-co-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50010069",
+    "notes": "NIAH describes a c.1830 Georgian house with bootscraper, granite platform, railings and coal-hole cover; grid reference 316870, 235474."
   }
 ]

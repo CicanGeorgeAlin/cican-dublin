@@ -127,14 +127,8 @@ footer{padding:30px 0 40px}
 </head>
 <body>
 <header><div class="wrap nav"><a class="brand" href="#top"><span class="mark">C</span><span>CICAN<br>DUBLIN ARCHIVE</span></a><nav class="navlinks"><a href="#archive">Archive</a><a href="https://github.com/CicanGeorgeAlin/cican-dublin-archive">Project ↗</a></nav></div></header>
-<main id="top"><section class="wrap hero"><div class="eyebrow">DUBLIN · IRELAND</div><h1>EXPLORE DUBLIN.</h1><p class="intro">Discover historic objects. Visit. Photograph. Preserve.</p><div class="stats" aria-label="Archive overview"><div class="stat"><b id="totalStat">—</b><span>CATALOGUED RECORDS</span></div><div class="stat"><b id="verifiedStat">—</b><span>VERIFIED RECORDS</span></div><div class="stat"><b id="photoStat">—</b><span>AWAITING PHOTOGRAPHY</span></div></div></section>
-<section class="wrap fieldwork" id="fieldwork" aria-label="Fieldwork guide"><div class="fieldwork-shell">
-<div><div class="fieldwork-kicker">CICAN FIELDWORK</div><h2>FIND IT. WALK THERE. PHOTOGRAPH IT.</h2>
-<p class="fieldwork-copy">Your next discovery is waiting.</p>
-<div class="fieldwork-actions"><a class="action-primary" href="#archive">EXPLORE THE ARCHIVE ↓</a></div></div>
-<div class="location-card"><div class="fieldwork-kicker">YOUR 3 STEPS</div><div class="location-state">01 · Choose<br>02 · Walk<br>03 · Photograph</div></div>
-</div></section>
-<section class="wrap archive" id="archive"><div class="toolbar"><div class="controls"><input id="search" type="search" placeholder="Search places, streets or objects…" aria-label="Search archive"><select id="district"><option value="">All districts</option></select><select id="sort"><option value="district">District order</option><option value="name">Name A–Z</option></select></div><div class="toolbar-side"><span class="count" id="count" aria-live="polite">LOADING</span><button id="reset" class="chip reset" type="button">Clear</button></div></div>
+<main id="top"><section class="wrap hero"><div class="eyebrow">DUBLIN · IRELAND</div><h1>CICAN DUBLIN ARCHIVE.</h1><p class="intro">Explore. Visit. Photograph.</p></section>
+<section class="wrap archive" id="archive"><div class="toolbar"><div class="controls"><input id="search" type="search" placeholder="Search the archive…" aria-label="Search archive"></div><div class="toolbar-side"><span class="count" id="count" aria-live="polite">LOADING</span></div></div>
 <div class="filters" id="filters"><button class="chip active" data-filter="ALL">All</button><button class="chip" data-filter="MONUMENT">Monuments</button><button class="chip" data-filter="MEMORIAL">Memorials</button><button class="chip" data-filter="ARCHITECTURE">Architecture</button><button class="chip" data-filter="INSCRIPTION">Inscriptions</button><button class="chip" data-filter="STREET_DETAIL">Street details</button><button class="chip" data-filter="PUBLIC_ART">Public art</button><button class="chip" data-filter="INFRASTRUCTURE">Infrastructure</button></div>
 <div class="gallery" id="gallery"><div class="empty">Loading catalogue…</div></div></section></main>
 <footer><div class="wrap foot"><strong>CICAN DUBLIN ARCHIVE</strong><span>CREATED BY CICAN GEORGE ALIN · ORIGINAL FIELD PHOTOGRAPHY ONLY</span></div></footer>
@@ -155,15 +149,10 @@ function recordText(record){
   ...sourceRows.flatMap(source=>[source.id,source.name,source.publisher,source.specific_reference,source.notes])
  ].join(" ");
 }
-function updateStats(){
- $("#totalStat").textContent=objects.length;
- $("#verifiedStat").textContent=objects.filter(record=>record.verification_status==="VERIFIED").length;
- $("#photoStat").textContent=objects.filter(record=>record.photography_status==="TO_PHOTOGRAPH").length;
-}
 function render(){
- const query=clean($("#search").value),district=$("#district").value,sort=$("#sort").value;
- let rows=objects.filter(record=>(active==="ALL"||record.category===active)&&(!district||record.district===district)&&(!query||clean(recordText(record)).includes(query)));
- rows.sort((a,b)=>sort==="name"?a.name.localeCompare(b.name):a.district.localeCompare(b.district,undefined,{numeric:true})||a.name.localeCompare(b.name));
+ const query=clean($("#search").value);
+ let rows=objects.filter(record=>(active==="ALL"||record.category===active)&&(!query||clean(recordText(record)).includes(query)));
+ rows.sort((a,b)=>a.name.localeCompare(b.name));
  $("#count").textContent=rows.length+" OF "+objects.length+" RECORDS";
  $("#gallery").innerHTML=rows.length?rows.map(record=>'<article class="item" data-open="'+esc(record.id)+'" role="button" tabindex="0" aria-label="Open record: '+esc(record.name)+'"><div class="photo" role="img" aria-label="Original field photograph not yet added for '+esc(record.name)+'"><span class="photo-mark">＋</span><span class="photo-label">PHOTO TO BE ADDED</span></div><div class="item-copy"><div class="item-top"><span>'+esc(record.category.replaceAll("_"," "))+' · '+esc(record.id)+'</span><span class="item-status '+(record.verification_status==="VERIFIED"?"":"partial")+'">'+esc(record.verification_status.replaceAll("_"," "))+'</span></div><h2>'+esc(record.name)+'</h2><div class="item-location">'+esc(record.district)+' · '+esc(record.address)+'</div></div></article>').join(""):'<div class="empty"><strong>No matching records.</strong><br>Try a different search or reset the filters.</div>';
 }
@@ -221,16 +210,11 @@ $("#detail").addEventListener("click",event=>{if(event.target===$("#detail"))clo
 $("#detail").addEventListener("cancel",event=>{event.preventDefault();closeRecord()});
 window.addEventListener("popstate",syncFromUrl);
 $("#search").addEventListener("input",render);
-$("#district").addEventListener("change",render);
-$("#sort").addEventListener("change",render);
 $("#filters").addEventListener("click",event=>{const button=event.target.closest("[data-filter]");if(!button)return;active=button.dataset.filter;document.querySelectorAll(".chip[data-filter]").forEach(chip=>chip.classList.toggle("active",chip===button));render()});
-$("#reset").addEventListener("click",()=>{$("#search").value="";$("#district").value="";$("#sort").value="district";active="ALL";document.querySelectorAll(".chip[data-filter]").forEach(chip=>chip.classList.toggle("active",chip.dataset.filter==="ALL"));render();$("#search").focus()});
+
 Promise.all(["objects","sources"].map(name=>fetch("./data/"+name+".json").then(response=>{if(!response.ok)throw Error("Could not load "+name+" catalogue (HTTP "+response.status+")");return response.json()}))).then(([objectData,sourceData])=>{
  if(!Array.isArray(objectData)||!Array.isArray(sourceData))throw Error("The archive data format is invalid.");
- objects=objectData;sources=sourceData;updateStats();
- const districts=[...new Set(objects.map(record=>record.district).filter(Boolean))].sort((a,b)=>a.localeCompare(b,undefined,{numeric:true}));
- $("#district").innerHTML='<option value="">All districts</option>'+districts.map(value=>'<option value="'+esc(value)+'">'+esc(value)+'</option>').join("");
- render();syncFromUrl();
+ objects=objectData;sources=sourceData;render();syncFromUrl();
 }).catch(error=>{$("#gallery").innerHTML='<div class="empty"><strong>The catalogue could not be loaded.</strong><br>'+esc(error.message)+'<br>Please refresh in a moment.</div>';$("#count").textContent="LOAD ERROR"});
 </script>
 </body></html>

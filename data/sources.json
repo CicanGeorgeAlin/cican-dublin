@@ -191,5 +191,75 @@
     "source_type": "OFFICIAL_REGISTER",
     "specific_reference": "Introduction and scope of the Dublin North City architectural inventory",
     "notes": "NIAH publication says over 2,800 structures were recorded in phases during 2011–2014 and explicitly notes that the inventory should not be regarded as exhaustive; it highlights overlooked domestic/commercial buildings, canal and railway structures, coal-hole covers, post boxes, railings and gates."
+  },
+  {
+    "id": "NIAH-50010134",
+    "name": "Loop Line railway viaduct over Talbot Street",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010134/dublin-city",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration No. 50010134",
+    "notes": "NIAH survey record; coordinates retained in the archive as the published grid reference. Decimal GPS remains null pending coordinate conversion and field verification."
+  },
+  {
+    "id": "NIAH-50010238",
+    "name": "Marlborough Street Edwardian post box",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010238/marlborough-street-dublin-1-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration No. 50010238",
+    "notes": "NIAH survey record; coordinates retained in the archive as the published grid reference. Decimal GPS remains null pending coordinate conversion and field verification."
+  },
+  {
+    "id": "NIAH-50010218",
+    "name": "23 Marlborough Street",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010218/ladbrokes-marlborough-street-dublin-1-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration No. 50010218",
+    "notes": "NIAH survey record; coordinates retained in the archive as the published grid reference. Decimal GPS remains null pending coordinate conversion and field verification."
+  },
+  {
+    "id": "NIAH-50010235",
+    "name": "77 Marlborough Street",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010235/77-marlborough-street-dublin-1-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration No. 50010235",
+    "notes": "NIAH survey record; coordinates retained in the archive as the published grid reference. Decimal GPS remains null pending coordinate conversion and field verification."
+  },
+  {
+    "id": "NIAH-50010230",
+    "name": "82 Marlborough Street",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010230/82-marlborough-street-dublin-1-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration No. 50010230",
+    "notes": "NIAH survey record; coordinates retained in the archive as the published grid reference. Decimal GPS remains null pending coordinate conversion and field verification."
+  },
+  {
+    "id": "NIAH-50010207",
+    "name": "Talbot House, 9 Talbot Street",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010207/talbot-house-talbot-street-dublin-1-dublin-city",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration No. 50010207",
+    "notes": "NIAH survey record; coordinates retained in the archive as the published grid reference. Decimal GPS remains null pending coordinate conversion and field verification."
+  },
+  {
+    "id": "NIAH-50010222",
+    "name": "National Model Schools, Marlborough Street — main school building",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010222/department-of-education-marlborough-street-dublin-1-dublin",
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration No. 50010222",
+    "notes": "NIAH survey record; coordinates retained in the archive as the published grid reference. Decimal GPS remains null pending coordinate conversion and field verification."
   }
 ]

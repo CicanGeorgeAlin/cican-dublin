@@ -310,6 +310,9 @@ footer{padding:22px 0 30px}
 @media(max-width:600px){.detail-body{padding:18px}.history-text{font-size:15px!important}.detail-actions .action-primary{min-height:56px}}
 
 .thumb,.thumb-placeholder,.photo,.photo-mark,.photo-label{display:none!important}
+
+/* Evidence-led research layers */
+.timeline{list-style:none;padding:0;margin:14px 0 4px;border-left:1px solid #555}.timeline li{position:relative;padding:0 0 17px 18px;display:grid;gap:4px}.timeline li:before{content:"";position:absolute;left:-4px;top:6px;width:7px;height:7px;border-radius:50%;background:#eee}.timeline-date{font-size:13px;color:#f2f2f2;font-weight:700;letter-spacing:.02em}.timeline-detail{font-size:13px;line-height:1.7;color:#aaa}.muted-copy{font-size:12px!important;color:#888!important;line-height:1.65!important}.photo-brief{font-size:13px;line-height:1.8;color:#bbb;padding-left:19px}.photo-brief li{padding:2px 0}.evidence-status{border-top:1px solid #303030;margin-top:18px;padding:15px 0 4px}.evidence-status>span{display:inline-block;border:1px solid #777;padding:5px 8px;font-size:9px;letter-spacing:.13em;color:#eee}.evidence-status p{font-size:12px!important;color:#999!important;line-height:1.65!important;margin:9px 0 0}.nearby-list{display:grid;gap:0;border-top:1px solid #292929;margin-top:12px}.nearby-item{display:flex;justify-content:space-between;align-items:center;gap:12px;text-align:left;background:transparent;border:0;border-bottom:1px solid #292929;color:#eee;padding:12px 2px;cursor:pointer}.nearby-item span{font-size:13px}.nearby-item small{font-size:9px;color:#888;letter-spacing:.08em;white-space:nowrap}.nearby-item:hover span{ text-decoration:underline;text-underline-offset:3px}.fold{margin-top:12px}
 </style>
 </head>
 <body>
@@ -360,6 +363,27 @@ function render(){
 function safeUrl(value){
  try{const url=new URL(value);return ["https:","http:"].includes(url.protocol)?url.href:"#"}catch{return "#"}
 }
+function timelineMarkup(record){
+ const text=[record.historical_description||"",record.historical_period||""].join(" ");
+ const years=[...new Set((text.match(/(?:c\\.?\\s*)?\\b(?:1[0-9]{3}|20[0-2][0-9])(?:\\s*[–-]\\s*(?:1[0-9]{3}|20[0-2][0-9]))?\\b/g)||[]))];
+ if(!years.length)return '<p class="muted-copy">No dated milestones have yet been separated from the source record.</p>';
+ return '<ol class="timeline">'+years.map(value=>{
+  const cleanYear=value.replace(/^c\\.?\\s*/,"");
+  const sentence=(record.historical_description||"").split(/(?<=[.!?])\\s+/).find(part=>part.includes(cleanYear.split(/[–-]/)[0]));
+  return '<li><span class="timeline-date">'+esc(value)+'</span><span class="timeline-detail">'+esc(sentence||"Date recorded in the historical period field; event detail not separately stated.")+'</span></li>';
+ }).join("")+'</ol>';
+}
+function evidenceMarkup(record){
+ const labels={VERIFIED:"REGISTER-VERIFIED",PARTIALLY_VERIFIED:"PARTIALLY VERIFIED",RESEARCH_LEAD:"RESEARCH LEAD"};
+ const label=labels[record.verification_status]||"STATUS NOT SET";
+ const note=record.verification_status==="VERIFIED"?"Core catalogue details are supported by the linked source records. Current condition and access should still be checked on site.":record.verification_status==="PARTIALLY_VERIFIED"?"Some details are supported, but at least one element remains to be checked against primary evidence or field photography.":"This record is a research lead; treat its details as provisional until corroborated.";
+ return '<div class="evidence-status"><span>'+esc(label)+'</span><p>'+esc(note)+'</p></div>';
+}
+function nearbyMarkup(record){
+ const related=objects.filter(item=>item.id!==record.id&&item.district===record.district).sort((a,b)=>a.name.localeCompare(b.name)).slice(0,5);
+ if(!related.length)return '<p class="muted-copy">No other catalogue records are currently grouped in this district.</p>';
+ return '<div class="nearby-list">'+related.map(item=>'<button class="nearby-item" type="button" data-related="'+esc(item.id)+'"><span>'+esc(item.name)+'</span><small>'+esc(item.category.replaceAll("_"," "))+'</small></button>').join("")+'</div><p class="muted-copy">Grouped by district, not by measured walking distance. Open WALK THERE for directions to each place.</p>';
+}
 function openRecord(id,updateUrl=true){
  const record=objects.find(item=>item.id===id);if(!record)return;
  const linkedSources=(record.sources||[]).map(id=>sources.find(source=>source.id===id)).filter(Boolean);
@@ -369,11 +393,17 @@ function openRecord(id,updateUrl=true){
  const destination=record.address+", "+record.district+", Dublin, Ireland";
  const mapHref="https://www.google.com/maps/dir/?api=1&destination="+encodeURIComponent(destination)+"&travelmode=walking";
  const sourceSection=linkedSources.length?'<div class="source-list">'+linkedSources.map(source=>'<div class="source-entry"><a href="'+esc(safeUrl(source.url))+'" target="_blank" rel="noopener noreferrer">'+esc(source.name)+' ↗</a><small>'+esc([source.publisher,source.specific_reference].filter(Boolean).join(" · "))+'</small></div>').join("")+'</div>':'<p>Historical references are being added.</p>';
- const photo='<section class="photo-upload"><h3>YOUR PHOTOGRAPH</h3><label class="photo-picker" for="placePhoto">ADD A PHOTO</label><input id="placePhoto" type="file" accept="image/*" capture="environment"><div id="photoPreview" class="photo-preview" aria-live="polite">Choose a photograph from your device.</div><p class="photo-help">Choose a photo of this place. It will preview here; publishing it permanently to the archive requires a secure upload step.</p></section>';
+ const brief=(record.photography_brief||[]);
+ const photoBrief=brief.length?'<ul class="photo-brief">'+brief.map(item=>'<li>'+esc(item)+'</li>').join("")+'</ul>':'<p class="muted-copy">A detailed photography brief has not yet been added.</p>';
+ const photo='<section class="photo-upload"><h3>YOUR PHOTOGRAPH</h3><label class="photo-picker" for="placePhoto">ADD A PHOTO</label><input id="placePhoto" type="file" accept="image/*" capture="environment"><div id="photoPreview" class="photo-preview" aria-live="polite">Choose a photograph from your device.</div><p class="photo-help">This is a local preview only. It is not uploaded or saved to the public archive. Permanent publishing is not enabled yet; no account token or password is requested here.</p></section>';
  $("#detailBody").innerHTML=
   '<section class="history-section"><h3>HISTORY</h3><p class="history-text">'+esc(record.historical_description||"Historical research is in progress.")+'</p>'+(record.historical_significance?'<p class="history-significance">'+esc(record.historical_significance)+'</p>':'')+'</section>'+
+  '<details class="fold" open><summary>DATES &amp; EVENTS</summary>'+timelineMarkup(record)+'</details>'+
+  '<details class="fold"><summary>WHAT TO LOOK FOR</summary>'+photoBrief+'</details>'+
+  '<details class="fold"><summary>NEARBY ARCHIVE PLACES</summary>'+nearbyMarkup(record)+'</details>'+
   photo+
-  '<section class="place-facts"><div><span>PERIOD</span><b>'+esc(record.historical_period||"Not established")+'</b></div><div><span>ADDRESS</span><b>'+esc(record.address)+', '+esc(record.district)+'</b></div></section>'+
+  '<section class="place-facts"><div><span>PERIOD</span><b>'+esc(record.historical_period||"Not established")+'</b></div><div><span>ADDRESS</span><b>'+esc(record.address)+', '+esc(record.district)+'</b></div><div><span>ACCESS</span><b>'+esc(record.access_status||"Check local access conditions")+'</b></div></section>'+
+  evidenceMarkup(record)+
   '<div class="detail-actions"><a class="action-primary" href="'+esc(mapHref)+'" target="_blank" rel="noopener noreferrer">WALK THERE ↗</a></div>'+
   '<details class="fold source-fold"><summary>SOURCES · '+linkedSources.length+'</summary>'+sourceSection+'</details>';
  const photoInput=$("#placePhoto");
@@ -384,7 +414,7 @@ function openRecord(id,updateUrl=true){
   if(!file.type.startsWith("image/")){preview.textContent="Please choose an image file.";return;}
   if(window.currentArchivePhotoUrl)URL.revokeObjectURL(window.currentArchivePhotoUrl);
   window.currentArchivePhotoUrl=URL.createObjectURL(file);
-  preview.innerHTML='<img alt="Selected photograph of '+esc(record.name)+'" src="'+window.currentArchivePhotoUrl+'"><span>'+esc(file.name)+'</span>';
+  preview.innerHTML='<img alt="Selected photograph of '+esc(record.name)+'" src="'+window.currentArchivePhotoUrl+'"><span>'+esc(file.name)+' · local preview only</span>';
  });
  if(!$("#detail").open)$("#detail").showModal();
  if(updateUrl)history.pushState({recordId:id},"","#object="+encodeURIComponent(id));

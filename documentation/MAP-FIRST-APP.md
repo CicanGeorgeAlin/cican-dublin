@@ -3,7 +3,7 @@
 ## Entry point
 The prototype is available at `/app.html`. The existing homepage, archive catalogue, and My Dublin notebook are deliberately unchanged while this prototype is reviewed.
 
-## Experience
+## Opening experience\nThe app begins with a cinematic “Open the Atlas” screen: a quiet cartographic grid, editorial typography and a live count of archive records. The visitor enters the map explicitly. The intro is dismissed for the current browser tab session after the first entry; it does not modify archive data or saved-place records.\n\n## Experience
 - Full-screen interactive Dublin map with documented archive locations.
 - Search across names, IDs, categories, districts, addresses, periods, historical descriptions, significance and source identifiers, including source names and publishers.
 - The discovery panel shows live archive totals by documented and in-review status.

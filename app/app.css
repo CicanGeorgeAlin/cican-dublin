@@ -302,3 +302,9 @@ button:focus-visible,a:focus-visible,summary:focus-visible,article[role="button"
 .atlas-intro-brand .atlas-brand-mark{width:64px;height:64px}
 .cican-emblem{display:block;width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 0 9px #ffffff20)}
 @media(max-width:850px){.brand .brand-mark{width:39px;height:39px}.atlas-intro-brand .atlas-brand-mark{width:58px;height:58px}}
+
+
+/* Keep the CICAN header clear of the map search control on phones. */
+@media(max-width:850px){
+  .top-left{top:74px}
+}

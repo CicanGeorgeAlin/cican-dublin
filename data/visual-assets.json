@@ -1,16 +1,17 @@
 {
   "schema_version": "1.0.0",
   "project": "CICAN DUBLIN ARCHIVE",
-  "policy": "FOUNDER_ORIGINAL_PHOTOGRAPH_ONLY",
+  "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
   "record_count": 80,
   "rules": [
-    "Only original photographs taken by the founder may populate public location galleries.",
-    "Do not use stock imagery, borrowed historical photographs or AI-generated substitute images.",
-    "Create line art only from the corresponding founder-captured original photograph.",
+    "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
+    "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
+    "Founder-captured original photographs must remain separately identified and credited to the founder.",
+    "Create founder line art only from the corresponding founder-captured original photograph unless a separate rights-cleared source and adaptation permission are documented.",
     "Preserve original photographs separately from derivative artwork.",
     "Photographs do not independently verify exact object coordinates.",
-    "Do not change archive record IDs or mark photography complete before founder confirmation."
+    "Do not change archive record IDs or mark founder photography complete before founder confirmation."
   ],
   "records": [
     {
@@ -2229,7 +2230,22 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "title": "Pembroke Street Upper, Dublin",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Pembroke_Street_Upper%2C_Dublin_-_geograph.org.uk_-_7589976.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Pembroke_Street_Upper,_Dublin_-_geograph.org.uk_-_7589976.jpg",
+          "photographer": "Marathon",
+          "date_taken": "2023-08-02",
+          "source_collection": "Geograph Britain and Ireland",
+          "licence": "Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "attribution": "Pembroke Street Upper, Dublin by Marathon, via Geograph Britain and Ireland / Wikimedia Commons",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "The image depicts Pembroke Street Upper at street level; it is contextual imagery and is not confirmed as a photograph of No. 1 itself."
+        }
+      ]
     },
     {
       "record_id": "DUB-BLD-0032",

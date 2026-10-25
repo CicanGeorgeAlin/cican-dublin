@@ -308,3 +308,7 @@ button:focus-visible,a:focus-visible,summary:focus-visible,article[role="button"
 @media(max-width:850px){
   .top-left{top:74px}
 }
+
+
+/* Mobile map header: keep the original CICAN logo clear; hide the floating search/filter panel. */
+@media(max-width:850px){.map-overlay.top-left{display:none!important}}

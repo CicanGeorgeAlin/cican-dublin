@@ -9,6 +9,7 @@ const manifest = JSON.parse(read("manifest.webmanifest"));
 const sw = read("service-worker.js");
 const objects = JSON.parse(read("data/objects.json"));
 const sources = JSON.parse(read("data/sources.json"));
+const visuals = JSON.parse(read("data/visual-assets.json"));
 const notebook = read("my-dublin.html");
 
 const htmlIds = new Set([...html.matchAll(new RegExp('id="([^"]+)"', "g"))].map(match => match[1]));
@@ -27,6 +28,10 @@ assert.ok(css.includes("#map") && css.includes(".discovery-panel"), "Map and dis
 assert.ok(css.includes(".panel-grip") && app.includes("setPanelExpanded"), "Mobile Explore and Map modes must expand and collapse the discovery panel.");
 assert.ok(css.includes("grayscale(1) brightness(.72)"), "Map tiles should use the archive dark-map treatment.");
 assert.ok(app.includes("sourceMarkup") && app.includes("SOURCES_URL"), "Archive details must render linked source records.");
+assert.ok(app.includes("photoMarkup") && app.includes("VISUALS_URL") && app.includes("safePhotoPath"), "Record details must support founder photo galleries and a pending-photo state.");
+assert.ok(css.includes(".photo-gallery") && css.includes(".photo-pending"), "Founder photography and pending-photo layouts must be styled.");
+assert.ok(Array.isArray(visuals.records) && visuals.records.length === objects.length, "Visual inventory must cover every archive record.");
+assert.ok(sw.includes("./data/visual-assets.json"), "Visual inventory must be included in the app shell cache.");
 assert.ok(app.includes("updateArchiveStats") && html.includes("archive-stats"), "Archive overview statistics must be wired to the catalogue.");
 new Function(app);
 
@@ -34,9 +39,11 @@ assert.ok(Array.isArray(objects) && objects.length > 0, "Object catalogue must b
 assert.ok(Array.isArray(sources) && sources.length > 0, "Source catalogue must be a non-empty array.");
 const ids = new Set();
 const sourceIds = new Set(sources.map(source => source.id));
+const visualIds = new Set(visuals.records.map(entry => entry.record_id));
 for (const record of objects) {
   assert.ok(record.id && !ids.has(record.id), "Archive IDs must be present and unique.");
   ids.add(record.id);
+  assert.ok(visualIds.has(record.id), "Visual inventory missing record: " + record.id);
   assert.ok(typeof record.latitude === "number" && typeof record.longitude === "number", "Map record needs numeric coordinates: " + record.id);
   assert.ok(record.latitude >= -90 && record.latitude <= 90 && record.longitude >= -180 && record.longitude <= 180, "Invalid coordinates: " + record.id);
   assert.ok(record.coordinate_status, "Coordinate provenance is required: " + record.id);
@@ -60,7 +67,7 @@ for (const icon of manifest.icons) {
   assert.ok(fs.existsSync(path), "Missing PWA icon: " + icon.src);
 }
 
-for (const file of ["app.html", "app/app.css", "app/app.js", "manifest.webmanifest", "data/objects.json", "data/sources.json", "assets/favicon.svg"]) {
+for (const file of ["app.html", "app/app.css", "app/app.js", "manifest.webmanifest", "data/objects.json", "data/sources.json", "data/visual-assets.json", "assets/favicon.svg"]) {
   assert.ok(fs.existsSync(file), "Missing application shell asset: " + file);
 }
 assert.ok(sw.includes("key.startsWith(CACHE_PREFIX)"), "Service worker must only clean its own cache namespace.");

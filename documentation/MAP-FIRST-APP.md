@@ -5,7 +5,9 @@ The prototype is available at `/app.html`. The existing homepage, archive catalo
 
 ## Experience
 - Full-screen interactive Dublin map with documented archive locations.
-- Search across names, IDs, categories, districts, addresses, periods, historical descriptions, significance and source identifiers.
+- Search across names, IDs, categories, districts, addresses, periods, historical descriptions, significance and source identifiers, including source names and publishers.
+- The discovery panel shows live archive totals by documented and in-review status.
+- Research references open their original publisher records where a valid HTTP(S) source URL is recorded.
 - Category and district filters.
 - Tappable markers and a detail panel with historical context, verification state, coordinate provenance, access notes, photography brief and source identifiers.
 - Walking directions open Google Maps externally.

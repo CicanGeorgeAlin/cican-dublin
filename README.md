@@ -10,14 +10,14 @@ https://cicangeorgealin.github.io/cican-dublin-archive/
 
 ## Current catalogue
 
-The catalogue currently contains **83 records** across Dublin 1, Dublin 2 and Dublin 3, linked to **90 source entries**. Recent batches added forty-two individually documented discoveries, including historic post boxes, lamp standards, coal-hole covers, boot scrapers, railings and Georgian entrance details.
+The catalogue currently contains **88 records** across Dublin 1, Dublin 2 and Dublin 3, linked to **95 source entries**. Recent batches added forty-two individually documented discoveries, including historic post boxes, lamp standards, coal-hole covers, boot scrapers, railings and Georgian entrance details.
 
-- **81 VERIFIED** records.
+- **86 VERIFIED** records.
 - **2 PARTIALLY_VERIFIED** records, where specific details still require field confirmation.
-- **83 awaiting original founder photography**.
+- **88 awaiting original founder photography**.
 - No record is marked photographed, illustrated or published.
 
-This is an expanding research inventory, not a complete survey of Dublin. Dublin 3 research has now begun with three NIAH-verified records; field photography and coordinate verification remain outstanding.
+This is an expanding research inventory, not a complete survey of Dublin. Dublin 3 research now contains eight individually documented NIAH records; field photography and coordinate verification remain outstanding.
 
 ## Core mission
 
@@ -67,7 +67,7 @@ The website displays research records as placeholders until original field photo
 
 ## Geographic and coordinate accuracy
 
-All **83 current records** now have decimal WGS 84 coordinates derived from their published NIAH Irish Grid references (TM65 / Irish Grid, EPSG:29902), transformed using EPSG operation 1641. The original Irish Grid references remain preserved in the catalogue. Every WALK THERE link uses the record's latitude and longitude as its Google Maps walking destination, not an address or street-name search.
+All **88 current records** now have decimal WGS 84 coordinates derived from their published NIAH Irish Grid references (TM65 / Irish Grid, EPSG:29902), transformed using EPSG operation 1641. The original Irish Grid references remain preserved in the catalogue. Every WALK THERE link uses the record's latitude and longitude as its Google Maps walking destination, not an address or street-name search.
 
 These are **source-derived map points, not founder-recorded GPS fixes**. NIAH dataset metadata explains that legacy point centroids were digitised relative to OSI 6-inch mapping and may need revision against larger-scale mapping. The EPSG coordinate transformation has a published 1 m accuracy, but that does not establish the accuracy of the underlying NIAH point. Field verification remains outstanding; no coordinate is labelled FIELD_VERIFIED until checked on site. Future records must retain a published coordinate reference or another documented source—never estimate a pin from an address.
 

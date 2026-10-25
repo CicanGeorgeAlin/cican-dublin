@@ -12,6 +12,7 @@ const sources = JSON.parse(read("data/sources.json"));
 const notebook = read("my-dublin.html");
 
 const htmlIds = new Set([...html.matchAll(new RegExp('id="([^"]+)"', "g"))].map(match => match[1]));
+assert.ok(!html.includes("\\n<section"), "App HTML must not contain a literal escaped newline before the intro.");
 const appIds = new Set([...app.matchAll(new RegExp('\\$\\("([^"]+)"\\)', "g"))].map(match => match[1]));
 const dynamicallyCreatedIds = new Set(["save-place"]);
 for (const id of appIds) {

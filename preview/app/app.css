@@ -161,3 +161,7 @@
  .compact-photo img{max-height:110px}
 }
 @media(prefers-reduced-motion:reduce){.discovery-panel{transition:none}}
+
+/* Keep the resting map completely clear; discovery content is opt-in. */
+.map-legend{display:none!important}
+.discovery-panel:not(.expanded):not(.detail-open) .results{display:none}

@@ -45,5 +45,7 @@ assert.ok(archive.includes('Promise.all(["objects","sources","visual-assets"]'),
 assert.ok(archive.includes("visualAssets=visualData"),"Archive must assign visual inventory.");
 const notebook=read("my-dublin.html");
 for(const id of ["photo","makeArt","save","entries"])assert.ok(notebook.includes('id="'+id+'"'),"Notebook page missing #"+id);
+for(const id of ["exportBackup","importBackup","backupFile"])assert.ok(notebook.includes('id="'+id+'"'),"Notebook backup control missing #"+id);
+assert.ok(notebook.includes("CICAN-MY-DUBLIN-BACKUP"),"Notebook backup format marker missing.");
 console.log("ARCHIVE PREFLIGHT PASSED");
 console.log(JSON.stringify({objects:objects.length,sources:sources.length,visualRecords:visual.records.length,referenceImages:visual.records.reduce((n,r)=>n+(r.reference_images||[]).length,0),verified:objects.filter(r=>r.verification_status==="VERIFIED").length,partiallyVerified:objects.filter(r=>r.verification_status==="PARTIALLY_VERIFIED").length},null,2));

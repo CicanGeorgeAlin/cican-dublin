@@ -1,6 +1,6 @@
-const CACHE="cican-dublin-app-v21";
+const CACHE="cican-dublin-app-v22";
 const CACHE_PREFIX="cican-dublin-app-";
-const SHELL=["./app.html","./app/app.css","./app/app.js","./manifest.webmanifest","./data/objects.json","./data/sources.json","./data/visual-assets.json","./assets/favicon.svg"];
+const SHELL=["./app.html","./app/app.css","./app/app.js","./manifest.webmanifest","./data/objects.json","./data/sources.json","./data/visual-assets.json","./assets/favicon.svg","./assets/cican-emblem.svg"];
 const SHELL_PATHS=new Set(SHELL.map(path=>new URL(path,self.registration.scope).pathname));
 
 self.addEventListener("install",event=>{

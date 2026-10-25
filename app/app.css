@@ -71,3 +71,93 @@
 /* Founder-led photographic record: no stock or synthetic substitute imagery. */
 .photo-gallery{margin:0 0 25px}.photo-gallery-head,.photo-pending-top{display:flex;justify-content:space-between;gap:10px;color:#92978f;font-size:7px;letter-spacing:.15em;margin:0 0 9px}.photo-hero{margin:0;position:relative;background:#111;border:1px solid #303030;overflow:hidden}.photo-hero img{display:block;width:100%;max-height:390px;aspect-ratio:4/3;object-fit:cover;background:#111}.photo-hero figcaption{padding:9px 11px;background:#090909;color:#a6a6a6;font-size:7px;letter-spacing:.15em}.photo-thumbs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin-top:6px}.photo-thumbs img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover;background:#111;border:1px solid #303030}.photo-pending{margin:0 0 25px;border:1px solid #303030;background:linear-gradient(145deg,#151715,#090a09 72%)}.photo-pending-top{padding:12px 13px 0}.photo-pending-art{height:176px;position:relative;display:grid;place-items:center;overflow:hidden;background:radial-gradient(ellipse at center,#313832 0%,#171b18 38%,#0a0b0a 76%)}.photo-pending-art:before,.photo-pending-art:after{content:"";position:absolute;width:72%;height:1px;background:#aab5a51b;transform:rotate(-28deg)}.photo-pending-art:after{transform:rotate(28deg)}.photo-pending-art>b{font:74px/1 Georgia,serif;color:#dce4d9;text-shadow:0 0 35px #dce4d955;z-index:1}.photo-pending-art small{position:absolute;bottom:13px;color:#9da69a;font-size:6px;letter-spacing:.24em}.photo-ring{position:absolute;aspect-ratio:1;border:1px solid #c7d2c01b;border-radius:50%}.photo-ring-one{width:116px}.photo-ring-two{width:164px}.photo-cross{position:absolute;width:1px;height:100%;background:#c7d2c00d}.photo-cross-two{transform:rotate(90deg)}.photo-pending-copy{padding:14px 14px 15px;border-top:1px solid #303630}.photo-pending-copy>b{font-size:8px;letter-spacing:.12em;color:#e5e8e2}.photo-pending-copy p{font:12px/1.65 Georgia,serif;color:#a8aca5;margin:7px 0 11px}.photo-pending-copy>span{font-size:7px;letter-spacing:.12em;color:#8f9b89}
 @media(max-width:850px){.photo-hero img{max-height:330px;aspect-ratio:5/4}.photo-pending-art{height:150px}}
+
+/* MAP-FIRST SIMPLIFICATION — one surface, contextual controls, no stacked content columns. */
+.atlas-intro{display:none!important}
+.app-shell{display:block;height:100dvh;min-height:100dvh}
+.topbar{position:absolute;top:0;left:0;right:0;height:58px;padding:0 16px;background:linear-gradient(180deg,#050505e8,transparent);border:0;pointer-events:none}
+.topbar>*{pointer-events:auto}
+.topbar-center{display:none}
+.workspace{display:block;position:absolute;inset:0;overflow:hidden}
+.map-stage{position:absolute;inset:0}
+#map{inset:0}
+.top-left{top:72px;left:50%;transform:translateX(-50%);width:min(520px,calc(100% - 28px))}
+.search-box{height:50px;border-radius:15px;background:#090a09ed;border:1px solid #ffffff26;backdrop-filter:blur(18px);box-shadow:0 10px 35px #0007}
+.filter-row{display:none}
+.top-left:focus-within .filter-row{display:flex}
+.map-legend{top:132px;bottom:auto;left:50%;transform:translateX(-50%);padding:6px 9px;border:0;background:#080808a8;border-radius:30px;font-size:7px;opacity:.82;backdrop-filter:blur(10px)}
+.map-recenter{right:16px;bottom:88px;border-radius:50%;width:44px;height:44px;padding:0;display:grid;place-items:center;background:#090a09e8;border:1px solid #ffffff2a;backdrop-filter:blur(12px)}
+.map-recenter span{display:none}
+.map-credit{top:auto;right:8px;bottom:4px;font-size:6px;opacity:.65;background:#0808088a}
+.discovery-panel{position:absolute;left:50%;bottom:68px;transform:translateX(-50%);width:min(520px,calc(100% - 24px));height:56px;min-height:56px;border:1px solid #ffffff24;border-radius:18px;background:#090a09eF;box-shadow:0 12px 40px #0009;backdrop-filter:blur(22px);overflow:hidden;transition:height .28s ease,border-radius .28s ease}
+.discovery-panel:not(.expanded):not(.detail-open){height:56px}
+.discovery-panel .panel-head,.discovery-panel .panel-toolbar,.discovery-panel .panel-footer{display:none!important}
+.panel-grip{display:flex;position:absolute;inset:0 0 auto 0;width:100%;height:56px;align-items:center;justify-content:center;border:0;background:transparent;z-index:5;cursor:pointer}
+.panel-grip span{width:0;height:0}
+.panel-grip:after{content:"EXPLORE DUBLIN";font-size:9px;letter-spacing:.16em;color:#f4f4f4}
+.discovery-panel.expanded{height:min(62dvh,620px);border-radius:18px}
+.discovery-panel.expanded .panel-grip{height:28px;justify-content:flex-start;padding-left:18px}
+.discovery-panel.expanded .panel-grip:after{content:"DISCOVERIES  ·  SWIPE THE MAP";font-size:8px;color:#999}
+.discovery-panel.expanded .panel-grip span{width:25px;height:2px;margin-right:10px;background:#999}
+.results{padding:38px 18px 18px}
+.result-card{padding:13px 0;grid-template-columns:32px minmax(0,1fr) 14px;gap:10px}
+.result-index{width:30px;height:30px;font-size:13px;border-radius:9px}
+.result-title{font-size:16px;margin:3px 0}
+.result-meta,.result-address{font-size:8px}
+.discovery-panel.detail-open{height:min(58dvh,570px);border-radius:18px}
+.discovery-panel.detail-open .panel-grip{display:none}
+.detail-view{padding:18px 18px 20px}
+.detail-view h2{font:27px/1.05 Georgia,serif;margin:0 34px 8px 0;letter-spacing:-.04em}
+.compact-detail-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.detail-kicker{margin:0;color:#aeb9a8;font-size:8px;letter-spacing:.16em}
+.detail-x{width:30px;height:30px;border-radius:50%;background:#ffffff12;border:1px solid #ffffff24;color:white;font-size:19px}
+.compact-meta{display:flex;align-items:center;gap:12px;color:#999;font-size:8px;letter-spacing:.08em;margin-bottom:12px}
+.detail-status{margin:0;padding:5px 7px;border-radius:20px;font-size:7px}
+.compact-photo{margin:0 0 12px;overflow:hidden;border-radius:12px;background:#111}
+.compact-photo img{width:100%;max-height:190px;aspect-ratio:16/7;object-fit:cover;display:block}
+.compact-photo figcaption{padding:6px 9px;font-size:6px;letter-spacing:.13em;color:#999}
+.compact-thumbs{display:flex;gap:6px;margin:0 0 12px}
+.compact-thumbs img{width:54px;height:42px;object-fit:cover;border-radius:6px}
+.compact-summary{font:14px/1.55 Georgia,serif;color:#e0e0e0;margin:0 0 12px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.more-evidence{border-top:1px solid #ffffff1c;border-bottom:1px solid #ffffff1c;padding:10px 0;color:#ddd}
+.more-evidence summary{cursor:pointer;list-style:none;font-size:8px;letter-spacing:.12em;color:#b8c4b1}
+.more-evidence summary::-webkit-details-marker{display:none}
+.more-evidence summary:after{content:"＋";float:right;font-size:14px}
+.more-evidence[open] summary:after{content:"−"}
+.evidence-content{font:12px/1.6 Georgia,serif;color:#c6c6c6;padding-top:10px}
+.evidence-content p{margin:0 0 9px}
+.evidence-content b{font:700 8px var(--sans);letter-spacing:.08em;color:#999}
+.compact-significance{color:#e0e0e0}
+.compact-actions{display:flex;gap:8px;margin-top:12px}
+.compact-actions>*{flex:1;min-height:40px;border-radius:10px}
+.action-link,.action-button{font-size:8px}
+.bottom-nav{position:absolute;display:flex;left:50%;transform:translateX(-50%);bottom:12px;width:min(390px,calc(100% - 36px));height:46px;padding:4px;border:1px solid #ffffff20;border-radius:24px;background:#080908eF;box-shadow:0 8px 28px #0008;backdrop-filter:blur(18px);z-index:700}
+.nav-item{flex:1;display:flex;flex-direction:row;gap:5px;font-size:7px;border-radius:18px}
+.nav-item span{font-size:13px}
+.nav-item.active{background:#ffffff16;color:white}
+.leaflet-control-zoom{display:none}
+@media(min-width:851px){
+ .top-left{top:78px}
+ .discovery-panel{bottom:22px}
+ .bottom-nav{bottom:20px}
+ .map-recenter{bottom:88px}
+ .discovery-panel.expanded,.discovery-panel.detail-open{height:min(68vh,680px)}
+}
+@media(max-width:850px){
+ .topbar{height:54px}
+ .top-left{top:66px}
+ .map-legend{top:122px}
+ .discovery-panel{bottom:68px}
+ .discovery-panel.expanded{height:min(66dvh,620px)}
+ .discovery-panel.detail-open{height:min(62dvh,590px)}
+ .map-recenter{bottom:126px}
+ .bottom-nav{bottom:10px;height:46px}
+ .detail-view{padding:16px 16px 18px}
+ .compact-photo img{max-height:150px;aspect-ratio:16/7}
+}
+@media(max-height:650px){
+ .discovery-panel.expanded{height:58dvh}
+ .discovery-panel.detail-open{height:54dvh}
+ .compact-photo img{max-height:110px}
+}
+@media(prefers-reduced-motion:reduce){.discovery-panel{transition:none}}

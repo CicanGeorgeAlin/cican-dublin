@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN ARCHIVE",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 80,
+  "record_count": 83,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -2477,6 +2477,102 @@
         "Cast-iron lamp standard over north parapet",
         "Cast-iron balustrades and granite parapets",
         "Granite arch, limestone piers and nearby canal lock"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-BLD-0038",
+      "name": "7 Marino Crescent — Georgian doorway and leaded fanlight",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 3",
+      "address": "7 Marino Crescent, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full frontage within the curve of Marino Crescent",
+        "Elliptical-headed doorway and carved stone doorcase",
+        "Leaded petal fanlight and carved timber door",
+        "Panelled pilasters, foliate brackets and frieze",
+        "Granite entrance steps, platform and decorative iron railings",
+        "Cast-iron gate and carved limestone boundary plinth"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-BLD-0039",
+      "name": "Marino College — 1935–36 technical institute and library",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 3",
+      "address": "14–20 Marino Mart, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full curved frontage and relationship to Fairview Park",
+        "Herringbone brickwork and raised granite plinth",
+        "Carved limestone plaques depicting Industry and Commerce",
+        "Carved granite mullions and continuous sill courses",
+        "Main entrance granite surround, sidelights and overlight",
+        "Bow-fronted east and west pavilions and mansard roof"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-BLD-0040",
+      "name": "Vernon Lodge — 1885 carved limestone pedestrian entrance",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 3",
+      "address": "41A Castle Avenue, at the junction with Kincora Avenue, Clontarf, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full entrance and its relationship to the boundary wall",
+        "1885 date stone",
+        "Vernon family coat of arms and crest",
+        "Motto lettering 'Vernon Semper Viret'",
+        "Tudor arch, roll mouldings and crenellated gable",
+        "Octagonal piers, carved capitals and limestone walling"
       ],
       "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
       "original_photo": null,

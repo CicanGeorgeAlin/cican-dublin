@@ -20,7 +20,9 @@ for (const id of appIds) {
 for (const id of ["atlas-intro", "atlas-title", "enter-atlas", "map", "search", "category-filter", "district-filter", "panel-toolbar", "results", "detail-view", "discovery-panel", "locate-button", "catalogue-status", "archive-stats"]) {
   assert.ok(htmlIds.has(id), "Required map app element is missing: #" + id);
 }
-assert.ok(css.includes(".atlas-intro") && css.includes(".atlas-enter"), "The cinematic atlas opening must be styled.");\nassert.ok(app.includes("dismissAtlasIntro") && app.includes("intro-record-count"), "The atlas opening must be dismissible and show live catalogue totals.");\nassert.ok(css.includes("#map") && css.includes(".discovery-panel"), "Map and discovery panel styles must exist.");
+assert.ok(css.includes(".atlas-intro") && css.includes(".atlas-enter"), "The cinematic atlas opening must be styled.");
+assert.ok(app.includes("dismissAtlasIntro") && app.includes("intro-record-count"), "The atlas opening must be dismissible and show live catalogue totals.");
+assert.ok(css.includes("#map") && css.includes(".discovery-panel"), "Map and discovery panel styles must exist.");
 assert.ok(css.includes("grayscale(1) brightness(.72)"), "Map tiles should use the archive dark-map treatment.");
 assert.ok(app.includes("sourceMarkup") && app.includes("SOURCES_URL"), "Archive details must render linked source records.");
 assert.ok(app.includes("updateArchiveStats") && html.includes("archive-stats"), "Archive overview statistics must be wired to the catalogue.");

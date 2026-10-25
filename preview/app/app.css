@@ -54,3 +54,15 @@
 .atlas-intro[hidden]{display:none}
 @media(max-width:700px){.atlas-intro-content{width:calc(100% - 42px);padding:5vh 0 8vh}.atlas-intro-brand{margin-bottom:clamp(48px,12vh,100px)}.atlas-intro h1{font-size:clamp(58px,15vw,94px)}.atlas-intro-copy{max-width:340px;margin:25px 0 30px}.atlas-intro-bottom{align-items:flex-start;flex-direction:column;gap:18px}.atlas-enter{width:100%;height:56px}.atlas-intro-caption{left:21px;right:21px;bottom:18px;font-size:6px;letter-spacing:.12em}}
 @media(prefers-reduced-motion:reduce){.atlas-intro,.atlas-enter{transition:none}}
+
+
+/* Mobile discovery sheet: a real map/explore mode with an accessible grab control. */
+.panel-grip{display:none}
+@media(max-width:850px){
+ .discovery-panel{padding-top:0}
+ .panel-grip{position:absolute;z-index:4;display:flex;align-items:center;justify-content:center;top:0;left:0;right:0;width:100%;height:18px;padding:0;border:0;background:transparent;cursor:pointer}
+ .panel-grip span{display:block;width:38px;height:3px;border-radius:4px;background:#777}
+ .panel-head{padding-top:23px}
+ .discovery-panel.expanded .panel-grip span{background:#bcbcbc}
+ .discovery-panel.expanded .panel-head{padding-top:25px}
+}

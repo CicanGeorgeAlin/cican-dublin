@@ -80,6 +80,88 @@ footer{border-top:1px solid var(--line);padding:26px 0 35px;color:#8e8a81;font-s
 @media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:62px}.hero-visual{max-width:620px}.hero-image{aspect-ratio:16/10}.discover-grid{grid-template-columns:1fr 1fr}.discover-card:first-child{grid-column:1/-1;min-height:220px}.feature{grid-template-columns:1fr}.feature-art{order:-1}.process{grid-template-columns:1fr 1fr}.step:nth-child(2){border-right:0}.step:nth-child(-n+2){border-bottom:1px solid #38362f}}
 @media(max-width:520px){.wrap{width:calc(100% - 36px)}header{height:66px}.brand{font-size:10px}.navlinks{gap:13px}.navlinks a{font-size:9px}.navlinks a:first-child{display:none}.nav-cta{padding:10px 11px}.hero{gap:34px;padding:54px 0 50px}h1{font-size:clamp(49px,13vw,68px)}.lede{font-size:15px}.hero-image{aspect-ratio:5/4}.image-note{display:block}.image-note span{display:block}.manifesto{grid-template-columns:1fr}.manifesto span{white-space:normal}.numbers{grid-template-columns:1fr 1fr;row-gap:26px;padding-bottom:42px}.metric strong{font-size:32px}.section{padding:52px 0}.section-heading{display:block}.section-intro{margin-top:17px}.discover-grid{grid-template-columns:1fr}.discover-card:first-child{grid-column:auto}.discover-card{min-height:190px}.process{grid-template-columns:1fr 1fr}.step{padding:17px;min-height:160px}.step h3{font-size:20px;margin-top:22px}.feature{padding:20px;gap:18px}.closing{padding:65px 0}.footer-row{display:grid;gap:10px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+
+/* Fluid editorial rhythm — image and text share one continuous composition */
+:root{--serif:Georgia,"Times New Roman",serif;--ink:#f3f1eb;--muted:#aaa69d}
+.wrap{width:min(1320px,calc(100% - 64px))}
+.hero{grid-template-columns:.92fr 1.08fr;gap:clamp(20px,4vw,64px);padding:clamp(52px,7vw,92px) 0 64px;align-items:center}
+.hero>div:first-child{position:relative;z-index:1;margin-right:-9%;padding:clamp(22px,3vw,42px) 0;background:linear-gradient(90deg,var(--bg) 78%,transparent);max-width:620px}
+h1{font-size:clamp(54px,7vw,92px);line-height:.96;letter-spacing:-.06em;margin:18px 0 20px}
+.lede{font-size:clamp(15px,1.25vw,17px);line-height:1.85;max-width:490px}
+.hero-visual{margin-left:0}
+.hero-image{aspect-ratio:5/6;max-height:700px;object-position:center;filter:grayscale(100%) contrast(1.04)}
+.image-note{font-size:9px;letter-spacing:.02em}
+.manifesto{grid-template-columns:1fr auto;padding:30px 0 34px;margin-top:4px}
+.manifesto p{font-size:clamp(22px,2.8vw,36px);max-width:920px;line-height:1.28}
+.numbers{grid-template-columns:repeat(4,1fr);padding:30px 0 48px;gap:24px}
+.metric{border-left:1px solid #555147;padding:3px 0 3px 17px}
+.metric strong{font-size:clamp(27px,3vw,38px)}
+.section{padding:clamp(56px,7vw,88px) 0}
+.section-heading{display:grid;grid-template-columns:1fr .65fr;align-items:end;gap:clamp(24px,6vw,90px);margin-bottom:36px}
+h2{font-size:clamp(36px,4.8vw,62px);line-height:1.02}
+.section-intro{font-size:14px;line-height:1.85;max-width:460px}
+.discover-grid{grid-template-columns:1.2fr .8fr .8fr;gap:0;border-top:1px solid #393832;border-bottom:1px solid #393832}
+.discover-card{min-height:230px;padding:24px 26px 24px 0;border:0;border-right:1px solid #393832;background:transparent;transition:padding .25s ease,background .25s ease}
+.discover-card+ .discover-card{padding-left:25px}
+.discover-card:last-child{border-right:0}
+.discover-card:hover{transform:none;padding-top:30px;background:linear-gradient(180deg,#ffffff08,transparent)}
+.discover-card h3{font-size:clamp(25px,2.7vw,36px)}
+.discover-card p{font-size:13px;line-height:1.8}
+.process{border:0;border-top:1px solid #393832;border-bottom:1px solid #393832;grid-template-columns:repeat(4,1fr)}
+.step{padding:22px 22px 22px 0;min-height:160px;border:0;border-right:1px solid #393832}
+.step+ .step{padding-left:22px}
+.step:last-child{border:0}
+.step h3{font-size:clamp(20px,2vw,25px);margin:22px 0 8px}
+.step p{font-size:12px;line-height:1.8}
+.feature{position:relative;display:grid;grid-template-columns:.78fr 1.22fr;gap:0;align-items:center;background:transparent;border:0;padding:0;min-height:460px}
+.feature>div{position:relative;z-index:1;margin-right:-18%;padding:clamp(24px,4vw,54px);background:#10100f;border:1px solid #35342e}
+.feature h2{font-size:clamp(38px,5vw,64px)}
+.feature p{font-size:14px;line-height:1.85}
+.feature-art{aspect-ratio:16/11;height:100%;max-height:560px;object-fit:cover;border:0;filter:grayscale(1) contrast(1.06)}
+.closing{padding:clamp(68px,9vw,110px) 0}
+.closing h2{font-size:clamp(42px,5.6vw,72px);line-height:1.02}
+.closing p{font-size:14px;line-height:1.85}
+@media(max-width:800px){
+ .wrap{width:calc(100% - 40px)}
+ .hero{grid-template-columns:1fr;gap:22px;padding-top:48px}
+ .hero>div:first-child{margin:0;padding:0;background:none;max-width:680px}
+ .hero-image{aspect-ratio:16/10;max-height:none}
+ .manifesto{grid-template-columns:1fr;gap:12px}
+ .numbers{gap:18px}
+ .section-heading{grid-template-columns:1fr;gap:14px}
+ .discover-grid{grid-template-columns:1fr 1fr}
+ .discover-card{padding:22px 18px 22px 0;min-height:205px}
+ .discover-card+ .discover-card{padding-left:18px}
+ .discover-card:nth-child(2){border-right:0}
+ .discover-card:last-child{grid-column:1/-1;border-top:1px solid #393832;padding-left:0}
+ .process{grid-template-columns:1fr 1fr}
+ .step{padding:20px 16px 20px 0;border-bottom:1px solid #393832}
+ .step+ .step{padding-left:16px}
+ .step:nth-child(2){border-right:0}
+ .step:nth-child(3){padding-left:0}
+ .feature{grid-template-columns:1fr;gap:0}
+ .feature>div{margin:0 0 -28px 0;padding:25px;max-width:90%}
+ .feature-art{grid-row:1;aspect-ratio:16/10;max-height:none}
+}
+@media(max-width:520px){
+ .wrap{width:calc(100% - 36px)}
+ .hero{padding:42px 0 42px}
+ h1{font-size:clamp(49px,13vw,68px)}
+ .numbers{grid-template-columns:1fr 1fr;gap:20px 14px;padding:26px 0 40px}
+ .metric strong{font-size:31px}
+ .section{padding:50px 0}
+ .discover-grid{grid-template-columns:1fr}
+ .discover-card,.discover-card+ .discover-card{padding:19px 0;min-height:0;border-right:0;border-bottom:1px solid #393832}
+ .discover-card:last-child{grid-column:auto;border-top:0}
+ .process{grid-template-columns:1fr 1fr}
+ .step{padding:17px 12px 17px 0;min-height:160px}
+ .step+ .step{padding-left:12px}
+ .step:nth-child(3){padding-left:0}
+ .feature>div{max-width:100%;padding:22px}
+ .closing{padding:65px 0}
+}
+@media(prefers-reduced-motion:reduce){.discover-card{transition:none}}
+
 </style>
 </head>
 <body>

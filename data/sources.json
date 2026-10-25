@@ -821,5 +821,35 @@
     "source_type": "OFFICIAL_REGISTER",
     "specific_reference": "NIAH Registration 50100594",
     "notes": "NIAH describes the 1791 single-arch Grand Canal bridge with granite and limestone masonry, inscribed plaque, cast-iron balustrades and a parapet lamp standard; grid reference 317136, 233192."
+  },
+  {
+    "id": "NIAH-50120103",
+    "name": "7 Marino Crescent",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50120103/marino-crescent-dublin-3-dublin",
+    "accessed": "2026-10-25",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50120103",
+    "notes": "NIAH records the house as built in 1792 and describes its carved stone doorcase, leaded petal fanlight, granite steps, decorative iron railings and gate. Published Irish Grid reference 317970, 236444."
+  },
+  {
+    "id": "NIAH-50120089",
+    "name": "Marino College, 14–20 Marino Mart",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50120089/marino-college-14-20-marino-mart-dublin-3-co-dublin",
+    "accessed": "2026-10-25",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50120089",
+    "notes": "NIAH records the former technical institute and public library built 1935–36, its herringbone brickwork, carved granite and limestone plaques by L.T. Campbell depicting Industry and Commerce. Published Irish Grid reference 317782, 236341."
+  },
+  {
+    "id": "NIAH-50030164",
+    "name": "Vernon Lodge, 41A Castle Avenue, Clontarf",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030164/vernon-lodge-41a-castle-avenue-clontarf-dublin-3-co-dublin",
+    "accessed": "2026-10-25",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50030164",
+    "notes": "NIAH records the freestanding carved limestone pedestrian entrance dated 1885, including its date stone, Vernon family motto, coat of arms and crest. Published Irish Grid reference 319351, 236272."
   }
 ]

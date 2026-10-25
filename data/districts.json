@@ -16,9 +16,9 @@
   {
     "name": "Dublin 3",
     "description": "North-East Dublin",
-    "status": "NOT_YET_RESEARCHED",
+    "status": "RESEARCH_IN_PROGRESS",
     "geographic_type": "POSTAL_DISTRICT",
-    "coverage_notes": "Operational fieldwork zone only; not an administrative boundary. Research coverage is not yet complete."
+    "coverage_notes": "Initial research batch 001 added three individually documented NIAH records on 2026-10-25: 7 Marino Crescent, Marino College and Vernon Lodge in Clontarf. This is an opening research sample, not comprehensive district coverage; field photography and on-site coordinate verification remain outstanding. Operational fieldwork zone only; not an administrative boundary."
   },
   {
     "name": "Dublin 4",

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440" role="img" aria-label="CICAN Archive emblem">
+<defs><radialGradient id="core" cx="45%" cy="40%" r="70%"><stop offset="0" stop-color="#292929"/><stop offset=".72" stop-color="#090909"/><stop offset="1" stop-color="#050505"/></radialGradient></defs>
+<g fill="none" stroke-linecap="round">
+<circle cx="220" cy="220" r="206" stroke="#343434" stroke-width="2"/>
+<circle cx="220" cy="220" r="176" stroke="#3a3a3a" stroke-width="2" stroke-dasharray="5 8"/>
+<circle cx="220" cy="220" r="145" stroke="#555" stroke-width="2"/>
+<path d="M220 18V422M18 220H422" stroke="#292929" stroke-width="1.5"/>
+<ellipse cx="220" cy="220" rx="190" ry="135" transform="rotate(-35 220 220)" stroke="#444" stroke-width="2"/>
+<circle cx="220" cy="220" r="86" fill="url(#core)" stroke="#aaa" stroke-width="2"/>
+<circle cx="220" cy="220" r="77" stroke="#3d3d3d" stroke-width="1.5"/>
+</g>
+<text x="220" y="253" text-anchor="middle" fill="#f4f4f4" font-family="Georgia,Times New Roman,serif" font-size="116" font-weight="400" letter-spacing="-15" style="filter:drop-shadow(0 0 9px #ffffff66)">C</text>
+</svg>

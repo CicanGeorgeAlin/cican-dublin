@@ -1,0 +1,85 @@
+import fs from "node:fs";
+import assert from "node:assert/strict";
+
+const read = file => fs.readFileSync(file, "utf8");
+const html = read("app.html");
+const app = read("app/app.js");
+const css = read("app/app.css");
+const manifest = JSON.parse(read("manifest.webmanifest"));
+const sw = read("service-worker.js");
+const objects = JSON.parse(read("data/objects.json"));
+const sources = JSON.parse(read("data/sources.json"));
+const visuals = JSON.parse(read("data/visual-assets.json"));
+const notebook = read("my-dublin.html");
+
+const htmlIds = new Set([...html.matchAll(new RegExp('id="([^"]+)"', "g"))].map(match => match[1]));
+assert.ok(!html.includes("\\n<section"), "App HTML must not contain a literal escaped newline before the intro.");
+const appIds = new Set([...app.matchAll(new RegExp('\\$\\("([^"]+)"\\)', "g"))].map(match => match[1]));
+const dynamicallyCreatedIds = new Set(["save-place"]);
+for (const id of appIds) {
+  if (!dynamicallyCreatedIds.has(id)) assert.ok(htmlIds.has(id), "Map app references missing HTML element #" + id);
+}
+for (const id of ["atlas-intro", "atlas-title", "enter-atlas", "map", "search", "category-filter", "district-filter", "panel-toolbar", "results", "detail-view", "discovery-panel", "locate-button", "catalogue-status", "archive-stats", "panel-grip"]) {
+  assert.ok(htmlIds.has(id), "Required map app element is missing: #" + id);
+}
+assert.ok(css.includes(".atlas-intro") && css.includes(".atlas-enter"), "The cinematic atlas opening must be styled.");
+assert.ok(app.includes("dismissAtlasIntro") && app.includes("intro-record-count"), "The atlas opening must be dismissible and show live catalogue totals.");
+assert.ok(css.includes("#map") && css.includes(".discovery-panel"), "Map and discovery panel styles must exist.");
+assert.ok(css.includes(".panel-grip") && app.includes("setPanelExpanded"), "Mobile Explore and Map modes must expand and collapse the discovery panel.");
+assert.ok(css.includes("grayscale(1) brightness(.78)"), "MapLibre vector canvas should use the archive dark-map treatment.");
+assert.ok(html.includes("maplibre-gl@5.12.0/dist/maplibre-gl.js") && html.includes("maplibre-gl@5.12.0/dist/maplibre-gl.css"), "MapLibre GL JS and its stylesheet must load before the archive app.");
+assert.ok(app.includes("maplibregl.Map") && app.includes("tiles.openfreemap.org/styles/liberty"), "The archive map must use MapLibre with the OpenFreeMap vector style.");
+assert.ok(app.includes("cluster:true") && app.includes("getClusterExpansionZoom"), "Archive locations must use native vector-source clustering.");
+assert.ok(app.includes("sourceMarkup") && app.includes("SOURCES_URL"), "Archive details must render linked source records.");
+assert.ok(app.includes("photoMarkup") && app.includes("VISUALS_URL") && app.includes("safePhotoPath"), "Record details must support founder photo galleries and a pending-photo state.");
+assert.ok(css.includes(".photo-gallery") && css.includes(".photo-pending"), "Founder photography and pending-photo layouts must be styled.");
+assert.ok(Array.isArray(visuals.records) && visuals.records.length === objects.length, "Visual inventory must cover every archive record.");
+assert.ok(sw.includes("./data/visual-assets.json"), "Visual inventory must be included in the app shell cache.");
+assert.ok(app.includes("updateArchiveStats") && html.includes("archive-stats"), "Archive overview statistics must be wired to the catalogue.");
+new Function(app);
+
+assert.ok(Array.isArray(objects) && objects.length > 0, "Object catalogue must be a non-empty array.");
+assert.ok(Array.isArray(sources) && sources.length > 0, "Source catalogue must be a non-empty array.");
+const ids = new Set();
+const sourceIds = new Set(sources.map(source => source.id));
+const visualIds = new Set(visuals.records.map(entry => entry.record_id));
+for (const record of objects) {
+  assert.ok(record.id && !ids.has(record.id), "Archive IDs must be present and unique.");
+  ids.add(record.id);
+  assert.ok(visualIds.has(record.id), "Visual inventory missing record: " + record.id);
+  assert.ok(typeof record.latitude === "number" && typeof record.longitude === "number", "Map record needs numeric coordinates: " + record.id);
+  assert.ok(record.latitude >= -90 && record.latitude <= 90 && record.longitude >= -180 && record.longitude <= 180, "Invalid coordinates: " + record.id);
+  assert.ok(record.coordinate_status, "Coordinate provenance is required: " + record.id);
+  for (const sourceId of record.sources || []) assert.ok(sourceIds.has(sourceId), "Missing source " + sourceId + " for " + record.id);
+  if (record.map_url) {
+    const url = new URL(record.map_url);
+    assert.equal(url.searchParams.get("travelmode"), "walking", "Walking directions must use walking mode: " + record.id);
+    const destination = url.searchParams.get("destination");
+    if (destination && /^-?\d/.test(destination)) {
+      const [lat, lon] = destination.split(",").map(Number);
+      assert.ok(Math.abs(lat - record.latitude) < 0.000001 && Math.abs(lon - record.longitude) < 0.000001, "Walking destination does not match record coordinates: " + record.id);
+    }
+  }
+}
+
+assert.equal(manifest.start_url, "./app.html", "PWA must launch the map app.");
+assert.equal(manifest.scope, "./", "PWA scope must remain within the archive site.");
+assert.equal(manifest.display, "standalone", "PWA should use standalone display.");
+for (const icon of manifest.icons) {
+  const path = icon.src.startsWith("./") ? icon.src.slice(2) : icon.src;
+  assert.ok(fs.existsSync(path), "Missing PWA icon: " + icon.src);
+}
+
+for (const file of ["app.html", "app/app.css", "app/app.js", "manifest.webmanifest", "data/objects.json", "data/sources.json", "data/visual-assets.json", "assets/favicon.svg"]) {
+  assert.ok(fs.existsSync(file), "Missing application shell asset: " + file);
+}
+assert.ok(sw.includes("key.startsWith(CACHE_PREFIX)"), "Service worker must only clean its own cache namespace.");
+assert.ok(sw.includes("SHELL_PATHS.has(url.pathname)"), "Service worker must only intercept declared shell assets.");
+assert.ok(!sw.includes("tile.openstreetmap.org"), "Map tiles must not be cached by the app shell.");
+assert.ok(html.indexOf("maplibre-gl@5.12.0/dist/maplibre-gl.js") < html.indexOf("./app/app.js"), "MapLibre must load before the archive app.");
+assert.ok(app.includes('addEventListener("click",()=>{if(!navigator.geolocation)'), "Geolocation must only be requested from the explicit location button.");
+assert.ok(app.includes('localStorage.setItem("cican-map-saved"'), "Saved places must use the app-local storage key.");
+assert.ok(notebook.includes("cican-dublin-fieldbook"), "Existing My Dublin notebook database must remain unchanged.");
+assert.ok(html.includes("./my-dublin.html"), "Map app must keep the My Dublin notebook link.");
+
+console.log("Map app validation passed: " + objects.length + " records, " + sources.length + " sources; DOM bindings, JS syntax, coordinates, walking links, PWA assets, cache isolation and notebook separation.");

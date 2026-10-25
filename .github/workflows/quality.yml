@@ -21,3 +21,5 @@ jobs:
           node-version: 22
       - name: Validate catalogue, images, links and page scripts
         run: node scripts/validate-archive.mjs
+      - name: Validate map-first app, data bindings and PWA shell
+        run: node scripts/validate-map-app.mjs

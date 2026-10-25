@@ -1,0 +1,20 @@
+{
+  "id": "./app.html",
+  "name": "CICAN DUBLIN — Heritage Explorer",
+  "short_name": "CICAN DUBLIN",
+  "description": "A map-first explorer for Dublin's historic places and overlooked heritage.",
+  "start_url": "./app.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "icons": [
+    {
+      "src": "./assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

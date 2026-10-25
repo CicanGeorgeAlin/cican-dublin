@@ -29,3 +29,28 @@
 .filter-row select:focus-visible,.icon-button:focus-visible,.map-recenter:focus-visible,.text-button:focus-visible,.panel-close:focus-visible,.nav-item:focus-visible,.action-link:focus-visible,.action-button:focus-visible{outline:2px solid #ddd;outline-offset:3px}
 @media(max-width:850px){.archive-stats{gap:12px;margin-top:13px;padding-top:11px}.archive-stats b{font-size:18px}.archive-stats small{font-size:6px}.discovery-panel{background:linear-gradient(160deg,#101010 0%,#090909 45%)}}
 @media(prefers-reduced-motion:reduce){.result-card,.source-link{transition:none}}
+
+/* The opening of the living atlas */
+.atlas-intro{position:fixed;inset:0;z-index:1200;display:grid;place-items:center;overflow:hidden;background:radial-gradient(ellipse at 70% 38%,#252a27 0%,#101211 35%,#050505 76%);opacity:1;visibility:visible;transition:opacity .85s ease,visibility .85s ease}
+.atlas-intro.is-leaving{opacity:0;visibility:hidden;pointer-events:none}
+.atlas-intro-grid{position:absolute;inset:-25%;opacity:.26;background-image:linear-gradient(#b7c7b11a 1px,transparent 1px),linear-gradient(90deg,#b7c7b11a 1px,transparent 1px),radial-gradient(ellipse at center,transparent 25%,#050505 72%);background-size:68px 68px,68px 68px,100% 100%;transform:perspective(700px) rotateX(58deg) scale(1.5);transform-origin:center 65%;mask-image:linear-gradient(transparent 3%,#000 35%,#000 75%,transparent)}
+.atlas-intro:before{content:"";position:absolute;width:min(74vw,900px);aspect-ratio:1;border:1px solid #e8f0e40d;border-radius:50%;box-shadow:0 0 0 70px #e8f0e406,0 0 0 140px #e8f0e404;right:-12%;top:2%;pointer-events:none}
+.atlas-intro-content{position:relative;width:min(1100px,calc(100% - 12vw));padding:7vh 0 8vh;z-index:1}
+.atlas-intro-brand{display:flex;align-items:center;gap:12px;margin-bottom:clamp(48px,10vh,112px)}
+.atlas-brand-mark{width:39px;height:39px;border:1px solid #aab5a8;border-radius:50%;display:grid;place-items:center;font:24px Georgia,serif;color:#f6f6f6;box-shadow:0 0 28px #fff2}
+.atlas-intro-brand b{display:block;font-size:11px;letter-spacing:.28em}
+.atlas-intro-brand small{display:block;margin-top:4px;color:#929a91;font-size:8px;letter-spacing:.22em}
+.atlas-kicker{display:flex;align-items:center;gap:10px;color:#a6b29f;font-size:9px;letter-spacing:.24em;margin:0 0 24px}
+.atlas-kicker span{width:23px;height:1px;background:#a6b29f;box-shadow:0 0 10px #a6b29f}
+.atlas-intro h1{font:clamp(58px,9.5vw,128px)/.86 Georgia,"Times New Roman",serif;letter-spacing:-.075em;font-weight:400;margin:0;max-width:900px;text-shadow:0 8px 45px #0009}
+.atlas-intro h1 em{font-weight:400;color:#aeb9a8}
+.atlas-intro-copy{max-width:440px;margin:30px 0 35px;color:#b2b5b0;font:clamp(14px,1.4vw,17px)/1.75 Georgia,serif}
+.atlas-intro-bottom{display:flex;align-items:center;gap:30px;flex-wrap:wrap}
+.atlas-enter{height:58px;min-width:230px;padding:0 19px;background:#f1f1ed;color:#090a09;border:0;display:flex;align-items:center;justify-content:space-between;gap:32px;cursor:pointer;font-size:9px;font-weight:800;letter-spacing:.18em;transition:background .2s ease,transform .2s ease}
+.atlas-enter:hover{background:#fff;transform:translateY(-2px)}
+.atlas-enter b{font-size:19px;font-weight:400}
+.atlas-intro-meta{display:flex;flex-direction:column;gap:7px;color:#858b82;font-size:8px;letter-spacing:.16em}
+.atlas-intro-caption{position:absolute;left:6vw;right:6vw;bottom:27px;display:flex;justify-content:space-between;gap:12px;color:#6e756c;font-size:7px;letter-spacing:.19em}
+.atlas-intro[hidden]{display:none}
+@media(max-width:700px){.atlas-intro-content{width:calc(100% - 42px);padding:5vh 0 8vh}.atlas-intro-brand{margin-bottom:clamp(48px,12vh,100px)}.atlas-intro h1{font-size:clamp(58px,15vw,94px)}.atlas-intro-copy{max-width:340px;margin:25px 0 30px}.atlas-intro-bottom{align-items:flex-start;flex-direction:column;gap:18px}.atlas-enter{width:100%;height:56px}.atlas-intro-caption{left:21px;right:21px;bottom:18px;font-size:6px;letter-spacing:.12em}}
+@media(prefers-reduced-motion:reduce){.atlas-intro,.atlas-enter{transition:none}}

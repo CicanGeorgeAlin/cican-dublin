@@ -312,3 +312,6 @@ button:focus-visible,a:focus-visible,summary:focus-visible,article[role="button"
 
 /* Mobile map header: keep the original CICAN logo clear; hide the floating search/filter panel. */
 @media(max-width:850px){.map-overlay.top-left{display:none!important}}
+
+/* Clear, unmistakable marker for the device's current GPS position. */
+.user-location-marker{width:18px;height:18px;border:3px solid #fff;border-radius:50%;background:#2478ff;box-shadow:0 0 0 7px #2478ff35,0 2px 12px #000b}

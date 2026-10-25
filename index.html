@@ -64,6 +64,7 @@ main.wrap{width:100%;max-width:none;padding:0 0 84px}
 .story.hero{position:relative;width:100%;max-width:none;min-height:min(760px,78svh);height:clamp(570px,78svh,820px);overflow:hidden;background:#25271f}
 .hero-image,.hero-image img{position:absolute;inset:0;width:100%;height:100%}
 .hero-image img{object-fit:cover;object-position:center 54%;filter:saturate(.78) brightness(.78)}
+.hero-image-fallback{position:absolute;inset:0;display:grid;place-items:center;padding:24px;text-align:center;background:linear-gradient(135deg,#596354,#25271f 58%,#171a16);color:#f7f3e8;font:clamp(22px,4vw,42px) var(--serif);letter-spacing:.08em}
 .hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(15,19,15,.78) 0%,rgba(15,19,15,.48) 42%,rgba(15,19,15,.06) 100%),linear-gradient(0deg,rgba(15,19,15,.5),transparent 45%)}
 .hero-content{position:absolute;left:max(7vw,calc((100vw - 1160px)/2));top:50%;transform:translateY(-48%);width:min(690px,76vw);color:#faf8f1}
 .hero-content .eyebrow{color:#d5d2bd;font-size:10px;letter-spacing:.23em}
@@ -130,11 +131,11 @@ main.wrap{width:100%;max-width:none;padding:0 0 84px}
 </style></head><body>
 <header><div class="wrap nav"><a class="brand" href="./">CICAN DUBLIN ARCHIVE</a><nav class="navlinks"><a href="./my-dublin.html">MY DUBLIN</a><a href="./archive.html">ARCHIVE</a></nav></div></header>
 <main class="wrap"><section class="story hero">
- <div class="hero-image"><img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Pembroke_Street_Upper%2C_Dublin_-_geograph.org.uk_-_7589976.jpg" alt="Historic streetscape of Pembroke Street Upper, Dublin"><div class="hero-shade"></div></div>
- <div class="hero-content"><div class="eyebrow">A LIVING ARCHIVE OF DUBLIN · 88 DISCOVERIES</div><h1>There is more<br>to Dublin.</h1><p class="hero-intro">Beyond the familiar streets, a thousand details are waiting to be found. Start anywhere. Follow your curiosity.</p><a class="hero-cta" href="#discover">EXPLORE THE CITY <span>↓</span></a><div class="hero-place">FEATURED DISCOVERY <span>PEMBROKE STREET UPPER</span></div></div>
- <div class="hero-index">01 <span>/</span> 88</div>
+ <div class="hero-image"><img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Pembroke_Street_Upper%2C_Dublin_-_geograph.org.uk_-_7589976.jpg" alt="Historic streetscape of Pembroke Street Upper, Dublin" fetchpriority="high" decoding="async"><div class="hero-shade"></div></div>
+ <div class="hero-content"><div class="eyebrow">A LIVING ARCHIVE OF DUBLIN · <span id="heroDiscoveryCount">0</span> DISCOVERIES</div><h1>There is more<br>to Dublin.</h1><p class="hero-intro">Beyond the familiar streets, a thousand details are waiting to be found. Start anywhere. Follow your curiosity.</p><a class="hero-cta" href="#discover">EXPLORE THE CITY <span>↓</span></a><div class="hero-place">FEATURED DISCOVERY <span>PEMBROKE STREET UPPER</span></div></div>
+ <div class="hero-index">01 <span>/</span> <span id="heroIndexTotal">0</span></div>
 </section>
-<div class="hero-credit"><span>Pembroke Street Upper · A glimpse of Dublin's historic streets</span><span>Marathon / Geograph · <a href="https://commons.wikimedia.org/wiki/File:Pembroke_Street_Upper,_Dublin_-_geograph.org.uk_-_7589976.jpg" target="_blank" rel="noopener">PHOTOGRAPH &amp; LICENCE ↗</a></span></div>
+<div class="hero-credit"><span>Pembroke Street Upper · A glimpse of Dublin's historic streets</span><span>Marathon / Geograph · <a href="https://commons.wikimedia.org/wiki/File:Pembroke_Street_Upper,_Dublin_-_geograph.org.uk_-_7589976.jpg" target="_blank" rel="noopener noreferrer">PHOTOGRAPH &amp; LICENCE ↗</a></span></div>
 <section class="story-copy"><div class="place">ONE DISCOVERY · ONE STORY · ONE WALK</div><p>Take the slower street. Notice the worn stone, the quiet geometry of a doorway, the details that have outlived generations. Dublin reveals itself gently to those who give it time.</p><a class="walk" href="https://www.google.com/maps/dir/?api=1&amp;destination=Pembroke%20Street%20Upper%2C%20Dublin%2C%20Ireland&amp;travelmode=walking" target="_blank" rel="noopener">WALK TOWARDS THERE&nbsp; ↗</a><p class="map-note">Google Maps opens walking directions to this place. Your device can use your current location as the starting point.</p></section>
 
 <section class="discover" id="discover">
@@ -151,7 +152,9 @@ main.wrap{width:100%;max-width:none;padding:0 0 84px}
  const $=s=>document.querySelector(s);
  const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
  const safe=v=>{try{const u=new URL(v);return /^https?:$/.test(u.protocol)?u.href:"#"}catch{return "#"}};
- const clean=v=>String(v??"").normalize("NFD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase().trim();
+ const clean=v=>String(v??"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().trim();
+ const heroImage=document.querySelector(".hero-image img");
+ heroImage?.addEventListener("error",()=>{const fallback=document.createElement("div");fallback.className="hero-image-fallback";fallback.setAttribute("role","img");fallback.setAttribute("aria-label","Featured Dublin photograph temporarily unavailable.");fallback.textContent="CICAN DUBLIN ARCHIVE · FEATURED DISCOVERY";heroImage.replaceWith(fallback);},{once:true});
  let objects=[],visuals=[],page=1;const pageSize=9;
  const text=r=>[r.id,r.name,r.address,r.district,r.category,r.historical_period,r.historical_description,r.historical_significance,r.research_notes].join(" ");
  const walk=r=>Number.isFinite(r.latitude)&&Number.isFinite(r.longitude)?"https://www.google.com/maps/dir/?api=1&destination="+encodeURIComponent(r.latitude.toFixed(7)+","+r.longitude.toFixed(7))+"&travelmode=walking":"";
@@ -165,7 +168,7 @@ main.wrap{width:100%;max-width:none;padding:0 0 84px}
    const im=images.find(x=>x.image_url&&safe(x.image_url)!=="#");
    const photo=im?'<div class="home-card-photo"><img loading="lazy" src="'+esc(safe(im.image_url))+'" alt="'+esc(im.title||r.name)+'"><span class="photo-type">'+esc(im.image_role==="STREET_CONTEXT"?"STREET CONTEXT":"REFERENCE PHOTO")+'</span></div>':'<div class="home-card-photo"><div class="home-photo-pending"><strong>C</strong><span>PHOTOGRAPH PENDING</span></div></div>';
    const desc=r.historical_description||"Historical research is in progress.";
-   const summary=desc.length>150?desc.slice(0,147).replace(/\\s+\\S*$/,"")+"…":desc;
+   const summary=desc.length>150?desc.slice(0,147).replace(/\s+\S*$/,"")+"…":desc;
    const w=walk(r);
    return '<article class="home-card">'+photo+'<div class="home-card-body"><div class="home-card-meta"><span>'+esc(r.district)+'</span><span>'+esc((r.category||"").replaceAll("_"," "))+'</span></div><h3>'+esc(r.name)+'</h3><address>'+esc(r.address)+'</address><p>'+esc(summary)+'</p><div class="home-card-actions"><a href="./archive.html#object='+encodeURIComponent(r.id)+'">VIEW HISTORY ↗</a>'+(w?'<a href="'+esc(w)+'" target="_blank" rel="noopener">WALK THERE ↗</a>':"")+'</div></div></article>';
   }).join(""):'<p class="home-empty">No places match that search. Try another word or area.</p>';
@@ -173,12 +176,15 @@ main.wrap{width:100%;max-width:none;padding:0 0 84px}
  }
  Promise.all(["objects","visual-assets"].map(n=>fetch("./data/"+n+".json").then(r=>{if(!r.ok)throw Error("Could not load "+n);return r.json()}))).then(([o,v])=>{
   objects=o;visuals=v.records||[];
+  $("#heroDiscoveryCount").textContent=objects.length.toLocaleString();
+  $("#heroIndexTotal").textContent=objects.length.toLocaleString();
   const ds=[...new Set(objects.map(x=>x.district).filter(Boolean))].sort();
   $("#homeDistrict").innerHTML='<option value="">All districts</option>'+ds.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join("");
   render();
  }).catch(()=>{$("#homeGrid").innerHTML='<p class="home-empty">The discovery catalogue could not be loaded. Please open the full archive.</p>'});
  $("#homeSearch").addEventListener("input",()=>{page=1;render()});
  $("#homeDistrict").addEventListener("change",()=>{page=1;render()});
+ $("#homeGrid").addEventListener("error",event=>{if(event.target instanceof HTMLImageElement){const frame=event.target.parentElement;frame.innerHTML="";const fallback=document.createElement("div");fallback.className="home-photo-pending";fallback.innerHTML="<strong>C</strong><span>REFERENCE IMAGE UNAVAILABLE</span>";frame.append(fallback);} },true);
  $("#homeMore").addEventListener("click",()=>{page++;render()});
 })();
 </script>

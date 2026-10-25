@@ -593,7 +593,7 @@ $("#search").addEventListener("input",()=>{currentPage=1;render()});
 $("#districtFilter").addEventListener("change",()=>{currentPage=1;render()});
 $("#categoryFilter").addEventListener("change",()=>{currentPage=1;render()});
 $("#pageSize").addEventListener("change",()=>{currentPage=1;render()});
-$("#pagination").addEventListener("click",event=>{const button=event.target.closest("[data-page]");if(!button||button.disabled)return;const value=button.dataset.page;const total=Number($("#count").textContent.match(/OF (\\d+)/)?.[1]||1);const size=Number($("#pageSize").value)||defaultPageSize;const pages=Math.max(1,Math.ceil(total/size));currentPage=value==="prev"?Math.max(1,currentPage-1):value==="next"?Math.min(pages,currentPage+1):Number(value);render();$("#archive").scrollIntoView({behavior:"smooth",block:"start"})});
+$("#pagination").addEventListener("click",event=>{const button=event.target.closest("[data-page]");if(!button||button.disabled)return;const value=button.dataset.page;const pages=Number($("#count").textContent.match(/OF (\\d+)/)?.[1]||1);currentPage=value==="prev"?Math.max(1,currentPage-1):value==="next"?Math.min(pages,currentPage+1):Number(value);render();$("#archive").scrollIntoView({behavior:"smooth",block:"start"})});
 
 Promise.all(["objects","sources","visual-assets"].map(name=>fetch("./data/"+name+".json").then(response=>{if(!response.ok)throw Error("Could not load "+name+" catalogue (HTTP "+response.status+")");return response.json()}))).then(([objectData,sourceData,visualData])=>{
  if(!Array.isArray(objectData)||!Array.isArray(sourceData)||!visualData||!Array.isArray(visualData.records))throw Error("The archive data format is invalid.");

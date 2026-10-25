@@ -457,3 +457,6 @@ button:focus-visible,a:focus-visible,summary:focus-visible,article[role="button"
 @media(prefers-reduced-motion:reduce){
  .discovery-panel,.result-card,.source-link{transition:none!important}
 }
+
+/* Preserve hidden-state semantics when a place detail is open. */
+@media(min-width:851px){.discovery-panel.detail-open .results{display:none!important}}

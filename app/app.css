@@ -325,3 +325,7 @@
 .photo-marker-fallback{width:100%;height:100%;display:grid;place-items:center;border-radius:50%;background:#171a18;color:#fff;font:16px Georgia,serif}
 .maplibregl-marker{z-index:2}
 @media(prefers-reduced-motion:reduce){.cican-photo-marker{transition:none}}
+
+/* Compact dark zoom controls, stacked above map attribution. */
+.maplibregl-ctrl-group{background:#080808eF!important;border:1px solid #ffffff30!important;border-radius:12px!important;overflow:hidden;box-shadow:0 8px 24px #0008!important}.maplibregl-ctrl-group button{width:38px!important;height:38px!important;background-color:transparent!important}.maplibregl-ctrl-group button+button{border-top:1px solid #ffffff20!important}.maplibregl-ctrl-group button .maplibregl-ctrl-icon{filter:invert(1);opacity:.9}.maplibregl-ctrl-group button:hover{background-color:#ffffff18!important}.maplibregl-ctrl-group button:focus-visible{outline:2px solid #fff;outline-offset:-3px}
+@media(max-width:850px){.maplibregl-ctrl-bottom-left{bottom:calc(58px + env(safe-area-inset-bottom) + 10px);left:10px}.maplibregl-ctrl-group button{width:40px!important;height:40px!important}}

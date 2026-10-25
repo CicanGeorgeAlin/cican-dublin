@@ -399,7 +399,7 @@ dialog::backdrop{background:rgba(31,28,22,.55);backdrop-filter:blur(5px)}
 .pending-mark{font-family:Georgia,serif;font-size:clamp(52px,7vw,88px);font-weight:400;line-height:1;color:#c8bda5;text-shadow:0 0 30px #c8bda522}
 .pending-title{font-size:10px;letter-spacing:.2em;color:#e4ddcf}
 .pending-subtitle{font-size:11px;color:#9d978a}
-.photo-unavailable{background:#191815}.photo-unavailable:after{content:'PHOTOGRAPH TEMPORARILY UNAVAILABLE';color:#c6bdad;font-size:10px;letter-spacing:.14em;text-align:center;padding:20px}
+.archive-photo:not(:has(img)){background:#191815}.archive-photo:not(:has(img)):after{content:"PHOTOGRAPH TEMPORARILY UNAVAILABLE";color:#c6bdad;font-size:10px;letter-spacing:.14em;text-align:center;padding:20px}
 .card-content{padding:18px 19px 16px;display:flex;flex:1;flex-direction:column}
 .card-eyebrow{display:flex;justify-content:space-between;gap:10px;color:#a49b89;font-size:9px;letter-spacing:.13em;text-transform:uppercase}
 .place-name{font-family:Georgia,"Times New Roman",serif;font-weight:500;font-size:clamp(20px,2vw,27px);line-height:1.15;letter-spacing:-.025em;margin:10px 0 5px;color:#f5f0e6}
@@ -467,7 +467,7 @@ function render(){
   const image=referenceImages.find(item=>item.image_url&&safeUrl(item.image_url)!=="#")||null;
   const imageLabel=image?(image.image_role==="STREET_CONTEXT"?"STREET CONTEXT":"REFERENCE PHOTOGRAPH"):"PHOTOGRAPH PENDING";
   const photo=image
-   ?'<div class="archive-photo"><img src="'+esc(safeUrl(image.image_url))+'" alt="'+esc(image.title||record.name)+'" loading="lazy" onerror="this.parentElement.classList.add(\\'photo-unavailable\\');this.remove()"><span class="photo-type">'+esc(imageLabel)+'</span></div><div class="photo-credit"><span>'+esc(image.attribution||image.photographer||"Attribution pending")+' · '+esc(image.licence||"Licence details pending")+'</span><small>'+esc(image.location_note||"Reference photograph; object match not yet confirmed.")+'</small><a href="'+esc(safeUrl(image.source_url))+'" target="_blank" rel="noopener noreferrer">SOURCE RECORD &amp; LICENCE ↗</a></div>'
+   ?'<div class="archive-photo"><img src="'+esc(safeUrl(image.image_url))+'" alt="'+esc(image.title||record.name)+'" loading="lazy" onerror="this.remove()"><span class="photo-type">'+esc(imageLabel)+'</span></div><div class="photo-credit"><span>'+esc(image.attribution||image.photographer||"Attribution pending")+' · '+esc(image.licence||"Licence details pending")+'</span><small>'+esc(image.location_note||"Reference photograph; object match not yet confirmed.")+'</small><a href="'+esc(safeUrl(image.source_url))+'" target="_blank" rel="noopener noreferrer">SOURCE RECORD &amp; LICENCE ↗</a></div>'
    :'<div class="archive-photo photo-pending" aria-label="Photograph pending for '+esc(record.name)+'"><div class="pending-mark" aria-hidden="true">C</div><span class="pending-title">PHOTOGRAPH PENDING</span><span class="pending-subtitle">Original field photograph to be added</span></div>';
   const walkAction=walk?'<a class="card-action walk-action" href="'+esc(walk)+'" target="_blank" rel="noopener noreferrer">WALK THERE <span aria-hidden="true">↗</span></a>':'<span class="card-action disabled-action" aria-disabled="true">GPS PENDING</span>';
   const description=record.historical_description||"Historical research is in progress.";

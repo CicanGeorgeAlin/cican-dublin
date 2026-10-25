@@ -18,7 +18,7 @@
     "description": "North-East Dublin",
     "status": "RESEARCH_IN_PROGRESS",
     "geographic_type": "POSTAL_DISTRICT",
-    "coverage_notes": "Initial research batch 001 added three individually documented NIAH records on 2026-10-25: 7 Marino Crescent, Marino College and Vernon Lodge in Clontarf. This is an opening research sample, not comprehensive district coverage; field photography and on-site coordinate verification remain outstanding. Operational fieldwork zone only; not an administrative boundary."
+    "coverage_notes": "Initial research batches 001–002 now contain eight individually documented NIAH records: 7 and 24 Marino Crescent, Marino College, Marino Institute of Education, Clontarf Stationmaster’s House, Clontarf and Scots Presbyterian Church, Vernon Lodge and the Church of St John the Baptist ruins. This is an opening research sample, not comprehensive district coverage; field photography and on-site coordinate verification remain outstanding. Operational fieldwork zone only; not an administrative boundary."
   },
   {
     "name": "Dublin 4",
@@ -153,4 +153,4 @@
     "geographic_type": "POSTAL_DISTRICT",
     "coverage_notes": "Operational fieldwork zone only; not an administrative boundary. Research coverage is not yet complete."
   }
-]
+]\n

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#050505">
+<meta name="theme-color" content="#f3efe7">
 <meta name="description" content="Explore the CICAN Dublin Archive field guide and walking directions to historic places across Dublin.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="CICAN DUBLIN ARCHIVE">
@@ -330,6 +330,50 @@ footer{padding:22px 0 30px}
 /* Evidence-led research layers */
 .timeline{list-style:none;padding:0;margin:14px 0 4px;border-left:1px solid #555}.timeline li{position:relative;padding:0 0 17px 18px;display:grid;gap:4px}.timeline li:before{content:"";position:absolute;left:-4px;top:6px;width:7px;height:7px;border-radius:50%;background:#eee}.timeline-date{font-size:13px;color:#f2f2f2;font-weight:700;letter-spacing:.02em}.timeline-detail{font-size:13px;line-height:1.7;color:#aaa}.muted-copy{font-size:12px!important;color:#888!important;line-height:1.65!important}.photo-brief{font-size:13px;line-height:1.8;color:#bbb;padding-left:19px}.photo-brief li{padding:2px 0}.evidence-status{border-top:1px solid #303030;margin-top:18px;padding:15px 0 4px}.evidence-status>span{display:inline-block;border:1px solid #777;padding:5px 8px;font-size:9px;letter-spacing:.13em;color:#eee}.evidence-status p{font-size:12px!important;color:#999!important;line-height:1.65!important;margin:9px 0 0}.nearby-list{display:grid;gap:0;border-top:1px solid #292929;margin-top:12px}.nearby-item{display:flex;justify-content:space-between;align-items:center;gap:12px;text-align:left;background:transparent;border:0;border-bottom:1px solid #292929;color:#eee;padding:12px 2px;cursor:pointer}.nearby-item span{font-size:13px}.nearby-item small{font-size:9px;color:#888;letter-spacing:.08em;white-space:nowrap}.nearby-item:hover span{ text-decoration:underline;text-underline-offset:3px}.fold{margin-top:12px}
 .reference-gallery{border-top:1px solid #303030;margin:22px 0;padding:18px 0 4px}.reference-gallery h3{margin:0 0 13px}.reference-image{margin:0;border:1px solid #333;background:#050505}.reference-image img{display:block;width:100%;height:auto;max-height:480px;object-fit:contain;background:#111}.reference-image figcaption{display:grid;gap:6px;padding:12px;font-size:11px;line-height:1.55;color:#aaa}.reference-image figcaption strong{color:#eee;font-size:13px}.reference-image figcaption a{color:#eee;text-decoration:underline;text-underline-offset:3px;font-size:10px;letter-spacing:.08em;margin-top:4px}
+
+/* CICAN warm editorial archive identity */
+:root{color-scheme:light;--bg:#f3efe7;--panel:#faf8f3;--line:#ded7ca;--muted:#817a6d;--white:#29271f}
+body{background:#f3efe7;color:#29271f;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 84% 8%,rgba(211,194,164,.2),transparent 38%),radial-gradient(ellipse at 8% 82%,rgba(222,216,201,.28),transparent 40%)}
+header{background:rgba(243,239,231,.92);border-bottom:1px solid #ded7ca;backdrop-filter:blur(14px)}
+.brand{color:#29271f}.navlinks{color:#817a6d}.navlinks a:hover{color:#29271f}
+.mark{border-color:#9a8d78;color:#29271f;box-shadow:0 0 20px rgba(120,100,70,.08)}
+.hero{border-bottom-color:#ded7ca}.eyebrow{color:#8b7655}
+h1{font-family:Georgia,"Times New Roman",serif;font-weight:400;letter-spacing:-.065em;color:#29271f}
+.intro{color:#6e675c;font-family:Georgia,"Times New Roman",serif;font-size:16px}.intro strong{color:#39352d}
+.stats{gap:32px}.stat{color:#817a6d}.stat b{color:#29271f;font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:27px}
+.archive{padding-top:38px}
+.controls input,.controls select{background:#faf8f3;border:1px solid #d8d0c3;color:#29271f;border-radius:2px}
+.controls input::placeholder{color:#9b9386}
+.count{color:#817a6d}.chip{border-color:#d1c8b9;color:#756d60}.chip.active,.chip:hover{border-color:#827257;color:#29271f;background:#eee8dc}
+.gallery{border-top-color:#d9d1c4}
+.compact-item{border-bottom-color:#ded7ca;padding:20px 5px;transition:padding .25s,border-color .25s}
+.compact-item:hover{padding-left:12px;border-bottom-color:#a89a82}
+.compact-item h2{font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:21px;color:#29271f}
+.compact-item .item-location{color:#817a6d;font-size:13px}
+.item-arrow{color:#8b7655}.compact-item:hover h2,.compact-item:hover .item-arrow{color:#756044}
+.empty{border-color:#ded7ca;color:#817a6d}.empty strong{color:#29271f}
+footer{border-top-color:#ded7ca;background:transparent}.foot strong{color:#39352d}.foot span{color:#817a6d}
+dialog{background:#faf8f3;color:#29271f;border:1px solid #d3cabb;box-shadow:0 25px 80px rgba(44,36,24,.22)}
+dialog::backdrop{background:rgba(31,28,22,.55);backdrop-filter:blur(5px)}
+.detail-head{border-bottom-color:#ded7ca}.detail-head h2{font-family:Georgia,"Times New Roman",serif;font-weight:400;color:#29271f}
+.detail-kicker{color:#8b7655}.close{border-color:#cfc5b5;color:#39352d;background:transparent}.close:hover{background:#eee8dc}
+.detail-body p{color:#625c51}.detail-body h3{color:#8b7655}
+.meta{border-color:#ded7ca;background:#f5f1e9}.meta small{color:#8a8275}.meta b{color:#39352d}
+.detail-note{border-left-color:#a38d68;color:#6d6559}
+.related-link{border-color:#d3cabb;color:#625c51}.related-link:hover{background:#eee8dc}
+.detail-body ul{color:#625c51}.source-list a{color:#514a3f}.source-list small,.source-entry small{color:#817a6d}
+.history-text{color:#39352d!important}.history-significance{border-left-color:#a38d68;color:#71695d!important}
+.photo-upload{border-color:#ded7ca}.photo-picker{border-color:#b8ad9b;color:#514a3f}.photo-picker:hover{background:#29271f;color:#faf8f3}
+.photo-help,.muted-copy{color:#817a6d!important}.place-facts span{color:#8b7655}.place-facts b{color:#39352d}
+.evidence-status{border-color:#ded7ca}.evidence-status>span{border-color:#a99b82;color:#65583f}.evidence-status p{color:#817a6d!important}
+.nearby-list{border-top-color:#ded7ca}.nearby-item{border-bottom-color:#ded7ca;color:#39352d}.nearby-item small{color:#8a8275}
+.reference-gallery{border-color:#ded7ca}.reference-image{border-color:#ded7ca;background:#f5f1e9}.reference-image figcaption{color:#817a6d}.reference-image figcaption strong{color:#39352d}.reference-image figcaption a{color:#514a3f}
+.action-primary,.detail-actions a,.detail-actions button{background:#29271f;color:#faf8f3;border-color:#29271f}.action-primary:hover,.detail-actions a:hover,.detail-actions button:hover{background:#4b4437}
+.timeline{border-left-color:#b9ad9b}.timeline li:before{background:#8b7655}.timeline-date{color:#39352d}.timeline-detail{color:#71695d}
+.photo-preview img{border-color:#ded7ca;background:#f5f1e9}
+@media(max-width:600px){.wrap{width:calc(100% - 30px)}.stats{gap:12px}.stat b{font-size:22px}.compact-item h2{font-size:19px}.detail-body p{color:#625c51}}
+
 </style>
 </head>
 <body>

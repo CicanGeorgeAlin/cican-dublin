@@ -165,3 +165,59 @@
 /* Keep the resting map completely clear; discovery content is opt-in. */
 .map-legend{display:none!important}
 .discovery-panel:not(.expanded):not(.detail-open) .results{display:none}
+
+/* Map canvas: give the city the screen and let the discovery sheet move out of the way. */
+.topbar{height:44px;padding:0 14px;background:linear-gradient(180deg,#050505d9,transparent)}
+.brand{transform:scale(.9);transform-origin:left center}
+.top-left{top:54px;width:min(470px,calc(100% - 24px))}
+.search-box{height:44px;border-radius:13px}
+.discovery-panel{bottom:14px;height:42px;min-height:42px;width:min(480px,calc(100% - 22px));border-radius:15px;touch-action:pan-y}
+.discovery-panel:not(.expanded):not(.detail-open){height:42px}
+.panel-grip{height:42px;touch-action:none}
+.panel-grip:after{content:"SWIPE UP TO EXPLORE";font-size:8px;letter-spacing:.16em}
+.discovery-panel.expanded{height:min(52dvh,520px)}
+.discovery-panel.expanded .panel-grip{height:30px}
+.discovery-panel.expanded .panel-grip:after{content:"DRAG DOWN TO CLOSE";font-size:7px}
+.discovery-panel.detail-open{height:min(50dvh,500px)}
+.discovery-panel.detail-open .panel-grip{display:flex;position:sticky;top:0;inset:auto;width:100%;height:22px;justify-content:center;padding:0;background:#090a09;cursor:grab}
+.discovery-panel.detail-open .panel-grip:after{content:"";display:none}
+.discovery-panel.detail-open .panel-grip span{width:34px;height:3px;margin:0;background:#777}
+.detail-view{padding-top:10px}
+.compact-actions{gap:7px}
+.compact-actions .action-link{flex:0 0 auto;min-width:86px;padding:0 18px;display:inline-flex;align-items:center;justify-content:center;border-radius:9px;background:#e8eee5;color:#172219;border:1px solid #e8eee5;font-size:8px;letter-spacing:.12em;font-weight:800;text-decoration:none}
+.compact-actions .action-button{flex:1}
+.reference-photo{margin:0 0 12px;border-radius:11px;overflow:hidden;background:#101210;border:1px solid #ffffff1c}
+.reference-photo img{width:100%;max-height:210px;aspect-ratio:16/8;object-fit:cover;display:block}
+.reference-photo figcaption{display:flex;justify-content:space-between;gap:10px;align-items:center;padding:7px 9px;font-size:6px;letter-spacing:.1em;color:#aeb6a9}
+.reference-photo figcaption a{color:#dce8d8;text-decoration:none;white-space:nowrap}
+.reference-photo>small{display:block;padding:0 9px 8px;color:#8c9388;font-size:7px;line-height:1.5}
+.bottom-nav{bottom:10px;width:auto;min-width:190px;max-width:260px;height:38px;padding:3px;gap:3px}
+.nav-item{min-width:78px;justify-content:center;font-size:7px}
+.nav-item span{font-size:11px}
+.map-recenter{bottom:66px;width:38px;height:38px}
+.map-legend{display:none!important}
+@media(min-width:851px){
+ .topbar{height:48px}
+ .top-left{top:58px}
+ .discovery-panel{bottom:14px}
+ .discovery-panel.expanded{height:min(55vh,540px)}
+ .discovery-panel.detail-open{height:min(52vh,520px)}
+ .map-recenter{bottom:68px}
+}
+@media(max-width:850px){
+ .topbar{height:42px}
+ .top-left{top:50px}
+ .discovery-panel{bottom:12px;height:40px;min-height:40px}
+ .discovery-panel:not(.expanded):not(.detail-open){height:40px}
+ .panel-grip{height:40px}
+ .discovery-panel.expanded{height:min(48dvh,450px)}
+ .discovery-panel.detail-open{height:min(50dvh,470px)}
+ .bottom-nav{bottom:8px;height:34px;min-width:172px}
+ .map-recenter{bottom:55px;right:12px;width:36px;height:36px}
+ .reference-photo img{max-height:145px}
+ .detail-view{padding:8px 14px 16px}
+}
+@media(max-height:650px){
+ .discovery-panel.expanded{height:44dvh}
+ .discovery-panel.detail-open{height:46dvh}
+}

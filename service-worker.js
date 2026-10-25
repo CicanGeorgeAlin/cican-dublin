@@ -1,6 +1,7 @@
-const CACHE="cican-dublin-app-v2";
+const CACHE="cican-dublin-app-v3";
 const CACHE_PREFIX="cican-dublin-app-";
 const SHELL=["./app.html","./app/app.css","./app/app.js","./manifest.webmanifest","./data/objects.json","./assets/favicon.svg"];
+const SHELL_PATHS=new Set(SHELL.map(path=>new URL(path,self.registration.scope).pathname));
 
 self.addEventListener("install",event=>{
   event.waitUntil(
@@ -24,17 +25,14 @@ self.addEventListener("activate",event=>{
 self.addEventListener("fetch",event=>{
   const request=event.request;
   const url=new URL(request.url);
-  if(request.method!=="GET"||url.origin!==self.location.origin)return;
+  if(request.method!=="GET"||url.origin!==self.location.origin||!SHELL_PATHS.has(url.pathname))return;
   event.respondWith(
-    caches.match(request).then(cached=>{
+    caches.open(CACHE).then(cache=>cache.match(request).then(cached=>{
       if(cached)return cached;
       return fetch(request).then(response=>{
-        if(response.ok){
-          const copy=response.clone();
-          caches.open(CACHE).then(cache=>cache.put(request,copy));
-        }
+        if(response.ok)cache.put(request,response.clone());
         return response;
       }).catch(()=>Response.error());
-    })
+    }))
   );
 });

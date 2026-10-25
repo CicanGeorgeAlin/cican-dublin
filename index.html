@@ -24,6 +24,40 @@ footer{border-top:1px solid var(--line);padding:24px 0 32px;color:#8e877a;font-s
 .eyebrow,.place{color:#66745d}
 .closing h2{color:#304238}
 
+
+.discover{padding:76px 0 10px;border-top:1px solid var(--line);margin-top:80px}
+.discover-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:30px}
+.discover-head h2{font:400 clamp(38px,5.5vw,66px)/.98 var(--serif);letter-spacing:-.055em;color:#304238;margin:14px 0}
+.discover-head p{max-width:530px;color:#6f695e;font:16px/1.8 var(--serif);margin:0}
+.all-link{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 17px;border:1px solid #bdb5a7;color:#405346;text-decoration:none;font-size:9px;letter-spacing:.15em;white-space:nowrap}
+.all-link:hover{background:#304238;color:#f8f5ed;border-color:#304238}
+.discover-tools{display:grid;grid-template-columns:minmax(0,1fr) 220px auto;align-items:end;gap:14px;margin:30px 0 22px;padding:18px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.discover-tools label{display:grid;gap:8px;color:#7b7569;font-size:9px;letter-spacing:.15em}
+.discover-tools input,.discover-tools select{width:100%;min-height:46px;padding:0 13px;border:1px solid #d7d0c3;border-radius:2px;background:#faf8f3;color:#29271f;font:13px system-ui}
+.home-count{font-size:9px;letter-spacing:.13em;color:#777164;white-space:nowrap;padding-bottom:15px;text-align:right}
+.home-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px 20px}
+.home-card{display:flex;flex-direction:column;min-width:0;background:#faf8f3;border:1px solid #e0d9cc}
+.home-card-photo{position:relative;aspect-ratio:16/10;overflow:hidden;background:radial-gradient(ellipse at 50% 45%,#d5cbb8,#a79c88)}
+.home-card-photo img{width:100%;height:100%;display:block;object-fit:cover}
+.home-photo-pending{position:absolute;inset:0;display:grid;place-content:center;gap:7px;text-align:center;background:linear-gradient(145deg,#d9d1c2,#bcb19e)}
+.home-photo-pending strong{font:42px var(--serif);font-weight:400;color:#5d6657}
+.home-photo-pending span{font-size:9px;letter-spacing:.16em;color:#57584c}
+.home-card-body{display:flex;flex-direction:column;flex:1;padding:16px}
+.home-card-meta{display:flex;justify-content:space-between;gap:8px;color:#78806d;font-size:9px;letter-spacing:.1em;text-transform:uppercase}
+.home-card h3{font:400 23px/1.15 var(--serif);color:#29271f;margin:12px 0 5px}
+.home-card address{font-style:normal;font-size:11px;color:#817a6e;line-height:1.5}
+.home-card p{font:14px/1.65 var(--serif);color:#686256;margin:12px 0 17px}
+.home-card-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto;padding-top:12px;border-top:1px solid #e4ded2}
+.home-card-actions a{font-size:9px;letter-spacing:.11em;text-decoration:none;padding:10px 11px;border:1px solid #c8c0b2;color:#405346}
+.home-card-actions a:hover{background:#304238;color:white;border-color:#304238}
+.home-more-wrap{display:flex;justify-content:center;align-items:center;gap:20px;margin:32px 0 0}
+.home-more{min-height:52px;padding:0 25px;background:#304238;color:#f8f5ed;border:1px solid #304238;font-size:9px;letter-spacing:.16em;cursor:pointer}
+.home-more:hover{background:#40584a}
+.mobile-all{display:none}
+.home-loading,.home-empty{grid-column:1/-1;color:#777164;font:15px var(--serif);padding:25px 0}
+@media(max-width:800px){.home-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.discover-tools{grid-template-columns:1fr 180px}.home-count{grid-column:1/-1;text-align:left;padding:0}}
+@media(max-width:560px){.discover{padding-top:54px;margin-top:58px}.discover-head{display:block}.discover-head>.all-link{display:none}.discover-head h2{font-size:48px}.discover-head p{font-size:15px}.discover-tools{grid-template-columns:1fr;gap:13px}.home-grid{grid-template-columns:1fr;gap:19px}.home-card-photo{aspect-ratio:16/10}.home-card h3{font-size:25px}.home-card p{font-size:15px}.home-more-wrap{display:grid}.home-more{width:100%}.mobile-all{display:flex;width:100%}}
+
 </style></head><body>
 <header><div class="wrap nav"><a class="brand" href="./">CICAN DUBLIN ARCHIVE</a><nav class="navlinks"><a href="./my-dublin.html">MY DUBLIN</a><a href="./archive.html">ARCHIVE</a></nav></div></header>
 <main class="wrap"><section class="story">
@@ -35,6 +69,51 @@ footer{border-top:1px solid var(--line);padding:24px 0 32px;color:#8e877a;font-s
 <a class="walk" href="https://www.google.com/maps/dir/?api=1&amp;destination=Pembroke%20Street%20Upper%2C%20Dublin%2C%20Ireland&amp;travelmode=walking" target="_blank" rel="noopener">WALK TOWARDS THERE&nbsp; ↗</a>
 <p class="map-note">Google Maps opens walking directions to this place. Your device can use your current location as the starting point.</p></div>
 </section>
+
+<section class="discover" id="discover">
+ <div class="discover-head"><div><div class="eyebrow">THE LIVING FIELD GUIDE</div><h2>More of Dublin<br>to discover.</h2><p>Every place has a story. Browse the growing archive, find somewhere nearby, and follow the details that catch your eye.</p></div><a class="all-link" href="./archive.html">EXPLORE THE FULL ARCHIVE ↗</a></div>
+ <div class="discover-tools"><label class="search-label"><span>SEARCH THE ARCHIVE</span><input id="homeSearch" type="search" placeholder="Try a street, building, district or detail…" aria-label="Search all archive places"></label><label class="district-label"><span>EXPLORE AN AREA</span><select id="homeDistrict"><option value="">All districts</option></select></label><span id="homeCount" class="home-count" aria-live="polite">LOADING PLACES</span></div>
+ <div class="home-grid" id="homeGrid"><p class="home-loading">Loading the archive…</p></div>
+ <div class="home-more-wrap"><button class="home-more" id="homeMore" type="button" hidden>SHOW MORE PLACES <span>↓</span></button><a class="all-link mobile-all" href="./archive.html">VIEW ALL PLACES IN THE ARCHIVE ↗</a></div>
+</section>
 <section class="closing"><h2>A city of details.<br>A lifetime of looking.</h2><p>Your Dublin notebook is ready when you are. Save the places you visit, keep your photographs and prepare A4 outline pages in My Dublin.</p></section>
 </main><footer><div class="wrap foot"><strong>CICAN DUBLIN ARCHIVE</strong><span>CREATED BY CICAN GEORGE ALIN · DUBLIN, IRELAND</span></div></footer>
+
+<script>
+(()=>{
+ const $=s=>document.querySelector(s);
+ const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+ const safe=v=>{try{const u=new URL(v);return /^https?:$/.test(u.protocol)?u.href:"#"}catch{return "#"}};
+ const clean=v=>String(v??"").normalize("NFD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase().trim();
+ let objects=[],visuals=[],page=1;const pageSize=9;
+ const text=r=>[r.id,r.name,r.address,r.district,r.category,r.historical_period,r.historical_description,r.historical_significance,r.research_notes].join(" ");
+ const walk=r=>Number.isFinite(r.latitude)&&Number.isFinite(r.longitude)?"https://www.google.com/maps/dir/?api=1&destination="+encodeURIComponent(r.latitude.toFixed(7)+","+r.longitude.toFixed(7))+"&travelmode=walking":"";
+ function render(){
+  const q=clean($("#homeSearch").value),d=$("#homeDistrict").value;
+  const rows=objects.filter(r=>(!q||clean(text(r)).includes(q))&&(!d||r.district===d)).sort((a,b)=>a.name.localeCompare(b.name));
+  const shown=rows.slice(0,page*pageSize);
+  $("#homeCount").textContent=rows.length+" PLACES · SHOWING "+shown.length;
+  $("#homeGrid").innerHTML=shown.length?shown.map(r=>{
+   const v=visuals.find(x=>x.record_id===r.id)||{},images=Array.isArray(v.reference_images)?v.reference_images:[];
+   const im=images.find(x=>x.image_url&&safe(x.image_url)!=="#");
+   const photo=im?'<div class="home-card-photo"><img loading="lazy" src="'+esc(safe(im.image_url))+'" alt="'+esc(im.title||r.name)+'"><span class="photo-type">'+esc(im.image_role==="STREET_CONTEXT"?"STREET CONTEXT":"REFERENCE PHOTO")+'</span></div>':'<div class="home-card-photo"><div class="home-photo-pending"><strong>C</strong><span>PHOTOGRAPH PENDING</span></div></div>';
+   const desc=r.historical_description||"Historical research is in progress.";
+   const summary=desc.length>150?desc.slice(0,147).replace(/\\s+\\S*$/,"")+"…":desc;
+   const w=walk(r);
+   return '<article class="home-card">'+photo+'<div class="home-card-body"><div class="home-card-meta"><span>'+esc(r.district)+'</span><span>'+esc((r.category||"").replaceAll("_"," "))+'</span></div><h3>'+esc(r.name)+'</h3><address>'+esc(r.address)+'</address><p>'+esc(summary)+'</p><div class="home-card-actions"><a href="./archive.html#object='+encodeURIComponent(r.id)+'">VIEW HISTORY ↗</a>'+(w?'<a href="'+esc(w)+'" target="_blank" rel="noopener">WALK THERE ↗</a>':"")+'</div></div></article>';
+  }).join(""):'<p class="home-empty">No places match that search. Try another word or area.</p>';
+  $("#homeMore").hidden=shown.length>=rows.length;
+ }
+ Promise.all(["objects","visual-assets"].map(n=>fetch("./data/"+n+".json").then(r=>{if(!r.ok)throw Error("Could not load "+n);return r.json()}))).then(([o,v])=>{
+  objects=o;visuals=v.records||[];
+  const ds=[...new Set(objects.map(x=>x.district).filter(Boolean))].sort();
+  $("#homeDistrict").innerHTML='<option value="">All districts</option>'+ds.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join("");
+  render();
+ }).catch(()=>{$("#homeGrid").innerHTML='<p class="home-empty">The discovery catalogue could not be loaded. Please open the full archive.</p>'});
+ $("#homeSearch").addEventListener("input",()=>{page=1;render()});
+ $("#homeDistrict").addEventListener("change",()=>{page=1;render()});
+ $("#homeMore").addEventListener("click",()=>{page++;render()});
+})();
+</script>
+
 </body></html>

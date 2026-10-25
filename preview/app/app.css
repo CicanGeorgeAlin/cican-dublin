@@ -460,3 +460,13 @@ button:focus-visible,a:focus-visible,summary:focus-visible,article[role="button"
 
 /* Preserve hidden-state semantics when a place detail is open. */
 @media(min-width:851px){.discovery-panel.detail-open .results{display:none!important}}
+
+
+/* Resilient image presentation when an external photo is unavailable. */
+.photo-load-fallback{display:grid;place-items:center;min-height:150px;padding:22px;background:radial-gradient(ellipse at center,#252a25,#0b0c0b 75%);color:#aeb9a8;font-size:8px;line-height:1.5;letter-spacing:.16em;text-align:center}
+.photo-hero .photo-load-fallback{width:100%;aspect-ratio:16/10;min-height:170px}
+.reference-photo .photo-load-fallback,.compact-photo .photo-load-fallback{width:100%;min-height:130px;aspect-ratio:16/9}
+.peek-image .photo-load-fallback{width:100%;height:100%;min-height:120px}
+.cican-photo-marker .photo-load-fallback{width:100%;height:100%;min-height:0;padding:0;font-size:5px;letter-spacing:.05em;border-radius:50%}
+.photo-hero img,.reference-photo img,.compact-photo img{background:#111}
+@media(max-width:850px){.photo-hero .photo-load-fallback{min-height:145px}.reference-photo .photo-load-fallback,.compact-photo .photo-load-fallback{min-height:115px}}

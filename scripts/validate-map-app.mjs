@@ -17,10 +17,13 @@ const dynamicallyCreatedIds = new Set(["save-place"]);
 for (const id of appIds) {
   if (!dynamicallyCreatedIds.has(id)) assert.ok(htmlIds.has(id), "Map app references missing HTML element #" + id);
 }
-for (const id of ["map", "search", "category-filter", "district-filter", "panel-toolbar", "results", "detail-view", "discovery-panel", "locate-button", "catalogue-status"]) {
+for (const id of ["map", "search", "category-filter", "district-filter", "panel-toolbar", "results", "detail-view", "discovery-panel", "locate-button", "catalogue-status", "archive-stats"]) {
   assert.ok(htmlIds.has(id), "Required map app element is missing: #" + id);
 }
 assert.ok(css.includes("#map") && css.includes(".discovery-panel"), "Map and discovery panel styles must exist.");
+assert.ok(css.includes("grayscale(1) brightness(.72)"), "Map tiles should use the archive dark-map treatment.");
+assert.ok(app.includes("sourceMarkup") && app.includes("SOURCES_URL"), "Archive details must render linked source records.");
+assert.ok(app.includes("updateArchiveStats") && html.includes("archive-stats"), "Archive overview statistics must be wired to the catalogue.");
 new Function(app);
 
 assert.ok(Array.isArray(objects) && objects.length > 0, "Object catalogue must be a non-empty array.");
@@ -53,7 +56,7 @@ for (const icon of manifest.icons) {
   assert.ok(fs.existsSync(path), "Missing PWA icon: " + icon.src);
 }
 
-for (const file of ["app.html", "app/app.css", "app/app.js", "manifest.webmanifest", "data/objects.json", "assets/favicon.svg"]) {
+for (const file of ["app.html", "app/app.css", "app/app.js", "manifest.webmanifest", "data/objects.json", "data/sources.json", "assets/favicon.svg"]) {
   assert.ok(fs.existsSync(file), "Missing application shell asset: " + file);
 }
 assert.ok(sw.includes("key.startsWith(CACHE_PREFIX)"), "Service worker must only clean its own cache namespace.");

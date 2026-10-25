@@ -26,7 +26,10 @@ assert.ok(css.includes(".atlas-intro") && css.includes(".atlas-enter"), "The cin
 assert.ok(app.includes("dismissAtlasIntro") && app.includes("intro-record-count"), "The atlas opening must be dismissible and show live catalogue totals.");
 assert.ok(css.includes("#map") && css.includes(".discovery-panel"), "Map and discovery panel styles must exist.");
 assert.ok(css.includes(".panel-grip") && app.includes("setPanelExpanded"), "Mobile Explore and Map modes must expand and collapse the discovery panel.");
-assert.ok(css.includes("grayscale(1) brightness(.72)"), "Map tiles should use the archive dark-map treatment.");
+assert.ok(css.includes("grayscale(1) brightness(.78)"), "MapLibre vector canvas should use the archive dark-map treatment.");
+assert.ok(html.includes("maplibre-gl@5.12.0/dist/maplibre-gl.js") && html.includes("maplibre-gl@5.12.0/dist/maplibre-gl.css"), "MapLibre GL JS and its stylesheet must load before the archive app.");
+assert.ok(app.includes("maplibregl.Map") && app.includes("tiles.openfreemap.org/styles/liberty"), "The archive map must use MapLibre with the OpenFreeMap vector style.");
+assert.ok(app.includes("cluster:true") && app.includes("getClusterExpansionZoom"), "Archive locations must use native vector-source clustering.");
 assert.ok(app.includes("sourceMarkup") && app.includes("SOURCES_URL"), "Archive details must render linked source records.");
 assert.ok(app.includes("photoMarkup") && app.includes("VISUALS_URL") && app.includes("safePhotoPath"), "Record details must support founder photo galleries and a pending-photo state.");
 assert.ok(css.includes(".photo-gallery") && css.includes(".photo-pending"), "Founder photography and pending-photo layouts must be styled.");
@@ -73,8 +76,7 @@ for (const file of ["app.html", "app/app.css", "app/app.js", "manifest.webmanife
 assert.ok(sw.includes("key.startsWith(CACHE_PREFIX)"), "Service worker must only clean its own cache namespace.");
 assert.ok(sw.includes("SHELL_PATHS.has(url.pathname)"), "Service worker must only intercept declared shell assets.");
 assert.ok(!sw.includes("tile.openstreetmap.org"), "Map tiles must not be cached by the app shell.");
-assert.ok(html.indexOf("leaflet@1.9.4/dist/leaflet.js") < html.indexOf("leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"), "Leaflet must load before MarkerCluster.");
-assert.ok(html.indexOf("leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js") < html.indexOf("./app/app.js"), "MarkerCluster must load before the app.");
+assert.ok(html.indexOf("maplibre-gl@5.12.0/dist/maplibre-gl.js") < html.indexOf("./app/app.js"), "MapLibre must load before the archive app.");
 assert.ok(app.includes('addEventListener("click",()=>{if(!navigator.geolocation)'), "Geolocation must only be requested from the explicit location button.");
 assert.ok(app.includes('localStorage.setItem("cican-map-saved"'), "Saved places must use the app-local storage key.");
 assert.ok(notebook.includes("cican-dublin-fieldbook"), "Existing My Dublin notebook database must remain unchanged.");

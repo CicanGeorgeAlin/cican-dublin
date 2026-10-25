@@ -221,3 +221,9 @@
  .discovery-panel.expanded{height:44dvh}
  .discovery-panel.detail-open{height:46dvh}
 }
+
+/* The map is the resting screen. Discovery controls appear only after opening the sheet. */
+.bottom-nav{display:none!important}
+.discovery-panel.expanded .panel-toolbar{display:flex!important;align-items:center;justify-content:space-between;padding:8px 16px 0}
+.discovery-panel.expanded .results{padding-top:12px}
+.discovery-panel.detail-open .panel-grip{touch-action:none}

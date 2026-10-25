@@ -42,7 +42,22 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "title": "O'Connell Monument, Dublin",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Dublin_-_O%27Connell_Monument.jpg/960px-Dublin_-_O%27Connell_Monument.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Dublin_-_O%27Connell_Monument.jpg",
+          "photographer": "P. Hughes",
+          "date_taken": "2025-06-16",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "O'Connell Monument, Dublin by P. Hughes, via Wikimedia Commons",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Photograph depicts the O'Connell Monument; third-party reference image, not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-BLD-0001",
@@ -73,7 +88,22 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "title": "General Post Office, O'Connell Street",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/The_GPO%2C_General_Post_Office_IN_Dublin%2C_Ireland.jpg/960px-The_GPO%2C_General_Post_Office_IN_Dublin%2C_Ireland.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:The_GPO,_General_Post_Office_IN_Dublin,_Ireland.jpg",
+          "photographer": "Claire Whitehead (Wikimedia username ClaireWhi)",
+          "date_taken": "2024-06-29",
+          "source_collection": "Wikimedia Commons",
+          "licence": "CC0 1.0 Universal Public Domain Dedication",
+          "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "attribution": "Photograph by Claire Whitehead (ClaireWhi), via Wikimedia Commons; CC0 1.0",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Photograph depicts the General Post Office façade; third-party reference image, not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-STR-0001",
@@ -193,7 +223,22 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "title": "The Custom House, Dublin",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Dublin_-_Custom_House.jpg/960px-Dublin_-_Custom_House.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Dublin_-_Custom_House.jpg",
+          "photographer": "P. Hughes",
+          "date_taken": "2025",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "The Custom House, Dublin by P. Hughes, via Wikimedia Commons",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Photograph depicts the Custom House; third-party reference image, not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-MON-0002",

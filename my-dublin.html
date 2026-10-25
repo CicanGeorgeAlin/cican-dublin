@@ -80,7 +80,7 @@ const start=document.createElement("button");start.className="btn";start.textCon
 const walk=document.createElement("a");walk.className="btn secondary";walk.href=maps(next);walk.target="_blank";walk.rel="noopener";walk.textContent="WALK TO DISCOVERY ↗";
 actions.append(start,walk);root.append(tag,name,addr,desc);if(brief.length)root.append(list);root.append(status,actions);
 }
-try{const response=await fetch("./data/objects.json",{cache:"no-store"});if(!response.ok)throw Error("Catalogue unavailable ("+response.status+")");records=await response.json();records.sort((a,b)=>String(a.id).localeCompare(String(b.id),undefined,{numeric:true}));showNext();}
+try{const response=await fetch("./data/objects.json",{cache:"no-store"});if(!response.ok)throw Error("Catalogue unavailable ("+response.status+")");records=(await response.json()).filter(r=>r.verification_status==="VERIFIED");records.sort((a,b)=>String(a.id).localeCompare(String(b.id),undefined,{numeric:true}));showNext();}
 catch(e){root.textContent="The discovery queue could not load. You can still record a photograph below. "+e.message;}
 })();
 </script>

@@ -329,6 +329,7 @@ footer{padding:22px 0 30px}
 
 /* Evidence-led research layers */
 .timeline{list-style:none;padding:0;margin:14px 0 4px;border-left:1px solid #555}.timeline li{position:relative;padding:0 0 17px 18px;display:grid;gap:4px}.timeline li:before{content:"";position:absolute;left:-4px;top:6px;width:7px;height:7px;border-radius:50%;background:#eee}.timeline-date{font-size:13px;color:#f2f2f2;font-weight:700;letter-spacing:.02em}.timeline-detail{font-size:13px;line-height:1.7;color:#aaa}.muted-copy{font-size:12px!important;color:#888!important;line-height:1.65!important}.photo-brief{font-size:13px;line-height:1.8;color:#bbb;padding-left:19px}.photo-brief li{padding:2px 0}.evidence-status{border-top:1px solid #303030;margin-top:18px;padding:15px 0 4px}.evidence-status>span{display:inline-block;border:1px solid #777;padding:5px 8px;font-size:9px;letter-spacing:.13em;color:#eee}.evidence-status p{font-size:12px!important;color:#999!important;line-height:1.65!important;margin:9px 0 0}.nearby-list{display:grid;gap:0;border-top:1px solid #292929;margin-top:12px}.nearby-item{display:flex;justify-content:space-between;align-items:center;gap:12px;text-align:left;background:transparent;border:0;border-bottom:1px solid #292929;color:#eee;padding:12px 2px;cursor:pointer}.nearby-item span{font-size:13px}.nearby-item small{font-size:9px;color:#888;letter-spacing:.08em;white-space:nowrap}.nearby-item:hover span{ text-decoration:underline;text-underline-offset:3px}.fold{margin-top:12px}
+.reference-gallery{border-top:1px solid #303030;margin:22px 0;padding:18px 0 4px}.reference-gallery h3{margin:0 0 13px}.reference-image{margin:0;border:1px solid #333;background:#050505}.reference-image img{display:block;width:100%;height:auto;max-height:480px;object-fit:contain;background:#111}.reference-image figcaption{display:grid;gap:6px;padding:12px;font-size:11px;line-height:1.55;color:#aaa}.reference-image figcaption strong{color:#eee;font-size:13px}.reference-image figcaption a{color:#eee;text-decoration:underline;text-underline-offset:3px;font-size:10px;letter-spacing:.08em;margin-top:4px}
 </style>
 </head>
 <body>
@@ -345,13 +346,13 @@ footer{padding:22px 0 30px}
  <div class="gallery" id="gallery"><div class="empty">Loading places…</div></div>
 </section>
 </main>
-<footer><div class="wrap foot"><strong>CICAN DUBLIN ARCHIVE</strong><span>CREATED BY CICAN GEORGE ALIN · ORIGINAL FIELD PHOTOGRAPHY ONLY</span></div></footer>
+<footer><div class="wrap foot"><strong>CICAN DUBLIN ARCHIVE</strong><span>CREATED BY CICAN GEORGE ALIN · HISTORICAL REFERENCES · FOUNDER PHOTOGRAPHY</span></div></footer>
 <dialog id="detail"><div class="detail-head"><div><div class="detail-kicker" id="detailId"></div><h2 id="detailName"></h2><div class="detail-kicker" id="detailStatus"></div></div><button class="close" id="close">CLOSE ✕</button></div><div class="detail-body" id="detailBody"></div></dialog>
 <script>
 const $=selector=>document.querySelector(selector);
 const esc=value=>String(value??"").replace(/[&<>"']/g,char=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char]));
 const clean=value=>String(value??"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().trim();
-let objects=[],sources=[];
+let objects=[],sources=[],visualAssets={records:[]};
 let selectedPhotoUrl=null;
 function recordText(record){
  const sourceRows=(record.sources||[]).map(id=>sources.find(source=>source.id===id)).filter(Boolean);
@@ -416,13 +417,16 @@ function openRecord(id,updateUrl=true){
  const sourceSection=linkedSources.length?'<div class="source-list">'+linkedSources.map(source=>'<div class="source-entry"><a href="'+esc(safeUrl(source.url))+'" target="_blank" rel="noopener noreferrer">'+esc(source.name)+' ↗</a><small>'+esc([source.publisher,source.specific_reference].filter(Boolean).join(" · "))+'</small></div>').join("")+'</div>':'<p>Historical references are being added.</p>';
  const brief=(record.photography_brief||[]);
  const photoBrief=brief.length?'<ul class="photo-brief">'+brief.map(item=>'<li>'+esc(item)+'</li>').join("")+'</ul>':'<p class="muted-copy">A detailed photography brief has not yet been added.</p>';
+ const visualRecord=(visualAssets.records||[]).find(item=>item.record_id===record.id)||{};
+ const referenceImages=Array.isArray(visualRecord.reference_images)?visualRecord.reference_images:[];
+ const referenceMarkup=referenceImages.length?'<section class="reference-gallery"><h3>HISTORICAL &amp; REFERENCE PHOTOGRAPHS</h3>'+referenceImages.map(image=>'<figure class="reference-image"><a href="'+esc(safeUrl(image.source_url))+'" target="_blank" rel="noopener noreferrer"><img src="'+esc(safeUrl(image.image_url))+'" alt="'+esc(image.title||record.name)+'" loading="lazy"></a><figcaption><strong>'+esc(image.title||"Reference photograph")+'</strong><span>'+esc(image.attribution||image.photographer||"Source attribution pending")+'</span><span>'+esc(image.date_taken||"Date not recorded")+' · '+esc(image.licence||"Licence information pending")+'</span><span>'+esc(image.location_note||"Reference image; exact object match not confirmed.")+'</span><a href="'+esc(safeUrl(image.source_url))+'" target="_blank" rel="noopener noreferrer">VIEW ORIGINAL SOURCE ↗</a></figcaption></figure>').join("")+'</section>':'<section class="reference-gallery"><h3>HISTORICAL &amp; REFERENCE PHOTOGRAPHS</h3><p class="muted-copy">No rights-cleared reference photograph has been added to this record yet.</p></section>';
  const photo='<section class="photo-upload"><h3>YOUR PHOTOGRAPH</h3><label class="photo-picker" for="placePhoto">ADD A PHOTO</label><input id="placePhoto" type="file" accept="image/*" capture="environment"><div id="photoPreview" class="photo-preview" aria-live="polite">Choose a photograph from your device.</div><p class="photo-help">This is a local preview only. It is not uploaded or saved to the public archive. Permanent publishing is not enabled yet; no account token or password is requested here.</p></section>';
  $("#detailBody").innerHTML=
   '<section class="history-section"><h3>HISTORY</h3><p class="history-text">'+esc(record.historical_description||"Historical research is in progress.")+'</p>'+(record.historical_significance?'<p class="history-significance">'+esc(record.historical_significance)+'</p>':'')+'</section>'+
   '<details class="fold" open><summary>HISTORICAL TIMELINE</summary>'+timelineMarkup(record)+'</details>'+
   '<details class="fold"><summary>WHAT TO LOOK FOR</summary>'+photoBrief+'</details>'+
   '<details class="fold"><summary>NEARBY ARCHIVE PLACES</summary>'+nearbyMarkup(record)+'</details>'+
-  photo+
+  referenceMarkup+photo+
   '<section class="place-facts"><div><span>PERIOD</span><b>'+esc(record.historical_period||"Not established")+'</b></div><div><span>ADDRESS</span><b>'+esc(record.address)+', '+esc(record.district)+'</b></div><div><span>GPS POINT</span><b>'+(hasGps(record)?esc(record.latitude.toFixed(7)+", "+record.longitude.toFixed(7)):"Not yet sourced")+'</b></div><div><span>COORDINATE STATUS</span><b>'+(record.coordinate_status==="FIELD_VERIFIED"?"FIELD VERIFIED":"SOURCE-DERIVED · FIELD CHECK PENDING")+'</b></div><div><span>ACCESS</span><b>'+esc(record.access_status||"Check local access conditions")+'</b></div></section>'+
   evidenceMarkup(record)+
   '<div class="detail-actions">'+(mapHref?'<a class="action-primary" href="'+esc(mapHref)+'" target="_blank" rel="noopener noreferrer">WALK THERE ↗</a>':'<span class="fieldwork-note">GPS LOCATION PENDING — walking directions are not available until a source coordinate is recorded.</span>')+'</div>'+
@@ -462,9 +466,9 @@ $("#detail").addEventListener("cancel",event=>{event.preventDefault();closeRecor
 window.addEventListener("popstate",syncFromUrl);
 $("#search").addEventListener("input",render);
 
-Promise.all(["objects","sources"].map(name=>fetch("./data/"+name+".json").then(response=>{if(!response.ok)throw Error("Could not load "+name+" catalogue (HTTP "+response.status+")");return response.json()}))).then(([objectData,sourceData])=>{
+Promise.all(["objects","sources","visual-assets"].map(name=>fetch("./data/"+name+".json").then(response=>{if(!response.ok)throw Error("Could not load "+name+" catalogue (HTTP "+response.status+")");return response.json()}))).then(([objectData,sourceData])=>{
  if(!Array.isArray(objectData)||!Array.isArray(sourceData))throw Error("The archive data format is invalid.");
- objects=objectData;sources=sourceData;render();syncFromUrl();
+ objects=objectData;sources=sourceData;visualAssets=visualData;render();syncFromUrl();
 }).catch(error=>{$("#gallery").innerHTML='<div class="empty"><strong>The catalogue could not be loaded.</strong><br>'+esc(error.message)+'<br>Please refresh in a moment.</div>';$("#count").textContent="LOAD ERROR"});
 </script>
 </body></html>

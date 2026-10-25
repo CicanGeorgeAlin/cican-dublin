@@ -384,6 +384,36 @@ dialog::backdrop{background:rgba(31,28,22,.55);backdrop-filter:blur(5px)}
 .timeline li:before{background:#66745d}
 
 </style>
+<style>
+/* Photo-led archive catalogue — consistent full-size imagery for every record. */
+#gallery.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 24px;border:0;align-items:stretch}
+.place-card{min-width:0;overflow:hidden;background:#0b0b0b;border:1px solid #292929;display:flex;flex-direction:column;transition:border-color .2s,transform .2s}
+.place-card:hover{border-color:#777;transform:translateY(-2px)}
+.archive-photo{position:relative;display:flex;align-items:center;justify-content:center;width:100%;aspect-ratio:16/10;overflow:hidden;background:#171612}
+.archive-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+.photo-type{position:absolute;left:13px;bottom:12px;padding:6px 9px;background:#090909df;border:1px solid #ffffff38;color:#f2eee6;font-size:9px;letter-spacing:.13em}
+.photo-credit{padding:8px 12px;background:#11100e;color:#aaa;font-size:10px;line-height:1.5;border-top:1px solid #292929}
+.photo-credit a{color:#e8e0d2;text-decoration:underline;text-underline-offset:3px}
+.photo-pending{background:radial-gradient(ellipse at 50% 42%,#34312a 0%,#1b1a17 42%,#10100f 100%);flex-direction:column;gap:7px}
+.photo-pending:before{content:"";position:absolute;inset:14px;border:1px solid #77705d55}
+.pending-mark{font-family:Georgia,serif;font-size:clamp(52px,7vw,88px);font-weight:400;line-height:1;color:#c8bda5;text-shadow:0 0 30px #c8bda522}
+.pending-title{font-size:10px;letter-spacing:.2em;color:#e4ddcf}
+.pending-subtitle{font-size:11px;color:#9d978a}
+.photo-unavailable{background:#191815}
+.card-content{padding:18px 19px 16px;display:flex;flex:1;flex-direction:column}
+.card-eyebrow{display:flex;justify-content:space-between;gap:10px;color:#a49b89;font-size:9px;letter-spacing:.13em;text-transform:uppercase}
+.place-name{font-family:Georgia,"Times New Roman",serif;font-weight:500;font-size:clamp(20px,2vw,27px);line-height:1.15;letter-spacing:-.025em;margin:10px 0 5px;color:#f5f0e6}
+.place-address{font-size:12px;color:#aaa397;line-height:1.5}
+.place-summary{font-family:Georgia,"Times New Roman",serif;font-size:14px;line-height:1.65;color:#c7c0b3;margin:14px 0 20px}
+.card-footer{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:auto;padding-top:13px;border-top:1px solid #333}
+.card-action{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:40px;padding:10px 13px;border:1px solid #746e60;background:transparent;color:#f1ebdf;font-size:10px;letter-spacing:.1em;text-decoration:none;cursor:pointer}
+.card-action:hover{background:#e8dfce;color:#171613;border-color:#e8dfce}
+.walk-action{border-color:#47443c;color:#c4bcae}
+.disabled-action{opacity:.55;cursor:not-allowed}
+#gallery .empty{grid-column:1/-1}
+@media(min-width:1050px){#gallery.gallery{grid-template-columns:repeat(3,minmax(0,1fr));gap:32px 25px}}
+@media(max-width:700px){#gallery.gallery{grid-template-columns:1fr;gap:22px}.card-content{padding:17px 16px 15px}.place-name{font-size:24px}.archive-photo{aspect-ratio:16/10}.place-summary{font-size:15px}.card-action{min-height:44px;font-size:10px}}
+</style>
 </head>
 <body>
 <header><div class="wrap nav"><a class="brand" href="#top"><span>CICAN DUBLIN ARCHIVE</span></a><nav class="navlinks"><a href="#archive">Archive</a><a href="https://github.com/CicanGeorgeAlin/cican-dublin-archive">Project ↗</a></nav></div></header>
@@ -432,8 +462,21 @@ function render(){
  $("#count").textContent=rows.length+" PLACES";
  $("#gallery").innerHTML=rows.length?rows.map(record=>{
   const walk=walkingUrl(record);
-  const walkAction=walk?'<a class="walk-button" href="'+esc(walk)+'" target="_blank" rel="noopener noreferrer"><span>↗</span> WALK THERE</a>':'<span class="walk-button is-disabled" aria-disabled="true">GPS PENDING</span>';
-  return '<article class="place-row"><div class="place-info" data-open="'+esc(record.id)+'" role="button" tabindex="0" aria-label="View details for '+esc(record.name)+'"><h3 class="place-name">'+esc(record.name)+'</h3><div class="place-address">'+esc(record.address)+' · '+esc(record.district)+'</div><div class="place-category">'+esc(record.category.replaceAll("_"," "))+'</div></div><div class="place-actions"><button class="details-button" type="button" data-open="'+esc(record.id)+'">DETAILS</button>'+walkAction+'</div></article>';
+  const visualRecord=(visualAssets.records||[]).find(item=>item.record_id===record.id)||{};
+  const referenceImages=Array.isArray(visualRecord.reference_images)?visualRecord.reference_images:[];
+  const image=referenceImages.find(item=>item.image_url&&safeUrl(item.image_url)!=="#")||null;
+  const imageLabel=image?(image.image_role==="STREET_CONTEXT"?"STREET CONTEXT":"REFERENCE PHOTOGRAPH"):"PHOTOGRAPH PENDING";
+  const photo=image
+   ?'<div class="archive-photo"><img src="'+esc(safeUrl(image.image_url))+'" alt="'+esc(image.title||record.name)+'" loading="lazy" onerror="this.parentElement.classList.add(\'photo-unavailable\');this.remove()"><span class="photo-type">'+esc(imageLabel)+'</span></div><div class="photo-credit">'+esc(image.attribution||image.photographer||"Attribution pending")+' · <a href="'+esc(safeUrl(image.source_url))+'" target="_blank" rel="noopener noreferrer">SOURCE &amp; LICENCE ↗</a></div>'
+   :'<div class="archive-photo photo-pending" aria-label="Photograph pending for '+esc(record.name)+'"><div class="pending-mark" aria-hidden="true">C</div><span class="pending-title">PHOTOGRAPH PENDING</span><span class="pending-subtitle">Original field photograph to be added</span></div>';
+  const walkAction=walk?'<a class="card-action walk-action" href="'+esc(walk)+'" target="_blank" rel="noopener noreferrer">WALK THERE <span aria-hidden="true">↗</span></a>':'<span class="card-action disabled-action" aria-disabled="true">GPS PENDING</span>';
+  const description=record.historical_description||"Historical research is in progress.";
+  const summary=description.length>230?description.slice(0,227).replace(/\s+\S*$/,"")+"…":description;
+  return '<article class="place-card">'+photo+
+   '<div class="card-content"><div class="card-eyebrow"><span>'+esc(record.district)+'</span><span>'+esc(record.category.replaceAll("_"," "))+'</span></div>'+
+   '<h3 class="place-name">'+esc(record.name)+'</h3><div class="place-address">'+esc(record.address)+'</div>'+
+   '<p class="place-summary">'+esc(summary)+'</p>'+
+   '<div class="card-footer"><button class="card-action history-action" type="button" data-open="'+esc(record.id)+'">VIEW HISTORY <span aria-hidden="true">↗</span></button>'+walkAction+'</div></div></article>';
  }).join(""):'<div class="empty">No matching places. Try another search.</div>';
 }
 function safeUrl(value){

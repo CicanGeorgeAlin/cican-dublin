@@ -1,4 +1,4 @@
-const CACHE="cican-dublin-app-v3";
+const CACHE="cican-dublin-app-v4";
 const CACHE_PREFIX="cican-dublin-app-";
 const SHELL=["./app.html","./app/app.css","./app/app.js","./manifest.webmanifest","./data/objects.json","./data/sources.json","./assets/favicon.svg"];
 const SHELL_PATHS=new Set(SHELL.map(path=>new URL(path,self.registration.scope).pathname));

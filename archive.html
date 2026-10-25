@@ -466,8 +466,8 @@ $("#detail").addEventListener("cancel",event=>{event.preventDefault();closeRecor
 window.addEventListener("popstate",syncFromUrl);
 $("#search").addEventListener("input",render);
 
-Promise.all(["objects","sources","visual-assets"].map(name=>fetch("./data/"+name+".json").then(response=>{if(!response.ok)throw Error("Could not load "+name+" catalogue (HTTP "+response.status+")");return response.json()}))).then(([objectData,sourceData])=>{
- if(!Array.isArray(objectData)||!Array.isArray(sourceData))throw Error("The archive data format is invalid.");
+Promise.all(["objects","sources","visual-assets"].map(name=>fetch("./data/"+name+".json").then(response=>{if(!response.ok)throw Error("Could not load "+name+" catalogue (HTTP "+response.status+")");return response.json()}))).then(([objectData,sourceData,visualData])=>{
+ if(!Array.isArray(objectData)||!Array.isArray(sourceData)||!visualData||!Array.isArray(visualData.records))throw Error("The archive data format is invalid.");
  objects=objectData;sources=sourceData;visualAssets=visualData;render();syncFromUrl();
 }).catch(error=>{$("#gallery").innerHTML='<div class="empty"><strong>The catalogue could not be loaded.</strong><br>'+esc(error.message)+'<br>Please refresh in a moment.</div>';$("#count").textContent="LOAD ERROR"});
 </script>

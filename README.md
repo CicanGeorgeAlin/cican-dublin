@@ -50,7 +50,8 @@ RESEARCH → VERIFY → REGISTER → PLAN FIELDWORK → FOUNDER PHOTOGRAPHS → 
 - `data/categories.json` — discovery taxonomy.
 - `data/sources.json` — source registry.
 - `data/research.json` — public, evidence-graded research notes and unresolved archival leads.
-- `schemas/` — JSON Schema contracts for objects, sources and geographic zones.
+- `data/investigation.json` — claim-level evidence grades and the ordered investigation backlog.
+- `schemas/` — JSON Schema contracts for objects, sources, geographic zones and the investigation register.
 - `documentation/` — project standards, research batches and data architecture.
 - `routes/` — proposed and completed fieldwork plans.
 - `research/` — source-based investigations.
@@ -71,6 +72,10 @@ The website provides a responsive warm editorial catalogue with ivory, charcoal 
 - Research leads are deliberately separate from physical catalogue records and map pins; they become mapped objects only after location and evidence checks pass.
 
 The website displays research records as placeholders until original field photographs are added. It does not use stock or generated images as substitutes.
+
+## Investigation control system
+
+The Clontarf Sheds investigation follows the locked [Investigation Control System](documentation/INVESTIGATION-CONTROL-SYSTEM.md). Evidence grades A–E describe how directly each claim has been checked; they are not popularity or confidence scores. The claim register, research chronology, correction log and prioritised next actions are maintained in `data/investigation.json`. Catalogue entries, secondary transcriptions and unseen map images are never treated as direct inspection of the underlying evidence. No historic footprint or map feature is promoted without documented source inspection and geographic support.
 
 ## Geographic and coordinate accuracy
 

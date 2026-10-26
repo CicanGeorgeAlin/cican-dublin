@@ -427,7 +427,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-TCD-LECKY-2016-01",
+          "title": "William Edward Hartpole Lecky statue, Trinity College Dublin",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/William_Edward_Hartpole_Lecky_statue_Trinity_College_Dublin.jpg/960px-William_Edward_Hartpole_Lecky_statue_Trinity_College_Dublin.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:William_Edward_Hartpole_Lecky_statue_Trinity_College_Dublin.jpg",
+          "photographer": "Steven Lek",
+          "date_taken": "2016-07-28",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Steven Lek, “William Edward Hartpole Lecky statue Trinity College Dublin”, 28 July 2016, via Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Photograph depicts the Lecky statue at Trinity College Dublin. Third-party reference photograph; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-MON-0006",
@@ -457,7 +473,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-TCD-EDMUND-BURKE-2022-01",
+          "title": "Edmund Burke statue, Trinity College",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Edmund_Burke_statue%2C_Trinity_College.jpg/500px-Edmund_Burke_statue%2C_Trinity_College.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Edmund_Burke_statue,_Trinity_College.jpg",
+          "photographer": "Yair Haklai",
+          "date_taken": "2022-08-07",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Yair Haklai, “Edmund Burke statue, Trinity College”, 7 August 2022, via Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Photograph depicts the Edmund Burke statue at Trinity College. The original image is portrait-oriented; the website uses a restrained 4:3 crop while retaining the statue as the focal point. Third-party reference photograph; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-ART-0001",
@@ -487,7 +519,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-TCD-CACTUS-PROVISOIRE-2020-01",
+          "title": "Alexander Calder, Cactus Provisoire, Trinity College Dublin",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Alexander_Calder%2C_Cactus_provvisorio%2C_1967%2C_01.jpg/960px-Alexander_Calder%2C_Cactus_provvisorio%2C_1967%2C_01.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Alexander_Calder,_Cactus_provvisorio,_1967,_01.jpg",
+          "photographer": "Sailko",
+          "date_taken": "2020-01-30",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution 3.0 Unported (CC BY 3.0)",
+          "licence_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "Sailko, “Alexander Calder, Cactus provvisorio, 1967, 01”, 30 January 2020, via Wikimedia Commons (CC BY 3.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Photograph depicts Alexander Calder’s Cactus Provisoire at Trinity College Dublin. Third-party reference photograph; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-ART-0002",
@@ -517,7 +565,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-TCD-HENRY-MOORE-2022-01",
+          "title": "Reclining Connected Forms — Henry Moore, Trinity College Dublin",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Reclining_Connected_Forms_-_Henry_Moore_%28LH_612%2C_Trinity_College%2C_Dublin%29.jpg/960px-Reclining_Connected_Forms_-_Henry_Moore_%28LH_612%2C_Trinity_College%2C_Dublin%29.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Reclining_Connected_Forms_-_Henry_Moore_(LH_612,_Trinity_College,_Dublin).jpg",
+          "photographer": "Yair Haklai",
+          "date_taken": "2022-08-08",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Yair Haklai, “Reclining Connected Forms - Henry Moore (LH 612, Trinity College, Dublin)”, 8 August 2022, via Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Photograph depicts Henry Moore’s Reclining Connected Forms in Trinity College Dublin. Third-party reference photograph; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-BLD-0003",

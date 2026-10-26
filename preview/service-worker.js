@@ -1,4 +1,4 @@
-const CACHE="cican-dublin-app-v41";
+const CACHE="cican-dublin-app-v42";
 const CACHE_PREFIX="cican-dublin-app-";
 const SHELL=["./app.html","./app/app.css","./app/app.js","./manifest.webmanifest","../data/objects.json","../data/sources.json","../data/visual-assets.json","./assets/favicon.svg","./assets/cican-emblem.svg"];
 const SHELL_PATHS=new Set(SHELL.map(path=>new URL(path,self.registration.scope).pathname));
@@ -27,25 +27,12 @@ self.addEventListener("fetch",event=>{
   const url=new URL(request.url);
   if(request.method!=="GET"||url.origin!==self.location.origin||!SHELL_PATHS.has(url.pathname))return;
   event.respondWith(
-    caches.open(CACHE).then(async cache=>{
-      const isData=url.pathname.endsWith(".json");
-      if(isData){
-        try{
-          const fresh=await fetch(request,{cache:"no-store"});
-          if(fresh.ok)await cache.put(request,fresh.clone());
-          return fresh;
-        }catch(error){
-          const cached=await cache.match(request);
-          return cached||Response.error();
-        }
-      }
-      const cached=await cache.match(request);
+    caches.open(CACHE).then(cache=>cache.match(request).then(cached=>{
       if(cached)return cached;
-      try{
-        const fresh=await fetch(request);
-        if(fresh.ok)await cache.put(request,fresh.clone());
-        return fresh;
-      }catch(error){return Response.error();}
-    })
+      return fetch(request).then(response=>{
+        if(response.ok)cache.put(request,response.clone());
+        return response;
+      }).catch(()=>Response.error());
+    }))
   );
 });

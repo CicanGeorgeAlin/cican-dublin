@@ -1001,5 +1001,35 @@
     "source_type": "IMAGE_REFERENCE",
     "specific_reference": "File page confirms author Tdr112, own work, capture date 2022-09-11, image dimensions 3648 × 1824, camera location 53.363434, -6.205410, and Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).",
     "notes": "Third-party reference photograph of Clontarf Castle gate lodge. Attribution: Tdr112, Wikimedia Commons. Licence: CC BY-SA 4.0. Not a founder original."
+  },
+  {
+    "id": "NIAH-50030310",
+    "name": "Clontarf Castle, Castle Avenue, Clontarf",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030310/clontarf-castle-castle-avenue-clontarf-dublin-3-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50030310",
+    "notes": "NIAH record for the country house rebuilt 1836–37 to designs by William Vitruvius Morrison. Records the exterior form and surviving interior features. Published Irish Grid reference 319407, 236423. Coordinates transformed to WGS 84 using EPSG operation 1641; point accuracy not specified."
+  },
+  {
+    "id": "WMC-CLONTARF-CASTLE-2007-01",
+    "name": "Clontarf Castle — exterior photograph (2007-04-06)",
+    "publisher": "Wikimedia Commons — JP / Geograph Britain and Ireland",
+    "url": "https://commons.wikimedia.org/wiki/File:Clontarf_Castle_-_geograph.org.uk_-_395705.jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Photographer JP; original Geograph photograph 395705; dated 6 April 2007; 640 × 480 px; CC BY-SA 2.0.",
+    "notes": "Third-party close-up exterior reference photograph of Clontarf Castle. Attribution: JP / Clontarf Castle, via Geograph Britain and Ireland and Wikimedia Commons. Licence CC BY-SA 2.0. Older, low-resolution reference image; not a founder original."
+  },
+  {
+    "id": "WMC-CLONTARF-CASTLE-2007-02",
+    "name": "Clontarf Castle Hotel — exterior photograph (2007-10-07)",
+    "publisher": "Wikimedia Commons — Cailín Sásta",
+    "url": "https://commons.wikimedia.org/wiki/File:ClontarfCastleHotel.jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Photographer Cailín Sásta; self-photographed; EXIF capture 7 October 2007; 3888 × 2592 px; CC BY 3.0.",
+    "notes": "Third-party exterior reference photograph of Clontarf Castle Hotel. Attribution: Cailín Sásta, Wikimedia Commons. Licence CC BY 3.0. The image is a hotel-era view and should be treated as a visual reference, not evidence for historic fabric details not visible in the photograph; not a founder original."
   }
 ]

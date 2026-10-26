@@ -6,7 +6,7 @@
 
 ## Result
 
-The visual inventory now contains **23 third-party reference photographs across 19 catalogue records** (previously 20 photographs across 16 records). All new photographs are explicitly labelled `STREET_CONTEXT`; they are orientation aids and are not presented as founder originals or as proof that the pictured feature is the exact object at the archive pin.
+The visual inventory now contains **25 third-party reference photographs across 21 catalogue records** (previously 20 photographs across 16 records). All new photographs are explicitly labelled `STREET_CONTEXT`; they are orientation aids and are not presented as founder originals or as proof that the pictured feature is the exact object at the archive pin.
 
 ## New registered photographs
 
@@ -15,6 +15,8 @@ The visual inventory now contains **23 third-party reference photographs across 
 | DUB-BLD-0038 — 7 Marino Crescent | [Marino Crescent, view east](https://commons.wikimedia.org/wiki/File:Marino_crescent,_Dublin.jpg) | William M. Murphy | 9 Jan 2020 | CC BY-SA 2.0 | STREET_CONTEXT |
 | DUB-BLD-0051 — Clontarf Promenade shelter | [Clontarf Promenade shelter 1](https://commons.wikimedia.org/wiki/File:Dublin_-_Clontarf_Promenade_shelter_1_-_20220208130124.jpg) | Malone0 | 8 Feb 2022 | CC BY-SA 4.0 | STREET_CONTEXT |
 | DUB-BLD-0057 — group of promenade shelters | [Clontarf Promenade shelter 4](https://commons.wikimedia.org/wiki/File:Dublin_-_Clontarf_Promenade_shelter_4_-_20220208125154.jpg) | Malone0 | 8 Feb 2022 | CC BY-SA 4.0 | STREET_CONTEXT |
+| DUB-STR-0028 — The Five Lamps | [The Five Lamps, North Strand](https://commons.wikimedia.org/wiki/File:The_Five_Lamps,_North_Strand.jpg) | William Murphy | 7 Aug 2017 | CC BY-SA 2.0 | OBJECT_PHOTOGRAPH |
+| DUB-STR-0043 — Clontarf Road pillar postbox | [Clontarf Road pillar postbox](https://commons.wikimedia.org/wiki/File:Dublin_-_Clontarf_Road_pillar_postbox_-_20220908183803.jpg) | Tdr112 | 8 Sep 2022 | CC BY-SA 4.0 | OBJECT_PHOTOGRAPH |
 
 ## Website behaviour
 
@@ -30,5 +32,7 @@ The map and detail view already consume `data/visual-assets.json`. The photo res
 - Images of unrelated Dublin landmarks were not added to records merely because they are well-known or nearby.
 
 ## Remaining work
+
+The Five Lamps image is an exact subject match. The Clontarf Road postbox image identifies the same named object and has camera coordinates approximately 12 metres from the archive pin; this supports the visual match but does not replace founder field verification.
 
 This is an incremental batch, not complete visual coverage. The next batches should prioritise the records without any direct or inherited reference image, beginning with exact-match Wikimedia Commons photographs and then carefully labelled street-context photographs. If no rights-cleared, sufficiently relevant image is found, keep the record visibly awaiting photography rather than using an unrelated or generated image.

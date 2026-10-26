@@ -1291,5 +1291,25 @@
     "source_type": "OFFICIAL_HERITAGE_REGISTER",
     "specific_reference": "NIAH Registration 50030334; Dublin 3; published Irish Grid reference 319916, 236972.",
     "notes": "Primary official source for registered place/object, historical description, appraisal, date range and source coordinate. Original Irish Grid reference preserved; transformed WGS 84 coordinate is source-derived pending founder field verification."
+  },
+  {
+    "id": "NIAH-50030323",
+    "name": "Church of St John the Baptist — Seafield Road West — NIAH registration 50030323",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030323/church-of-st-john-the-baptist-seafield-road-west-clontarf-dublin-3-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030323; Dublin 3; published Irish Grid reference 319712, 236358.",
+    "notes": "Primary official source for registered place/object, historical description, appraisal, date range and source coordinate. Original Irish Grid reference preserved; transformed WGS 84 coordinate is source-derived pending founder field verification."
+  },
+  {
+    "id": "NIAH-50030123",
+    "name": "Hillview Terrace / Rutland Terrace — 205–206 Clontarf Road — NIAH registration 50030123",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030123/205-206-clontarf-road-clontarf-dublin-3-co-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030123; Dublin 3; published Irish Grid reference 320227, 235778.",
+    "notes": "Primary official source for registered place/object, historical description, appraisal, date range and source coordinate. Original Irish Grid reference preserved; transformed WGS 84 coordinate is source-derived pending founder field verification."
   }
 ]

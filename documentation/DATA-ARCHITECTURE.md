@@ -1,4 +1,4 @@
-# CICAN DUBLIN ARCHIVE — Data Architecture
+# CICAN DUBLIN — Data Architecture
 
 **Version:** 1.0  
 **Owner:** CICAN GEORGE ALIN  
@@ -101,7 +101,7 @@ Continue expanding the researched inventory district by district using the disco
 
 The public archive includes a **New research & discoveries** feed backed by `data/research.json`. Research notes are published as soon as a finding is sufficiently documented, rather than waiting for the entire investigation to finish. Each note must include a stable ID, title, area, update date, explicit status label, concise summary, what the evidence supports, what remains unestablished, and one or more valid source IDs from `data/sources.json`.
 
-Research notes are not physical catalogue objects. A manuscript-map catalogue entry, an uninspected map image, a secondary transcription or an unresolved map-edition discrepancy must never be converted into a physical object, a coordinate or a map pin. Promote a lead only after its identity, geographic relationship and material claims have been checked against adequate evidence. The website must show the distinction between documented historical context, archival leads and pending primary-source inspection.
+Research notes are not physical catalogue objects. A manuscript-map catalogue entry, an uninspected map image, a secondary transcription or an unresolved map-edition discrepancy must never be converted into a physical object, a coordinate or a map pin. Promote a lead only after its identity, geographic relationship and material claims have been checked against adequate evidence. CICAN DUBLIN must show the distinction between documented historical context, research leads, pending primary-source inspection and physical fieldwork still to be completed.
 
 Every publication cycle updates the source registry and research feed together, checks all source references and unique IDs, runs the archive preflight, and confirms the GitHub Pages deployment before describing the website as updated.
 

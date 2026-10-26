@@ -38,7 +38,7 @@ The indexed NIAH record transcribes the Portland limestone plaque as “Sherrard
 
 - Irish Grid references are retained from the indexed NIAH entries.
 - WGS 84 points were transformed from TM65 / Irish Grid (EPSG:29902) using project operation 1641.
-- Host-building points do not precisely locate individual fanlights, coal-hole covers, plaques or benchmarks.
+- The four micro-detail records have no independent coordinates or map pins. Use the linked parent-building records for walking navigation until the exact positions of the fanlight, coal-hole cover, plaque or benchmark are field-verified.
 - Direct NIAH page access was blocked in this pass. All six records remain PARTIALLY_VERIFIED pending inspection of the full official register pages or official downloadable dataset.
 - The benchmark's exact position is unknown and is not to be treated as a verified pin.
 - All six visual-workflow entries await founder photography. No original photos or line art have been fabricated.
@@ -50,7 +50,7 @@ The indexed NIAH record transcribes the Portland limestone plaque as “Sherrard
 - **1 research-feed entry** added.
 - **6 visual-workflow entries** added; all await founder photography.
 - No duplicate object or source identifiers.
-- The map and catalogue continue to use the canonical root `data/` files.
+- The map and catalogue continue to use the canonical root `data/` files. Only the two host buildings are mapped; the four micro-details remain unpinned pending field verification.
 
 ## Next investigation
 

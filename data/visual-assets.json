@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN ARCHIVE",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 95,
+  "record_count": 98,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -3103,6 +3103,103 @@
       },
       "gallery_status": "NOT_YET_PUBLISHED",
       "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0051",
+      "name": "Clontarf Promenade — Modernist concrete shelter",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 3",
+      "address": "Clontarf Promenade, Clontarf Road, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full shelter from the promenade showing its openwork form and relationship to the seafront",
+        "Front elevation and canted corners",
+        "Curved rear elevation and oversailing flat roof",
+        "Integral concrete benches, including the curved internal bench where safely accessible",
+        "Pebbledash platband, painted wall finish and concrete details",
+        "Record present condition, repairs, alterations and any loss of original fabric"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-BLD-0052",
+      "name": "Clontarf handball alley — former Garda station recreation structure",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 3",
+      "address": "Clontarf Road at Strandville Avenue East, Clontarf, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Establish the alley's current survival and condition from a lawful public viewpoint",
+        "Full three-sided form and both sloping side walls",
+        "Yellow Flemish-bond brickwork and south-elevation pilasters",
+        "Smooth-rendered internal playing walls, only if visible without entering restricted grounds",
+        "Surviving steel railings at the wall tops",
+        "Record relationship to the adjacent station without photographing sensitive security details"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-BLD-0053",
+      "name": "Seaview Terrace — 77–81 Clontarf Road",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 3",
+      "address": "77–81 Clontarf Road, Clontarf, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Wide contextual view of the full terrace from the public footpath",
+        "Record the variation between the two-bay and three-bay house fronts",
+        "Visible roof profiles, parapets, chimneystacks and granite capping",
+        "Entrance fanlights, door surrounds, console brackets and panelled doors where visible from public space",
+        "Granite entrance steps, platforms and cast-iron balustrades",
+        "Boundary railings, pedestrian gates, walls and gate piers",
+        "Document current replacement windows and alterations accurately; do not assume every historic feature survives"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
     }
   ]
 }

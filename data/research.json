@@ -319,5 +319,22 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ]
+  },
+  {
+    "id": "RES-DUBLIN2-PEMBROKE-HARCOURT-COALHOLE-BOOTSCRAPER-2026",
+    "title": "Three additional entrance and pavement details on Pembroke and Harcourt Streets",
+    "area": "PEMBROKE STREET UPPER · HARCOURT STREET · DUBLIN 2",
+    "updated": "2026-10-26",
+    "status": "OFFICIAL_REGISTER_RECORDS_REVIEWED",
+    "status_label": "FULL NIAH REGISTER CONTENT REVIEWED · FOUNDER FIELDWORK PENDING",
+    "summary": "NIAH records for 1 Pembroke Street Upper and 37 Harcourt Street identify three separate small physical details: a cast-iron entrance bootscraper and a pavement coal-hole cover at No. 1 Pembroke Street Upper, and a cast-iron coal-hole cover at 37 Harcourt Street.",
+    "supported": "NIAH registration 50930231 describes the c.1825 townhouse at 1 Pembroke Street Upper with a granite entrance platform, cast-iron bootscraper and coal-hole cover in the pavement. NIAH registration 50920231 records a cast-iron coal-hole cover on the footpath at 37 Harcourt Street.",
+    "limits": "The NIAH map points locate the host buildings, not the precise position of each micro-detail. The covers' makers, exact dates, present condition and detailed patterns require founder fieldwork. No founder photographs or line art have been created.",
+    "source_ids": [
+      "NIAH-50930231",
+      "NIAH-50920231",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ]
   }
 ]

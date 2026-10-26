@@ -10,14 +10,14 @@ https://cicangeorgealin.github.io/cican-dublin/
 
 ## Current catalogue
 
-The catalogue currently contains **178 records** across Dublin 1, Dublin 2 and Dublin 3, linked to **189 source entries** and **20 research notes**. The current district distribution is 70 records in Dublin 1, 42 in Dublin 2 and 66 in Dublin 3. Recent research has added individually documented discoveries including historic post boxes, lamp standards, coal-hole covers, boot scrapers, railings and Georgian entrance details.
+The catalogue currently contains **181 records** across Dublin 1, Dublin 2 and Dublin 3, linked to **189 source entries** and **21 research notes**. The current district distribution is 70 records in Dublin 1, 45 in Dublin 2 and 66 in Dublin 3. Recent research has added individually documented discoveries including historic post boxes, lamp standards, coal-hole covers, boot scrapers, railings and Georgian entrance details.
 
-- **150 VERIFIED** records.
+- **153 VERIFIED** records.
 - **28 PARTIALLY_VERIFIED** records, where source inspection or specific details still require confirmation.
-- **178 awaiting original founder photography**.
+- **181 awaiting original founder photography**.
 - No record is marked photographed, illustrated or published.
 
-This is an expanding research inventory, not a complete survey of Dublin. 146 records currently carry source-derived WGS 84 map coordinates; 32 records are intentionally unmapped pending defensible location data. Coordinates are not founder-recorded GPS fixes and still require field verification.
+This is an expanding research inventory, not a complete survey of Dublin. 146 records currently carry source-derived WGS 84 map coordinates; 35 records are intentionally unmapped pending defensible location data. Coordinates are not founder-recorded GPS fixes and still require field verification.
 
 ## Locked map baseline
 

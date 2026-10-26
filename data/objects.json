@@ -6661,5 +6661,111 @@
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH Registration 50010744 directly inspected. The source confirms the feature's presence but does not separately establish its exact date, maker or current condition unless stated in the description. Confirm the feature on site and record only what the founder can observe.",
     "last_researched": "2026-10-26"
+  },
+  {
+    "id": "DUB-STR-0079",
+    "name": "1 Pembroke Street Upper — cast-iron entrance bootscraper",
+    "category": "STREET_DETAIL",
+    "district": "Dublin 2",
+    "address": "1 Pembroke Street Upper, Dublin 2",
+    "historical_period": "Late Georgian / early nineteenth-century building context",
+    "historical_description": "A cast-iron bootscraper is recorded on the granite entrance platform of the c.1825 former townhouse at 1 Pembroke Street Upper. The platform is approached by five granite steps and flanked by cast-iron railings.",
+    "historical_significance": "A surviving entrance fitting documenting everyday domestic practice and decorative ironwork at a late-Georgian townhouse now used as an embassy.",
+    "national_inventory_reference": "50930231",
+    "national_grid_reference": null,
+    "latitude": null,
+    "longitude": null,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": "DUB-BLD-0031",
+    "access_status": "Embassy frontage. Photograph only from a lawful public position; do not enter the entrance platform or touch the ironwork.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=1%20Pembroke%20Street%20Upper%2C%20Dublin%202&travelmode=walking",
+    "photography_brief": [
+      "Complete bootscraper and granite platform",
+      "Close-up of the cast-iron form and fixing",
+      "Five granite steps and flanking railings",
+      "Wider context showing the entrance"
+    ],
+    "sources": [
+      "NIAH-50930231"
+    ],
+    "feature_type": "MICRO_DETAIL",
+    "coordinate_status": "NOT_SET",
+    "coordinate_source": "NIAH Registration 50930231 identifies the host building, not the precise micro-detail. Navigate to parent record DUB-BLD-0031; identify and photograph the exact feature position during fieldwork. Do not create a separate map pin until the precise position is established.",
+    "coordinate_accuracy_m": null,
+    "research_notes": "NIAH Registration 50930231 directly inspected. The source confirms this feature's presence but does not separately state its maker or installation date. Confirm current condition and precise position during founder fieldwork.",
+    "last_researched": "2026-10-26"
+  },
+  {
+    "id": "DUB-STR-0080",
+    "name": "1 Pembroke Street Upper — cast-iron pavement coal-hole cover",
+    "category": "STREET_DETAIL",
+    "district": "Dublin 2",
+    "address": "Pavement outside 1 Pembroke Street Upper, Dublin 2",
+    "historical_period": "Late Georgian / early nineteenth-century building context",
+    "historical_description": "A coal-hole cover is recorded in the pavement setting at the front of the c.1825 former townhouse. The NIAH entry does not separately identify its maker, date or design.",
+    "historical_significance": "A small surviving pavement feature associated with basement coal delivery and the servicing of Georgian townhouses.",
+    "national_inventory_reference": "50930231",
+    "national_grid_reference": null,
+    "latitude": null,
+    "longitude": null,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": "DUB-BLD-0031",
+    "access_status": "Public footpath. Photograph without obstructing pedestrians; do not lift or interfere with the cover.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=Pavement%20outside%201%20Pembroke%20Street%20Upper%2C%20Dublin%202&travelmode=walking",
+    "photography_brief": [
+      "Full cover and pavement setting from above where safe",
+      "Any lettering, maker's marks and decorative pattern",
+      "Relationship to the granite entrance platform and street"
+    ],
+    "sources": [
+      "NIAH-50930231"
+    ],
+    "feature_type": "MICRO_DETAIL",
+    "coordinate_status": "NOT_SET",
+    "coordinate_source": "NIAH Registration 50930231 identifies the host building, not the precise micro-detail. Navigate to parent record DUB-BLD-0031; identify and photograph the exact feature position during fieldwork. Do not create a separate map pin until the precise position is established.",
+    "coordinate_accuracy_m": null,
+    "research_notes": "NIAH Registration 50930231 directly inspected. The source confirms this feature's presence but does not separately state its maker or installation date. Confirm current condition and precise position during founder fieldwork.",
+    "last_researched": "2026-10-26"
+  },
+  {
+    "id": "DUB-STR-0081",
+    "name": "37 Harcourt Street — cast-iron pavement coal-hole cover",
+    "category": "STREET_DETAIL",
+    "district": "Dublin 2",
+    "address": "Footpath outside 37 Harcourt Street, Dublin 2",
+    "historical_period": "Late Georgian / early nineteenth-century building context",
+    "historical_description": "A cast-iron coal-hole cover is recorded in the front footpath of 37 Harcourt Street. The NIAH appraisal notes that the building's historic setting features, including the cover, enrich the streetscape. Its maker and date are not separately stated.",
+    "historical_significance": "A surviving piece of nineteenth-century street infrastructure associated with coal delivery to the basement of a Georgian house, retained as part of the historic street setting.",
+    "national_inventory_reference": "50920231",
+    "national_grid_reference": null,
+    "latitude": null,
+    "longitude": null,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": "DUB-BLD-0014",
+    "access_status": "Public footpath. Photograph without obstructing pedestrians; do not lift or interfere with the cover.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=Footpath%20outside%2037%20Harcourt%20Street%2C%20Dublin%202&travelmode=walking",
+    "photography_brief": [
+      "Full cover and surrounding pavement from above where safe",
+      "All visible lettering, maker's marks and pattern",
+      "Granite setting and relationship to the building frontage"
+    ],
+    "sources": [
+      "NIAH-50920231"
+    ],
+    "feature_type": "MICRO_DETAIL",
+    "coordinate_status": "NOT_SET",
+    "coordinate_source": "NIAH Registration 50920231 identifies the host building, not the precise micro-detail. Navigate to parent record DUB-BLD-0014; identify and photograph the exact feature position during fieldwork. Do not create a separate map pin until the precise position is established.",
+    "coordinate_accuracy_m": null,
+    "research_notes": "NIAH Registration 50920231 directly inspected. The source confirms this feature's presence but does not separately state its maker or installation date. Confirm current condition and precise position during founder fieldwork.",
+    "last_researched": "2026-10-26"
   }
 ]

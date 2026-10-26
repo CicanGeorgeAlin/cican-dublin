@@ -136,7 +136,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-OCONNELL-STREET-2022-CONTEXT-DUB-STR-0001",
+          "title": "O'Connell Street, Dublin D01",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/O%27Connell_Street.jpg/960px-O%27Connell_Street.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:O'Connell_Street.jpg",
+          "photographer": "William Murphy",
+          "date_taken": "2022-01-17",
+          "source_collection": "Wikimedia Commons (originally Flickr)",
+          "licence": "Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "attribution": "William Murphy, “O'Connell Street”, 17 January 2022, via Wikimedia Commons (CC BY-SA 2.0).",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "A broad street-level view of O'Connell Street, Dublin D01. Use as a wayfinding reference for the surrounding street only; it does not show the specific catalogued street fitting or inscription. Third-party photograph, not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-MEM-0001",
@@ -734,7 +750,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-OCONNELL-STREET-2022-CONTEXT-DUB-INS-0002",
+          "title": "O'Connell Street, Dublin D01",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/O%27Connell_Street.jpg/960px-O%27Connell_Street.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:O'Connell_Street.jpg",
+          "photographer": "William Murphy",
+          "date_taken": "2022-01-17",
+          "source_collection": "Wikimedia Commons (originally Flickr)",
+          "licence": "Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "attribution": "William Murphy, “O'Connell Street”, 17 January 2022, via Wikimedia Commons (CC BY-SA 2.0).",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "A broad street-level view of O'Connell Street, Dublin D01. Use as a wayfinding reference for the surrounding street only; it does not show the specific catalogued street fitting or inscription. Third-party photograph, not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-STR-0002",
@@ -765,7 +797,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-TALBOT-STREET-2023-CONTEXT-DUB-STR-0002",
+          "title": "Talbot Street in Dublin, 2023",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/2023_Talbot_Street_in_Dublin_%281%29.jpg/960px-2023_Talbot_Street_in_Dublin_%281%29.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:2023_Talbot_Street_in_Dublin_(1).jpg",
+          "photographer": "MOs810",
+          "date_taken": "2023-04-22",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "MOs810, “2023 Talbot Street in Dublin (1)”, 22 April 2023, via Wikimedia Commons (CC BY 4.0).",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "A street-level photograph of Talbot Street showing the street and railway bridge area. It is a location reference only, not a verified photograph of the individual building or street fitting. Third-party photograph, not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-STR-0003",
@@ -827,7 +875,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-TALBOT-STREET-2023-CONTEXT-DUB-BLD-0005",
+          "title": "Talbot Street in Dublin, 2023",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/2023_Talbot_Street_in_Dublin_%281%29.jpg/960px-2023_Talbot_Street_in_Dublin_%281%29.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:2023_Talbot_Street_in_Dublin_(1).jpg",
+          "photographer": "MOs810",
+          "date_taken": "2023-04-22",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "MOs810, “2023 Talbot Street in Dublin (1)”, 22 April 2023, via Wikimedia Commons (CC BY 4.0).",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "A street-level photograph of Talbot Street showing the street and railway bridge area. It is a location reference only, not a verified photograph of the individual building or street fitting. Third-party photograph, not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-INF-0001",
@@ -858,7 +922,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-TALBOT-STREET-2023-CONTEXT-DUB-INF-0001",
+          "title": "Talbot Street in Dublin, 2023",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/2023_Talbot_Street_in_Dublin_%281%29.jpg/960px-2023_Talbot_Street_in_Dublin_%281%29.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:2023_Talbot_Street_in_Dublin_(1).jpg",
+          "photographer": "MOs810",
+          "date_taken": "2023-04-22",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "MOs810, “2023 Talbot Street in Dublin (1)”, 22 April 2023, via Wikimedia Commons (CC BY 4.0).",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "A street-level photograph of Talbot Street showing the street and railway bridge area. It is a location reference only, not a verified photograph of the individual building or street fitting. Third-party photograph, not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-STR-0004",
@@ -1013,7 +1093,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-TALBOT-STREET-2023-CONTEXT-DUB-BLD-0009",
+          "title": "Talbot Street in Dublin, 2023",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/2023_Talbot_Street_in_Dublin_%281%29.jpg/960px-2023_Talbot_Street_in_Dublin_%281%29.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:2023_Talbot_Street_in_Dublin_(1).jpg",
+          "photographer": "MOs810",
+          "date_taken": "2023-04-22",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "MOs810, “2023 Talbot Street in Dublin (1)”, 22 April 2023, via Wikimedia Commons (CC BY 4.0).",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "A street-level photograph of Talbot Street showing the street and railway bridge area. It is a location reference only, not a verified photograph of the individual building or street fitting. Third-party photograph, not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-BLD-0010",
@@ -1198,7 +1294,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-OCONNELL-STREET-2022-CONTEXT-DUB-STR-0009",
+          "title": "O'Connell Street, Dublin D01",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/O%27Connell_Street.jpg/960px-O%27Connell_Street.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:O'Connell_Street.jpg",
+          "photographer": "William Murphy",
+          "date_taken": "2022-01-17",
+          "source_collection": "Wikimedia Commons (originally Flickr)",
+          "licence": "Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "attribution": "William Murphy, “O'Connell Street”, 17 January 2022, via Wikimedia Commons (CC BY-SA 2.0).",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "A broad street-level view of O'Connell Street, Dublin D01. Use as a wayfinding reference for the surrounding street only; it does not show the specific catalogued street fitting or inscription. Third-party photograph, not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-STR-0010",

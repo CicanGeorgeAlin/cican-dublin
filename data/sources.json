@@ -971,5 +971,35 @@
     "source_type": "IMAGE_REFERENCE",
     "specific_reference": "File page: author Dwmalone; own work; photograph dated 11 September 2022; camera location 53.362197, -6.216511; CC BY-SA 4.0.",
     "notes": "Third-party reference/context photograph associated with Central Hall, Clontarf. Attribution required: Dwmalone, Wikimedia Commons. Licence: CC BY-SA 4.0. Not a founder original; this view is contextual and is not a close-up verification of the date plaque."
+  },
+  {
+    "id": "WMC-CLONTARF-CASTLE-LODGE-2022-01",
+    "name": "Clontarf Castle gate lodge — vertical exterior view (2022-09-11)",
+    "publisher": "Wikimedia Commons — Tdr112",
+    "url": "https://commons.wikimedia.org/wiki/File:Dublin_-_Clontarf_Castle_gate_lodge_-_20220911164331.jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "File page confirms author Tdr112, own work, capture date 2022-09-11, image dimensions 1824 × 3648, camera location 53.363434, -6.205410, and Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).",
+    "notes": "Third-party reference photograph of Clontarf Castle gate lodge. Attribution: Tdr112, Wikimedia Commons. Licence: CC BY-SA 4.0. Not a founder original."
+  },
+  {
+    "id": "WMC-CLONTARF-CASTLE-LODGE-2022-02",
+    "name": "Clontarf Castle gate lodge — horizontal exterior view (2022-09-11)",
+    "publisher": "Wikimedia Commons — Tdr112",
+    "url": "https://commons.wikimedia.org/wiki/File:Dublin_-_Clontarf_Castle_gate_lodge_-_20220911164349.jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "File page confirms author Tdr112, own work, capture date 2022-09-11, image dimensions 3648 × 1824, camera location 53.363434, -6.205410, and Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).",
+    "notes": "Third-party reference photograph of Clontarf Castle gate lodge. Attribution: Tdr112, Wikimedia Commons. Licence: CC BY-SA 4.0. Not a founder original."
+  },
+  {
+    "id": "WMC-CLONTARF-CASTLE-LODGE-2022-03",
+    "name": "Clontarf Castle gate lodge — alternate exterior view (2022-09-11)",
+    "publisher": "Wikimedia Commons — Tdr112",
+    "url": "https://commons.wikimedia.org/wiki/File:Dublin_-_Clontarf_Castle_gate_lodge_-_20220911164353.jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "File page confirms author Tdr112, own work, capture date 2022-09-11, image dimensions 3648 × 1824, camera location 53.363434, -6.205410, and Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).",
+    "notes": "Third-party reference photograph of Clontarf Castle gate lodge. Attribution: Tdr112, Wikimedia Commons. Licence: CC BY-SA 4.0. Not a founder original."
   }
 ]

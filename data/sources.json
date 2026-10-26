@@ -1869,5 +1869,45 @@
     "source_type": "OFFICIAL_HERITAGE_REGISTER",
     "specific_reference": "NIAH Registration 50920237; 84 Harcourt Street, Dublin 2; published Irish Grid reference 315754, 233156.",
     "notes": "Full NIAH register page directly inspected. The c.1830 townhouse record describes a cast-iron bootscraper on the shared granite entrance platform, cast-iron railings with anthemion finials over a carved granite plinth, and a cast-iron coal-hole cover to the street west of the building. The register does not separately identify makers, installation dates or precise micro-detail coordinates."
+  },
+  {
+    "id": "WMC-DUB1-OCONNELL-2025-01",
+    "name": "O'Connell Monument, Dublin — full exterior view",
+    "publisher": "Wikimedia Commons — P. Hughes",
+    "url": "https://commons.wikimedia.org/wiki/File:Dublin_-_O%27Connell_Monument.jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "File page identifies the depicted Dublin 1 monument/building, photographer, capture date, and licence: Creative Commons Attribution 4.0 International (CC BY 4.0).",
+    "notes": "P. Hughes, “Dublin - O'Connell Monument”, 16 June 2025, via Wikimedia Commons (CC BY 4.0). This is a third-party reference image, not a founder original. Use only as a credited visual reference; it does not verify current physical condition or replace founder field photography."
+  },
+  {
+    "id": "WMC-DUB1-GPO-2015-01",
+    "name": "General Post Office, O'Connell Street — façade and portico",
+    "publisher": "Wikimedia Commons — Robert Linsdell",
+    "url": "https://commons.wikimedia.org/wiki/File:The_General_Post_Office,_O%27Connell_St_Lower,_Dublin_(507183)_(32497479360).jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "File page identifies the depicted Dublin 1 monument/building, photographer, capture date, and licence: Creative Commons Attribution 2.0 Generic (CC BY 2.0).",
+    "notes": "Robert Linsdell, “The General Post Office, O'Connell St Lower, Dublin (507183)”, 12 June 2015, via Wikimedia Commons (CC BY 2.0). This is a third-party reference image, not a founder original. Use only as a credited visual reference; it does not verify current physical condition or replace founder field photography."
+  },
+  {
+    "id": "WMC-DUB1-CUSTOM-HOUSE-2016-01",
+    "name": "The Custom House, Dublin — river-facing exterior",
+    "publisher": "Wikimedia Commons — Creevylea",
+    "url": "https://commons.wikimedia.org/wiki/File:Custom_House_Dublin,_Ireland.jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "File page identifies the depicted Dublin 1 monument/building, photographer, capture date, and licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).",
+    "notes": "Creevylea, “Custom House Dublin, Ireland”, 9 April 2016, via Wikimedia Commons (CC BY-SA 4.0). This is a third-party reference image, not a founder original. Use only as a credited visual reference; it does not verify current physical condition or replace founder field photography."
+  },
+  {
+    "id": "WMC-DUB1-JIM-LARKIN-2018-01",
+    "name": "Jim Larkin Monument — full statue and pedestal",
+    "publisher": "Wikimedia Commons — Darcydwyer",
+    "url": "https://commons.wikimedia.org/wiki/File:County_Dublin_-_Jim_Larkin_monument_-_20180824172434.jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "File page identifies the depicted Dublin 1 monument/building, photographer, capture date, and licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).",
+    "notes": "Darcydwyer, “County Dublin - Jim Larkin monument”, 24 August 2018, via Wikimedia Commons (CC BY-SA 4.0). This is a third-party reference image, not a founder original. Use only as a credited visual reference; it does not verify current physical condition or replace founder field photography."
   }
 ]

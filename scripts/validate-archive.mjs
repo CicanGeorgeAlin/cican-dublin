@@ -35,6 +35,7 @@ for(const r of objects){
 }
 for(const s of sources){assert.ok(s.name,"Source "+s.id+" needs a name.");if(s.url){const u=new URL(s.url);assert.ok(["https:","http:"].includes(u.protocol),"Invalid source URL: "+s.id);}}
 const mapApp=read("preview/app/app.js"),serviceWorker=read("preview/service-worker.js");
+for(const stale of ["preview/data/objects.json","preview/data/sources.json","preview/data/visual-assets.json"])assert.ok(!fs.existsSync(path.join(root,stale)),"Remove stale duplicate data so the map cannot diverge from the canonical catalogue: "+stale);
 for(const [label,url] of [["object catalogue",'const DATA_URL="../data/objects.json";'],["source registry",'const SOURCES_URL="../data/sources.json";'],["visual inventory",'const VISUALS_URL="../data/visual-assets.json";']])assert.ok(mapApp.includes(url),"Map application must use the canonical root "+label+".");
 assert.ok(serviceWorker.includes('"../data/objects.json"')&&serviceWorker.includes('"../data/sources.json"')&&serviceWorker.includes('"../data/visual-assets.json"'),"App service worker must cache the canonical root data files.");
 assert.equal(objects.length,json("data/objects.json").length,"Map and catalogue must share the same object count.");

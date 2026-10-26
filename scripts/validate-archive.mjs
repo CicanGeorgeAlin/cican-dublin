@@ -23,6 +23,8 @@ for(const item of research){
  for(const id of item.source_ids)assert.ok(sourceIds.has(id),"Research item "+item.id+" references missing source "+id+".");
 }
 assert.equal(objects.length,visual.records.length,"Every catalogue record must have exactly one visual inventory entry.");
+assert.equal(visual.record_count,objects.length,"Visual inventory record_count must match the master catalogue.");
+for(const r of visual.records){assert.ok(r.name&&r.category&&r.district&&r.address,"Visual entry "+r.record_id+" must carry catalogue identity fields.");assert.ok(Array.isArray(r.planned_shots),"Visual entry "+r.record_id+" must carry a photography plan.");}
 for(const r of objects){
  for(const key of ["id","name","category","district","verification_status","sources"])assert.ok(r[key]!==undefined&&r[key]!==null,"Record "+r.id+" is missing "+key+".");
  assert.ok(Array.isArray(r.sources),"Record "+r.id+" sources must be an array.");

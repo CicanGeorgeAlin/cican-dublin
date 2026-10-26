@@ -10,14 +10,14 @@ https://cicangeorgealin.github.io/cican-dublin/
 
 ## Current catalogue
 
-The catalogue currently contains **168 records** across Dublin 1, Dublin 2 and Dublin 3, linked to **185 source entries** and **19 research notes**. The current district distribution is 64 records in Dublin 1, 38 in Dublin 2 and 66 in Dublin 3. Recent research has added individually documented discoveries including historic post boxes, lamp standards, coal-hole covers, boot scrapers, railings and Georgian entrance details.
+The catalogue currently contains **178 records** across Dublin 1, Dublin 2 and Dublin 3, linked to **189 source entries** and **20 research notes**. The current district distribution is 70 records in Dublin 1, 42 in Dublin 2 and 66 in Dublin 3. Recent research has added individually documented discoveries including historic post boxes, lamp standards, coal-hole covers, boot scrapers, railings and Georgian entrance details.
 
-- **140 VERIFIED** records.
+- **150 VERIFIED** records.
 - **28 PARTIALLY_VERIFIED** records, where source inspection or specific details still require confirmation.
-- **168 awaiting original founder photography**.
+- **178 awaiting original founder photography**.
 - No record is marked photographed, illustrated or published.
 
-This is an expanding research inventory, not a complete survey of Dublin. 142 records currently carry source-derived WGS 84 map coordinates; 26 records are intentionally unmapped pending defensible location data. Coordinates are not founder-recorded GPS fixes and still require field verification.
+This is an expanding research inventory, not a complete survey of Dublin. 146 records currently carry source-derived WGS 84 map coordinates; 32 records are intentionally unmapped pending defensible location data. Coordinates are not founder-recorded GPS fixes and still require field verification.
 
 ## Locked map baseline
 
@@ -52,7 +52,7 @@ DISCOVER → INVESTIGATE → VERIFY → LOCATE → PLAN FIELDWORK → FOUNDER PH
 - `data/research.json` — public, evidence-graded research notes and unresolved archival leads.
 - `data/investigation.json` — claim-level evidence grades and the ordered investigation backlog.
 - `schemas/` — JSON Schema contracts for objects, sources, geographic zones and the investigation register.
-- `documentation/` — project standards, research batches and data architecture, including [Dublin 3 Discovery Batch 009](documentation/DUBLIN-3-DISCOVERY-BATCH-009.md) and [Batch 010](documentation/DUBLIN-3-DISCOVERY-BATCH-010.md) and [Batch 011](documentation/DUBLIN-3-DISCOVERY-BATCH-011.md), [Batch 012](documentation/DUBLIN-3-DISCOVERY-BATCH-012.md) and [Dublin 2 Batch 001](documentation/DUBLIN-2-DISCOVERY-BATCH-001.md).
+- `documentation/` — project standards, research batches and data architecture, including [Dublin 3 Discovery Batch 009](documentation/DUBLIN-3-DISCOVERY-BATCH-009.md) and [Batch 010](documentation/DUBLIN-3-DISCOVERY-BATCH-010.md) and [Batch 011](documentation/DUBLIN-3-DISCOVERY-BATCH-011.md), [Batch 012](documentation/DUBLIN-3-DISCOVERY-BATCH-012.md) and [Dublin 2 Batch 001](documentation/DUBLIN-2-DISCOVERY-BATCH-001.md), [Dublin 1 Batch 011](documentation/DUBLIN-1-DISCOVERY-BATCH-011.md) and [Dublin 2 Batch 002](documentation/DUBLIN-2-DISCOVERY-BATCH-002.md).
 - `routes/` — proposed and completed fieldwork plans.
 - `research/` — source-based investigations.
 - `photos/originals/` — founder's original photographs.

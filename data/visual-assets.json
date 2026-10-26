@@ -2307,7 +2307,8 @@
           "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
           "attribution": "Pembroke Street Upper, Dublin by Marathon, via Geograph Britain and Ireland / Wikimedia Commons",
           "image_role": "STREET_CONTEXT",
-          "location_note": "The image depicts Pembroke Street Upper at street level; it is contextual imagery and is not confirmed as a photograph of No. 1 itself."
+          "location_note": "The image depicts Pembroke Street Upper at street level; it is contextual imagery and is not confirmed as a photograph of No. 1 itself.",
+          "source_id": "WMC-DUB2-PEMBROKE-2023-01"
         }
       ]
     },
@@ -2857,7 +2858,8 @@
           "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
           "attribution": "Central Hall, Clontarf by Dwmalone, 11 September 2022, via Wikimedia Commons (CC BY-SA 4.0)",
           "image_role": "OBJECT_PHOTOGRAPH",
-          "location_note": "Third-party photograph identified on Wikimedia Commons as Central Hall, Clontarf. Not a founder original."
+          "location_note": "Third-party photograph identified on Wikimedia Commons as Central Hall, Clontarf. Not a founder original.",
+          "source_id": "WMC-CENTRAL-HALL-2022-01"
         },
         {
           "title": "Central Hall, Clontarf — stone elevation and stained glass",
@@ -2870,7 +2872,8 @@
           "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
           "attribution": "Central Hall, Clontarf by Dwmalone, 11 September 2022, via Wikimedia Commons (CC BY-SA 4.0)",
           "image_role": "OBJECT_PHOTOGRAPH",
-          "location_note": "Third-party photograph associated with Central Hall, Clontarf; shows masonry and stained-glass context. Not a founder original."
+          "location_note": "Third-party photograph associated with Central Hall, Clontarf; shows masonry and stained-glass context. Not a founder original.",
+          "source_id": "WMC-CENTRAL-HALL-2022-02"
         }
       ]
     },
@@ -2915,7 +2918,8 @@
           "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
           "attribution": "Central Hall, Clontarf by Dwmalone, 11 September 2022, via Wikimedia Commons (CC BY-SA 4.0)",
           "image_role": "STREET_CONTEXT",
-          "location_note": "Context photograph of the associated Central Hall building. The date plaque itself is not legibly shown; a dedicated plaque photograph remains outstanding."
+          "location_note": "Context photograph of the associated Central Hall building. The date plaque itself is not legibly shown; a dedicated plaque photograph remains outstanding.",
+          "source_id": "WMC-CENTRAL-HALL-2022-02"
         }
       ]
     },
@@ -2963,7 +2967,8 @@
           "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
           "attribution": "Clontarf Castle gate lodge by Tdr112, 2022-09-11, via Wikimedia Commons (CC BY-SA 4.0)",
           "image_role": "OBJECT_PHOTOGRAPH",
-          "location_note": "Vertical exterior view of the gate lodge; useful for the round tower and overall elevation."
+          "location_note": "Vertical exterior view of the gate lodge; useful for the round tower and overall elevation.",
+          "source_id": "WMC-CLONTARF-CASTLE-LODGE-2022-01"
         },
         {
           "title": "Clontarf Castle gate lodge — horizontal exterior view",
@@ -2976,7 +2981,8 @@
           "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
           "attribution": "Clontarf Castle gate lodge by Tdr112, 2022-09-11, via Wikimedia Commons (CC BY-SA 4.0)",
           "image_role": "OBJECT_PHOTOGRAPH",
-          "location_note": "Horizontal exterior/context view of the gate lodge."
+          "location_note": "Horizontal exterior/context view of the gate lodge.",
+          "source_id": "WMC-CLONTARF-CASTLE-LODGE-2022-02"
         },
         {
           "title": "Clontarf Castle gate lodge — alternate exterior view",
@@ -2989,7 +2995,8 @@
           "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
           "attribution": "Clontarf Castle gate lodge by Tdr112, 2022-09-11, via Wikimedia Commons (CC BY-SA 4.0)",
           "image_role": "OBJECT_PHOTOGRAPH",
-          "location_note": "Alternate exterior view of the same gate lodge. The NIAH-identified animal-head corbels are not independently close-up verified in this image."
+          "location_note": "Alternate exterior view of the same gate lodge. The NIAH-identified animal-head corbels are not independently close-up verified in this image.",
+          "source_id": "WMC-CLONTARF-CASTLE-LODGE-2022-03"
         }
       ]
     },
@@ -3035,7 +3042,8 @@
           "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
           "attribution": "Clontarf Castle gate lodge by Tdr112, 2022-09-11, via Wikimedia Commons (CC BY-SA 4.0)",
           "image_role": "STREET_CONTEXT",
-          "location_note": "Context view of the host gate lodge only. Individual animal-head carvings are recorded by NIAH but this image is not a verified close-up of them; founder field photography remains required."
+          "location_note": "Context view of the host gate lodge only. Individual animal-head carvings are recorded by NIAH but this image is not a verified close-up of them; founder field photography remains required.",
+          "source_id": "WMC-CLONTARF-CASTLE-LODGE-2022-01"
         }
       ]
     },
@@ -3082,7 +3090,8 @@
           "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
           "attribution": "JP, “Clontarf Castle”, 6 April 2007, via Geograph Britain and Ireland / Wikimedia Commons (CC BY-SA 2.0)",
           "image_role": "OBJECT_PHOTOGRAPH",
-          "location_note": "Close-up exterior reference view of the castle; 640 × 480 px and relatively old, so use as supporting context rather than a current condition record."
+          "location_note": "Close-up exterior reference view of the castle; 640 × 480 px and relatively old, so use as supporting context rather than a current condition record.",
+          "source_id": "WMC-CLONTARF-CASTLE-2007-01"
         },
         {
           "title": "Clontarf Castle Hotel — exterior view (2007)",
@@ -3095,7 +3104,8 @@
           "licence_url": "https://creativecommons.org/licenses/by/3.0/",
           "attribution": "Cailín Sásta, “Clontarf Castle Hotel”, October 2007, via Wikimedia Commons (CC BY 3.0)",
           "image_role": "OBJECT_PHOTOGRAPH",
-          "location_note": "Higher-resolution hotel-era exterior reference (3888 × 2592 px); not a founder original and not a substitute for current field photography."
+          "location_note": "Higher-resolution hotel-era exterior reference (3888 × 2592 px); not a founder original and not a substitute for current field photography.",
+          "source_id": "WMC-CLONTARF-CASTLE-2007-02"
         }
       ]
     },

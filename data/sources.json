@@ -1919,5 +1919,65 @@
     "source_type": "IMAGE_REFERENCE",
     "specific_reference": "Wikimedia Commons file page identifies photographer Marathon, capture date 2 August 2023, depicted place Pembroke Street Upper, Dublin, and CC BY-SA 2.0 reuse licence.",
     "notes": "Attribution: Pembroke Street Upper, Dublin by Marathon, via Geograph Britain and Ireland / Wikimedia Commons. Licence: Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0). This is street-context imagery and is not confirmed as a photograph of No. 1 Pembroke Street Upper itself."
+  },
+  {
+    "id": "WMC-DUB2-GRATTAN-2022-01",
+    "name": "Henry Grattan Monument, College Green — full statue and plinth",
+    "publisher": "Wikimedia Commons — Sheila1988",
+    "url": "https://commons.wikimedia.org/wiki/File:Grattan_Statue,_Dublin.jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Wikimedia Commons file page identifies the subject, author Sheila1988, photograph date 2022-03-20, and licence Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). Image file: Grattan_Statue,_Dublin.jpg.",
+    "notes": "Attribution: Sheila1988, “Henry Grattan Monument, College Green — full statue and plinth”, via Wikimedia Commons. Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). Photograph depicts the Henry Grattan Monument on College Green, including the standing bronze figure and plinth. The tree partly obscures the figure, so this is a useful reference view rather than a substitute for founder photography. Third-party image; not a founder original."
+  },
+  {
+    "id": "WMC-DUB2-THOMAS-DAVIS-2024-01",
+    "name": "Thomas Davis Statue, Dublin — full statue and pedestal",
+    "publisher": "Wikimedia Commons — Meirion",
+    "url": "https://commons.wikimedia.org/wiki/File:Thomas_Davis_Statue,_Dublin_-_geograph.org.uk_-_7821543.jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Wikimedia Commons file page identifies the subject, author Meirion, photograph date 2024-06-23, and licence Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0). Image file: Thomas_Davis_Statue,_Dublin_-_geograph.org.uk_-_7821543.jpg.",
+    "notes": "Attribution: Meirion, “Thomas Davis Statue, Dublin — full statue and pedestal”, via Wikimedia Commons. Licence: Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0). File caption, description and depicted-place coordinates identify the Thomas Davis statue. Commons coordinates are approximately 15 metres from the archive's source-derived pin; the archive coordinates are unchanged. Third-party reference image; not a founder original."
+  },
+  {
+    "id": "WMC-DUB2-GEORGE-SALMON-2022-01",
+    "name": "George Salmon Statue, Trinity College Dublin — seated marble figure",
+    "publisher": "Wikimedia Commons — Yair Haklai",
+    "url": "https://commons.wikimedia.org/wiki/File:George_Salmon_statue,_Trinity_College,_Dublin.jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Wikimedia Commons file page identifies the subject, author Yair Haklai, photograph date 2022-08-08, and licence Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). Image file: George_Salmon_statue,_Trinity_College,_Dublin.jpg.",
+    "notes": "Attribution: Yair Haklai, “George Salmon Statue, Trinity College Dublin — seated marble figure”, via Wikimedia Commons. Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). File title and Commons category identify George Salmon; the file description field incorrectly names Lecky. The visible white-marble seated figure matches NIAH record 50020521, which describes Salmon's white-marble seated statue. This discrepancy is explicitly retained rather than silently ignored. Third-party reference image; not a founder original."
+  },
+  {
+    "id": "WMC-DUB1-FAMINE-MEMORIAL-2013-01",
+    "name": "Famine Memorial, Custom House Quay — group of bronze figures",
+    "publisher": "Wikimedia Commons — Joseph Mischyshyn",
+    "url": "https://commons.wikimedia.org/wiki/File:Famine_Memorial_along_Custom_House_Quay_-_geograph.org.uk_-_3687319.jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Wikimedia Commons file page identifies the subject, author Joseph Mischyshyn, photograph date 2013-09-21, and licence Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0). Image file: Famine_Memorial_along_Custom_House_Quay_-_geograph.org.uk_-_3687319.jpg.",
+    "notes": "Attribution: Joseph Mischyshyn, “Famine Memorial, Custom House Quay — group of bronze figures”, via Wikimedia Commons. Licence: Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0). Photograph and object-location coordinates identify the Famine Memorial on Custom House Quay; Commons coordinates are within approximately 4 metres of the archive pin. Third-party reference image; not a founder original."
+  },
+  {
+    "id": "WMC-DUB2-CITY-HALL-2022-01",
+    "name": "City Hall, Dublin — exterior view",
+    "publisher": "Wikimedia Commons — Yair Haklai",
+    "url": "https://commons.wikimedia.org/wiki/File:City_Hall,_Dublin.jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Wikimedia Commons file page identifies the subject, author Yair Haklai, photograph date 2022-08-07, and licence Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). Image file: City_Hall,_Dublin.jpg.",
+    "notes": "Attribution: Yair Haklai, “City Hall, Dublin — exterior view”, via Wikimedia Commons. Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). Photograph identifies City Hall, Dublin, the former Royal Exchange on Cork Hill. Wide exterior reference view; third-party image, not a founder original."
+  },
+  {
+    "id": "WMC-DUB2-NASSAU-POSTBOX-2024-01",
+    "name": "P&T double-aperture post box, Nassau Street — Áth Cliath lettering",
+    "publisher": "Wikimedia Commons — Leimanbhradain",
+    "url": "https://commons.wikimedia.org/wiki/File:Post-Box-1220164,_Nassau_St.,_Dublin,_Ireland.jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Wikimedia Commons file page identifies the subject, author Leimanbhradain, photograph date 2024-09-24, and licence Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). Image file: Post-Box-1220164,_Nassau_St.,_Dublin,_Ireland.jpg.",
+    "notes": "Attribution: Leimanbhradain, “P&T double-aperture post box, Nassau Street — Áth Cliath lettering”, via Wikimedia Commons. Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). File caption identifies Nassau Street; the photograph visibly shows the vintage double-aperture P&T pillar box and Áth Cliath / Dublin lettering matching the catalogue record. Third-party reference image; not a founder original."
   }
 ]

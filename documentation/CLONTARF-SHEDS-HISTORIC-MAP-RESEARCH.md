@@ -35,20 +35,21 @@ This is strong evidence for an eighteenth-century oyster-fishery landscape. The 
 
 Source: [History of the Irish oyster — Trinity College Dublin](https://www.tcd.ie/tceh/projects/foodsmartdublin/recipes/Sept_Oyster/HistoryEcology_oyster.php)
 
-### 3. The 1728 harbour map directly labels a Clontarf fishing feature
+### 3. The 1728 harbour map: Thomas Burgh, Captain John Perry and J. Bowles
 
-Dublin Port Archive's collection identifies a 1728 map titled *A New and Correct Map of the Bay and Harbour of Dublin with a small Plan of the City*, published and sold in London by J. Bowles. The archive provides the map image itself:
+Dublin Port Archive provides the original image of *A New and Correct Map of the Bay and Harbour of Dublin with a small Plan of the City* (1728):
 
-- [Open the original 1728 map image — Dublin Port Archive](https://www.dublinportarchive.com/wp-content/uploads/2022/02/Maps_Bowles.jpg)
-- [Collection entry — Historical Maps, 1700s](https://www.dublinportarchive.com/collection/historical-maps-1700s/)
+- [Open the 1728 map image — Dublin Port Archive](https://www.dublinportarchive.com/wp-content/uploads/2022/02/Maps_Bowles.jpg)
+- [Dublin Port Archive — Historical Maps, 1700s](https://www.dublinportarchive.com/collection/historical-maps-1700s/)
 
-On the map, a label beside Clontarf appears to read **“Herring Shells”** (transcription provisional at the available image resolution). The map therefore provides direct visual evidence of a named herring-related feature on the Clontarf shore in 1728. Do not silently normalise “Shells” to “Sheds”: the exact lettering should be checked against a higher-resolution archival image or physical copy before the label is quoted definitively. The image's imprint identifies J. Bowles as publisher/seller; it does not, by itself, prove that Bowles surveyed or authored the map.
+A peer-reviewed article by Finnian Ó Cionnaith, published in *Irish Geography*, identifies this as **Thomas Burgh's** 1728 chart of Dublin Bay. It was based on a 1725 survey conducted on behalf of the Ballast Board, with assistance from **Captain John Perry (1670–1732)** and surveyor **Gabriel Stokes**. The chart was printed by **John Bowles** and engraved by **Emanuel Bowen**. This reconciles the shorthand “Captain Perry's map” used by Chapters of Dublin: Perry assisted the underlying survey, while Burgh is identified as the chart's author.
 
-A separate page by Chapters of Dublin attributes a 1728 *Map of Dublin Bay and Harbour* and a “Herring Sheds” label to Captain Perry. The image inspected here is explicitly the J. Bowles map. These attributions must remain distinct unless an original Perry map is located and compared.
+On the archive image, the label beside Clontarf appears to read **“Herring Shells”** (transcription provisional at the available image resolution). Chapters of Dublin transcribes the feature as “Herring Sheds” and associates it with the fish-curing locality. The two readings are not silently harmonised here. A higher-resolution archival image or inspection of the original is needed to settle the exact lettering.
 
-**Research conclusion:** the Bowles map is now an inspected primary cartographic source; the Captain Perry attribution remains an unverified separate lead.
+**Research conclusion:** the 1728 chart is now identified with a strong scholarly attribution chain: Thomas Burgh (chart), 1725 Ballast Board survey (assisted by Captain John Perry and Gabriel Stokes), Emanuel Bowen (engraver) and John Bowles (publisher). It is a primary cartographic source for the Clontarf shoreline; the exact annotation remains a paleographic question.
 
 Sources:
+- [Finnian Ó Cionnaith, “Charles Brooking's 1728 map of Dublin: context, influences and compilation of an early Georgian city survey”, *Irish Geography* (PDF)](https://search.igsjournal.ie/pdfs/ngOhKEAjInGJxt1RLwS9tFpb4kGKtCE7Y6QLhsEl.pdf)
 - [Dublin Port Archive — Historical Maps, 1700s](https://www.dublinportarchive.com/collection/historical-maps-1700s/)
 - [Clontarf — Chapters of Dublin](https://www.chaptersofdublin.ie/NorthDub/cosgrave16.htm)
 - [Dublin Port Archive — Access and Copyright](https://www.dublinportarchive.com/access-copyright/)
@@ -82,8 +83,8 @@ Sources:
 
 | Period / map | Current evidence | What it may establish | Status |
 |---|---|---|---|
-| 1728 J. Bowles, Dublin Bay and Harbour map | Dublin Port Archive catalogue and inspected map image | Clontarf shoreline and a label provisionally transcribed as “Herring Shells” | Primary image inspected; exact lettering needs high-resolution confirmation |
-| 1728 “Captain Perry” map attribution | Chapters of Dublin secondary account | Possible separate map / Herring Sheds reference | Original map not located; attribution remains unverified |
+| 1728 Thomas Burgh, Dublin Bay and Harbour chart | Dublin Port Archive original image; peer-reviewed *Irish Geography* article | Clontarf shoreline and annotation provisionally read as “Herring Shells” / “Herring Sheds” | Primary image inspected; exact lettering needs high-resolution confirmation |
+| 1725 Ballast Board survey underlying the 1728 chart | *Irish Geography* article | Survey context and roles of Captain John Perry and Gabriel Stokes | Scholarly attribution established; underlying survey records not yet inspected |
 | 1760 John Rocque, County Dublin / Dublin Bay | South Dublin County Council ArcGIS historic map service; Trinity oyster-history figure | County landscape and artificial oyster beds off Clontarf | Service located; Clontarf map area still needs direct visual inspection |
 | 1837 Lewis gazetteer | Contemporary written description | Sheds along water's edge; fish curing; oyster bank offshore | Text verified; no precise footprint |
 | 1840s first-edition OS six-inch mapping | UCD / Tailte Éireann access guides | Shoreline, roads, structures and land use | Relevant sheet and edition to be identified |
@@ -104,8 +105,8 @@ No new physical-object catalogue records or map pins are created by this researc
 
 ## Next research actions
 
-1. Obtain a higher-resolution copy of the J. Bowles 1728 map from Dublin Port Archive and confirm the exact reading of the Clontarf annotation.
-2. Search archival catalogues for the separate Captain Perry map cited by Chapters of Dublin; do not assume it is the Bowles map.
+1. Obtain a higher-resolution copy of the 1728 Thomas Burgh chart from Dublin Port Archive and settle the Clontarf annotation's exact lettering.
+2. If possible, inspect the 1725 Ballast Board survey or associated records to corroborate the survey history and Perry/Stokes roles.
 3. Open the Rocque 1760 ArcGIS service at the Clontarf extent and inspect the oyster-bed symbol/annotation against Trinity's published figure.
 4. Open UCD's 1889 sheet XVIII.29 at full resolution and identify whether the Sheds/Vernon Avenue waterfront falls within its coverage.
 5. Use Tailte Éireann's historic map viewer to identify the exact first-edition six-inch and later 25-inch sheets covering the same area.

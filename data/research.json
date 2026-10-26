@@ -284,5 +284,21 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ]
+  },
+  {
+    "id": "RES-DUBLIN2-MERRION-SQUARE-MICRODETAILS-2026",
+    "title": "46 Merrion Square East: a surviving lamp-standard remnant and coal-hole cover",
+    "area": "MERRION SQUARE EAST · DUBLIN 2",
+    "updated": "2026-10-26",
+    "status": "OFFICIAL_REGISTER_RECORD_REVIEWED",
+    "status_label": "FULL NIAH REGISTER CONTENT REVIEWED · FOUNDER FIELDWORK PENDING",
+    "summary": "The NIAH record for 46 Merrion Square East identifies two easily overlooked surviving setting details within a Georgian townhouse frontage: remnants of a wrought-iron lamp standard in the basement railings and a cast-iron coal-hole cover in the pavement.",
+    "supported": "NIAH registration 50100511 directly inspected. It dates the attached house to 1785–1795 (built circa 1790), identifies the group as Nos. 46–48 built by James McMahon, and explicitly describes the lamp-standard remnant and pavement coal-hole cover. The record also describes the ornate Ionic doorcase, decorative batwing fanlight, cast-iron balconettes and basement ironwork.",
+    "limits": "The NIAH point locates the building, not the exact position of either micro-detail. The extent and condition of the lamp-standard remnant and the coal-hole cover's precise pavement position require founder fieldwork. No founder photographs or line art have been created.",
+    "source_ids": [
+      "NIAH-50100511",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ]
   }
 ]

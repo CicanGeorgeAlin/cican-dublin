@@ -377,3 +377,10 @@ button:focus-visible,a:focus-visible,summary:focus-visible,article[role="button"
 .photo-viewer-caption{max-width:90%;margin:0;color:#c4cbbf;text-align:center;font:700 8px/1.5 var(--sans);letter-spacing:.13em}
 body.photo-viewer-open{overflow:hidden}
 @media(max-width:850px){.photo-viewer{padding:12px}.photo-viewer-stage{height:82dvh}.photo-viewer-close{width:42px;height:42px}}
+
+
+/* Clear affordance for expanding the cropped heritage photograph. */
+.editorial-hero .photo-hero.photo-zoomable{position:relative;cursor:zoom-in}
+.editorial-hero .photo-hero.photo-zoomable:after{content:"VIEW FULL PHOTO  ↗";position:absolute;top:12px;right:12px;z-index:1;padding:7px 9px;border:1px solid #ffffff55;border-radius:2px;background:#080a08d9;color:#f2f4ed;font:700 7px/1 var(--sans);letter-spacing:.13em;pointer-events:none}
+.photo-viewer-stage{width:100%;height:min(84dvh,1000px)}
+.photo-viewer-stage img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain}

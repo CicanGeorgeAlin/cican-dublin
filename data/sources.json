@@ -1491,5 +1491,15 @@
     "source_type": "HISTORIC_MAP_CATALOGUE",
     "specific_reference": "Taylor's Map of the Environs of Dublin, Extending 10 to 14 Miles from the Castle (1816)",
     "notes": "UCD Library's historic-map guide identifies this NLS record as an access route for Taylor's 1816 map and separately points to the South Dublin County Council viewer. The map has not yet been visually inspected at Clontarf; the Green Lane wording remains a secondary-source claim."
+  },
+  {
+    "id": "SRC-CLONTARF-TAYLOR-1816-VRT",
+    "name": "Taylor's Map of the Environs of Dublin, 1816 — Virtual Treasury catalogue item",
+    "publisher": "Virtual Treasury of Ireland",
+    "url": "https://virtualtreasury.ie/item/LBC-GJ-13-2",
+    "accessed": "2026-10-26",
+    "source_type": "HISTORIC_MAP_CATALOGUE",
+    "specific_reference": "LBC-GJ-13-2; Taylor's Map of the Environs of Dublin, extending 10 to 14 miles from the Castle (1816)",
+    "notes": "The Vernon Avenue street-history article cites this Virtual Treasury item for Taylor's 1816 map. It is an additional digital catalogue/access route to investigate. The Clontarf map area and reported Green Lane label have not yet been visually inspected or confirmed from the primary map."
   }
 ]

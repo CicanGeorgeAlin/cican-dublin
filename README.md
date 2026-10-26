@@ -19,6 +19,10 @@ The catalogue currently contains **95 records** across Dublin 1, Dublin 2 and Du
 
 This is an expanding research inventory, not a complete survey of Dublin. All 95 records currently carry a source-derived map coordinate and a National Inventory reference; these points are not founder-recorded GPS fixes and still require field verification.
 
+## Locked map baseline
+
+The current map-marker implementation is preserved as **MAP MARKER SYSTEM V1 BASELINE** on the [`baseline/v1-map-marker-system`](https://github.com/CicanGeorgeAlin/cican-dublin-archive/tree/baseline/v1-map-marker-system) branch. Recovery commit: `afc74b4a0814a856efe5f6f97a4ad3bfebbcc0bb`. Future map improvements should preserve this reference point.
+
 ## Core mission
 
 Discover, verify and catalogue Dublin's historic physical environment. The founder photographs each location in person. Original photographs are preserved separately and may be converted into faithful black-and-white A4 line-art illustrations for themed publications.

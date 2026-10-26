@@ -266,5 +266,23 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ]
+  },
+  {
+    "id": "RES-DUBLIN3-MILESTONE-CLONLIFFE-FAIRVIEW-2026",
+    "title": "A Howth milestone, a Victorian street plaque and bootscrape, and a 1930s park building",
+    "area": "NORTH STRAND · CLONLIFFE ROAD · FAIRVIEW PARK · DUBLIN 3",
+    "updated": "2026-10-26",
+    "status": "OFFICIAL_REGISTER_DETAILS_PARTIALLY_REVIEWED",
+    "status_label": "NIAH INDEXED REGISTER DETAILS · FULL-PAGE CHECK AND FIELDWORK PENDING",
+    "summary": "Three NIAH records identify several individually documentable features: an early nineteenth-century North Strand milestone with a cast-iron distance plaque; a c.1860 Clonliffe Road house retaining an inscribed street-name plaque, cast-iron bootscrape, railings and gate; and a c.1930 former public convenience in Fairview Park with an unusual terracotta roofscape and Art Deco chimney.",
+    "supported": "The indexed NIAH records 50120248, 50120194 and 50120133 provide descriptions, dates, appraisals and Irish Grid references. The milestone plaque is transcribed by the NIAH as “P.O Dublin 1 Howth 8”. The Clonliffe record explicitly identifies the street-name plaque and bootscrape. The Fairview record identifies the former public convenience and its architectural details.",
+    "limits": "Individual NIAH page opening was unavailable during this research pass, so these are PARTIALLY_VERIFIED. The street-name plaque wording, bootscrape design and exact micro-detail positions remain unknown. Child detail records inherit navigation from their host building and are not separate map points. Coordinates are transformed from NIAH Irish Grid references, not founder-recorded GPS. No founder photographs or line art have been created.",
+    "source_ids": [
+      "NIAH-50120248",
+      "NIAH-50120194",
+      "NIAH-50120133",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ]
   }
 ]

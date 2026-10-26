@@ -42,7 +42,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-DUB1-OCONNELL-2025-01",
+          "title": "O'Connell Monument, Dublin — full exterior view",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Dublin_-_O%27Connell_Monument.jpg/1280px-Dublin_-_O%27Connell_Monument.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Dublin_-_O%27Connell_Monument.jpg",
+          "photographer": "P. Hughes",
+          "date_taken": "2025-06-16",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "P. Hughes, “Dublin - O'Connell Monument”, 16 June 2025, via Wikimedia Commons (CC BY 4.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Photograph depicts the O'Connell Monument itself, including the full monument and street setting. Third-party reference photograph; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-BLD-0001",
@@ -73,7 +89,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-DUB1-GPO-2015-01",
+          "title": "General Post Office, O'Connell Street — façade and portico",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/The_General_Post_Office%2C_O%27Connell_St_Lower%2C_Dublin_%28507183%29_%2832497479360%29.jpg/1280px-The_General_Post_Office%2C_O%27Connell_St_Lower%2C_Dublin_%28507183%29_%2832497479360%29.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:The_General_Post_Office,_O%27Connell_St_Lower,_Dublin_(507183)_(32497479360).jpg",
+          "photographer": "Robert Linsdell",
+          "date_taken": "2015-06-12",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution 2.0 Generic (CC BY 2.0)",
+          "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+          "attribution": "Robert Linsdell, “The General Post Office, O'Connell St Lower, Dublin (507183)”, 12 June 2015, via Wikimedia Commons (CC BY 2.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Photograph depicts the GPO façade and portico on O'Connell Street. Long-exposure street view; historical visual reference, not a current-condition photograph. Third-party image; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-STR-0001",
@@ -193,7 +225,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-DUB1-CUSTOM-HOUSE-2016-01",
+          "title": "The Custom House, Dublin — river-facing exterior",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Custom_House_Dublin%2C_Ireland.jpg/1280px-Custom_House_Dublin%2C_Ireland.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Custom_House_Dublin,_Ireland.jpg",
+          "photographer": "Creevylea",
+          "date_taken": "2016-04-09",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Creevylea, “Custom House Dublin, Ireland”, 9 April 2016, via Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Photograph depicts the Custom House itself from across the River Liffey, with the full principal elevation and dome visible. Third-party reference photograph; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-MON-0002",
@@ -495,7 +543,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-DUB1-JIM-LARKIN-2018-01",
+          "title": "Jim Larkin Monument — full statue and pedestal",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/County_Dublin_-_Jim_Larkin_monument_-_20180824172434.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:County_Dublin_-_Jim_Larkin_monument_-_20180824172434.jpg",
+          "photographer": "Darcydwyer",
+          "date_taken": "2018-08-24",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Darcydwyer, “County Dublin - Jim Larkin monument”, 24 August 2018, via Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Photograph depicts the Jim Larkin statue and granite pedestal directly. Third-party reference photograph; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-INS-0002",

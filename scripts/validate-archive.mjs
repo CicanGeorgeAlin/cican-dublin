@@ -5,12 +5,18 @@ import assert from "node:assert/strict";
 const root=process.cwd();
 const read=file=>fs.readFileSync(path.join(root,file),"utf8");
 const json=file=>JSON.parse(read(file));
-const objects=json("data/objects.json"),sources=json("data/sources.json"),visual=json("data/visual-assets.json"),research=json("data/research.json");
+const objects=json("data/objects.json"),sources=json("data/sources.json"),visual=json("data/visual-assets.json"),research=json("data/research.json"),investigation=json("data/investigation.json");
 assert.ok(Array.isArray(objects)&&objects.length>0,"Object catalogue must be a non-empty array.");
 assert.ok(Array.isArray(sources)&&sources.length>0,"Source catalogue must be a non-empty array.");
 assert.ok(Array.isArray(visual.records),"Visual inventory must contain a records array.");
 function unique(values,label){const seen=new Set();for(const value of values){assert.ok(value,label+" contains an empty identifier.");assert.ok(!seen.has(value),label+" contains duplicate: "+value);seen.add(value);}return seen;}
 const objectIds=unique(objects.map(x=>x.id),"Object IDs"),sourceIds=unique(sources.map(x=>x.id),"Source IDs"),visualIds=unique(visual.records.map(x=>x.record_id),"Visual record IDs"),researchIds=unique(research.map(x=>x.id),"Research IDs");
+assert.equal(investigation.methodology,"LOCKED","Investigation methodology must be explicitly locked.");
+assert.ok(Array.isArray(investigation.claims)&&investigation.claims.length>0,"Investigation register needs claims.");
+assert.ok(Array.isArray(investigation.tasks)&&investigation.tasks.length>0,"Investigation register needs tasks.");
+const claimIds=unique(investigation.claims.map(x=>x.id),"Investigation claim IDs"),taskIds=unique(investigation.tasks.map(x=>x.id),"Investigation task IDs");
+for(const claim of investigation.claims){assert.ok(["A","B","C","D","E"].includes(claim.grade),"Invalid evidence grade on "+claim.id);for(const id of claim.source_ids)assert.ok(sourceIds.has(id),"Claim "+claim.id+" references missing source "+id);assert.ok(Array.isArray(claim.unknowns),"Claim "+claim.id+" must list unresolved questions.");}
+for(const task of investigation.tasks){assert.ok(task.priority>=1&&task.priority<=4,"Invalid priority on "+task.id);assert.ok(task.next_action&&task.completion,"Task "+task.id+" needs a next action and completion criteria.");for(const id of task.source_ids)assert.ok(sourceIds.has(id),"Task "+task.id+" references missing source "+id);}
 for(const item of research){
  for(const key of ["title","area","status","status_label","summary","supported","limits","source_ids"])assert.ok(item[key]!==undefined&&item[key]!==null,"Research item "+item.id+" is missing "+key+".");
  assert.ok(Array.isArray(item.source_ids)&&item.source_ids.length>0,"Research item "+item.id+" needs source IDs.");
@@ -61,4 +67,4 @@ for(const id of ["photo","makeArt","save","entries"])assert.ok(notebook.includes
 for(const id of ["exportBackup","importBackup","backupFile"])assert.ok(notebook.includes('id="'+id+'"'),"Notebook backup control missing #"+id);
 assert.ok(notebook.includes("CICAN-MY-DUBLIN-BACKUP"),"Notebook backup format marker missing.");
 console.log("ARCHIVE PREFLIGHT PASSED");
-console.log(JSON.stringify({objects:objects.length,sources:sources.length,researchItems:research.length,visualRecords:visual.records.length,referenceImages:visual.records.reduce((n,r)=>n+(r.reference_images||[]).length,0),verified:objects.filter(r=>r.verification_status==="VERIFIED").length,partiallyVerified:objects.filter(r=>r.verification_status==="PARTIALLY_VERIFIED").length},null,2));
+console.log(JSON.stringify({objects:objects.length,sources:sources.length,researchItems:research.length,investigationClaims:investigation.claims.length,investigationTasks:investigation.tasks.length,visualRecords:visual.records.length,referenceImages:visual.records.reduce((n,r)=>n+(r.reference_images||[]).length,0),verified:objects.filter(r=>r.verification_status==="VERIFIED").length,partiallyVerified:objects.filter(r=>r.verification_status==="PARTIALLY_VERIFIED").length},null,2));

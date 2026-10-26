@@ -90,8 +90,8 @@ Postal districts are work zones, not a complete administrative map of County Dub
 
 ## Compatibility and migration
 
-The current 15 catalogue entries remain in their existing shape. New provenance fields are optional at this stage so the live site is not broken by a forced bulk migration. Future interface work must tolerate absent optional fields and display unknown data as unknown—not as guessed values.
+The current 95 catalogue entries remain in their existing shape. New provenance fields are optional at this stage so the live site is not broken by a forced bulk migration. Future interface work must tolerate absent optional fields and display unknown data as unknown—not as guessed values.
 
-## Next implementation stage
+## Ongoing production stage
 
-Build the discovery taxonomy and geographic coverage layer on top of these contracts, then expand the researched inventory district by district. The map and field-mission interface must consume the same catalogue rather than maintaining a second list of locations.
+Continue expanding the researched inventory district by district using the discovery protocol in `documentation/CONTINUE-AUTOPILOT.md`. Validate every new object against the schema, reconcile its source references and visual-assets entry, check duplicates, and run catalogue/map integrity checks before deployment. The map and field-mission interface must consume the same catalogue rather than maintaining a second list of locations.

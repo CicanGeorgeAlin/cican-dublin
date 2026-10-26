@@ -1,4 +1,4 @@
-# CICAN Dublin Archive — Investigation Control System
+# CICAN DUBLIN — Investigation Control System
 
 **Status:** LOCKED METHODOLOGY · version 1.0  
 **Adopted:** 26 October 2026  

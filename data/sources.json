@@ -1524,13 +1524,13 @@
   },
   {
     "id": "SRC-CLONTARF-REGISTRY-WILLS-1789",
-    "name": "Registry of Deeds Abstracts of Wills, Volume III (1785–1832)",
+    "name": "Registry of Deeds Abstracts of Wills, Volume III (1785–1832) — Patrick Toole",
     "publisher": "Irish Manuscripts Commission; digitised PDF at Irish Manuscripts",
     "url": "https://www.irishmanuscripts.ie/digital/Registry%20Of%20Deeds%20Abstracts%20Of%20Wills%20Vol%20III%201785-1832/Registry%20Of%20Deeds%20Abstracts%20Of%20Wills%20Vol%20III%201785-1832.pdf",
     "accessed": "2026-10-26",
     "source_type": "ARCHIVAL_WILL_ABSTRACT_COLLECTION",
-    "specific_reference": "Abstract no. 42, Patrick Toole, Sheds of Clontarf, County Dublin; dated 26 January 1789",
-    "notes": "Search-indexed text of the published abstract records Patrick Toole's property in the Sheds of Clontarf and a house on the Green in the Sheds. The underlying will/deed has not been inspected directly; this is a published abstract, not a surveyed location or proof of shed geometry."
+    "specific_reference": "Patrick Toole, Sheds of Clontarf, County Dublin; dated 11 September 1792; entry appears at printed page 116 in the digitised volume",
+    "notes": "The Irish Manuscripts Commission's digitised volume search result gives Patrick Toole, Sheds of Clontarf, and an entry dated 11 September 1792. It records leasehold and other property in the Sheds, town of Clontarf, Ballybough Bridge and North Strand, and a dwellinghouse in the Green of the Sheds. This is a published abstract; the underlying memorial and original deed have not been inspected. Earlier project metadata incorrectly labelled this entry 1789; corrected 26 October 2026."
   },
   {
     "id": "SRC-CLONTARF-THOMS-1858",
@@ -1541,5 +1541,55 @@
     "source_type": "CONTEMPORARY_DIRECTORY",
     "specific_reference": "1858 directory, Clontarf entry",
     "notes": "Search-indexed text describes the village and sheds as an area of 38 acres, with 875 inhabitants in 130 houses, and mentions oyster beds off the sheds. The PDF could not be opened for direct page inspection in this session; treat exact figures as a transcription lead pending page-level verification."
+  },
+  {
+    "id": "SRC-CLONTARF-BL-MALTON-1785",
+    "name": "The Sheds of Clontarfe — Thomas Malton after Francis Wheatley, 1785",
+    "publisher": "British Library, King's Topographical Collection",
+    "url": "https://commons.wikimedia.org/wiki/User:Jheald/KTop_classes/53",
+    "accessed": "2026-10-26",
+    "source_type": "HISTORIC_PRINT_CATALOGUE",
+    "specific_reference": "British Library shelfmark Maps K.Top.53.25; catalogue identifier BLL01004821630; print title The Sheds of Clontarfe; Thomas Malton after Francis Wheatley; 1785",
+    "notes": "The British Library King's Topographical Collection inventory lists a print explicitly titled The Sheds of Clontarfe, by Thomas Malton after Francis Wheatley, dated 1785, shelfmark Maps K.Top.53.25. The print image has not yet been inspected at sufficient resolution to describe its buildings or viewpoint. Seek the BL catalogue item or higher-quality scan before visual claims."
+  },
+  {
+    "id": "SRC-CLONTARF-MALTON-1785-IRISH-ARTISTS",
+    "name": "Thomas Malton — Dictionary of Irish Artists (1913)",
+    "publisher": "Dictionary of Irish Artists, digitised at Library Ireland",
+    "url": "https://libraryireland.booksulster.com/irishartists/thomas-malton.php",
+    "accessed": "2026-10-26",
+    "source_type": "ARTIST_BIOGRAPHICAL_REFERENCE",
+    "specific_reference": "Thomas Malton entry; records 1785 aquatint The Sheds of Clontarfe after Francis Wheatley",
+    "notes": "The biographical entry records Malton's 1785 aquatint The Sheds of Clontarfe and A View of the Bay of Dublin after Wheatley. Secondary bibliographical confirmation of the print's title, maker and date."
+  },
+  {
+    "id": "SRC-CLONTARF-VRT-1704-DONNYCARNEY",
+    "name": "Survey of the Lands of Donnycarney, Barony of Coolock and Parish of Clontarf (1704)",
+    "publisher": "Dublin City Library and Archive; Virtual Treasury of Ireland",
+    "url": "https://www.virtualtreasury.ie/item/DCLA-C1-S1-130",
+    "accessed": "2026-10-26",
+    "source_type": "MANUSCRIPT_LAND_SURVEY",
+    "specific_reference": "DCLA C1 S1/130; John Greene Junior; created 1704; one map",
+    "notes": "Virtual Treasury catalogue describes a 1704 map by John Greene Junior surveying lands in the Barony of Coolock and Parish of Clontarf. Boundaries include the Strand and Upper Hollybrook to the south, Drumcondra to the west, Puckstown and Artane to the north, and Killester and part of Artane to the east. Map image not inspected for the Sheds locality; no geometry inferred."
+  },
+  {
+    "id": "SRC-CLONTARF-COLLINS-1693-HERRINGTOWNE",
+    "name": "Greenville Collins, Dublin Bay chart (1693) — reported Herringtowne reference",
+    "publisher": "Secondary Clontarf historical study; original chart attribution pending inspection",
+    "url": "https://static1.squarespace.com/static/5658317ee4b022a250fd33d2/t/60ae74e94affc635a7ce7ba1/1622045934310/WHAT%2BIF%2BCLONTARF.pdf",
+    "accessed": "2026-10-26",
+    "source_type": "SECONDARY_HISTORICAL_MAP_REFERENCE",
+    "specific_reference": "What If? Clontarf report; statement that the Sheds fishing-port is referred to as Herringtowne in Greenville Collins' 1693 map",
+    "notes": "Secondary Clontarf report says the Sheds fishing-port is referred to as Herringtowne in Collins' 1693 map. Original chart and exact label not inspected; remains attributed secondary claim."
+  },
+  {
+    "id": "SRC-CLONTARF-WEEKES-1786",
+    "name": "Christmas Weekes letter to the Grand Jury of County Dublin, 30 November 1786",
+    "publisher": "Irish Genealogical Research Society, 80th Anniversary Archive",
+    "url": "https://www.irishancestors.ie/80th-anniversary-archive-christmas-weekes-158",
+    "accessed": "2026-10-26",
+    "source_type": "TRANSCRIBED_HISTORICAL_LETTER",
+    "specific_reference": "Christmas Weekes, Clontarf, letter dated 30 November 1786, concerning works supplying shipping with water",
+    "notes": "Page reproduces a letter attributed to Christmas Weekes at Clontarf, dated 30 November 1786, thanking the County Grand Jury for recognition of works supplying shipping with water and other uses. Original Grand Jury record and any pipe route/plan remain to be located."
   }
 ]

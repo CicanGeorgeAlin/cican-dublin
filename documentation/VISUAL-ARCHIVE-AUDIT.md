@@ -1,13 +1,13 @@
 # CICAN DUBLIN — Visual Archive Audit
 
 **Audit date:** 26 October 2026  
-**Catalogue baseline:** 136 records  
+**Catalogue baseline:** 142 records  
 **Scope:** Every record in `data/objects.json`
 
 ## Audit result
 
-- **136/136 records** included in the visual inventory.
-- **136** awaiting original founder photography.
+- **142/142 records** included in the visual inventory.
+- **142** awaiting original founder photography.
 - **0** original founder photographs registered.
 - **0** line-art illustrations registered.
 - **0** location galleries ready for publication.
@@ -31,14 +31,14 @@
 
 | Category | Records |
 |---|---:|
-| ARCHITECTURE | 71 |
+| ARCHITECTURE | 73 |
 | INFRASTRUCTURE | 5 |
 | INSCRIPTION | 6 |
 | MEMORIAL | 2 |
 | MONUMENT | 9 |
 | PUBLIC_ART | 2 |
-| STREET_DETAIL | 41 |
-| **Total** | **136** |
+| STREET_DETAIL | 45 |
+| **Total** | **142** |
 
 ## Machine-readable inventory
 

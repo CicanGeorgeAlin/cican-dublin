@@ -1461,5 +1461,35 @@
     "source_type": "PRIMARY_MANUSCRIPT_MAP_CATALOGUE",
     "specific_reference": "John Brownrigg, 1792; MS 21 F. 51 / (079); scale 10 perches to an inch; estate of Robert Burton Esq.",
     "notes": "NLI catalogue record identifies a manuscript estate map in the Barony of Coolock. This is a regional comparison lead only: the catalogue record does not establish that Bay View or Mount Pleasant is the historic Clontarf fishing-sheds site or Vernon Avenue corridor. Map image and geographic extent require direct inspection. Reproduction rights owned by NLI."
+  },
+  {
+    "id": "SRC-CLONTARF-NLI-MAPS-ACCESS",
+    "name": "Maps — National Library of Ireland collection and access guidance",
+    "publisher": "National Library of Ireland",
+    "url": "https://www.nli.ie/collections/our-collections/maps",
+    "accessed": "2026-10-26",
+    "source_type": "ARCHIVAL_ACCESS_GUIDANCE",
+    "specific_reference": "Access section and Longfield Map Collection description",
+    "notes": "NLI states early printed and manuscript maps, including the Longfield Map Collection, are accessed in the Manuscripts Reading Room with a reader's ticket. Individual catalogue records may state that a digital copy exists; this should not be assumed to mean unrestricted public online access."
+  },
+  {
+    "id": "SRC-CLONTARF-DUBLIN-HISTORIC-MAPS-1756-1760",
+    "name": "Historic Maps of Dublin — 17th and 18th century interactive map viewer",
+    "publisher": "Brian Hollinshead, DublinHistoricMaps.ie",
+    "url": "https://www.dublinhistoricmaps.ie/maps/1600-1799/index.html",
+    "accessed": "2026-10-26",
+    "source_type": "HISTORIC_MAP_VIEWER",
+    "specific_reference": "Selectable layers include Rocque 1756 city sheets, Rocque 1757 city and environs, and Rocque 1760 County Dublin sheets",
+    "notes": "Interactive secondary map viewer provides separately selectable historic-map layers over an OpenStreetMap base. It is a discovery and comparison aid; original map sheet, georeferencing accuracy and any Clontarf feature interpretation must be checked against the source map."
+  },
+  {
+    "id": "SRC-CLONTARF-TAYLOR-1816-NLS",
+    "name": "Taylor's Map of the Environs of Dublin, 1816 — map record",
+    "publisher": "National Library of Scotland",
+    "url": "https://maps.nls.uk/towns/rec/12525",
+    "accessed": "2026-10-26",
+    "source_type": "HISTORIC_MAP_CATALOGUE",
+    "specific_reference": "Taylor's Map of the Environs of Dublin, Extending 10 to 14 Miles from the Castle (1816)",
+    "notes": "UCD Library's historic-map guide identifies this NLS record as an access route for Taylor's 1816 map and separately points to the South Dublin County Council viewer. The map has not yet been visually inspected at Clontarf; the Green Lane wording remains a secondary-source claim."
   }
 ]

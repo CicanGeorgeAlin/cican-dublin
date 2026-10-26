@@ -1853,7 +1853,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-AMIENS-STREET-2004-CONTEXT-DUB-STR-0026",
+          "title": "Amiens Street, Dublin",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Amiens_Street%2C_Dublin.jpg/960px-Amiens_Street%2C_Dublin.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Amiens_Street,_Dublin.jpg",
+          "photographer": "Bahnfan44789",
+          "date_taken": "2004-08-24",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Bahnfan44789, “Amiens Street, Dublin”, 24 August 2004, via Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "Historical street-level reference for Amiens Street and its railway bridge environment. The photograph is from 2004 and is not a verified image of the specific coal-hole cover, lamp or entrance fitting in this record. Third-party photograph; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-STR-0027",
@@ -2088,7 +2104,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-AMIENS-STREET-2004-CONTEXT-DUB-BLD-0015",
+          "title": "Amiens Street, Dublin",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Amiens_Street%2C_Dublin.jpg/960px-Amiens_Street%2C_Dublin.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Amiens_Street,_Dublin.jpg",
+          "photographer": "Bahnfan44789",
+          "date_taken": "2004-08-24",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Bahnfan44789, “Amiens Street, Dublin”, 24 August 2004, via Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "Historical street-level reference for Amiens Street and its railway bridge environment. The photograph is from 2004 and is not a verified image of the specific coal-hole cover, lamp or entrance fitting in this record. Third-party photograph; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-BLD-0016",
@@ -2336,7 +2368,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-AMIENS-STREET-2004-CONTEXT-DUB-BLD-0023",
+          "title": "Amiens Street, Dublin",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Amiens_Street%2C_Dublin.jpg/960px-Amiens_Street%2C_Dublin.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Amiens_Street,_Dublin.jpg",
+          "photographer": "Bahnfan44789",
+          "date_taken": "2004-08-24",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Bahnfan44789, “Amiens Street, Dublin”, 24 August 2004, via Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "Historical street-level reference for Amiens Street and its railway bridge environment. The photograph is from 2004 and is not a verified image of the specific coal-hole cover, lamp or entrance fitting in this record. Third-party photograph; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-BLD-0024",
@@ -2460,7 +2508,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-AMIENS-STREET-2004-CONTEXT-DUB-BLD-0027",
+          "title": "Amiens Street, Dublin",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Amiens_Street%2C_Dublin.jpg/960px-Amiens_Street%2C_Dublin.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Amiens_Street,_Dublin.jpg",
+          "photographer": "Bahnfan44789",
+          "date_taken": "2004-08-24",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Bahnfan44789, “Amiens Street, Dublin”, 24 August 2004, via Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "Historical street-level reference for Amiens Street and its railway bridge environment. The photograph is from 2004 and is not a verified image of the specific coal-hole cover, lamp or entrance fitting in this record. Third-party photograph; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-BLD-0028",
@@ -5538,7 +5602,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-AMIENS-STREET-2004-CONTEXT-DUB-BLD-0084",
+          "title": "Amiens Street, Dublin",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Amiens_Street%2C_Dublin.jpg/960px-Amiens_Street%2C_Dublin.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Amiens_Street,_Dublin.jpg",
+          "photographer": "Bahnfan44789",
+          "date_taken": "2004-08-24",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Bahnfan44789, “Amiens Street, Dublin”, 24 August 2004, via Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "Historical street-level reference for Amiens Street and its railway bridge environment. The photograph is from 2004 and is not a verified image of the specific coal-hole cover, lamp or entrance fitting in this record. Third-party photograph; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-STR-0066",
@@ -5568,7 +5648,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-AMIENS-STREET-2004-CONTEXT-DUB-STR-0066",
+          "title": "Amiens Street, Dublin",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Amiens_Street%2C_Dublin.jpg/960px-Amiens_Street%2C_Dublin.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Amiens_Street,_Dublin.jpg",
+          "photographer": "Bahnfan44789",
+          "date_taken": "2004-08-24",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Bahnfan44789, “Amiens Street, Dublin”, 24 August 2004, via Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "Historical street-level reference for Amiens Street and its railway bridge environment. The photograph is from 2004 and is not a verified image of the specific coal-hole cover, lamp or entrance fitting in this record. Third-party photograph; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-STR-0067",
@@ -5598,7 +5694,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-AMIENS-STREET-2004-CONTEXT-DUB-STR-0067",
+          "title": "Amiens Street, Dublin",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Amiens_Street%2C_Dublin.jpg/960px-Amiens_Street%2C_Dublin.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Amiens_Street,_Dublin.jpg",
+          "photographer": "Bahnfan44789",
+          "date_taken": "2004-08-24",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Bahnfan44789, “Amiens Street, Dublin”, 24 August 2004, via Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "Historical street-level reference for Amiens Street and its railway bridge environment. The photograph is from 2004 and is not a verified image of the specific coal-hole cover, lamp or entrance fitting in this record. Third-party photograph; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-STR-0068",
@@ -5628,7 +5740,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-AMIENS-STREET-2004-CONTEXT-DUB-STR-0068",
+          "title": "Amiens Street, Dublin",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Amiens_Street%2C_Dublin.jpg/960px-Amiens_Street%2C_Dublin.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Amiens_Street,_Dublin.jpg",
+          "photographer": "Bahnfan44789",
+          "date_taken": "2004-08-24",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Bahnfan44789, “Amiens Street, Dublin”, 24 August 2004, via Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "Historical street-level reference for Amiens Street and its railway bridge environment. The photograph is from 2004 and is not a verified image of the specific coal-hole cover, lamp or entrance fitting in this record. Third-party photograph; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-STR-0069",
@@ -5658,7 +5786,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-AMIENS-STREET-2004-CONTEXT-DUB-STR-0069",
+          "title": "Amiens Street, Dublin",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Amiens_Street%2C_Dublin.jpg/960px-Amiens_Street%2C_Dublin.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Amiens_Street,_Dublin.jpg",
+          "photographer": "Bahnfan44789",
+          "date_taken": "2004-08-24",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Bahnfan44789, “Amiens Street, Dublin”, 24 August 2004, via Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "Historical street-level reference for Amiens Street and its railway bridge environment. The photograph is from 2004 and is not a verified image of the specific coal-hole cover, lamp or entrance fitting in this record. Third-party photograph; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-STR-0070",

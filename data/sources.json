@@ -1701,5 +1701,33 @@
     "source_type": "OFFICIAL_HERITAGE_REGISTER",
     "specific_reference": "NIAH Registration 50030291; Dublin 3; published Irish Grid reference 318401, 237333.",
     "notes": "Official NIAH indexed register record reviewed on 26 October 2026. Search-indexed page supplies the record title, date, description, appraisal and Irish Grid reference; direct page access was not independently confirmed in this pass. Mark PARTIALLY_VERIFIED until the full NIAH record is directly inspected or independently retrieved from an official export. Coordinates are transformed from the published Irish Grid point and remain source-derived pending founder field verification."
+  },
+  {
+    "id": "NIAH-50010301",
+    "name": "Beresford Place post box",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010301/beresford-place-dublin-co-dublin",
+    "accessed": "2026-10-26"
+  },
+  {
+    "id": "NIAH-50010715",
+    "name": "North Circular Road / Dorset Street Lower post box",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010715/north-circular-road-dorset-street-lower-dublin-dublin",
+    "accessed": "2026-10-26"
+  },
+  {
+    "id": "NIAH-50100338",
+    "name": "Grand Canal Quay post box",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50100338/grand-canal-quay-grand-canal-street-lower-dublin-2-dublin",
+    "accessed": "2026-10-26"
+  },
+  {
+    "id": "NIAH-50120259",
+    "name": "North Strand Road post box",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50120259/north-strand-road-dublin-3-dublin",
+    "accessed": "2026-10-26"
   }
 ]

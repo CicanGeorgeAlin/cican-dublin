@@ -1151,5 +1151,85 @@
     "source_type": "OFFICIAL_HERITAGE_REGISTER",
     "specific_reference": "NIAH Registration 50030124; Dublin 3; published Irish Grid reference 320219, 235785.",
     "notes": "Primary official source for the registered place/object, historical description, appraisal, date range and source coordinate. The catalogue preserves the published Irish Grid reference and labels transformed WGS 84 coordinates as source-derived, pending founder field verification."
+  },
+  {
+    "id": "NIAH-50030162",
+    "name": "Edward VII cast-iron postbox — Castle Avenue — NIAH registration 50030162",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030162/castle-avenue-clontarf-dublin-3-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030162; Dublin 3; published Irish Grid reference 319489, 236260.",
+    "notes": "Primary official source for the registered place/object, historical description, appraisal, date range and source coordinate. Original NIAH Irish Grid reference is preserved; WGS 84 is transformed and labelled source-derived pending founder field verification."
+  },
+  {
+    "id": "NIAH-50030050",
+    "name": "Rathmore — former pair of houses, 8–9 Castle Avenue — NIAH registration 50030050",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030050/rathmore-8-9-castle-avenue-clontarf-dublin-3-co-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030050; Dublin 3; published Irish Grid reference 319264, 236076.",
+    "notes": "Primary official source for the registered place/object, historical description, appraisal, date range and source coordinate. Original NIAH Irish Grid reference is preserved; WGS 84 is transformed and labelled source-derived pending founder field verification."
+  },
+  {
+    "id": "NIAH-50030157",
+    "name": "Balmoral Lodge — 17 Castle Avenue — NIAH registration 50030157",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030157/balmoral-lodge-17-castle-avenue-clontarf-dublin-3-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030157; Dublin 3; published Irish Grid reference 319305, 236186.",
+    "notes": "Primary official source for the registered place/object, historical description, appraisal, date range and source coordinate. Original NIAH Irish Grid reference is preserved; WGS 84 is transformed and labelled source-derived pending founder field verification."
+  },
+  {
+    "id": "NIAH-50030161",
+    "name": "Clontarf Telephone Exchange — NIAH registration 50030161",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030161/clontarf-telephone-exchange-castle-avenue-clontarf-dublin-3-co-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030161; Dublin 3; published Irish Grid reference 319479, 236242.",
+    "notes": "Primary official source for the registered place/object, historical description, appraisal, date range and source coordinate. Original NIAH Irish Grid reference is preserved; WGS 84 is transformed and labelled source-derived pending founder field verification."
+  },
+  {
+    "id": "NIAH-50030158",
+    "name": "Ivy Lodge — 18 Castle Avenue — NIAH registration 50030158",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030158/ivy-lodge-18-castle-avenue-clontarf-dublin-3-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030158; Dublin 3; published Irish Grid reference 319314, 236210.",
+    "notes": "Primary official source for the registered place/object, historical description, appraisal, date range and source coordinate. Original NIAH Irish Grid reference is preserved; WGS 84 is transformed and labelled source-derived pending founder field verification."
+  },
+  {
+    "id": "NIAH-50030332",
+    "name": "Clontarf Hospital — former nurses' home — NIAH registration 50030332",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030332/clontarf-hospital-castle-avenue-clontarf-dublin-3-co-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030332; Dublin 3; published Irish Grid reference 319712, 236729.",
+    "notes": "Primary official source for the registered place/object, historical description, appraisal, date range and source coordinate. Original NIAH Irish Grid reference is preserved; WGS 84 is transformed and labelled source-derived pending founder field verification."
+  },
+  {
+    "id": "NIAH-50030312",
+    "name": "Church of St John the Baptist — historic graveyard and ruined church — NIAH registration 50030312",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030312/church-of-st-john-the-baptist-castle-avenue-clontarf-dublin-3-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030312; Dublin 3; published Irish Grid reference 319506, 236459.",
+    "notes": "Primary official source for the registered place/object, historical description, appraisal, date range and source coordinate. Original NIAH Irish Grid reference is preserved; WGS 84 is transformed and labelled source-derived pending founder field verification."
+  },
+  {
+    "id": "NIAH-50030154",
+    "name": "Brian Boróimhe's Well — 1850 commemorative drinking fountain — NIAH registration 50030154",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030154/brian-boroimhes-well-castle-avenue-clontarf-dublin-3-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030154; Dublin 3; published Irish Grid reference 319311, 236116.",
+    "notes": "Primary official source for the registered place/object, historical description, appraisal, date range and source coordinate. Original NIAH Irish Grid reference is preserved; WGS 84 is transformed and labelled source-derived pending founder field verification."
   }
 ]

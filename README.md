@@ -17,7 +17,7 @@ The catalogue currently contains **146 records** across Dublin 1, Dublin 2 and D
 - **146 awaiting original founder photography**.
 - No record is marked photographed, illustrated or published.
 
-This is an expanding research inventory, not a complete survey of Dublin. 137 records currently carry a source-derived map coordinate and a National Inventory reference; these points are not founder-recorded GPS fixes and still require field verification.
+This is an expanding research inventory, not a complete survey of Dublin. 137 records currently carry source-derived WGS 84 map coordinates; nine records are intentionally unmapped pending defensible location data. Coordinates are not founder-recorded GPS fixes and still require field verification.
 
 ## Locked map baseline
 

@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 146,
+  "record_count": 153,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -4663,6 +4663,220 @@
         "Raised Post Office lettering and moulded handle",
         "McDowall Steven & Co London & Glasgow maker's mark",
         "Fluted frieze, domed cap, neck and plinth"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0057",
+      "name": "North Strand Road / Bayview Avenue — 1820s Howth milestone",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 3",
+      "address": "North Strand Road at Bayview Avenue, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full milestone and junction context",
+        "Cast-iron plaque square-on; transcribe all characters",
+        "Pedimented granite cap and chamfered plinth",
+        "Incised mason's mark",
+        "Photograph relationship to North Strand Road and Bayview Avenue"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-BLD-0082",
+      "name": "238 Clonliffe Road — Victorian corner house",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 3",
+      "address": "238 Clonliffe Road, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full corner building and both street elevations",
+        "Flemish-bond brickwork, granite plinth and parapet",
+        "Terracotta chimney pots",
+        "Timber sash windows and moulded doorcase",
+        "Street-name plaque, bootscrape, railings and gate"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-INS-0007",
+      "name": "238 Clonliffe Road — inscribed granite street-name plaque",
+      "category": "INSCRIPTION",
+      "district": "Dublin 3",
+      "address": "Front elevation of 238 Clonliffe Road, Dublin 3",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Locate and photograph the complete plaque square-on",
+        "Record every letter, punctuation mark and line break",
+        "Capture material, fixing and weathering",
+        "Take a context photograph showing position on the façade"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0058",
+      "name": "238 Clonliffe Road — cast-iron bootscrape",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 3",
+      "address": "Granite entrance platform at 238 Clonliffe Road, Dublin 3",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Photograph the bootscrape in context without entering private property",
+        "Record its outline, bars, fixing and maker's mark if visible from public space",
+        "Capture relationship to granite platform and steps"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0059",
+      "name": "238 Clonliffe Road — cast-iron gate and historic railings",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 3",
+      "address": "Front boundary of 238 Clonliffe Road, Dublin 3",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Full gate and boundary railings",
+        "Pointed finials and individual iron details",
+        "Gate posts, hinges and latch if visible",
+        "Granite plinth wall and coping",
+        "Relationship to house entrance and street"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-BLD-0083",
+      "name": "Fairview Park — 1930s former public convenience",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 3",
+      "address": "Inside Fairview Park, near Annesley Bridge Road, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Whole building from public path",
+        "Bell-cast terracotta roof and gambrels",
+        "Louvered timber sections, ridge tiles and eaves brackets",
+        "Central panelled chimney stack",
+        "Pebbledash walls, brick plinth and steel-framed windows",
+        "Blocked round-headed doorways and boundary railings"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0060",
+      "name": "Fairview Park former public convenience — Art Deco chimney stack and roofscape",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 3",
+      "address": "Roofline of the former public convenience inside Fairview Park, Dublin 3",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Capture the chimney stack and roofline in profile",
+        "Photograph terracotta gambrels, ridge tiles and eaves brackets",
+        "Record the relationship between stack and roof",
+        "Include one wider image showing the building's overall silhouette"
       ],
       "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
       "original_photo": null,

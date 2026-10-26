@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#050505">
-<meta name="description" content="Discover and investigate Dublin's historic places, objects and overlooked details with CICAN DUBLIN.">
+<meta name="description" content="Explore Dublin's historic places and overlooked heritage on the CICAN map.">
 <meta property="og:title" content="CICAN DUBLIN — Open the Atlas">
-<meta property="og:description" content="Discover Dublin's history in every detail — from landmarks to overlooked street features.">
+<meta property="og:description" content="A living map of Dublin's historic places, objects and details.">
 <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
 <link rel="manifest" href="./manifest.webmanifest">
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.css">
@@ -18,22 +18,22 @@
 <section class="atlas-intro" id="atlas-intro" aria-labelledby="atlas-title">
  <div class="atlas-intro-grid" aria-hidden="true"></div>
  <div class="atlas-intro-content">
-  <div class="atlas-intro-brand"><span class="atlas-brand-mark"><img class="cican-emblem" src="./assets/cican-emblem.svg" alt=""></span><span><b>CICAN</b><small>DUBLIN</small></span></div>
-  <p class="atlas-kicker"><span></span> A CITY OF STORIES, DETAIL BY DETAIL</p>
+  <div class="atlas-intro-brand"><span class="atlas-brand-mark"><img class="cican-emblem" src="./assets/cican-emblem.svg" alt=""></span><span><b>CICAN</b><small>DUBLIN ARCHIVE</small></span></div>
+  <p class="atlas-kicker"><span></span> AN OPEN ARCHIVE OF THE CITY</p>
   <h1 id="atlas-title">Dublin is<br><em>more than</em><br>what you see.</h1>
   <p class="atlas-intro-copy">Every street holds a story. Every stone has a past. Open the map and discover the details that make this city extraordinary.</p>
   <div class="atlas-intro-bottom">
    <button class="atlas-enter" id="enter-atlas" type="button"><span>OPEN THE ATLAS</span><b>↗</b></button>
-   <div class="atlas-intro-meta"><span id="intro-record-count">A GROWING CITY DISCOVERY PROJECT</span><span>53°20′N&nbsp; 6°15′W</span></div>
+   <div class="atlas-intro-meta"><span id="intro-record-count">A GROWING CITY ARCHIVE</span><span>53°20′N&nbsp; 6°15′W</span></div>
   </div>
  </div>
  <div class="atlas-intro-caption"><span>THE CITY, REMEMBERED</span><span>CREATED BY CICAN GEORGE ALIN</span></div>
 </section>
 
 <header class="topbar">
- <a class="brand" href="../" aria-label="Open CICAN DUBLIN"><span class="brand-mark"><img class="cican-emblem" src="./assets/cican-emblem.svg" alt=""></span><span><b>CICAN</b><small>DUBLIN</small></span></a>
- <div class="topbar-center"><span class="live-dot"></span><span id="catalogue-status">CONNECTING TO CICAN DUBLIN</span></div>
- <button class="icon-button desktop-mode-button" id="saved-mode-toggle" type="button" title="Open saved discoveries" aria-label="Open saved discoveries">♡</button><button class="icon-button desktop-mode-button" id="field-mode-toggle" type="button" title="Open photographer mode" aria-label="Open photographer mode">✎</button><button class="icon-button" id="locate-button" type="button" title="Centre map on my location" aria-label="Centre map on my location">⌖</button>
+ <a class="brand" href="../" aria-label="Open the CICAN Dublin Archive website"><span class="brand-mark"><img class="cican-emblem" src="./assets/cican-emblem.svg" alt=""></span><span><b>CICAN</b><small>DUBLIN ARCHIVE</small></span></a>
+ <div class="topbar-center"><span class="live-dot"></span><span id="catalogue-status">CONNECTING TO THE ARCHIVE</span></div>
+ <button class="icon-button" id="locate-button" type="button" title="Centre map on my location" aria-label="Centre map on my location">⌖</button>
 </header>
 <main class="workspace">
  <section class="map-stage" aria-label="Interactive heritage map">
@@ -47,13 +47,14 @@
    </div>
   </div>
   <div class="map-overlay map-legend"><span><i class="dot verified"></i> DOCUMENTED</span><span><i class="dot partial"></i> IN REVIEW</span></div>
+  <button class="map-recenter" id="reset-map" type="button">⌖ <span>RESET VIEW</span></button>
   <div class="map-credit">MAP DATA © OPENSTREETMAP CONTRIBUTORS · <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">ATTRIBUTION</a></div>
  </section>
  <aside class="discovery-panel" id="discovery-panel">
   <button class="panel-grip" id="panel-grip" type="button" aria-label="Expand discovery panel" aria-expanded="false"><span></span></button>
-  <div class="panel-head"><div><p class="eyebrow">THE CITY, DETAIL BY DETAIL</p><h1 id="panel-title">Discover Dublin.</h1><p class="panel-intro" id="panel-intro">Explore the places and small details that hold the city's memory.</p><div class="archive-stats" id="archive-stats" aria-live="polite"><span><b>—</b><small>CATALOGUE RECORDS</small></span><i></i><span><b>—</b><small>DOCUMENTED</small></span><i></i><span><b>—</b><small>IN REVIEW</small></span></div></div><button class="panel-close" id="close-detail" type="button" aria-label="Close detail" hidden>×</button></div>
-  <div class="panel-toolbar" id="panel-toolbar"><span id="result-count">LOADING ARCHIVE</span><div class="toolbar-actions"><button id="nearby-toggle" class="text-button" type="button">⌖ NEAR ME</button><button id="saved-toggle" class="text-button" type="button">♡ SAVED</button></div></div>
-  <div id="results" class="results" aria-live="polite"><div class="loading">Loading Dublin discoveries…</div></div>
+  <div class="panel-head"><div><p class="eyebrow">THE CITY, DETAIL BY DETAIL</p><h1 id="panel-title">Discover Dublin.</h1><p class="panel-intro" id="panel-intro">Explore the places and small details that hold the city's memory.</p><div class="archive-stats" id="archive-stats" aria-live="polite"><span><b>—</b><small>ARCHIVE RECORDS</small></span><i></i><span><b>—</b><small>DOCUMENTED</small></span><i></i><span><b>—</b><small>IN REVIEW</small></span></div></div><button class="panel-close" id="close-detail" type="button" aria-label="Close detail" hidden>×</button></div>
+  <div class="panel-toolbar" id="panel-toolbar"><span id="result-count">LOADING ARCHIVE</span><button id="saved-toggle" class="text-button" type="button">♡ SAVED</button></div>
+  <div id="results" class="results" aria-live="polite"><div class="loading">Opening the archive…</div></div>
   <section id="detail-view" class="detail-view" hidden></section>
   <div class="panel-footer"><span>CREATED BY <b>CICAN GEORGE ALIN</b></span><span>LEAVE NO DETAIL UNNOTICED</span></div>
  </aside>
@@ -62,7 +63,6 @@
  <button class="nav-item active" data-mode="map" type="button"><span>⌖</span>MAP</button>
  
  <button class="nav-item" data-mode="saved" type="button"><span>♡</span>SAVED</button>
- <button class="nav-item" data-mode="field" type="button"><span>✎</span>FIELD</button>
  <a class="nav-item" href="../archive.html"><span>↗</span>ARCHIVE</a>
 </nav>
 <a class="sr-only" href="./my-dublin.html">My Dublin notebook</a>

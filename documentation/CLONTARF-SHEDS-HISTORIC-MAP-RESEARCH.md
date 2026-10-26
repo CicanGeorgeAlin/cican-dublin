@@ -136,3 +136,32 @@ No new physical-object catalogue records or map pins are created by this researc
 - Dublin Port Archive requests credit for personal and academic reuse and requires a licensing application for commercial or non-commercial publication use of its archive material. The project's future commercial colouring-book plans mean the 1728 scan must not be reproduced in a publication without written permission. Credit, where licensed, must follow the archive's requested wording: “Reproduced courtesy of the Dublin Port Archive.”
 - Do not download, republish or redistribute other map scans without checking the holding institution's rights statement and permitted uses.
 - Any future georeferenced overlay must preserve the source map citation and its positional uncertainty.
+
+
+## Research update — 26 October 2026
+
+### Rocque map identification: keep editions separate
+
+The date discrepancy is not resolved by treating 1756, 1757 and 1760 as interchangeable dates for one map. The Dictionary of Irish Biography distinguishes John Rocque's *The City and Environs of Dublin* (1756) from *The City and Suburbs of Dublin* (1757), alongside other 1757 publications. UCD Library's historic-map guide independently lists several distinct Rocque titles and dates. Dublin City Council's Vernon Avenue report specifically labels its reproduced map **John Rocque Map 1757**. The South Dublin County Council ArcGIS service is a separate **actual survey of County Dublin (1760)**. Keep these as separate source objects unless inspection of the original sheet establishes a direct relationship.
+
+Sources:
+- [Dictionary of Irish Biography — John (Jean) Rocque](https://www.dib.ie/biography/rocque-john-jean-a7766)
+- [UCD Library — Historic Maps of Dublin](https://libguides.ucd.ie/findingmaps/mapshistDublin)
+- [Dublin City Council — Vernon Avenue Preliminary Design Report (2026)](https://www.dublincity.ie/sites/default/files/2026-06/vernon-avenue_preliminary-design-report_0.pdf)
+
+### Original Name Book access route identified; entry not yet inspected
+
+Ask About Ireland's Name Books and Letters collection explains that the Ordnance Survey recorded place-name variants, local monuments and buildings of note, and that search results can provide the original Name Book or Letter page, a PDF and a location map. The collection page is currently discoverable, but direct retrieval of its search form returned HTTP 403 in this research session. Therefore the 1836 Vernon Avenue wording remains a **secondary-source transcription**, not a directly inspected primary record.
+
+- [Ask About Ireland — Name Books and Letters search](https://askaboutireland.ie/griffith-valuation/index.xml?action=nblSearch)
+- [Streets broad and narrow — Vernon Avenue](https://streetsbroadandnarrow.ie/vernon-avenue/)
+
+### Taylor's 1816 map: catalogue lead, visual inspection outstanding
+
+The Virtual Record Treasury of Ireland catalogue identifies Taylor's 1816 map of the environs of Dublin as a source cited by the Vernon Avenue street-history article. The item page is accessible, but this research session did not expose the map image or a usable viewer. The claim that the route is labelled **Green Lane** therefore remains attributed to the secondary article until the map itself is inspected.
+
+- [Virtual Record Treasury of Ireland — Taylor's map (1816), LBC-GJ-13-2](https://virtualtreasury.ie/item/LBC-GJ-13-2)
+
+### Research integrity status
+
+No new shed footprint, oyster-bed polygon, coordinate, physical-object record or map pin is established by this update. The Rocque map editions, Name Book entry and Taylor map remain documentary verification tasks. Do not promote any of these leads into mapped geometry without direct source inspection and a recorded positional uncertainty.

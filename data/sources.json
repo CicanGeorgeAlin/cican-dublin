@@ -1759,5 +1759,25 @@
     "source_type": "OFFICIAL_REGISTER",
     "specific_reference": "NIAH Registration 50120133",
     "notes": "Indexed official NIAH register content directly returned in research search. Describes a c.1930 detached public convenience in Fairview Park, with terracotta roof, louvered timber, pebbledash walls, wire-cut brick plinth, steel-framed windows, blocked round-headed doorways and wrought/cast-iron railings. Irish Grid 317513, 236163. Direct page opening remains pending; record remains partially verified."
+  },
+  {
+    "id": "NIAH-50030341",
+    "name": "Seafield Road East and West — group of 1930s concrete lamp standards",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030341/seafield-road-east-seafield-road-west-dublin-3-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030341; Seafield Road East and West, Dublin 3; published Irish Grid reference 320244, 236366.",
+    "notes": "Full NIAH record directly inspected. It describes a continuous group of c.1935 octagonal cast-concrete lamp standards with exposed aggregate and Art Deco-influenced necks. The reference coordinate locates the group, not individual standards."
+  },
+  {
+    "id": "NIAH-50100511",
+    "name": "46 Merrion Square — late-eighteenth-century house and surviving setting details",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50100511/46-merrion-square-dublin-2-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50100511; 46 Merrion Square, Dublin 2; published Irish Grid reference 316816, 233446.",
+    "notes": "Full NIAH record directly inspected. It records remnants of a wrought-iron lamp standard and a cast-iron coal-hole cover among the setting features. The register does not separately date or precisely locate either micro-detail."
   }
 ]

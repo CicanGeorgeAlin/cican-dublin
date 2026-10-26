@@ -216,3 +216,17 @@ This is a potentially valuable local landscape/estate-survey lead, but its title
 ### Research integrity status
 
 No new shed footprint, oyster-bed polygon, coordinate, physical-object record or map pin is established by this update. The 1792 Slip Field map is a newly documented primary-source lead, not yet a verified depiction of the sheds. Do not georeference or publish inferred geometry until the original map image, its extent and its relationship to the historic shore are established.
+
+
+### Related 1792 estate-map lead: Bay View and Mount Pleasant
+
+A second John Brownrigg manuscript map in the National Library of Ireland's Longfield Map Collection is titled *A map of Bay View & Mount Pleasant in the Barony of Coolock & County of Dublin belonging to Robt. Burton Esq.*, dated 1792 and drawn at 10 perches to an inch. Its call number is **MS 21 F. 51 / (079)**. This is a useful neighbouring-estate comparison candidate to examine alongside the Slip Field map (MS 21 F. 51 / (081)). However, the catalogue only establishes its Barony of Coolock coverage and title; it does not prove that the mapped property lies at the historic Clontarf sheds, the Coast Road, or Vernon Avenue. The image and exact extent remain uninspected. Do not georeference or infer a relationship until the manuscript image is examined.
+
+- [NLI catalogue — Bay View & Mount Pleasant, 1792](https://catalogue.nli.ie/Record/vtls000301133)
+- [NLI Longfield Map Collection](https://catalogue.nli.ie/Collection/vtls000282687)
+
+NLI's general map-collection guidance confirms that its early manuscript maps are accessed in the Manuscripts Reading Room and require a reader's ticket. The catalogue record for this map identifies NLI as the reproduction-rights holder. Check access and permissions before requesting or reproducing an image.
+
+### Research integrity status
+
+This is a catalogue-level archival lead only. No map image has been inspected and no physical object, coordinate, shed footprint, oyster-bed polygon, or map pin is added.

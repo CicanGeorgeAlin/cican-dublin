@@ -47,8 +47,10 @@ for(const v of visual.records){
  assert.ok(objectIds.has(v.record_id),"Visual entry has no matching catalogue record: "+v.record_id);
  assert.ok(Array.isArray(v.reference_images||[]),"Reference images must be an array: "+v.record_id);
  for(const image of v.reference_images||[]){
-  for(const field of ["image_url","source_url","licence","attribution"])assert.ok(typeof image[field]==="string"&&image[field].trim(),"Image "+v.record_id+" is missing "+field+".");
-  for(const field of ["image_url","source_url","licence_url"])if(image[field])assert.equal(new URL(image[field]).protocol,"https:","Image links must use HTTPS: "+v.record_id);
+  for(const field of ["source_id","image_url","source_url","photographer","licence","licence_url","attribution","image_role"])assert.ok(typeof image[field]==="string"&&image[field].trim(),"Image "+v.record_id+" is missing "+field+".");
+  assert.ok(sourceIds.has(image.source_id),"Image "+v.record_id+" references missing image source "+image.source_id+".");
+  assert.ok(["OBJECT_PHOTOGRAPH","STREET_CONTEXT"].includes(image.image_role),"Image "+v.record_id+" has an invalid image_role.");
+  for(const field of ["image_url","source_url","licence_url"])assert.equal(new URL(image[field]).protocol,"https:","Image links must use HTTPS: "+v.record_id);
  }
 }
 for(const file of ["index.html","archive.html","my-dublin.html"]){

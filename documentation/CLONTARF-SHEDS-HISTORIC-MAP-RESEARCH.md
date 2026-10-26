@@ -65,6 +65,20 @@ Trinity College Dublin independently identifies artificial oyster beds off Clont
 
 Source: [History of the Irish oyster — Trinity College Dublin](https://www.tcd.ie/tceh/projects/foodsmartdublin/recipes/Sept_Oyster/HistoryEcology_oyster.php)
 
+### 6. Dublin City Council's Vernon Avenue report provides a direct comparative map sequence
+
+A Dublin City Council preliminary design report for Vernon Avenue (published in 2026) includes a historical-mapping comparison using three layers: **John Rocque's 1757 map**, the **Ordnance Survey 6-inch map (1829–1841)** and the **Ordnance Survey 25-inch map (1897–1913)**. Its accompanying text states that Vernon Avenue was already established as a route extending north from a cluster of herring sheds fronting the Coast Road, then turning west to join Castle Avenue north of Mount Prospect Avenue. It describes later development as extending northwards, with greater density at the southern end visible in the later OS maps.
+
+This is an important official planning-document synthesis, but it is not a substitute for inspecting the underlying map sheets. The report's wording supports the broad relationship between the sheds, Coast Road and early Vernon Avenue; it does not provide a surveyed footprint or coordinates for individual sheds.
+
+Source: [Dublin City Council — Vernon Avenue Preliminary Design Report (2026), historical mapping section](https://www.dublincity.ie/sites/default/files/2026-06/vernon-avenue_preliminary-design-report_0.pdf)
+
+A separate street-history article transcribes the 1836 Ordnance Survey Name Books description of the road as a bye-road leading through “The Sheds of Clontarf Village” to the shore. It also notes that the route was named Green Lane on Taylor's 1816 map and an 1823 estate map. This is a useful research lead; the original Name Book entry and estate map should be inspected before treating the transcription as a primary-source quotation.
+
+Source: [Vernon Avenue — Streets broad and narrow](https://streetsbroadandnarrow.ie/vernon-avenue/)
+
+**Date distinction:** the Rocque map cited by Dublin City Council is dated 1757 and should not be conflated with the separate County Dublin survey published in 1760 that is available through the South Dublin County Council ArcGIS service and is cited by Trinity's oyster-history page. Both are relevant, but they are distinct cartographic references and must retain their own titles, dates and provenance.
+
 ### 5. Later large-scale mapping is available
 
 UCD Digital Library catalogues an Ordnance Survey Ireland map titled *City of Dublin: Township of Clontarf: sheet XVIII.29*, dated 1889, at a scale of 1:1056 (five feet to one statute mile). The catalogue identifies the source as the OSi 19th Century Historical Maps collection and gives source identifier DN018_029.
@@ -85,7 +99,8 @@ Sources:
 |---|---|---|---|
 | 1728 Thomas Burgh, Dublin Bay and Harbour chart | Dublin Port Archive original image; peer-reviewed *Irish Geography* article | Clontarf shoreline and annotation provisionally read as “Herring Shells” / “Herring Sheds” | Primary image inspected; exact lettering needs high-resolution confirmation |
 | 1725 Ballast Board survey underlying the 1728 chart | *Irish Geography* article | Survey context and roles of Captain John Perry and Gabriel Stokes | Scholarly attribution established; underlying survey records not yet inspected |
-| 1760 John Rocque, County Dublin / Dublin Bay | South Dublin County Council ArcGIS historic map service; Trinity oyster-history figure | County landscape and artificial oyster beds off Clontarf | Service located; Clontarf map area still needs direct visual inspection |
+| 1757 John Rocque map | Dublin City Council Vernon Avenue Preliminary Design Report (2026) | Early street layout and the cluster of herring sheds fronting the Coast Road | Official report interpretation identified; original map sheet still needs direct inspection |
+| 1760 John Rocque, County Dublin survey | South Dublin County Council ArcGIS historic map service; Trinity oyster-history figure | County landscape and artificial oyster beds off Clontarf | Service located; Clontarf map area still needs direct visual inspection |
 | 1837 Lewis gazetteer | Contemporary written description | Sheds along water's edge; fish curing; oyster bank offshore | Text verified; no precise footprint |
 | 1840s first-edition OS six-inch mapping | UCD / Tailte Éireann access guides | Shoreline, roads, structures and land use | Relevant sheet and edition to be identified |
 | 1889 OS Township of Clontarf, sheet XVIII.29 | UCD Digital Library item DN018_029 | Detailed plots, streets and built environment | Catalogue verified; inspect full map |
@@ -108,8 +123,8 @@ No new physical-object catalogue records or map pins are created by this researc
 1. Obtain a higher-resolution copy of the 1728 Thomas Burgh chart from Dublin Port Archive and settle the Clontarf annotation's exact lettering.
 2. If possible, inspect the 1725 Ballast Board survey or associated records to corroborate the survey history and Perry/Stokes roles.
 3. Open the Rocque 1760 ArcGIS service at the Clontarf extent and inspect the oyster-bed symbol/annotation against Trinity's published figure.
-4. Open UCD's 1889 sheet XVIII.29 at full resolution and identify whether the Sheds/Vernon Avenue waterfront falls within its coverage.
-5. Use Tailte Éireann's historic map viewer to identify the exact first-edition six-inch and later 25-inch sheets covering the same area.
+4. Use the Dublin City Council report's map extracts to identify the exact 1757 and OS sheet references; then inspect the original sheets at full resolution. Do not assume UCD sheet XVIII.29 covers the waterfront from its catalogue title or catalogue coordinate alone.
+5. Use Tailte Éireann's historic map viewer to identify the exact first-edition six-inch and later 25-inch sheets covering the same area; the DCC report establishes these series as directly relevant to Vernon Avenue.
 6. Georeference only with multiple stable control points distributed across each map. Record map edition, sheet, transformation method, residual error and estimated positional uncertainty.
 7. Compare shoreline and feature positions across editions. Keep historical features as research annotations until their geometry is defensible.
 8. Only after this work, decide whether any surviving physical feature merits a separate catalogue record and founder photography brief.

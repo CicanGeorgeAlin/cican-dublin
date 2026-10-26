@@ -6,7 +6,7 @@ An evidence-first discovery, research, fieldwork and visual-preservation project
 
 ## Live website
 
-https://cicangeorgealin.github.io/cican-dublin-archive/
+https://cicangeorgealin.github.io/cican-dublin/
 
 ## Current catalogue
 
@@ -21,7 +21,7 @@ This is an expanding research inventory, not a complete survey of Dublin. All 12
 
 ## Locked map baseline
 
-The current map-marker implementation is preserved as **MAP MARKER SYSTEM V1 BASELINE** on the [`baseline/v1-map-marker-system`](https://github.com/CicanGeorgeAlin/cican-dublin-archive/tree/baseline/v1-map-marker-system) branch. Recovery commit: `afc74b4a0814a856efe5f6f97a4ad3bfebbcc0bb`. Future map improvements should preserve this reference point.
+The current map-marker implementation is preserved as **MAP MARKER SYSTEM V1 BASELINE** on the [`baseline/v1-map-marker-system`](https://github.com/CicanGeorgeAlin/cican-dublin/tree/baseline/v1-map-marker-system) branch. Recovery commit: `afc74b4a0814a856efe5f6f97a4ad3bfebbcc0bb`. Future map improvements should preserve this reference point.
 
 ## CICAN DUBLIN mission
 

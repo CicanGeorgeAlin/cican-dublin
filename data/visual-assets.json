@@ -4097,6 +4097,99 @@
         "source_requirement": "Corresponding founder-captured original photograph"
       },
       "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0043",
+      "name": "Clontarf Road — Victorian cast-iron pillar postbox",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 3",
+      "address": "Clontarf Road, Clontarf, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full pillar postbox in its street setting",
+        "VR royal cipher and raised Post Office lettering",
+        "Dentillated rim, moulded neck and domed cap",
+        "A. Handyside & Co. Ltd, Derby & London foundry mark on the plinth",
+        "Base, condition and relationship to the footpath"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0044",
+      "name": "Howth Road — Victorian wall-mounted cast-iron postbox",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 3",
+      "address": "Howth Road, Clontarf, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Wall-mounted box and full section of host limestone wall",
+        "Queen Victoria royal cipher and crown motif",
+        "Cast Post Office lettering and letter flap",
+        "Base and any surviving foundry mark",
+        "Relationship to Howth Road and nearby Hollybrook Road junction"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0045",
+      "name": "Haddon Road — W.T. Allen Victorian wall-mounted postbox",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 3",
+      "address": "Haddon Road, Clontarf, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Complete postbox and surrounding rubble-granite wall",
+        "VR royal cipher and raised Post Office lettering",
+        "W.T. Allen maker's mark on the frame",
+        "Letter flap, hinges and ironwork details",
+        "Wider junction and streetscape context"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
     }
   ]
 }

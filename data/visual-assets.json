@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 159,
+  "record_count": 167,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -5058,6 +5058,248 @@
         "Transcribe only the characters that can be clearly read",
         "Include a wider entrance context photograph",
         "Record material, dimensions and condition only when directly observed"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-BLD-0084",
+      "name": "86 Amiens Street — Regency townhouse with surviving street-fabric details",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "86 Amiens Street, Dublin 1",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full façade and streetscape context",
+        "Entrance platform and bootscraper remains",
+        "Both coal-hole covers in their granite settings",
+        "Legible close-up of the two maker inscriptions",
+        "Cast-iron circuit box on the party wall and the word Oxford",
+        "Railings, finials and granite approach"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0066",
+      "name": "86 Amiens Street — cast-iron coal-hole cover inscribed “J. Sharkey Church St Dublin”",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 1",
+      "address": "Footpath outside 86 Amiens Street, Dublin 1",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Photograph the entire cover and granite slab",
+        "Capture the inscription square-on and legibly",
+        "Record shape, dimensions and decorative details",
+        "Show the cover's position relative to the building frontage"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0067",
+      "name": "86 Amiens Street — cast-iron coal-hole cover inscribed “RY Dublin”",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 1",
+      "address": "Footpath outside 86 Amiens Street, Dublin 1",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Photograph the entire cover and granite slab",
+        "Capture the inscription square-on and legibly",
+        "Record shape, dimensions and decorative details",
+        "Show its position relative to the first coal-hole cover and building frontage"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0068",
+      "name": "86 Amiens Street — surviving remains of a cast-iron entrance bootscraper",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 1",
+      "address": "Entrance platform at 86 Amiens Street, Dublin 1",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Locate and photograph the surviving bootscraper remains",
+        "Capture fixings and the relationship to the platform",
+        "Photograph the whole entrance in context",
+        "Do not touch or attempt to remove the remains"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0069",
+      "name": "86 Amiens Street — cast-iron party-wall circuit box marked “Oxford”",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 1",
+      "address": "Party wall between 86 and 84 Amiens Street, Dublin 1",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Photograph the complete cast-iron box from a safe public position",
+        "Capture the word Oxford clearly",
+        "Record mounting, shape and any other visible marks",
+        "Do not open or interfere with the box"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0070",
+      "name": "3 Mountjoy Square North — cast-iron bootscraper west of the entrance",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 1",
+      "address": "3 Mountjoy Square North, Dublin 1",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Photograph the bootscraper west of the entrance",
+        "Capture its form and fixings",
+        "Include the platform and doorway context",
+        "Record current condition without touching it"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0071",
+      "name": "3 Mountjoy Square North — remains of a second bootscraper east of the entrance",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 1",
+      "address": "3 Mountjoy Square North, Dublin 1",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Locate the remains east of the entrance",
+        "Photograph the surviving material without touching it",
+        "Show the position relative to the western bootscraper",
+        "Record whether the original mounting remains visible"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0072",
+      "name": "3 Mountjoy Square North — cast-iron coal-hole cover in the front pavement",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 1",
+      "address": "Footpath outside 3 Mountjoy Square North, Dublin 1",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Photograph the complete cover and pavement setting",
+        "Capture any visible lettering, maker's marks or patterns",
+        "Record shape and dimensions without touching it",
+        "Show its relationship to the building frontage"
       ],
       "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
       "original_photo": null,

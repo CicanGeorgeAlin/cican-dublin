@@ -394,6 +394,35 @@ dialog::backdrop{background:rgba(31,28,22,.55);backdrop-filter:blur(5px)}
 .pagination .page-note{color:#999;font-size:11px;margin:0 10px}
 @media(max-width:600px){.archive-filters{display:grid;grid-template-columns:1fr 1fr}.archive-filters label{display:block}.archive-filters select{width:100%;margin-top:6px}.archive-filters label:last-child{grid-column:1/-1}}
 
+
+/* Evidence-graded live research feed */
+.research-section{padding:34px 0 42px;border-bottom:1px solid var(--line)}
+.research-heading{display:flex;justify-content:space-between;align-items:end;gap:18px;margin-bottom:18px}
+.research-heading h2{font-size:clamp(26px,4vw,42px);letter-spacing:-.055em;line-height:1.05;margin:9px 0}
+.research-heading p{max-width:650px;color:#aaa;font-size:14px;line-height:1.7;margin:0}
+.research-count{font-size:10px;letter-spacing:.12em;color:#888;white-space:nowrap}
+.research-feed{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.research-card{border:1px solid #303030;background:linear-gradient(145deg,#101010,#080808);padding:18px;min-width:0}
+.research-meta{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-bottom:12px}
+.research-area{font-size:9px;letter-spacing:.14em;color:#888}
+.research-status{font-size:9px;letter-spacing:.08em;border:1px solid #555;color:#ddd;padding:5px 7px;text-align:right}
+.research-status[data-status="ARCHIVAL_LEAD"],.research-status[data-status="PRIMARY_CHECK_PENDING"],.research-status[data-status="ARCHIVAL_ACCESS_TARGET"]{border-color:#806c45;color:#dfc18b}
+.research-status[data-status="DOCUMENTED_CONTEXT"]{border-color:#536b59;color:#b9d3bf}
+.research-card h3{font-size:19px;line-height:1.2;letter-spacing:-.035em;margin:0 0 9px}
+.research-card>p{font-size:13px;line-height:1.7;color:#bbb;margin:0}
+.research-card details{border-top:1px solid #292929;margin-top:14px;padding-top:12px}
+.research-card summary{font-size:10px;letter-spacing:.1em;color:#eee;cursor:pointer;list-style:none}
+.research-card summary::-webkit-details-marker{display:none}
+.research-card summary:after{content:"＋";float:right;color:#888}
+.research-card details[open] summary:after{content:"−"}
+.research-detail{font-size:12px;line-height:1.7;color:#aaa;margin:12px 0}
+.research-detail strong{display:block;color:#eee;font-size:9px;letter-spacing:.12em;margin-bottom:3px}
+.research-sources{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.research-sources a{border:1px solid #414141;padding:7px 9px;font-size:10px;color:#ddd;text-decoration:none}
+.research-sources a:hover{border-color:#ddd;color:#fff}
+.research-updated{font-size:9px;color:#777;margin-top:12px;letter-spacing:.08em}
+@media(max-width:700px){.research-section{padding:26px 0 32px}.research-heading{align-items:flex-start;flex-direction:column}.research-feed{grid-template-columns:1fr}.research-card{padding:16px}.research-card h3{font-size:18px}.research-card>p{font-size:13px}}
+
 </style>
 <style>
 /* Photo-led archive catalogue — consistent full-size imagery for every record. */
@@ -427,12 +456,16 @@ dialog::backdrop{background:rgba(31,28,22,.55);backdrop-filter:blur(5px)}
 </style>
 </head>
 <body>
-<header><div class="wrap nav"><a class="brand" href="#top"><span>CICAN DUBLIN ARCHIVE</span></a><nav class="navlinks"><a href="#archive">Archive</a><a href="https://github.com/CicanGeorgeAlin/cican-dublin-archive">Project ↗</a></nav></div></header>
+<header><div class="wrap nav"><a class="brand" href="#top"><span>CICAN DUBLIN ARCHIVE</span></a><nav class="navlinks"><a href="#research">Research</a><a href="#archive">Places</a><a href="https://github.com/CicanGeorgeAlin/cican-dublin-archive">Project ↗</a></nav></div></header>
 <main id="top">
 <section class="wrap simple-hero">
  <div class="eyebrow">DUBLIN · IRELAND</div>
  <h1>Find a place. Walk to it.</h1>
  <p>Choose a historic place below. Tap <strong>WALK THERE</strong> to open walking directions in Google Maps.</p>
+</section>
+<section class="wrap research-section" id="research" aria-labelledby="research-title">
+ <div class="research-heading"><div><span class="eyebrow">THE ARCHIVE IN PROGRESS</span><h2 id="research-title">New research &amp; discoveries</h2><p>Findings are published as they emerge, with evidence status and unresolved questions clearly marked.</p></div><span class="research-count" id="research-count">LOADING RESEARCH</span></div>
+ <div class="research-feed" id="research-feed" aria-live="polite"><div class="empty">Loading research notes…</div></div>
 </section>
 <section class="wrap archive" id="archive">
  <div class="list-heading"><div><span class="eyebrow">YOUR DUBLIN FIELD GUIDE</span><h2>Places to explore</h2></div><span class="count" id="count" aria-live="polite">LOADING</span></div>
@@ -448,10 +481,24 @@ dialog::backdrop{background:rgba(31,28,22,.55);backdrop-filter:blur(5px)}
 const $=selector=>document.querySelector(selector);
 const esc=value=>String(value??"").replace(/[&<>"']/g,char=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char]));
 const clean=value=>String(value??"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().trim();
-let objects=[],sources=[],visualAssets={records:[]};
+let objects=[],sources=[],visualAssets={records:[]},researchItems=[];
 let selectedPhotoUrl=null;
 let currentPage=1;
 const defaultPageSize=18;
+
+function renderResearch(){
+ const host=$("#research-feed");
+ const count=$("#research-count");
+ const rows=Array.isArray(researchItems)?researchItems:[];
+ count.textContent=rows.length+" RESEARCH NOTES";
+ if(!rows.length){host.innerHTML='<div class="empty">No research notes have been published yet.</div>';return;}
+ host.innerHTML=rows.map(item=>{
+  const linked=(item.source_ids||[]).map(id=>sources.find(source=>source.id===id)).filter(Boolean);
+  const sourceLinks=linked.map(source=>'<a href="'+esc(safeUrl(source.url))+'" target="_blank" rel="noopener noreferrer">'+esc(source.name)+' ↗</a>').join("");
+  return '<article class="research-card"><div class="research-meta"><span class="research-area">'+esc(item.area||"DUBLIN")+'</span><span class="research-status" data-status="'+esc(item.status)+'">'+esc(item.status_label||item.status)+'</span></div><h3>'+esc(item.title)+'</h3><p>'+esc(item.summary)+'</p><details><summary>EVIDENCE, LIMITS &amp; SOURCES</summary><div class="research-detail"><strong>WHAT THE SOURCES SUPPORT</strong>'+esc(item.supported)+'</div><div class="research-detail"><strong>WHAT IS NOT YET ESTABLISHED</strong>'+esc(item.limits)+'</div><div class="research-sources">'+sourceLinks+'</div></details><div class="research-updated">UPDATED '+esc(item.updated||"DATE NOT RECORDED")+' · '+esc(item.id)+'</div></article>';
+ }).join("");
+}
+
 function recordText(record){
  const sourceRows=(record.sources||[]).map(id=>sources.find(source=>source.id===id)).filter(Boolean);
  return [
@@ -595,9 +642,9 @@ $("#categoryFilter").addEventListener("change",()=>{currentPage=1;render()});
 $("#pageSize").addEventListener("change",()=>{currentPage=1;render()});
 $("#pagination").addEventListener("click",event=>{const button=event.target.closest("[data-page]");if(!button||button.disabled)return;const value=button.dataset.page;const pages=Number($("#count").textContent.match(/OF (\d+)/)?.[1]||1);currentPage=value==="prev"?Math.max(1,currentPage-1):value==="next"?Math.min(pages,currentPage+1):Number(value);render();$("#archive").scrollIntoView({behavior:"smooth",block:"start"})});
 
-Promise.all(["objects","sources","visual-assets"].map(name=>fetch("./data/"+name+".json").then(response=>{if(!response.ok)throw Error("Could not load "+name+" catalogue (HTTP "+response.status+")");return response.json()}))).then(([objectData,sourceData,visualData])=>{
- if(!Array.isArray(objectData)||!Array.isArray(sourceData)||!visualData||!Array.isArray(visualData.records))throw Error("The archive data format is invalid.");
- objects=objectData;sources=sourceData;visualAssets=visualData;
+Promise.all(["objects","sources","visual-assets","research"].map(name=>fetch("./data/"+name+".json").then(response=>{if(!response.ok)throw Error("Could not load "+name+" catalogue (HTTP "+response.status+")");return response.json()}))).then(([objectData,sourceData,visualData,researchData])=>{
+ if(!Array.isArray(objectData)||!Array.isArray(sourceData)||!visualData||!Array.isArray(visualData.records)||!Array.isArray(researchData))throw Error("The archive data format is invalid.");
+ objects=objectData;sources=sourceData;visualAssets=visualData;researchItems=researchData;renderResearch();
  const districts=[...new Set(objects.map(r=>r.district).filter(Boolean))].sort();
  const categories=[...new Set(objects.map(r=>r.category).filter(Boolean))].sort();
  $("#districtFilter").innerHTML='<option value="">All districts</option>'+districts.map(v=>'<option value="'+esc(v)+'">'+esc(v)+'</option>').join("");

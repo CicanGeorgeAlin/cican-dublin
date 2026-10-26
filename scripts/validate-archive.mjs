@@ -34,6 +34,12 @@ for(const r of objects){
  if(r.map_url){const u=new URL(r.map_url);assert.ok(["https:","http:"].includes(u.protocol),"Invalid map URL: "+r.id);assert.equal(u.searchParams.get("travelmode"),"walking","Walking link must explicitly use walking mode: "+r.id);}
 }
 for(const s of sources){assert.ok(s.name,"Source "+s.id+" needs a name.");if(s.url){const u=new URL(s.url);assert.ok(["https:","http:"].includes(u.protocol),"Invalid source URL: "+s.id);}}
+const mapApp=read("preview/app/app.js"),serviceWorker=read("preview/service-worker.js");
+for(const [label,url] of [["object catalogue",'const DATA_URL="../data/objects.json";'],["source registry",'const SOURCES_URL="../data/sources.json";'],["visual inventory",'const VISUALS_URL="../data/visual-assets.json";']])assert.ok(mapApp.includes(url),"Map application must use the canonical root "+label+".");
+assert.ok(serviceWorker.includes('"../data/objects.json"')&&serviceWorker.includes('"../data/sources.json"')&&serviceWorker.includes('"../data/visual-assets.json"'),"App service worker must cache the canonical root data files.");
+assert.equal(objects.length,json("data/objects.json").length,"Map and catalogue must share the same object count.");
+assert.equal(sources.length,json("data/sources.json").length,"Map and catalogue must share the same source count.");
+assert.equal(visual.records.length,json("data/visual-assets.json").records.length,"Map and catalogue must share the same visual inventory.");
 for(const v of visual.records){
  assert.ok(objectIds.has(v.record_id),"Visual entry has no matching catalogue record: "+v.record_id);
  assert.ok(Array.isArray(v.reference_images||[]),"Reference images must be an array: "+v.record_id);
@@ -47,6 +53,7 @@ for(const file of ["index.html","archive.html","my-dublin.html"]){
  const scripts=[...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/gi)];
  for(let i=0;i<scripts.length;i++)new vm.Script(scripts[i][1],{filename:file+" inline script "+(i+1)});
 }
+for(const file of ["index.html","archive.html","preview/app.html","preview/manifest.webmanifest"]){const content=read(file);assert.ok(!/CICAN\\s+DUBLIN\\s+ARCHIVE/i.test(content),file+" must use the CICAN DUBLIN public brand.");}
 const home=read("index.html");
 const mapFirstHome=home.includes('id="map"')&&home.includes('<base href="./preview/">')&&home.includes('src="./app/app.js"');
 if(mapFirstHome){

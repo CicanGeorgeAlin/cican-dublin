@@ -1591,5 +1591,35 @@
     "source_type": "TRANSCRIBED_HISTORICAL_LETTER",
     "specific_reference": "Christmas Weekes, Clontarf, letter dated 30 November 1786, concerning works supplying shipping with water",
     "notes": "Page reproduces a letter attributed to Christmas Weekes at Clontarf, dated 30 November 1786, thanking the County Grand Jury for recognition of works supplying shipping with water and other uses. Original Grand Jury record and any pipe route/plan remain to be located."
+  },
+  {
+    "id": "NIAH-50030114",
+    "name": "Clontarf Road — Victorian cast-iron pillar postbox — NIAH registration 50030114",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030114/clontarf-road-clontarf-dublin-3-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030114; Dublin 3; published Irish Grid reference 320568, 235779.",
+    "notes": "Official NIAH register entry identified through the indexed NIAH record. The indexed register description, appraisal and Irish Grid reference were reviewed on 26 October 2026; direct opening of the NIAH page returned HTTP 403 in this research pass. Retain PARTIALLY_VERIFIED until the full register page or downloadable official record is independently inspected. WGS 84 point is transformed from the published Irish Grid reference and remains source-derived pending founder field verification."
+  },
+  {
+    "id": "NIAH-50030284",
+    "name": "Howth Road — Victorian wall-mounted cast-iron postbox — NIAH registration 50030284",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030284/howth-road-clontarf-dublin-3-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030284; Dublin 3; published Irish Grid reference 318626, 236625.",
+    "notes": "Official NIAH register entry identified through the indexed NIAH record. The indexed register description, appraisal and Irish Grid reference were reviewed on 26 October 2026; direct opening of the NIAH page returned HTTP 403 in this research pass. Retain PARTIALLY_VERIFIED until the full register page or downloadable official record is independently inspected. WGS 84 point is transformed from the published Irish Grid reference and remains source-derived pending founder field verification."
+  },
+  {
+    "id": "NIAH-50030046",
+    "name": "Haddon Road — W.T. Allen Victorian wall-mounted postbox — NIAH registration 50030046",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030046/haddon-road-clontarf-dublin-3-co-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030046; Dublin 3; published Irish Grid reference 319115, 236001.",
+    "notes": "Official NIAH register entry identified through the indexed NIAH record. The indexed register description, appraisal and Irish Grid reference were reviewed on 26 October 2026; direct opening of the NIAH page returned HTTP 403 in this research pass. Retain PARTIALLY_VERIFIED until the full register page or downloadable official record is independently inspected. WGS 84 point is transformed from the published Irish Grid reference and remains source-derived pending founder field verification."
   }
 ]

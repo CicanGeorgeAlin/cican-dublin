@@ -111,15 +111,15 @@
     ]
   },
   {
-    "id": "RES-CLONTARF-TOOLE-WILL-1789",
-    "title": "1789: a will abstract names property in the Sheds of Clontarf",
+    "id": "RES-CLONTARF-TOOLE-WILL-1792",
+    "title": "1792: Patrick Toole's will abstract names the Sheds of Clontarf",
     "area": "CLONTARF · COUNTY DUBLIN",
     "updated": "2026-10-26",
     "status": "ARCHIVAL_ABSTRACT",
     "status_label": "PUBLISHED ARCHIVAL ABSTRACT · UNDERLYING RECORD NOT INSPECTED",
-    "summary": "A published Registry of Deeds will abstract for Patrick Toole, dated 26 January 1789, identifies property in the Sheds of Clontarf and a house on the Green in the Sheds.",
-    "supported": "The search-indexed text of Abstract no. 42 in the Irish Manuscripts Commission's Registry of Deeds Abstracts of Wills, Volume III (1785–1832), records these place references. This provides an earlier documentary reference to the Sheds of Clontarf as a named property locality.",
-    "limits": "The underlying will/deed and its original memorial have not been inspected directly in this session. The abstract does not identify a precise plot, establish the physical location of the house, or map any shed footprints.",
+    "summary": "The Irish Manuscripts Commission's digitised Registry of Deeds Abstracts of Wills, Volume III, identifies Patrick Toole's property in the Sheds of Clontarf and a dwellinghouse in the Green of the Sheds. The entry is dated 11 September 1792, not 1789.",
+    "supported": "The searchable published abstract identifies Patrick Toole, Sheds of Clontarf, County Dublin, and the date 11 September 1792. It refers to leasehold and other property in the Sheds and a dwellinghouse in the Green of the Sheds.",
+    "limits": "The original memorial/deed has not been inspected directly. The abstract does not identify a precise plot, establish the physical location of the house, or map any shed footprints. Earlier project metadata incorrectly dated this entry 1789; that error is corrected in this update.",
     "source_ids": [
       "SRC-CLONTARF-REGISTRY-WILLS-1789"
     ]
@@ -138,6 +138,63 @@
       "SRC-CLONTARF-COSGRAVE-NORTH-DUBLIN",
       "SRC-CLONTARF-BURGH-1728-ARCHIVE",
       "SRC-CLONTARF-BURGH-1728-ACADEMIC"
+    ]
+  },
+  {
+    "id": "RES-CLONTARF-MALTON-1785",
+    "title": "1785: a print titled The Sheds of Clontarfe",
+    "area": "CLONTARF · HISTORIC VISUAL RECORD",
+    "updated": "2026-10-26",
+    "status": "DIRECT_VISUAL_SOURCE_LOCATED",
+    "status_label": "BRITISH LIBRARY PRINT IDENTIFIED · IMAGE INSPECTION PENDING",
+    "summary": "The British Library's King's Topographical Collection inventory lists an 1785 print titled The Sheds of Clontarfe, by Thomas Malton after Francis Wheatley, shelfmark Maps K.Top.53.25. This is a direct visual-source lead specifically titled for the Clontarf sheds.",
+    "supported": "The catalogue inventory gives the title, maker attribution, date and British Library shelfmark. A digitised dictionary of Irish artists also records Malton's 1785 aquatint after Wheatley.",
+    "limits": "The print image has not yet been inspected at adequate resolution. We cannot yet describe buildings, shoreline, viewpoint or exact geography from its title alone. The higher-quality scan and reproduction terms need to be obtained from the British Library.",
+    "source_ids": [
+      "SRC-CLONTARF-BL-MALTON-1785",
+      "SRC-CLONTARF-MALTON-1785-IRISH-ARTISTS"
+    ]
+  },
+  {
+    "id": "RES-CLONTARF-DONNYCARNEY-1704",
+    "title": "1704: an early survey of the Parish of Clontarf",
+    "area": "DONNYCARNEY · COOLOCK · CLONTARF PARISH",
+    "updated": "2026-10-26",
+    "status": "MANUSCRIPT_MAP_CATALOGUED",
+    "status_label": "MANUSCRIPT MAP CATALOGUED · COVERAGE OF SHEDS UNCHECKED",
+    "summary": "A 1704 survey by John Greene Junior is catalogued by the Virtual Treasury as a map of lands in the Barony of Coolock and Parish of Clontarf. Its stated boundaries include the Strand and Upper Hollybrook.",
+    "supported": "The Virtual Treasury catalogue provides the map's date, creator, reference code DCLA C1 S1/130 and boundary description. This establishes a useful early cadastral source for the wider parish.",
+    "limits": "The map image has not yet been inspected to establish whether it covers the Sheds or the relevant shoreline. Its title and parish-wide scope do not prove that the Sheds appear on the sheet. No map geometry or pin is inferred.",
+    "source_ids": [
+      "SRC-CLONTARF-VRT-1704-DONNYCARNEY"
+    ]
+  },
+  {
+    "id": "RES-CLONTARF-HERRINGTOWNE-1693",
+    "title": "A possible earlier name: Herringtowne, 1693",
+    "area": "CLONTARF · DUBLIN BAY",
+    "updated": "2026-10-26",
+    "status": "SECONDARY_NAME_LEAD",
+    "status_label": "SECONDARY HISTORICAL CLAIM · ORIGINAL CHART INSPECTION PENDING",
+    "summary": "A Clontarf historical report states that the Sheds fishing-port was referred to as Herringtowne in Greenville Collins' 1693 map of the area.",
+    "supported": "The secondary report explicitly attributes the name Herringtowne to Collins' 1693 map. This creates an earlier name-search lead for the fishing settlement.",
+    "limits": "The original chart and exact label have not been inspected. Do not treat Herringtowne as a verified map transcription or assume that it labels precisely the same footprint later called the Sheds.",
+    "source_ids": [
+      "SRC-CLONTARF-COLLINS-1693-HERRINGTOWNE"
+    ]
+  },
+  {
+    "id": "RES-CLONTARF-WEEKES-WATER-1786",
+    "title": "1786: Christmas Weekes and water supply at Clontarf",
+    "area": "CLONTARF · COUNTY DUBLIN",
+    "updated": "2026-10-26",
+    "status": "TRANSCRIBED_LETTER_LEAD",
+    "status_label": "HISTORICAL LETTER TRANSCRIPTION · ORIGINAL RECORD PENDING",
+    "summary": "A published transcription reproduces a 30 November 1786 letter from Christmas Weekes at Clontarf thanking the County Grand Jury for recognition of works supplying shipping with water and other uses.",
+    "supported": "The transcription identifies Weekes, Clontarf, the date and the subject of water-supply works. This may add an infrastructure strand to the story of the Sheds and the coastal settlement.",
+    "limits": "The original Grand Jury record has not been inspected. The letter does not establish a precise pipe route, exact location of a water source or individual shed locations.",
+    "source_ids": [
+      "SRC-CLONTARF-WEEKES-1786"
     ]
   }
 ]

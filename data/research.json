@@ -336,5 +336,24 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ]
+  },
+  {
+    "id": "RES-DUBLIN2-EARLSFORT-HARCOURT-PEMBROKE-DETAILS-2026",
+    "title": "Seven more entrance and pavement details at Earlsfort, Harcourt and Pembroke Terraces",
+    "area": "EARLSFORT TERRACE · HARCOURT TERRACE · PEMBROKE STREET UPPER · DUBLIN 2",
+    "updated": "2026-10-26",
+    "status": "OFFICIAL_REGISTER_RECORDS_REVIEWED",
+    "status_label": "FULL NIAH REGISTER CONTENT REVIEWED · FOUNDER FIELDWORK PENDING",
+    "summary": "Four NIAH records identify seven separately documentable small details: bootscrapes, coal-hole covers, a cast-iron balustrade and matching gate at 18 Earlsfort Terrace; a coal-hole cover at 1 Harcourt Terrace; a bootscraper and coal-hole cover at 2 Pembroke Street Upper; and a coal-hole cover at 13 Pembroke Street Upper.",
+    "supported": "NIAH registrations 50110449, 50110463, 50930232 and 50930242 were directly reviewed. Their descriptions explicitly identify the listed features and provide Irish Grid references for the host buildings. The 18 Earlsfort record specifies the bootscrape, matching gate and coal-hole cover; the Harcourt record specifies the coal-hole cover in granite pavior; both Pembroke records specify pavement coal-hole covers, and No. 2 also specifies a cast-iron bootscraper.",
+    "limits": "The NIAH points locate the host buildings, not the exact positions of each micro-detail. Current condition, exact location, maker's marks and visibility from lawful public viewpoints require founder fieldwork. No founder photographs or line art have been created.",
+    "source_ids": [
+      "NIAH-50110449",
+      "NIAH-50110463",
+      "NIAH-50930232",
+      "NIAH-50930242",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ]
   }
 ]

@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN ARCHIVE",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 106,
+  "record_count": 114,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -3435,6 +3435,254 @@
         "Round-headed doorway, fanlight and pilasters",
         "Granite-capped boundary, cast-iron railings and gate",
         "Visible rear coach-house remains only from a lawful public viewpoint or with permission"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-BLD-0062",
+      "name": "Edward VII cast-iron postbox — Castle Avenue",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 3",
+      "address": "Castle Avenue, Clontarf, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full postbox and supporting pier in context",
+        "Edward VII royal monogram",
+        "Raised 'Post Office' lettering",
+        "Base and any visible foundry mark without touching the box",
+        "Relationship to the telephone exchange frontage"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-BLD-0063",
+      "name": "Rathmore — former pair of houses, 8–9 Castle Avenue",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 3",
+      "address": "8–9 Castle Avenue, Clontarf, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Whole frontage from a lawful public viewpoint",
+        "Gabled box-bay and half-timbered gables",
+        "Red-brick Flemish bond and stringcourse",
+        "Shared recessed entrance and surviving door details",
+        "Granite steps, boundary wall and wrought-iron gates"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-BLD-0064",
+      "name": "Balmoral Lodge — 17 Castle Avenue",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 3",
+      "address": "17 Castle Avenue, Clontarf, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Front elevation and relationship to adjoining later house",
+        "Round-headed entrance and petal fanlight",
+        "Rendered quoins and surviving sash windows",
+        "Roofline and early brick chimneystacks where visible",
+        "Cast-iron railings, gates and granite plinth"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-BLD-0065",
+      "name": "Clontarf Telephone Exchange",
+      "category": "INFRASTRUCTURE",
+      "district": "Dublin 3",
+      "address": "Castle Avenue, Clontarf, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Overall building from public footpath",
+        "Square-plan corner pavilions and flat roofline",
+        "Cast-iron harp plaque, if visible from public space",
+        "Contrasting brick, concrete and roughcast-rendered surfaces",
+        "Original boundary wall and public-street context"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-BLD-0066",
+      "name": "Ivy Lodge — 18 Castle Avenue",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 3",
+      "address": "18 Castle Avenue, Clontarf, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Front elevation and end-of-terrace position",
+        "Round-headed entrance and petal fanlight",
+        "Timber sash windows and rendered quoins",
+        "Granite entrance platform and cast-iron railings",
+        "Roofline and rear return only where visible from lawful public viewpoints"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-BLD-0067",
+      "name": "Clontarf Hospital — former nurses' home",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 3",
+      "address": "Castle Avenue, Clontarf, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Overall visible form from a public viewpoint",
+        "Flat rooflines and horizontal composition",
+        "Round porthole windows and entrance canopy",
+        "Date stone marked 1951 if visible from public space",
+        "Curved-corner block and granite recessed panels where visible"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-BLD-0068",
+      "name": "Church of St John the Baptist — historic graveyard and ruined church",
+      "category": "MONUMENT",
+      "district": "Dublin 3",
+      "address": "West side of Castle Avenue, north-east of Clontarf Castle, Clontarf, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Entrance gateway and its Tudor arch from a lawful viewpoint",
+        "Ruined church in relation to the burial ground",
+        "Boundary walls and curved coping stones",
+        "Selected inscriptions only where legible without touching or disturbing graves",
+        "Record stone condition and vegetation without cleaning, scraping or applying materials"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-BLD-0069",
+      "name": "Brian Boróimhe's Well — 1850 commemorative drinking fountain",
+      "category": "MONUMENT",
+      "district": "Dublin 3",
+      "address": "Castle Avenue, Clontarf, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full rendered wall and plaque in context",
+        "Shamrock motif and complete inscription legibly",
+        "Date AD 1850 and letterform details",
+        "Metal surface, patina and any visible fixing details",
+        "Relationship to Castle Avenue streetscape"
       ],
       "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
       "original_photo": null,

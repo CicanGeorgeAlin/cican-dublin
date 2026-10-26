@@ -1403,7 +1403,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-MOUNTJOY-SCOTCH-LAMP-2008-DUB-STR-0012",
+          "title": "Scotch Standard lamppost, Mountjoy Square",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Mountjoy_Square%2C_Dublin%2C_Ireland.jpg/768px-Mountjoy_Square%2C_Dublin%2C_Ireland.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Mountjoy_Square,_Dublin,_Ireland.jpg",
+          "photographer": "Gavinmc",
+          "date_taken": "2008-10-05",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Public domain — released by the author",
+          "licence_url": "https://commons.wikimedia.org/wiki/File:Mountjoy_Square,_Dublin,_Ireland.jpg",
+          "attribution": "Gavinmc, “Mountjoy Square, Dublin, Ireland”, photographed 5 October 2008, via Wikimedia Commons (public domain dedication).",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "A full-height Scotch Standard lamppost on Mountjoy Square. This provides a square-level visual reference for the nearby post-box location, not a photograph of the catalogued post box."
+        }
+      ]
     },
     {
       "record_id": "DUB-STR-0013",
@@ -2446,7 +2462,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-MOUNTJOY-COALHOLE-2008-DUB-BLD-0025",
+          "title": "Ornate coal hole in original granite, Mountjoy Square",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Mountjoy_Square%2C_Dublin%2C_Ireland_%28ornate_coal_hole%29_001.jpg/960px-Mountjoy_Square%2C_Dublin%2C_Ireland_%28ornate_coal_hole%29_001.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Mountjoy_Square,_Dublin,_Ireland_(ornate_coal_hole)_001.jpg",
+          "photographer": "Gavinmc",
+          "date_taken": "2008-10-05",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Public domain — released by the author",
+          "licence_url": "https://commons.wikimedia.org/wiki/File:Mountjoy_Square,_Dublin,_Ireland_(ornate_coal_hole)_001.jpg",
+          "attribution": "Gavinmc, “Mountjoy Square, Dublin, Ireland (ornate coal hole) 001”, photographed 5 October 2008, via Wikimedia Commons (public domain dedication).",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "An ornate coal-hole cover from Mountjoy Square set in granite. It is a nearby-area visual reference, not confirmed as the cover outside No. 3 Mountjoy Square North."
+        }
+      ]
     },
     {
       "record_id": "DUB-BLD-0026",
@@ -5832,7 +5864,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-MOUNTJOY-FOOTSCRAPER-2008-DUB-STR-0070",
+          "title": "Mountjoy Square footscraper — cast-iron entrance fitting",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Mountjoy_square_footscraper3.jpg/960px-Mountjoy_square_footscraper3.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Mountjoy_square_footscraper3.jpg",
+          "photographer": "Gavinmc",
+          "date_taken": "2008-11-30",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Public domain — released by the author",
+          "licence_url": "https://commons.wikimedia.org/wiki/File:Mountjoy_square_footscraper3.jpg",
+          "attribution": "Gavinmc, “Mountjoy square footscraper3”, 30 November 2008, via Wikimedia Commons (public domain dedication).",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "A cast-iron footscraper photographed on Mountjoy Square. It is a useful comparison and location-area reference, but the source does not establish that it is the specific fitting at No. 3 Mountjoy Square North."
+        }
+      ]
     },
     {
       "record_id": "DUB-STR-0071",
@@ -5862,7 +5910,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-MOUNTJOY-FOOTSCRAPER-2008-DUB-STR-0071",
+          "title": "Mountjoy Square footscraper — cast-iron entrance fitting",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Mountjoy_square_footscraper3.jpg/960px-Mountjoy_square_footscraper3.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Mountjoy_square_footscraper3.jpg",
+          "photographer": "Gavinmc",
+          "date_taken": "2008-11-30",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Public domain — released by the author",
+          "licence_url": "https://commons.wikimedia.org/wiki/File:Mountjoy_square_footscraper3.jpg",
+          "attribution": "Gavinmc, “Mountjoy square footscraper3”, 30 November 2008, via Wikimedia Commons (public domain dedication).",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "A cast-iron footscraper photographed on Mountjoy Square. It is a useful comparison and location-area reference, but the source does not establish that it is the specific fitting at No. 3 Mountjoy Square North."
+        }
+      ]
     },
     {
       "record_id": "DUB-STR-0072",
@@ -5892,7 +5956,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-MOUNTJOY-COALHOLE-2008-DUB-STR-0072",
+          "title": "Ornate coal hole in original granite, Mountjoy Square",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Mountjoy_Square%2C_Dublin%2C_Ireland_%28ornate_coal_hole%29_001.jpg/960px-Mountjoy_Square%2C_Dublin%2C_Ireland_%28ornate_coal_hole%29_001.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Mountjoy_Square,_Dublin,_Ireland_(ornate_coal_hole)_001.jpg",
+          "photographer": "Gavinmc",
+          "date_taken": "2008-10-05",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Public domain — released by the author",
+          "licence_url": "https://commons.wikimedia.org/wiki/File:Mountjoy_Square,_Dublin,_Ireland_(ornate_coal_hole)_001.jpg",
+          "attribution": "Gavinmc, “Mountjoy Square, Dublin, Ireland (ornate coal hole) 001”, photographed 5 October 2008, via Wikimedia Commons (public domain dedication).",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "An ornate coal-hole cover from Mountjoy Square set in granite. It is a nearby-area visual reference, not confirmed as the cover outside No. 3 Mountjoy Square North."
+        }
+      ]
     },
     {
       "record_id": "DUB-BLD-0085",

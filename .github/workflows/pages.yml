@@ -1,4 +1,4 @@
-name: Deploy CICAN Dublin Archive
+name: Deploy CICAN DUBLIN
 
 on:
   push:

@@ -104,3 +104,8 @@ The public archive includes a **New research & discoveries** feed backed by `dat
 Research notes are not physical catalogue objects. A manuscript-map catalogue entry, an uninspected map image, a secondary transcription or an unresolved map-edition discrepancy must never be converted into a physical object, a coordinate or a map pin. Promote a lead only after its identity, geographic relationship and material claims have been checked against adequate evidence. The website must show the distinction between documented historical context, archival leads and pending primary-source inspection.
 
 Every publication cycle updates the source registry and research feed together, checks all source references and unique IDs, runs the archive preflight, and confirms the GitHub Pages deployment before describing the website as updated.
+
+
+## Investigation control register
+
+`data/investigation.json` is the machine-readable claim and task register for active historical investigations. It stores claim-level evidence grades, source IDs, unresolved questions, ordered research tasks and protected boundaries. It is distinct from `data/research.json`: research notes are public narrative findings, while the investigation register controls the evidence audit and next actions. The companion contract is `schemas/investigation.schema.json`. Every source ID referenced by a claim or task must exist in `data/sources.json`. The archive validator checks these references, unique claim/task IDs and permitted evidence grades.

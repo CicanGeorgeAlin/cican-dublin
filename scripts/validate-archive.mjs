@@ -56,13 +56,13 @@ for(const file of ["index.html","archive.html","my-dublin.html"]){
 }
 for(const file of ["index.html","archive.html","preview/app.html","preview/manifest.webmanifest"]){const content=read(file);assert.ok(!/CICAN\s+DUBLIN\s+ARCHIVE/i.test(content),file+" must use the CICAN DUBLIN public brand.");}
 const sitemap=read("sitemap.xml"),robots=read("robots.txt");
-assert.ok(sitemap.includes("https://cicangeorgealin.github.io/cican-dublin-archive/")&&sitemap.includes("https://cicangeorgealin.github.io/cican-dublin-archive/archive.html"),"Sitemap must include the public homepage and discovery catalogue.");
-assert.ok(robots.includes("Sitemap: https://cicangeorgealin.github.io/cican-dublin-archive/sitemap.xml"),"Robots file must advertise the sitemap.");
+assert.ok(sitemap.includes("https://cicangeorgealin.github.io/cican-dublin/")&&sitemap.includes("https://cicangeorgealin.github.io/cican-dublin/archive.html"),"Sitemap must include the public homepage and discovery catalogue.");
+assert.ok(robots.includes("Sitemap: https://cicangeorgealin.github.io/cican-dublin/sitemap.xml"),"Robots file must advertise the sitemap.");
 assert.ok(read("my-dublin.html").includes('<meta name="robots" content="noindex,follow">'),"Personal field notebook must not be indexed as a public landing page.");
 const home=read("index.html");
 const mapFirstHome=home.includes('id="map"')&&home.includes('<base href="./preview/">')&&home.includes('src="./app/app.js"');
 if(mapFirstHome){
- assert.ok(home.includes('rel="canonical" href="https://cicangeorgealin.github.io/cican-dublin-archive/"'),"Map-first homepage must declare the canonical root URL.");
+ assert.ok(home.includes('rel="canonical" href="https://cicangeorgealin.github.io/cican-dublin/"'),"Map-first homepage must declare the canonical root URL.");
  assert.ok(home.includes('.discovery-panel:not(.detail-open){display:none!important}'),"Map-first homepage must keep the discovery sheet hidden until a place is selected.");
 }else{
  for(const id of ["homeSearch","homeDistrict","homeCount","homeGrid","homeMore","heroDiscoveryCount","heroIndexTotal"])assert.ok(home.includes('id="'+id+'"'),"Homepage missing #"+id);

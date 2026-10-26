@@ -1311,5 +1311,65 @@
     "source_type": "OFFICIAL_HERITAGE_REGISTER",
     "specific_reference": "NIAH Registration 50030123; Dublin 3; published Irish Grid reference 320227, 235778.",
     "notes": "Primary official source for registered place/object, historical description, appraisal, date range and source coordinate. Original Irish Grid reference preserved; transformed WGS 84 coordinate is source-derived pending founder field verification."
+  },
+  {
+    "id": "SRC-CLONTARF-BURGH-1728-ARCHIVE",
+    "name": "A New and Correct Map of the Bay and Harbour of Dublin with a small Plan of the City (1728)",
+    "publisher": "Dublin Port Archive",
+    "url": "https://www.dublinportarchive.com/wp-content/uploads/2022/02/Maps_Bowles.jpg",
+    "accessed": "2026-10-26",
+    "source_type": "PRIMARY_DOCUMENT",
+    "specific_reference": "1728 harbour chart; map image hosted by Dublin Port Archive",
+    "notes": "Primary map image. Scholarly attribution identifies Thomas Burgh as chart author, based on a 1725 Ballast Board survey assisted by Captain John Perry and Gabriel Stokes; printed by John Bowles and engraved by Emanuel Bowen. Clontarf annotation requires high-resolution transcription. Dublin Port Archive requires licensing for publication reuse."
+  },
+  {
+    "id": "SRC-CLONTARF-BURGH-1728-ACADEMIC",
+    "name": "Charles Brooking’s 1728 map of Dublin: context, influences and compilation of an early Georgian city survey",
+    "publisher": "Finnian Ó Cionnaith, Irish Geography",
+    "url": "https://search.igsjournal.ie/pdfs/ngOhKEAjInGJxt1RLwS9tFpb4kGKtCE7Y6QLhsEl.pdf",
+    "accessed": "2026-10-26",
+    "source_type": "ACADEMIC",
+    "specific_reference": "Article section discussing Thomas Burgh's 1728 Dublin Bay chart; PDF pages 6–7",
+    "notes": "Peer-reviewed cartographic research identifies Thomas Burgh as author of the 1728 Bay and Harbour chart, based on a 1725 Ballast Board survey assisted by Captain John Perry and Gabriel Stokes; John Bowles publisher and Emanuel Bowen engraver."
+  },
+  {
+    "id": "SRC-CLONTARF-ROCQUE-1760-ARCGIS",
+    "name": "Rocque_New — John Rocque actual survey of County Dublin (1760)",
+    "publisher": "South Dublin County Council, ArcGIS MapServer",
+    "url": "https://tiles.arcgis.com/tiles/PxbTDTskGHCe4sv6/arcgis/rest/services/Rocque_New/MapServer",
+    "accessed": "2026-10-26",
+    "source_type": "GOVERNMENT",
+    "specific_reference": "MapServer layer 0 and raster Image sublayer 3; source spatial reference EPSG:2157",
+    "notes": "Hosted historic-map service describes John Rocque's actual survey of County Dublin, originally published in 1760. The Clontarf map extent still requires direct visual inspection before feature geometry is interpreted."
+  },
+  {
+    "id": "SRC-CLONTARF-OYSTER-1760-TCD",
+    "name": "History of the Irish oyster",
+    "publisher": "Trinity Centre for Environmental Humanities, Trinity College Dublin",
+    "url": "https://www.tcd.ie/tceh/projects/foodsmartdublin/recipes/Sept_Oyster/HistoryEcology_oyster.php",
+    "accessed": "2026-10-26",
+    "source_type": "ACADEMIC",
+    "specific_reference": "Figure 1 and accompanying text: artificial oyster beds off Clontarf shown on Rocque's 1760 map",
+    "notes": "Identifies artificial oyster beds off Clontarf on a Rocque 1760 map extract and describes their replenishment from natural oyster beds elsewhere in Ireland. Secondary scholarly interpretation of the historic map."
+  },
+  {
+    "id": "SRC-CLONTARF-OS-1889-UCD",
+    "name": "City of Dublin: Township of Clontarf: sheet XVIII.29 (1889)",
+    "publisher": "UCD Digital Library; source map by Ordnance Survey Ireland / Tailte Éireann",
+    "url": "https://digital.ucd.ie/c0055/items/c0055_o0511.html",
+    "accessed": "2026-10-26",
+    "source_type": "ARCHIVE",
+    "specific_reference": "OSi 19th Century Maps item c0055_o0511; source identifier DN018_029; scale 1:1056",
+    "notes": "Catalogue record for an 1889 large-scale map of Clontarf. UCD rights metadata states downloaded data may be used for educational or non-commercial research; commercial use requires contacting Tailte Éireann."
+  },
+  {
+    "id": "SRC-CLONTARF-HISTORIC-MAPS-TAILTE",
+    "name": "Historic Maps and Data",
+    "publisher": "Tailte Éireann",
+    "url": "https://tailte.ie/map-shop/professional-map-products/historic-maps-and-data/",
+    "accessed": "2026-10-26",
+    "source_type": "GOVERNMENT",
+    "specific_reference": "Historic 6-inch and 25-inch mapping series",
+    "notes": "Official information on first-edition 6-inch mapping surveyed 1829–1834, later 6-inch revisions and 25-inch mapping surveyed 1863–1924; georeferenced raster extracts are available subject to Tailte Éireann terms."
   }
 ]

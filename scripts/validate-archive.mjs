@@ -53,7 +53,7 @@ for(const file of ["index.html","archive.html","my-dublin.html"]){
  const scripts=[...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/gi)];
  for(let i=0;i<scripts.length;i++)new vm.Script(scripts[i][1],{filename:file+" inline script "+(i+1)});
 }
-for(const file of ["index.html","archive.html","preview/app.html","preview/manifest.webmanifest"]){const content=read(file);assert.ok(!/CICAN\\s+DUBLIN\\s+ARCHIVE/i.test(content),file+" must use the CICAN DUBLIN public brand.");}
+for(const file of ["index.html","archive.html","preview/app.html","preview/manifest.webmanifest"]){const content=read(file);assert.ok(!/CICAN\s+DUBLIN\s+ARCHIVE/i.test(content),file+" must use the CICAN DUBLIN public brand.");}
 const home=read("index.html");
 const mapFirstHome=home.includes('id="map"')&&home.includes('<base href="./preview/">')&&home.includes('src="./app/app.js"');
 if(mapFirstHome){

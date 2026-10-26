@@ -2029,5 +2029,105 @@
     "source_type": "IMAGE_REFERENCE",
     "specific_reference": "Wikimedia Commons file page identifies the Clontarf Road pillar postbox, author Tdr112, photograph date 2022-09-08, camera coordinates 53.358772, -6.189932, and licence CC BY-SA 4.0.",
     "notes": "Attribution: Tdr112, “Dublin - Clontarf Road pillar postbox”, via Wikimedia Commons. Licence: CC BY-SA 4.0. Image camera coordinates are approximately 12 metres from the source-derived catalogue pin; direct subject match, with founder field verification still outstanding."
+  },
+  {
+    "id": "WMC-OCONNELL-STREET-2022",
+    "name": "O'Connell Street, Dublin — Wikimedia Commons",
+    "publisher": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:O'Connell_Street.jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "O'Connell Street, Dublin — Wikimedia Commons",
+    "notes": "Image attribution and licence details recorded in data/visual-assets.json. William Murphy; CC BY-SA 2.0; 17 January 2022."
+  },
+  {
+    "id": "WMC-TCD-LECKY-2016-01",
+    "name": "William Edward Hartpole Lecky statue, Trinity College Dublin — Wikimedia Commons",
+    "publisher": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:William_Edward_Hartpole_Lecky_statue_Trinity_College_Dublin.jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "William Edward Hartpole Lecky statue, Trinity College Dublin — Wikimedia Commons",
+    "notes": "Image attribution and licence details recorded in data/visual-assets.json. Steven Lek; CC BY-SA 4.0; 28 July 2016."
+  },
+  {
+    "id": "WMC-TCD-EDMUND-BURKE-2022-01",
+    "name": "Edmund Burke statue, Trinity College — Wikimedia Commons",
+    "publisher": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Edmund_Burke_statue,_Trinity_College.jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Edmund Burke statue, Trinity College — Wikimedia Commons",
+    "notes": "Image attribution and licence details recorded in data/visual-assets.json. Yair Haklai; CC BY-SA 4.0; 7 August 2022."
+  },
+  {
+    "id": "WMC-TCD-CACTUS-PROVISOIRE-2020-01",
+    "name": "Alexander Calder, Cactus Provisoire, Trinity College Dublin — Wikimedia Commons",
+    "publisher": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Alexander_Calder,_Cactus_provvisorio,_1967,_01.jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Alexander Calder, Cactus Provisoire, Trinity College Dublin — Wikimedia Commons",
+    "notes": "Image attribution and licence details recorded in data/visual-assets.json. Sailko; CC BY 3.0; 30 January 2020."
+  },
+  {
+    "id": "WMC-TCD-HENRY-MOORE-2022-01",
+    "name": "Reclining Connected Forms by Henry Moore, Trinity College Dublin — Wikimedia Commons",
+    "publisher": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Reclining_Connected_Forms_-_Henry_Moore_(LH_612,_Trinity_College,_Dublin).jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Reclining Connected Forms by Henry Moore, Trinity College Dublin — Wikimedia Commons",
+    "notes": "Image attribution and licence details recorded in data/visual-assets.json. Yair Haklai; CC BY-SA 4.0; 8 August 2022."
+  },
+  {
+    "id": "WMC-TALBOT-STREET-2023",
+    "name": "Talbot Street, Dublin — Wikimedia Commons",
+    "publisher": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:2023_Talbot_Street_in_Dublin_(1).jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Talbot Street, Dublin — Wikimedia Commons",
+    "notes": "Image attribution and licence details recorded in data/visual-assets.json. MOs810; CC BY 4.0; 22 April 2023."
+  },
+  {
+    "id": "WMC-MOUNTJOY-SCOTCH-LAMP-2008",
+    "name": "Mountjoy Square — Scotch Standard lamppost — Wikimedia Commons",
+    "publisher": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Mountjoy_Square,_Dublin,_Ireland.jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Mountjoy Square — Scotch Standard lamppost — Wikimedia Commons",
+    "notes": "Image attribution and licence details recorded in data/visual-assets.json. Gavinmc; public domain dedication; 5 October 2008."
+  },
+  {
+    "id": "WMC-AMIENS-STREET-2004",
+    "name": "Amiens Street, Dublin — Wikimedia Commons",
+    "publisher": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Amiens_Street,_Dublin.jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Amiens Street, Dublin — Wikimedia Commons",
+    "notes": "Image attribution and licence details recorded in data/visual-assets.json. Bahnfan44789; CC BY-SA 4.0; 24 August 2004."
+  },
+  {
+    "id": "WMC-MOUNTJOY-FOOTSCRAPER-2008",
+    "name": "Mountjoy Square footscraper — Wikimedia Commons",
+    "publisher": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Mountjoy_square_footscraper3.jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Mountjoy Square footscraper — Wikimedia Commons",
+    "notes": "Image attribution and licence details recorded in data/visual-assets.json. Gavinmc; public domain dedication; 30 November 2008."
+  },
+  {
+    "id": "WMC-MOUNTJOY-COALHOLE-2008",
+    "name": "Ornate coal hole, Mountjoy Square — Wikimedia Commons",
+    "publisher": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Mountjoy_Square,_Dublin,_Ireland_(ornate_coal_hole)_001.jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Ornate coal hole, Mountjoy Square — Wikimedia Commons",
+    "notes": "Image attribution and licence details recorded in data/visual-assets.json. Gavinmc; public domain dedication; 5 October 2008."
   }
 ]

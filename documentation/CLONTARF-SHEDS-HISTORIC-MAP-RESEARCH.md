@@ -35,19 +35,36 @@ This is strong evidence for an eighteenth-century oyster-fishery landscape. The 
 
 Source: [History of the Irish oyster — Trinity College Dublin](https://www.tcd.ie/tceh/projects/foodsmartdublin/recipes/Sept_Oyster/HistoryEcology_oyster.php)
 
-### 3. A 1728 map reference needs source reconciliation
+### 3. The 1728 harbour map directly labels a Clontarf fishing feature
 
-Chapters of Dublin states that Captain Perry's *Map of Dublin Bay and Harbour* (1728) marks “Herring Sheds” at the foot of Vernon Avenue. This is a specific and promising lead, but the original map attribution has not yet been independently verified.
+Dublin Port Archive's collection identifies a 1728 map titled *A New and Correct Map of the Bay and Harbour of Dublin with a small Plan of the City*, published and sold in London by J. Bowles. The archive provides the map image itself:
 
-Dublin Port Archive's published 1700s map collection lists a 1728 map titled *A new and correct map of the bay and Harbour of Dublin with a small plan of the city*, attributed there to J. Bowles. The same collection lists other harbour maps from 1704, 1725 and 1756. The available catalogue entry does not establish that the Bowles map is the same map described by Chapters of Dublin as Captain Perry's.
+- [Open the original 1728 map image — Dublin Port Archive](https://www.dublinportarchive.com/wp-content/uploads/2022/02/Maps_Bowles.jpg)
+- [Collection entry — Historical Maps, 1700s](https://www.dublinportarchive.com/collection/historical-maps-1700s/)
 
-**Research rule:** do not merge the “Captain Perry” attribution and the J. Bowles 1728 catalogue record until the original map image, title cartouche, authorship and any associated surveyor attribution have been inspected.
+On the map, a label beside Clontarf appears to read **“Herring Shells”** (transcription provisional at the available image resolution). The map therefore provides direct visual evidence of a named herring-related feature on the Clontarf shore in 1728. Do not silently normalise “Shells” to “Sheds”: the exact lettering should be checked against a higher-resolution archival image or physical copy before the label is quoted definitively. The image's imprint identifies J. Bowles as publisher/seller; it does not, by itself, prove that Bowles surveyed or authored the map.
+
+A separate page by Chapters of Dublin attributes a 1728 *Map of Dublin Bay and Harbour* and a “Herring Sheds” label to Captain Perry. The image inspected here is explicitly the J. Bowles map. These attributions must remain distinct unless an original Perry map is located and compared.
+
+**Research conclusion:** the Bowles map is now an inspected primary cartographic source; the Captain Perry attribution remains an unverified separate lead.
 
 Sources:
-- [Clontarf — Chapters of Dublin](https://www.chaptersofdublin.ie/NorthDub/cosgrave16.htm)
 - [Dublin Port Archive — Historical Maps, 1700s](https://www.dublinportarchive.com/collection/historical-maps-1700s/)
+- [Clontarf — Chapters of Dublin](https://www.chaptersofdublin.ie/NorthDub/cosgrave16.htm)
+- [Dublin Port Archive — Access and Copyright](https://www.dublinportarchive.com/access-copyright/)
 
-### 4. Later large-scale mapping is available
+### 4. The Rocque 1760 map is available through a hosted historic-map service
+
+A South Dublin County Council ArcGIS MapServer describes its map as John Rocque's actual survey of County Dublin, originally published in 1760. The service exposes the historic map as a raster image layer in Irish Transverse Mercator (EPSG:2157), alongside boundary and footprint layers. This is a substantial advance over relying only on a secondary reproduction: the historic county map can be viewed through a hosted map service.
+
+- [Rocque 1760 County Dublin historic map service — South Dublin County Council ArcGIS](https://tiles.arcgis.com/tiles/PxbTDTskGHCe4sv6/arcgis/rest/services/Rocque_New/MapServer)
+- [Rocque raster image layer metadata](https://tiles.arcgis.com/tiles/PxbTDTskGHCe4sv6/arcgis/rest/services/Rocque_New/MapServer/3)
+
+Trinity College Dublin independently identifies artificial oyster beds off Clontarf on an extract from Rocque's *Actual Survey of the City of Dublin, 1760*. The Trinity article says these artificial beds were replenished from natural beds elsewhere in Ireland. The ArcGIS service establishes access to a Rocque county map; Trinity's figure specifically supports the Clontarf oyster-bed interpretation. The map service has not yet been visually inspected at the Clontarf location in this research pass, and no oyster-bed geometry or coordinates are asserted here.
+
+Source: [History of the Irish oyster — Trinity College Dublin](https://www.tcd.ie/tceh/projects/foodsmartdublin/recipes/Sept_Oyster/HistoryEcology_oyster.php)
+
+### 5. Later large-scale mapping is available
 
 UCD Digital Library catalogues an Ordnance Survey Ireland map titled *City of Dublin: Township of Clontarf: sheet XVIII.29*, dated 1889, at a scale of 1:1056 (five feet to one statute mile). The catalogue identifies the source as the OSi 19th Century Historical Maps collection and gives source identifier DN018_029.
 
@@ -65,8 +82,9 @@ Sources:
 
 | Period / map | Current evidence | What it may establish | Status |
 |---|---|---|---|
-| 1728 Dublin Bay and Harbour map | Dublin Port Archive catalogue; separate “Captain Perry” attribution in Chapters of Dublin | Early harbour geography and possible Herring Sheds label | Original image and attribution reconciliation required |
-| 1760 John Rocque, County Dublin / Dublin Bay | UCD map guide; Trinity oyster-history figure | Oyster beds and wider coastal setting | Source sheet and full-resolution image inspection required |
+| 1728 J. Bowles, Dublin Bay and Harbour map | Dublin Port Archive catalogue and inspected map image | Clontarf shoreline and a label provisionally transcribed as “Herring Shells” | Primary image inspected; exact lettering needs high-resolution confirmation |
+| 1728 “Captain Perry” map attribution | Chapters of Dublin secondary account | Possible separate map / Herring Sheds reference | Original map not located; attribution remains unverified |
+| 1760 John Rocque, County Dublin / Dublin Bay | South Dublin County Council ArcGIS historic map service; Trinity oyster-history figure | County landscape and artificial oyster beds off Clontarf | Service located; Clontarf map area still needs direct visual inspection |
 | 1837 Lewis gazetteer | Contemporary written description | Sheds along water's edge; fish curing; oyster bank offshore | Text verified; no precise footprint |
 | 1840s first-edition OS six-inch mapping | UCD / Tailte Éireann access guides | Shoreline, roads, structures and land use | Relevant sheet and edition to be identified |
 | 1889 OS Township of Clontarf, sheet XVIII.29 | UCD Digital Library item DN018_029 | Detailed plots, streets and built environment | Catalogue verified; inspect full map |
@@ -86,17 +104,19 @@ No new physical-object catalogue records or map pins are created by this researc
 
 ## Next research actions
 
-1. Open the Dublin Port Archive's 1728 map image and inspect the title cartouche, author, annotations and the north Clontarf shoreline.
-2. Obtain the full Rocque 1760 map sheet covering Dublin Bay / Clontarf; compare the Trinity figure with the original sheet and record its exact bibliographic title.
-3. Open UCD's 1889 sheet XVIII.29 at full resolution and identify whether the Sheds/Vernon Avenue waterfront falls within its coverage.
-4. Use Tailte Éireann's historic map viewer to identify the exact first-edition six-inch and later 25-inch sheets covering the same area.
-5. Georeference only with multiple stable control points distributed across the map. Record map edition, sheet, transformation method, residual error and estimated positional uncertainty.
-6. Compare shoreline and feature positions across editions. Keep historical features as research annotations until their geometry is defensible.
-7. Only after this work, decide whether any surviving physical feature merits a separate catalogue record and founder photography brief.
+1. Obtain a higher-resolution copy of the J. Bowles 1728 map from Dublin Port Archive and confirm the exact reading of the Clontarf annotation.
+2. Search archival catalogues for the separate Captain Perry map cited by Chapters of Dublin; do not assume it is the Bowles map.
+3. Open the Rocque 1760 ArcGIS service at the Clontarf extent and inspect the oyster-bed symbol/annotation against Trinity's published figure.
+4. Open UCD's 1889 sheet XVIII.29 at full resolution and identify whether the Sheds/Vernon Avenue waterfront falls within its coverage.
+5. Use Tailte Éireann's historic map viewer to identify the exact first-edition six-inch and later 25-inch sheets covering the same area.
+6. Georeference only with multiple stable control points distributed across each map. Record map edition, sheet, transformation method, residual error and estimated positional uncertainty.
+7. Compare shoreline and feature positions across editions. Keep historical features as research annotations until their geometry is defensible.
+8. Only after this work, decide whether any surviving physical feature merits a separate catalogue record and founder photography brief.
 
 ## Integrity and rights
 
 - This layer records documentary and cartographic leads, not field observations.
 - No generated or third-party image is presented as a founder photograph.
-- Do not download, republish or redistribute map scans without checking the holding institution's rights statement and permitted uses.
+- Dublin Port Archive requests credit for personal and academic reuse and requires a licensing application for commercial or non-commercial publication use of its archive material. The project's future commercial colouring-book plans mean the 1728 scan must not be reproduced in a publication without written permission. Credit, where licensed, must follow the archive's requested wording: “Reproduced courtesy of the Dublin Port Archive.”
+- Do not download, republish or redistribute other map scans without checking the holding institution's rights statement and permitted uses.
 - Any future georeferenced overlay must preserve the source map citation and its positional uncertainty.

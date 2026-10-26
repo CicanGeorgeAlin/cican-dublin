@@ -165,7 +165,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-DUB1-FAMINE-MEMORIAL-2013-01",
+          "title": "Famine Memorial, Custom House Quay — group of bronze figures",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Famine_Memorial_along_Custom_House_Quay_-_geograph.org.uk_-_3687319.jpg/1280px-Famine_Memorial_along_Custom_House_Quay_-_geograph.org.uk_-_3687319.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Famine_Memorial_along_Custom_House_Quay_-_geograph.org.uk_-_3687319.jpg",
+          "photographer": "Joseph Mischyshyn",
+          "date_taken": "2013-09-21",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "attribution": "Joseph Mischyshyn, “Famine Memorial, Custom House Quay — group of bronze figures”, 2013-09-21, via Wikimedia Commons (CC BY-SA).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Photograph and object-location coordinates identify the Famine Memorial on Custom House Quay; Commons coordinates are within approximately 4 metres of the archive pin. Third-party reference image; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-INS-0001",
@@ -271,7 +287,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-DUB2-GRATTAN-2022-01",
+          "title": "Henry Grattan Monument, College Green — full statue and plinth",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Grattan_Statue%2C_Dublin.jpg/1280px-Grattan_Statue%2C_Dublin.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Grattan_Statue,_Dublin.jpg",
+          "photographer": "Sheila1988",
+          "date_taken": "2022-03-20",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Sheila1988, “Henry Grattan Monument, College Green — full statue and plinth”, 2022-03-20, via Wikimedia Commons (CC BY-SA).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Photograph depicts the Henry Grattan Monument on College Green, including the standing bronze figure and plinth. The tree partly obscures the figure, so this is a useful reference view rather than a substitute for founder photography. Third-party image; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-MON-0003",
@@ -302,7 +334,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-DUB2-THOMAS-DAVIS-2024-01",
+          "title": "Thomas Davis Statue, Dublin — full statue and pedestal",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Thomas_Davis_Statue%2C_Dublin_-_geograph.org.uk_-_7821543.jpg/1280px-Thomas_Davis_Statue%2C_Dublin_-_geograph.org.uk_-_7821543.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Thomas_Davis_Statue,_Dublin_-_geograph.org.uk_-_7821543.jpg",
+          "photographer": "Meirion",
+          "date_taken": "2024-06-23",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "attribution": "Meirion, “Thomas Davis Statue, Dublin — full statue and pedestal”, 2024-06-23, via Wikimedia Commons (CC BY-SA).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "File caption, description and depicted-place coordinates identify the Thomas Davis statue. Commons coordinates are approximately 15 metres from the archive's source-derived pin; the archive coordinates are unchanged. Third-party reference image; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-MON-0004",
@@ -332,7 +380,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-DUB2-GEORGE-SALMON-2022-01",
+          "title": "George Salmon Statue, Trinity College Dublin — seated marble figure",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/George_Salmon_statue%2C_Trinity_College%2C_Dublin.jpg/1280px-George_Salmon_statue%2C_Trinity_College%2C_Dublin.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:George_Salmon_statue,_Trinity_College,_Dublin.jpg",
+          "photographer": "Yair Haklai",
+          "date_taken": "2022-08-08",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Yair Haklai, “George Salmon Statue, Trinity College Dublin — seated marble figure”, 2022-08-08, via Wikimedia Commons (CC BY-SA).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "File title and Commons category identify George Salmon; the file description field incorrectly names Lecky. The visible white-marble seated figure matches NIAH record 50020521, which describes Salmon's white-marble seated statue. This discrepancy is explicitly retained rather than silently ignored. Third-party reference image; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-MON-0005",
@@ -482,7 +546,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-DUB2-CITY-HALL-2022-01",
+          "title": "City Hall, Dublin — exterior view",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/City_Hall%2C_Dublin.jpg/1280px-City_Hall%2C_Dublin.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:City_Hall,_Dublin.jpg",
+          "photographer": "Yair Haklai",
+          "date_taken": "2022-08-07",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Yair Haklai, “City Hall, Dublin — exterior view”, 2022-08-07, via Wikimedia Commons (CC BY-SA).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Photograph identifies City Hall, Dublin, the former Royal Exchange on Cork Hill. Wide exterior reference view; third-party image, not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-BLD-0004",
@@ -1270,7 +1350,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-DUB2-NASSAU-POSTBOX-2024-01",
+          "title": "P&T double-aperture post box, Nassau Street — Áth Cliath lettering",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Post-Box-1220164%2C_Nassau_St.%2C_Dublin%2C_Ireland.jpg/1280px-Post-Box-1220164%2C_Nassau_St.%2C_Dublin%2C_Ireland.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Post-Box-1220164,_Nassau_St.,_Dublin,_Ireland.jpg",
+          "photographer": "Leimanbhradain",
+          "date_taken": "2024-09-24",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Leimanbhradain, “P&T double-aperture post box, Nassau Street — Áth Cliath lettering”, 2024-09-24, via Wikimedia Commons (CC BY-SA).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "File caption identifies Nassau Street; the photograph visibly shows the vintage double-aperture P&T pillar box and Áth Cliath / Dublin lettering matching the catalogue record. Third-party reference image; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-STR-0017",

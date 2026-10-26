@@ -1501,5 +1501,45 @@
     "source_type": "HISTORIC_MAP_CATALOGUE",
     "specific_reference": "LBC-GJ-13-2; Taylor's Map of the Environs of Dublin, extending 10 to 14 miles from the Castle (1816)",
     "notes": "The Vernon Avenue street-history article cites this Virtual Treasury item for Taylor's 1816 map. It is an additional digital catalogue/access route to investigate. The Clontarf map area and reported Green Lane label have not yet been visually inspected or confirmed from the primary map."
+  },
+  {
+    "id": "SRC-CLONTARF-LEWIS-1837",
+    "name": "A Topographical Dictionary of Ireland — Clontarf parish (1837)",
+    "publisher": "Samuel Lewis; digitised text at Library Ireland",
+    "url": "https://www.libraryireland.com/topog/C/Clontarf-Coolock-Dublin.php",
+    "accessed": "2026-10-26",
+    "source_type": "CONTEMPORARY_TOPOGRAPHICAL_DICTIONARY",
+    "specific_reference": "Samuel Lewis, A Topographical Dictionary of Ireland (1837), entry 'CLONTARF, a parish', County Dublin",
+    "notes": "Contemporary 1837 parish entry describes wooden buildings along the water's edge called the Clontarf sheds and says they were formerly used to cure fish; it also notes a profitable oyster bank off the sheds. Directly inspected as digitised text. This documents the sheds as a coastal locality but does not provide individual shed footprints."
+  },
+  {
+    "id": "SRC-CLONTARF-COSGRAVE-NORTH-DUBLIN",
+    "name": "North Dublin — Clontarf chapter",
+    "publisher": "Dillon Cosgrave; digitised text at Chapters of Dublin",
+    "url": "https://www.chaptersofdublin.ie/NorthDub/cosgrave16.htm",
+    "accessed": "2026-10-26",
+    "source_type": "LOCAL_HISTORY_BOOK",
+    "specific_reference": "Dillon Cosgrave, North Dublin, Chapter XVI: Clontarf",
+    "notes": "Local-history account says the coast road at the foot of Vernon Avenue was still called Clontarf Sheds, describes sheds used for curing fish, and attributes a 'Herring Sheds' label at this point to Captain Perry's 1728 Dublin Bay and Harbour map. This is a secondary account; the original 1728 map image must be inspected before treating its label or exact position as directly verified."
+  },
+  {
+    "id": "SRC-CLONTARF-REGISTRY-WILLS-1789",
+    "name": "Registry of Deeds Abstracts of Wills, Volume III (1785–1832)",
+    "publisher": "Irish Manuscripts Commission; digitised PDF at Irish Manuscripts",
+    "url": "https://www.irishmanuscripts.ie/digital/Registry%20Of%20Deeds%20Abstracts%20Of%20Wills%20Vol%20III%201785-1832/Registry%20Of%20Deeds%20Abstracts%20Of%20Wills%20Vol%20III%201785-1832.pdf",
+    "accessed": "2026-10-26",
+    "source_type": "ARCHIVAL_WILL_ABSTRACT_COLLECTION",
+    "specific_reference": "Abstract no. 42, Patrick Toole, Sheds of Clontarf, County Dublin; dated 26 January 1789",
+    "notes": "Search-indexed text of the published abstract records Patrick Toole's property in the Sheds of Clontarf and a house on the Green in the Sheds. The underlying will/deed has not been inspected directly; this is a published abstract, not a surveyed location or proof of shed geometry."
+  },
+  {
+    "id": "SRC-CLONTARF-THOMS-1858",
+    "name": "Thom's Almanac and Official Directory for 1858 — Clontarf entry",
+    "publisher": "Thom's Almanac; digitised copy in South Dublin Libraries Local Studies repository",
+    "url": "https://source.southdublinlibraries.ie/bitstream/10599/5076/4/1858.pdf",
+    "accessed": "2026-10-26",
+    "source_type": "CONTEMPORARY_DIRECTORY",
+    "specific_reference": "1858 directory, Clontarf entry",
+    "notes": "Search-indexed text describes the village and sheds as an area of 38 acres, with 875 inhabitants in 130 houses, and mentions oyster beds off the sheds. The PDF could not be opened for direct page inspection in this session; treat exact figures as a transcription lead pending page-level verification."
   }
 ]

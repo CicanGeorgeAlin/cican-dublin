@@ -233,5 +233,46 @@
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH Registration 50030310. This record is the main country-house building, distinct from the separate gate lodge (NIAH 50030163), Vernon Lodge entrance (NIAH 50030164) and nearby 86 Clontarf Road (NIAH 50030182). NIAH identifies 1836–37 as the rebuilding date. The older site's history should not be conflated with the date of the present building.",
     "last_researched": "2026-10-26"
+  },
+  {
+    "id": "DUB-BLD-0049",
+    "name": "Warrenpoint gate lodge — 84 Clontarf Road",
+    "category": "ARCHITECTURE",
+    "district": "Dublin 3",
+    "address": "Warrenpoint, 84 Clontarf Road, Clontarf, Dublin 3",
+    "historical_period": "Circa 1840 (NIAH date range 1830–1850)",
+    "historical_description": "Detached two-bay single-storey former gate lodge, built circa 1840, with an entrance loggia on the east-facing front. NIAH records a hipped natural slate roof, red-brick chimneystacks with cornices and clay pots, carved fascia boards with cusping, cast-iron rainwater goods, lined-and-ruled rendered walls, label-moulded window openings and paired three-pane round-headed timber casements. The entrance is set within a group of red-brick gate piers, a segmental arch and masonry sphinx finials, with smooth rendered quadrant walls.",
+    "historical_significance": "NIAH identifies this as one of the earliest buildings to develop on the Clontarf seafront, predating the associated terrace of six houses to the north-east. It is a rare surviving example of a nineteenth-century seafront gate lodge, retaining decorative roof, window and chimney details.",
+    "national_inventory_reference": "50030185",
+    "national_grid_reference": "318992, 236009",
+    "latitude": 53.3611271,
+    "longitude": -6.2133988,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "NIAH records the building as a private house. Photograph only from lawful public viewpoints; do not enter the property, shared grounds or private terrace. Confirm safe pedestrian access before photographing the gate piers and sphinx finials.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3611271%2C-6.2133988&travelmode=walking",
+    "photography_brief": [
+      "Full gate lodge and entrance loggia from a lawful public viewpoint",
+      "Hipped slate roof, red-brick chimneystacks and carved cusped fascia boards",
+      "Paired round-headed timber casement windows and label mouldings",
+      "Each visible red-brick gate pier and masonry sphinx finial",
+      "Segmental entrance arch and rendered quadrant walls",
+      "Cast-iron rainwater goods and surviving historic fabric",
+      "Record current condition without entering private property"
+    ],
+    "sources": [
+      "NIAH-50030185",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ],
+    "feature_type": "PRIMARY_OBJECT",
+    "coordinate_status": "SOURCE_DERIVED",
+    "coordinate_source": "Published NIAH Irish Grid reference 318992, 236009 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using the project's established transformation (EPSG operation 1641). The source point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "research_notes": "NIAH Registration 50030185. NIAH dates the building broadly to 1830–1850 and describes it as built circa 1840. The NIAH appraisal says the gate lodge predates the associated terrace of six houses to the north-east. No third-party image has been added because reuse rights for a photograph specifically depicting this building have not been established. Coordinates locate the NIAH building point, not individual sphinxes or architectural details.",
+    "last_researched": "2026-10-26"
   }
 ]

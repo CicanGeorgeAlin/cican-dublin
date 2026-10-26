@@ -230,5 +230,20 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ]
+  },
+  {
+    "id": "RES-DUBLIN1-SHERRARD-MICRODETAILS",
+    "title": "Sherrard Street's small surviving evidence: coal-hole cover, fanlight, benchmark and 1825 street-name plaque",
+    "area": "SHERRARD STREET UPPER · GARDINER STREET UPPER · DUBLIN 1",
+    "updated": "2026-10-26",
+    "status": "NIAH_INDEXED_RECORDS_REVIEWED",
+    "status_label": "NIAH INDEXED RECORDS REVIEWED · FULL PAGE INSPECTION AND FIELDWORK PENDING",
+    "summary": "Two additional NIAH records identify several overlooked details in Dublin 1: an original cast-iron coal-hole cover and leaded fanlight at 1 Sherrard Street Upper, a rare benchmark noted in the streetscape appraisal, and a Portland limestone plaque reading “Sherrard Street 1825” at 53 Gardiner Street Upper.",
+    "supported": "NIAH indexed entries 50010749 and 50010751 provide the Irish Grid references, building descriptions and the specific micro-detail descriptions. Coordinates are transformed using the project's established EPSG operation 1641. The five new records are linked to their host buildings.",
+    "limits": "Direct opening of both NIAH pages was blocked in this research pass; records remain PARTIALLY_VERIFIED pending full official record or dataset inspection. The benchmark's exact position is not given and is only a fieldwork search lead. Micro-detail points inherit host-building coordinates and are not precise feature positions. No founder photography or line art exists yet.",
+    "source_ids": [
+      "NIAH-50010749",
+      "NIAH-50010751"
+    ]
   }
 ]

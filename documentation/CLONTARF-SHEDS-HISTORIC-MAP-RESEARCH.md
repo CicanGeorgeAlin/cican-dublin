@@ -310,3 +310,54 @@ Search-indexed text from the 1858 *Thom's Almanac and Official Directory* descri
 ### Current integrity status
 
 The 1837 entry is a contemporary printed description of the coastal sheds and fish-curing activity. The 1789 will is represented by a published abstract only. The 1728 map label is a secondary attribution awaiting direct image inspection. The 1858 statistics await page-level verification. None of these sources establishes individual shed footprints, oyster-bed boundaries or precise coordinates; no physical object or map pin has been added from them.
+
+
+## Research correction and new source leads — 26 October 2026
+
+### Correction: Patrick Toole's will abstract is dated 1792, not 1789
+
+Earlier project metadata incorrectly described the Patrick Toole Registry of Deeds abstract as a 1789 record. The Irish Manuscripts Commission's digitised volume identifies **Patrick Toole, Sheds of Clontarf**, dated **11 September 1792**. The abstract refers to leasehold and other property in the Sheds and a dwellinghouse in the Green of the Sheds. The public research item and source metadata are corrected to 1792. The correction is explicitly retained in the note rather than silently overwriting the earlier date.
+
+- [Registry of Deeds Abstracts of Wills, Volume III (1785–1832)](https://www.irishmanuscripts.ie/digital/Registry%20Of%20Deeds%20Abstracts%20Of%20Wills%20Vol%20III%201785-1832/Registry%20Of%20Deeds%20Abstracts%20Of%20Wills%20Vol%20III%201785-1832.pdf)
+
+### Major visual-source lead: 1785 print of The Sheds of Clontarfe
+
+The British Library King's Topographical Collection inventory lists **The Sheds of Clontarfe**, an 1785 print by Thomas Malton after Francis Wheatley, shelfmark **Maps K.Top.53.25**, catalogue identifier **BLL01004821630**. A digitised 1913 dictionary of Irish artists also records Malton's 1785 aquatint after Wheatley. This is a major visual lead because the print is explicitly titled for the Sheds.
+
+- [British Library King's Topographical Collection inventory — Maps K.Top.53.25](https://commons.wikimedia.org/wiki/User:Jheald/KTop_classes/53)
+- [Dictionary of Irish Artists — Thomas Malton](https://libraryireland.booksulster.com/irishartists/thomas-malton.php)
+
+The print image has not yet been inspected at sufficient resolution. Do not describe its scene, identify a viewpoint or georeference it until the actual print is examined. Obtain a higher-quality scan and check British Library terms before publication or reproduction.
+
+### 1704 survey of Donnycarney and the Parish of Clontarf
+
+The Virtual Treasury catalogue identifies a 1704 map by John Greene Junior, reference **DCLA C1 S1/130**, surveying lands in the Barony of Coolock and Parish of Clontarf. Its scope description includes the Strand and Upper Hollybrook to the south and lands of Drumcondra, Puckstown, Artane and Killester around the other boundaries.
+
+- [Virtual Treasury of Ireland — DCLA C1 S1/130](https://www.virtualtreasury.ie/item/DCLA-C1-S1-130)
+
+This is an early cadastral source for the wider parish, but its image has not yet been checked for the Sheds locality. No assumption is made that the shoreline settlement appears on the map.
+
+### Earlier name lead: Herringtowne, 1693
+
+A secondary Clontarf historical report says the fishing-port later known as the Sheds was referred to as **Herringtowne** in Greenville Collins' 1693 map. The original chart and exact label have not yet been inspected.
+
+- [What If? — Clontarf historical report](https://static1.squarespace.com/static/5658317ee4b022a250fd33d2/t/60ae74e94affc635a7ce7ba1/1622045934310/WHAT%2BIF%2BCLONTARF.pdf)
+
+Treat Herringtowne as a search lead, not a verified transcription or proven synonym for the exact later Sheds footprint.
+
+### Water-supply infrastructure lead, 1786
+
+The Irish Genealogical Research Society reproduces a letter attributed to Christmas Weekes at Clontarf, dated 30 November 1786, thanking the County Grand Jury for recognition of works supplying shipping with water and other uses.
+
+- [Irish Genealogical Research Society — Christmas Weekes, 1786](https://www.irishancestors.ie/80th-anniversary-archive-christmas-weekes-158)
+
+The transcription is a useful lead for the history of water infrastructure. The original Grand Jury record and any route or plan for the water supply remain to be located; no pipe route or building position is inferred.
+
+### Investigation method upgrades
+
+1. Record every claim with a source, exact page/item reference, date, source class and verification status.
+2. Distinguish original records, contemporary printed descriptions, catalogue metadata, published abstracts, secondary interpretations and search leads.
+3. Maintain a correction log for changed dates, attributions and interpretations.
+4. Create a source-to-claim matrix before promoting any feature to the physical catalogue or map.
+5. Use visual evidence only after direct image inspection; catalogue titles do not establish depicted geography.
+6. Maintain a chronology and unresolved-questions register so each discovery changes the next research action.

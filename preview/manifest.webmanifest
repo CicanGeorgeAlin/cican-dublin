@@ -1,8 +1,8 @@
 {
   "id": "./app.html",
-  "name": "CICAN DUBLIN — Open the Atlas",
+  "name": "CICAN DUBLIN — Discover Dublin",
   "short_name": "CICAN DUBLIN",
-  "description": "A map-first living atlas of Dublin's historic places and overlooked heritage.",
+  "description": "A map-first discovery and fieldwork application for Dublin's historic places, objects and overlooked details.",
   "start_url": "./app.html",
   "scope": "./",
   "display": "standalone",

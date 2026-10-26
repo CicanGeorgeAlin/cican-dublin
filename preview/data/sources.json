@@ -951,5 +951,25 @@
     "source_type": "OFFICIAL_POLICY",
     "specific_reference": "Chapter 11, Policy BHA18 — Historic Ground Surfaces, Street Furniture and Public Realm",
     "notes": "Policy lists historic ground surfaces and public-realm features including milestones, jostle stones, ward stones, bollards, coal-hole covers, gratings, boot scrapers, basement lights, street skylights, water troughs, post boxes, lampposts, railings, stone kerbs, pavement flags and setts. Applies to Dublin City Council's administrative area only."
+  },
+  {
+    "id": "WMC-CENTRAL-HALL-2022-01",
+    "name": "Central Hall, Clontarf — exterior photograph (2022-09-11, 15:14:28)",
+    "publisher": "Wikimedia Commons — Dwmalone",
+    "url": "https://commons.wikimedia.org/wiki/File:Dublin_-_Central_Hall,_Clontarf_-_20220911151428.jpeg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "File page: author Dwmalone; own work; photograph dated 11 September 2022; camera location 53.362156, -6.216500; CC BY-SA 4.0.",
+    "notes": "Third-party reference photograph associated with Central Hall, Clontarf. Attribution required: Dwmalone, Wikimedia Commons. Licence: CC BY-SA 4.0. Not a founder original."
+  },
+  {
+    "id": "WMC-CENTRAL-HALL-2022-02",
+    "name": "Central Hall, Clontarf — exterior/context photograph (2022-09-11, 15:14:59)",
+    "publisher": "Wikimedia Commons — Dwmalone",
+    "url": "https://commons.wikimedia.org/wiki/File:Dublin_-_Central_Hall,_Clontarf_-_20220911151459.jpeg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "File page: author Dwmalone; own work; photograph dated 11 September 2022; camera location 53.362197, -6.216511; CC BY-SA 4.0.",
+    "notes": "Third-party reference/context photograph associated with Central Hall, Clontarf. Attribution required: Dwmalone, Wikimedia Commons. Licence: CC BY-SA 4.0. Not a founder original; this view is contextual and is not a close-up verification of the date plaque."
   }
 ]

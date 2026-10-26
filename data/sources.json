@@ -1451,5 +1451,15 @@
     "source_type": "SECONDARY_TRANSCRIPTION_COMPILATION",
     "specific_reference": "278-page searchable compilation of City of Dublin Name Books; search for Clontarf returned no match.",
     "notes": "Registered as a scope-control reference only. This is the City compilation, not the County Dublin volume containing the Clontarf research target."
+  },
+  {
+    "id": "SRC-CLONTARF-NLI-BAYVIEW-MOUNTPLEASANT-1792",
+    "name": "Map of Bay View & Mount Pleasant, Barony of Coolock, 1792",
+    "publisher": "National Library of Ireland — Longfield Map Collection",
+    "url": "https://catalogue.nli.ie/Record/vtls000301133",
+    "accessed": "2026-10-26",
+    "source_type": "PRIMARY_MANUSCRIPT_MAP_CATALOGUE",
+    "specific_reference": "John Brownrigg, 1792; MS 21 F. 51 / (079); scale 10 perches to an inch; estate of Robert Burton Esq.",
+    "notes": "NLI catalogue record identifies a manuscript estate map in the Barony of Coolock. This is a regional comparison lead only: the catalogue record does not establish that Bay View or Mount Pleasant is the historic Clontarf fishing-sheds site or Vernon Avenue corridor. Map image and geographic extent require direct inspection. Reproduction rights owned by NLI."
   }
 ]

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://cicangeorgealin.github.io/cican-dublin-archive/schemas/archive-object.schema.json",
-  "title": "CICAN Dublin Archive Object",
+  "$id": "https://cicangeorgealin.github.io/cican-dublin/schemas/archive-object.schema.json",
+  "title": "CICAN DUBLIN Object",
   "description": "One discoverable physical site, object, feature or micro-detail. Existing catalogue records remain compatible; provenance fields are available for future enrichment.",
   "type": "object",
   "additionalProperties": false,

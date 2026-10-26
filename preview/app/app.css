@@ -384,3 +384,51 @@ body.photo-viewer-open{overflow:hidden}
 .editorial-hero .photo-hero.photo-zoomable:after{content:"VIEW FULL PHOTO  ↗";position:absolute;top:12px;right:12px;z-index:1;padding:7px 9px;border:1px solid #ffffff55;border-radius:2px;background:#080a08d9;color:#f2f4ed;font:700 7px/1 var(--sans);letter-spacing:.13em;pointer-events:none}
 .photo-viewer-stage{width:100%;height:min(84dvh,1000px)}
 .photo-viewer-stage img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain}
+
+
+/* ACCESSIBILITY PASS — comfortable reading sizes for the place-detail panel */
+.editorial-topline{font-size:11px;line-height:1.5;letter-spacing:.13em}
+.editorial-kicker{font-size:11px;line-height:1.55;letter-spacing:.1em}
+.editorial-title{line-height:1.12}
+.editorial-address{font-size:15px;line-height:1.7}
+.editorial-quickfacts small{font-size:10px;line-height:1.5;letter-spacing:.1em}
+.editorial-quickfacts b{font-size:12px;line-height:1.55}
+.editorial-label{font-size:11px;line-height:1.5;letter-spacing:.14em;margin-bottom:14px}
+.editorial-section .story-history{font-size:17px;line-height:1.8}
+.editorial-section .story-significance{font-size:16px;line-height:1.8}
+.look-for-list li{font-size:14px;line-height:1.65;min-height:54px;padding:12px 11px 12px 28px}
+.look-for-list li:before{left:12px;top:20px;width:6px;height:6px}
+.editorial-field-notes summary{font-size:11px;line-height:1.6;letter-spacing:.1em;padding:5px 0}
+.editorial-field-notes .mission-list,.mission-list{font-size:14px;line-height:1.8}
+.editorial-muted{font-size:12px;line-height:1.65}
+.editorial-facts{gap:18px 14px}
+.editorial-facts small{font-size:10px;line-height:1.5;letter-spacing:.1em}
+.editorial-facts b{font-size:13px;line-height:1.65}
+.editorial-actions .story-save,.editorial-actions .story-walk{font-size:11px;line-height:1.4}
+.editorial-credit{font-size:10px;line-height:1.6;letter-spacing:.09em}
+.editorial-hero .photo-hero figcaption{font-size:11px;line-height:1.55;letter-spacing:.07em}
+.editorial-photo-note{font-size:12px;line-height:1.7}
+.editorial-evidence .story-sources summary{font-size:12px;line-height:1.6}
+.editorial-evidence .story-sources>div{font-size:14px;line-height:1.75}
+.source-chip{font-size:12px;line-height:1.5;padding:8px 10px}
+.photo-viewer-caption{font-size:12px;line-height:1.6}
+@media(max-width:850px){
+ .editorial-topline{font-size:10px}
+ .editorial-kicker{font-size:10px}
+ .editorial-title{font-size:clamp(30px,7.5vw,40px)}
+ .editorial-address{font-size:15px;line-height:1.7}
+ .editorial-section{padding:20px 0}
+ .editorial-label{font-size:11px;margin-bottom:13px}
+ .editorial-section .story-history{font-size:17px;line-height:1.8}
+ .editorial-section .story-significance{font-size:16px;line-height:1.8}
+ .look-for-list{grid-template-columns:1fr}
+ .look-for-list li{font-size:14px;line-height:1.65;min-height:48px;padding:11px 12px 11px 29px}
+ .look-for-list li:before{left:13px;top:18px}
+ .editorial-quickfacts small{font-size:10px}
+ .editorial-quickfacts b{font-size:12px}
+ .editorial-facts small{font-size:10px}
+ .editorial-facts b{font-size:13px}
+ .editorial-hero .photo-hero figcaption{font-size:10px;line-height:1.6}
+ .editorial-actions .story-save,.editorial-actions .story-walk{font-size:10px}
+ .editorial-credit{font-size:10px}
+}

@@ -1729,5 +1729,35 @@
     "publisher": "Department of Housing, Local Government and Heritage",
     "url": "https://www.buildingsofireland.ie/buildings-search/building/50120259/north-strand-road-dublin-3-dublin",
     "accessed": "2026-10-26"
+  },
+  {
+    "id": "NIAH-50120248",
+    "name": "North Strand Road / Bayview Avenue milestone",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50120248/north-strand-road-bayview-avenue-dublin-3-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50120248",
+    "notes": "Indexed official NIAH register content directly returned in research search. Describes a c.1820 cut-granite milestone with a cast-iron plaque reading 'P.O Dublin 1 Howth 8'; Irish Grid 317065, 235594. Direct page opening remains pending; record remains partially verified."
+  },
+  {
+    "id": "NIAH-50120194",
+    "name": "238 Clonliffe Road",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50120194/238-clonliffe-road-dublin-3-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50120194",
+    "notes": "Indexed official NIAH register content directly returned in research search. Describes a c.1860 corner-sited house with inscribed granite street-name plaque, cast-iron bootscrape, wrought-iron railings and cast-iron gate. Irish Grid 316055, 236201. Direct page opening remains pending; record remains partially verified."
+  },
+  {
+    "id": "NIAH-50120133",
+    "name": "Fairview Park former public convenience",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50120133/fairview-park-annesley-bridge-road-dublin-3-co-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50120133",
+    "notes": "Indexed official NIAH register content directly returned in research search. Describes a c.1930 detached public convenience in Fairview Park, with terracotta roof, louvered timber, pebbledash walls, wire-cut brick plinth, steel-framed windows, blocked round-headed doorways and wrought/cast-iron railings. Irish Grid 317513, 236163. Direct page opening remains pending; record remains partially verified."
   }
 ]

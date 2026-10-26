@@ -1371,5 +1371,25 @@
     "source_type": "GOVERNMENT",
     "specific_reference": "Historic 6-inch and 25-inch mapping series",
     "notes": "Official information on first-edition 6-inch mapping surveyed 1829–1834, later 6-inch revisions and 25-inch mapping surveyed 1863–1924; georeferenced raster extracts are available subject to Tailte Éireann terms."
+  },
+  {
+    "id": "SRC-CLONTARF-VERNON-DCC-2026",
+    "name": "Vernon Avenue Preliminary Design Report (2026)",
+    "publisher": "Dublin City Council",
+    "url": "https://www.dublincity.ie/sites/default/files/2026-06/vernon-avenue_preliminary-design-report_0.pdf",
+    "accessed": "2026-10-26",
+    "source_type": "GOVERNMENT_REPORT",
+    "specific_reference": "Historical Mapping section; report page 5",
+    "notes": "Official preliminary design report compares John Rocque's 1757 map, OSI 6-inch mapping (1829–1841) and OSI 25-inch mapping (1897–1913). States that Vernon Avenue originated as a route extending north from a cluster of herring sheds fronting the Coast Road. Broad historical interpretation only; does not locate individual shed footprints."
+  },
+  {
+    "id": "SRC-CLONTARF-VERNON-STREET-HISTORY",
+    "name": "Vernon Avenue — Streets broad and narrow",
+    "publisher": "Streets broad and narrow",
+    "url": "https://streetsbroadandnarrow.ie/vernon-avenue/",
+    "accessed": "2026-10-26",
+    "source_type": "SECONDARY_RESEARCH",
+    "specific_reference": "Vernon Avenue article; references Taylor 1816, estate map 1823 and OS Name Books 1836",
+    "notes": "Secondary street-history article transcribes an 1836 Ordnance Survey Name Books description of the road passing through The Sheds of Clontarf Village to the shore, and notes Green Lane on Taylor's 1816 map and an 1823 estate map. Original Name Book and map should be consulted for primary-source verification."
   }
 ]

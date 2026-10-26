@@ -1,0 +1,96 @@
+[
+  {
+    "id": "RES-CLONTARF-SHEDS-001",
+    "title": "Clontarf's historic fishing sheds and Vernon Avenue",
+    "area": "CLONTARF · DUBLIN 3",
+    "updated": "2026-10-26",
+    "status": "DOCUMENTED_CONTEXT",
+    "status_label": "DOCUMENTED HISTORICAL CONTEXT",
+    "summary": "Official historical material describes an early Clontarf fishing settlement with herring sheds fronting the Coast Road, and identifies Vernon Avenue as developing northward from the route by the sheds.",
+    "supported": "Dublin City Council's 2026 Vernon Avenue preliminary design report supports the broad relationship between the herring-shed cluster, Coast Road and the avenue's origins. A specialist street-history article transcribes an 1836 Ordnance Survey Name Book description and discusses an earlier Green Lane name.",
+    "limits": "The exact shed footprints and the precise route alignment have not been established. The 1836 wording and the 1816 Green Lane label remain secondary-source transcriptions until the original Name Book and Taylor map are inspected.",
+    "source_ids": [
+      "SRC-CLONTARF-VERNON-DCC-2026",
+      "SRC-CLONTARF-VERNON-STREET-HISTORY"
+    ]
+  },
+  {
+    "id": "RES-CLONTARF-SLIP-FIELD-1792",
+    "title": "1792 manuscript survey: Slip Field near Clontarf",
+    "area": "CLONTARF AREA · BARONY OF COOLOCK",
+    "updated": "2026-10-26",
+    "status": "ARCHIVAL_LEAD",
+    "status_label": "PRIMARY-SOURCE LEAD · IMAGE NOT INSPECTED",
+    "summary": "The National Library of Ireland catalogue records a 1792 survey by John Brownrigg, titled A survey of a piece of ground called the Slip field near Clontarf. Call number MS 21 F. 51 / (081), scale 10 perches to an inch.",
+    "supported": "The manuscript map's title, date, surveyor, scale and catalogue identifier are recorded by the NLI. The catalogue says a digital copy exists.",
+    "limits": "The image has not been visually inspected. 'Near Clontarf' does not establish that this field depicts the fishing sheds, Coast Road or Vernon Avenue. No map geometry or pin is inferred.",
+    "source_ids": [
+      "SRC-CLONTARF-NLI-SLIPFIELD-1792",
+      "SRC-CLONTARF-NLI-MAPS-ACCESS"
+    ]
+  },
+  {
+    "id": "RES-CLONTARF-BAYVIEW-1792",
+    "title": "1792 manuscript map: Bay View & Mount Pleasant",
+    "area": "BARONY OF COOLOCK · DUBLIN",
+    "updated": "2026-10-26",
+    "status": "ARCHIVAL_LEAD",
+    "status_label": "REGIONAL COMPARISON LEAD · IMAGE NOT INSPECTED",
+    "summary": "A second John Brownrigg manuscript map in the NLI Longfield Map Collection is titled A map of Bay View & Mount Pleasant in the Barony of Coolock & County of Dublin belonging to Robert Burton Esq., dated 1792. Call number MS 21 F. 51 / (079).",
+    "supported": "The NLI catalogue identifies the title, creator, date, collection and scale of 10 perches to an inch.",
+    "limits": "Its precise geographic extent and relationship to the historic Clontarf sheds remain unknown until the image is inspected. It is not currently a confirmed sheds location.",
+    "source_ids": [
+      "SRC-CLONTARF-NLI-BAYVIEW-MOUNTPLEASANT-1792",
+      "SRC-CLONTARF-NLI-MAPS-ACCESS"
+    ]
+  },
+  {
+    "id": "RES-CLONTARF-TAYLOR-1816",
+    "title": "Taylor's 1816 map and the reported Green Lane name",
+    "area": "CLONTARF · DUBLIN",
+    "updated": "2026-10-26",
+    "status": "PRIMARY_CHECK_PENDING",
+    "status_label": "PRIMARY MAP INSPECTION PENDING",
+    "summary": "Taylor's Map of the Environs of Dublin, Extending 10 to 14 Miles from the Castle, was published in 1816. UCD Library identifies the National Library of Scotland record and a South Dublin County Council historic-map viewer as access routes.",
+    "supported": "The map's identity and access routes are catalogued. A secondary street-history article reports that the route was labelled Green Lane.",
+    "limits": "The Clontarf portion of the 1816 map has not yet been visually inspected. The Green Lane label is not presented here as a direct reading of the original map.",
+    "source_ids": [
+      "SRC-CLONTARF-TAYLOR-1816-NLS",
+      "SRC-CLONTARF-UCD-HISTORIC-MAPS",
+      "SRC-CLONTARF-VERNON-STREET-HISTORY"
+    ]
+  },
+  {
+    "id": "RES-CLONTARF-ROCQUE-EDITIONS",
+    "title": "Rocque's Dublin maps: three dates, distinct works",
+    "area": "DUBLIN · HISTORICAL CARTOGRAPHY",
+    "updated": "2026-10-26",
+    "status": "SOURCE_RECONCILIATION",
+    "status_label": "MAP EDITION IDENTIFICATION IN PROGRESS",
+    "summary": "The 1756, 1757 and 1760 Rocque maps are distinct publications and should not be treated as interchangeable. The Vernon Avenue secondary article itself has a date/footnote mismatch, while Dublin City Council labels its reproduced map 1757.",
+    "supported": "UCD Library and the Dictionary of Irish Biography distinguish several Rocque titles and dates. Dublin City Council's 2026 report labels its reproduced map 1757.",
+    "limits": "The exact original sheet behind each modern reference has not yet been identified. No claim is made that a particular Rocque sheet proves the location of individual sheds.",
+    "source_ids": [
+      "SRC-CLONTARF-ROCQUE-DIB",
+      "SRC-CLONTARF-UCD-HISTORIC-MAPS",
+      "SRC-CLONTARF-VERNON-DCC-2026",
+      "SRC-CLONTARF-VERNON-STREET-HISTORY"
+    ]
+  },
+  {
+    "id": "RES-CLONTARF-NAMEBOOK-1836",
+    "title": "The 1836 Ordnance Survey Name Book: primary entry still to inspect",
+    "area": "COUNTY DUBLIN · CLONTARF",
+    "updated": "2026-10-26",
+    "status": "ARCHIVAL_ACCESS_TARGET",
+    "status_label": "PRIMARY RECORD ACCESS TARGET",
+    "summary": "The NLI catalogue lists four typed-copy volumes of the County Dublin Ordnance Survey Name Books. Volume I, call number BB6442, covers Aderrig to Coolock and is the correct volume to investigate for Clontarf.",
+    "supported": "The County Dublin collection is separate from the digitised City of Dublin compilation. The 1836 wording about a road through 'The Sheds of Clontarf Village' is currently known through a secondary article.",
+    "limits": "The original County Name Book entry has not been directly inspected. The City of Dublin Name Book PDF is not a substitute for the County volume.",
+    "source_ids": [
+      "SRC-CLONTARF-NLI-COUNTY-NAMEBOOKS",
+      "SRC-CLONTARF-VERNON-STREET-HISTORY",
+      "SRC-CLONTARF-EB-AIREAD-CITY-NAMEBOOKS"
+    ]
+  }
+]

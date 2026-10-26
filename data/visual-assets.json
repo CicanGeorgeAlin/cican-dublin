@@ -4368,6 +4368,194 @@
         "source_requirement": "Corresponding founder-captured original photograph"
       },
       "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-BLD-0080",
+      "name": "Beech Lodge — former Clontarf Castle gate lodge",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 3",
+      "address": "118 Kincora Grove, Clontarf, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Overall lodge and its relationship to Kincora Grove",
+        "Gabled breakfront and dormer attic",
+        "Carved timber ridge cresting, bargeboards and finials",
+        "Decorative rendered chimneystacks",
+        "Pointed-arch entrance, granite threshold and flagstones",
+        "Outbuildings only from a lawful public viewpoint"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-BLD-0081",
+      "name": "89 Clontarf Road — 1847 terrace house and entrance fabric",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 3",
+      "address": "89 Clontarf Road, Clontarf, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Whole house and relationship to shared green",
+        "Petal-motif fanlight and round-headed doorway",
+        "Cornice, frieze and console brackets of door surround",
+        "Cut-granite steps, platform and cast-iron balustrade",
+        "Cast-iron railings and pedestrian gate",
+        "Brickwork, granite stringcourse and sash windows"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0049",
+      "name": "Mount Prospect Avenue — Carron cast-iron P&T pillar postbox",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 3",
+      "address": "Mount Prospect Avenue, Clontarf, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Complete pillar box and its lawned verge setting",
+        "P&T insignia and Post Office lettering",
+        "Carron Company Stirlingshire maker's mark",
+        "Fluted rim, domed cap, moulded neck and plinth",
+        "Wider relationship to Mount Prospect Avenue"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0050",
+      "name": "Kincora Grove — Carron cast-iron pillar postbox",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 3",
+      "address": "Kincora Grove, Clontarf, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Whole pillar postbox in the footpath setting",
+        "Carron Company Stirlingshire maker's mark",
+        "Letter slot and collection plate",
+        "Fluted rim, domed cap and moulded plinth",
+        "Wider Kincora Grove context"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0051",
+      "name": "Dunluce Road — G.L. Murphy Irish cast-iron P&T pillar postbox",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 3",
+      "address": "Dunluce Road, Clontarf, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Complete pillar box and its footpath context",
+        "P&T monogram in Gaelic script",
+        "G.L. Murphy Ireland Ltd Gorey maker's mark",
+        "Dentillated rim, cap and moulded neck",
+        "Base and surrounding streetscape"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0052",
+      "name": "Malahide Road — Jessop Davis P&T cast-iron pillar postbox",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 3",
+      "address": "Malahide Road, Clontarf / Donnycarney, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full pillar box and Malahide Road context",
+        "P&T monogram and raised lettering",
+        "Jessop Davis Enniscorthy maker's mark",
+        "Dentillated rim, shallow dome and moulded neck",
+        "Base, concrete setting and footpath"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
     }
   ]
 }

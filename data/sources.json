@@ -1641,5 +1641,65 @@
     "source_type": "OFFICIAL_HERITAGE_REGISTER",
     "specific_reference": "NIAH Registration 50010751; Dublin 1; published Irish Grid reference 315850, 235647.",
     "notes": "Indexed NIAH record reviewed 26 October 2026. The record describes a late-Georgian townhouse and a Portland limestone date plaque on the south side elevation reading “Sherrard Street 1825”. Direct opening of the NIAH page was blocked (HTTP 403) in this research pass. Retain PARTIALLY_VERIFIED pending independent inspection of the full official record or downloadable dataset. WGS 84 coordinate is source-derived using the project's EPSG:29902 to WGS 84 transformation operation 1641; founder field verification remains outstanding."
+  },
+  {
+    "id": "NIAH-50030335",
+    "name": "Beech Lodge — former Clontarf Castle gate lodge — NIAH registration 50030335",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030335/beech-lodge-118-kincora-grove-clontarf-dublin-3-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030335; Dublin 3; published Irish Grid reference 319301, 236703.",
+    "notes": "Official NIAH indexed register record reviewed on 26 October 2026. Search-indexed page supplies the record title, date, description, appraisal and Irish Grid reference; direct page access was not independently confirmed in this pass. Mark PARTIALLY_VERIFIED until the full NIAH record is directly inspected or independently retrieved from an official export. Coordinates are transformed from the published Irish Grid point and remain source-derived pending founder field verification."
+  },
+  {
+    "id": "NIAH-50030357",
+    "name": "89 Clontarf Road — 1847 terrace house and entrance fabric — NIAH registration 50030357",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030357/89-clontarf-road-clontarf-dublin-3-co-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030357; Dublin 3; published Irish Grid reference 319059, 236016.",
+    "notes": "Official NIAH indexed register record reviewed on 26 October 2026. Search-indexed page supplies the record title, date, description, appraisal and Irish Grid reference; direct page access was not independently confirmed in this pass. Mark PARTIALLY_VERIFIED until the full NIAH record is directly inspected or independently retrieved from an official export. Coordinates are transformed from the published Irish Grid point and remain source-derived pending founder field verification."
+  },
+  {
+    "id": "NIAH-50030342",
+    "name": "Mount Prospect Avenue — Carron cast-iron P&T pillar postbox — NIAH registration 50030342",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030342/mount-prospect-avenue-clontarf-dublin-3-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030342; Dublin 3; published Irish Grid reference 320600, 236647.",
+    "notes": "Official NIAH indexed register record reviewed on 26 October 2026. Search-indexed page supplies the record title, date, description, appraisal and Irish Grid reference; direct page access was not independently confirmed in this pass. Mark PARTIALLY_VERIFIED until the full NIAH record is directly inspected or independently retrieved from an official export. Coordinates are transformed from the published Irish Grid point and remain source-derived pending founder field verification."
+  },
+  {
+    "id": "NIAH-50030286",
+    "name": "Kincora Grove — Carron cast-iron pillar postbox — NIAH registration 50030286",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030286/kincora-grove-clontarf-dublin-3-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030286; Dublin 3; published Irish Grid reference 319295, 236689.",
+    "notes": "Official NIAH indexed register record reviewed on 26 October 2026. Search-indexed page supplies the record title, date, description, appraisal and Irish Grid reference; direct page access was not independently confirmed in this pass. Mark PARTIALLY_VERIFIED until the full NIAH record is directly inspected or independently retrieved from an official export. Coordinates are transformed from the published Irish Grid point and remain source-derived pending founder field verification."
+  },
+  {
+    "id": "NIAH-50030333",
+    "name": "Dunluce Road — G.L. Murphy Irish cast-iron P&T pillar postbox — NIAH registration 50030333",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030333/dunluce-road-clontarf-furrypark-dublin-3-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030333; Dublin 3; published Irish Grid reference 320012, 237115.",
+    "notes": "Official NIAH indexed register record reviewed on 26 October 2026. Search-indexed page supplies the record title, date, description, appraisal and Irish Grid reference; direct page access was not independently confirmed in this pass. Mark PARTIALLY_VERIFIED until the full NIAH record is directly inspected or independently retrieved from an official export. Coordinates are transformed from the published Irish Grid point and remain source-derived pending founder field verification."
+  },
+  {
+    "id": "NIAH-50030291",
+    "name": "Malahide Road — Jessop Davis P&T cast-iron pillar postbox — NIAH registration 50030291",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030291/malahide-road-clontarf-donnycarney-dublin-3-co-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030291; Dublin 3; published Irish Grid reference 318401, 237333.",
+    "notes": "Official NIAH indexed register record reviewed on 26 October 2026. Search-indexed page supplies the record title, date, description, appraisal and Irish Grid reference; direct page access was not independently confirmed in this pass. Mark PARTIALLY_VERIFIED until the full NIAH record is directly inspected or independently retrieved from an official export. Coordinates are transformed from the published Irish Grid point and remain source-derived pending founder field verification."
   }
 ]

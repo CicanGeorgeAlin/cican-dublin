@@ -261,3 +261,13 @@ UCD Library's map guide explicitly identifies the 1816 *Taylor's Map of the Envi
 ### Research integrity status
 
 No manuscript map image has been inspected in this update. No shed footprint, oyster-bed polygon, coordinate, physical-object record or map pin is established. The new viewer and map catalogue records are access/discovery references only.
+
+
+## Research update — 26 October 2026 (Virtual Treasury route for Taylor 1816)
+
+The Vernon Avenue street-history article's footnote identifies Taylor's 1816 map through the Virtual Treasury of Ireland item **LBC-GJ-13-2**, in addition to the National Library of Scotland catalogue and the UCD Library access guide. This is a useful additional digital catalogue route for the primary map.
+
+- [Virtual Treasury of Ireland — Taylor's Map of the Environs of Dublin, 1816 (LBC-GJ-13-2)](https://virtualtreasury.ie/item/LBC-GJ-13-2)
+- [Streets broad and narrow — Vernon Avenue](https://streetsbroadandnarrow.ie/vernon-avenue/)
+
+The Virtual Treasury page was reachable as a catalogue URL, but the research session did not extract or inspect the map image or Clontarf section. The reported **Green Lane** label therefore remains a secondary-source transcription, not a direct observation from Taylor's map. The source has been registered in `data/sources.json` as `SRC-CLONTARF-TAYLOR-1816-VRT` and linked to the public Taylor research note. No geometry, coordinate, shed footprint or map pin is inferred.

@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN ARCHIVE",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 88,
+  "record_count": 92,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -2732,6 +2732,132 @@
         "Round-headed window openings and stone/brick reveals",
         "Pointed-arch door openings and porch",
         "Gravestones and surviving interior features from paths only"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-BLD-0046",
+      "name": "Central Hall, 71 Clontarf Road — 1906 Methodist hall",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 3",
+      "address": "71 Clontarf Road, Clontarf, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full south-facing gabled elevation",
+        "Sandstone date plaque",
+        "Cut-granite verge stones and carved kneelers",
+        "Crenellated parapet and granite plinth",
+        "Pointed-arch stained-glass windows from lawful public viewpoints",
+        "Granite threshold and steps"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-INS-0003",
+      "name": "Central Hall date plaque — “Central Hall 1906”",
+      "category": "INSCRIPTION",
+      "district": "Dublin 3",
+      "address": "Front (south) elevation of Central Hall, 71 Clontarf Road, Clontarf, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Square-on close-up of the complete sandstone plaque",
+        "Capture all lettering and punctuation legibly",
+        "Wider context photograph showing its position on the south elevation",
+        "Record weathering or damage without touching the stone"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-BLD-0047",
+      "name": "Clontarf Castle gate lodge — Gothic Revival entrance building",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 3",
+      "address": "Entrance to Clontarf Castle, Castle Avenue, Clontarf, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full gate lodge from safe public viewpoints",
+        "Round tower and conical spire",
+        "Sculpted animal heads in the corbel table",
+        "Carved stringcourses and hood-mouldings",
+        "Shield above former carriage arch",
+        "Pointed-arch door and windows",
+        "Granite bollards and chain"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0039",
+      "name": "Clontarf Castle gate lodge — sculpted animal-head corbels",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 3",
+      "address": "Corbel table of the Clontarf Castle gate lodge, Castle Avenue, Clontarf, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Photograph each visible animal-head carving separately",
+        "Capture a context image without touching the stone",
+        "Record count, orientation and condition",
+        "Record exact façade position",
+        "Use telephoto zoom from a safe public position if needed"
       ],
       "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
       "original_photo": null,

@@ -37,8 +37,14 @@ for(const file of ["index.html","archive.html","my-dublin.html"]){
  for(let i=0;i<scripts.length;i++)new vm.Script(scripts[i][1],{filename:file+" inline script "+(i+1)});
 }
 const home=read("index.html");
-for(const id of ["homeSearch","homeDistrict","homeCount","homeGrid","homeMore","heroDiscoveryCount","heroIndexTotal"])assert.ok(home.includes('id="'+id+'"'),"Homepage missing #"+id);
-assert.ok(home.includes('Promise.all(["objects","visual-assets"]'),"Homepage must load catalogue and visual inventory.");
+const mapFirstHome=home.includes('id="map"')&&home.includes('<base href="./preview/">')&&home.includes('src="./app/app.js"');
+if(mapFirstHome){
+ assert.ok(home.includes('rel="canonical" href="https://cicangeorgealin.github.io/cican-dublin-archive/"'),"Map-first homepage must declare the canonical root URL.");
+ assert.ok(home.includes('.discovery-panel:not(.detail-open){display:none!important}'),"Map-first homepage must keep the discovery sheet hidden until a place is selected.");
+}else{
+ for(const id of ["homeSearch","homeDistrict","homeCount","homeGrid","homeMore","heroDiscoveryCount","heroIndexTotal"])assert.ok(home.includes('id="'+id+'"'),"Homepage missing #"+id);
+ assert.ok(home.includes('Promise.all(["objects","visual-assets"]'),"Homepage must load catalogue and visual inventory.");
+}
 const archive=read("archive.html");
 for(const id of ["gallery","detail","detailBody","search","districtFilter","categoryFilter","pageSize","pagination"])assert.ok(archive.includes('id="'+id+'"'),"Archive page missing #"+id);
 assert.ok(archive.includes('Promise.all(["objects","sources","visual-assets"]'),"Archive must load all data files.");

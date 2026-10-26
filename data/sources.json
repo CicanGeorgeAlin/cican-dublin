@@ -1231,5 +1231,65 @@
     "source_type": "OFFICIAL_HERITAGE_REGISTER",
     "specific_reference": "NIAH Registration 50030154; Dublin 3; published Irish Grid reference 319311, 236116.",
     "notes": "Primary official source for the registered place/object, historical description, appraisal, date range and source coordinate. Original NIAH Irish Grid reference is preserved; WGS 84 is transformed and labelled source-derived pending founder field verification."
+  },
+  {
+    "id": "NIAH-50030322",
+    "name": "Seafield Road West — Jessop Davis cast-iron postbox — NIAH registration 50030322",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030322/seafield-road-west-clontarf-dublin-3-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030322; Dublin 3; published Irish Grid reference 319748, 236383.",
+    "notes": "Primary official source for registered place/object, historical description, appraisal, date range and source coordinate. Original Irish Grid reference preserved; transformed WGS 84 coordinate is source-derived pending founder field verification."
+  },
+  {
+    "id": "NIAH-50030324",
+    "name": "St John the Baptist Church — First and Second World War Celtic cross memorial — NIAH registration 50030324",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030324/church-of-st-john-the-baptist-16-seafield-road-west-clontarf-dublin-3-co-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030324; Dublin 3; published Irish Grid reference 319715, 236380.",
+    "notes": "Primary official source for registered place/object, historical description, appraisal, date range and source coordinate. Original Irish Grid reference preserved; transformed WGS 84 coordinate is source-derived pending founder field verification."
+  },
+  {
+    "id": "NIAH-50030345",
+    "name": "54 Vernon Avenue — 1913 detached villa — NIAH registration 50030345",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030345/54-vernon-avenue-clontarf-dublin-3-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030345; Dublin 3; published Irish Grid reference 320137, 236127.",
+    "notes": "Primary official source for registered place/object, historical description, appraisal, date range and source coordinate. Original Irish Grid reference preserved; transformed WGS 84 coordinate is source-derived pending founder field verification."
+  },
+  {
+    "id": "NIAH-50030098",
+    "name": "Vernon Avenue — Carron cast-iron pillar postbox — NIAH registration 50030098",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030098/vernon-avenue-clontarf-dublin-3-co-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030098; Dublin 3; published Irish Grid reference 320181, 236430.",
+    "notes": "Primary official source for registered place/object, historical description, appraisal, date range and source coordinate. Original Irish Grid reference preserved; transformed WGS 84 coordinate is source-derived pending founder field verification."
+  },
+  {
+    "id": "NIAH-50030099",
+    "name": "Woodside Villa — 70–72 Vernon Avenue — NIAH registration 50030099",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030099/70-72-vernon-avenue-clontarf-dublin-3-co-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030099; Dublin 3; published Irish Grid reference 320165, 236257.",
+    "notes": "Primary official source for registered place/object, historical description, appraisal, date range and source coordinate. Original Irish Grid reference preserved; transformed WGS 84 coordinate is source-derived pending founder field verification."
+  },
+  {
+    "id": "NIAH-50030334",
+    "name": "Verville — early Georgian house and former private asylum — NIAH registration 50030334",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030334/verville-vernon-avenue-clontarf-sibylhill-dublin-3-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030334; Dublin 3; published Irish Grid reference 319916, 236972.",
+    "notes": "Primary official source for registered place/object, historical description, appraisal, date range and source coordinate. Original Irish Grid reference preserved; transformed WGS 84 coordinate is source-derived pending founder field verification."
   }
 ]

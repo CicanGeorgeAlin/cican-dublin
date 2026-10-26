@@ -5781,7 +5781,7 @@
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Public streetscape. Photograph from public footpaths; take care near traffic and do not enter private property.",
-    "map_url": null,
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=Seafield%20Road%20East%20and%20Seafield%20Road%20West%2C%20Clontarf%2C%20Dublin%203&travelmode=walking",
     "photography_brief": [
       "Record each surviving lamp standard along both roads",
       "Capture the octagonal exposed-aggregate shaft and base",
@@ -5793,7 +5793,7 @@
       "NIAH-50030341"
     ],
     "feature_type": "SURFACE_OR_SEQUENCE",
-    "research_notes": "NIAH Registration 50030341 directly inspected. The register describes a continuous group but does not provide individual lamp coordinates or a count. Establish the surviving sequence during fieldwork; do not infer how many remain."
+    "research_notes": "NIAH Registration 50030341 directly inspected. The register describes a continuous group but does not provide individual lamp coordinates or a count. Establish the surviving sequence during fieldwork; do not infer how many remain. A walking route opens to the parent street address only; it is not an exact micro-feature pin. Identify the feature on site before recording its precise position."
   },
   {
     "id": "DUB-STR-0062",
@@ -5817,7 +5817,7 @@
     "publication_status": "NOT_PUBLISHED",
     "parent_id": "DUB-BLD-0018",
     "access_status": "Private or occupied property frontage. Photograph only details visible from the public footpath; respect residents' privacy and do not enter the platform without permission.",
-    "map_url": null,
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=12%20Charleville%20Mall%2C%20Dublin%201&travelmode=walking",
     "photography_brief": [
       "Close-up of the complete cast-iron bootscraper",
       "Show its mounting and relationship to the entrance platform",
@@ -5828,7 +5828,7 @@
       "NIAH-50010071"
     ],
     "feature_type": "MICRO_DETAIL",
-    "research_notes": "NIAH Registration 50010071 directly inspected. The source confirms a cast-iron bootscraper but does not separately date or describe its form. Do not assign an age or maker until further evidence is found."
+    "research_notes": "NIAH Registration 50010071 directly inspected. The source confirms a cast-iron bootscraper but does not separately date or describe its form. Do not assign an age or maker until further evidence is found. A walking route opens to the parent street address only; it is not an exact micro-feature pin. Identify the feature on site before recording its precise position."
   },
   {
     "id": "DUB-STR-0063",
@@ -5852,7 +5852,7 @@
     "publication_status": "NOT_PUBLISHED",
     "parent_id": "DUB-BLD-0018",
     "access_status": "Public footpath. Photograph without obstructing pedestrians; do not lift, open or interfere with the cover.",
-    "map_url": null,
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=12%20Charleville%20Mall%2C%20Dublin%201&travelmode=walking",
     "photography_brief": [
       "Photograph the full cover and granite surround from directly above where safe",
       "Capture all visible lettering, maker's marks and patterns",
@@ -5863,7 +5863,7 @@
       "NIAH-50010071"
     ],
     "feature_type": "MICRO_DETAIL",
-    "research_notes": "NIAH Registration 50010071 directly inspected. The source confirms a cast-iron coal-hole cover in a granite setting but does not state its maker or installation date."
+    "research_notes": "NIAH Registration 50010071 directly inspected. The source confirms a cast-iron coal-hole cover in a granite setting but does not state its maker or installation date. A walking route opens to the parent street address only; it is not an exact micro-feature pin. Identify the feature on site before recording its precise position."
   },
   {
     "id": "DUB-STR-0064",
@@ -5887,7 +5887,7 @@
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Office frontage and private property setting. Photograph only from a lawful public position; do not enter the entrance platform or touch the ironwork.",
-    "map_url": null,
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=46%20Merrion%20Square%2C%20Dublin%202&travelmode=walking",
     "photography_brief": [
       "Locate the remnant described by NIAH",
       "Photograph the complete surviving fragment in context",
@@ -5898,7 +5898,7 @@
       "NIAH-50100511"
     ],
     "feature_type": "MICRO_DETAIL",
-    "research_notes": "NIAH Registration 50100511 directly inspected. The register says 'remnants of wrought-iron lamp standard' but does not specify the surviving form, extent or date. Confirm what remains before making any further interpretation."
+    "research_notes": "NIAH Registration 50100511 directly inspected. The register says 'remnants of wrought-iron lamp standard' but does not specify the surviving form, extent or date. Confirm what remains before making any further interpretation. A walking route opens to the parent street address only; it is not an exact micro-feature pin. Identify the feature on site before recording its precise position."
   },
   {
     "id": "DUB-STR-0065",
@@ -5922,7 +5922,7 @@
     "publication_status": "NOT_PUBLISHED",
     "parent_id": null,
     "access_status": "Public footpath outside an office frontage. Photograph without obstructing pedestrians; do not lift or interfere with the cover.",
-    "map_url": null,
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=46%20Merrion%20Square%2C%20Dublin%202&travelmode=walking",
     "photography_brief": [
       "Locate the cast-iron cover recorded by NIAH",
       "Photograph the full cover and pavement setting",
@@ -5933,7 +5933,7 @@
       "NIAH-50100511"
     ],
     "feature_type": "MICRO_DETAIL",
-    "research_notes": "NIAH Registration 50100511 directly inspected. The register confirms a cast-iron coal-hole cover but does not state its maker, date or exact position."
+    "research_notes": "NIAH Registration 50100511 directly inspected. The register confirms a cast-iron coal-hole cover but does not state its maker, date or exact position. A walking route opens to the parent street address only; it is not an exact micro-feature pin. Identify the feature on site before recording its precise position."
   },
   {
     "id": "DUB-INS-0008",
@@ -5957,7 +5957,7 @@
     "publication_status": "NOT_PUBLISHED",
     "parent_id": "DUB-BLD-0072",
     "access_status": "Private residential property. Photograph only from a lawful public position; respect residents' privacy and do not enter the property.",
-    "map_url": null,
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=54%20Vernon%20Avenue%2C%20Clontarf%2C%20Dublin%203&travelmode=walking",
     "photography_brief": [
       "Photograph the date plaque square-on from the public footpath if visible",
       "Transcribe only the characters that can be clearly read",
@@ -5968,6 +5968,6 @@
       "NIAH-50030345"
     ],
     "feature_type": "MICRO_DETAIL",
-    "research_notes": "NIAH Registration 50030345 directly inspected. It confirms a date plaque and dates the house to 1913, but does not reproduce the plaque's text. Do not assume the plaque literally reads '1913' until photographed and transcribed."
+    "research_notes": "NIAH Registration 50030345 directly inspected. It confirms a date plaque and dates the house to 1913, but does not reproduce the plaque's text. Do not assume the plaque literally reads '1913' until photographed and transcribed. A walking route opens to the parent street address only; it is not an exact micro-feature pin. Identify the feature on site before recording its precise position."
   }
 ]

@@ -1740,7 +1740,24 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "record_id": "DUB-STR-0028",
+          "source_id": "WMC-DUB1-FIVE-LAMPS-2017-01",
+          "title": "The Five Lamps, North Strand — five-headed streetlight",
+          "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Five_Lamps,_North_Strand.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:The_Five_Lamps,_North_Strand.jpg",
+          "photographer": "William Murphy",
+          "date_taken": "2017-08-07",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "attribution": "William Murphy, “The Five Lamps, North Strand”, 7 August 2017, via Wikimedia Commons (CC BY-SA 2.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "The Commons caption identifies the five-headed streetlight known locally as The Five Lamps. This is a direct object reference photograph, not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-BLD-0011",
@@ -4349,7 +4366,24 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "record_id": "DUB-STR-0043",
+          "source_id": "WMC-DUB3-CLONTARF-POSTBOX-2022-01",
+          "title": "Clontarf Road — Victorian pillar postbox",
+          "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dublin_-_Clontarf_Road_pillar_postbox_-_20220908183803.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Dublin_-_Clontarf_Road_pillar_postbox_-_20220908183803.jpg",
+          "photographer": "Tdr112",
+          "date_taken": "2022-09-08",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Tdr112, “Dublin - Clontarf Road pillar postbox”, 8 September 2022, via Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "The Commons file identifies the Clontarf Road pillar postbox and supplies camera coordinates approximately 12 metres from the archive's source-derived pin. Strong direct visual match; founder field verification of the exact pin remains outstanding."
+        }
+      ]
     },
     {
       "record_id": "DUB-STR-0044",

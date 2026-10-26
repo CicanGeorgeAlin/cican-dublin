@@ -4,21 +4,21 @@
     "description": "North City",
     "status": "RESEARCH_IN_PROGRESS",
     "geographic_type": "POSTAL_DISTRICT",
-    "coverage_notes": "Initial discovery research is active. Five new records were added in discovery batch 001 (2026-10-24); the district is not comprehensively surveyed and field photography remains outstanding. Operational fieldwork zone only; not an administrative boundary."
+    "coverage_notes": "Research is in progress with 46 catalogue records. This is an expanding sample, not a comprehensive survey; founder photography and on-site coordinate verification remain outstanding. Operational fieldwork zone only; not an administrative boundary."
   },
   {
     "name": "Dublin 2",
     "description": "Historic Centre",
-    "status": "NOT_YET_RESEARCHED",
+    "status": "RESEARCH_IN_PROGRESS",
     "geographic_type": "POSTAL_DISTRICT",
-    "coverage_notes": "Operational fieldwork zone only; not an administrative boundary. Research coverage is not yet complete."
+    "coverage_notes": "Research is in progress with 34 catalogue records. This is an expanding sample, not a comprehensive survey; founder photography and on-site coordinate verification remain outstanding. Operational fieldwork zone only; not an administrative boundary."
   },
   {
     "name": "Dublin 3",
     "description": "North-East Dublin",
     "status": "RESEARCH_IN_PROGRESS",
     "geographic_type": "POSTAL_DISTRICT",
-    "coverage_notes": "Initial research batches 001–002 now contain eight individually documented NIAH records: 7 and 24 Marino Crescent, Marino College, Marino Institute of Education, Clontarf Stationmaster’s House, Clontarf and Scots Presbyterian Church, Vernon Lodge and the Church of St John the Baptist ruins. This is an opening research sample, not comprehensive district coverage; field photography and on-site coordinate verification remain outstanding. Operational fieldwork zone only; not an administrative boundary."
+    "coverage_notes": "Research is in progress with 18 catalogue records, including Marino, Clontarf and the seafront corridor. Discovery batches 001–004 document individually registered buildings, ruins, architectural details, a Modernist promenade shelter and a handball alley. This remains an opening sample, not comprehensive district coverage; founder photography and on-site coordinate verification remain outstanding. Operational fieldwork zone only; not an administrative boundary."
   },
   {
     "name": "Dublin 4",

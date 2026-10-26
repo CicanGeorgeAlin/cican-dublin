@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 191,
+  "record_count": 195,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -6019,6 +6019,126 @@
         "Full cover and pavement setting from above where safe",
         "All visible lettering, maker's marks and pattern",
         "Relationship to granite entrance platform and street"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-BLD-0093",
+      "name": "84 Harcourt Street — early-Victorian townhouse with surviving cast-iron entrance fittings",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 2",
+      "address": "84 Harcourt Street, Dublin 2",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full façade and relationship to Nos. 83–86 Harcourt Street",
+        "Scamozzian Ionic doorway, columns, panelled frieze and cornice",
+        "Cast-iron bootscraper and granite entrance steps, photographed from a lawful public viewpoint",
+        "Cast-iron railings, anthemion finials and carved granite plinth",
+        "Coal-hole cover in the street west of the frontage",
+        "Current condition, repairs and any visible maker's marks"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0089",
+      "name": "84 Harcourt Street — cast-iron entrance bootscraper",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 2",
+      "address": "Shared granite entrance platform at 84 Harcourt Street, Dublin 2",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Bootscraper in its granite platform setting, only if visible from the public footpath",
+        "Full iron form, wear, fixings and any visible maker's mark",
+        "Relationship to the nosed granite entrance steps"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0090",
+      "name": "84 Harcourt Street — cast-iron pavement coal-hole cover",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 2",
+      "address": "Street pavement west of 84 Harcourt Street, Dublin 2",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Full cover and surrounding pavement from above where safe",
+        "All visible lettering, maker's marks, pattern and fixing details",
+        "Relationship to the west-facing townhouse frontage"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0091",
+      "name": "84 Harcourt Street — cast-iron railings with anthemion finials",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 2",
+      "address": "Basement well boundary at 84 Harcourt Street, Dublin 2",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Full railing run and its relationship to the basement well",
+        "Anthemion finials and individual iron details",
+        "Carved granite plinth and junctions",
+        "Any visible repairs, alterations or maker's marks"
       ],
       "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
       "original_photo": null,

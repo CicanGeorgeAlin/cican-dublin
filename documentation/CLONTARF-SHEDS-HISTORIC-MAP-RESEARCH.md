@@ -271,3 +271,42 @@ The Vernon Avenue street-history article's footnote identifies Taylor's 1816 map
 - [Streets broad and narrow — Vernon Avenue](https://streetsbroadandnarrow.ie/vernon-avenue/)
 
 The Virtual Treasury page was reachable as a catalogue URL, but the research session did not extract or inspect the map image or Clontarf section. The reported **Green Lane** label therefore remains a secondary-source transcription, not a direct observation from Taylor's map. The source has been registered in `data/sources.json` as `SRC-CLONTARF-TAYLOR-1816-VRT` and linked to the public Taylor research note. No geometry, coordinate, shed footprint or map pin is inferred.
+
+
+## Research update — 26 October 2026 (contemporary and documentary evidence)
+
+### Samuel Lewis's 1837 Topographical Dictionary
+
+The digitised entry for Clontarf in Samuel Lewis's *A Topographical Dictionary of Ireland* (1837) says that wooden buildings called the Clontarf sheds remained along the water's edge and had formerly been used to cure fish. It also describes a profitable oyster bank off the sheds. This is a contemporary printed description, directly inspected in digitised text, and strengthens the evidence for the fishing-sheds locality and its coastal economy.
+
+- [Samuel Lewis, *A Topographical Dictionary of Ireland* (1837), Clontarf entry](https://www.libraryireland.com/topog/C/Clontarf-Coolock-Dublin.php)
+
+The entry does not supply exact shed footprints, a surveyed boundary or modern coordinates. No geometry or map pin is inferred.
+
+### 1789 Registry of Deeds will abstract
+
+A published abstract for Patrick Toole, dated 26 January 1789, is indexed in the Irish Manuscripts Commission's *Registry of Deeds Abstracts of Wills*, Volume III (1785–1832), abstract no. 42. The indexed text refers to property in the Sheds of Clontarf and a house on the Green in the Sheds. This is an earlier documentary use of the locality name than the 1837 topographical description.
+
+- [Irish Manuscripts Commission — *Registry of Deeds Abstracts of Wills*, Volume III (1785–1832), PDF](https://www.irishmanuscripts.ie/digital/Registry%20Of%20Deeds%20Abstracts%20Of%20Wills%20Vol%20III%201785-1832/Registry%20Of%20Deeds%20Abstracts%20Of%20Wills%20Vol%20III%201785-1832.pdf)
+
+The underlying will/deed has not been inspected directly; this is a published abstract, not a precise property survey or a location for individual sheds.
+
+### 1728 “Herring Sheds” map label — secondary attribution awaiting image inspection
+
+Dillon Cosgrave's *North Dublin*, Chapter XVI, states that Captain Perry's 1728 map of Dublin Bay and Harbour marks “Herring Sheds” at the coast road below Vernon Avenue. The Dublin Port Archive catalogue identifies a 1728 map titled *A New and Correct Map of the Bay and Harbour of Dublin with a small Plan of the City*. The original image and exact label placement have not yet been independently inspected in this research session.
+
+- [Dillon Cosgrave, *North Dublin*, Chapter XVI: Clontarf](https://www.chaptersofdublin.ie/NorthDub/cosgrave16.htm)
+- [Dublin Port Archive — 18th-century historical maps](https://www.dublinportarchive.com/collection/historical-maps-1700s/)
+- [1728 map image — Dublin Port Archive](https://www.dublinportarchive.com/wp-content/uploads/2022/02/Maps_Bowles.jpg)
+
+Treat “Herring Sheds” as a reported transcription until the original map is examined. Dublin Port Archive's reproduction permissions must be checked before publication or reuse of the image.
+
+### 1858 Thom's Almanac — figures awaiting page-level verification
+
+Search-indexed text from the 1858 *Thom's Almanac and Official Directory* describes the village and sheds as an area of 38 acres, with 875 inhabitants in 130 houses, and mentions oyster beds off the sheds. The digitised PDF was not directly inspectable in this session. These exact figures remain a transcription lead until the relevant page is checked.
+
+- [Thom's Almanac and Official Directory (1858), digitised copy at South Dublin Libraries](https://source.southdublinlibraries.ie/bitstream/10599/5076/4/1858.pdf)
+
+### Current integrity status
+
+The 1837 entry is a contemporary printed description of the coastal sheds and fish-curing activity. The 1789 will is represented by a published abstract only. The 1728 map label is a secondary attribution awaiting direct image inspection. The 1858 statistics await page-level verification. None of these sources establishes individual shed footprints, oyster-bed boundaries or precise coordinates; no physical object or map pin has been added from them.

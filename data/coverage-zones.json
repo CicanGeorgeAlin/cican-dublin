@@ -15,11 +15,11 @@
       "id": "DUB-LA-001",
       "name": "Dublin City Council",
       "geographic_type": "LOCAL_AUTHORITY",
-      "status": "NOT_YET_RESEARCHED",
+      "status": "RESEARCH_IN_PROGRESS",
       "source_ids": [
         "SRC-DUB-LOCAL-AUTH-001"
       ],
-      "coverage_notes": "City authority area. Use official boundary geometry to determine inclusion for individual discoveries."
+      "coverage_notes": "Initial archive research is in progress. The current catalogue contains 98 records in Dublin 1, Dublin 2 and Dublin 3. This is a partial research sample, not comprehensive coverage of the Dublin City Council administrative area. Verify each record against authoritative local-authority boundaries; founder fieldwork remains outstanding."
     },
     {
       "id": "DUB-LA-002",

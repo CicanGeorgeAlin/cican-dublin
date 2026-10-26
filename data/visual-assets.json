@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN ARCHIVE",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 127,
+  "record_count": 136,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -4173,6 +4173,184 @@
         "W.T. Allen maker's mark on the frame",
         "Letter flap, hinges and ironwork details",
         "Wider junction and streetscape context"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-BLD-0078",
+      "name": "1 Sherrard Street Upper — c.1828 townhouse with surviving historic entrance fabric",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "1 Sherrard Street Upper, Dublin 1",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full façade from the public footpath",
+        "Original decorative leaded fanlight and doorcase",
+        "Coal-hole cover and granite slab if visible from public space",
+        "Granite steps, railings and cast-iron corner posts",
+        "Investigate the reported benchmark only if its exact position can be safely and lawfully identified"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-BLD-0079",
+      "name": "53 Gardiner Street Upper — Sherrard Street corner townhouse",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "53 Gardiner Street Upper, at the junction with Sherrard Street Upper, Dublin 1",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full corner building showing both street elevations",
+        "Portland limestone plaque on the south side elevation",
+        "Square-on close-up of the complete words and date “Sherrard Street 1825”",
+        "Granite-flagged entrance platform, steps and railings from public space"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0046",
+      "name": "1 Sherrard Street Upper — original cast-iron coal-hole cover",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 1",
+      "address": "Granite pavement slab outside 1 Sherrard Street Upper, Dublin 1",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Photograph the complete cover and surrounding granite slab from the public footpath",
+        "Capture any foundry name, maker's mark, lettering, pattern or date if present",
+        "Record the relationship to the house frontage without stepping into the carriageway"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0047",
+      "name": "1 Sherrard Street Upper — original decorative leaded fanlight",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 1",
+      "address": "Entrance doorway of 1 Sherrard Street Upper, Dublin 1",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Photograph the fanlight square-on from the public footpath if visible",
+        "Capture the full lead pattern, glazing and surrounding doorcase",
+        "Record condition and any later repairs without entering the property"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0048",
+      "name": "1 Sherrard Street Upper — historic benchmark recorded in the streetscape",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 1",
+      "address": "Streetscape at 1 Sherrard Street Upper, Dublin 1; exact benchmark position to be identified",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Inspect the building frontage and immediately associated public streetscape for the benchmark described by NIAH",
+        "Do not assign a precise position unless the mark is visually identified and matched to the record",
+        "Photograph the mark square-on and transcribe all visible characters only after field inspection"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-INS-0006",
+      "name": "53 Gardiner Street Upper — “Sherrard Street 1825” limestone date plaque",
+      "category": "INSCRIPTION",
+      "district": "Dublin 1",
+      "address": "South side elevation of 53 Gardiner Street Upper, at Sherrard Street Upper, Dublin 1",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Square-on close-up of the complete plaque and lettering",
+        "Capture the full wording and date without correcting or modernising the text",
+        "Wider view showing its position on the south side elevation and street junction",
+        "Record stone material, carving, weathering and repairs"
       ],
       "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
       "original_photo": null,

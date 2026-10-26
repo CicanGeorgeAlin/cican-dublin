@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "project": "CICAN DUBLIN ARCHIVE",
+  "project": "CICAN DUBLIN",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 136,
+  "record_count": 146,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -4539,6 +4539,130 @@
         "Jessop Davis Enniscorthy maker's mark",
         "Dentillated rim, shallow dome and moulded neck",
         "Base, concrete setting and footpath"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0053",
+      "name": "Beresford Place — early Free State twin-aperture cast-iron postbox",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 1",
+      "address": "Beresford Place, Dublin 1",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Complete twin-aperture box and footpath setting",
+        "Both letter slots and raised Post Office lettering",
+        "Gaelic P&T lettering on the central panel",
+        "Moulded corona, domed cap and neck mouldings",
+        "Hinged doors, handles and plinth"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0054",
+      "name": "Dorset Street Lower — disused early Free State cast-iron pillar postbox",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 1",
+      "address": "Junction of North Circular Road and Dorset Street Lower, Dublin 1",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full box and junction context",
+        "Raised P&T lettering",
+        "Letter slot and framed notice slot",
+        "Domed top and moulded corona",
+        "Hinged opening, handle and current condition"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0055",
+      "name": "Grand Canal Quay — McDowall Steven cast-iron postbox",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 2",
+      "address": "Grand Canal Quay, Grand Canal Street Lower, Dublin 2",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Complete postbox and Grand Canal Quay setting",
+        "McDowall Steven & Co London & Glasgow maker's name",
+        "Letter slot and raised Post Office lettering",
+        "Cap, corona, shaft and plinth mouldings",
+        "Door handle, lock and condition"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-STR-0056",
+      "name": "North Strand Road — George V McDowall Steven pillar postbox",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 3",
+      "address": "North Strand Road, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Complete pillar box and North Strand Road context",
+        "George V royal insignia and crown",
+        "Raised Post Office lettering and moulded handle",
+        "McDowall Steven & Co London & Glasgow maker's mark",
+        "Fluted frieze, domed cap, neck and plinth"
       ],
       "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
       "original_photo": null,

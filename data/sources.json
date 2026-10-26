@@ -2009,5 +2009,25 @@
     "source_type": "IMAGE_REFERENCE",
     "specific_reference": "Wikimedia Commons file page identifies the subject as Clontarf Promenade shelter 4, author Malone0, photograph date 2022-02-08, and licence Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).",
     "notes": "Attribution: Malone0, “Dublin - Clontarf Promenade shelter 4”, via Wikimedia Commons. Licence: CC BY-SA 4.0. Contextual promenade reference; not confirmation that this is the exact shelter at the archive pin."
+  },
+  {
+    "id": "WMC-DUB1-FIVE-LAMPS-2017-01",
+    "name": "The Five Lamps, North Strand — photograph",
+    "publisher": "Wikimedia Commons — William Murphy",
+    "url": "https://commons.wikimedia.org/wiki/File:The_Five_Lamps,_North_Strand.jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Wikimedia Commons file page identifies the five-headed streetlight known as The Five Lamps, author William Murphy, photograph date 2017-08-07, and licence CC BY-SA 2.0.",
+    "notes": "Attribution: William Murphy, “The Five Lamps, North Strand”, via Wikimedia Commons. Licence: CC BY-SA 2.0. Direct subject match for archive record DUB-STR-0028."
+  },
+  {
+    "id": "WMC-DUB3-CLONTARF-POSTBOX-2022-01",
+    "name": "Clontarf Road pillar postbox — photograph",
+    "publisher": "Wikimedia Commons — Tdr112",
+    "url": "https://commons.wikimedia.org/wiki/File:Dublin_-_Clontarf_Road_pillar_postbox_-_20220908183803.jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Wikimedia Commons file page identifies the Clontarf Road pillar postbox, author Tdr112, photograph date 2022-09-08, camera coordinates 53.358772, -6.189932, and licence CC BY-SA 4.0.",
+    "notes": "Attribution: Tdr112, “Dublin - Clontarf Road pillar postbox”, via Wikimedia Commons. Licence: CC BY-SA 4.0. Image camera coordinates are approximately 12 metres from the source-derived catalogue pin; direct subject match, with founder field verification still outstanding."
   }
 ]

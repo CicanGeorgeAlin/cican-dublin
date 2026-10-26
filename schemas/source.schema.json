@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://cicangeorgealin.github.io/cican-dublin-archive/schemas/source.schema.json",
-  "title": "CICAN Dublin Archive Source",
+  "$id": "https://cicangeorgealin.github.io/cican-dublin/schemas/source.schema.json",
+  "title": "CICAN DUBLIN Source",
   "type": "object",
   "additionalProperties": false,
   "required": [

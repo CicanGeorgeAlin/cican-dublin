@@ -4,7 +4,7 @@
 <meta name="theme-color" content="#f3efe7">
 <meta name="description" content="Your private CICAN Dublin field notebook: save visits, photographs and A4 line-art studies.">
 <link rel="canonical" href="https://cicangeorgealin.github.io/cican-dublin-archive/my-dublin.html">
-<title>My Dublin — CICAN Dublin Archive</title>
+<title>My Dublin — CICAN DUBLIN</title>
 <style>
 :root{color-scheme:light;--bg:#f3efe7;--paper:#faf8f3;--ink:#29271f;--muted:#817a6d;--line:#ded7ca;--accent:#8b7655;--serif:Georgia,"Times New Roman",serif}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}a{color:inherit}.wrap{width:min(1020px,calc(100% - 48px));margin:auto}
@@ -28,7 +28,7 @@ label{display:block;font-size:8px;letter-spacing:.16em;text-transform:uppercase;
 .panel h2{color:#304238}
 
 </style></head><body>
-<header><div class="wrap nav"><a class="brand" href="./">CICAN DUBLIN ARCHIVE</a><a href="./archive.html">THE ARCHIVE ↗</a></div></header>
+<header><div class="wrap nav"><a class="brand" href="./">CICAN DUBLIN</a><a href="./archive.html">DISCOVER DUBLIN ↗</a></div></header>
 <main class="wrap no-print">
 <div class="eyebrow">YOUR FIELD NOTEBOOK</div><h1>My Dublin.</h1><p class="lead">A quiet place to collect the Dublin you notice. Keep your photographs, make beautiful A4 studies and let each small discovery become part of a larger story.</p>
 <div class="stats"><div class="stat"><b id="visitCount">0</b><span>Places recorded</span></div><div class="stat"><b id="photoCount">0</b><span>Photographs saved</span></div><div class="stat"><b id="artCount">0</b><span>A4 studies created</span></div></div>
@@ -48,7 +48,7 @@ label{display:block;font-size:8px;letter-spacing:.16em;text-transform:uppercase;
 <section class="panel"><h2>Your visits</h2><p class="sub">Your growing photographic record of Dublin.</p><div class="actions"><button class="btn secondary" id="exportBackup" type="button">EXPORT BACKUP</button><button class="btn secondary" id="importBackup" type="button">RESTORE BACKUP</button><input id="backupFile" type="file" accept="application/json,.json" hidden></div><p class="hint">Back up your notebook regularly. The backup includes original photographs, A4 artwork and notes. Keep a copy somewhere separate from this device.</p><div id="entries" class="entry-list"><p class="sub">Loading your notebook…</p></div></section>
 <div class="notice"><strong>Community sharing is planned, not active yet.</strong> In a future stage, people will be able to contribute photographs and memories. For now, entries remain private on this device. Community photographs will be clearly distinguished from verified historical evidence.</div>
 </main><div id="printSheet"><img id="printImage" alt="A4 outline print"></div>
-<footer class="no-print"><div class="wrap">CICAN DUBLIN ARCHIVE · PERSONAL FIELD NOTEBOOK</div></footer>
+<footer class="no-print"><div class="wrap">CICAN DUBLIN · PERSONAL FIELD NOTEBOOK</div></footer>
 <script>
 const DB="cican-dublin-fieldbook",STORE="entries";let db,selectedBlob=null,artBlob=null,artUrl=null;
 const $=id=>document.getElementById(id);$("date").value=new Date().toISOString().slice(0,10);

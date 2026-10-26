@@ -1041,5 +1041,15 @@
     "source_type": "OFFICIAL_HERITAGE_REGISTER",
     "specific_reference": "NIAH Registration 50030185; Regional rating; architectural interest; former gate lodge now in use as a private house; date range 1830–1850; Irish Grid 318992, 236009. NIAH describes the building fabric, entrance loggia, slate roof, carved fascia, casement windows, red-brick gate piers and masonry sphinx finials.",
     "notes": "Primary official source for the building's identification, description, date range, appraisal and Irish Grid coordinate. NIAH states that the lodge is among the earliest buildings on this seafront and predates the associated terrace of six houses. Coordinate conversion is separately documented; the register does not specify point accuracy."
+  },
+  {
+    "id": "NIAH-50030182",
+    "name": "86 Clontarf Road — NIAH registration 50030182",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030182/clontarf-road-clontarf-dublin-3-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030182; Regional rating; Architectural and Artistic interest; original and current use house; date 1845–1850; Irish Grid 319039, 236025. NIAH describes the 1847 terraced house, entrance details, granite steps and platform, cast-iron balustrade and railings, rear outbuilding and shared green.",
+    "notes": "Primary official source for the property's identification, architectural description, appraisal, date and Irish Grid coordinate. NIAH states that the terrace was built in 1847 by Isaac Warren, steward of the Vernon estate, and that the group with outbuildings, former gate lodge and shared green remains a largely intact example of mid-nineteenth-century housing development. Coordinate transformation is documented separately."
   }
 ]

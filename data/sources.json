@@ -1621,5 +1621,25 @@
     "source_type": "OFFICIAL_HERITAGE_REGISTER",
     "specific_reference": "NIAH Registration 50030046; Dublin 3; published Irish Grid reference 319115, 236001.",
     "notes": "Official NIAH register entry identified through the indexed NIAH record. The indexed register description, appraisal and Irish Grid reference were reviewed on 26 October 2026; direct opening of the NIAH page returned HTTP 403 in this research pass. Retain PARTIALLY_VERIFIED until the full register page or downloadable official record is independently inspected. WGS 84 point is transformed from the published Irish Grid reference and remains source-derived pending founder field verification."
+  },
+  {
+    "id": "NIAH-50010749",
+    "name": "1 Sherrard Street Upper, Dublin 1 — NIAH registration 50010749",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010749/sherrard-street-upper-dublin-dublin-city",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50010749; Dublin 1; published Irish Grid reference 315869, 235660.",
+    "notes": "Indexed NIAH record reviewed 26 October 2026. The indexed record describes a c.1828 house, original decorative leaded fanlight, original cast-iron coal-hole cover set in a granite slab, and a rare original benchmark in the streetscape appraisal. Direct opening of the NIAH page was blocked (HTTP 403) in this research pass. Retain PARTIALLY_VERIFIED pending independent inspection of the full official record or downloadable dataset. WGS 84 coordinate is source-derived using the project's EPSG:29902 to WGS 84 transformation operation 1641; founder field verification remains outstanding."
+  },
+  {
+    "id": "NIAH-50010751",
+    "name": "53 Gardiner Street Upper / Sherrard Street, Dublin 1 — NIAH registration 50010751",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010751/gardiner-street-upper-sherrard-street-dublin-1-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50010751; Dublin 1; published Irish Grid reference 315850, 235647.",
+    "notes": "Indexed NIAH record reviewed 26 October 2026. The record describes a late-Georgian townhouse and a Portland limestone date plaque on the south side elevation reading “Sherrard Street 1825”. Direct opening of the NIAH page was blocked (HTTP 403) in this research pass. Retain PARTIALLY_VERIFIED pending independent inspection of the full official record or downloadable dataset. WGS 84 coordinate is source-derived using the project's EPSG:29902 to WGS 84 transformation operation 1641; founder field verification remains outstanding."
   }
 ]

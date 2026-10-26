@@ -1041,5 +1041,35 @@
     "source_type": "OFFICIAL_HERITAGE_REGISTER",
     "specific_reference": "NIAH Registration 50030185; Regional rating; architectural interest; former gate lodge now in use as a private house; date range 1830–1850; Irish Grid 318992, 236009. NIAH describes the building fabric, entrance loggia, slate roof, carved fascia, casement windows, red-brick gate piers and masonry sphinx finials.",
     "notes": "Primary official source for the building's identification, description, date range, appraisal and Irish Grid coordinate. NIAH states that the lodge is among the earliest buildings on this seafront and predates the associated terrace of six houses. Coordinate conversion is separately documented; the register does not specify point accuracy."
+  },
+  {
+    "id": "NIAH-50030145",
+    "name": "Clontarf Promenade shelter — NIAH registration 50030145",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030145/clontarf-promenade-clontarf-road-dublin-3-co-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030145; Regional rating; Architectural, Social and Technical interest; date 1950–1960; Irish Grid 320336, 235670. NIAH describes a reinforced-concrete seafront shelter built circa 1955–1958.",
+    "notes": "Primary official source for the shelter's identity, architectural description, appraisal and published Irish Grid reference. NIAH identifies it as one of a series of precast-concrete shelters built by Dublin Corporation along Clontarf Promenade."
+  },
+  {
+    "id": "NIAH-50030337",
+    "name": "Clontarf handball alley — NIAH registration 50030337",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030337/strandville-road-clontarf-dublin-3-co-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030337; Regional rating; Architectural and Social interest; date 1930–1940; Irish Grid 318530, 236292. NIAH describes a three-sided handball alley built circa 1935, currently disused.",
+    "notes": "Primary official source for the handball alley's identity, materials, date, appraisal and published Irish Grid reference. NIAH states that it forms part of the adjacent Garda station and was probably built as an amenity for officers."
+  },
+  {
+    "id": "NIAH-50030051",
+    "name": "Seaview Terrace, 77–81 Clontarf Road — NIAH registration 50030051",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030051/seaview-terrace-77-81-clontarf-road-clontarf-dublin-3-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030051; Regional rating; Architectural interest; date 1840–1850; Irish Grid 318953, 236051. NIAH describes a terrace of five houses built circa 1845 and surviving historic entrance and boundary details.",
+    "notes": "Primary official source for the terrace's identity, architectural description, appraisal and published Irish Grid reference. NIAH identifies the group as an early suburban terrace retaining important historic fabric."
   }
 ]

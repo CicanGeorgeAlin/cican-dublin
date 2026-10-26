@@ -4518,5 +4518,83 @@
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH Registration 50030334; Regional rating; Architectural and Social interest; date range 1720–1890. NIAH identifies Verville as appearing on Rocque's 1760 map and records its use as a private asylum from 1859. Current use/access not assumed.",
     "last_researched": "2026-10-26"
+  },
+  {
+    "id": "DUB-BLD-0076",
+    "name": "Church of St John the Baptist — Seafield Road West",
+    "category": "ARCHITECTURE",
+    "district": "Dublin 3",
+    "address": "Seafield Road West, Clontarf, Dublin 3",
+    "historical_period": "1864–1866; additions 1897–1899",
+    "historical_description": "Cruciform-plan Church of Ireland church built 1864–1866, with porch and vestry added 1897–1899. The building has a gable-fronted nave and transepts, lower chancel, three-stage belfry with limestone spire, slate roofs, rubble-granite walls and dressed-limestone detailing. Its windows include trefoil-headed lancets and a large pointed-arch east window with stained glass. The site also retains historic gates and boundary walls.",
+    "historical_significance": "Designed by Welland & Gillespie and built by Waldron Brothers, the church was consecrated on 14 May 1866. The Vernon family provided the site and commissioned a twelve-light chancel window depicting the apostles from Michael O'Connor of London. The church remains a prominent architectural and social landmark in Clontarf.",
+    "national_inventory_reference": "50030323",
+    "national_grid_reference": "319712, 236358",
+    "latitude": 53.3640989629783,
+    "longitude": -6.202457805982534,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Active place of worship. Photograph only from public viewpoints or with permission. Do not enter during services, funerals or private events without permission; avoid photographing worshippers and respect church staff and visitors.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3640989629783%2C-6.202457805982534&travelmode=walking",
+    "photography_brief": [
+      "Full church composition and relationship of nave, transepts and belfry",
+      "Limestone spire, finial and belfry openings",
+      "East window and stained glass where visible without entering restricted areas",
+      "Granite and limestone masonry, buttresses and carved details",
+      "Historic gates, piers and boundary walls"
+    ],
+    "sources": [
+      "NIAH-50030323",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ],
+    "feature_type": "PRIMARY_OBJECT",
+    "coordinate_status": "SOURCE_DERIVED",
+    "coordinate_source": "Published NIAH Irish Grid reference 319712, 236358 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. Original NIAH point positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "research_notes": "NIAH Registration 50030323; Regional rating; Architectural, Artistic, Historical and Social interest; date range 1860–1900. NIAH records construction in 1864–1866, porch and vestry additions 1897–1899, consecration on 14 May 1866, architects Welland & Gillespie and builders Waldron Brothers.",
+    "last_researched": "2026-10-26"
+  },
+  {
+    "id": "DUB-BLD-0077",
+    "name": "Hillview Terrace / Rutland Terrace — 205–206 Clontarf Road",
+    "category": "ARCHITECTURE",
+    "district": "Dublin 3",
+    "address": "205–206 Clontarf Road, Clontarf, Dublin 3",
+    "historical_period": "1846 and circa 1860",
+    "historical_description": "Attached pair of two-bay, two-storey houses over basements, built in 1846 and circa 1860. The pair has full-height bow windows, recessed entrance bays, hipped roofs concealed behind parapets, moulded cornices, timber sliding-sash windows, round-headed doorways, decorative fanlights, granite entrance steps and cast-iron railings. Remnants of early coach houses survive to the rear lane.",
+    "historical_significance": "No. 205 originally formed the end of a symmetrical five-house Hillview Terrace built by Joseph Mannin on land leased from J.E.V. Vernon in 1846. NIAH identifies No. 206 as a later neighbouring house, likely part of Rutland Terrace, despite its similar appearance. These buildings are among the earlier surviving seafront developments and occupy an area historically known as the Clontarf Sheds, associated with fish-drying sheds.",
+    "national_inventory_reference": "50030123",
+    "national_grid_reference": "320227, 235778",
+    "latitude": 53.35877352344337,
+    "longitude": -6.194946073034553,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Private residences. Photograph only from the public footpath; do not enter gardens or rear lanes without permission. Respect residents' privacy.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.35877352344337%2C-6.194946073034553&travelmode=walking",
+    "photography_brief": [
+      "Both houses together to document the differing terrace phases",
+      "Full-height bow fronts and parapet cornices",
+      "Round-headed doorways, fanlights and door surrounds",
+      "Granite entrance platforms and cast-iron railings",
+      "Rear coach-house remnants only from a lawful public viewpoint or with permission"
+    ],
+    "sources": [
+      "NIAH-50030123",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ],
+    "feature_type": "PRIMARY_OBJECT",
+    "coordinate_status": "SOURCE_DERIVED",
+    "coordinate_source": "Published NIAH Irish Grid reference 320227, 235778 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. Original NIAH point positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "research_notes": "NIAH Registration 50030123; Regional rating; Architectural and Artistic interest; date range 1845–1870. NIAH distinguishes No. 205 as part of Hillview Terrace (1846) and No. 206 as a later house associated with Rutland Terrace. The location is within the historic Clontarf Sheds district.",
+    "last_researched": "2026-10-26"
   }
 ]

@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN ARCHIVE",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 92,
+  "record_count": 93,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -2972,6 +2972,66 @@
           "attribution": "Clontarf Castle gate lodge by Tdr112, 2022-09-11, via Wikimedia Commons (CC BY-SA 4.0)",
           "image_role": "STREET_CONTEXT",
           "location_note": "Context view of the host gate lodge only. Individual animal-head carvings are recorded by NIAH but this image is not a verified close-up of them; founder field photography remains required."
+        }
+      ]
+    },
+    {
+      "record_id": "DUB-BLD-0048",
+      "name": "Clontarf Castle — Gothic Revival country house, rebuilt 1836–37",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 3",
+      "address": "Clontarf Castle Hotel, Castle Avenue, Clontarf, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full castle from a lawful public viewpoint, recording both tower forms and the attached house",
+        "Gables, crenellated parapets, carved copings and finials",
+        "Octagonal chimneystacks and carved limestone details",
+        "Entrance porch, door surrounds and canted bay windows",
+        "Any accessible historic interior features only with venue permission",
+        "Record modern extensions separately from the historic 1836–37 fabric"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "title": "Clontarf Castle — exterior close-up (2007)",
+          "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Clontarf_Castle_-_geograph.org.uk_-_395705.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Clontarf_Castle_-_geograph.org.uk_-_395705.jpg",
+          "photographer": "JP",
+          "date_taken": "2007-04-06",
+          "source_collection": "Geograph Britain and Ireland via Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "attribution": "JP, “Clontarf Castle”, 6 April 2007, via Geograph Britain and Ireland / Wikimedia Commons (CC BY-SA 2.0)",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Close-up exterior reference view of the castle; 640 × 480 px and relatively old, so use as supporting context rather than a current condition record."
+        },
+        {
+          "title": "Clontarf Castle Hotel — exterior view (2007)",
+          "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/ClontarfCastleHotel.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:ClontarfCastleHotel.jpg",
+          "photographer": "Cailín Sásta",
+          "date_taken": "2007-10-07",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution 3.0 Unported (CC BY 3.0)",
+          "licence_url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "Cailín Sásta, “Clontarf Castle Hotel”, October 2007, via Wikimedia Commons (CC BY 3.0)",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Higher-resolution hotel-era exterior reference (3888 × 2592 px); not a founder original and not a substitute for current field photography."
         }
       ]
     }

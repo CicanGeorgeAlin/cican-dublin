@@ -191,5 +191,47 @@
     "coordinate_accuracy_m": null,
     "research_notes": "Micro-detail explicitly documented in NIAH. Coordinates reuse the host building's NIAH point only; exact corbel positions and number of carvings are not supplied by the register.",
     "last_researched": "2026-10-26"
+  },
+  {
+    "id": "DUB-BLD-0048",
+    "name": "Clontarf Castle — Gothic Revival country house, rebuilt 1836–37",
+    "category": "ARCHITECTURE",
+    "district": "Dublin 3",
+    "address": "Clontarf Castle Hotel, Castle Avenue, Clontarf, Dublin 3",
+    "historical_period": "1836–1837",
+    "historical_description": "Detached country house rebuilt in 1836–37, comprising a square-plan tower-house form with curved corners and a taller rear tower, attached to a complex-plan Gothic Revival house with gabled bays, porch and canted bay windows. NIAH records carved limestone copings and finials, crenellated parapets, octagonal chimneystacks, carved door surrounds and extensive surviving interior features including plasterwork ceilings, timber wainscoting and joinery, fireplaces and encaustic tiled floors. The building is now in use as a hotel.",
+    "historical_significance": "The present castle is the 1836–37 Gothic Revival rebuilding commissioned by J.E.V. Vernon and designed by William Vitruvius Morrison. It deliberately uses medieval architectural references and varied tower forms to evoke a building developed over centuries. The NIAH appraisal identifies its carved stonework and surviving interior craftsmanship as significant.",
+    "national_inventory_reference": "50030310",
+    "national_grid_reference": "319407, 236423",
+    "latitude": 53.3647516,
+    "longitude": -6.2070124,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "The castle operates as a hotel. Photograph exterior only from lawful public viewpoints unless the hotel grants permission. Interior photography requires explicit venue permission; do not enter restricted areas.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3647516%2C-6.2070124&travelmode=walking",
+    "photography_brief": [
+      "Full castle from a lawful public viewpoint, recording both tower forms and the attached house",
+      "Gables, crenellated parapets, carved copings and finials",
+      "Octagonal chimneystacks and carved limestone details",
+      "Entrance porch, door surrounds and canted bay windows",
+      "Any accessible historic interior features only with venue permission",
+      "Record modern extensions separately from the historic 1836–37 fabric"
+    ],
+    "sources": [
+      "NIAH-50030310",
+      "WMC-CLONTARF-CASTLE-2007-01",
+      "WMC-CLONTARF-CASTLE-2007-02",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ],
+    "feature_type": "PRIMARY_OBJECT",
+    "coordinate_status": "SOURCE_DERIVED",
+    "coordinate_source": "Published NIAH Irish Grid reference 319407, 236423 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using the project's established transformation (EPSG operation 1641). The original source-point positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "research_notes": "NIAH Registration 50030310. This record is the main country-house building, distinct from the separate gate lodge (NIAH 50030163), Vernon Lodge entrance (NIAH 50030164) and nearby 86 Clontarf Road (NIAH 50030182). NIAH identifies 1836–37 as the rebuilding date. The older site's history should not be conflated with the date of the present building.",
+    "last_researched": "2026-10-26"
   }
 ]

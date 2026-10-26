@@ -1,8 +1,8 @@
-# CICAN DUBLIN ARCHIVE
+# CICAN DUBLIN
 
 **Created by CICAN GEORGE ALIN · Dublin, Ireland**
 
-An evidence-first visual archive of Dublin's monuments, memorials, inscriptions, buildings, infrastructure, streets and overlooked historic details.
+An evidence-first discovery, research, fieldwork and visual-preservation project documenting Dublin's historic environment at every scale — from major landmarks to inscriptions, individual bricks, cobblestones, street furniture and other overlooked details.
 
 ## Live website
 
@@ -23,13 +23,13 @@ This is an expanding research inventory, not a complete survey of Dublin. All 12
 
 The current map-marker implementation is preserved as **MAP MARKER SYSTEM V1 BASELINE** on the [`baseline/v1-map-marker-system`](https://github.com/CicanGeorgeAlin/cican-dublin-archive/tree/baseline/v1-map-marker-system) branch. Recovery commit: `afc74b4a0814a856efe5f6f97a4ad3bfebbcc0bb`. Future map improvements should preserve this reference point.
 
-## Core mission
+## CICAN DUBLIN mission
 
-Discover, verify and catalogue Dublin's historic physical environment. The founder photographs each location in person. Original photographs are preserved separately and may be converted into faithful black-and-white A4 line-art illustrations for themed publications.
+Discover every historically meaningful physical detail across Dublin. Investigate and verify each historical claim, identify a defensible location, and prepare fieldwork so the founder can visit and photograph the real feature. Preserve each original photograph, create faithful A4 line art from it, and develop separate themed colouring-book publications.
 
 ## Production workflow
 
-RESEARCH → VERIFY → REGISTER → PLAN FIELDWORK → FOUNDER PHOTOGRAPHS → ARCHIVE ORIGINAL → CREATE LINE ART → QUALITY CONTROL → WEBSITE → PUBLISH.
+DISCOVER → INVESTIGATE → VERIFY → LOCATE → PLAN FIELDWORK → FOUNDER PHOTOGRAPHS → PRESERVE ORIGINAL → CREATE A4 LINE ART → QUALITY CONTROL → PUBLISH ON CICAN DUBLIN → COLOURING-BOOK PUBLICATION.
 
 ## Integrity rules
 
@@ -61,7 +61,7 @@ RESEARCH → VERIFY → REGISTER → PLAN FIELDWORK → FOUNDER PHOTOGRAPHS → 
 
 ## Website
 
-The website provides a responsive warm editorial catalogue with ivory, charcoal and muted woodland-green accents, including:
+CICAN DUBLIN is a black, map-first discovery and fieldwork application with a searchable catalogue and evidence-led research feed. Its core functions include:
 
 - Search across record names, IDs, addresses, categories, historical descriptions, periods, significance, references, research notes and photography briefs.
 - Category and district filters.
@@ -71,7 +71,7 @@ The website provides a responsive warm editorial catalogue with ivory, charcoal 
 - A **New research & discoveries** feed that publishes evidence-graded historical findings as they emerge, with source links, what is supported, and what remains unconfirmed.
 - Research leads are deliberately separate from physical catalogue records and map pins; they become mapped objects only after location and evidence checks pass.
 
-The website displays research records as placeholders until original field photographs are added. It does not use stock or generated images as substitutes.
+The website distinguishes historical research from physical catalogue records and founder field photography. It never presents stock or generated images as founder-captured originals.
 
 ## Investigation control system
 

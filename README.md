@@ -17,7 +17,7 @@ The catalogue currently contains **195 records** across Dublin 1, Dublin 2 and D
 - **195 awaiting original founder photography**.
 - No record is marked photographed, illustrated or published.
 
-The visual inventory currently contains **20 third-party reference photographs across 16 locations**, each linked to a registered source and reuse licence. No third-party image is treated as founder photography. This is an expanding research inventory, not a complete survey of Dublin. 150 records currently carry source-derived WGS 84 map coordinates; 45 records are intentionally unmapped pending defensible location data. Coordinates are not founder-recorded GPS fixes and still require field verification.
+The visual inventory currently contains **20 third-party reference photographs across 16 locations**, each linked to a registered source and reuse licence. No third-party image is treated as founder photography. See the [Visual Discovery Batch 001 report](documentation/VISUAL-DISCOVERY-BATCH-001.md) for image matches, provenance and limitations. This is an expanding research inventory, not a complete survey of Dublin. 150 records currently carry source-derived WGS 84 map coordinates; 45 records are intentionally unmapped pending defensible location data. Coordinates are not founder-recorded GPS fixes and still require field verification.
 
 ## Locked map baseline
 

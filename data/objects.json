@@ -3496,5 +3496,47 @@
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH Registration 50030185. NIAH dates the building broadly to 1830–1850 and describes it as built circa 1840. The NIAH appraisal says the gate lodge predates the associated terrace of six houses to the north-east. No third-party image has been added because reuse rights for a photograph specifically depicting this building have not been established. Coordinates locate the NIAH building point, not individual sphinxes or architectural details.",
     "last_researched": "2026-10-26"
+  },
+  {
+    "id": "DUB-BLD-0050",
+    "name": "86 Clontarf Road",
+    "category": "ARCHITECTURE",
+    "district": "Dublin 3",
+    "address": "86 Clontarf Road, Clontarf, Dublin 3",
+    "historical_period": "1847 (NIAH date range 1845–1850)",
+    "historical_description": "Terraced two-bay, two-storey house over a raised basement, built in 1847, with a two-storey return to the rear. NIAH records a pitched M-profile natural slate roof, front parapet with cut-granite platband and cornice, smooth-rendered chimneystacks, Flemish-bond brown-brick front elevation, granite stringcourse and rendered basement. The round-headed entrance has a petal-motif fanlight, a corniced and friezed door surround supported by console brackets, and a timber-panelled door. Cut-granite entrance steps and platform retain a cast-iron balustrade; the property is set back behind cast-iron railings on a cut-granite plinth and a pedestrian gate. A two-bay single-storey outbuilding survives to the rear, with later extensions.",
+    "historical_significance": "NIAH identifies the house as part of a substantial terrace built in 1847 by Isaac Warren, steward of the Vernon estate, on land obtained from that estate. The terrace, its outbuildings, associated former gate lodge and shared green form a largely intact example of large-scale mid-nineteenth-century housing development along the Clontarf seafront. Historic fabric survives particularly at the entrance platform, door surround and railings.",
+    "national_inventory_reference": "50030182",
+    "national_grid_reference": "319039, 236025",
+    "latitude": 53.3612602,
+    "longitude": -6.2126872,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "NIAH records the building as a private house. Photograph from lawful public viewpoints only. Do not enter the property, shared green, rear outbuilding or private grounds. The NIAH describes replacement uPVC windows; record the current appearance accurately and do not infer original window details from the listing.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3612602%2C-6.2126872&travelmode=walking",
+    "photography_brief": [
+      "Full front elevation showing the two-bay composition and raised basement",
+      "Round-headed entrance, petal-motif fanlight, console brackets, cornice and frieze",
+      "Cut-granite entrance steps, platform and cast-iron balustrade",
+      "Cast-iron railings, granite plinth wall and pedestrian gate",
+      "Granite platband, cornice, stringcourse and Flemish-bond brickwork",
+      "Roof profile, chimneystacks and surviving historic rainwater goods",
+      "Context showing relationship to the terrace and shared green, from a public viewpoint",
+      "Record current condition faithfully; do not enter private property"
+    ],
+    "sources": [
+      "NIAH-50030182",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ],
+    "feature_type": "PRIMARY_OBJECT",
+    "coordinate_status": "SOURCE_DERIVED",
+    "coordinate_source": "Published NIAH Irish Grid reference 319039, 236025 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using the project's established transformation (EPSG operation 1641). The NIAH record does not state positional accuracy; exact on-site position remains unverified.",
+    "coordinate_accuracy_m": null,
+    "research_notes": "NIAH Registration 50030182, Regional rating, categories of special interest Architectural and Artistic. NIAH dates the building 1845–1850 and states it was built in 1847. It attributes construction of the terrace to Isaac Warren, steward of the Vernon estate. No third-party image is registered: photographs visible on the NIAH record are not treated as reusable without a separately established licence. The map coordinate represents the published building point, not individual architectural details.",
+    "last_researched": "2026-10-26"
   }
 ]

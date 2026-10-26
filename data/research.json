@@ -245,5 +245,26 @@
       "NIAH-50010749",
       "NIAH-50010751"
     ]
+  },
+  {
+    "id": "RES-CLONTARF-ADDITIONAL-NIAH-2026",
+    "title": "Six further Clontarf heritage details identified in NIAH records",
+    "area": "CLONTARF · DUBLIN 3",
+    "updated": "2026-10-26",
+    "status": "OFFICIAL_REGISTER_DETAILS_PARTIALLY_REVIEWED",
+    "status_label": "NIAH INDEXED REGISTER DETAILS · FULL-PAGE CHECK PENDING",
+    "summary": "Six additional Clontarf discoveries have been identified: Beech Lodge, the 1847 terrace house at 89 Clontarf Road, and four cast-iron postboxes on Mount Prospect Avenue, Kincora Grove, Dunluce Road and Malahide Road.",
+    "supported": "The indexed NIAH records provide individual registration numbers, dates, architectural or object descriptions, appraisals and Irish Grid references. The four postboxes document different makers and periods, including Carron Company, G.L. Murphy and Jessop Davis; Beech Lodge preserves a former Clontarf Castle approach, and 89 Clontarf Road retains detailed Victorian entrance fabric.",
+    "limits": "Direct full-page inspection of these individual NIAH records remains outstanding. All six records are marked PARTIALLY_VERIFIED. Their coordinates are transformed from NIAH Irish Grid points and are not founder-recorded GPS fixes. Confirm current presence, condition, access and exact feature visibility during fieldwork. No founder photographs or line art have been created.",
+    "source_ids": [
+      "NIAH-50030335",
+      "NIAH-50030357",
+      "NIAH-50030342",
+      "NIAH-50030286",
+      "NIAH-50030333",
+      "NIAH-50030291",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ]
   }
 ]

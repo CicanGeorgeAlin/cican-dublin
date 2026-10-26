@@ -10,11 +10,11 @@ https://cicangeorgealin.github.io/cican-dublin/
 
 ## Current catalogue
 
-The catalogue currently contains **122 records** across Dublin 1, Dublin 2 and Dublin 3, linked to **164 source entries**. The current district distribution is 46 records in Dublin 1, 34 in Dublin 2 and 42 in Dublin 3. Recent research has added individually documented discoveries including historic post boxes, lamp standards, coal-hole covers, boot scrapers, railings and Georgian entrance details.
+The catalogue currently contains **130 records** across Dublin 1, Dublin 2 and Dublin 3, linked to **167 source entries** and **15 research notes**. The current district distribution is 46 records in Dublin 1, 34 in Dublin 2 and 50 in Dublin 3. Recent research has added individually documented discoveries including historic post boxes, lamp standards, coal-hole covers, boot scrapers, railings and Georgian entrance details.
 
-- **120 VERIFIED** records.
-- **2 PARTIALLY_VERIFIED** records, where specific details still require field confirmation.
-- **122 awaiting original founder photography**.
+- **125 VERIFIED** records.
+- **5 PARTIALLY_VERIFIED** records, where source inspection or specific details still require confirmation.
+- **130 awaiting original founder photography**.
 - No record is marked photographed, illustrated or published.
 
 This is an expanding research inventory, not a complete survey of Dublin. All 122 records currently carry a source-derived map coordinate and a National Inventory reference; these points are not founder-recorded GPS fixes and still require field verification.
@@ -52,7 +52,7 @@ DISCOVER → INVESTIGATE → VERIFY → LOCATE → PLAN FIELDWORK → FOUNDER PH
 - `data/research.json` — public, evidence-graded research notes and unresolved archival leads.
 - `data/investigation.json` — claim-level evidence grades and the ordered investigation backlog.
 - `schemas/` — JSON Schema contracts for objects, sources, geographic zones and the investigation register.
-- `documentation/` — project standards, research batches and data architecture.
+- `documentation/` — project standards, research batches and data architecture, including [Dublin 3 Discovery Batch 009](documentation/DUBLIN-3-DISCOVERY-BATCH-009.md) and [Batch 010](documentation/DUBLIN-3-DISCOVERY-BATCH-010.md).
 - `routes/` — proposed and completed fieldwork plans.
 - `research/` — source-based investigations.
 - `photos/originals/` — founder's original photographs.
@@ -79,7 +79,7 @@ The Clontarf Sheds investigation follows the locked [Investigation Control Syste
 
 ## Geographic and coordinate accuracy
 
-All **122 current records** now have decimal WGS 84 coordinates derived from their published NIAH Irish Grid references (TM65 / Irish Grid, EPSG:29902), transformed using EPSG operation 1641. The original Irish Grid references remain preserved in the catalogue. Every WALK THERE link uses the record's latitude and longitude as its Google Maps walking destination, not an address or street-name search.
+All **130 current records** now have decimal WGS 84 coordinates derived from their published NIAH Irish Grid references (TM65 / Irish Grid, EPSG:29902), transformed using EPSG operation 1641. The original Irish Grid references remain preserved in the catalogue. Every WALK THERE link uses the record's latitude and longitude as its Google Maps walking destination, not an address or street-name search.
 
 These are **source-derived map points, not founder-recorded GPS fixes**. NIAH dataset metadata explains that legacy point centroids were digitised relative to OSI 6-inch mapping and may need revision against larger-scale mapping. The EPSG coordinate transformation has a published 1 m accuracy, but that does not establish the accuracy of the underlying NIAH point. Field verification remains outstanding; no coordinate is labelled FIELD_VERIFIED until checked on site. Future records must retain a published coordinate reference or another documented source—never estimate a pin from an address.
 

@@ -51,8 +51,8 @@ for(const v of visual.records){
 }
 for(const file of ["index.html","archive.html","my-dublin.html"]){
  const html=read(file);assert.ok(/<html[^>]+lang=/.test(html),file+" must declare a language.");assert.ok(/<meta[^>]+name="viewport"/.test(html),file+" must declare a mobile viewport.");
- const scripts=[...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/gi)];
- for(let i=0;i<scripts.length;i++)new vm.Script(scripts[i][1],{filename:file+" inline script "+(i+1)});
+ const scripts=[...html.matchAll(/<script([^>]*)>([\s\S]*?)<\/script>/gi)];
+ for(let i=0;i<scripts.length;i++){if(/type=["']application\/ld\+json["']/i.test(scripts[i][1]))JSON.parse(scripts[i][2]);else new vm.Script(scripts[i][2],{filename:file+" inline script "+(i+1)});}
 }
 for(const file of ["index.html","archive.html","preview/app.html","preview/manifest.webmanifest"]){const content=read(file);assert.ok(!/CICAN\s+DUBLIN\s+ARCHIVE/i.test(content),file+" must use the CICAN DUBLIN public brand.");}
 const home=read("index.html");

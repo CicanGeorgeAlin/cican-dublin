@@ -204,13 +204,14 @@
     "updated": "2026-10-26",
     "status": "OFFICIAL_REGISTER_FEATURES_DOCUMENTED",
     "status_label": "NIAH-DOCUMENTED MICRO-DETAILS · FIELD PHOTOGRAPHY PENDING",
-    "summary": "NIAH records an 1885 date stone and Vernon family heraldry on the former pedestrian entrance at Vernon Lodge, masonry sphinxes on the gate piers at Warrenpoint (84 Clontarf Road), and a petal-motif fanlight at 86 Clontarf Road. Four separate micro-detail records have been created beneath their host properties.",
-    "supported": "The individual features are explicitly described in NIAH registrations 50030164, 50030185 and 50030182. The Vernon family motto is transcribed by NIAH as “Vernon Semper Viret”. The parent buildings already exist in the CICAN DUBLIN catalogue.",
+    "summary": "NIAH records an 1885 date stone and Vernon family heraldry on the former pedestrian entrance at Vernon Lodge; masonry sphinxes on the gate piers at Warrenpoint (84 Clontarf Road); a petal-motif fanlight at 86 Clontarf Road; and a carved shield above the former carriage arch at Clontarf Castle gate lodge. Five separate micro-detail records now sit beneath their host properties.",
+    "supported": "The individual features are explicitly described in NIAH registrations 50030164, 50030185, 50030182 and 50030163. The Vernon family motto is transcribed by NIAH as “Vernon Semper Viret”. The parent buildings already exist in the CICAN DUBLIN catalogue.",
     "limits": "The records use host-building NIAH coordinates and do not claim exact positions for the individual details. Current condition, visibility, precise lettering, number of sphinxes visible and photographic access remain to be checked in person. No founder photographs or line art have been created.",
     "source_ids": [
       "NIAH-50030164",
       "NIAH-50030185",
-      "NIAH-50030182"
+      "NIAH-50030182",
+      "NIAH-50030163"
     ]
   }
 ]

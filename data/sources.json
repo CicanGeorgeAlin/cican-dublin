@@ -901,5 +901,55 @@
     "source_type": "OFFICIAL_REGISTER",
     "specific_reference": "NIAH Registration 50030311",
     "notes": "NIAH record for Church of St John the Baptist, Castle Avenue, Clontarf. Published Irish Grid reference 319490, 236479. NIAH Registration 50030311. NIAH dates the surviving church to circa 1610, incorporating earlier fabric. The Bram Stoker baptism detail is an NIAH appraisal statement; seek the underlying parish-register entry before treating it as independently verified."
+  },
+  {
+    "id": "NIAH-50030188",
+    "name": "Central Hall, 71 Clontarf Road, Clontarf",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030188/central-hall-71-clontarf-road-clontarf-dublin-3-co-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50030188",
+    "notes": "NIAH record for the Methodist Central Hall, built 1906. Records a sandstone front-elevation plaque inscribed 'Central Hall 1906', granite detailing and stained glass. Published Irish Grid reference 318790, 236135. Point locates the building, not the precise plaque position."
+  },
+  {
+    "id": "NIAH-50030163",
+    "name": "Clontarf Castle gate lodge, Castle Avenue, Clontarf",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030163/clontarf-castle-castle-avenue-clontarf-dublin-3-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50030163",
+    "notes": "NIAH record for the Gothic Revival gate lodge built 1836–37. Records carved limestone, a corbel table with sculpted animal heads, carved stringcourses, hood-mouldings, a tower, former carriage arch, granite bollards and chain. Published Irish Grid reference 319498, 236289. Point locates the gate lodge, not individual carvings."
+  },
+  {
+    "id": "NIAH-50030182",
+    "name": "86 Clontarf Road, Clontarf",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030182/clontarf-road-clontarf-dublin-3-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50030182",
+    "notes": "Research lead from NIAH search result. Description refers to historic entrance fabric including petal-motif fanlight, granite steps and platform, cast-iron balustrade, boundary railings and pedestrian gate, associated former gate lodge and outbuilding. Exact Irish Grid coordinate and full record require retrieval before a mapped catalogue record is created."
+  },
+  {
+    "id": "DCC-HISTORIC-STREET-SURFACES-2009",
+    "name": "Historic Street Surfaces Conservation Study and Guidance Manual — review summary",
+    "publisher": "Dublin City Council, Dublin City Heritage Plan",
+    "url": "https://www.dublincity.ie/sites/default/files/2021-04/dchp-2002-2012-architecture-projects-review.pdf",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_REPORT",
+    "specific_reference": "Review of Architectural Heritage Projects 2002–2011, pages 28–30",
+    "notes": "DCC review summarising its 2004 historic street furniture/surfaces inventory, 2008/2009 conservation study and 2010 supplementary survey of 78 setted streets/lanes. Explains the heritage significance of granite flags, kerbs, setts, coal-hole covers and gratings. Does not by itself identify a specific Clontarf object."
+  },
+  {
+    "id": "DCC-DEVELOPMENT-PLAN-BHA18-2022-2028",
+    "name": "Dublin City Development Plan 2022–2028, Policy BHA18",
+    "publisher": "Dublin City Council",
+    "url": "https://www.dublincity.ie/dublin-city-development-plan-2022-2028/written-statement/chapter-11-built-heritage-and-archaeology/115-policies-and-objectives",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_POLICY",
+    "specific_reference": "Chapter 11, Policy BHA18 — Historic Ground Surfaces, Street Furniture and Public Realm",
+    "notes": "Policy lists historic ground surfaces and public-realm features including milestones, jostle stones, ward stones, bollards, coal-hole covers, gratings, boot scrapers, basement lights, street skylights, water troughs, post boxes, lampposts, railings, stone kerbs, pavement flags and setts. Applies to Dublin City Council's administrative area only."
   }
 ]

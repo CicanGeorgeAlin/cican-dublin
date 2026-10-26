@@ -1,0 +1,152 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CICAN Investigation Control Register",
+  "type": "object",
+  "required": [
+    "version",
+    "adopted",
+    "scope",
+    "methodology",
+    "evidence_grades",
+    "claims",
+    "tasks",
+    "protected_boundaries"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "adopted": {
+      "type": "string",
+      "format": "date"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "methodology": {
+      "const": "LOCKED"
+    },
+    "evidence_grades": {
+      "type": "object",
+      "required": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "properties": {
+        "A": {
+          "type": "string"
+        },
+        "B": {
+          "type": "string"
+        },
+        "C": {
+          "type": "string"
+        },
+        "D": {
+          "type": "string"
+        },
+        "E": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "claim",
+          "grade",
+          "source_ids",
+          "unknowns"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "claim": {
+            "type": "string"
+          },
+          "grade": {
+            "enum": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          "source_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "unknowns": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "tasks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "priority",
+          "status",
+          "title",
+          "source_ids",
+          "next_action",
+          "completion"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "priority": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 4
+          },
+          "status": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "source_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "next_action": {
+            "type": "string"
+          },
+          "completion": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "protected_boundaries": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

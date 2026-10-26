@@ -448,3 +448,67 @@ body.photo-viewer-open{overflow:hidden}
 #map .maplibregl-ctrl-attrib-button{display:none!important}
 #map .maplibregl-ctrl-bottom-right .maplibregl-ctrl-group{margin:0!important}
 @media(max-width:850px){#map .maplibregl-ctrl-bottom-right{right:10px;bottom:calc(58px + env(safe-area-inset-bottom) + 10px);gap:8px}#map .maplibregl-ctrl-attrib{font-size:8px!important;max-width:calc(100vw - 30px)}}
+
+
+/* Mobile detail sheet refinement: use the full available viewport and remove the dead strip beneath the card. */
+@media(max-width:850px){
+  .discovery-panel.detail-open{
+    position:fixed!important;
+    top:clamp(64px,8vh,84px)!important;
+    right:0!important;
+    bottom:0!important;
+    left:0!important;
+    width:100%!important;
+    height:auto!important;
+    min-height:0!important;
+    max-height:none!important;
+    border-radius:22px 22px 0 0!important;
+    border-bottom:0!important;
+    overflow:hidden!important;
+    display:flex!important;
+    flex-direction:column!important;
+    padding-bottom:env(safe-area-inset-bottom)!important;
+    box-sizing:border-box!important;
+  }
+  .discovery-panel.detail-open .detail-view{
+    display:block!important;
+    flex:1 1 auto!important;
+    min-height:0!important;
+    height:100%!important;
+    max-height:100%!important;
+    overflow-y:auto!important;
+    overscroll-behavior:contain;
+    -webkit-overflow-scrolling:touch;
+    padding:18px 16px calc(28px + env(safe-area-inset-bottom))!important;
+    box-sizing:border-box!important;
+  }
+  .discovery-panel.detail-open .editorial-topline{
+    position:relative;
+    padding-right:54px;
+    min-height:42px;
+  }
+  .discovery-panel.detail-open .editorial-close{
+    position:absolute;
+    top:-2px;
+    right:0;
+  }
+  .discovery-panel.detail-open .editorial-hero .photo-hero{
+    margin-bottom:14px;
+  }
+  .discovery-panel.detail-open .editorial-hero .photo-hero img{
+    width:100%;
+    height:auto;
+    max-height:34dvh;
+    aspect-ratio:16/10;
+    object-fit:cover;
+    object-position:center 46%;
+  }
+  .discovery-panel.detail-open .editorial-actions{
+    margin-top:20px;
+    padding-bottom:8px;
+  }
+}
+@media(max-width:850px) and (max-height:650px){
+  .discovery-panel.detail-open{top:48px!important}
+  .discovery-panel.detail-open .editorial-hero .photo-hero img{max-height:28dvh}
+}

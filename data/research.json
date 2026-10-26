@@ -11,7 +11,8 @@
     "limits": "The exact shed footprints and the precise route alignment have not been established. The 1836 wording and the 1816 Green Lane label remain secondary-source transcriptions until the original Name Book and Taylor map are inspected.",
     "source_ids": [
       "SRC-CLONTARF-VERNON-DCC-2026",
-      "SRC-CLONTARF-VERNON-STREET-HISTORY"
+      "SRC-CLONTARF-VERNON-STREET-HISTORY",
+      "SRC-CLONTARF-LEWIS-1837"
     ]
   },
   {
@@ -92,6 +93,51 @@
       "SRC-CLONTARF-NLI-COUNTY-NAMEBOOKS",
       "SRC-CLONTARF-VERNON-STREET-HISTORY",
       "SRC-CLONTARF-EB-AIREAD-CITY-NAMEBOOKS"
+    ]
+  },
+  {
+    "id": "RES-CLONTARF-LEWIS-1837",
+    "title": "1837: contemporary description of the Clontarf sheds",
+    "area": "CLONTARF · COOLOCK · DUBLIN BAY",
+    "updated": "2026-10-26",
+    "status": "CONTEMPORARY_DESCRIPTION",
+    "status_label": "CONTEMPORARY PRINTED SOURCE · DIRECT TEXT INSPECTED",
+    "summary": "Samuel Lewis's 1837 Topographical Dictionary describes wooden buildings along Clontarf's water edge, called the Clontarf sheds and formerly used to cure fish. It also records a profitable oyster bank off the sheds.",
+    "supported": "The digitised 1837 parish entry explicitly links the Clontarf sheds to the coastal edge and fish curing. It places an oyster bank offshore from the sheds. This is strong contemporary printed evidence for the fishing-sheds locality and its maritime economy.",
+    "limits": "The text does not give a surveyed boundary, the number or footprints of individual sheds, or an exact modern coordinate. 'Along the water's edge' must not be converted into a precise map polygon.",
+    "source_ids": [
+      "SRC-CLONTARF-LEWIS-1837",
+      "SRC-CLONTARF-VERNON-DCC-2026"
+    ]
+  },
+  {
+    "id": "RES-CLONTARF-TOOLE-WILL-1789",
+    "title": "1789: a will abstract names property in the Sheds of Clontarf",
+    "area": "CLONTARF · COUNTY DUBLIN",
+    "updated": "2026-10-26",
+    "status": "ARCHIVAL_ABSTRACT",
+    "status_label": "PUBLISHED ARCHIVAL ABSTRACT · UNDERLYING RECORD NOT INSPECTED",
+    "summary": "A published Registry of Deeds will abstract for Patrick Toole, dated 26 January 1789, identifies property in the Sheds of Clontarf and a house on the Green in the Sheds.",
+    "supported": "The search-indexed text of Abstract no. 42 in the Irish Manuscripts Commission's Registry of Deeds Abstracts of Wills, Volume III (1785–1832), records these place references. This provides an earlier documentary reference to the Sheds of Clontarf as a named property locality.",
+    "limits": "The underlying will/deed and its original memorial have not been inspected directly in this session. The abstract does not identify a precise plot, establish the physical location of the house, or map any shed footprints.",
+    "source_ids": [
+      "SRC-CLONTARF-REGISTRY-WILLS-1789"
+    ]
+  },
+  {
+    "id": "RES-CLONTARF-HERRING-SHEDS-1728",
+    "title": "A reported 1728 map label: “Herring Sheds” at Clontarf",
+    "area": "CLONTARF SHORE · DUBLIN BAY",
+    "updated": "2026-10-26",
+    "status": "MAP_LABEL_LEAD",
+    "status_label": "SECONDARY MAP TRANSCRIPTION · ORIGINAL IMAGE CHECK PENDING",
+    "summary": "Dillon Cosgrave's local-history account states that Captain Perry's 1728 Map of Dublin Bay and Harbour marks “Herring Sheds” at the coast road below Vernon Avenue.",
+    "supported": "The published chapter explicitly attributes the label to the 1728 map and places it at the Clontarf Sheds locality. The Dublin Port Archive catalogue independently identifies a 1728 map titled A New and Correct Map of the Bay and Harbour of Dublin with a small Plan of the City.",
+    "limits": "The original map label and its exact position have not been independently read from the map image. Do not treat this secondary transcription as a georeferenced point or proof of exact shed geometry. The map's provenance and reproduction permissions must be respected.",
+    "source_ids": [
+      "SRC-CLONTARF-COSGRAVE-NORTH-DUBLIN",
+      "SRC-CLONTARF-BURGH-1728-ARCHIVE",
+      "SRC-CLONTARF-BURGH-1728-ACADEMIC"
     ]
   }
 ]

@@ -49,6 +49,7 @@ RESEARCH → VERIFY → REGISTER → PLAN FIELDWORK → FOUNDER PHOTOGRAPHS → 
 - `data/coverage-zones.json` — Dublin local authorities and geographic coverage plan.
 - `data/categories.json` — discovery taxonomy.
 - `data/sources.json` — source registry.
+- `data/research.json` — public, evidence-graded research notes and unresolved archival leads.
 - `schemas/` — JSON Schema contracts for objects, sources and geographic zones.
 - `documentation/` — project standards, research batches and data architecture.
 - `routes/` — proposed and completed fieldwork plans.
@@ -66,6 +67,8 @@ The website provides a responsive warm editorial catalogue with ivory, charcoal 
 - Name or district sorting.
 - A record detail view with location, historical context, access notes, source links and photography checklist.
 - A live catalogue overview showing total records, verified records and records awaiting photography.
+- A **New research & discoveries** feed that publishes evidence-graded historical findings as they emerge, with source links, what is supported, and what remains unconfirmed.
+- Research leads are deliberately separate from physical catalogue records and map pins; they become mapped objects only after location and evidence checks pass.
 
 The website displays research records as placeholders until original field photographs are added. It does not use stock or generated images as substitutes.
 

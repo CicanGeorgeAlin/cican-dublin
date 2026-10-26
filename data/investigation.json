@@ -1,0 +1,271 @@
+{
+  "version": "1.0",
+  "adopted": "2026-10-26",
+  "scope": "Clontarf Sheds historical investigation",
+  "methodology": "LOCKED",
+  "evidence_grades": {
+    "A": "Original archival document, manuscript, map, photograph or physical record directly inspected.",
+    "B": "Contemporary published primary source directly inspected.",
+    "C": "Archival catalogue, finding aid, published abstract or transcription; underlying original not inspected.",
+    "D": "Secondary historical interpretation or modern report.",
+    "E": "Unverified lead, inference or candidate source not adequately checked."
+  },
+  "claims": [
+    {
+      "id": "CLM-001",
+      "claim": "Clontarf sheds existed at the water's edge and were formerly used for fish curing.",
+      "grade": "B",
+      "source_ids": [
+        "SRC-CLONTARF-LEWIS-1837"
+      ],
+      "unknowns": [
+        "individual footprints",
+        "number of sheds",
+        "date of establishment"
+      ]
+    },
+    {
+      "id": "CLM-002",
+      "claim": "A cluster of herring sheds fronted the Coast Road and the route later associated with Vernon Avenue extended north from it.",
+      "grade": "D",
+      "source_ids": [
+        "SRC-CLONTARF-VERNON-DCC-2026"
+      ],
+      "unknowns": [
+        "exact original alignment",
+        "individual structures",
+        "boundaries"
+      ]
+    },
+    {
+      "id": "CLM-003",
+      "claim": "An 1836 OS Name Book described a road through the Sheds to the shore.",
+      "grade": "D",
+      "source_ids": [
+        "SRC-CLONTARF-VERNON-STREET-HISTORY",
+        "SRC-CLONTARF-NLI-COUNTY-NAMEBOOKS"
+      ],
+      "unknowns": [
+        "original entry",
+        "full context",
+        "associated location map"
+      ]
+    },
+    {
+      "id": "CLM-004",
+      "claim": "Patrick Toole held property in the Sheds and a dwellinghouse in the Green of the Sheds.",
+      "grade": "C",
+      "source_ids": [
+        "SRC-CLONTARF-REGISTRY-WILLS-1792"
+      ],
+      "unknowns": [
+        "original memorial",
+        "exact plot",
+        "boundaries",
+        "house position"
+      ]
+    },
+    {
+      "id": "CLM-005",
+      "claim": "A 1728 harbour map labels a Clontarf coastal feature Herring Sheds.",
+      "grade": "D",
+      "source_ids": [
+        "SRC-CLONTARF-COSGRAVE-NORTH-DUBLIN",
+        "SRC-CLONTARF-BURGH-1728-ARCHIVE"
+      ],
+      "unknowns": [
+        "exact transcription",
+        "label position",
+        "map image inspection"
+      ]
+    },
+    {
+      "id": "CLM-006",
+      "claim": "A print titled The Sheds of Clontarfe was made in 1785 by Thomas Malton after Francis Wheatley.",
+      "grade": "C",
+      "source_ids": [
+        "SRC-CLONTARF-BL-MALTON-1785",
+        "SRC-CLONTARF-MALTON-1785-IRISH-ARTISTS"
+      ],
+      "unknowns": [
+        "direct print inspection",
+        "depicted scene",
+        "viewpoint",
+        "reproduction permissions"
+      ]
+    },
+    {
+      "id": "CLM-007",
+      "claim": "A 1744–1745 Giles King view contains a numbered key identifying the Sheds of Clontarf.",
+      "grade": "E",
+      "source_ids": [],
+      "unknowns": [
+        "exact catalogue record",
+        "shelfmark",
+        "image",
+        "key wording",
+        "rights"
+      ]
+    },
+    {
+      "id": "CLM-008",
+      "claim": "Herringtowne was a name for the Sheds or fishing port in 1693.",
+      "grade": "D",
+      "source_ids": [
+        "SRC-CLONTARF-COLLINS-1693-HERRINGTOWNE"
+      ],
+      "unknowns": [
+        "original chart",
+        "exact date and edition",
+        "label transcription",
+        "referent"
+      ]
+    },
+    {
+      "id": "CLM-009",
+      "claim": "Christmas Weekes wrote from Clontarf in 1786 about works supplying shipping with water.",
+      "grade": "C",
+      "source_ids": [
+        "SRC-CLONTARF-WEEKES-1786"
+      ],
+      "unknowns": [
+        "original Grand Jury record",
+        "engineering details",
+        "route",
+        "physical location"
+      ]
+    },
+    {
+      "id": "CLM-010",
+      "claim": "A 1704 John Greene Junior survey of Donnycarney covers lands in the Parish of Clontarf.",
+      "grade": "C",
+      "source_ids": [
+        "SRC-CLONTARF-VRT-1704-DONNYCARNEY"
+      ],
+      "unknowns": [
+        "direct map inspection",
+        "Sheds coverage"
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "INV-001",
+      "priority": 1,
+      "status": "READY_FOR_SOURCE_ACCESS",
+      "title": "Inspect the 1785 Malton print",
+      "source_ids": [
+        "SRC-CLONTARF-BL-MALTON-1785"
+      ],
+      "next_action": "Obtain and inspect the highest-resolution available image of British Library Maps K.Top.53.25 / BLL01004821630.",
+      "completion": "Document exact imprint, visible features, shoreline, landmarks, viewpoint only if demonstrable, and reproduction terms."
+    },
+    {
+      "id": "INV-002",
+      "priority": 1,
+      "status": "CANDIDATE_NOT_REGISTERED",
+      "title": "Verify the candidate Giles King view, 1744–1745",
+      "source_ids": [],
+      "next_action": "Locate and verify exact catalogue record, title, date, shelfmark and numbered key before registering the source.",
+      "completion": "Catalogue identity and image independently checked; otherwise retain as Grade E lead."
+    },
+    {
+      "id": "INV-003",
+      "priority": 1,
+      "status": "ACCESS_TARGET_IDENTIFIED",
+      "title": "Retrieve original 1836 County Dublin OS Name Book entry",
+      "source_ids": [
+        "SRC-CLONTARF-NLI-COUNTY-NAMEBOOKS"
+      ],
+      "next_action": "Search Ask About Ireland Name Books or request County Dublin Volume I BB6442 / Clontarf entry through NLI.",
+      "completion": "Inspect original page, compare transcription word-for-word, record folio and any location map."
+    },
+    {
+      "id": "INV-004",
+      "priority": 2,
+      "status": "IMAGE_REGISTERED_LABEL_UNVERIFIED",
+      "title": "Inspect the 1728 Burgh/Perry harbour chart",
+      "source_ids": [
+        "SRC-CLONTARF-BURGH-1728-ARCHIVE",
+        "SRC-CLONTARF-BURGH-1728-ACADEMIC"
+      ],
+      "next_action": "Obtain high-resolution Clontarf detail and transcribe the label independently.",
+      "completion": "Record exact reading, position, image source and rights; preserve ambiguity if illegible."
+    },
+    {
+      "id": "INV-005",
+      "priority": 2,
+      "status": "ACCESS_ROUTES_IDENTIFIED",
+      "title": "Inspect Taylor's 1816 map at Clontarf",
+      "source_ids": [
+        "SRC-CLONTARF-TAYLOR-1816-NLS",
+        "SRC-CLONTARF-TAYLOR-1816-VRT"
+      ],
+      "next_action": "Inspect NLS, VRT LBC-GJ-13-2 or SDCC viewer at Clontarf.",
+      "completion": "Record sheet extent, visible Green Lane label, alignment and landmarks or mark unsupported."
+    },
+    {
+      "id": "INV-006",
+      "priority": 2,
+      "status": "SOURCE_RECONCILIATION_REQUIRED",
+      "title": "Reconcile Rocque editions and map coverage",
+      "source_ids": [
+        "SRC-CLONTARF-ROCQUE-DIB",
+        "SRC-CLONTARF-UCD-HISTORIC-MAPS",
+        "SRC-CLONTARF-VERNON-DCC-2026"
+      ],
+      "next_action": "Identify exact titles, dates, sheets and report reproductions for 1756, 1757 and 1760 publications.",
+      "completion": "Distinct map entries with inspected coverage and no conflated Rocque references."
+    },
+    {
+      "id": "INV-007",
+      "priority": 3,
+      "status": "PUBLISHED_ABSTRACT_LOCATED",
+      "title": "Trace Patrick Toole's 1792 property",
+      "source_ids": [
+        "SRC-CLONTARF-REGISTRY-WILLS-1792"
+      ],
+      "next_action": "Extract full abstract and locate memorial/deed registration details and original memorial.",
+      "completion": "Record full property description and adjoining boundaries; plot only if independently locatable."
+    },
+    {
+      "id": "INV-008",
+      "priority": 3,
+      "status": "TRANSCRIPTION_LOCATED",
+      "title": "Trace the 1786 Christmas Weekes water-supply record",
+      "source_ids": [
+        "SRC-CLONTARF-WEEKES-1786"
+      ],
+      "next_action": "Identify original County Dublin Grand Jury minute/presentment and any plan or route description.",
+      "completion": "Inspect original record or document access barrier; no route inferred from letter alone."
+    },
+    {
+      "id": "INV-009",
+      "priority": 3,
+      "status": "CATALOGUED_COVERAGE_UNKNOWN",
+      "title": "Inspect the 1704 Donnycarney survey and 1792 NLI maps",
+      "source_ids": [
+        "SRC-CLONTARF-VRT-1704-DONNYCARNEY",
+        "SRC-CLONTARF-NLI-SLIPFIELD-1792",
+        "SRC-CLONTARF-NLI-BAYVIEW-MOUNTPLEASANT-1792"
+      ],
+      "next_action": "Inspect each map's full sheet and determine whether the Sheds corridor is actually depicted.",
+      "completion": "Classify each as direct, regional context or irrelevant to Sheds investigation."
+    },
+    {
+      "id": "INV-010",
+      "priority": 4,
+      "status": "BLOCKED_BY_SOURCE_INSPECTION",
+      "title": "Build defensible historical geography",
+      "source_ids": [],
+      "next_action": "Compare only inspected maps/images using stable control features and document registration method and uncertainty.",
+      "completion": "Each mapped feature has traceable evidence, reproducible georeferencing and uncertainty bounds."
+    }
+  ],
+  "protected_boundaries": [
+    "Do not redesign the website as part of the protocol.",
+    "Do not alter protected map-marker CSS or JavaScript.",
+    "Do not add unverified Sheds footprints, pins or physical object records.",
+    "Keep research notes separate from the physical catalogue."
+  ]
+}

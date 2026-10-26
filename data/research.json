@@ -300,5 +300,24 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ]
+  },
+  {
+    "id": "RES-DUBLIN1-2-GEORGIAN-VICTORIAN-ENTRANCE-DETAILS-2026",
+    "title": "Four townhouses preserve six separately documentable entrance and pavement details",
+    "area": "SEVILLE PLACE · EARLSFORT TERRACE · HARDWICKE STREET · SHERRARD STREET UPPER",
+    "updated": "2026-10-26",
+    "status": "OFFICIAL_REGISTER_RECORDS_REVIEWED",
+    "status_label": "FULL NIAH REGISTER CONTENT REVIEWED · FOUNDER FIELDWORK PENDING",
+    "summary": "Four NIAH records identify small surviving details across Dublin 1 and Dublin 2: an entrance bootscraper at 6 Seville Place; a bootscraper, coal-hole cover and cast-iron balustrade/gate at 17 Earlsfort Terrace; a wrought-iron bootscraper at 47 Hardwicke Street; and a cast-iron bootscraper at 6 Sherrard Street Upper.",
+    "supported": "NIAH registrations 50010046, 50110448, 50010889 and 50010744 were reviewed from their official register pages. The records give building dates, detailed descriptions and Irish Grid references. The bootscraper materials are distinguished where the register specifies them; the Earlsfort coal-hole cover and iron boundary are explicitly recorded.",
+    "limits": "NIAH coordinates locate the host buildings, not the exact micro-detail positions. The current condition, precise position, maker's marks and visibility from lawful public viewpoints require founder fieldwork. No founder photographs or line art have been created.",
+    "source_ids": [
+      "NIAH-50010046",
+      "NIAH-50110448",
+      "NIAH-50010889",
+      "NIAH-50010744",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ]
   }
 ]

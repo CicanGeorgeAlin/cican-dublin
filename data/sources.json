@@ -1789,5 +1789,45 @@
     "source_type": "OFFICIAL_HERITAGE_REGISTER",
     "specific_reference": "NIAH Registration 50010090; 86 Amiens Street, Dublin 1; published Irish Grid reference 316779, 235180.",
     "notes": "Full NIAH record directly inspected. It records a c.1832 townhouse, two original cast-iron coal-hole covers with separate inscriptions ('J. Sharkey Church St Dublin' and 'RY Dublin'), remnants of a cast-iron bootscraper, and a cast-iron party-wall circuit box reading 'Oxford'. Exact micro-feature positions and the meanings of the marks are not established."
+  },
+  {
+    "id": "NIAH-50010046",
+    "name": "6 Seville Place",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010046/6-seville-place-dublin-1-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50010046; 6 Seville Place, Dublin 1; Irish Grid 316827, 235171.",
+    "notes": "Full indexed NIAH record directly inspected. Describes a c.1850 Victorian townhouse and a cast-iron bootscraper on its shared granite entrance platform."
+  },
+  {
+    "id": "NIAH-50110448",
+    "name": "17 Earlsfort Terrace",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50110448/17-earlsfort-terrace-dublin-2-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50110448; 17 Earlsfort Terrace, Dublin 2; Irish Grid 316074, 232852.",
+    "notes": "Full indexed NIAH record directly inspected. Describes a c.1880 late-Victorian house with cast-iron bootscrape, cast-iron balustrade and matching gate, and a coal-hole cover set in a granite slab."
+  },
+  {
+    "id": "NIAH-50010889",
+    "name": "47 Hardwicke Street",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010889/47-hardwicke-street-dublin-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50010889; 47 Hardwicke Street, Dublin 1; Irish Grid 315611, 235317.",
+    "notes": "Full indexed NIAH record directly inspected. Describes a c.1810 Georgian townhouse with an encaustic-tiled entrance platform and wrought-iron bootscraper."
+  },
+  {
+    "id": "NIAH-50010744",
+    "name": "6 Sherrard Street Upper",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010744/6-sherrard-street-upper-dublin-1-co-dublin",
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50010744; 6 Sherrard Street Upper, Dublin 1; Irish Grid 315897, 235677.",
+    "notes": "Full indexed NIAH record directly inspected. Describes a c.1828 late-Georgian townhouse with original petal fanlight, cast-iron bootscraper, granite platform and railings."
   }
 ]

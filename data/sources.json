@@ -1391,5 +1391,25 @@
     "source_type": "SECONDARY_RESEARCH",
     "specific_reference": "Vernon Avenue article; references Taylor 1816, estate map 1823 and OS Name Books 1836",
     "notes": "Secondary street-history article transcribes an 1836 Ordnance Survey Name Books description of the road passing through The Sheds of Clontarf Village to the shore, and notes Green Lane on Taylor's 1816 map and an 1823 estate map. Original Name Book and map should be consulted for primary-source verification."
+  },
+  {
+    "id": "SRC-CLONTARF-ROCQUE-DIB",
+    "name": "John (Jean) Rocque — Dictionary of Irish Biography",
+    "publisher": "Dictionary of Irish Biography",
+    "url": "https://www.dib.ie/biography/rocque-john-jean-a7766",
+    "accessed": "2026-10-26",
+    "source_type": "BIOGRAPHICAL_REFERENCE",
+    "specific_reference": "Distinguishes Rocque's 1756 City and Environs map from the 1757 City and Suburbs map and other 1757 publications.",
+    "notes": "Used to prevent conflation of distinct Rocque map titles and publication dates; does not identify the exact sheet reproduced in the Vernon Avenue report."
+  },
+  {
+    "id": "SRC-CLONTARF-NAMEBOOKS-AOI",
+    "name": "Ordnance Survey Name Books and Letters collection search",
+    "publisher": "Ask About Ireland",
+    "url": "https://askaboutireland.ie/griffith-valuation/index.xml?action=nblSearch",
+    "accessed": "2026-10-26",
+    "source_type": "ARCHIVAL_CATALOGUE",
+    "specific_reference": "Name Books and Letters collection description and search facility, covering 1824–1842.",
+    "notes": "Collection description states that search results may provide original Name Book or Letter page, PDF and location map. The Vernon Avenue entry itself has not yet been retrieved or inspected."
   }
 ]

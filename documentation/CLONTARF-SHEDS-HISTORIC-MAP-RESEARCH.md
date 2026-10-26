@@ -165,3 +165,54 @@ The Virtual Record Treasury of Ireland catalogue identifies Taylor's 1816 map of
 ### Research integrity status
 
 No new shed footprint, oyster-bed polygon, coordinate, physical-object record or map pin is established by this update. The Rocque map editions, Name Book entry and Taylor map remain documentary verification tasks. Do not promote any of these leads into mapped geometry without direct source inspection and a recorded positional uncertainty.
+
+
+## Research update — 26 October 2026 (continued)
+
+### Rocque editions: identify the map by title, not by a loose year
+
+UCD Library's historic-map catalogue distinguishes the following separate works:
+- 1756: *An Exact Survey of the City and Suburbs of Dublin* (four sheets; Harvard/BNF copies and georeferenced Harvard material are listed).
+- 1757: *A Survey of the City, Harbour, Bay and Environs of Dublin on the same Scale as those of London, Paris & Rome*.
+- 1757: *Survey of the City and Suburbs of Dublin, with the division of the parishes*, a reduced version from the large four-sheet plan.
+- 1760: *An Actual Survey of the County of Dublin*.
+
+The Vernon Avenue article's paragraph calls the lane visible on a Rocque map of 1760, while its footnote cites Rocque 1756. Its own separate explainer says its default Rocque reference is the 1756 *Exact Survey*. This is an unresolved citation mismatch, not proof that any one of these sheets shows the Clontarf lane. Dublin City Council's 2026 preliminary design report labels its reproduced Rocque map 1757. The exact sheet used by each modern author must be identified before making a claim about the sheds or lane.
+
+References:
+- [UCD Library — Historic Maps of Dublin](https://libguides.ucd.ie/findingmaps/mapshistDublin)
+- [Streets broad and narrow — Vernon Avenue](https://streetsbroadandnarrow.ie/vernon-avenue/)
+- [Streets broad and narrow — Rocque's map, 1756](https://streetsbroadandnarrow.ie/rocques-map-1756/)
+- [Dictionary of Irish Biography — John (Jean) Rocque](https://www.dib.ie/biography/rocque-john-jean-a7766)
+
+### Taylor's 1816 map: confirmed access routes, image inspection outstanding
+
+UCD Library identifies Taylor's 1816 *Map of the Environs of Dublin, Extending 10 to 14 Miles from the Castle* and links both the National Library of Scotland's map record and South Dublin County Council's historical map viewer. This is a stronger access route than the earlier Virtual Record Treasury catalogue link alone. The map itself has not yet been visually inspected at the Clontarf/Vernon Avenue location, so the Green Lane label remains a secondary-source transcription.
+
+- [UCD Library map entry and access links](https://libguides.ucd.ie/findingmaps/mapshistDublin)
+- [Virtual Record Treasury item LBC-GJ-13-2](https://virtualtreasury.ie/item/LBC-GJ-13-2)
+- [National Library of Scotland map record](https://maps.nls.uk/towns/rec/12525)
+
+### County Dublin Name Books: correct volume identified
+
+The digitised *Ordnance Survey Name Books — City of Dublin* compilation edited by Eoin C. Bairéad is a distinct City collection. A search of its 278-page PDF did not locate Clontarf. It must not be cited as the primary Clontarf Name Book.
+
+The National Library of Ireland catalogue separately lists four typed-copy volumes of the County Dublin Ordnance Survey Name Books. Volume I (call number BB6442) runs from Aderrig to Coolock and is the correct volume to investigate for the Clontarf entry. The catalogue places it in the Main Reading Room; it is not offered there as a digitised online page.
+
+References:
+- [NLI — County Dublin Ordnance Survey Name Books](https://catalogue.nli.ie/Record/vtls000145666)
+- [Eoin C. Bairéad, editor — City of Dublin Name Books PDF](https://ebairead.ie/Files/Baile%20Atha%20Cliath/Dublin%20City%20Name%20Books.pdf)
+- [National Archives of Ireland — microfilm collections (OS Name Books, OS 88)](https://nationalarchives.ie/help-with-research/research-guides/microfilm-collections/)
+
+### Newly identified primary map lead: Slip Field near Clontarf, 1792
+
+The National Library of Ireland catalogue records a manuscript map titled *A survey of a piece of ground called the Slip field near Clontarf in the Barony of Coolock and County of Dublin let by A. Savage Esq. To John Ash by J.B. 1792. Scale 10 Perches to an Inch*. The catalogue attributes the survey to John Brownrigg, dates it to 1792, places it in the Longfield Map Collection, and states that a digital copy is available. Call number: MS 21 F. 51 / (081).
+
+This is a potentially valuable local landscape/estate-survey lead, but its title only says **near Clontarf**. It does not establish that the surveyed field is the historic fishing sheds, the shore route, or the Vernon Avenue corridor. The map image and its boundaries still need direct inspection before any spatial interpretation. The catalogue says reproduction rights are owned by the National Library of Ireland; do not republish the image without checking permission.
+
+- [NLI catalogue — Slip Field near Clontarf, 1792](https://catalogue.nli.ie/Record/vtls000301135)
+- [NLI — Longfield Map Collection](https://catalogue.nli.ie/Collection/vtls000282687)
+
+### Research integrity status
+
+No new shed footprint, oyster-bed polygon, coordinate, physical-object record or map pin is established by this update. The 1792 Slip Field map is a newly documented primary-source lead, not yet a verified depiction of the sheds. Do not georeference or publish inferred geometry until the original map image, its extent and its relationship to the historic shore are established.

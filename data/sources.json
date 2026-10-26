@@ -1411,5 +1411,45 @@
     "source_type": "ARCHIVAL_CATALOGUE",
     "specific_reference": "Name Books and Letters collection description and search facility, covering 1824–1842.",
     "notes": "Collection description states that search results may provide original Name Book or Letter page, PDF and location map. The Vernon Avenue entry itself has not yet been retrieved or inspected."
+  },
+  {
+    "id": "SRC-CLONTARF-UCD-HISTORIC-MAPS",
+    "name": "Historic Maps of Dublin — UCD Library guide",
+    "publisher": "University College Dublin Library",
+    "url": "https://libguides.ucd.ie/findingmaps/mapshistDublin",
+    "accessed": "2026-10-26",
+    "source_type": "RESEARCH_GUIDE",
+    "specific_reference": "Map catalogue entries for Rocque 1756, 1757 and 1760 editions, and Taylor's 1816 Map of the Environs of Dublin with access routes.",
+    "notes": "Used to distinguish separate map titles and identify access routes to National Library of Scotland and South Dublin County Council map viewer. Does not itself verify the Clontarf Green Lane depiction."
+  },
+  {
+    "id": "SRC-CLONTARF-NLI-COUNTY-NAMEBOOKS",
+    "name": "Ordnance Survey Name Books — County Dublin holdings",
+    "publisher": "National Library of Ireland",
+    "url": "https://catalogue.nli.ie/Record/vtls000145666",
+    "accessed": "2026-10-26",
+    "source_type": "ARCHIVAL_CATALOGUE",
+    "specific_reference": "Four typed-copy volumes; Vol. I (BB6442) covers Aderrig to Coolock.",
+    "notes": "Correct County Dublin archival set to consult for Clontarf. Catalogue places volumes in the Main Reading Room; this record does not expose the Clontarf entry itself."
+  },
+  {
+    "id": "SRC-CLONTARF-NLI-SLIPFIELD-1792",
+    "name": "Survey of Slip Field near Clontarf, 1792",
+    "publisher": "National Library of Ireland — Longfield Map Collection",
+    "url": "https://catalogue.nli.ie/Record/vtls000301135",
+    "accessed": "2026-10-26",
+    "source_type": "PRIMARY_MANUSCRIPT_MAP_CATALOGUE",
+    "specific_reference": "John Brownrigg, 1792; MS 21 F. 51 / (081); scale 10 perches to an inch; A. Savage Esq. to John Ash.",
+    "notes": "NLI catalogue states a digital copy is available. The map image has not yet been visually inspected. 'Near Clontarf' does not prove it depicts the fishing sheds or Vernon Avenue route. Reproduction rights are owned by NLI."
+  },
+  {
+    "id": "SRC-CLONTARF-EB-AIREAD-CITY-NAMEBOOKS",
+    "name": "Ordnance Survey Name Books — City of Dublin (edited compilation)",
+    "publisher": "Edited by Eoin C. Bairéad",
+    "url": "https://ebairead.ie/Files/Baile%20Atha%20Cliath/Dublin%20City%20Name%20Books.pdf",
+    "accessed": "2026-10-26",
+    "source_type": "SECONDARY_TRANSCRIPTION_COMPILATION",
+    "specific_reference": "278-page searchable compilation of City of Dublin Name Books; search for Clontarf returned no match.",
+    "notes": "Registered as a scope-control reference only. This is the City compilation, not the County Dublin volume containing the Clontarf research target."
   }
 ]

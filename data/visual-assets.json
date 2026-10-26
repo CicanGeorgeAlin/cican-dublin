@@ -11,7 +11,8 @@
     "Create founder line art only from the corresponding founder-captured original photograph unless a separate rights-cleared source and adaptation permission are documented.",
     "Preserve original photographs separately from derivative artwork.",
     "Photographs do not independently verify exact object coordinates.",
-    "Do not change archive record IDs or mark founder photography complete before founder confirmation."
+    "Do not change archive record IDs or mark founder photography complete before founder confirmation.",
+    "Where a record has no direct image, the website may display a clearly labelled STREET_CONTEXT image from its documented parent record; inherited images are never represented as exact-object photographs."
   ],
   "records": [
     {
@@ -2686,7 +2687,24 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "record_id": "DUB-BLD-0038",
+          "source_id": "WMC-DUB3-MARINO-CRESCENT-2020-01",
+          "title": "Marino Crescent, Dublin — view east along the crescent",
+          "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marino_crescent,_Dublin.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Marino_crescent,_Dublin.jpg",
+          "photographer": "William M. Murphy",
+          "date_taken": "2020-01-09",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "attribution": "William M. Murphy, “Marino crescent, Dublin”, 9 January 2020, via Wikimedia Commons (CC BY-SA 2.0).",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "Street-context view along Marino Crescent. It helps orient visitors to the crescent but does not identify the exact doorway or individual architectural detail at this archive pin."
+        }
+      ]
     },
     {
       "record_id": "DUB-BLD-0039",
@@ -3304,7 +3322,24 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "record_id": "DUB-BLD-0051",
+          "source_id": "WMC-DUB3-CLONTARF-SHELTER-2022-01",
+          "title": "Clontarf Promenade — concrete shelter 1",
+          "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dublin_-_Clontarf_Promenade_shelter_1_-_20220208130124.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Dublin_-_Clontarf_Promenade_shelter_1_-_20220208130124.jpg",
+          "photographer": "Malone0",
+          "date_taken": "2022-02-08",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Malone0, “Dublin - Clontarf Promenade shelter 1”, 8 February 2022, via Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "Photograph depicts a shelter on Clontarf Promenade. The catalogue record describes a Modernist concrete shelter; the image is a promenade reference and must not be treated as confirmation that this is the exact shelter at the record pin."
+        }
+      ]
     },
     {
       "record_id": "DUB-BLD-0052",
@@ -3494,7 +3529,24 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "record_id": "DUB-BLD-0057",
+          "source_id": "WMC-DUB3-CLONTARF-SHELTER-2022-02",
+          "title": "Clontarf Promenade — one of the concrete shelters",
+          "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dublin_-_Clontarf_Promenade_shelter_4_-_20220208125154.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Dublin_-_Clontarf_Promenade_shelter_4_-_20220208125154.jpg",
+          "photographer": "Malone0",
+          "date_taken": "2022-02-08",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Malone0, “Dublin - Clontarf Promenade shelter 4”, 8 February 2022, via Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "A reference photograph of a Clontarf Promenade shelter. It gives a visual indication of the promenade's shelter forms, not a verified match to every shelter in this grouped catalogue record."
+        }
+      ]
     },
     {
       "record_id": "DUB-BLD-0058",
@@ -6327,5 +6379,6 @@
       },
       "gallery_status": "NOT_YET_PUBLISHED"
     }
-  ]
+  ],
+  "last_updated": "2026-10-26"
 }

@@ -4747,5 +4747,43 @@
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH explicitly records a petal-motif fanlight. The fanlight's present condition and visibility from public space await founder photography.",
     "last_researched": "2026-10-26"
+  },
+  {
+    "id": "DUB-STR-0042",
+    "name": "Clontarf Castle gate lodge — carved shield above the former carriage arch",
+    "category": "STREET_DETAIL",
+    "district": "Dublin 3",
+    "address": "Former carriage-arch opening, Clontarf Castle gate lodge, Castle Avenue, Clontarf, Dublin 3",
+    "historical_period": "1836–1837",
+    "historical_description": "A carved limestone shield positioned above the former carriage-arch opening of the Gothic Revival gate lodge at the entrance to Clontarf Castle. NIAH Registration 50030163 explicitly records a shield over the carriage arch as part of the gate lodge's carved limestone decoration.",
+    "historical_significance": "The shield is a distinct heraldic and architectural detail within the entrance building's Gothic Revival composition. It is a separate photographic subject from the sculpted animal-head corbels already catalogued at the same gate lodge.",
+    "national_inventory_reference": "Associated with 50030163",
+    "national_grid_reference": "319498, 236289",
+    "latitude": 53.3635277,
+    "longitude": -6.2056968,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": "DUB-BLD-0047",
+    "access_status": "At the entrance to Clontarf Castle Hotel. Photograph only from a lawful, safe public viewpoint; do not enter private grounds or stand on the carriageway or roundabout.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3635277%2C-6.2056968&travelmode=walking",
+    "photography_brief": [
+      "Photograph the carved shield above the former carriage arch from a safe public viewpoint",
+      "Capture the shield's outline, carving, surface and relation to the arch",
+      "Take a wider view locating the shield within the gate lodge façade",
+      "Do not enter private grounds, climb barriers or stand in the carriageway"
+    ],
+    "sources": [
+      "NIAH-50030163",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ],
+    "feature_type": "MICRO_DETAIL",
+    "coordinate_status": "SOURCE_DERIVED",
+    "coordinate_source": "Inherited from the NIAH point for the gate lodge (319498, 236289), transformed from TM65 / Irish Grid (EPSG:29902) using EPSG operation 1641. This is not an exact coordinate for the shield; its façade position remains to be field-confirmed.",
+    "coordinate_accuracy_m": null,
+    "research_notes": "NIAH explicitly records a shield over the former carriage arch. The exact carved design, current condition and visibility from public space await founder photography.",
+    "last_researched": "2026-10-26"
   }
 ]

@@ -51,13 +51,14 @@
     "updated": "2026-10-26",
     "status": "PRIMARY_CHECK_PENDING",
     "status_label": "PRIMARY MAP INSPECTION PENDING",
-    "summary": "Taylor's Map of the Environs of Dublin, Extending 10 to 14 Miles from the Castle, was published in 1816. UCD Library identifies the National Library of Scotland record and a South Dublin County Council historic-map viewer as access routes.",
-    "supported": "The map's identity and access routes are catalogued. A secondary street-history article reports that the route was labelled Green Lane.",
-    "limits": "The Clontarf portion of the 1816 map has not yet been visually inspected. The Green Lane label is not presented here as a direct reading of the original map.",
+    "summary": "Taylor's Map of the Environs of Dublin, Extending 10 to 14 Miles from the Castle, was published in 1816. UCD Library identifies the National Library of Scotland record, while the Vernon Avenue street-history article also cites the Virtual Treasury of Ireland catalogue item LBC-GJ-13-2 as an access route.",
+    "supported": "The map's identity and date are supported by the catalogue and UCD Library guide. A secondary street-history article reports that the route was labelled Green Lane and cites the Virtual Treasury catalogue item LBC-GJ-13-2 for Taylor's map.",
+    "limits": "The Clontarf portion of the 1816 map has not yet been visually inspected. The Green Lane label remains a secondary-source claim, not a direct reading of the original map. The Virtual Treasury page was reachable as a catalogue URL in this investigation, but its map image or Clontarf sheet was not extracted or inspected.",
     "source_ids": [
       "SRC-CLONTARF-TAYLOR-1816-NLS",
       "SRC-CLONTARF-UCD-HISTORIC-MAPS",
-      "SRC-CLONTARF-VERNON-STREET-HISTORY"
+      "SRC-CLONTARF-VERNON-STREET-HISTORY",
+      "SRC-CLONTARF-TAYLOR-1816-VRT"
     ]
   },
   {

@@ -438,3 +438,13 @@ body.photo-viewer-open{overflow:hidden}
 .brand .brand-mark{display:none!important}
 .brand-wordmark{display:block;color:#f5f5f5;font-size:13px;font-weight:800;letter-spacing:.24em;line-height:1;text-shadow:0 0 18px #ffffff25}
 @media(max-width:850px){.brand-wordmark{font-size:13px;letter-spacing:.22em}}
+
+
+/* Clean map controls: keep the legal credit visible, remove the compact info toggle, and group map controls on the right. */
+#map .maplibregl-ctrl-bottom-left{display:none!important}
+#map .maplibregl-ctrl-bottom-right{right:10px;bottom:10px;display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+#map .maplibregl-ctrl-attrib{display:block!important;max-width:min(88vw,420px);padding:4px 8px!important;border-radius:3px;background:#080808d9!important;color:#aaa!important;font:9px/1.4 var(--sans)!important}
+#map .maplibregl-ctrl-attrib a{color:#eee!important}
+#map .maplibregl-ctrl-attrib-button{display:none!important}
+#map .maplibregl-ctrl-bottom-right .maplibregl-ctrl-group{margin:0!important}
+@media(max-width:850px){#map .maplibregl-ctrl-bottom-right{right:10px;bottom:calc(58px + env(safe-area-inset-bottom) + 10px);gap:8px}#map .maplibregl-ctrl-attrib{font-size:8px!important;max-width:calc(100vw - 30px)}}

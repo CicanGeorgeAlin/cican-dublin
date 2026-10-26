@@ -1979,5 +1979,35 @@
     "source_type": "IMAGE_REFERENCE",
     "specific_reference": "Wikimedia Commons file page identifies the subject, author Leimanbhradain, photograph date 2024-09-24, and licence Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). Image file: Post-Box-1220164,_Nassau_St.,_Dublin,_Ireland.jpg.",
     "notes": "Attribution: Leimanbhradain, “P&T double-aperture post box, Nassau Street — Áth Cliath lettering”, via Wikimedia Commons. Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). File caption identifies Nassau Street; the photograph visibly shows the vintage double-aperture P&T pillar box and Áth Cliath / Dublin lettering matching the catalogue record. Third-party reference image; not a founder original."
+  },
+  {
+    "id": "WMC-DUB3-MARINO-CRESCENT-2020-01",
+    "name": "Marino Crescent, Dublin — street-context photograph",
+    "publisher": "Wikimedia Commons — William M. Murphy",
+    "url": "https://commons.wikimedia.org/wiki/File:Marino_crescent,_Dublin.jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Wikimedia Commons file page identifies the subject, author William M. Murphy, photograph date 2020-01-09, and licence Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0).",
+    "notes": "Attribution: William M. Murphy, “Marino crescent, Dublin”, via Wikimedia Commons. Licence: CC BY-SA 2.0. Street-context image only; it does not identify an exact doorway or object at the catalogue pin."
+  },
+  {
+    "id": "WMC-DUB3-CLONTARF-SHELTER-2022-01",
+    "name": "Clontarf Promenade shelter 1 — reference photograph",
+    "publisher": "Wikimedia Commons — Malone0",
+    "url": "https://commons.wikimedia.org/wiki/File:Dublin_-_Clontarf_Promenade_shelter_1_-_20220208130124.jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Wikimedia Commons file page identifies the subject as Clontarf Promenade shelter 1, author Malone0, photograph date 2022-02-08, and licence Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).",
+    "notes": "Attribution: Malone0, “Dublin - Clontarf Promenade shelter 1”, via Wikimedia Commons. Licence: CC BY-SA 4.0. Contextual promenade reference; not confirmation that this is the exact shelter at the archive pin."
+  },
+  {
+    "id": "WMC-DUB3-CLONTARF-SHELTER-2022-02",
+    "name": "Clontarf Promenade shelter 4 — reference photograph",
+    "publisher": "Wikimedia Commons — Malone0",
+    "url": "https://commons.wikimedia.org/wiki/File:Dublin_-_Clontarf_Promenade_shelter_4_-_20220208125154.jpg",
+    "accessed": "2026-10-26",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Wikimedia Commons file page identifies the subject as Clontarf Promenade shelter 4, author Malone0, photograph date 2022-02-08, and licence Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).",
+    "notes": "Attribution: Malone0, “Dublin - Clontarf Promenade shelter 4”, via Wikimedia Commons. Licence: CC BY-SA 4.0. Contextual promenade reference; not confirmation that this is the exact shelter at the archive pin."
   }
 ]

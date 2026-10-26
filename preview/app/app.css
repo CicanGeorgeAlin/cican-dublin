@@ -432,3 +432,9 @@ body.photo-viewer-open{overflow:hidden}
  .editorial-actions .story-save,.editorial-actions .story-walk{font-size:10px}
  .editorial-credit{font-size:10px}
 }
+
+
+/* Minimal wordmark header: the map needs the CICAN name, not a separate emblem. */
+.brand .brand-mark{display:none!important}
+.brand-wordmark{display:block;color:#f5f5f5;font-size:13px;font-weight:800;letter-spacing:.24em;line-height:1;text-shadow:0 0 18px #ffffff25}
+@media(max-width:850px){.brand-wordmark{font-size:13px;letter-spacing:.22em}}

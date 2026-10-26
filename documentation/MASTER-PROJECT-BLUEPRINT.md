@@ -1,24 +1,25 @@
-# CICAN DUBLIN ARCHIVE — Master Project Blueprint
+# CICAN DUBLIN — Master Project Blueprint
 
 **Founder:** CICAN GEORGE ALIN  
-**Project type:** Evidence-first, founder-photographed visual archive  
+**Project type:** Evidence-first discovery, investigation, fieldwork and founder-photographed visual platform  
 **Geographic scope:** Dublin City and County Dublin  
-**Working principle:** Discover broadly. Research carefully. Photograph in person. Preserve faithfully.
+**Working principle:** Discover every detail. Verify every claim. Locate responsibly. Photograph in person. Preserve faithfully.
 
 ## 1. Mission
 
-Build a living visual inventory of the physical heritage and identifiable features of Dublin and County Dublin. The archive must include major landmarks and overlooked details: buildings, monuments, memorials, inscriptions, street furniture, lamps, gates, bridges, paving patterns, cobblestones, boundary markers, shopfronts, signs, architectural details, industrial remains, archaeological features and other documentable objects.
+Build the most comprehensive evidence-led discovery and visual record possible of Dublin and County Dublin's historically meaningful physical details, from famous landmarks to overlooked micro-details. The archive must include major landmarks and overlooked details: buildings, monuments, memorials, inscriptions, street furniture, lamps, gates, bridges, paving patterns, cobblestones, boundary markers, shopfronts, signs, architectural details, industrial remains, archaeological features and other documentable objects.
 
-The project has two connected purposes:
+CICAN DUBLIN has three connected purposes:
 
-1. **Discovery and fieldwork system:** identify what should be documented, establish its location, verify what is known, and guide the founder to it.
-2. **Public visual archive:** preserve the founder's original photographs and faithful derivative A4 line art, with concise evidence and context.
+1. **Historical discovery and investigation:** identify overlooked details, inspect sources, verify claims and preserve uncertainty.
+2. **Fieldwork application:** locate field-ready discoveries and guide the founder's visits and original photography.
+3. **Public visual collection:** publish the founder's photographs and faithful derivative A4 line art, then develop separate colouring-book publications.
 
 This is not a list of famous attractions. It is a systematic attempt to document Dublin's visible physical record, including small details that ordinary heritage guides overlook.
 
 ## 2. Geographic strategy
 
-The archive is designed for all of Dublin from the beginning. Research and fieldwork will proceed in manageable geographic phases, beginning with Dublin 1 and then expanding district by district.
+CICAN DUBLIN is designed for all of Dublin from the beginning. Research and fieldwork will proceed in manageable geographic phases, beginning with Dublin 1 and then expanding district by district.
 
 Postal districts are useful working zones, but they are not a complete administrative map of County Dublin. The long-term geographic model must also accommodate neighbourhoods, townlands, local authority areas, estates, parks, transport corridors, coastline and rural locations.
 

@@ -230,3 +230,34 @@ NLI's general map-collection guidance confirms that its early manuscript maps ar
 ### Research integrity status
 
 This is a catalogue-level archival lead only. No map image has been inspected and no physical object, coordinate, shed footprint, oyster-bed polygon, or map pin is added.
+
+
+## Research update — 26 October 2026 (map access clarification)
+
+### NLI 1792 manuscript maps: digital-copy note does not equal open online image
+
+The NLI catalogue record for the 1792 Slip Field survey explicitly says that a digital copy is available and that the original will not be issued. It also gives the call number **MS 21 F. 51 / (081)** and states that reproduction rights are owned by the NLI. However, the NLI's general map-collection access guidance says its early printed and manuscript maps, including the Longfield Map Collection, are accessed in the Manuscripts Reading Room with a reader's ticket. The catalogue page exposes no usable public image viewer in the research session; its Access Information route returned HTTP 403. Therefore the responsible interpretation is that a digital surrogate exists, but its access route may be mediated by the Library. Do not claim that the map is freely available online or that its image has been inspected.
+
+The related Bay View & Mount Pleasant map is also a manuscript map in the same collection, call number **MS 21 F. 51 / (079)**. Its title and catalogue metadata are confirmed; its map image remains uninspected.
+
+- [NLI — Slip Field, 1792 catalogue record](https://catalogue.nli.ie/Record/vtls000301135)
+- [NLI — Maps collection and access guidance](https://www.nli.ie/collections/our-collections/maps)
+- [NLI — Bay View & Mount Pleasant, 1792 catalogue record](https://catalogue.nli.ie/Record/vtls000301133)
+
+### New comparison aid: separate Rocque layers in the Dublin historic-map viewer
+
+An interactive historic-map viewer compiled by Brian Hollinshead exposes separate layers for Rocque's 1756 four-sheet city survey, 1757 city-and-environs map, and 1760 County Dublin map sheets. This is a useful way to locate the correct historic layer and compare its coverage with modern mapping. It is a secondary georeferenced viewer, not a replacement for the original sheet. The map layer's alignment and any feature interpretation must be independently checked. The viewer page was identified, but this research session did not extract a verifiable Clontarf map image or inspect the specific sheds/shore corridor.
+
+- [Dublin Historic Maps — 1600s and 1700s viewer](https://www.dublinhistoricmaps.ie/maps/1600-1799/index.html)
+
+### Taylor 1816: primary map access route strengthened
+
+UCD Library's map guide explicitly identifies the 1816 *Taylor's Map of the Environs of Dublin, Extending 10 to 14 Miles from the Castle* and points to both the National Library of Scotland record and South Dublin County Council's map viewer (where the Taylor layer can be enabled). The NLS record is now registered as a distinct source. Neither access route has yet yielded a visually inspected Clontarf extract in this research session. The reported Green Lane label therefore remains attributed to the Streets broad and narrow secondary article, not directly confirmed from Taylor's map.
+
+- [NLS — Taylor's 1816 map record](https://maps.nls.uk/towns/rec/12525)
+- [UCD Library — Historic Maps of Dublin](https://libguides.ucd.ie/findingmaps/mapshistDublin)
+- [SDCC historical map viewer](https://sdublincoco.maps.arcgis.com/apps/instant/sidebar/index.html?appid=d7268841447841649eb29bfe5724af93)
+
+### Research integrity status
+
+No manuscript map image has been inspected in this update. No shed footprint, oyster-bed polygon, coordinate, physical-object record or map pin is established. The new viewer and map catalogue records are access/discovery references only.

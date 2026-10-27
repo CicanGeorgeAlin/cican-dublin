@@ -1,19 +1,21 @@
 const CACHE="cican-dublin-root-v1";
 const CACHE_PREFIX="cican-dublin-root-";
 const SHELL=[
-  "/",
-  "/index.html",
-  "/preview/app.html",
-  "/preview/app/app.css",
-  "/preview/app/app.js",
-  "/preview/manifest.webmanifest",
-  "/preview/assets/favicon.svg",
-  "/preview/assets/cican-emblem.svg",
-  "/data/objects.json",
-  "/data/sources.json",
-  "/data/visual-assets.json"
+  "./",
+  "./index.html",
+  "./preview/app.html",
+  "./preview/app/app.css",
+  "./preview/app/app.js",
+  "./preview/manifest.webmanifest",
+  "./preview/assets/favicon.svg",
+  "./preview/assets/cican-emblem.svg",
+  "./data/objects.json",
+  "./data/sources.json",
+  "./data/visual-assets.json"
 ];
 const SHELL_PATHS=new Set(SHELL.map(path=>new URL(path,self.registration.scope).pathname));
+const HOME_URL=new URL("./",self.registration.scope).toString();
+const INDEX_URL=new URL("./index.html",self.registration.scope).toString();
 
 self.addEventListener("install",event=>{
   event.waitUntil(
@@ -49,12 +51,12 @@ self.addEventListener("fetch",event=>{
           if(fresh.ok)return fresh;
           const cached=await cache.match(request);
           if(cached)return cached;
-          if(isNavigation)return (await cache.match("/"))||(await cache.match("/index.html"))||fresh;
+          if(isNavigation)return (await cache.match(HOME_URL))||(await cache.match(INDEX_URL))||fresh;
           return fresh;
         }catch(error){
           const cached=await cache.match(request);
           if(cached)return cached;
-          if(isNavigation)return (await cache.match("/"))||(await cache.match("/index.html"))||Response.error();
+          if(isNavigation)return (await cache.match(HOME_URL))||(await cache.match(INDEX_URL))||Response.error();
           return Response.error();
         }
       }

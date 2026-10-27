@@ -114,3 +114,22 @@ These are reference-photo counts, not founder-photo completion. No record has be
 5. Complete a full live-browser and Pixel 6 regression or explicitly record the limits of available runtime testing.
 
 The foundation remains NOT COMPLETE and automatic expansion remains on hold.
+
+
+## Further image and identifier audit — 27 October 2026
+A further exact-object image was added for DUB-BLD-0083, Fairview Park's former public convenience. The Wikimedia Commons file page and structured data identify the exact building (NIAH Registration 50120133), photographer Smirkybec, capture date 30 September 2021 and CC BY-SA 4.0. The image is partly obscured by foliage and a site information board; it is a valid identification reference but not a sufficient founder documentation photograph.
+
+### Revised image totals
+- 66 reference-image entries across 49 unique image URLs.
+- 33 catalogue records have at least one OBJECT_PHOTOGRAPH reference.
+- 28 records have context-only imagery.
+- 134 records have no reference image.
+- 162 records still lack an exact-object photograph reference (28 context-only + 134 with none).
+- All 66 image source IDs resolve to source-registry entries.
+- The source registry now contains 234 entries. Every source has a source_type and specific_reference value; the official GPO Building of the Month item uses the schema-approved OFFICIAL_HERITAGE_REGISTER type.
+
+### Stable identifier / category cross-check
+The category audit found 10 records whose existing ID prefix does not match the record's current category: DUB-STR-0039, DUB-BLD-0054, DUB-BLD-0060, DUB-BLD-0062, DUB-BLD-0065, DUB-BLD-0068, DUB-BLD-0069, DUB-BLD-0070, DUB-BLD-0071 and DUB-BLD-0073. The category values were checked against the objects described and appear to be the meaningful current classification; the prefixes are therefore treated as stable legacy identifiers, not as a live category field. IDs will not be silently renamed. This exception is now explicit and should remain visible in the data-quality record.
+
+### Current position
+The data now has 195/195 records, 195/195 visual entries, complete source references, numeric coordinate fields and valid source registry links. These structural checks do not establish factual completeness, exact feature-position accuracy, image delivery or publication readiness. The foundation remains NOT COMPLETE: 28 records are PARTIALLY_VERIFIED, 162 lack exact-object photo references, all reference URLs still need live delivery tests, and full browser/device regression remains outstanding. No automatic expansion is authorised.

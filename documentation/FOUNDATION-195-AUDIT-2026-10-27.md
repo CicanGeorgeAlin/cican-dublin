@@ -163,3 +163,9 @@ Four records remain PARTIALLY_VERIFIED because their identity or exact inscripti
 - DUB-INS-0007 — the street-name plaque is confirmed on the building, but its actual wording and condition are not transcribed by the NIAH entry.
 
 Updated verification totals: 191 VERIFIED and 4 PARTIALLY_VERIFIED (195 total). These statuses concern source-backed identity and historical description; they do not mean current condition, founder photography, exact micro-feature coordinates, line art or publication are complete. The photo and fieldwork gaps remain open.
+
+
+## NIAH photo-search batch — 27 October 2026
+A direct-object photograph was found and added for DUB-STR-0057, the North Strand Road / Bayview Avenue milestone (NIAH 50120248). Wikimedia Commons file page identifies the object as the ‘Dublin 1 Howth 8’ milestone, photographer John S Turner, captured 13 March 2018, with a visible plaque inscription matching the NIAH description. The file is CC BY-SA 2.0. The image's recorded object/camera coordinate is 53.357793, -6.242408; the catalogue point is 53.35782984, -6.24248202, approximately 6 metres away. The image is a third-party reference, not a founder original. The existing catalogue point remains source-derived and should be field-checked before claiming survey-level precision.
+
+Updated photo inventory after this addition: 67 reference-image entries across 50 unique URLs; 34 records have an exact-object reference; 28 have context-only imagery; 133 have no reference-image entry. Therefore 161 records still lack an exact-object reference photograph. All image source IDs now resolve to the source registry, which contains 237 sources with no missing source_type or specific_reference fields.

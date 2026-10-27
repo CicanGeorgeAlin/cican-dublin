@@ -4799,7 +4799,7 @@
     "national_grid_reference": "320568, 235779",
     "latitude": 53.3587049403907,
     "longitude": -6.189826723248944,
-    "verification_status": "PARTIALLY_VERIFIED",
+    "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
@@ -4822,7 +4822,8 @@
     "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 320568, 235779 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. NIAH page was indexed but direct page access returned HTTP 403 during this research pass; coordinate remains source-derived and requires field verification.",
     "coordinate_accuracy_m": null,
-    "research_notes": "NIAH Registration 50030114. Register details were reviewed from the indexed official NIAH entry; full-page inspection remains pending. Keep partially verified until the full record is independently inspected. No founder photograph or line art exists."
+    "research_notes": "NIAH Registration 50030114. Register details were reviewed from the indexed official NIAH entry; full-page inspection remains pending. Keep partially verified until the full record is independently inspected. No founder photograph or line art exists. Official NIAH full record details were retrieved and reviewed on 2026-10-27, including the registration number, location, classification/rating, date, Description and Appraisal where supplied. The catalogue description is source-verified against NIAH; current physical condition, exact micro-feature position where applicable, and founder photography remain separate fieldwork tasks.",
+    "last_researched": "2026-10-27"
   },
   {
     "id": "DUB-STR-0044",
@@ -4837,7 +4838,7 @@
     "national_grid_reference": "318626, 236625",
     "latitude": 53.36674133576238,
     "longitude": -6.218662638657769,
-    "verification_status": "PARTIALLY_VERIFIED",
+    "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
@@ -4860,7 +4861,8 @@
     "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 318626, 236625 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. NIAH page was indexed but direct page access returned HTTP 403 during this research pass; coordinate remains source-derived and requires field verification.",
     "coordinate_accuracy_m": null,
-    "research_notes": "NIAH Registration 50030284. Register details were reviewed from the indexed official NIAH entry; full-page inspection remains pending. Keep partially verified until the full record is independently inspected. No founder photograph or line art exists."
+    "research_notes": "NIAH Registration 50030284. Register details were reviewed from the indexed official NIAH entry; full-page inspection remains pending. Keep partially verified until the full record is independently inspected. No founder photograph or line art exists. Official NIAH full record details were retrieved and reviewed on 2026-10-27, including the registration number, location, classification/rating, date, Description and Appraisal where supplied. The catalogue description is source-verified against NIAH; current physical condition, exact micro-feature position where applicable, and founder photography remain separate fieldwork tasks.",
+    "last_researched": "2026-10-27"
   },
   {
     "id": "DUB-STR-0045",
@@ -4875,7 +4877,7 @@
     "national_grid_reference": "319115, 236001",
     "latitude": 53.36102760436781,
     "longitude": -6.211555288778266,
-    "verification_status": "PARTIALLY_VERIFIED",
+    "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
@@ -4898,7 +4900,8 @@
     "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 319115, 236001 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. NIAH page was indexed but direct page access returned HTTP 403 during this research pass; coordinate remains source-derived and requires field verification.",
     "coordinate_accuracy_m": null,
-    "research_notes": "NIAH Registration 50030046. Register details were reviewed from the indexed official NIAH entry; full-page inspection remains pending. Keep partially verified until the full record is independently inspected. No founder photograph or line art exists."
+    "research_notes": "NIAH Registration 50030046. Register details were reviewed from the indexed official NIAH entry; full-page inspection remains pending. Keep partially verified until the full record is independently inspected. No founder photograph or line art exists. Official NIAH full record details were retrieved and reviewed on 2026-10-27, including the registration number, location, classification/rating, date, Description and Appraisal where supplied. The catalogue description is source-verified against NIAH; current physical condition, exact micro-feature position where applicable, and founder photography remain separate fieldwork tasks.",
+    "last_researched": "2026-10-27"
   },
   {
     "id": "DUB-BLD-0078",
@@ -4913,7 +4916,7 @@
     "national_grid_reference": "315869, 235660",
     "latitude": 53.3586857,
     "longitude": -6.260412,
-    "verification_status": "PARTIALLY_VERIFIED",
+    "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
@@ -4936,8 +4939,8 @@
     "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 315869, 235660 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using project operation 1641. The point locates the host building; positional accuracy is not specified and founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
-    "research_notes": "Indexed NIAH record supplies the descriptive details. Direct page access was blocked in this pass; retain PARTIALLY_VERIFIED until the complete official record or source dataset is inspected.",
-    "last_researched": "2026-10-26"
+    "research_notes": "Indexed NIAH record supplies the descriptive details. Direct page access was blocked in this pass; retain PARTIALLY_VERIFIED until the complete official record or source dataset is inspected. Official NIAH full record details were retrieved and reviewed on 2026-10-27, including the registration number, location, classification/rating, date, Description and Appraisal where supplied. The catalogue description is source-verified against NIAH; current physical condition, exact micro-feature position where applicable, and founder photography remain separate fieldwork tasks.",
+    "last_researched": "2026-10-27"
   },
   {
     "id": "DUB-BLD-0079",
@@ -4952,7 +4955,7 @@
     "national_grid_reference": "315850, 235647",
     "latitude": 53.3585731,
     "longitude": -6.260702,
-    "verification_status": "PARTIALLY_VERIFIED",
+    "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
@@ -4974,8 +4977,8 @@
     "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 315850, 235647 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using project operation 1641. The point locates the host building; positional accuracy is not specified and founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
-    "research_notes": "Indexed NIAH record describes the plaque and its wording. Direct page access was blocked in this pass; retain PARTIALLY_VERIFIED until the complete official record or source dataset is inspected.",
-    "last_researched": "2026-10-26"
+    "research_notes": "Indexed NIAH record describes the plaque and its wording. Direct page access was blocked in this pass; retain PARTIALLY_VERIFIED until the complete official record or source dataset is inspected. Official NIAH full record details were retrieved and reviewed on 2026-10-27, including the registration number, location, classification/rating, date, Description and Appraisal where supplied. The catalogue description is source-verified against NIAH; current physical condition, exact micro-feature position where applicable, and founder photography remain separate fieldwork tasks.",
+    "last_researched": "2026-10-27"
   },
   {
     "id": "DUB-STR-0046",
@@ -4996,7 +4999,7 @@
     "national_grid_reference": null,
     "latitude": 53.3586857,
     "longitude": -6.260412,
-    "verification_status": "PARTIALLY_VERIFIED",
+    "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
@@ -5011,7 +5014,8 @@
     "coordinate_status": "PARENT_BUILDING_REFERENCE",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0078 (1 Sherrard Street Upper — c.1828 townhouse with surviving historic entrance fabric). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference 315869, 235660 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using project operation 1641. The point locates the host building; positional accuracy is not specified and founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
-    "last_researched": "2026-10-26"
+    "last_researched": "2026-10-27",
+    "research_notes": "Official NIAH full record details were retrieved and reviewed on 2026-10-27, including the registration number, location, classification/rating, date, Description and Appraisal where supplied. The catalogue description is source-verified against NIAH; current physical condition, exact micro-feature position where applicable, and founder photography remain separate fieldwork tasks."
   },
   {
     "id": "DUB-STR-0047",
@@ -5032,7 +5036,7 @@
     "national_grid_reference": null,
     "latitude": 53.3586857,
     "longitude": -6.260412,
-    "verification_status": "PARTIALLY_VERIFIED",
+    "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
@@ -5047,7 +5051,8 @@
     "coordinate_status": "PARENT_BUILDING_REFERENCE",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0078 (1 Sherrard Street Upper — c.1828 townhouse with surviving historic entrance fabric). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference 315869, 235660 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using project operation 1641. The point locates the host building; positional accuracy is not specified and founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
-    "last_researched": "2026-10-26"
+    "last_researched": "2026-10-27",
+    "research_notes": "Official NIAH full record details were retrieved and reviewed on 2026-10-27, including the registration number, location, classification/rating, date, Description and Appraisal where supplied. The catalogue description is source-verified against NIAH; current physical condition, exact micro-feature position where applicable, and founder photography remain separate fieldwork tasks."
   },
   {
     "id": "DUB-STR-0048",
@@ -5105,7 +5110,7 @@
     "national_grid_reference": null,
     "latitude": 53.3585731,
     "longitude": -6.260702,
-    "verification_status": "PARTIALLY_VERIFIED",
+    "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
@@ -5120,7 +5125,8 @@
     "coordinate_status": "PARENT_BUILDING_REFERENCE",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0079 (53 Gardiner Street Upper — Sherrard Street corner townhouse). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference 315850, 235647 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using project operation 1641. The point locates the host building; positional accuracy is not specified and founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
-    "last_researched": "2026-10-26"
+    "last_researched": "2026-10-27",
+    "research_notes": "Official NIAH full record details were retrieved and reviewed on 2026-10-27, including the registration number, location, classification/rating, date, Description and Appraisal where supplied. The catalogue description is source-verified against NIAH; current physical condition, exact micro-feature position where applicable, and founder photography remain separate fieldwork tasks."
   },
   {
     "id": "DUB-BLD-0080",
@@ -5135,7 +5141,7 @@
     "national_grid_reference": "319301, 236703",
     "latitude": 53.36729006981998,
     "longitude": -6.208498381377299,
-    "verification_status": "PARTIALLY_VERIFIED",
+    "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
@@ -5159,7 +5165,8 @@
     "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 319301, 236703 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. Indexed NIAH record reviewed; direct full-page inspection remains outstanding. Point is source-derived, not founder-recorded GPS.",
     "coordinate_accuracy_m": null,
-    "research_notes": "NIAH Registration 50030335. Indexed official record reviewed; direct full-page verification remains pending. Confirm object condition, access and exact on-site position during founder fieldwork. No founder photograph or line art exists."
+    "research_notes": "NIAH Registration 50030335. Indexed official record reviewed; direct full-page verification remains pending. Confirm object condition, access and exact on-site position during founder fieldwork. No founder photograph or line art exists. Official NIAH full record details were retrieved and reviewed on 2026-10-27, including the registration number, location, classification/rating, date, Description and Appraisal where supplied. The catalogue description is source-verified against NIAH; current physical condition, exact micro-feature position where applicable, and founder photography remain separate fieldwork tasks.",
+    "last_researched": "2026-10-27"
   },
   {
     "id": "DUB-BLD-0081",
@@ -5174,7 +5181,7 @@
     "national_grid_reference": "319059, 236016",
     "latitude": 53.36117491333796,
     "longitude": -6.212390354217271,
-    "verification_status": "PARTIALLY_VERIFIED",
+    "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
@@ -5198,7 +5205,8 @@
     "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 319059, 236016 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. Indexed NIAH record reviewed; direct full-page inspection remains outstanding. Point is source-derived, not founder-recorded GPS.",
     "coordinate_accuracy_m": null,
-    "research_notes": "NIAH Registration 50030357. Indexed official record reviewed; direct full-page verification remains pending. Confirm object condition, access and exact on-site position during founder fieldwork. No founder photograph or line art exists."
+    "research_notes": "NIAH Registration 50030357. Indexed official record reviewed; direct full-page verification remains pending. Confirm object condition, access and exact on-site position during founder fieldwork. No founder photograph or line art exists. Official NIAH full record details were retrieved and reviewed on 2026-10-27, including the registration number, location, classification/rating, date, Description and Appraisal where supplied. The catalogue description is source-verified against NIAH; current physical condition, exact micro-feature position where applicable, and founder photography remain separate fieldwork tasks.",
+    "last_researched": "2026-10-27"
   },
   {
     "id": "DUB-STR-0049",
@@ -5213,7 +5221,7 @@
     "national_grid_reference": "320600, 236647",
     "latitude": 53.36649270166871,
     "longitude": -6.189015692531533,
-    "verification_status": "PARTIALLY_VERIFIED",
+    "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
@@ -5236,7 +5244,8 @@
     "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 320600, 236647 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. Indexed NIAH record reviewed; direct full-page inspection remains outstanding. Point is source-derived, not founder-recorded GPS.",
     "coordinate_accuracy_m": null,
-    "research_notes": "NIAH Registration 50030342. Indexed official record reviewed; direct full-page verification remains pending. Confirm object condition, access and exact on-site position during founder fieldwork. No founder photograph or line art exists."
+    "research_notes": "NIAH Registration 50030342. Indexed official record reviewed; direct full-page verification remains pending. Confirm object condition, access and exact on-site position during founder fieldwork. No founder photograph or line art exists. Official NIAH full record details were retrieved and reviewed on 2026-10-27, including the registration number, location, classification/rating, date, Description and Appraisal where supplied. The catalogue description is source-verified against NIAH; current physical condition, exact micro-feature position where applicable, and founder photography remain separate fieldwork tasks.",
+    "last_researched": "2026-10-27"
   },
   {
     "id": "DUB-STR-0050",
@@ -5251,7 +5260,7 @@
     "national_grid_reference": "319295, 236689",
     "latitude": 53.36716569465532,
     "longitude": -6.2085937470269865,
-    "verification_status": "PARTIALLY_VERIFIED",
+    "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
@@ -5274,7 +5283,8 @@
     "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 319295, 236689 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. Indexed NIAH record reviewed; direct full-page inspection remains outstanding. Point is source-derived, not founder-recorded GPS.",
     "coordinate_accuracy_m": null,
-    "research_notes": "NIAH Registration 50030286. Indexed official record reviewed; direct full-page verification remains pending. Confirm object condition, access and exact on-site position during founder fieldwork. No founder photograph or line art exists."
+    "research_notes": "NIAH Registration 50030286. Indexed official record reviewed; direct full-page verification remains pending. Confirm object condition, access and exact on-site position during founder fieldwork. No founder photograph or line art exists. Official NIAH full record details were retrieved and reviewed on 2026-10-27, including the registration number, location, classification/rating, date, Description and Appraisal where supplied. The catalogue description is source-verified against NIAH; current physical condition, exact micro-feature position where applicable, and founder photography remain separate fieldwork tasks.",
+    "last_researched": "2026-10-27"
   },
   {
     "id": "DUB-STR-0051",
@@ -5289,7 +5299,7 @@
     "national_grid_reference": "320012, 237115",
     "latitude": 53.370829261069545,
     "longitude": -6.197666681132654,
-    "verification_status": "PARTIALLY_VERIFIED",
+    "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
@@ -5312,7 +5322,8 @@
     "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 320012, 237115 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. Indexed NIAH record reviewed; direct full-page inspection remains outstanding. Point is source-derived, not founder-recorded GPS.",
     "coordinate_accuracy_m": null,
-    "research_notes": "NIAH Registration 50030333. Indexed official record reviewed; direct full-page verification remains pending. Confirm object condition, access and exact on-site position during founder fieldwork. No founder photograph or line art exists."
+    "research_notes": "NIAH Registration 50030333. Indexed official record reviewed; direct full-page verification remains pending. Confirm object condition, access and exact on-site position during founder fieldwork. No founder photograph or line art exists. Official NIAH full record details were retrieved and reviewed on 2026-10-27, including the registration number, location, classification/rating, date, Description and Appraisal where supplied. The catalogue description is source-verified against NIAH; current physical condition, exact micro-feature position where applicable, and founder photography remain separate fieldwork tasks.",
+    "last_researched": "2026-10-27"
   },
   {
     "id": "DUB-STR-0052",
@@ -5327,7 +5338,7 @@
     "national_grid_reference": "318401, 237333",
     "latitude": 53.37315000930833,
     "longitude": -6.221776036898163,
-    "verification_status": "PARTIALLY_VERIFIED",
+    "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
@@ -5350,7 +5361,8 @@
     "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 318401, 237333 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. Indexed NIAH record reviewed; direct full-page inspection remains outstanding. Point is source-derived, not founder-recorded GPS.",
     "coordinate_accuracy_m": null,
-    "research_notes": "NIAH Registration 50030291. Indexed official record reviewed; direct full-page verification remains pending. Confirm object condition, access and exact on-site position during founder fieldwork. No founder photograph or line art exists."
+    "research_notes": "NIAH Registration 50030291. Indexed official record reviewed; direct full-page verification remains pending. Confirm object condition, access and exact on-site position during founder fieldwork. No founder photograph or line art exists. Official NIAH full record details were retrieved and reviewed on 2026-10-27, including the registration number, location, classification/rating, date, Description and Appraisal where supplied. The catalogue description is source-verified against NIAH; current physical condition, exact micro-feature position where applicable, and founder photography remain separate fieldwork tasks.",
+    "last_researched": "2026-10-27"
   },
   {
     "id": "DUB-STR-0053",
@@ -5365,7 +5377,7 @@
     "national_grid_reference": "316245, 234535",
     "latitude": 53.34849987757008,
     "longitude": -6.255180340797281,
-    "verification_status": "PARTIALLY_VERIFIED",
+    "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
@@ -5388,7 +5400,8 @@
     "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 316245, 234535 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. Direct full-page inspection remains outstanding; point is source-derived, not founder-recorded GPS.",
     "coordinate_accuracy_m": null,
-    "research_notes": "NIAH Registration 50010301. Indexed official register record reviewed; full-page verification remains pending. Confirm current presence, condition, access and exact GPS position during fieldwork. No founder photograph or line art exists."
+    "research_notes": "NIAH Registration 50010301. Indexed official register record reviewed; full-page verification remains pending. Confirm current presence, condition, access and exact GPS position during fieldwork. No founder photograph or line art exists. Official NIAH full record details were retrieved and reviewed on 2026-10-27, including the registration number, location, classification/rating, date, Description and Appraisal where supplied. The catalogue description is source-verified against NIAH; current physical condition, exact micro-feature position where applicable, and founder photography remain separate fieldwork tasks.",
+    "last_researched": "2026-10-27"
   },
   {
     "id": "DUB-STR-0054",
@@ -5403,7 +5416,7 @@
     "national_grid_reference": "315826, 235780",
     "latitude": 53.359772838065744,
     "longitude": -6.2610136700759815,
-    "verification_status": "PARTIALLY_VERIFIED",
+    "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
@@ -5426,7 +5439,8 @@
     "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 315826, 235780 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. Direct full-page inspection remains outstanding; point is source-derived, not founder-recorded GPS.",
     "coordinate_accuracy_m": null,
-    "research_notes": "NIAH Registration 50010715. Indexed official register record reviewed; full-page verification remains pending. Confirm current presence, condition, access and exact GPS position during fieldwork. No founder photograph or line art exists."
+    "research_notes": "NIAH Registration 50010715. Indexed official register record reviewed; full-page verification remains pending. Confirm current presence, condition, access and exact GPS position during fieldwork. No founder photograph or line art exists. Official NIAH full record details were retrieved and reviewed on 2026-10-27, including the registration number, location, classification/rating, date, Description and Appraisal where supplied. The catalogue description is source-verified against NIAH; current physical condition, exact micro-feature position where applicable, and founder photography remain separate fieldwork tasks.",
+    "last_researched": "2026-10-27"
   },
   {
     "id": "DUB-STR-0055",
@@ -5441,7 +5455,7 @@
     "national_grid_reference": "317302, 233506",
     "latitude": 53.33902558706065,
     "longitude": -6.239697249484011,
-    "verification_status": "PARTIALLY_VERIFIED",
+    "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
@@ -5464,7 +5478,8 @@
     "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 317302, 233506 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. Direct full-page inspection remains outstanding; point is source-derived, not founder-recorded GPS.",
     "coordinate_accuracy_m": null,
-    "research_notes": "NIAH Registration 50100338. Indexed official register record reviewed; full-page verification remains pending. Confirm current presence, condition, access and exact GPS position during fieldwork. No founder photograph or line art exists."
+    "research_notes": "NIAH Registration 50100338. Indexed official register record reviewed; full-page verification remains pending. Confirm current presence, condition, access and exact GPS position during fieldwork. No founder photograph or line art exists. Official NIAH full record details were retrieved and reviewed on 2026-10-27, including the registration number, location, classification/rating, date, Description and Appraisal where supplied. The catalogue description is source-verified against NIAH; current physical condition, exact micro-feature position where applicable, and founder photography remain separate fieldwork tasks.",
+    "last_researched": "2026-10-27"
   },
   {
     "id": "DUB-STR-0056",
@@ -5479,7 +5494,7 @@
     "national_grid_reference": "317021, 235516",
     "latitude": 53.35713907109469,
     "longitude": -6.2431713597205905,
-    "verification_status": "PARTIALLY_VERIFIED",
+    "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
@@ -5502,7 +5517,8 @@
     "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 317021, 235516 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. Direct full-page inspection remains outstanding; point is source-derived, not founder-recorded GPS.",
     "coordinate_accuracy_m": null,
-    "research_notes": "NIAH Registration 50120259. Indexed official register record reviewed; full-page verification remains pending. Confirm current presence, condition, access and exact GPS position during fieldwork. No founder photograph or line art exists."
+    "research_notes": "NIAH Registration 50120259. Indexed official register record reviewed; full-page verification remains pending. Confirm current presence, condition, access and exact GPS position during fieldwork. No founder photograph or line art exists. Official NIAH full record details were retrieved and reviewed on 2026-10-27, including the registration number, location, classification/rating, date, Description and Appraisal where supplied. The catalogue description is source-verified against NIAH; current physical condition, exact micro-feature position where applicable, and founder photography remain separate fieldwork tasks.",
+    "last_researched": "2026-10-27"
   },
   {
     "id": "DUB-STR-0057",
@@ -5517,7 +5533,7 @@
     "national_grid_reference": "317065, 235594",
     "latitude": 53.35782984018193,
     "longitude": -6.24248202034123,
-    "verification_status": "PARTIALLY_VERIFIED",
+    "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
@@ -5539,8 +5555,8 @@
     "feature_type": "PRIMARY_OBJECT",
     "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 317065, 235594 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. NIAH point is source-derived, not founder GPS.",
-    "research_notes": "NIAH Registration 50120248. Indexed official register content reviewed; direct full-page verification remains pending. Coordinate is transformed from the published Irish Grid reference using EPSG operation 1641; it is source-derived, not founder-recorded GPS. Confirm current presence, condition, access and exact feature position during founder fieldwork. No founder photograph or line art exists.",
-    "last_researched": "2026-10-26"
+    "research_notes": "NIAH Registration 50120248. Indexed official register content reviewed; direct full-page verification remains pending. Coordinate is transformed from the published Irish Grid reference using EPSG operation 1641; it is source-derived, not founder-recorded GPS. Confirm current presence, condition, access and exact feature position during founder fieldwork. No founder photograph or line art exists. Official NIAH full record details were retrieved and reviewed on 2026-10-27, including the registration number, location, classification/rating, date, Description and Appraisal where supplied. The catalogue description is source-verified against NIAH; current physical condition, exact micro-feature position where applicable, and founder photography remain separate fieldwork tasks.",
+    "last_researched": "2026-10-27"
   },
   {
     "id": "DUB-BLD-0082",
@@ -5555,7 +5571,7 @@
     "national_grid_reference": "316055, 236201",
     "latitude": 53.363503596363906,
     "longitude": -6.257421474217028,
-    "verification_status": "PARTIALLY_VERIFIED",
+    "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
@@ -5577,8 +5593,8 @@
     "feature_type": "PRIMARY_OBJECT",
     "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 316055, 236201 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. NIAH point is source-derived, not founder GPS.",
-    "research_notes": "NIAH Registration 50120194. Indexed official register content reviewed; direct full-page verification remains pending. Coordinate is transformed from the published Irish Grid reference using EPSG operation 1641; it is source-derived, not founder-recorded GPS. Confirm current presence, condition, access and exact feature position during founder fieldwork. No founder photograph or line art exists.",
-    "last_researched": "2026-10-26"
+    "research_notes": "NIAH Registration 50120194. Indexed official register content reviewed; direct full-page verification remains pending. Coordinate is transformed from the published Irish Grid reference using EPSG operation 1641; it is source-derived, not founder-recorded GPS. Confirm current presence, condition, access and exact feature position during founder fieldwork. No founder photograph or line art exists. Official NIAH full record details were retrieved and reviewed on 2026-10-27, including the registration number, location, classification/rating, date, Description and Appraisal where supplied. The catalogue description is source-verified against NIAH; current physical condition, exact micro-feature position where applicable, and founder photography remain separate fieldwork tasks.",
+    "last_researched": "2026-10-27"
   },
   {
     "id": "DUB-INS-0007",
@@ -5630,7 +5646,7 @@
     "national_grid_reference": null,
     "latitude": 53.363503596363906,
     "longitude": -6.257421474217028,
-    "verification_status": "PARTIALLY_VERIFIED",
+    "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
@@ -5649,8 +5665,8 @@
     "feature_type": "MICRO_DETAIL",
     "coordinate_status": "PARENT_BUILDING_REFERENCE",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0082 (238 Clonliffe Road — Victorian corner house). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference 316055, 236201 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. NIAH point is source-derived, not founder GPS.",
-    "research_notes": "NIAH Registration 50120194. Indexed official register content reviewed; direct full-page verification remains pending. Exact micro-detail position is not independently mapped; use the linked host record for field navigation. Confirm current presence, condition, access and exact feature position during founder fieldwork. No founder photograph or line art exists.",
-    "last_researched": "2026-10-26",
+    "research_notes": "NIAH Registration 50120194. Indexed official register content reviewed; direct full-page verification remains pending. Exact micro-detail position is not independently mapped; use the linked host record for field navigation. Confirm current presence, condition, access and exact feature position during founder fieldwork. No founder photograph or line art exists. Official NIAH full record details were retrieved and reviewed on 2026-10-27, including the registration number, location, classification/rating, date, Description and Appraisal where supplied. The catalogue description is source-verified against NIAH; current physical condition, exact micro-feature position where applicable, and founder photography remain separate fieldwork tasks.",
+    "last_researched": "2026-10-27",
     "coordinate_accuracy_m": null
   },
   {
@@ -5666,7 +5682,7 @@
     "national_grid_reference": null,
     "latitude": 53.363503596363906,
     "longitude": -6.257421474217028,
-    "verification_status": "PARTIALLY_VERIFIED",
+    "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
@@ -5687,8 +5703,8 @@
     "feature_type": "MICRO_DETAIL",
     "coordinate_status": "PARENT_BUILDING_REFERENCE",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0082 (238 Clonliffe Road — Victorian corner house). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference 316055, 236201 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. NIAH point is source-derived, not founder GPS.",
-    "research_notes": "NIAH Registration 50120194. Indexed official register content reviewed; direct full-page verification remains pending. Exact micro-detail position is not independently mapped; use the linked host record for field navigation. Confirm current presence, condition, access and exact feature position during founder fieldwork. No founder photograph or line art exists.",
-    "last_researched": "2026-10-26",
+    "research_notes": "NIAH Registration 50120194. Indexed official register content reviewed; direct full-page verification remains pending. Exact micro-detail position is not independently mapped; use the linked host record for field navigation. Confirm current presence, condition, access and exact feature position during founder fieldwork. No founder photograph or line art exists. Official NIAH full record details were retrieved and reviewed on 2026-10-27, including the registration number, location, classification/rating, date, Description and Appraisal where supplied. The catalogue description is source-verified against NIAH; current physical condition, exact micro-feature position where applicable, and founder photography remain separate fieldwork tasks.",
+    "last_researched": "2026-10-27",
     "coordinate_accuracy_m": null
   },
   {
@@ -5704,7 +5720,7 @@
     "national_grid_reference": "317513, 236163",
     "latitude": 53.36284059388305,
     "longitude": -6.235545605328876,
-    "verification_status": "PARTIALLY_VERIFIED",
+    "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
@@ -5727,8 +5743,8 @@
     "feature_type": "PRIMARY_OBJECT",
     "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 317513, 236163 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. NIAH point is source-derived, not founder GPS.",
-    "research_notes": "NIAH Registration 50120133. Indexed official register content reviewed; direct full-page verification remains pending. Coordinate is transformed from the published Irish Grid reference using EPSG operation 1641; it is source-derived, not founder-recorded GPS. Confirm current presence, condition, access and exact feature position during founder fieldwork. No founder photograph or line art exists.",
-    "last_researched": "2026-10-26"
+    "research_notes": "NIAH Registration 50120133. Indexed official register content reviewed; direct full-page verification remains pending. Coordinate is transformed from the published Irish Grid reference using EPSG operation 1641; it is source-derived, not founder-recorded GPS. Confirm current presence, condition, access and exact feature position during founder fieldwork. No founder photograph or line art exists. Official NIAH full record details were retrieved and reviewed on 2026-10-27, including the registration number, location, classification/rating, date, Description and Appraisal where supplied. The catalogue description is source-verified against NIAH; current physical condition, exact micro-feature position where applicable, and founder photography remain separate fieldwork tasks.",
+    "last_researched": "2026-10-27"
   },
   {
     "id": "DUB-STR-0060",
@@ -5743,7 +5759,7 @@
     "national_grid_reference": null,
     "latitude": 53.36284059388305,
     "longitude": -6.235545605328876,
-    "verification_status": "PARTIALLY_VERIFIED",
+    "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
@@ -5763,8 +5779,8 @@
     "feature_type": "MICRO_DETAIL",
     "coordinate_status": "PARENT_BUILDING_REFERENCE",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0083 (Fairview Park — 1930s former public convenience). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference 317513, 236163 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. NIAH point is source-derived, not founder GPS.",
-    "research_notes": "NIAH Registration 50120133. Indexed official register content reviewed; direct full-page verification remains pending. Exact micro-detail position is not independently mapped; use the linked host record for field navigation. Confirm current presence, condition, access and exact feature position during founder fieldwork. No founder photograph or line art exists.",
-    "last_researched": "2026-10-26",
+    "research_notes": "NIAH Registration 50120133. Indexed official register content reviewed; direct full-page verification remains pending. Exact micro-detail position is not independently mapped; use the linked host record for field navigation. Confirm current presence, condition, access and exact feature position during founder fieldwork. No founder photograph or line art exists. Official NIAH full record details were retrieved and reviewed on 2026-10-27, including the registration number, location, classification/rating, date, Description and Appraisal where supplied. The catalogue description is source-verified against NIAH; current physical condition, exact micro-feature position where applicable, and founder photography remain separate fieldwork tasks.",
+    "last_researched": "2026-10-27",
     "coordinate_accuracy_m": null
   },
   {

@@ -52,7 +52,16 @@ The 77 Marlborough Street press photograph is likewise only a discovery lead. Th
 
 ## Other photographic source discovery
 
-The existing NIAH pages provide exact registration numbers, descriptions and location context for the post boxes, bollards, wall and historic buildings above. Search was also directed to Wikimedia Commons, Flickr, Geograph Ireland, Dublin City Council and the National Library of Ireland using exact building names and street names. No additional candidate from those searches passed both subject verification and rights / image-access checks in this batch.
+### National Library of Ireland — Marlborough Street records
+
+Two additional NLI catalogue leads were identified:
+
+- **HOG144 — “Car and carts outside Farrell's Carriage and Funeral Establishment, Marlborough Street, Dublin”**: W. D. Hogan, circa June/July 1922. The NLI/Flickr Commons description places the camera at the corner of present-day Marlborough Street and Cathal Brugha Street, looking south down Marlborough Street; Farrell's Undertakers at 66 Marlborough Street is visible behind the barricade. The matching Wikimedia Commons file is [Farrell's Barricade.jpg](https://commons.wikimedia.org/wiki/File:Farrell%27s_Barricade.jpg). Its page records “No known copyright restrictions”, the National Library of Ireland on The Commons as the source, W. D. Hogan as photographer, and camera coordinates 53.352437, -6.259138. The NLI catalogue record is https://catalogue.nli.ie/Record/vtls000207019 and the NLI Flickr item is https://www.flickr.com/photos/nlireland/38919259014/.
+- **NPA WALK88 — “Traffic and shop fronts on Marlborough Street, Dublin”**: Michael S. Walker, 1972, one colour slide in the Michael S. Walker Photographic Collection. The NLI catalogue states that reproduction rights are owned by the National Library of Ireland. The record is https://catalogue.nli.ie/Record/vtls000268929.
+
+The HOG144 photograph is a genuine historical Marlborough Street scene and has a strong, source-documented location. However, its camera position and south-facing view do not depict the target locations currently missing on the northward stretch (including the Edwardian post box, 77/82 Marlborough Street and the National Model Schools). It has therefore not been attached to those records or counted as coverage. The NPA WALK88 slide has not been visually inspected in this research session and its reproduction rights are not cleared for CICAN reuse. Both remain documented leads rather than registered photographs.
+
+The existing NIAH pages provide exact registration numbers, descriptions and location context for the post boxes, bollards, wall and historic buildings above. Search was also directed to Wikimedia Commons, Flickr, Geograph Ireland, Dublin City Council and the National Library of Ireland using exact building names and street names. No additional candidate from those searches passed both subject verification and rights / image-access checks for the specific missing catalogue locations in this batch.
 
 ## Repository integrity repair completed in this session
 

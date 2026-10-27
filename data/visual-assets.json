@@ -4908,7 +4908,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-DUB3-HOWTH-ROAD-POSTBOX-2022-01",
+          "title": "Howth Road — Victorian wall-mounted postbox (1890)",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Dublin_-_Howth_Road_post_box_%281890%29_-_20220911153959.jpeg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Dublin_-_Howth_Road_post_box_(1890)_-_20220911153959.jpeg",
+          "photographer": "Dwmalone",
+          "date_taken": "2022-09-11",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Dwmalone, “Dublin - Howth Road post box (1890)”, 11 September 2022, via Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "The Commons caption and structured data identify the exact Howth Road postbox (1890), linked to NIAH registration 50030284. Camera coordinates are 53.366792, -6.218658, within approximately 6 metres of the archive's source-derived point. Third-party reference image; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-STR-0045",

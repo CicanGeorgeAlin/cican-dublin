@@ -953,6 +953,20 @@
           "attribution": "MOs810, “2023 Talbot Street in Dublin (1)”, 22 April 2023, via Wikimedia Commons (CC BY 4.0).",
           "image_role": "STREET_CONTEXT",
           "location_note": "A street-level photograph of Talbot Street showing the street and railway bridge area. It is a location reference only, not a verified photograph of the individual building or street fitting. Third-party photograph, not a founder original."
+        },
+        {
+          "source_id": "WMC-DUB-INF-0001-TALBOT-PLACE-BRIDGE-2010",
+          "title": "Steel railway bridge at the corner of Talbot Place and Talbot Street",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Steel_railway_bridge_at_the_corner_of_Talbot_Place_and_Talbot_Street_-_geograph.org.uk_-_1972208.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Steel_railway_bridge_at_the_corner_of_Talbot_Place_and_Talbot_Street_-_geograph.org.uk_-_1972208.jpg",
+          "photographer": "Eric Jones",
+          "date_taken": "2010-07-02",
+          "source_collection": "Geograph Britain and Ireland via Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "attribution": "Eric Jones, “Steel railway bridge at the corner of Talbot Place and Talbot Street”, 2 July 2010, Geograph Britain and Ireland (CC BY-SA 2.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "The actual railway bridge at the Talbot Place/Talbot Street junction, visually inspected. Geograph subject coordinates 53.351359, -6.251083; approx. 28 m from the catalogue's NIAH-derived coordinate. It shows the railway bridge spanning the junction and is distinct from the Loop Line's separate Liffey span. Third-party photograph; not a founder original."
         }
       ]
     },

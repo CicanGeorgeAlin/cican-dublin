@@ -2359,5 +2359,25 @@
     "source_type": "IMAGE_REFERENCE",
     "specific_reference": "Wikimedia Commons file page identifies the subject as the Vernon Avenue pillar postbox (Wikidata Q110821196), photographer Tdr112, date 2022-09-07, object coordinates 53.364587, -6.195402, and CC BY-SA 4.0 licence. Structured data links the depicted postbox to NIAH registration 50030098.",
     "notes": "Attribution: Tdr112, “Dublin - Vernon Avenue pillar postbox - 20220907183257”, 7 September 2022, via Wikimedia Commons (CC BY-SA 4.0). Exact-object third-party reference image; not a founder original."
+  },
+  {
+    "id": "SRC-FAMINE-MEMORIAL-INSCRIPTIONS-2014",
+    "name": "Dublin Famine Memorial — inscription transcription",
+    "publisher": "Irish Famine Memorials — Dr Emily Mark-FitzGerald (University College Dublin)",
+    "url": "https://irishfaminememorials.com/2014/01/16/dublin-co-dublin-1997/",
+    "accessed": "2026-10-27",
+    "source_type": "ACADEMIC",
+    "specific_reference": "Dublin, Co. Dublin (1997), Famine, Custom House Quay. Includes transcriptions of the dedication/artist plaques, the Rowan Gillespie quotation plaque and sponsor plaque text; also notes names on sponsor plaques beneath the memorial.",
+    "notes": "Secondary academic transcription reference associated with Dr Emily Mark-FitzGerald (UCD). Useful for checking fixed memorial plaque texts, but does not provide a complete transcription of every individual name plaque embedded in the paving."
+  },
+  {
+    "id": "SRC-JIM-LARKIN-INSCRIPTIONS-HMDB-2024",
+    "name": "Jim Larkin Monument — pedestal inscription transcription and photographs",
+    "publisher": "Historical Marker Database (HMDB) — William Fischer Jr.",
+    "url": "https://www.hmdb.org/m.asp?m=241088",
+    "accessed": "2026-10-27",
+    "source_type": "SECONDARY_TRANSCRIPTION_COMPILATION",
+    "specific_reference": "Jim Larkin historical marker entry; photographed 6 February 2024. Provides text for the pedestal's Patrick Kavanagh and Seán O'Casey quotations and the Jim Larkin quotation.",
+    "notes": "Secondary transcription source. The page spells the poet's name “Patrick Kavanaugh” in one transcription, while NIAH identifies Patrick Kavanagh; treat the spelling discrepancy as a transcription error to be checked against a founder close-up. Do not treat this as a verified literal transcription until the physical plaque is photographed."
   }
 ]

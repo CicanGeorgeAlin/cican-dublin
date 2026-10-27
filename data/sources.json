@@ -2429,5 +2429,15 @@
     "source_type": "IMAGE_REFERENCE",
     "specific_reference": "Eric Jones photograph, Geograph image 1972208, taken 2 July 2010. Depicted-place coordinates 53.351359, -6.251083; camera faces northwest. Original Geograph page: https://www.geograph.org.uk/photo/1972208.",
     "notes": "Commons file page identifies Eric Jones as photographer, date 2 July 2010 and CC BY-SA 2.0; attribution string provided. Original Geograph page confirms subject title, subject coordinates 53.35136, -6.25108, date, photographer and licensing. Rendered image visually shows the railway bridge over the Talbot Street/Talbot Place junction. This is the actual Loop Line crossing, not the separate Liffey span. Subject coordinate is approximately 28 m from catalogue coordinate (53.351231, -6.2514493), and the image subject title/location plus NIAH 50010134's description independently identify the crossing. The visible bridge structure is verified; the particular NIAH-listed piers/parapet details are not all legible at this framing. Third-party photograph, not a founder original."
+  },
+  {
+    "id": "WMC-DUB-STR-0006-CUSTOM-HOUSE-BOUNDARY-WALL-2019",
+    "name": "Boundary wall of Custom House Harbour — Commons Street photograph",
+    "publisher": "Wikimedia Commons / Metro Centric",
+    "url": "https://commons.wikimedia.org/wiki/File:Boundary_wall_of_Custom_House_Harbour.jpg",
+    "accessed": "2026-10-27",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Metro Centric photograph taken 11 June 2019 at 10:07; original Flickr photo 48139601611. Commons file page describes the boundary wall of the Custom House Harbour apartment development at the former excise stores, photographed from Commons Street, Dublin.",
+    "notes": "The individual Commons file page identifies photographer Metro Centric, date 11 June 2019 and CC BY 2.0, reviewed from the originating Flickr licence. The Commons Street category contains this file as its only photograph. The image was visually opened and depicts a long historic masonry boundary wall with a rough limestone lower section, dressed stone upper courses, string course and street kerb, matching the NIAH description of DUB-STR-0006 / Registration 50060568. The file description places it at the former Custom House Harbour/Excise Stores on Commons Street. The image is accepted as an exact-object photograph of the recorded wall, though the full extent and exact camera coordinates are not supplied. Third-party image; not a founder original. Attribution: Metro Centric, “Boundary wall of Custom House Harbour”, 11 June 2019, via Wikimedia Commons (CC BY 2.0)."
   }
 ]

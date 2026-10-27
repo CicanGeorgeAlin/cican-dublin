@@ -76,3 +76,48 @@ Validation required after commit: JSON parse, matching catalogue/visual counts, 
 **Conclusion:** a useful Burgh Quay rights lead was identified, while three visually inspected Geograph images were rejected for location mismatch. No uncertain asset was added.
 
 **LEAVE NO LOCATION BEHIND.**
+
+
+---
+
+## Post-commit recheck and correction — 27 October 2026
+
+The follow-up re-fetch found that the live data files had changed after the original Batch 032 commit. The source registry now contains 248 records and the visual-assets file contains 75 reference-image entries. The additional source/reference is:
+
+- Source ID: `GEO-DUB-POSTBOX-7640607`
+- Target: `DUB-STR-0016`, Nassau Street P&T double-opening post box, NIAH 50100001
+- Photographer: Rossographer
+- Date taken: 30 October 2023
+- Geograph photo: https://www.geograph.ie/photo/7640607
+- Direct image: https://s0.geograph.org.uk/geophotos/07/64/06/7640607_4bd75654.jpg
+- Licence: CC BY-SA 2.0, permitting commercial reuse subject to attribution and ShareAlike.
+
+The original Geograph page was opened and its caption confirms a double-aperture Aire Puist agus Telegrafa pillar box on Nassau Street. The source page gives subject coordinates 53.34312, -6.25923, approximately 8 metres from the NIAH-derived project pin. The original JPEG was opened and visually inspected: it shows the green oval-plan P&T pillar box, twin letter apertures and Áth Cliath/Dublin lettering. This matches NIAH 50100001 and the catalogue's DUB-STR-0016 description. The source and image are therefore accepted as an independently verified exact-object reference, subject to preserving the photographer credit, licence link and ShareAlike terms.
+
+The target already had a separate Commons reference; this Geograph item is a second object-photo reference for the same catalogue object. It increases image-reference totals but does not increase the number of records with at least one object-photo reference.
+
+### Corrected live totals after re-fetch
+
+| Measure | Corrected live count |
+|---|---:|
+| Catalogue objects | 195 |
+| Visual records | 195 |
+| Registered sources | 248 |
+| Reference-image entries | 75 |
+| OBJECT_PHOTOGRAPH references | 46 |
+| STREET_CONTEXT references | 29 |
+| Records with at least one object-photo reference | 41 |
+| Independently verified exact-object records | 9 |
+| Context-only records | 26 |
+| Records with no image references | 128 |
+| Audit matrix data rows | 195 |
+| Broken source references | 0 |
+| Orphan visual records | 0 |
+
+The audit matrix row for DUB-STR-0016 now records two object-photo references and status “Independently verified exact-object photograph”.
+
+### Revalidation
+
+The live catalogue, visual-assets and source JSON files parse successfully. The visual record count matches the catalogue count. Every visual record maps to a catalogue object. All image source IDs resolve to the source registry. The audit matrix has 195 data rows. No broken source references or orphan visual records were found.
+
+**Correction note:** the original Batch 032 research pass added no references. The Nassau Street Geograph reference was present in the live repository by the time of this repeat check, after the original Batch 032 report had been committed. This addendum reconciles the report with the current live repository and avoids attributing that later data change to the original batch operation.

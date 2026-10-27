@@ -197,6 +197,20 @@
           "attribution": "Joseph Mischyshyn, “Famine Memorial, Custom House Quay — group of bronze figures”, 2013-09-21, via Wikimedia Commons (CC BY-SA).",
           "image_role": "OBJECT_PHOTOGRAPH",
           "location_note": "Photograph and object-location coordinates identify the Famine Memorial on Custom House Quay; Commons coordinates are within approximately 4 metres of the archive pin. Third-party reference image; not a founder original."
+        },
+        {
+          "source_id": "GEO-DUB-FAMINE-7292957-2022",
+          "title": "Custom House Quay, The Famine Memorial — complete six-figure group",
+          "image_url": "https://s0.geograph.org.uk/geophotos/07/29/29/7292957_325323d5.jpg",
+          "source_url": "https://www.geograph.ie/photo/7292957",
+          "photographer": "David Dixon",
+          "date_taken": "2022-09-01",
+          "source_collection": "Geograph Ireland",
+          "licence": "Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "attribution": "David Dixon, “Custom House Quay, The Famine Memorial”, 1 September 2022, Geograph Ireland photo 7292957 (CC BY-SA 2.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "The original page identifies the Famine Memorial by Rowan Gillespie on Custom House Quay. The subject geotag (53.34802, -6.25017) is approximately 2 m from the archive's NIAH-derived navigation point. The opened original JPEG visibly shows the six bronze figures and dog along the quay. Additional recent full-group view; third-party reference, not a founder original."
         }
       ]
     },
@@ -428,6 +442,20 @@
           "attribution": "Ahorsewithnoname2021, “George Salmon Statue Trinity College Dublin”, 26 November 2021, via Wikimedia Commons (CC BY-SA 4.0).",
           "image_role": "OBJECT_PHOTOGRAPH",
           "location_note": "The Commons file caption identifies the sculpture as George Salmon and names Irish sculptor John Hughes. The visible seated white-marble statue and its plinth inscription match NIAH record 50020521. Third-party reference photograph; not a founder original."
+        },
+        {
+          "source_id": "GEO-DUB-GEORGE-SALMON-6040098-2018",
+          "title": "Trinity College Dublin — George Salmon statue, seated marble figure and inscribed plinth",
+          "image_url": "https://s0.geograph.org.uk/geophotos/06/04/00/6040098_091f9391.jpg",
+          "source_url": "https://www.geograph.ie/photo/6040098",
+          "photographer": "N Chadwick",
+          "date_taken": "2018-08-03",
+          "source_collection": "Geograph Ireland",
+          "licence": "Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "attribution": "N Chadwick, “Trinity College Dublin - George Salmon statue”, 3 August 2018, Geograph Ireland photo 6040098 (CC BY-SA 2.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "The Geograph title identifies George Salmon; the opened original JPEG visibly shows the seated marble statue and plinth lettering GEORGE SALMON / PROVOST / 1883–1904. Subject geotag 53.34462, -6.25737 is approximately 45 m from the archive's source-derived pin and within the stated 100 m geotag precision, on the Trinity campus. Third-party reference; not a founder original."
         }
       ]
     },
@@ -474,6 +502,20 @@
           "attribution": "Steven Lek, “William Edward Hartpole Lecky statue Trinity College Dublin”, 28 July 2016, via Wikimedia Commons (CC BY-SA 4.0).",
           "image_role": "OBJECT_PHOTOGRAPH",
           "location_note": "Photograph depicts the Lecky statue at Trinity College Dublin. Third-party reference photograph; not a founder original."
+        },
+        {
+          "source_id": "GEO-DUB-LECKY-6046506-2018",
+          "title": "Trinity College Dublin — Lecky statue, seated bronze figure and inscribed plinth",
+          "image_url": "https://s0.geograph.org.uk/geophotos/06/04/65/6046506_c8dea736.jpg",
+          "source_url": "https://www.geograph.ie/photo/6046506",
+          "photographer": "N Chadwick",
+          "date_taken": "2018-08-03",
+          "source_collection": "Geograph Ireland",
+          "licence": "Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "attribution": "N Chadwick, “Trinity College Dublin - statue of Lecky”, 3 August 2018, Geograph Ireland photo 6046506 (CC BY-SA 2.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "The Geograph title identifies the Lecky statue; the opened original JPEG visibly shows the seated bronze figure and plinth lettering LECKY. Subject geotag 53.34417, -6.25738 is approximately 44 m from the archive's source-derived pin and within the stated 100 m geotag precision, in Trinity College Library Square. Third-party reference; not a founder original."
         }
       ]
     },

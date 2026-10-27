@@ -402,16 +402,16 @@
         {
           "source_id": "WMC-DUB2-GEORGE-SALMON-2022-01",
           "title": "George Salmon Statue, Trinity College Dublin — seated marble figure",
-          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/George_Salmon_statue%2C_Trinity_College%2C_Dublin.jpg/500px-George_Salmon_statue%2C_Trinity_College%2C_Dublin.jpg",
-          "source_url": "https://commons.wikimedia.org/wiki/File:George_Salmon_statue,_Trinity_College,_Dublin.jpg",
-          "photographer": "Yair Haklai",
-          "date_taken": "2022-08-08",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/George_Salmon_Statue_Trinity_College_Dublin.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:George_Salmon_Statue_Trinity_College_Dublin.jpg",
+          "photographer": "Ahorsewithnoname2021",
+          "date_taken": "2021-11-26",
           "source_collection": "Wikimedia Commons",
           "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
           "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "attribution": "Yair Haklai, “George Salmon Statue, Trinity College Dublin — seated marble figure”, 2022-08-08, via Wikimedia Commons (CC BY-SA).",
+          "attribution": "Ahorsewithnoname2021, “George Salmon Statue Trinity College Dublin”, 26 November 2021, via Wikimedia Commons (CC BY-SA 4.0).",
           "image_role": "OBJECT_PHOTOGRAPH",
-          "location_note": "File title and Commons category identify George Salmon; the file description field incorrectly names Lecky. The visible white-marble seated figure matches NIAH record 50020521, which describes Salmon's white-marble seated statue. This discrepancy is explicitly retained rather than silently ignored. Third-party reference image; not a founder original."
+          "location_note": "The Commons file caption identifies the sculpture as George Salmon and names Irish sculptor John Hughes. The visible seated white-marble statue and its plinth inscription match NIAH record 50020521. Third-party reference photograph; not a founder original."
         }
       ]
     },

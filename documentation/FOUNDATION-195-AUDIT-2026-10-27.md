@@ -143,3 +143,23 @@ A new official NIAH bulk-data route has been identified for the 28 records still
 Both official routes have been registered in the source registry as SRC-NIAH-DATA-DOWNLOAD-2026 and SRC-NIAH-ARCGIS-LIVE. Direct access to the download page and service endpoint was blocked in this session, so the dataset has not yet been retrieved and no partial record has been upgraded. The next evidence pass should obtain the Dublin CSV or query the feature service by the 28 NIAH registration numbers, compare the full Description and Appraisal fields and coordinate systems, and then upgrade only records that match exactly. This is a concrete route to resolving the full-page HTTP 403 limitation without relying on search snippets.
 
 The source registry now contains 236 entries, with no missing source_type or specific_reference values. The foundation remains NOT COMPLETE.
+
+
+## NIAH record-by-record review — 27 October 2026
+A new batch of individual official NIAH record results supplied full survey fields rather than only indexed snippets. The returned pages expose registration number, location, rating, categories of special interest, original/in-use function, date, Irish Grid coordinates, date recorded, full Description and Appraisal. This is the official data content described by the NIAH download page.
+
+Twenty-four of the 28 previously PARTIALLY_VERIFIED records were upgraded to VERIFIED after matching the catalogue object's identity and description against the full NIAH record. The upgraded records are:
+- DUB-STR-0043, DUB-STR-0044, DUB-STR-0045
+- DUB-BLD-0078, DUB-BLD-0079
+- DUB-STR-0046, DUB-STR-0047, DUB-INS-0006
+- DUB-BLD-0080, DUB-BLD-0081
+- DUB-STR-0049, DUB-STR-0050, DUB-STR-0051, DUB-STR-0052, DUB-STR-0053, DUB-STR-0054, DUB-STR-0055, DUB-STR-0056, DUB-STR-0057
+- DUB-BLD-0082, DUB-STR-0058, DUB-STR-0059, DUB-BLD-0083, DUB-STR-0060
+
+Four records remain PARTIALLY_VERIFIED because their identity or exact inscription/location still requires founder field evidence, not because the associated parent NIAH entry is absent:
+- DUB-INS-0001 — individual Famine Memorial name plaques need full on-site transcription and photographic verification.
+- DUB-INS-0002 — Jim Larkin pedestal plaque wording, punctuation and face-by-face transcription require close founder photographs.
+- DUB-STR-0048 — the NIAH appraisal mentions a rare benchmark in the streetscape but does not state its exact position or precise form; do not claim a precise object location until identified.
+- DUB-INS-0007 — the street-name plaque is confirmed on the building, but its actual wording and condition are not transcribed by the NIAH entry.
+
+Updated verification totals: 191 VERIFIED and 4 PARTIALLY_VERIFIED (195 total). These statuses concern source-backed identity and historical description; they do not mean current condition, founder photography, exact micro-feature coordinates, line art or publication are complete. The photo and fieldwork gaps remain open.

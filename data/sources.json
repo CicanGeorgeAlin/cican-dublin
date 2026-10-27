@@ -2449,5 +2449,15 @@
     "source_type": "IMAGE_REFERENCE",
     "specific_reference": "NLI Wiltshire Photographic Collection, reference WIL 50[12], June/July 1969; Flickr photo 6509876797. Commons file page records camera coordinates 53.352554, -6.261268 and NLI Flickr Commons reuse permission.",
     "notes": "The individual Commons file page identifies the source as the National Library of Ireland on The Commons and NLI Ref. WIL 50[12], dated 1969. NLI Flickr Commons permission is recorded on the page as no known copyright restrictions; Commons notes the file was reviewed in 2013. The image was opened and visually inspected: two ornate ironwork bollards with pierced shafts and foliate domed caps are clearly visible beside Parnell Monument. The camera point is approximately 15 m from the present NIAH 50010556 point. The NIAH/Irish Times account states that the four bollards were originally erected to the north of their present location, making the historic position plausible. It is attached as a historical object photograph of the bollard group, but it does not prove the identity of all four individual bollards or their present condition. Attribution: National Library of Ireland on The Commons, “Ironwork bollards in Dublin, and Parnell Monument (1969)”, NLI Ref. WIL 50[12], 1969."
+  },
+  {
+    "id": "GEO-DUB-POSTBOX-7640607",
+    "name": "Postbox, Dublin — Nassau Street P&T double-aperture pillar box (Geograph photo 7640607)",
+    "publisher": "Geograph Ireland; photographer Rossographer",
+    "url": "https://www.geograph.ie/photo/7640607",
+    "accessed": "2026-10-27",
+    "source_type": "GEOGRAPH_PHOTOGRAPH",
+    "specific_reference": "Photo 7640607; taken 2023-10-30; submitted 2023-11-01; subject location 53.34312, -6.25923 (Geograph 10 m precision). Original media: https://s0.geograph.org.uk/geophotos/07/64/06/7640607_4bd75654.jpg",
+    "notes": "The source page captions the subject as a double-aperture Aire Puist agus Telegrafa pillar box on Nassau Street. The original JPEG was opened and visually inspected: it clearly shows the green oval-plan P&T box with two letter apertures and Áth Cliath (Dublin) enamel lettering. The geotag is within approximately 8 m of the project's NIAH-derived navigation coordinate for DUB-STR-0016 (53.3431206, -6.2591089); the official NIAH registration 50100001 describes the same c.1930 oval-plan cast-iron double-opening P&T box and Áth Cliath lettering. Geograph credits photographer Rossographer and links CC BY-SA 2.0. Reuse is permitted, including commercially, subject to attribution and ShareAlike; preserve licence link and identify any changes. Attribution: Rossographer, “Postbox, Dublin”, Geograph Ireland photo 7640607, taken 2023-10-30, https://www.geograph.ie/photo/7640607 (CC BY-SA 2.0)."
   }
 ]

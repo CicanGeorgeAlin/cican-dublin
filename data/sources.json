@@ -2319,5 +2319,25 @@
     "source_type": "IMAGE_REFERENCE",
     "specific_reference": "Wikimedia Commons file page identifies Fairview Park public toilets (Wikidata Q108754123), photographer Smirkybec, date 2021-09-30, camera coordinates 53.361706, -6.237986, and CC BY-SA 4.0 licence. The Commons category identifies NIAH Registration 50120133.",
     "notes": "Attribution: Smirkybec, “Dublin - Fairview Park public toilets - 20210930143940”, 30 September 2021, via Wikimedia Commons. Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). Image depicts the exact historic public convenience, but foliage and a site board obscure much of the building. Third-party reference photograph; not a founder original."
+  },
+  {
+    "id": "SRC-NIAH-DATA-DOWNLOAD-2026",
+    "name": "NIAH Data Download — official bulk CSV by registration number",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/niah-data-download/",
+    "accessed": "2026-10-27",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "Official NIAH Data Download page. States that the downloadable CSV is divided into five regional files including Dublin, is indexed by registration number, and includes location, classification, rating, description and appraisal fields plus links to NIAH records and images. Location fields are available in ITM, latitude/longitude and National Grid.",
+    "notes": "Newly identified official bulk-data route for completing the 28 partially verified catalogue records. The page was visible in search indexing on 27 October 2026 but direct opening returned HTTP 403 in this research session. The current CSV must be downloaded and each target registration number matched before any record is upgraded."
+  },
+  {
+    "id": "SRC-NIAH-ARCGIS-LIVE",
+    "name": "NIAH Buildings Open Data — live ArcGIS Feature Service",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://services-eu1.arcgis.com/HyjXgkV6KGMSF3jt/ArcGIS/rest/services/NIAHBuildingsOpenData/FeatureServer",
+    "accessed": "2026-10-27",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAHBuildingsOpenData FeatureServer, layer NIAHBuildings (0). Service description states that it contains location and details of buildings recorded in the NIAH; supports JSON queries and up to 2,000 records per response.",
+    "notes": "Official live GIS service identified through the NIAH dataset listing. Suitable for record-by-record registration-number checks and coordinate cross-checks. This session could not directly fetch the service endpoint; no record has been upgraded solely because this service exists."
   }
 ]

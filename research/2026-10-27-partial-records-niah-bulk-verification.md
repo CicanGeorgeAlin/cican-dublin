@@ -57,3 +57,7 @@ This list is an investigation queue, not proof that the records are incorrect. D
 
 ## Review outcome — 27 October 2026
 24 of the 28 records were verified against full NIAH record pages and upgraded in the catalogue. Four remain open for founder field verification: DUB-INS-0001, DUB-INS-0002, DUB-STR-0048 and DUB-INS-0007. See the foundation audit report for the reasons. The official NIAH records are primary evidence for the parent structure/object description; they do not replace current-condition photography or exact inscription transcription.
+
+
+## Photo-search result — DUB-STR-0057
+A verified exact-object reference image has been added from Wikimedia Commons / Geograph Britain and Ireland: John S Turner, 13 March 2018, CC BY-SA 2.0. The image visibly depicts the ‘P.O Dublin 1 Howth 8’ plaque and matches NIAH Registration 50120248. Image source ID: WMC-DUB3-NORTH-STRAND-MILESTONE-2018-01. Third-party reference only; founder photograph and line art remain outstanding.

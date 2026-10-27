@@ -2459,5 +2459,35 @@
     "source_type": "GEOGRAPH_PHOTOGRAPH",
     "specific_reference": "Photo 7640607; taken 2023-10-30; submitted 2023-11-01; subject location 53.34312, -6.25923 (Geograph 10 m precision). Original media: https://s0.geograph.org.uk/geophotos/07/64/06/7640607_4bd75654.jpg",
     "notes": "The source page captions the subject as a double-aperture Aire Puist agus Telegrafa pillar box on Nassau Street. The original JPEG was opened and visually inspected: it clearly shows the green oval-plan P&T box with two letter apertures and Áth Cliath (Dublin) enamel lettering. The geotag is within approximately 8 m of the project's NIAH-derived navigation coordinate for DUB-STR-0016 (53.3431206, -6.2591089); the official NIAH registration 50100001 describes the same c.1930 oval-plan cast-iron double-opening P&T box and Áth Cliath lettering. Geograph credits photographer Rossographer and links CC BY-SA 2.0. Reuse is permitted, including commercially, subject to attribution and ShareAlike; preserve licence link and identify any changes. Attribution: Rossographer, “Postbox, Dublin”, Geograph Ireland photo 7640607, taken 2023-10-30, https://www.geograph.ie/photo/7640607 (CC BY-SA 2.0)."
+  },
+  {
+    "id": "GEO-DUB-FAMINE-7292957-2022",
+    "name": "Custom House Quay, The Famine Memorial — complete six-figure group — Geograph Ireland photograph",
+    "publisher": "Geograph Ireland; photographer David Dixon",
+    "url": "https://www.geograph.ie/photo/7292957",
+    "accessed": "2026-10-27",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Geograph Ireland photo 7292957; taken 2022-09-01; original JPEG https://s0.geograph.org.uk/geophotos/07/29/29/7292957_325323d5.jpg",
+    "notes": "David Dixon, “Custom House Quay, The Famine Memorial”, 1 September 2022, Geograph Ireland photo 7292957 (CC BY-SA 2.0). Geograph page identifies the depicted monument and its location, provides the photographer/date and links a CC BY-SA 2.0 licence. Original JPEG opened and visually inspected. The original page identifies the Famine Memorial by Rowan Gillespie on Custom House Quay. The subject geotag (53.34802, -6.25017) is approximately 2 m from the archive's NIAH-derived navigation point. The opened original JPEG visibly shows the six bronze figures and dog along the quay. Additional recent full-group view; third-party reference, not a founder original."
+  },
+  {
+    "id": "GEO-DUB-GEORGE-SALMON-6040098-2018",
+    "name": "Trinity College Dublin — George Salmon statue, seated marble figure and inscribed plinth — Geograph Ireland photograph",
+    "publisher": "Geograph Ireland; photographer N Chadwick",
+    "url": "https://www.geograph.ie/photo/6040098",
+    "accessed": "2026-10-27",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Geograph Ireland photo 6040098; taken 2018-08-03; original JPEG https://s0.geograph.org.uk/geophotos/06/04/00/6040098_091f9391.jpg",
+    "notes": "N Chadwick, “Trinity College Dublin - George Salmon statue”, 3 August 2018, Geograph Ireland photo 6040098 (CC BY-SA 2.0). Geograph page identifies the depicted monument and its location, provides the photographer/date and links a CC BY-SA 2.0 licence. Original JPEG opened and visually inspected. The Geograph title identifies George Salmon; the opened original JPEG visibly shows the seated marble statue and plinth lettering GEORGE SALMON / PROVOST / 1883–1904. Subject geotag 53.34462, -6.25737 is approximately 45 m from the archive's source-derived pin and within the stated 100 m geotag precision, on the Trinity campus. Third-party reference; not a founder original."
+  },
+  {
+    "id": "GEO-DUB-LECKY-6046506-2018",
+    "name": "Trinity College Dublin — Lecky statue, seated bronze figure and inscribed plinth — Geograph Ireland photograph",
+    "publisher": "Geograph Ireland; photographer N Chadwick",
+    "url": "https://www.geograph.ie/photo/6046506",
+    "accessed": "2026-10-27",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Geograph Ireland photo 6046506; taken 2018-08-03; original JPEG https://s0.geograph.org.uk/geophotos/06/04/65/6046506_c8dea736.jpg",
+    "notes": "N Chadwick, “Trinity College Dublin - statue of Lecky”, 3 August 2018, Geograph Ireland photo 6046506 (CC BY-SA 2.0). Geograph page identifies the depicted monument and its location, provides the photographer/date and links a CC BY-SA 2.0 licence. Original JPEG opened and visually inspected. The Geograph title identifies the Lecky statue; the opened original JPEG visibly shows the seated bronze figure and plinth lettering LECKY. Subject geotag 53.34417, -6.25738 is approximately 44 m from the archive's source-derived pin and within the stated 100 m geotag precision, in Trinity College Library Square. Third-party reference; not a founder original."
   }
 ]

@@ -2409,5 +2409,15 @@
     "source_type": "THIRD_PARTY_PHOTOGRAPH",
     "specific_reference": "Photograph of a plaque listing Irish family names at the Famine Memorial, Custom House Quay, Dublin; 1,288 × 418 px; file page dates image 11 March 2026.",
     "notes": "Individual Commons file page identifies Knguyen25 as author and explicitly dedicates the file under CC0 1.0 Universal. Commons category identifies the memorial at 53.348030, -6.250060 and links it to NIAH 50010002. The target catalogue object is the collection of bronze name plaques within the paving. This image depicts one family-name plaque, not a complete inventory of all paving plaques. Exact plaque-level position and inscription transcription remain outstanding."
+  },
+  {
+    "id": "GEO-DUB-BLD-0009-2012-01",
+    "name": "Talbot House, 9 Talbot Street, Dublin — Geograph Ireland photograph",
+    "publisher": "Geograph Ireland",
+    "url": "https://www.geograph.ie/photo/7571876",
+    "accessed": "2026-10-27",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "John S Turner photograph of Talbot House, #9 Talbot Street, Dublin; taken 26 October 2012; Geograph image 7571876; subject geotag 53.35044, -6.25672.",
+    "notes": "Original Geograph Ireland source page identifies the subject as Talbot House, #9 Talbot Street, Dublin; states NIAH Registration 50010207; names photographer John S Turner; gives capture date 26 October 2012 and subject coordinates 53.35044, -6.25672. These coordinates are approximately 7 m from the catalogue/NIAH point for DUB-BLD-0009 (53.3504996, -6.2567356). The displayed photograph was visually inspected and shows the eleven-bay façade with central breakfront and entrance. Geograph page labels it licensed for reuse under Creative Commons; the page's cc-by-sa/2.0 designation indicates CC BY-SA 2.0. Attribution: © John S Turner, “Talbot House, #9 Talbot Street, Dublin”, 26 October 2012, Geograph Ireland, CC BY-SA 2.0. The Geograph reuse-detail endpoint returned 403 in this session; retain this note and recheck the individual terms before any further redistribution. Third-party reference, not founder original."
   }
 ]

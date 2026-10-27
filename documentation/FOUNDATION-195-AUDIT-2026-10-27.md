@@ -178,3 +178,13 @@ Updated visual inventory: 68 reference-image entries across 51 unique URLs; 35 r
 
 ### Verification count update
 The 24-record NIAH review left 191 VERIFIED and 4 PARTIALLY_VERIFIED records. The four remaining exceptions are DUB-INS-0001, DUB-INS-0002, DUB-STR-0048 and DUB-INS-0007, each requiring founder field evidence for precise inscription transcription or exact feature identification.
+
+
+## Inscription transcription research — 27 October 2026
+Two secondary transcription leads were added to the source registry and linked to the relevant catalogue records:
+- DUB-INS-0001: Irish Famine Memorials, an academic transcription reference associated with Dr Emily Mark-FitzGerald (UCD), supplies text for the fixed dedication/artist plaques and sponsor plaque. It does not provide a complete transcription of every individual name plaque embedded in the paving. The record remains PARTIALLY_VERIFIED until all individual names/plaques are documented from legible field photographs.
+- DUB-INS-0002: HMDB's Jim Larkin marker entry, photographed 6 February 2024, provides transcriptions of the pedestal quotations. It spells Patrick Kavanagh as “Kavanaugh” in its transcription, whereas the NIAH record identifies Patrick Kavanagh. This conflict is explicitly recorded; the transcription is not accepted as literal until founder close-up photographs settle the spelling, punctuation and exact wording. The record remains PARTIALLY_VERIFIED.
+
+The two remaining partial records are still DUB-STR-0048 (the benchmark's precise location/form is unspecified in NIAH) and DUB-INS-0007 (the Clonliffe Road plaque's exact wording is not transcribed in NIAH). These four are now clearly field-evidence tasks, not simply unresolved website-access errors.
+
+The source registry now contains 240 records. All sources have the required classification and specific-reference fields; all 68 photo references resolve to source IDs. The latest archive quality gate passed on commit b77aa8387485cd42b2da608c7b723f961d10a825; the subsequent transcription-source updates are awaiting their own CI/deployment run.

@@ -1,4 +1,4 @@
-const CACHE="cican-dublin-app-v43";
+const CACHE="cican-dublin-app-v44";
 const CACHE_PREFIX="cican-dublin-app-";
 const SHELL=["./app.html","./app/app.css","./app/app.js","./manifest.webmanifest","../data/objects.json","../data/sources.json","../data/visual-assets.json","./assets/favicon.svg","./assets/cican-emblem.svg"];
 const SHELL_PATHS=new Set(SHELL.map(path=>new URL(path,self.registration.scope).pathname));
@@ -28,7 +28,7 @@ self.addEventListener("fetch",event=>{
   if(request.method!=="GET"||url.origin!==self.location.origin||!SHELL_PATHS.has(url.pathname))return;
   event.respondWith(
     caches.open(CACHE).then(async cache=>{
-      const isArchiveData=/\\.json$/i.test(url.pathname);
+      const isArchiveData=/\.json$/i.test(url.pathname);
       if(isArchiveData){
         try{
           const fresh=await fetch(request,{cache:"no-cache"});

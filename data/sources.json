@@ -2339,5 +2339,15 @@
     "source_type": "OFFICIAL_REGISTER",
     "specific_reference": "NIAHBuildingsOpenData FeatureServer, layer NIAHBuildings (0). Service description states that it contains location and details of buildings recorded in the NIAH; supports JSON queries and up to 2,000 records per response.",
     "notes": "Official live GIS service identified through the NIAH dataset listing. Suitable for record-by-record registration-number checks and coordinate cross-checks. This session could not directly fetch the service endpoint; no record has been upgraded solely because this service exists."
+  },
+  {
+    "id": "WMC-DUB3-NORTH-STRAND-MILESTONE-2018-01",
+    "name": "‘Dublin 1 Howth 8’ milestone, North Strand Road — photograph",
+    "publisher": "Wikimedia Commons / Geograph Britain and Ireland — John S Turner",
+    "url": "https://commons.wikimedia.org/wiki/File:%27Dublin_1_Howth_8%27_milestone_in_North_Strand_Road,_Dublin_-_geograph.org.uk_-_5741628.jpg",
+    "accessed": "2026-10-27",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Wikimedia Commons file page identifies the exact ‘Dublin 1 Howth 8’ milestone in North Strand Road, photographer John S Turner, date 2018-03-13, object/camera coordinates 53.357793, -6.242408, Geograph image ID 5741628 and CC BY-SA 2.0. Visible plaque inscription is P.O Dublin 1 Howth 8, matching NIAH Registration 50120248.",
+    "notes": "Attribution: John S Turner, “‘Dublin 1 Howth 8’ milestone in North Strand Road, Dublin”, 13 March 2018, via Geograph Britain and Ireland / Wikimedia Commons. Licence: CC BY-SA 2.0. Exact-object reference image. This is third-party photography, not a founder original."
   }
 ]

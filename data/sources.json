@@ -2399,5 +2399,15 @@
     "source_type": "IMAGE_REFERENCE",
     "specific_reference": "Robert Linsdell photograph dated 12 June 2015; camera location 53.339620, -6.251859; CC BY 2.0 confirmed on Commons file page.",
     "notes": "Location match: camera coordinates are approximately 2 metres from DUB-STR-0022's NIAH-derived point (53.3396091, -6.2518799). Image is categorised under Post boxes in Dublin. Attribution: Robert Linsdell. Licence: CC BY 2.0. Third-party reference only; not a founder original. Inspect the visible subject before treating it as proof of the box's specific Edward VII details."
+  },
+  {
+    "id": "WMC-DUB1-FAMINE-PLAQUE-2026-01",
+    "name": "Famine Plaque.png — bronze family-name plaque at Dublin Famine Memorial",
+    "publisher": "Wikimedia Commons / Knguyen25",
+    "url": "https://commons.wikimedia.org/wiki/File:Famine_Plaque.png",
+    "accessed": "2026-10-27",
+    "source_type": "THIRD_PARTY_PHOTOGRAPH",
+    "specific_reference": "Photograph of a plaque listing Irish family names at the Famine Memorial, Custom House Quay, Dublin; 1,288 × 418 px; file page dates image 11 March 2026.",
+    "notes": "Individual Commons file page identifies Knguyen25 as author and explicitly dedicates the file under CC0 1.0 Universal. Commons category identifies the memorial at 53.348030, -6.250060 and links it to NIAH 50010002. The target catalogue object is the collection of bronze name plaques within the paving. This image depicts one family-name plaque, not a complete inventory of all paving plaques. Exact plaque-level position and inscription transcription remain outstanding."
   }
 ]

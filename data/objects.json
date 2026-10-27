@@ -580,7 +580,7 @@
     "national_grid_reference": "315925, 234593",
     "latitude": 53.3490909,
     "longitude": -6.2599619,
-    "verification_status": "PARTIALLY_VERIFIED",
+    "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
@@ -597,13 +597,15 @@
       "NIAH-50010519",
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902",
-      "SRC-JIM-LARKIN-INSCRIPTIONS-HMDB-2024"
+      "SRC-JIM-LARKIN-INSCRIPTIONS-HMDB-2024",
+      "SRC-DCC-OCONNELL-MONUMENTS-REPORT-2003"
     ],
     "feature_type": "MICRO_DETAIL",
     "coordinate_status": "SOURCE_DERIVED",
-    "research_notes": "Existence and placement are recorded by NIAH; complete wording has not yet been independently transcribed. Additional secondary transcription lead reviewed 2026-10-27: HMDB entry photographed 2024-02-06 provides the three pedestal quotation texts. It contains a discrepancy spelling Patrick Kavanagh as “Kavanaugh”, so this is not accepted as a literal transcription. Keep partial pending founder close-up photographs and punctuation/spelling verification.",
+    "research_notes": "Existence and placement of all three inset bronze pedestal plaques confirmed by NIAH Registration 50010519. The west-face Patrick Kavanagh poem and east-face Seán O’Casey quotation have been cross-checked against Dublin City Council’s official History of Monuments in the O’Connell Street Area report (2003) and the HMDB 2024 photographic transcription. HMDB spells Kavanagh as “Kavanaugh”; the Council report and independent sources support Kavanagh. The front-face multilingual slogan is also documented by official/curated sources. Catalogue-level identity and inscription content are verified; exact physical lettering, punctuation, line breaks and present condition still require founder close-up photographs.",
     "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
-    "coordinate_accuracy_m": null
+    "coordinate_accuracy_m": null,
+    "last_researched": "2026-10-27"
   },
   {
     "id": "DUB-STR-0002",
@@ -5612,7 +5614,7 @@
     "national_grid_reference": null,
     "latitude": 53.363503596363906,
     "longitude": -6.257421474217028,
-    "verification_status": "PARTIALLY_VERIFIED",
+    "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
     "line_art_status": "TO_CREATE",
     "publication_status": "NOT_PUBLISHED",
@@ -5632,8 +5634,8 @@
     "feature_type": "MICRO_DETAIL",
     "coordinate_status": "PARENT_BUILDING_REFERENCE",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0082 (238 Clonliffe Road — Victorian corner house). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference 316055, 236201 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. NIAH point is source-derived, not founder GPS.",
-    "research_notes": "NIAH Registration 50120194. Indexed official register content reviewed; direct full-page verification remains pending. Exact micro-detail position is not independently mapped; use the linked host record for field navigation. Confirm current presence, condition, access and exact feature position during founder fieldwork. No founder photograph or line art exists.",
-    "last_researched": "2026-10-26",
+    "research_notes": "Full official NIAH Registration 50120194 record reviewed 2026-10-27. Its Description explicitly records an inscribed granite street-name plaque on the front elevation of 238 Clonliffe Road. The record confirms the object’s presence and host building; it does not transcribe the plaque wording. Exact inscription, current condition and precise micro-feature position remain founder fieldwork tasks.",
+    "last_researched": "2026-10-27",
     "coordinate_accuracy_m": null
   },
   {

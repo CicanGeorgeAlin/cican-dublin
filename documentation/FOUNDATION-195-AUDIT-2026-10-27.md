@@ -65,3 +65,23 @@ Seven image URLs are reused across records. These require review to confirm each
 
 ## Audit boundary
 No claim is made here that all 195 photographs are present or working. No claim is made that all 195 locations have accurate map pins. No full dynamic browser or Pixel 6 test has been completed as part of this audit. The website should not enter automatic location expansion until the above acceptance checks are passed and the foundation is signed off.
+
+
+## Coordinate remediation update — 27 October 2026
+A subsequent research pass resolved the 45 records that previously had null latitude/longitude fields:
+- 44 micro-detail records now inherit the already sourced coordinate of their linked parent building. These are explicitly labelled `PARENT_BUILDING_REFERENCE`; they are navigation anchors, not claims that the micro-feature itself has been surveyed at that exact point.
+- DUB-STR-0061 (the Seafield Road East/West lamp-standard group) now uses the NIAH Registration 50030341 site reference, Irish Grid 320244, 236366, transformed from EPSG:29902 to WGS 84. It is labelled `NIAH_SITE_REFERENCE`, not an individual lamp-post coordinate.
+- The detail-page UI now explains these two reference types and warns that the precise micro-detail or individual lamp positions still need field verification.
+- The map and walking-link fields have been populated for all 45 records.
+
+After the update, all 195 records have numeric coordinates and map navigation references. This is **100% coordinate-field coverage**, not 100% exact-feature survey accuracy. Forty-four inherited pins intentionally coincide with their host-building reference; exact object-level positioning remains a fieldwork task.
+
+## Remaining foundation blockers
+- 136 records still have no reference photograph.
+- 28 records have only street-context imagery, not an exact-object photograph.
+- Only 31 records currently have at least one reference labelled `OBJECT_PHOTOGRAPH`.
+- The 64 existing image references still need individual URL-response, visual-subject and rights checks. Metadata presence is not a successful image test.
+- 28 catalogue records remain `PARTIALLY_VERIFIED` and require review.
+- A full live browser/device regression across all 195 detail pages has not been performed.
+
+The foundation is not approved for automatic expansion until photo, evidence, image-rights, and runtime checks are completed or remaining exceptions are explicitly signed off.

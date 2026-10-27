@@ -2349,5 +2349,15 @@
     "source_type": "IMAGE_REFERENCE",
     "specific_reference": "Wikimedia Commons file page identifies the exact ‘Dublin 1 Howth 8’ milestone in North Strand Road, photographer John S Turner, date 2018-03-13, object/camera coordinates 53.357793, -6.242408, Geograph image ID 5741628 and CC BY-SA 2.0. Visible plaque inscription is P.O Dublin 1 Howth 8, matching NIAH Registration 50120248.",
     "notes": "Attribution: John S Turner, “‘Dublin 1 Howth 8’ milestone in North Strand Road, Dublin”, 13 March 2018, via Geograph Britain and Ireland / Wikimedia Commons. Licence: CC BY-SA 2.0. Exact-object reference image. This is third-party photography, not a founder original."
+  },
+  {
+    "id": "WMC-DUB3-VERNON-AVENUE-POSTBOX-2022-01",
+    "name": "Vernon Avenue pillar postbox — photograph",
+    "publisher": "Wikimedia Commons — Tdr112",
+    "url": "https://commons.wikimedia.org/wiki/File:Dublin_-_Vernon_Avenue_pillar_postbox_-_20220907183257.jpg",
+    "accessed": "2026-10-27",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Wikimedia Commons file page identifies the subject as the Vernon Avenue pillar postbox (Wikidata Q110821196), photographer Tdr112, date 2022-09-07, object coordinates 53.364587, -6.195402, and CC BY-SA 4.0 licence. Structured data links the depicted postbox to NIAH registration 50030098.",
+    "notes": "Attribution: Tdr112, “Dublin - Vernon Avenue pillar postbox - 20220907183257”, 7 September 2022, via Wikimedia Commons (CC BY-SA 4.0). Exact-object third-party reference image; not a founder original."
   }
 ]

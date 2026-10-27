@@ -4540,7 +4540,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-DUB3-VERNON-AVENUE-POSTBOX-2022-01",
+          "title": "Vernon Avenue pillar postbox — Carron cast-iron box",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Dublin_-_Vernon_Avenue_pillar_postbox_-_20220907183257.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Dublin_-_Vernon_Avenue_pillar_postbox_-_20220907183257.jpg",
+          "photographer": "Tdr112",
+          "date_taken": "2022-09-07",
+          "source_collection": "Wikimedia Commons — Wiki Loves Monuments 2022",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Tdr112, “Dublin - Vernon Avenue pillar postbox - 20220907183257”, 7 September 2022, via Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Commons file page identifies the depicted place as the Vernon Avenue pillar postbox (Wikidata Q110821196) and links it to NIAH ID 50030098. Object coordinates 53.364587, -6.195402 are approximately 6 metres from the catalogue's NIAH-derived point. Exact-object reference; third-party photograph, not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-BLD-0074",

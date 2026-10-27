@@ -535,3 +535,6 @@ body.photo-viewer-open{overflow:hidden}
     padding:18px 16px calc(18px + env(safe-area-inset-bottom,0px))!important;box-sizing:border-box!important;
   }
 }
+
+/* Do not present walking directions for catalogue entries without verified map coordinates. */
+.editorial-actions .story-walk-disabled{background:#151715;color:#8d9489;border-color:#454a42;cursor:not-allowed;pointer-events:none;}

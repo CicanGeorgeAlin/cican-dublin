@@ -71,6 +71,22 @@ Commit: `db7579065db14bfa9a56c88725a3252f81ed07df`
 
 The GitHub Actions archive quality gate passed after this repair. The source-registry repair does not add new photograph references and does not change the coverage figures.
 
+## Additional exact-match discovery: Famine Memorial family-name plaque
+
+A strong candidate was found for catalogue record `DUB-INS-0001`, **Bronze name plaques within the Famine Memorial paving**:
+
+- Wikimedia Commons file: [Famine Plaque.png](https://commons.wikimedia.org/wiki/File:Famine_Plaque.png)
+- File description: “A plaque listing Irish family names from the Dublin Famine Memorial”
+- Author: Knguyen25
+- Date: 11 March 2026
+- Licence: Creative Commons CC0 1.0 Universal Public Domain Dedication
+- File dimensions: 1,288 × 418 pixels
+- The Commons file page explicitly states that the copyright holder dedicated the work to the public domain, including commercial reuse.
+
+This is an exact subject match for the family-name plaque record, not merely a general photograph of the six famine figures. However, the direct image-file URL was not extracted and independently tested in this research pass. The Commons file page is retained as a high-confidence candidate; no image reference was added and coverage was not increased. Next step: retrieve the original-file link from the Commons file page, verify that it loads, and then register the image with the source page, photographer, CC0 licence and attribution metadata.
+
+A separate Geograph Ireland result titled “Famine Memorial Plaque” by Joseph Mischyshyn (21 September 2013) was also found. It is geotagged at 53.34802, -6.25002 and licensed CC BY-SA 2.0. Its precise plaque subject still needs to be compared with the archive's family-name plaque record before it can be accepted.
+
 ## Acceptance rule for future batches
 
 A candidate increases coverage only when all of the following are established:

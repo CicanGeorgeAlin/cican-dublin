@@ -85,3 +85,32 @@ After the update, all 195 records have numeric coordinates and map navigation re
 - A full live browser/device regression across all 195 detail pages has not been performed.
 
 The foundation is not approved for automatic expansion until photo, evidence, image-rights, and runtime checks are completed or remaining exceptions are explicitly signed off.
+
+
+## Visual-source audit and correction update — 27 October 2026
+A second visual-source pass has made the following changes and findings:
+- Replaced the George Salmon image reference that had a contradictory Commons description naming W. E. H. Lecky. The replacement is the independently captioned “George Salmon Statue Trinity College Dublin” file by Ahorsewithnoname2021, dated 26 November 2021, licensed CC BY-SA 4.0. The visible seated figure and plinth inscription match the NIAH description of the George Salmon statue (Registration 50020521).
+- Added a direct exact-object photograph for DUB-STR-0044, the Howth Road Victorian wall-mounted postbox. Wikimedia Commons identifies the object as the 1890 Howth Road postbox; its camera coordinates (53.366792, -6.218658) are approximately 6 metres from the archive's NIAH-derived coordinate. The image is CC BY-SA 4.0 and credited to Dwmalone.
+- Confirmed the Clontarf Road pillar postbox image already attached to DUB-STR-0043 is a direct-object image; its Commons record and NIAH registration 50030114 correspond to the same postbox.
+- Reviewed additional Commons file pages for The Five Lamps, the George Salmon statue, Central Hall and Marino Crescent. A filename/description mismatch was detected and corrected for George Salmon; context photographs remain labelled as context, not object proof.
+- Added the Howth Road image's source entry and corrected the George Salmon source record. All image reference source IDs resolve to the source registry after these changes.
+- Completed previously missing source classification/reference metadata for 19 NIAH entries and 2 government context sources. The source registry now has 233 records, with no missing source_type or specific_reference fields.
+
+### Updated visual inventory
+- 195 catalogue records and 195 matching visual records remain intact.
+- 65 reference-image entries across 48 unique image URLs.
+- 32 records have at least one OBJECT_PHOTOGRAPH reference.
+- 28 records have context-only reference imagery.
+- 135 records have no reference-image entry.
+- 163 records therefore still lack an exact-object photograph reference (28 context-only + 135 with none).
+
+These are reference-photo counts, not founder-photo completion. No record has been marked as founder-photographed, and no line art has been created from third-party images. The Commons file pages provide evidence of the named creators and stated licences, but a complete byte-level response test of all image URLs and a visual inspection of every image remain outstanding. A Commons page being reachable does not by itself prove the direct thumbnail URL will load in the live app.
+
+### Current remaining blockers
+1. Audit the 28 PARTIALLY_VERIFIED catalogue records individually and upgrade only where the underlying evidence is sufficient.
+2. Continue searching for exact-object images for the remaining 163 records; verify subject, creator, licence and reuse conditions at each original file page.
+3. Test all 65 image entries' actual delivery URLs and visible rendering in the deployed app.
+4. Review the full 195 records for factual and coordinate quality, including the 44 parent-building navigation references and one NIAH site reference that still require field-level precision checks.
+5. Complete a full live-browser and Pixel 6 regression or explicitly record the limits of available runtime testing.
+
+The foundation remains NOT COMPLETE and automatic expansion remains on hold.

@@ -2379,5 +2379,15 @@
     "source_type": "SECONDARY_TRANSCRIPTION_COMPILATION",
     "specific_reference": "Jim Larkin historical marker entry; photographed 6 February 2024. Provides text for the pedestal's Patrick Kavanagh and Seán O'Casey quotations and the Jim Larkin quotation.",
     "notes": "Secondary transcription source. The page spells the poet's name “Patrick Kavanaugh” in one transcription, while NIAH identifies Patrick Kavanagh; treat the spelling discrepancy as a transcription error to be checked against a founder close-up. Do not treat this as a verified literal transcription until the physical plaque is photographed."
+  },
+  {
+    "id": "SRC-DCC-OCONNELL-MONUMENTS-REPORT-2003",
+    "name": "History of monuments in the O'Connell Street Area — Jim Larkin inscription documentation",
+    "publisher": "Dublin City Council",
+    "url": "https://www.dublincity.ie/sites/default/files/media/file-uploads/2018-05/history_monuments_oconnell_st.pdf",
+    "accessed": "2026-10-27",
+    "source_type": "OFFICIAL_LOCAL_AUTHORITY",
+    "specific_reference": "History of monuments in the O'Connell Street Area, section on the James Larkin monument; reproduces the west-face Patrick Kavanagh poem and east-face Seán O'Casey quotation, and describes the 15 June 1979 unveiling.",
+    "notes": "Official Dublin City Council historical report. Used as an authoritative text source to cross-check the inscription transcriptions against HMDB, which spells Patrick Kavanagh's surname incorrectly as “Kavanaugh”. The physical lettering, punctuation and line breaks still require founder close-up photographs."
   }
 ]

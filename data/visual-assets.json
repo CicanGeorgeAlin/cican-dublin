@@ -5476,7 +5476,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-DUB3-NORTH-STRAND-MILESTONE-2018-01",
+          "title": "‘Dublin 1 Howth 8’ milestone, North Strand Road",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/%27Dublin_1_Howth_8%27_milestone_in_North_Strand_Road%2C_Dublin_-_geograph.org.uk_-_5741628.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:%27Dublin_1_Howth_8%27_milestone_in_North_Strand_Road,_Dublin_-_geograph.org.uk_-_5741628.jpg",
+          "photographer": "John S Turner",
+          "date_taken": "2018-03-13",
+          "source_collection": "Geograph Britain and Ireland via Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "attribution": "John S Turner, “‘Dublin 1 Howth 8’ milestone in North Strand Road, Dublin”, 13 March 2018, via Geograph Britain and Ireland / Wikimedia Commons (CC BY-SA 2.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "The file caption, image and structured data identify the exact ‘P.O Dublin 1 Howth 8’ milestone on North Strand Road. The photographed cast-iron plaque visibly matches the NIAH description for Registration 50120248. The image's recorded object/camera coordinate is 53.357793, -6.242408; confirm against the catalogue point during coordinate review. Third-party reference photograph; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-BLD-0082",

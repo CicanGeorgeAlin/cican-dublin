@@ -170,11 +170,13 @@
     "sources": [
       "NIAH-50010002",
       "SRC-NIAH-NATIONAL-DATASET",
-      "SRC-EPSG-TM65-29902"
+      "SRC-EPSG-TM65-29902",
+      "SRC-FAMINE-MEMORIAL-INSCRIPTIONS-2014"
     ],
     "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
-    "coordinate_status": "SOURCE_DERIVED"
+    "coordinate_status": "SOURCE_DERIVED",
+    "research_notes": "Additional secondary academic transcription source reviewed 2026-10-27: Irish Famine Memorials (Dr Emily Mark-FitzGerald, UCD) transcribes the fixed dedication/artist plaques and sponsor plaque text, and confirms sponsor-name plaques beneath the memorial. It does not transcribe every individual name embedded in the paving; keep partial pending complete field/photo inventory."
   },
   {
     "id": "DUB-BLD-0002",
@@ -594,11 +596,12 @@
     "sources": [
       "NIAH-50010519",
       "SRC-NIAH-NATIONAL-DATASET",
-      "SRC-EPSG-TM65-29902"
+      "SRC-EPSG-TM65-29902",
+      "SRC-JIM-LARKIN-INSCRIPTIONS-HMDB-2024"
     ],
     "feature_type": "MICRO_DETAIL",
     "coordinate_status": "SOURCE_DERIVED",
-    "research_notes": "Existence and placement are recorded by NIAH; complete wording has not yet been independently transcribed.",
+    "research_notes": "Existence and placement are recorded by NIAH; complete wording has not yet been independently transcribed. Additional secondary transcription lead reviewed 2026-10-27: HMDB entry photographed 2024-02-06 provides the three pedestal quotation texts. It contains a discrepancy spelling Patrick Kavanagh as “Kavanaugh”, so this is not accepted as a literal transcription. Keep partial pending founder close-up photographs and punctuation/spelling verification.",
     "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null
   },

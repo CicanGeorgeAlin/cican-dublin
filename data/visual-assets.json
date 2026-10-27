@@ -5629,7 +5629,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-DUB3-FAIRVIEW-TOILETS-2021-01",
+          "title": "Fairview Park former public toilets — exterior and roof",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Dublin_-_Fairview_Park_public_toilets_-_20210930143940.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Dublin_-_Fairview_Park_public_toilets_-_20210930143940.jpg",
+          "photographer": "Smirkybec",
+          "date_taken": "2021-09-30",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Smirkybec, “Dublin - Fairview Park public toilets - 20210930143940”, 30 September 2021, via Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Commons category and structured data identify Fairview Park public toilets, corresponding to NIAH Registration 50120133. The photograph shows the historic building and part of its roofscape, but foliage and a site information board obscure much of the structure. Useful as an exact-object identification reference, not a substitute for a clear founder photograph."
+        }
+      ]
     },
     {
       "record_id": "DUB-STR-0060",

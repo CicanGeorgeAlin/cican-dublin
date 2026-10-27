@@ -24,7 +24,9 @@
     "name": "Famine Memorial",
     "publisher": "Department of Housing, Local Government and Heritage",
     "url": "https://www.buildingsofireland.ie/buildings-search/building/50010002/famine-custom-house-quay-dublin-1-dublin",
-    "accessed": "2026-10-24"
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "National Inventory of Architectural Heritage registration 50010002: Famine Memorial."
   },
   {
     "id": "NIAH-50010046",
@@ -181,7 +183,9 @@
     "name": "The Custom House",
     "publisher": "Department of Housing, Local Government and Heritage",
     "url": "https://www.buildingsofireland.ie/buildings-search/building/50010133/custom-house-custom-house-quay-beresford-place-dublin-1-co-dublin",
-    "accessed": "2026-10-24"
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "National Inventory of Architectural Heritage registration 50010133: The Custom House."
   },
   {
     "id": "NIAH-50010134",
@@ -288,14 +292,18 @@
     "name": "Beresford Place post box",
     "publisher": "Department of Housing, Local Government and Heritage",
     "url": "https://www.buildingsofireland.ie/buildings-search/building/50010301/beresford-place-dublin-co-dublin",
-    "accessed": "2026-10-26"
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "National Inventory of Architectural Heritage registration 50010301: Beresford Place post box."
   },
   {
     "id": "NIAH-50010320",
     "name": "O'Connell Monument",
     "publisher": "Department of Housing, Local Government and Heritage",
     "url": "https://www.buildingsofireland.ie/buildings-search/building/50010320/oconnell-monument-dublin-city",
-    "accessed": "2026-10-24"
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "National Inventory of Architectural Heritage registration 50010320: O'Connell Monument."
   },
   {
     "id": "NIAH-50010393",
@@ -342,14 +350,18 @@
     "name": "GPO lantern bases and wheel guards",
     "publisher": "Department of Housing, Local Government and Heritage",
     "url": "https://www.buildingsofireland.ie/buildings-search/building/50010527/general-post-office-gpo-oconnell-street-lower-dublin-1-dublin",
-    "accessed": "2026-10-24"
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "National Inventory of Architectural Heritage registration 50010527: GPO lantern bases and wheel guards."
   },
   {
     "id": "NIAH-50010528",
     "name": "General Post Office",
     "publisher": "Department of Housing, Local Government and Heritage",
     "url": "https://www.buildingsofireland.ie/buildings-search/building/50010528/general-post-office-oconnell-street-lower-dublin-1-dublin",
-    "accessed": "2026-10-24"
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "National Inventory of Architectural Heritage registration 50010528: General Post Office."
   },
   {
     "id": "NIAH-50010555",
@@ -376,7 +388,9 @@
     "name": "North Circular Road / Dorset Street Lower post box",
     "publisher": "Department of Housing, Local Government and Heritage",
     "url": "https://www.buildingsofireland.ie/buildings-search/building/50010715/north-circular-road-dorset-street-lower-dublin-dublin",
-    "accessed": "2026-10-26"
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "National Inventory of Architectural Heritage registration 50010715: North Circular Road / Dorset Street Lower post box."
   },
   {
     "id": "NIAH-50010727",
@@ -513,14 +527,18 @@
     "name": "Thomas Davis Monument",
     "publisher": "Department of Housing, Local Government and Heritage",
     "url": "https://www.buildingsofireland.ie/buildings-search/building/50020252/thomas-davis-monument-college-green-dublin-2-dublin",
-    "accessed": "2026-10-24"
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "National Inventory of Architectural Heritage registration 50020252: Thomas Davis Monument."
   },
   {
     "id": "NIAH-50020253",
     "name": "Henry Grattan Monument",
     "publisher": "Department of Housing, Local Government and Heritage",
     "url": "https://www.buildingsofireland.ie/buildings-search/building/50020253/henry-grattan-monument-college-green-dublin-2-dublin",
-    "accessed": "2026-10-24"
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "National Inventory of Architectural Heritage registration 50020253: Henry Grattan Monument."
   },
   {
     "id": "NIAH-50020294",
@@ -547,35 +565,45 @@
     "name": "Edmund Burke Statue",
     "publisher": "Department of Housing, Local Government and Heritage",
     "url": "https://www.buildingsofireland.ie/buildings-search/building/50020374/edmund-burke-statue-dublin-city",
-    "accessed": "2026-10-24"
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "National Inventory of Architectural Heritage registration 50020374: Edmund Burke Statue."
   },
   {
     "id": "NIAH-50020517",
     "name": "Reclining Figures",
     "publisher": "Department of Housing, Local Government and Heritage",
     "url": "https://www.buildingsofireland.ie/buildings-search/building/50020517/reclining-figures-trinity-college-dublin-2-dublin",
-    "accessed": "2026-10-24"
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "National Inventory of Architectural Heritage registration 50020517: Reclining Figures."
   },
   {
     "id": "NIAH-50020518",
     "name": "Cactus Provisoire",
     "publisher": "Department of Housing, Local Government and Heritage",
     "url": "https://www.buildingsofireland.ie/buildings-search/building/50020518/cactus-provisoire-trinity-college-dublin-2-dublin",
-    "accessed": "2026-10-24"
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "National Inventory of Architectural Heritage registration 50020518: Cactus Provisoire."
   },
   {
     "id": "NIAH-50020520",
     "name": "Lecky Statue",
     "publisher": "Department of Housing, Local Government and Heritage",
     "url": "https://www.buildingsofireland.ie/buildings-search/building/50020520/lecky-statue-trinity-college-dublin-2-dublin",
-    "accessed": "2026-10-24"
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "National Inventory of Architectural Heritage registration 50020520: Lecky Statue."
   },
   {
     "id": "NIAH-50020521",
     "name": "George Salmon Statue",
     "publisher": "Department of Housing, Local Government and Heritage",
     "url": "https://www.buildingsofireland.ie/buildings-search/building/50020521/george-salmon-statue-trinity-college-dublin-2-dublin",
-    "accessed": "2026-10-24"
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "National Inventory of Architectural Heritage registration 50020521: George Salmon Statue."
   },
   {
     "id": "NIAH-50020523",
@@ -1102,7 +1130,9 @@
     "name": "Grand Canal Quay post box",
     "publisher": "Department of Housing, Local Government and Heritage",
     "url": "https://www.buildingsofireland.ie/buildings-search/building/50100338/grand-canal-quay-grand-canal-street-lower-dublin-2-dublin",
-    "accessed": "2026-10-26"
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "National Inventory of Architectural Heritage registration 50100338: Grand Canal Quay post box."
   },
   {
     "id": "NIAH-50100400",
@@ -1269,7 +1299,9 @@
     "name": "North Strand Road post box",
     "publisher": "Department of Housing, Local Government and Heritage",
     "url": "https://www.buildingsofireland.ie/buildings-search/building/50120259/north-strand-road-dublin-3-dublin",
-    "accessed": "2026-10-26"
+    "accessed": "2026-10-26",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "National Inventory of Architectural Heritage registration 50120259: North Strand Road post box."
   },
   {
     "id": "NIAH-50130265",
@@ -1286,7 +1318,9 @@
     "name": "City Hall",
     "publisher": "Department of Housing, Local Government and Heritage",
     "url": "https://www.buildingsofireland.ie/buildings-search/building/50910009/city-hall-cork-hill-exchange-court-dublin-2-dublin",
-    "accessed": "2026-10-24"
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "National Inventory of Architectural Heritage registration 50910009: City Hall."
   },
   {
     "id": "NIAH-50910076",
@@ -1313,7 +1347,9 @@
     "name": "Old Detective Office",
     "publisher": "Department of Housing, Local Government and Heritage",
     "url": "https://www.buildingsofireland.ie/buildings-search/building/50910280/old-detective-office-1-exchange-court-dublin-2-dublin",
-    "accessed": "2026-10-24"
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "National Inventory of Architectural Heritage registration 50910280: Old Detective Office."
   },
   {
     "id": "NIAH-50920231",
@@ -1440,7 +1476,9 @@
     "name": "GPO — Building of the Month",
     "publisher": "Department of Housing, Local Government and Heritage",
     "url": "https://www.buildingsofireland.ie/building-of-the-month/the-general-post-office-oconnell-street-dublin-1/",
-    "accessed": "2026-10-24"
+    "accessed": "2026-10-24",
+    "source_type": "OFFICIAL_HERITAGE_ARTICLE",
+    "specific_reference": "NIAH Building of the Month article: The General Post Office, O'Connell Street, Dublin 1."
   },
   {
     "id": "SRC-CLONTARF-BL-MALTON-1785",
@@ -1749,7 +1787,8 @@
     "url": "https://tailte.ie/map-shop/professional-map-products/boundary-data/",
     "accessed": "2026-10-24",
     "source_type": "GOVERNMENT",
-    "notes": "Describes administrative and statutory boundary products, including counties, local authority areas, townlands and electoral divisions, and cautions that legal boundary delineation must be checked against the relevant Ordnance Map."
+    "notes": "Describes administrative and statutory boundary products, including counties, local authority areas, townlands and electoral divisions, and cautions that legal boundary delineation must be checked against the relevant Ordnance Map.",
+    "specific_reference": "Tailte Éireann Map Shop — Boundary Data product description, covering administrative and statutory boundary datasets including counties, local authority areas, townlands and electoral divisions."
   },
   {
     "id": "SRC-DUB-LOCAL-AUTH-001",
@@ -1758,7 +1797,8 @@
     "url": "https://dublin.ie/live/life-in-dublin/dublin-council-areas/",
     "accessed": "2026-10-24",
     "source_type": "GOVERNMENT",
-    "notes": "Identifies Dublin City Council, Fingal County Council, South Dublin County Council and Dún Laoghaire-Rathdown County Council as the four local authorities serving County Dublin."
+    "notes": "Identifies Dublin City Council, Fingal County Council, South Dublin County Council and Dún Laoghaire-Rathdown County Council as the four local authorities serving County Dublin.",
+    "specific_reference": "Dublin.ie — Life in Dublin, section “The four Dublin council areas”."
   },
   {
     "id": "SRC-DUB-TOWNLANDS-2026",

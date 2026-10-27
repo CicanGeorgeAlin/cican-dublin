@@ -188,3 +188,11 @@ Two secondary transcription leads were added to the source registry and linked t
 The two remaining partial records are still DUB-STR-0048 (the benchmark's precise location/form is unspecified in NIAH) and DUB-INS-0007 (the Clonliffe Road plaque's exact wording is not transcribed in NIAH). These four are now clearly field-evidence tasks, not simply unresolved website-access errors.
 
 The source registry now contains 240 records. All sources have the required classification and specific-reference fields; all 68 photo references resolve to source IDs. The latest archive quality gate passed on commit b77aa8387485cd42b2da608c7b723f961d10a825; the subsequent transcription-source updates are awaiting their own CI/deployment run.
+
+
+## Targeted inscription verification — 27 October 2026
+Two additional records were upgraded after the evidence scope was clarified and full official source content was reviewed:
+- DUB-INS-0002, Jim Larkin Monument pedestal inscription plaques: NIAH Registration 50010519 confirms the three inset bronze plaques and their face locations. Dublin City Council's official *History of monuments in the O'Connell Street Area* report reproduces the Patrick Kavanagh poem on the west face and Seán O'Casey quotation on the east face. This resolves the HMDB transcription's “Kavanaugh” error. The catalogue object's identity and inscription content are now VERIFIED; exact physical lettering, punctuation, line breaks and present condition remain founder-photo tasks.
+- DUB-INS-0007, 238 Clonliffe Road street-name plaque: the full official NIAH Registration 50120194 Description explicitly records an inscribed granite street-name plaque on the front elevation. Its presence and host building are now VERIFIED; the exact wording and precise micro-position remain founder fieldwork tasks.
+
+Updated verification totals: 193 VERIFIED and 2 PARTIALLY_VERIFIED. The two remaining partials are DUB-INS-0001 (complete inventory/transcription of the individual Famine Memorial paving name plaques) and DUB-STR-0048 (the rare benchmark mentioned in the 1 Sherrard Street Upper streetscape appraisal, whose exact physical position and form are not identified in the register). These are genuine unresolved object-level evidence gaps and have not been papered over.

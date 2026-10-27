@@ -2419,5 +2419,15 @@
     "source_type": "IMAGE_REFERENCE",
     "specific_reference": "John S Turner photograph of Talbot House, #9 Talbot Street, Dublin; taken 26 October 2012; Geograph image 7571876; subject geotag 53.35044, -6.25672.",
     "notes": "Original Geograph Ireland source page identifies the subject as Talbot House, #9 Talbot Street, Dublin; states NIAH Registration 50010207; names photographer John S Turner; gives capture date 26 October 2012 and subject coordinates 53.35044, -6.25672. These coordinates are approximately 7 m from the catalogue/NIAH point for DUB-BLD-0009 (53.3504996, -6.2567356). The displayed photograph was visually inspected and shows the eleven-bay façade with central breakfront and entrance. Geograph page labels it licensed for reuse under Creative Commons; the page's cc-by-sa/2.0 designation indicates CC BY-SA 2.0. Attribution: © John S Turner, “Talbot House, #9 Talbot Street, Dublin”, 26 October 2012, Geograph Ireland, CC BY-SA 2.0. The Geograph reuse-detail endpoint returned 403 in this session; retain this note and recheck the individual terms before any further redistribution. Third-party reference, not founder original."
+  },
+  {
+    "id": "WMC-DUB-INF-0001-TALBOT-PLACE-BRIDGE-2010",
+    "name": "Steel railway bridge at the corner of Talbot Place and Talbot Street — Geograph photograph",
+    "publisher": "Wikimedia Commons / Geograph Britain and Ireland",
+    "url": "https://commons.wikimedia.org/wiki/File:Steel_railway_bridge_at_the_corner_of_Talbot_Place_and_Talbot_Street_-_geograph.org.uk_-_1972208.jpg",
+    "accessed": "2026-10-27",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Eric Jones photograph, Geograph image 1972208, taken 2 July 2010. Depicted-place coordinates 53.351359, -6.251083; camera faces northwest. Original Geograph page: https://www.geograph.org.uk/photo/1972208.",
+    "notes": "Commons file page identifies Eric Jones as photographer, date 2 July 2010 and CC BY-SA 2.0; attribution string provided. Original Geograph page confirms subject title, subject coordinates 53.35136, -6.25108, date, photographer and licensing. Rendered image visually shows the railway bridge over the Talbot Street/Talbot Place junction. This is the actual Loop Line crossing, not the separate Liffey span. Subject coordinate is approximately 28 m from catalogue coordinate (53.351231, -6.2514493), and the image subject title/location plus NIAH 50010134's description independently identify the crossing. The visible bridge structure is verified; the particular NIAH-listed piers/parapet details are not all legible at this framing. Third-party photograph, not a founder original."
   }
 ]

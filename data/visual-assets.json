@@ -3088,7 +3088,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-DUB3-MARINO-CRESCENT-2020-01",
+          "title": "Marino Crescent, Dublin — eastward view along the crescent",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Marino_crescent%2C_Dublin.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Marino_crescent,_Dublin.jpg",
+          "photographer": "William M Murphy",
+          "date_taken": "2020-01-09",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "attribution": "William M Murphy, “Marino crescent, Dublin”, 9 January 2020, via Wikimedia Commons (CC BY-SA 2.0).",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "Wide view east along Marino Crescent towards Clontarf. It identifies the crescent and terrace setting but is not verified as a close-up of the specific numbered house. Third-party reference photograph; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-BLD-0042",

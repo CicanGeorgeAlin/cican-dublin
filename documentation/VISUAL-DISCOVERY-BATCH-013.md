@@ -141,3 +141,38 @@ This is an important historical image, but it is not yet a confirmed image of ca
 ## Quality control
 
 No image was added based only on a shared street name. No NIAH gallery image was treated as freely reusable without a licence determination. The North Strand historical postbox is not assumed to be the surviving North Strand Road object. The Fitzwilliam Place coordinate discrepancy remains unresolved.
+
+
+## 6. Additional Commons verification in this cycle
+
+### South Great George's Street street scene
+
+https://commons.wikimedia.org/wiki/File:South_Great_George's_Street_Dublin.jpg
+
+- Photographer: William Murphy
+- Date: 31 May 2014
+- Licence: CC BY-SA 2.0
+- Original source: Flickr / infomatique
+- Commons file page confirms attribution and share-alike terms.
+
+This is a street-scene photograph, not a verified close-up of the early Free State twin postbox at the South Great George's Street / Fade Street junction (DUB-STR-0013). No camera coordinates or visual evidence confirming the specific postbox were established. Not attached.
+
+### Baggot Street Lower double-aperture IPB18/1
+
+https://commons.wikimedia.org/wiki/File:Double_aperture_PagusT_pillar_box,_Dublin_2012.jpg
+
+- Photographer: Jennifer Boyer
+- Photograph date: 10 May 2012
+- Description: double-aperture Department of Posts and Telegraphs IPB18/1 pillar box, Baggot Street Lower, Dublin 2
+- Licence: CC BY 2.0
+- Attribution: Jennifer Boyer, “Double aperture PagusT pillar box, Dublin 2012”, 10 May 2012, via Wikimedia Commons (CC BY 2.0).
+
+This is a verified reusable Dublin postbox photograph. It is not the Victorian anonymous box DUB-STR-0024 at the Ely Place / Baggot Street Lower junction. The pictured oval double-aperture box is a different design and period. No matching catalogue record and exact point have been established; keep unassigned.
+
+### O'Connell Street historical street scenes
+
+Commons search returned several O'Connell Street historical street scenes, including circa-1900 and 1950s views. These are valuable area-history context, but no specific current catalogue postbox could be identified in the reviewed records. They are not attached to any postbox record.
+
+## 7. Research outcome clarification
+
+The new Baggot Street image is a rights-cleared asset lead, but not a current catalogue match. The NIAH galleries are exact-object evidence leads, but their image reuse terms remain unresolved. The current inventory is therefore unchanged.

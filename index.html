@@ -28,32 +28,29 @@
 <link rel="stylesheet" href="./app/app.css">
 <title>CICAN DUBLIN — Explore Dublin's History</title>
 <style>
-/* Permanent dedication: larger type, stronger contrast and clearer spacing. */
-.topbar{height:112px;min-height:112px;align-items:center;padding:0 24px;background:#050505f5!important;border-bottom:1px solid #292929!important}
-.brand{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:7px;min-width:0;max-width:330px}
-.brand-wordmark{font-size:17px!important;letter-spacing:.25em!important;color:#fff!important;text-shadow:0 0 20px #ffffff35!important}
-.brand-dedication{display:grid;gap:3px;color:#d0d0d0;font-size:9px;line-height:1.35;letter-spacing:.055em;text-transform:none;white-space:normal;max-width:310px}
-.brand-dedication strong{color:#fff;font-size:10px;letter-spacing:.17em;font-weight:800}
-.brand-dedication .dedication-name{color:#fff;letter-spacing:.045em;font-weight:600}
-.brand-dedication .dedication-close{color:#c4c4c4;font-size:8px;letter-spacing:.015em;text-transform:none}
-.topbar-center{color:#c2c2c2}
+/* Permanent dedication: retain the original translucent header while improving legibility. */
+.topbar{height:104px;min-height:104px;align-items:center;padding:0 24px;background:linear-gradient(180deg,#050505c9 0%,#05050570 72%,transparent 100%)!important;border:0!important;backdrop-filter:blur(5px)}
+.brand{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:6px;min-width:0;max-width:360px}
+.brand-wordmark{font-size:21px!important;letter-spacing:.25em!important;color:#fff!important;text-shadow:0 0 20px #ffffff45!important}
+.brand-dedication{display:grid;gap:3px;color:#fff;font-size:12px;line-height:1.35;letter-spacing:.025em;text-shadow:0 1px 5px #000,0 0 8px #000;white-space:normal;max-width:350px}
+.brand-dedication strong{color:#fff;font-size:12px;letter-spacing:.14em;font-weight:800}
+.brand-dedication .dedication-name{color:#fff;letter-spacing:.02em;font-weight:700}
+.topbar-center{color:#e0e0e0;text-shadow:0 1px 5px #000}
 @media(max-width:850px){
- .topbar{height:108px;min-height:108px;padding:0 14px;gap:8px}
- .brand{gap:6px;max-width:calc(100vw - 112px)}
- .brand-wordmark{font-size:16px!important;letter-spacing:.23em!important}
- .brand-dedication{font-size:8px;line-height:1.32;gap:2px;max-width:245px;color:#e0e0e0;letter-spacing:.025em}
- .brand-dedication strong{font-size:9px;letter-spacing:.14em}
- .brand-dedication .dedication-name{font-size:8.5px}
- .brand-dedication .dedication-close{font-size:7.5px;color:#d0d0d0}
+ .topbar{height:100px;min-height:100px;padding:0 14px;gap:8px}
+ .brand{gap:5px;max-width:calc(100vw - 112px)}
+ .brand-wordmark{font-size:19px!important;letter-spacing:.23em!important}
+ .brand-dedication{font-size:11px;line-height:1.3;gap:2px;max-width:285px;color:#fff;letter-spacing:.015em}
+ .brand-dedication strong{font-size:11px;letter-spacing:.12em}
+ .brand-dedication .dedication-name{font-size:11px}
  .topbar-center{font-size:6px;letter-spacing:.04em}
 }
 @media(max-width:520px){.topbar-center{display:none}.brand{max-width:calc(100vw - 108px)}}
 @media(max-width:360px){
  .topbar{padding:0 10px}
  .brand{max-width:calc(100vw - 96px)}
- .brand-dedication{font-size:7.5px}
- .brand-dedication strong{font-size:8.5px}
- .brand-dedication .dedication-close{font-size:7px}
+ .brand-dedication{font-size:10px}
+ .brand-dedication strong{font-size:10px}
 }
 /* The public homepage opens directly into the living map. */
 .atlas-intro{display:none!important}
@@ -81,7 +78,7 @@
 </section>
 
 <header class="topbar">
- <a class="brand" href="../" aria-label="Open CICAN DUBLIN"><span class="brand-wordmark">CICAN</span><span class="brand-dedication" aria-label="A gift to Dublin, dedicated by Vasile Cican in celebration of his 75th birthday in October 2026. A lasting gift to the city of Dublin and its future generations."><strong>A GIFT TO DUBLIN</strong><span class="dedication-name">Dedicated by Vasile Cican</span><span>In celebration of his 75th birthday · October 2026</span><span class="dedication-close">A lasting gift to the city of Dublin and its future generations.</span></span></a>
+ <a class="brand" href="../" aria-label="Open CICAN DUBLIN"><span class="brand-wordmark">CICAN</span><span class="brand-dedication" aria-label="A gift to Dublin from Vasile Cican, celebrating his 75th birthday in October 2026."><strong>A GIFT TO DUBLIN</strong><span class="dedication-name">Vasile Cican · 75th birthday · October 2026</span></span></a>
  <div class="topbar-center"><span class="live-dot"></span><span id="catalogue-status">CONNECTING TO CICAN DUBLIN</span></div>
  <button class="icon-button desktop-mode-button" id="saved-mode-toggle" type="button" title="Open saved places" aria-label="Open saved places" aria-pressed="false">♡</button><button class="icon-button" id="locate-button" type="button" title="Centre map on my location" aria-label="Centre map on my location">⌖</button>
 </header>

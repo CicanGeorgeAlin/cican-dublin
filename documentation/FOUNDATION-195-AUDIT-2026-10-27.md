@@ -133,3 +133,13 @@ The category audit found 10 records whose existing ID prefix does not match the 
 
 ### Current position
 The data now has 195/195 records, 195/195 visual entries, complete source references, numeric coordinate fields and valid source registry links. These structural checks do not establish factual completeness, exact feature-position accuracy, image delivery or publication readiness. The foundation remains NOT COMPLETE: 28 records are PARTIALLY_VERIFIED, 162 lack exact-object photo references, all reference URLs still need live delivery tests, and full browser/device regression remains outstanding. No automatic expansion is authorised.
+
+
+## New official evidence route for the remaining partial records — 27 October 2026
+A new official NIAH bulk-data route has been identified for the 28 records still marked PARTIALLY_VERIFIED:
+- NIAH Data Download: https://www.buildingsofireland.ie/niah-data-download/ — the official page states that five regional CSV files are available, including Dublin, indexed by registration number, with location, classification, rating, description, appraisal, and links to NIAH records and images. Location fields are available in ITM, latitude/longitude and National Grid.
+- NIAH live ArcGIS Feature Service: https://services-eu1.arcgis.com/HyjXgkV6KGMSF3jt/ArcGIS/rest/services/NIAHBuildingsOpenData/FeatureServer — the published service describes a searchable NIAH buildings dataset with JSON query support. The NIAH dataset catalogue shows a national CSV distribution updated 9 July 2026.
+
+Both official routes have been registered in the source registry as SRC-NIAH-DATA-DOWNLOAD-2026 and SRC-NIAH-ARCGIS-LIVE. Direct access to the download page and service endpoint was blocked in this session, so the dataset has not yet been retrieved and no partial record has been upgraded. The next evidence pass should obtain the Dublin CSV or query the feature service by the 28 NIAH registration numbers, compare the full Description and Appraisal fields and coordinate systems, and then upgrade only records that match exactly. This is a concrete route to resolving the full-page HTTP 403 limitation without relying on search snippets.
+
+The source registry now contains 236 entries, with no missing source_type or specific_reference values. The foundation remains NOT COMPLETE.

@@ -1124,6 +1124,20 @@
           "attribution": "MOs810, “2023 Talbot Street in Dublin (1)”, 22 April 2023, via Wikimedia Commons (CC BY 4.0).",
           "image_role": "STREET_CONTEXT",
           "location_note": "A street-level photograph of Talbot Street showing the street and railway bridge area. It is a location reference only, not a verified photograph of the individual building or street fitting. Third-party photograph, not a founder original."
+        },
+        {
+          "source_id": "GEO-DUB-BLD-0009-2012-01",
+          "title": "Talbot House, #9 Talbot Street, Dublin",
+          "image_url": "https://s0.geograph.org.uk/geophotos/07/57/18/7571876_361d33df.jpg",
+          "source_url": "https://www.geograph.ie/photo/7571876",
+          "photographer": "John S Turner",
+          "date_taken": "2012-10-26",
+          "source_collection": "Geograph Ireland",
+          "licence": "Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "attribution": "© John S Turner, “Talbot House, #9 Talbot Street, Dublin”, 26 October 2012, Geograph Ireland (CC BY-SA 2.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Exact building photograph: the façade of Talbot House, 9 Talbot Street. Geograph subject geotag 53.35044, -6.25672 aligns within approximately 7 m of the NIAH-derived catalogue coordinate for DUB-BLD-0009. The visible eleven-bay façade and central breakfront match the catalogue description. Third-party photograph; not a founder original."
         }
       ]
     },

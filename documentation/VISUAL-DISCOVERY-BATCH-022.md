@@ -1,62 +1,86 @@
-# Visual Discovery Batch 022 — Full Catalogue Photo-Role Reconciliation
+# Visual Discovery Batch 022 — Full Catalogue Coverage Re-audit and Object Photo Candidate Tests
 
 **Date:** 27 October 2026  
-**Cycle:** 019
+**Cycle:** 019  
+**Repository:** CicanGeorgeAlin/cican-dublin
 
-## Live inventory
-All three production JSON files were fetched directly from GitHub.
+## 1. Live repository audit
+
+All three live JSON files were fetched before research. Records with any image are not the same as records with an exact object photograph.
 
 - Catalogue objects: 195
 - Visual records: 195
-- Locations with at least one OBJECT_PHOTOGRAPH: 37
-- Context-only locations: 28
-- Locations with no image: 130
+- Records with at least one image reference: 65
+- Records with at least one OBJECT_PHOTOGRAPH: 37
+- Records with context image(s) but no object photograph: 28
+- Locations still lacking an object photograph: 158
 - Total image references: 70
 - Registered sources: 243
 
-**Exact-object photo coverage: 37/195 (19.0%).**
-A context-only photograph does not satisfy the archive's photo-completion requirement. 158 locations still need an exact-object photograph.
+A record is counted as covered only when it contains at least one image explicitly classified OBJECT_PHOTOGRAPH. Context-only records are not counted.
 
-## Research and official identity checks
-Targeted searches covered the priority central Dublin and Clontarf postboxes. No newly found image was sufficiently verified for exact object identity and individual reuse rights, so no image was attached.
+## 2. Commons Dublin coal-hole collection — individual file-page checks
 
-Official NIAH records provide exact identity criteria for future matching:
-- Mount Prospect Avenue, 50030342: c.1940 Carron P&T box. https://www.buildingsofireland.ie/buildings-search/building/50030342/mount-prospect-avenue-clontarf-dublin-3-dublin
-- Haddon Road, 50030046: c.1895 W.T. Allen VR wall box. https://www.buildingsofireland.ie/buildings-search/building/50030046/haddon-road-clontarf-dublin-3-co-dublin
-- Dunluce Road, 50030333: c.1960 G.L. Murphy Ireland Ltd / Gorey box. https://www.buildingsofireland.ie/buildings-search/building/50030333/dunluce-road-clontarf-furrypark-dublin-3-dublin
-- Townsend Street, 50020308: c.1930 Handyside box. https://www.buildingsofireland.ie/buildings-search/building/50020308/townsend-street-hawkins-street-dublin-2-dublin
-- Fitzwilliam Place, 50930153: c.1910 McDowell Steven & Co. Edward VII box. https://www.buildingsofireland.ie/buildings-search/building/50930153/fitzwilliam-place-dublin-2-co-dublin
-- Fitzwilliam Square South, 50930229: c.1890 A. Handyside VR box. https://www.buildingsofireland.ie/buildings-search/building/50930229/fitzwilliam-square-dublin-2-dublin
-- Mount Street Crescent, 50100593: c.1900 Andrew Handyside VR box. https://www.buildingsofireland.ie/buildings-search/building/50100593/mount-street-crescent-warrington-place-dublin-2-dublin
-- South Great George's Street, 50910076: c.1930 twin P&T box. https://www.buildingsofireland.ie/buildings-search/building/50910076/south-great-georges-street-dublin-2-co-dublin
-- O'Connell Street Upper, 50010555: c.1930 twin Free State box. https://www.buildingsofireland.ie/buildings-search/building/50010555/oconnell-street-upper-dublin-1-co-dublin
+The Commons category contains six files, including Mountjoy Square historic photographs and three 22 October 2026 photographs of replacement covers on Merrion Square South.
 
-Commons' Dublin postbox category is a discovery lead, not evidence of an exact catalogue match or a reuse licence: https://commons.wikimedia.org/wiki/Category:Post_boxes_in_Dublin
+### 2.1 Hammond Lane Foundry replacement cover — rejected
+https://commons.wikimedia.org/wiki/File:Coal-hole_cover_by_Hammond_Lane.jpg
 
-NIAH object descriptions do not automatically license their gallery photographs.
+Author A.-K. D.; photographed 22 October 2026; CC BY-SA 4.0; camera coordinates 53.338657, -6.250367. Described as a replacement cover by Hammond Lane Foundry on Merrion Square South. This does not match the 46 Merrion Square catalogue coal-hole / lamp remnant coordinates (53.338594, -6.247012), nor does it identify that specific fitting. It is a reusable photograph of a different object in the wider square area. Do not attach to DUB-STR-0065 or DUB-STR-0064.
 
-## QA honesty
-This cycle reconciled the image-role classification across all 195 records. It did not complete independent HTTP availability checks or visual inspection of all 37 stored object-photo URLs. Those are still open QA tasks and must not be marked passed.
+### 2.2 Sharkey Foundry replacement cover — rejected
+https://commons.wikimedia.org/wiki/File:Coal-hole_cover_by_Sharkey_Church_Street.jpg
 
-## Data changes
-- Images added: 0
-- Sources added: 0
-- Existing records changed: 0
-- Catalogue additions: 0
+Author A.-K. D.; photographed 22 October 2026; CC BY-SA 4.0; camera coordinates 53.338654, -6.250317. Described as a replacement cover by Sharkey Foundry, Merrion Square South. The coordinates do not match the 46 Merrion Square catalogue target. It is not proven to be the separately catalogued Sharkey-marked cover on Amiens Street or any other current target.
 
-## Verified close
-- Exact object-photo locations: 37/195 (19.0%)
-- Context-only locations still needing exact photos: 28
-- No-image locations: 130
-- Locations still needing exact photos: 158
-- Image references: 70
-- Sources: 243
+### 2.3 Tonge & Taggart replacement cover — rejected
+https://commons.wikimedia.org/wiki/File:Coal-hole_cover_Tonge_%26_Taggart_Dublin.jpg
 
-## Next cycle
-1. Visually inspect and test every existing OBJECT_PHOTOGRAPH URL and original source page.
-2. Verify object identity, location, photographer, licence and attribution.
-3. Replace context-only photographs with exact-object images.
-4. Continue the no-image search using NIAH identifiers and precise locations.
-5. Commit data only when the image match and reuse rights are established.
+Author A.-K. D.; photographed 22 October 2026; CC BY-SA 4.0; camera coordinates 53.338806, -6.250947. Described as a replacement cover by Tonge & Taggart Foundry, Merrion Square South. This does not match the current 46 Merrion Square catalogue coordinates (53.338594, -6.247012). It is a candidate for a future catalogue addition, not a photograph for an existing record.
 
-**Completion means 195 verified exact-object photographs, not 195 records containing any image.**
+### 2.4 Mountjoy Square ornate coal-hole photograph — exact address not established
+https://commons.wikimedia.org/wiki/File:Mountjoy_Square,_Dublin,_Ireland_(ornate_coal_hole)_001.jpg
+
+Author Gavinmc; original photograph dated 5 October 2008; author-released public domain. It depicts an ornate coal-hole cover in Mountjoy Square, set in original granite. No precise camera coordinates or house number are supplied. It is relevant to Mountjoy Square pavement fabric but does not prove the photographed cover is the exact one outside 3 Mountjoy Square North. Keep as an area-level lead; do not count as exact object evidence.
+
+Category: https://commons.wikimedia.org/wiki/Category:Coal_hole_covers_in_Dublin
+
+## 3. Dame Street postbox image — exact object mismatch confirmed
+
+https://commons.wikimedia.org/wiki/File:An_Post_logo_pillar_box,_Dame_Street.jpg
+
+Photographer William Murphy; 25 February 2012; CC BY-SA 2.0; coordinates 53.344115, -6.266094. Description identifies an An Post logo pillar box outside AIB at the Dame Street / Palace Street corner.
+
+This is a photograph of a Dame Street postbox, but it is not DUB-STR-0015, the early Free State double postbox at 53.3443398, -6.262603. The location and object type differ. Do not attach it to DUB-STR-0015. It may be a future catalogue candidate if a separate matching object is formally added.
+
+## 4. Full catalogue role audit
+
+All 195 catalogue IDs were joined against visual records. The exact-object-photo count is 37; context-only records are 28; 158 catalogue locations still need an exact object photograph.
+
+## 5. Changes made
+
+- New image references: 0
+- New source records: 0
+- Catalogue changes: none
+- Existing image roles changed: none
+- Held/rejected candidates: three Merrion Square replacement covers, one Mountjoy Square coal hole and one Dame Street postbox mismatch.
+
+No new photograph was attached because the candidates failed exact-object/location matching for the current catalogue. Reuse rights alone do not justify attachment.
+
+## 6. Current verified position
+
+- Exact object-photo coverage: 37/195 (19.0%)
+- Context-only records: 28
+- Locations lacking an exact object photograph: 158
+- Total image references: 70
+- Registered sources: 243
+
+## 7. Next cycle
+
+1. Continue a record-by-record audit across all 195 IDs, not only postboxes.
+2. Prioritise 1 Exchange Court detective office and uncovered central Dublin buildings, street fittings and inscriptions.
+3. Use exact coordinates and object description as the acceptance test.
+4. Continue testing original file pages, licences and image URLs.
+5. Add only demonstrably matching object photographs and preserve provenance.
+
+**Quality rule:** a valid licence does not make a wrong-location photograph valid evidence.

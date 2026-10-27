@@ -1245,7 +1245,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-DUB-STR-0006-CUSTOM-HOUSE-BOUNDARY-WALL-2019",
+          "title": "Boundary wall of Custom House Harbour",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Boundary_wall_of_Custom_House_Harbour.jpg/960px-Boundary_wall_of_Custom_House_Harbour.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Boundary_wall_of_Custom_House_Harbour.jpg",
+          "photographer": "Metro Centric",
+          "date_taken": "2019-06-11",
+          "source_collection": "Flickr via Wikimedia Commons",
+          "licence": "Creative Commons Attribution 2.0 Generic (CC BY 2.0)",
+          "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+          "attribution": "Metro Centric, “Boundary wall of Custom House Harbour”, 11 June 2019, via Wikimedia Commons (CC BY 2.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Photograph made from Commons Street of the boundary wall of the Custom House Harbour development at the former excise stores. The visible long masonry wall, rough limestone lower section, dressed-stone upper courses and street kerb correspond to the NIAH-described historic wall registered as 50060568. Exact camera coordinates and the complete wall extent are not supplied. Third-party photograph; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-STR-0007",

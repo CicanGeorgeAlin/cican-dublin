@@ -13,13 +13,13 @@
 | `data/sources.json` | `f7765c297fef7480722b4c0165e4b8d85bd839c0` |
 | `documentation/VISUAL-AUDIT-MATRIX-2026-10-27.csv` | `d6029e6ea09e8f47fc27f03fa3117d3a6d6b06bf` |
 
-JSON parsing: PASS. Catalogue objects: 195. Visual records: 195. Source records: 245. Matrix data rows: 0.
+JSON parsing: PASS. Catalogue objects: 195. Visual records: 195. Source records: 245. Matrix data rows: 195.
 
 Structural checks:
 - Unique catalogue IDs: PASS.
 - Unique visual record IDs: PASS.
 - Every visual record maps to a catalogue ID: PASS.
-- Matrix row count equals catalogue count: FAIL.
+- Matrix row count equals catalogue count: PASS.
 
 ## 2. Exact-object photograph added — Loop Line viaduct over Talbot Street
 

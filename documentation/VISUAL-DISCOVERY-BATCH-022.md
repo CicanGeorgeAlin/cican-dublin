@@ -1,65 +1,62 @@
-# Visual Discovery Batch 022 — Famine Memorial Bronze Name Plaque
+# Visual Discovery Batch 022 — Full Catalogue Photo-Role Reconciliation
 
 **Date:** 27 October 2026  
 **Cycle:** 019
 
-## Live inventory before this cycle
+## Live inventory
+All three production JSON files were fetched directly from GitHub.
 
 - Catalogue objects: 195
 - Visual records: 195
-- Covered locations: 64
-- Photograph references: 69
-- Missing photographs: 131
-- Registered sources: 242
-
-## 1. New exact-object photograph verified
-
-Target catalogue object:
-- ID: DUB-INS-0001
-- Name: Bronze name plaques within the Famine Memorial paving
-- Location: Granite-sett surround of Famine Memorial, Custom House Quay, Dublin 1
-- Parent: DUB-MEM-0001
-- Associated NIAH registration: 50010002
-
-Photograph:
-- File: https://commons.wikimedia.org/wiki/File:Famine_Plaque.png
-- Original image: https://upload.wikimedia.org/wikipedia/commons/0/00/Famine_Plaque.png
-- Author: Knguyen25
-- Image date stated on file page: 11 March 2026
-- Original dimensions: 1,288 × 418 pixels
-- Licence: CC0 1.0 Universal Public Domain Dedication
-- Attribution recorded: Knguyen25, “Famine Plaque.png”, 11 March 2026, Wikimedia Commons (CC0 1.0).
-
-The Commons file caption explicitly identifies the photograph as a plaque listing Irish family names from the Dublin Famine Memorial. The file page identifies the author and explicitly grants CC0 reuse, including commercial use. The Commons category identifies the memorial at 53.348030, -6.250060 and associates it with NIAH 50010002.
-
-The image visibly depicts a single bronze family-name plaque, rather than merely the surrounding sculpture or a general street scene. It is therefore a direct visual match for the catalogue's plaque collection. It does not document every plaque in the paving, and it does not supply plaque-level coordinates or a complete transcription. The visual record's founder-original fields remain unchanged; this is a third-party reference image.
-
-## 2. Repository changes
-
-- Added reference image to visual record DUB-INS-0001.
-- Added source record WMC-DUB1-FAMINE-PLAQUE-2026-01.
-- Used the original upload URL verified from the Commons file page.
-- Preserved original-photo, founder-credit, capture-date, field-verification and line-art fields.
-- No catalogue objects were added or removed.
-
-## 3. Other research in this cycle
-
-The NIAH entry for the Famine Memorial describes the bronze figures and the bronze commemorative plaques dispersed among granite setts around the group. The Commons category contains further memorial photographs, but no additional individual plaque image was added because the newly identified family-name plaque was the clearest exact-object match in this cycle.
-
-## 4. Verified inventory after change
-
-- Catalogue objects: 195
-- Visual records: 195
-- Covered locations: 65
-- Photograph references: 70
-- Missing photographs: 130
+- Locations with at least one OBJECT_PHOTOGRAPH: 37
+- Context-only locations: 28
+- Locations with no image: 130
+- Total image references: 70
 - Registered sources: 243
-- Coverage: 33.3%
 
-## 5. Remaining work
+**Exact-object photo coverage: 37/195 (19.0%).**
+A context-only photograph does not satisfy the archive's photo-completion requirement. 158 locations still need an exact-object photograph.
 
-1. Photograph and transcribe every accessible paving plaque individually; this reference image does not complete the inscription inventory.
-2. Continue the 130 remaining uncovered catalogue objects, prioritising exact-object images with explicit reuse rights.
-3. Continue checking the central Dublin and Clontarf postbox candidates against exact file-page metadata and coordinates.
+## Research and official identity checks
+Targeted searches covered the priority central Dublin and Clontarf postboxes. No newly found image was sufficiently verified for exact object identity and individual reuse rights, so no image was attached.
 
-**Quality decision:** one new catalogue location is counted as photograph-covered because the published photograph depicts the exact class of object named in that record and its CC0 rights are explicit. Coverage does not imply that every plaque in the group has been documented.
+Official NIAH records provide exact identity criteria for future matching:
+- Mount Prospect Avenue, 50030342: c.1940 Carron P&T box. https://www.buildingsofireland.ie/buildings-search/building/50030342/mount-prospect-avenue-clontarf-dublin-3-dublin
+- Haddon Road, 50030046: c.1895 W.T. Allen VR wall box. https://www.buildingsofireland.ie/buildings-search/building/50030046/haddon-road-clontarf-dublin-3-co-dublin
+- Dunluce Road, 50030333: c.1960 G.L. Murphy Ireland Ltd / Gorey box. https://www.buildingsofireland.ie/buildings-search/building/50030333/dunluce-road-clontarf-furrypark-dublin-3-dublin
+- Townsend Street, 50020308: c.1930 Handyside box. https://www.buildingsofireland.ie/buildings-search/building/50020308/townsend-street-hawkins-street-dublin-2-dublin
+- Fitzwilliam Place, 50930153: c.1910 McDowell Steven & Co. Edward VII box. https://www.buildingsofireland.ie/buildings-search/building/50930153/fitzwilliam-place-dublin-2-co-dublin
+- Fitzwilliam Square South, 50930229: c.1890 A. Handyside VR box. https://www.buildingsofireland.ie/buildings-search/building/50930229/fitzwilliam-square-dublin-2-dublin
+- Mount Street Crescent, 50100593: c.1900 Andrew Handyside VR box. https://www.buildingsofireland.ie/buildings-search/building/50100593/mount-street-crescent-warrington-place-dublin-2-dublin
+- South Great George's Street, 50910076: c.1930 twin P&T box. https://www.buildingsofireland.ie/buildings-search/building/50910076/south-great-georges-street-dublin-2-co-dublin
+- O'Connell Street Upper, 50010555: c.1930 twin Free State box. https://www.buildingsofireland.ie/buildings-search/building/50010555/oconnell-street-upper-dublin-1-co-dublin
+
+Commons' Dublin postbox category is a discovery lead, not evidence of an exact catalogue match or a reuse licence: https://commons.wikimedia.org/wiki/Category:Post_boxes_in_Dublin
+
+NIAH object descriptions do not automatically license their gallery photographs.
+
+## QA honesty
+This cycle reconciled the image-role classification across all 195 records. It did not complete independent HTTP availability checks or visual inspection of all 37 stored object-photo URLs. Those are still open QA tasks and must not be marked passed.
+
+## Data changes
+- Images added: 0
+- Sources added: 0
+- Existing records changed: 0
+- Catalogue additions: 0
+
+## Verified close
+- Exact object-photo locations: 37/195 (19.0%)
+- Context-only locations still needing exact photos: 28
+- No-image locations: 130
+- Locations still needing exact photos: 158
+- Image references: 70
+- Sources: 243
+
+## Next cycle
+1. Visually inspect and test every existing OBJECT_PHOTOGRAPH URL and original source page.
+2. Verify object identity, location, photographer, licence and attribution.
+3. Replace context-only photographs with exact-object images.
+4. Continue the no-image search using NIAH identifiers and precise locations.
+5. Commit data only when the image match and reuse rights are established.
+
+**Completion means 195 verified exact-object photographs, not 195 records containing any image.**

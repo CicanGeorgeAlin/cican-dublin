@@ -228,7 +228,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-DUB1-FAMINE-PLAQUE-2026-01",
+          "title": "Bronze family-name plaque at Dublin Famine Memorial",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Famine_Plaque.png",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Famine_Plaque.png",
+          "photographer": "Knguyen25",
+          "date_taken": "2026-03-11",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
+          "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "attribution": "Knguyen25, “Famine Plaque.png”, 11 March 2026, Wikimedia Commons (CC0 1.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Photograph depicts a bronze plaque listing Irish family names at the Dublin Famine Memorial. Memorial association is confirmed by the Commons file description and category; plaque-level coordinates are not supplied. Third-party reference photograph, not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-BLD-0002",

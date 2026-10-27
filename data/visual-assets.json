@@ -3232,7 +3232,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-DUB3-STJOHN-CASTLE-2022-01",
+          "title": "Church of St John the Baptist, Castle Avenue",
+          "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dublin_-_Church_of_St._John_the_Baptist%2C_Castle_Avenue_-_20220911163543.jpg?width=1280",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Dublin_-_Church_of_St._John_the_Baptist,_Castle_Avenue_-_20220911163543.jpg",
+          "photographer": "Tdr112",
+          "date_taken": "2022-09-11",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Tdr112, “Church of St John the Baptist, Castle Avenue”, 2022-09-11, via Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Exact church at Castle Avenue, confirmed by the Commons file description and mapped camera position. Third-party reference photograph; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-BLD-0046",
@@ -3961,7 +3977,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-DUB3-CLONTARF-GARDA-2011-01",
+          "title": "Clontarf Garda Station, Dublin 3",
+          "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Clontarf_Garda_Station%2C_Dublin_3_-_geograph.org.uk_-_2216242.jpg?width=1280",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Clontarf_Garda_Station,_Dublin_3_-_geograph.org.uk_-_2216242.jpg",
+          "photographer": "Eric Jones",
+          "date_taken": "2011-01-01",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Eric Jones, “Clontarf Garda Station, Dublin 3”, 2011-01-01, via Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Photograph depicts Clontarf Garda Station; mapped object position is close to the catalogue location. Third-party reference photograph; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-BLD-0060",
@@ -4257,7 +4289,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-DUB3-STJOHN-CEMETERY-2022-01",
+          "title": "Church of St John the Baptist cemetery, Castle Avenue",
+          "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dublin_-_Church_of_St._John_the_Baptist_cemetery_-_20220911163457.jpg?width=1280",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Dublin_-_Church_of_St._John_the_Baptist_cemetery_-_20220911163457.jpg",
+          "photographer": "Tdr112",
+          "date_taken": "2022-09-11",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Tdr112, “Church of St John the Baptist cemetery, Castle Avenue”, 2022-09-11, via Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Exact cemetery of the Castle Avenue church, confirmed by the Commons file description and mapped camera position. Third-party reference photograph; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-BLD-0069",
@@ -4382,7 +4430,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-DUB3-STJOHN-CROSS-2022-01",
+          "title": "Cross at the Church of St John the Baptist, Seafield Road West",
+          "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dublin_-_Cross_at_the_Church_of_St._John_the_Baptist%2C_Clontarf_-_20220911162021.jpg?width=1280",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Dublin_-_Cross_at_the_Church_of_St._John_the_Baptist,_Clontarf_-_20220911162021.jpg",
+          "photographer": "Tdr112",
+          "date_taken": "2022-09-11",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Tdr112, “Cross at the Church of St John the Baptist, Seafield Road West”, 2022-09-11, via Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Exact Celtic cross memorial at the Seafield Road West church, identified in the Commons structured data as the cross at this church. Third-party reference photograph; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-BLD-0072",

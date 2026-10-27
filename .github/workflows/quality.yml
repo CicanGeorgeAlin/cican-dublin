@@ -23,5 +23,6 @@ jobs:
         run: |
           node --check preview/app/app.js
           node --check preview/service-worker.js
+          node --check service-worker.js
       - name: Validate catalogue, images, links and page scripts
         run: node scripts/validate-archive.mjs

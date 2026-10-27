@@ -3025,7 +3025,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-MARINO-COLLEGE-2022-01",
+          "title": "Marino College, Dublin — street-facing façade",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Dublin_-_Marino_College_-_20220207142810.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Dublin_-_Marino_College_-_20220207142810.jpg",
+          "photographer": "Malone0",
+          "date_taken": "2022-02-07",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Malone0, “Dublin - Marino College - 20220207142810.jpg”, 7 February 2022, via Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "The photograph visibly identifies Marino College and shows its street-facing façade. It is a third-party reference photograph, not a founder original; use for visual identification, not as a record of present condition."
+        }
+      ]
     },
     {
       "record_id": "DUB-BLD-0040",
@@ -7020,5 +7036,5 @@
       "gallery_status": "NOT_YET_PUBLISHED"
     }
   ],
-  "last_updated": "2026-10-26"
+  "last_updated": "2026-10-27"
 }

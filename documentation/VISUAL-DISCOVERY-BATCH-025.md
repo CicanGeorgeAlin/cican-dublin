@@ -111,4 +111,8 @@ The six independently verified exact-object photographs are the five existing Co
 
 **Batch 025 conclusion:** Five pre-existing object-photo records were visually confirmed. One additional exact-object photograph was discovered, rights provenance recorded and added to the correct catalogue visual record. The archive now contains **38 object-photo candidate records, of which 6 are independently verified**. This is not 195/195.
 
+## 9. Deployment verification limitation
+
+The expected GitHub Pages root URL (https://cicangeorgealin.github.io/cican-dublin/) and the `/preview/` path referenced by the repository root `index.html` could not be retrieved by the available browser inspection service in this session. This is **not evidence that the site is down**. The deployed website and its image rendering therefore remain **not independently verified** in Batch 025. Repository JSON and image-source URLs were checked separately as documented above.
+
 **LEAVE NO LOCATION BEHIND.**

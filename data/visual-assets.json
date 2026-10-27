@@ -1214,7 +1214,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-DUB-STR-0005-NLI-IRONWORK-BOLLARDS-1969",
+          "title": "Ironwork bollards in Dublin, and Parnell Monument (1969)",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Ironwork_bollards_in_Dublin%2C_and_Parnell_Monument_%281969%29.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ironwork_bollards_in_Dublin,_and_Parnell_Monument_(1969).jpg",
+          "photographer": "National Library of Ireland on The Commons (photographer not individually named in file metadata)",
+          "date_taken": "1969",
+          "source_collection": "National Library of Ireland — Wiltshire Photographic Collection, NLI Ref. WIL 50[12], via Flickr Commons and Wikimedia Commons",
+          "licence": "No known copyright restrictions (NLI Flickr Commons permission statement)",
+          "licence_url": "https://www.flickr.com/commons/usage/",
+          "attribution": "National Library of Ireland on The Commons, “Ironwork bollards in Dublin, and Parnell Monument (1969)”, NLI Ref. WIL 50[12], 1969.",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Historical photograph visually shows the distinctive ornate cast-iron bollards with pierced shafts and foliate domed caps at the Parnell Monument street corner. The camera point is approximately 15 m from the current NIAH 50010556 catalogue point; the NIAH/Irish Times account says the group was originally erected north of its present position, so this is consistent with an earlier placement of the same group. Two bollards are clearly visible, not all four. Treat as a historical photograph of the bollard group; present-day condition and the identity of every member of the four-piece group still need field verification. Third-party archive image; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-STR-0006",

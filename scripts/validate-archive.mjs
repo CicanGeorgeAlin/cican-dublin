@@ -43,6 +43,9 @@ assert.ok(serviceWorker.includes('"../data/objects.json"')&&serviceWorker.includ
 assert.ok(mapApp.includes('navigator.serviceWorker.register("../service-worker.js",{scope:"../"})'),"Map app must register the root-scoped service worker so the public homepage is controlled.");
 assert.ok(rootServiceWorker.includes('"/index.html"')&&rootServiceWorker.includes('"/data/objects.json"')&&rootServiceWorker.includes('"/data/sources.json"')&&rootServiceWorker.includes('"/data/visual-assets.json"'),"Root service worker must cache the public homepage and canonical archive data.");
 assert.ok(/isArchiveData=\/\\.json\$\/i/.test(rootServiceWorker),"Root service worker must correctly detect JSON archive requests.");
+assert.ok(mapApp.includes("const walk=isValidPoint(r)?")&&mapApp.includes("LOCATION NOT MAPPED"),"Unmapped records must never receive broken walking directions.");
+assert.ok(mapApp.includes("const coordinateText=isValidPoint(r)?")&&mapApp.includes("NOT MAPPED · FIELD LOCATION NEEDED"),"Unmapped records must show a clear coordinate status instead of NaN.");
+assert.ok(mapApp.includes('mode==="field"?"Fieldwork planner."'),"The FIELD navigation mode must have its own clear heading.");
 assert.equal(objects.length,json("data/objects.json").length,"Map and catalogue must share the same object count.");
 assert.equal(sources.length,json("data/sources.json").length,"Map and catalogue must share the same source count.");
 assert.equal(visual.records.length,json("data/visual-assets.json").records.length,"Map and catalogue must share the same visual inventory.");

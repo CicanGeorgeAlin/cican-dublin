@@ -89,3 +89,24 @@ The image URLs are preserved in this research report as access leads only. No NI
 ## Quality control
 
 A direct image URL is not proof of permission to reproduce it. A dataset licence is not a blanket image licence. A gallery record association does not substitute for pixel-level visual inspection. No unlicensed or uninspected NIAH image was added.
+
+## 6. Commons postbox collection cross-check
+
+The Wikimedia Commons category “Green post boxes in the Republic of Ireland” was reviewed:
+https://commons.wikimedia.org/wiki/Category:Green_post_boxes_in_the_Republic_of_Ireland
+
+It contains 62 files, including Dublin-area images such as:
+- Edward VII Pillar Box, Arran Quay (two photographs)
+- Double aperture Irish pillar box in Dublin (2008)
+- Double aperture PagusT pillar box, Dublin (2012)
+- Post box on Howth Road at Raheny
+- Post box on Howth Road, Dublin
+- Green Irish post box in Malahide
+- Post-Box-1140402, Newtown Park, Dublin
+- Post-Box-1140429, Shrewsbury Road, Dublin
+- Post-Box-1140450, Clonskeagh, Dublin
+- Post-Box-1220164, Nassau Street, Dublin
+
+These filenames show that Commons contains further Dublin postbox material, but the category itself does not establish a match to the remaining target points (Haddon Road, Mount Prospect Avenue, Kincora Grove, Dunluce Road, Malahide Road, Grand Canal Quay). The files must be individually opened, inspected for coordinates/subject and checked for their own licences before assignment. None was attached in this cycle.
+
+A search result for “Malahide, green Irish post box” identifies a Malahide-area image, but the available evidence does not establish that it depicts DUB-STR-0052 on Malahide Road. Do not conflate Malahide village with Malahide Road in Dublin 3.

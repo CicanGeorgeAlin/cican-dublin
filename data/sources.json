@@ -450,7 +450,7 @@
     "accessed": "2026-10-28",
     "source_type": "OFFICIAL_REGISTER_WITH_PHOTOGRAPH_GALLERY",
     "specific_reference": "NIAH Registration No. 50010760",
-    "notes": "NIAH records a c.1880 Victorian cast-iron pillar box bearing VR insignia and A. Handyside & Co. maker's inscription; coordinates 315856, 235627. Official NIAH record page contains a ten-link image slider/gallery. Direct gallery image URLs identified include https://www.buildingsofireland.ie/building-images/niah/images/survey_specific/800/50010760_5.jpg and 50010760_2.jpg. Retrieval attempts returned HTTP 403 in the research environment; no image bytes were obtained, visually inspected or copied. Treat as a confirmed gallery lead only. NIAH terms: educational/private use with source credit; commercial use requires prior written agreement."
+    "notes": "NIAH records a c.1880 Victorian cast-iron pillar box bearing VR insignia and A. Handyside & Co. maker's inscription; coordinates 315856, 235627. The official record page contains a ten-link image gallery. Photograph 50010760_5.jpg was opened and visually inspected on 2026-10-28; it shows the green pillar box in its Gardiner Street Upper streetscape and is registered as an exact-object reference in data/visual-assets.json for DUB-STR-0003. The image URL was opened successfully; image bytes were not downloaded into the repository. NIAH terms: educational/private use with source credit; commercial use requires prior written agreement. Individual photographer/date are not credited."
   },
   {
     "id": "NIAH-50010820",

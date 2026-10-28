@@ -2489,5 +2489,15 @@
     "source_type": "IMAGE_REFERENCE",
     "specific_reference": "Geograph Ireland photo 6046506; taken 2018-08-03; original JPEG https://s0.geograph.org.uk/geophotos/06/04/65/6046506_c8dea736.jpg",
     "notes": "N Chadwick, “Trinity College Dublin - statue of Lecky”, 3 August 2018, Geograph Ireland photo 6046506 (CC BY-SA 2.0). Geograph page identifies the depicted monument and its location, provides the photographer/date and links a CC BY-SA 2.0 licence. Original JPEG opened and visually inspected. The Geograph title identifies the Lecky statue; the opened original JPEG visibly shows the seated bronze figure and plinth lettering LECKY. Subject geotag 53.34417, -6.25738 is approximately 44 m from the archive's source-derived pin and within the stated 100 m geotag precision, in Trinity College Library Square. Third-party reference; not a founder original."
+  },
+  {
+    "id": "NIAH-IMAGE-50020294-1",
+    "name": "NIAH photograph 50020294_1 — Burgh Quay Edward VII post box",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50020294/dublin-city",
+    "accessed": "2026-10-28",
+    "source_type": "OFFICIAL_HERITAGE_PHOTOGRAPH",
+    "specific_reference": "Image file 50020294_1.jpg attached to NIAH registration 50020294.",
+    "notes": "The image was visually inspected and matches the c.1905 Edward VII Handyside pillar post box at the Burgh Quay/Hawkins Street junction. Individual photographer and capture date are not credited on the public record. NIAH terms permit educational or private use with credit; commercial use requires prior written agreement. Do not treat this as a Creative Commons/open licence or use in commercial print without written permission."
   }
 ]

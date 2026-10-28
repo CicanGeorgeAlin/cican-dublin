@@ -1676,7 +1676,37 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "NIAH-50020195",
+          "title": "Dame Street early Free State double post box — paired letter apertures and front face",
+          "image_url": "https://www.buildingsofireland.ie/building-images/niah/images/survey_specific/800/50020195_1.jpg",
+          "source_url": "https://www.buildingsofireland.ie/buildings-search/building/50020195/dame-street-dublin-2-dublin",
+          "photographer": "National Inventory of Architectural Heritage / Department of Housing, Local Government and Heritage (individual photographer not credited)",
+          "date_taken": null,
+          "source_collection": "National Inventory of Architectural Heritage — Buildings of Ireland",
+          "licence": "NIAH website terms: educational or private use permitted with NIAH credit; commercial use requires prior written agreement. Not a Creative Commons licence.",
+          "licence_url": "https://www.buildingsofireland.ie/terms-and-conditions/",
+          "attribution": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage, NIAH registration 50020195, photograph 50020195_1.jpg; credited to NIAH.",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Official NIAH photograph visually inspected. Shows the oval cast-iron post box with paired letter apertures, P&T front insignia, green body and black plinth. Exact match to the c.1930 double post box south of the Central Bank. Third-party reference, not founder photography. Educational/private use with NIAH credit; written permission required for commercial reuse."
+        },
+        {
+          "source_id": "NIAH-50020195",
+          "title": "Dame Street double post box — P&T insignia detail",
+          "image_url": "https://www.buildingsofireland.ie/building-images/niah/images/survey_specific/800/50020195_4.jpg",
+          "source_url": "https://www.buildingsofireland.ie/buildings-search/building/50020195/dame-street-dublin-2-dublin",
+          "photographer": "National Inventory of Architectural Heritage / Department of Housing, Local Government and Heritage (individual photographer not credited)",
+          "date_taken": null,
+          "source_collection": "National Inventory of Architectural Heritage — Buildings of Ireland",
+          "licence": "NIAH website terms: educational or private use permitted with NIAH credit; commercial use requires prior written agreement. Not a Creative Commons licence.",
+          "licence_url": "https://www.buildingsofireland.ie/terms-and-conditions/",
+          "attribution": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage, NIAH registration 50020195, photograph 50020195_4.jpg; credited to NIAH.",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Official NIAH close-up visually inspected; shows the raised P&T insignia on the green cast-iron body, matching the catalogue description. Third-party reference, not founder photography. Educational/private use with NIAH credit; written permission required for commercial reuse."
+        }
+      ]
     },
     {
       "record_id": "DUB-STR-0016",
@@ -2111,7 +2141,37 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "NIAH-50020523",
+          "title": "College Street Art Deco lamp standard — full double-headed standard",
+          "image_url": "https://www.buildingsofireland.ie/building-images/niah/images/survey_specific/800/50020523_1.jpg",
+          "source_url": "https://www.buildingsofireland.ie/buildings-search/building/50020523/college-street-dublin-2-co-dublin",
+          "photographer": "National Inventory of Architectural Heritage / Department of Housing, Local Government and Heritage (individual photographer not credited)",
+          "date_taken": null,
+          "source_collection": "National Inventory of Architectural Heritage — Buildings of Ireland",
+          "licence": "NIAH website terms: educational or private use permitted with NIAH credit; commercial use requires prior written agreement. Not a Creative Commons licence.",
+          "licence_url": "https://www.buildingsofireland.ie/terms-and-conditions/",
+          "attribution": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage, NIAH registration 50020523, photograph 50020523_1.jpg; credited to NIAH.",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Official NIAH photograph visually inspected. Shows the full exposed-aggregate concrete shaft, sweeping twin brackets and two copper-roofed lanterns. Exact match to the listed c.1935 College Street standard. Third-party reference, not founder photography. Educational/private use with NIAH credit; written permission required for commercial reuse."
+        },
+        {
+          "source_id": "NIAH-50020523",
+          "title": "College Street Art Deco lamp standard — twin lantern brackets detail",
+          "image_url": "https://www.buildingsofireland.ie/building-images/niah/images/survey_specific/800/50020523_2.jpg",
+          "source_url": "https://www.buildingsofireland.ie/buildings-search/building/50020523/college-street-dublin-2-co-dublin",
+          "photographer": "National Inventory of Architectural Heritage / Department of Housing, Local Government and Heritage (individual photographer not credited)",
+          "date_taken": null,
+          "source_collection": "National Inventory of Architectural Heritage — Buildings of Ireland",
+          "licence": "NIAH website terms: educational or private use permitted with NIAH credit; commercial use requires prior written agreement. Not a Creative Commons licence.",
+          "licence_url": "https://www.buildingsofireland.ie/terms-and-conditions/",
+          "attribution": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage, NIAH registration 50020523, photograph 50020523_2.jpg; credited to NIAH.",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Official NIAH detail photograph visually inspected; clearly shows the paired sweeping arched brackets and two suspended lanterns. Exact design match to the catalogue description. Third-party reference, not founder photography. Educational/private use with NIAH credit; written permission required for commercial reuse."
+        }
+      ]
     },
     {
       "record_id": "DUB-STR-0028",

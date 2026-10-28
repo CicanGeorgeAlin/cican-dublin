@@ -16,15 +16,28 @@ Continued the photo-first review of the existing 195 catalogue records. No new c
 - NIAH individual photographer/date are not credited in the opened record; these fields remain explicitly unassigned.
 - Rights: NIAH website terms permit educational/private use with NIAH credit; commercial use requires prior written agreement. These are third-party reference images, not founder originals.
 
+
+### DUB-BLD-0004 — Old Detective Office, 1 Exchange Court
+- NIAH registration: 50910280
+- Official record: https://www.buildingsofireland.ie/buildings-search/building/50910280/old-detective-office-1-exchange-court-dublin-2-dublin
+- NIAH photograph 50910280_1: https://www.buildingsofireland.ie/building-images/niah/images/survey_specific/800/50910280_1.jpg
+  - Visually inspected; full façade.
+- NIAH photograph 50910280_2: https://www.buildingsofireland.ie/building-images/niah/images/survey_specific/800/50910280_2.jpg
+  - Visually inspected; entrance and commemorative plaque in context.
+- NIAH photograph 50910280_5: https://www.buildingsofireland.ie/building-images/niah/images/survey_specific/800/50910280_5.jpg
+  - Visually inspected; close-up of the commemorative granite plaque.
+- All three registered as OBJECT_PHOTOGRAPH references under existing source ID NIAH-50910280. Photographer/date are not credited in the opened record.
+- Third-party NIAH references, not founder originals. Educational/private use with NIAH credit; commercial use requires prior written agreement.
+
 ## Reviewed but not added
 - DUB-STR-0003 — Gardiner Street Upper Victorian Handyside pillar box, NIAH 50010760. Official record confirms the c.1880 cast-iron box, VR cipher and A. Handyside & Co. maker inscription. Gallery image links returned 403 in this research session; no image added without visual inspection.
 - DUB-BLD-0004 — Old Detective Office, 1 Exchange Court, NIAH 50910280. Official register confirms the c.1830 building and commemorative granite plaque. Direct gallery access could not be verified in this session; no image added.
 
 ## Integrity and coverage
 - Catalogue records: 195 (unchanged)
-- Registered reference image entries: 90 (previously 88; +2)
-- Locations with at least one registered reference photo: 73 (previously 72; +1)
-- Locations still without registered reference photos: 122 (previously 123; -1)
+- Registered reference image entries: 93 (previously 88; +5)
+- Locations with at least one registered reference photo: 74 (previously 72; +2)
+- Locations still without registered reference photos: 121 (previously 123; -2)
 - Registered source records: 262 (unchanged; existing NIAH source reused)
 - Founder originals: none added or claimed
 - No photo coverage credit was given to the two reviewed records without a visually verified image.
@@ -33,4 +46,4 @@ Continued the photo-first review of the existing 195 catalogue records. No new c
 The Marlborough Street image previews were opened and visually inspected in the research session. The official register identifies the post box as a c.1905 cast-iron Edward VII post box on the west side of Marlborough Street, north of the Pro-Cathedral. The two other records were checked against their official NIAH descriptions but were not assigned photographs because their gallery assets could not be visually verified.
 
 ## Commit
-Visual asset update: aa062ddeb466948a379cfb0e99ba6fa92184c747
+Visual asset updates: aa062ddeb466948a379cfb0e99ba6fa92184c747; 1ebd34346cef5ee5bb7f6614a174807c0dd42491

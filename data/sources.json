@@ -2589,5 +2589,15 @@
     "publisher": "National Inventory of Architectural Heritage (NIAH), Department of Housing, Local Government and Heritage",
     "accessed": "2026-10-28",
     "source_type": "OFFICIAL_HERITAGE_PHOTOGRAPH_GALLERY"
+  },
+  {
+    "id": "WMC-FIVE-LAMPS-UTDICITUR-2017-01",
+    "name": "Five Lamps, North Strand — photograph by UtDicitur",
+    "publisher": "Wikimedia Commons — UtDicitur",
+    "url": "https://commons.wikimedia.org/wiki/File:Five_lamps_North_Strand_1.jpg",
+    "accessed": "2026-10-28",
+    "source_type": "IMAGE_REFERENCE_VISUALLY_VERIFIED",
+    "specific_reference": "File page states view of Five Lamps looking west to Killarney Street; taken 13 November 2017; depicted-object coordinates 53.354915, -6.246704; original 1,397 × 1,862 pixels; CC BY-SA 4.0.",
+    "notes": "Exact-object visual match confirmed from original-file preview. Attribution: UtDicitur, “Five lamps North Strand 1”, via Wikimedia Commons. Licence: CC BY-SA 4.0. The preview shows the five-headed lamp standard and former fountain; metadata coordinates closely match CICAN record DUB-STR-0028. Third-party reference only; not a founder original. Original file not downloaded into repository."
   }
 ]

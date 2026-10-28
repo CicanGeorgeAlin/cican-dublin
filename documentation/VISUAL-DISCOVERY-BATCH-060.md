@@ -18,7 +18,7 @@ Continued the photo-first review of the existing 195 catalogue records. No new c
 - The image URL opened successfully in the research session. Image bytes were not downloaded into the repository.
 
 ## Reviewed but not added
-- No additional candidate in this batch passed both exact-object matching and visual inspection. Search leads without inspected image content were not registered as photographs.
+- DUB-BLD-0006 — 23 Marlborough Street, NIAH 50010218. The official NIAH record was opened and confirms the exact catalogue property as a late-eighteenth-century terraced house (c.1780), with a surviving upper-floor façade composition and altered ground-floor shopfront. The gallery image URL 50010218_13.jpg was identified from the official image slider but returned HTTP 403 when opened in this research session. The image could not be visually inspected; no photograph was added. Existing source record NIAH-50010218 retains this limitation.\n- No other candidate in this batch passed both exact-object matching and visual inspection. Search leads without inspected image content were not registered as photographs.
 
 ## Integrity and coverage
 - Catalogue records: 195 (unchanged)

@@ -2121,7 +2121,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-FITZWILLIAM-PLACE-POSTBOX-1993-01",
+          "title": "Post box, Fitzwilliam Place, Dublin",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Post_box%2C_Fitzwilliam_Place%2C_Dublin_-_geograph.org.uk_-_3301013.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Post_box,_Fitzwilliam_Place,_Dublin_-_geograph.org.uk_-_3301013.jpg",
+          "photographer": "Christopher Hilton",
+          "date_taken": "1993-07-26",
+          "source_collection": "Geograph Britain and Ireland via Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "attribution": "Christopher Hilton, “Post box, Fitzwilliam Place, Dublin”, 26 July 1993, via Geograph Britain and Ireland / Wikimedia Commons (CC BY-SA 2.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "The Commons file page gives depicted-place coordinates 53.334292, -6.251482, matching the NIAH location at the south-east end of Fitzwilliam Place. The photograph visibly depicts the cast-iron pillar post box. Third-party reference photograph; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-STR-0024",

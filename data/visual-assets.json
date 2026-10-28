@@ -1829,7 +1829,37 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "NIAH-50100593",
+          "photographer": "National Inventory of Architectural Heritage / Department of Housing, Local Government and Heritage (individual photographer not credited)",
+          "date_taken": null,
+          "source_collection": "National Inventory of Architectural Heritage — Buildings of Ireland",
+          "licence": "NIAH website terms: educational or private use permitted with NIAH credit; commercial use requires prior written agreement. Not a Creative Commons licence.",
+          "licence_url": "https://www.buildingsofireland.ie/terms-and-conditions/",
+          "attribution": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage, “Mount Street Crescent, Warrington Place, Dublin 2” (Reg. 50100593), photograph 50100593; credited to NIAH.",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "source_url": "https://www.buildingsofireland.ie/buildings-search/building/50100593/mount-street-crescent-warrington-place-dublin-2-dublin",
+          "title": "Mount Street Crescent Victorian Handyside post box — full front view",
+          "image_url": "https://www.buildingsofireland.ie/building-images/niah/images/survey_specific/800/50100593_1.jpg",
+          "location_note": "Official NIAH photograph opened and visually inspected. Shows the complete green cylindrical cast-iron pillar post box, domed cap, letter aperture, hinged door and black plinth. The exact NIAH record places this box at the east end of Mount Street Crescent at Warrington Place. Exact-object reference, not founder photography."
+        },
+        {
+          "source_id": "NIAH-50100593",
+          "photographer": "National Inventory of Architectural Heritage / Department of Housing, Local Government and Heritage (individual photographer not credited)",
+          "date_taken": null,
+          "source_collection": "National Inventory of Architectural Heritage — Buildings of Ireland",
+          "licence": "NIAH website terms: educational or private use permitted with NIAH credit; commercial use requires prior written agreement. Not a Creative Commons licence.",
+          "licence_url": "https://www.buildingsofireland.ie/terms-and-conditions/",
+          "attribution": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage, “Mount Street Crescent, Warrington Place, Dublin 2” (Reg. 50100593), photograph 50100593; credited to NIAH.",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "source_url": "https://www.buildingsofireland.ie/buildings-search/building/50100593/mount-street-crescent-warrington-place-dublin-2-dublin",
+          "title": "Mount Street Crescent Victorian Handyside post box — Queen Victoria cipher detail",
+          "image_url": "https://www.buildingsofireland.ie/building-images/niah/images/survey_specific/800/50100593_4.jpg",
+          "location_note": "Official NIAH close-up opened and visually inspected; shows the raised VR royal cipher on the hinged door, matching the NIAH description. Exact detail reference for this post box, not founder photography."
+        }
+      ]
     },
     {
       "record_id": "DUB-STR-0019",

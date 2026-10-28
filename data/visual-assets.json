@@ -2136,6 +2136,28 @@
             "observations": "The image clearly depicts the five-headed cast-iron lamp standard and former fountain at the Amiens Street / North Strand traffic island. The five lanterns, ornate brackets and decorated pedestal correspond to the NIAH-described object and archive photography brief.",
             "limitations": "This confirms the depicted object and image lead only. It is a third-party reference photograph, not a founder original; the 37.67 MB original file was not downloaded. Founder field photograph and full-resolution asset acquisition remain outstanding."
           }
+        },
+        {
+          "record_id": "DUB-STR-0028",
+          "source_id": "WMC-FIVE-LAMPS-UTDICITUR-2017-01",
+          "title": "Five lamps North Strand — view west towards Killarney Street",
+          "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Five_lamps_North_Strand_1.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Five_lamps_North_Strand_1.jpg",
+          "photographer": "UtDicitur",
+          "date_taken": "2017-11-13",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "UtDicitur, “Five lamps North Strand 1”, 13 November 2017, via Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "The Commons file page identifies the view as Five Lamps looking west towards Killarney Street and gives depicted-object coordinates 53.354915, -6.246704, within approximately 2 metres of the archive's source-derived coordinates.",
+          "visual_audit": {
+            "status": "VISUALLY_CONFIRMED_EXACT_OBJECT",
+            "date": "2026-10-28",
+            "method": "Inspected the original-file preview linked from the Wikimedia Commons file page.",
+            "observations": "The image clearly shows the five-headed cast-iron lamp standard and former fountain, including the five lanterns, ornate brackets, fluted column, decorated pedestal and basin. Commons metadata gives object coordinates 53.354915, -6.246704, closely matching the catalogue coordinates 53.3549083, -6.2466877.",
+            "limitations": "This is a third-party reference photograph, not a founder original. The full original file has not been downloaded into the repository."
+          }
         }
       ]
     },

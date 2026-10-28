@@ -368,10 +368,10 @@
     "name": "O'Connell Street Upper twin post box",
     "publisher": "Department of Housing, Local Government and Heritage",
     "url": "https://www.buildingsofireland.ie/buildings-search/building/50010555/oconnell-street-upper-dublin-dublin",
-    "accessed": "2026-10-24",
-    "source_type": "OFFICIAL_REGISTER",
+    "accessed": "2026-10-28",
+    "source_type": "OFFICIAL_REGISTER_WITH_PHOTOGRAPH_GALLERY",
     "specific_reference": "NIAH Registration No. 50010555",
-    "notes": "NIAH describes a c.1930 twin post box at the north end of O'Connell Street at Cathal Brugha Street, with Gaelic P & T lettering; published coordinates 315851, 234897."
+    "notes": "NIAH describes a c.1930 twin post box at the north end of O'Connell Street at Cathal Brugha Street, with Gaelic P & T lettering; published coordinates 315851, 234897. Official page slider exposes two distinct image files: https://www.buildingsofireland.ie/building-images/niah/images/survey_specific/800/50010555_6.jpg and https://www.buildingsofireland.ie/building-images/niah/images/survey_specific/800/50010555_1.jpg. Click-through retrieval returned HTTP 403 for both image files; neither was downloaded or visually inspected. Treat as an official photo-gallery lead only, not a published image asset. NIAH terms permit educational/private use with source credit; commercial use requires prior written agreement."
   },
   {
     "id": "NIAH-50010556",

@@ -2539,5 +2539,35 @@
     "source_type": "ARCHIVAL_COLLECTION_SEARCH",
     "specific_reference": "Wiltshire Photographic Collection search results for Harcourt Street include “Detail of iron boot scraper with ‘hawk’ motif” (1969; two catalogue entries) and “Detail of iron boot scraper with ‘dolphin’ motif” (1969; notes cross-reference WIL60[12] and WIL61[1]).",
     "notes": "The collection search confirms multiple 1969 Harcourt Street boot-scraper records, including hawk and dolphin motifs. The search-results page does not expose the individual record identifiers for those two scraper titles in the retrieved metadata, and it does not name the street number. Therefore no one of these images is attached to DUB-STR-0089 (84 Harcourt Street), DUB-BLD-0012 (69 Harcourt Street), or any other specific property. NLI reproduction rights must be checked before reuse; this entry is a research lead only, not an image asset."
+  },
+  {
+    "id": "NLI-WIL-47841-FIVE-LAMPS-ALDBOROUGH-1965",
+    "name": "The Five Lamps and Aldborough House, Dublin — Wiltshire Photographic Collection, 1965",
+    "url": "https://catalogue.nli.ie/Record/vtls000047841",
+    "specific_reference": "NLI catalogue record vtls000047841; call number WIL 16[11]; one 6 × 6 cm photographic negative film; 1965.",
+    "notes": "The NLI title and subject metadata identify The Five Lamps and Aldborough House, with subjects including ironwork, lampposts, Portland Row and Amiens Street. Strong historic street-context reference for CICAN record DUB-STR-0028 (The Five Lamps). The catalogue title indicates the lamp monument is in frame, but the negative itself has not been independently inspected in this pass. NLI states reproduction rights are owned by the National Library of Ireland; no open licence is asserted and permission is required before reproduction.",
+    "publisher": "National Library of Ireland — National Photographic Archive",
+    "accessed": "2026-10-28",
+    "source_type": "ARCHIVAL_PHOTOGRAPH_CATALOGUE_RECORD"
+  },
+  {
+    "id": "NLI-WIL-49775-COLLEGE-GREEN-SEAHORSE-LAMP-1966",
+    "name": "Ornate lamp post depicting sea-horses, College Green, Dublin — Wiltshire Photographic Collection, 1966",
+    "url": "https://catalogue.nli.ie/Record/vtls000049775",
+    "specific_reference": "NLI catalogue record vtls000049775; call number WIL 74[1]; one 23 × 17 cm photographic print on card; 1966.",
+    "notes": "NLI catalogue metadata identifies an ornate lamppost depicting sea-horses on College Green and subjects Trinity College, lampposts and ironwork. This is a potentially exact historic visual source for the former gas-lamp standards with carved seahorses noted east of the Henry Grattan Monument in CICAN record DUB-MON-0002. It is not yet confirmed that the pictured lamp is one of the exact two standards described by the NIAH appraisal; do not attach as an exact object until the image and position are checked. Reproduction rights owned by NLI; permission required.",
+    "publisher": "National Library of Ireland — National Photographic Archive",
+    "accessed": "2026-10-28",
+    "source_type": "ARCHIVAL_PHOTOGRAPH_CATALOGUE_RECORD"
+  },
+  {
+    "id": "NLI-WIL-47801-GRATTAN-TRINITY-DAME-1965",
+    "name": "Trinity College and Grattan statue, viewed from Dame Street, Dublin — Wiltshire Photographic Collection, 1965",
+    "url": "https://catalogue.nli.ie/Record/vtls000047801",
+    "specific_reference": "NLI catalogue record vtls000047801; call number WIL 15[12]; one 6 × 6 cm photographic negative; 1965.",
+    "notes": "NLI catalogue metadata identifies the Henry Grattan statue by John Henry Foley and Trinity College, viewed from Dame Street. Potential historic context image for CICAN record DUB-MON-0002 (Henry Grattan Monument). The catalogue record states the statue was erected in 1874; the current CICAN object description and independent heritage sources should be reconciled before adopting that date as the archive's canonical date. The image itself has not been independently inspected in this pass. Reproduction rights owned by NLI; permission required.",
+    "publisher": "National Library of Ireland — National Photographic Archive",
+    "accessed": "2026-10-28",
+    "source_type": "ARCHIVAL_PHOTOGRAPH_CATALOGUE_RECORD"
   }
 ]

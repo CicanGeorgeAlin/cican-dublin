@@ -1041,7 +1041,37 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "NIAH-50010238",
+          "photographer": "National Inventory of Architectural Heritage / Department of Housing, Local Government and Heritage (individual photographer not credited)",
+          "date_taken": null,
+          "source_collection": "National Inventory of Architectural Heritage — Buildings of Ireland",
+          "licence": "NIAH website terms: educational or private use permitted with NIAH credit; commercial use requires prior written agreement. Not a Creative Commons licence.",
+          "licence_url": "https://www.buildingsofireland.ie/terms-and-conditions/",
+          "attribution": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage, “Marlborough Street, Dublin 1” (Reg. 50010238), photograph 50010238; credited to NIAH.",
+          "source_url": "https://www.buildingsofireland.ie/buildings-search/building/50010238/marlborough-street-dublin-1-dublin",
+          "title": "Marlborough Street Edwardian post box — full front and street setting",
+          "image_url": "https://www.buildingsofireland.ie/building-images/niah/images/survey_specific/800/50010238_1.jpg",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Official NIAH image visually inspected. Shows the green Edward VII pillar post box in full, with its letter aperture, royal cipher and street setting. The image matches the catalogue object described in Registration 50010238. Third-party reference, not a founder original. Educational/private use with NIAH credit; obtain written permission before commercial reuse."
+        },
+        {
+          "source_id": "NIAH-50010238",
+          "photographer": "National Inventory of Architectural Heritage / Department of Housing, Local Government and Heritage (individual photographer not credited)",
+          "date_taken": null,
+          "source_collection": "National Inventory of Architectural Heritage — Buildings of Ireland",
+          "licence": "NIAH website terms: educational or private use permitted with NIAH credit; commercial use requires prior written agreement. Not a Creative Commons licence.",
+          "licence_url": "https://www.buildingsofireland.ie/terms-and-conditions/",
+          "attribution": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage, “Marlborough Street, Dublin 1” (Reg. 50010238), photograph 50010238; credited to NIAH.",
+          "source_url": "https://www.buildingsofireland.ie/buildings-search/building/50010238/marlborough-street-dublin-1-dublin",
+          "title": "Marlborough Street Edwardian post box — close-up of royal cipher and lettering",
+          "image_url": "https://www.buildingsofireland.ie/building-images/niah/images/survey_specific/800/50010238_3.jpg",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Official NIAH close-up visually inspected. Shows the Edward VII royal cipher and POST OFFICE lettering on the green cast-iron box, matching the catalogue description. Third-party reference, not a founder original. Educational/private use with NIAH credit; obtain written permission before commercial reuse."
+        }
+      ]
     },
     {
       "record_id": "DUB-BLD-0006",

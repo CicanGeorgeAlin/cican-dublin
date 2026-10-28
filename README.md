@@ -1,4 +1,4 @@
-# CICAN DUBLIN
+# CICAN VASILE DUBLIN
 
 **Created by CICAN GEORGE ALIN · Dublin, Ireland**
 
@@ -6,7 +6,7 @@ An evidence-first discovery, research, fieldwork and visual-preservation project
 
 ## Live website
 
-https://cicangeorgealin.github.io/cican-dublin/
+https://cicangeorgealin.github.io/cican-vasile-dublin/
 
 ## Current catalogue
 
@@ -21,7 +21,7 @@ The visual inventory currently contains **94 third-party reference photographs a
 
 ## Locked map baseline
 
-The current map-marker implementation is preserved as **MAP MARKER SYSTEM V1 BASELINE** on the [`baseline/v1-map-marker-system`](https://github.com/CicanGeorgeAlin/cican-dublin/tree/baseline/v1-map-marker-system) branch. Recovery commit: `afc74b4a0814a856efe5f6f97a4ad3bfebbcc0bb`. Future map improvements should preserve this reference point.
+The current map-marker implementation is preserved as **MAP MARKER SYSTEM V1 BASELINE** on the [`baseline/v1-map-marker-system`](https://github.com/CicanGeorgeAlin/cican-vasile-dublin/tree/baseline/v1-map-marker-system) branch. Recovery commit: `afc74b4a0814a856efe5f6f97a4ad3bfebbcc0bb`. Future map improvements should preserve this reference point.
 
 ## CICAN DUBLIN mission
 
@@ -61,7 +61,7 @@ DISCOVER → INVESTIGATE → VERIFY → LOCATE → PLAN FIELDWORK → FOUNDER PH
 
 ## Website
 
-CICAN DUBLIN is a black, map-first discovery and fieldwork application with a searchable catalogue and evidence-led research feed. Its core functions include:
+CICAN VASILE DUBLIN is a black, map-first discovery and fieldwork application with a searchable catalogue and evidence-led research feed. Its core functions include:
 
 - Search across record names, IDs, addresses, categories, historical descriptions, periods, significance, references, research notes and photography briefs.
 - Category and district filters.

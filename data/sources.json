@@ -2569,5 +2569,25 @@
     "publisher": "National Library of Ireland — National Photographic Archive",
     "accessed": "2026-10-28",
     "source_type": "ARCHIVAL_PHOTOGRAPH_CATALOGUE_RECORD"
+  },
+  {
+    "id": "NIAH-50010760-GARDINER-UPPER-POSTBOX-IMAGE-SET",
+    "name": "Gardiner Street Upper Victorian pillar post box — NIAH photographic record 50010760",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010760/gardiner-street-upper-dublin-1-dublin",
+    "specific_reference": "NIAH registration 50010760; official page exposes five photographic image links including 50010760_5.jpg, 50010760_2.jpg and 50010760_1.jpg.",
+    "notes": "Exact catalogue match to CICAN visual record DUB-STR-0003. NIAH record describes a c.1880 cast-iron Handyside pillar box with Queen Victoria VR insignia and maker's inscription. The official page has a five-image set; individual image files returned HTTP 403 to the research client, so image contents could not be inspected or copied into the archive. Treat as a high-confidence official image lead, not yet as a published/verified asset. NIAH terms permit educational/private use with source credit; commercial use requires prior written agreement. Check terms and obtain written permission as applicable before publishing/reusing images.",
+    "publisher": "National Inventory of Architectural Heritage (NIAH), Department of Housing, Local Government and Heritage",
+    "accessed": "2026-10-28",
+    "source_type": "OFFICIAL_HERITAGE_PHOTOGRAPH_GALLERY"
+  },
+  {
+    "id": "NIAH-50010238-MARLBOROUGH-EDWARDVII-POSTBOX",
+    "name": "Marlborough Street Edwardian pillar post box — NIAH photographic record 50010238",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010238/marlborough-street-dublin-1-co-dublin",
+    "specific_reference": "NIAH registration 50010238; official building record includes a photographic image gallery.",
+    "notes": "Exact catalogue match to CICAN visual record DUB-STR-0004. NIAH describes a c.1905 cast-iron post box on the west side of Marlborough Street, north of the Pro-Cathedral, with RE VII POST OFFICE insignia and McDowall Steven & Co maker lettering. The record includes photographs, but the page/image request was blocked (403) in this research pass; no image was downloaded or independently inspected. High-confidence official photo lead only, not a published/verified asset. NIAH terms permit educational/private use with source credit; commercial use requires prior written agreement.",
+    "publisher": "National Inventory of Architectural Heritage (NIAH), Department of Housing, Local Government and Heritage",
+    "accessed": "2026-10-28",
+    "source_type": "OFFICIAL_HERITAGE_PHOTOGRAPH_GALLERY"
   }
 ]

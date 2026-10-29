@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 196,
+  "record_count": 197,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -7597,6 +7597,54 @@
         "source_requirement": "Corresponding founder-captured original photograph"
       },
       "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-INF-0004",
+      "name": "Boland's warehouse/mill at lifting bridge — six-storey stone warehouse",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 4",
+      "address": "1 Ringsend Road, Dublin 4",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Photograph the full surviving six-storey stone quayside warehouse from a lawful public viewpoint",
+        "Capture the stone facade, window openings, masonry joints and surviving historic details",
+        "Show the building's relationship to Grand Canal Dock and the modern Bolands Quay development",
+        "Record any visible interpretation, protected-structure plaques or historic building features",
+        "Take close-up detail photographs only from public areas; do not photograph private residential interiors",
+        "Record founder GPS at the actual building frontage; current coordinate is a planning-site centroid, not a precise facade fix"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-BOLANDS-MILL-NIGHTFALL-2025",
+          "title": "Boland's Mill under nightfall — restored historic stone facade",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Boland%27s_Mill_under_nightfall.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Boland%27s_Mill_under_nightfall.jpg",
+          "photographer": "David Kernan",
+          "date_taken": "2025-12-16",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "David Kernan, “Boland's Mill under nightfall”, 16 December 2025, via Wikimedia Commons (CC BY 4.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "The photograph depicts the restored historic stone facade of Bolands Flour Mills within the Bolands Quay development. Exact-object reference image for the surviving stone mill/warehouse frontage; third-party photograph, not a founder original."
+        }
+      ]
     }
   ],
   "last_updated": "2026-10-28"

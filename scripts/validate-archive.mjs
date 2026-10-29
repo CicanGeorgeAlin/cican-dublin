@@ -68,14 +68,14 @@ for(const file of ["index.html","archive.html","my-dublin.html"]){
 }
 for(const file of ["index.html","archive.html","preview/app.html","preview/manifest.webmanifest"]){const content=read(file);assert.ok(!/CICAN\s+DUBLIN\s+ARCHIVE/i.test(content),file+" must use the CICAN DUBLIN public brand.");}
 const sitemap=read("sitemap.xml"),robots=read("robots.txt");
-assert.ok(sitemap.includes("https://cicangeorgealin.github.io/cican-vasile-dublin/")&&sitemap.includes("https://cicangeorgealin.github.io/cican-vasile-dublin/archive.html"),"Sitemap must include the public homepage and discovery catalogue.");
-assert.ok(robots.includes("Sitemap: https://cicangeorgealin.github.io/cican-vasile-dublin/sitemap.xml"),"Robots file must advertise the sitemap.");
+assert.ok(sitemap.includes("https://cicangeorgealin.github.io/cican-dublin/")&&sitemap.includes("https://cicangeorgealin.github.io/cican-dublin/archive.html"),"Sitemap must include the public homepage and discovery catalogue.");
+assert.ok(robots.includes("Sitemap: https://cicangeorgealin.github.io/cican-dublin/sitemap.xml"),"Robots file must advertise the sitemap.");
 assert.ok(sitemap.includes("/places/"),"Sitemap must include generated place pages.");
 for(const record of objects){
  const pagePath="places/"+record.id+".html";
  assert.ok(fs.existsSync(path.join(root,pagePath)),"Missing generated SEO page: "+pagePath);
  const page=read(pagePath);
- assert.ok(page.includes('rel="canonical" href="https://cicangeorgealin.github.io/cican-vasile-dublin/places/'+record.id+'.html"'),"Incorrect canonical URL in "+pagePath);
+ assert.ok(page.includes('rel="canonical" href="https://cicangeorgealin.github.io/cican-dublin/places/'+record.id+'.html"'),"Incorrect canonical URL in "+pagePath);
  const structuredStart=page.indexOf('<script type="application/ld+json">');
  const structuredEnd=page.indexOf("</script>",structuredStart);
  assert.ok(structuredStart>=0&&structuredEnd>structuredStart,"Missing structured data in "+pagePath);
@@ -87,7 +87,7 @@ assert.ok(read("my-dublin.html").includes('<meta name="robots" content="noindex,
 const home=read("index.html");
 const mapFirstHome=home.includes('id="map"')&&home.includes('<base href="./preview/">')&&home.includes('src="./app/app.js"');
 if(mapFirstHome){
- assert.ok(home.includes('rel="canonical" href="https://cicangeorgealin.github.io/cican-vasile-dublin/"'),"Map-first homepage must declare the canonical root URL.");
+ assert.ok(home.includes('rel="canonical" href="https://cicangeorgealin.github.io/cican-dublin/"'),"Map-first homepage must declare the canonical root URL.");
  assert.ok(home.includes('id="search"')&&home.includes('id="discovery-panel"')&&!home.includes('.top-left,.map-legend{display:none!important}'),"Map-first homepage must expose search and discovery controls.");
 }else{
  for(const id of ["homeSearch","homeDistrict","homeCount","homeGrid","homeMore","heroDiscoveryCount","heroIndexTotal"])assert.ok(home.includes('id="'+id+'"'),"Homepage missing #"+id);

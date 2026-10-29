@@ -1,8 +1,8 @@
 {
   "id": "./app.html",
-  "name": "CICAN VASILE DUBLIN — Dublin Heritage Archive",
-  "short_name": "CICAN VASILE DUBLIN",
-  "description": "A map-first discovery and fieldwork application for Dublin's historic places, objects and overlooked details.",
+  "name": "CICAN DUBLIN — Dublin Heritage Archive",
+  "short_name": "CICAN DUBLIN",
+  "description": "An interactive Dublin heritage map and evidence-led visual archive of historic places, buildings, streets, monuments and overlooked details.",
   "start_url": "./app.html",
   "scope": "./",
   "display": "standalone",

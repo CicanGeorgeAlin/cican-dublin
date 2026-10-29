@@ -2779,5 +2779,35 @@
     "source_type": "OFFICIAL_LOCAL_AUTHORITY_REGISTER",
     "specific_reference": "January 2018 Record of Protected Structures, p. 180; entries 7378–7381, Ringsend Road, Dublin 4.",
     "notes": "Lists the former Reg Armstrong Works carriage entrance with Ionic columns (7378), former Irish Glass Bottle Company office (7379), CIE bus depot granite gate piers (7380), and Ringsend Shelbourne Pierrot Club/former Bovril building (7381). These are candidate leads only: this historical register extract does not establish that each feature survives in situ in 2026, and none was added as a catalogue object in Batch 099."
+  },
+  {
+    "id": "DCC-RPS-2022-2028-VOLUME4",
+    "name": "Dublin City Development Plan 2022–2028, Volume 4 — Record of Protected Structures",
+    "publisher": "Dublin City Council",
+    "url": "https://www.dublincity.ie/sites/default/files/2022-12/FINAL%20Dublin%20City%20Development%20Plan%202022-2028%20-%20Volume%204%20RPS.pdf",
+    "accessed": "2026-10-29",
+    "source_type": "OFFICIAL_LOCAL_AUTHORITY_REGISTER",
+    "specific_reference": "Page 235; RPS 7376; 103 Ringsend Park, Dublin 4; description: drinking fountain in garden wall.",
+    "notes": "Current statutory Dublin City Record of Protected Structures (2022–2028 plan) identifies the historic drinking fountain as RPS 7376. This confirms its protected-structure listing, not by itself its current physical condition."
+  },
+  {
+    "id": "BUSCONNECTS-RINGSEND-CBC16-RPS7376",
+    "name": "Ringsend to City Centre Core Bus Corridor Scheme — Architectural Heritage Appendix, RPS 7376",
+    "publisher": "Jacobs / ARUP / SYSTRA; BusConnects / An Bord Pleanála planning documentation",
+    "url": "https://www.pleanala.ie/publicaccess/EIAR-NIS/317679/01_EIAR/4.%20Volume%204%20-%20Appendices/Part%202%20of%202/Chapter%2016%20%28Architectural%20Heritage%29/Appendix%20A16.1-A16.3%20Architectural%20Heritage.pdf",
+    "accessed": "2026-10-29",
+    "source_type": "ENVIRONMENTAL_IMPACT_ASSESSMENT_HERITAGE_SURVEY",
+    "specific_reference": "Ringsend to City Centre Core Bus Corridor Scheme, Appendix A16.3, p. 32; identification RPS 7376; 103 Ringsend Park, Dublin 4.",
+    "notes": "Describes a c.1930 marble fountain recessed into a brick garden wall at the junction of Ringsend Park and Cambridge Road, with decorative granite capping. Records architectural, artistic and social significance. The appendix includes a street photograph. This is a project survey description; its c.1930 date conflicts with a separate EPA report that gives 1906."
+  },
+  {
+    "id": "EPA-RINGSEND-PARK-FEATURES-2024",
+    "name": "Environmental report appendix — cultural heritage features at Ringsend Park, including RPS 7376",
+    "publisher": "EPA-published environmental assessment documentation",
+    "url": "https://epawebapp.epa.ie/licences/lic_eDMS/090151b2808fb7be.pdf",
+    "accessed": "2026-10-29",
+    "source_type": "ENVIRONMENTAL_ASSESSMENT_HERITAGE_INVENTORY",
+    "specific_reference": "Appendix 16-1, p. 32; RPS 7376 drinking fountain; ITM Easting 718340, ITM Northing 734070.",
+    "notes": "Identifies RPS 7376 as a drinking fountain erected in 1906, located at the end of the garden wall of 103 Ringsend Park, Dublin 4. Includes two photographs depicting a small brick fountain structure with an arched recess and basin beside the garden wall. Supplies ITM coordinates 718340 E, 734070 N. Its 1906 date conflicts with the BusConnects appendix's c.1930 date; the discrepancy is retained unresolved."
   }
 ]

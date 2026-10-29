@@ -3364,7 +3364,23 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-HUBAND-BRIDGE-DEITEL55-2012-01",
+          "title": "Huband Bridge over the Grand Canal, Dublin",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/GrandCanal-5-HubandBridge.JPG",
+          "source_url": "https://commons.wikimedia.org/wiki/File:GrandCanal-5-HubandBridge.JPG",
+          "photographer": "Deitel55",
+          "date_taken": "2012-02-03",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "attribution": "Deitel55, “GrandCanal-5-HubandBridge.JPG”, 3 February 2012, via Wikimedia Commons (CC BY-SA 3.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Original image visually inspected and shows the exact Huband Bridge over the Grand Canal, including its single stone arch, balustraded parapet and canal setting. Third-party reference photograph; not a founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-BLD-0038",

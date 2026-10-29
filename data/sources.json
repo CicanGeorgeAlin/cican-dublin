@@ -2809,5 +2809,35 @@
     "source_type": "ENVIRONMENTAL_ASSESSMENT_HERITAGE_INVENTORY",
     "specific_reference": "Appendix 16-1, p. 32; RPS 7376 drinking fountain; ITM Easting 718340, ITM Northing 734070.",
     "notes": "Identifies RPS 7376 as a drinking fountain erected in 1906, located at the end of the garden wall of 103 Ringsend Park, Dublin 4. Includes two photographs depicting a small brick fountain structure with an arched recess and basin beside the garden wall. Supplies ITM coordinates 718340 E, 734070 N. Its 1906 date conflicts with the BusConnects appendix's c.1930 date; the discrepancy is retained unresolved."
+  },
+  {
+    "id": "UCD-CRAMPTON-IRISH-GLASS-FACTORY-1935",
+    "name": "G. & T. Crampton Photograph Archive — Irish Glass Bottle Co. Ltd. sheet glass factory",
+    "publisher": "UCD Digital Library",
+    "url": "https://digital.ucd.ie/c0097/items/c0097_o0238.html",
+    "accessed": "2026-10-29",
+    "source_type": "ARCHIVAL_PHOTOGRAPH_CATALOGUE",
+    "specific_reference": "Item c0097_o0238; source identifier 2/73/1; photograph dated 1935; Charlotte Quay, Ringsend; published coordinates 53.342089, -6.231755.",
+    "notes": "Catalogue description states the factory was originally constructed in 1870–1871 by architect Thomas Holbrook, altered by G. & T. Crampton in 1935–1936, and no longer exists. The image is licensed CC BY-NC-ND 4.0; commercial use requires contacting UCD Digital Library. Image is a research reference only and has not been copied into the archive."
+  },
+  {
+    "id": "DCC-RPS-2022-2028-RPS7379",
+    "name": "Dublin City Development Plan 2022–2028, Volume 4 — RPS 7379",
+    "publisher": "Dublin City Council",
+    "url": "https://www.dublincity.ie/sites/default/files/2022-12/FINAL%20Dublin%20City%20Development%20Plan%202022-2028%20-%20Volume%204%20RPS.pdf",
+    "accessed": "2026-10-29",
+    "source_type": "OFFICIAL_LOCAL_AUTHORITY_REGISTER",
+    "specific_reference": "RPS 7379, Ringsend Road / corner of South Docks Road, Dublin 4; former Irish Glass Bottle Company three-storey brick office with glass-block entrance, feature window and clock.",
+    "notes": "Current 2022–2028 statutory RPS listing. This is a separate office building from the former sheet-glass factory at Charlotte Quay; do not conflate the two structures."
+  },
+  {
+    "id": "DCC-PLANNING-WEBDSDZ2017-26-RPS7379",
+    "name": "Dublin City Council planning case WEBDSDZ2017/26 — 50 Ringsend Road",
+    "publisher": "Dublin City Council planning case, reproduced by Planning-Records.uk",
+    "url": "https://planning-records.uk/dublinnew/2026/175410/",
+    "accessed": "2026-10-29",
+    "source_type": "PLANNING_APPLICATION_RECORD",
+    "specific_reference": "Application WEBDSDZ2017/26; 50 Ringsend Road, Dublin 4; decision 22 June 2026; description identifies an existing office building and states a portion of its façade is protected under RPS 7379.",
+    "notes": "Current planning record supports the continued existence of an office building associated with RPS 7379 in 2026. It does not independently verify every historic architectural detail in the RPS description or the survival of the separate former factory at Charlotte Quay."
   }
 ]

@@ -12,12 +12,12 @@ https://cicangeorgealin.github.io/cican-dublin/
 
 The catalogue currently contains **195 records** across Dublin 1, Dublin 2 and Dublin 3, linked to **263 source entries** and **22 research notes**. The current district distribution is 70 records in Dublin 1, 59 in Dublin 2 and 66 in Dublin 3. Recent research has added individually documented discoveries including historic post boxes, lamp standards, coal-hole covers, boot scrapers, railings and Georgian entrance details.
 
-- **167 VERIFIED** records.
-- **28 PARTIALLY_VERIFIED** records, where source inspection or specific details still require confirmation.
+- **193 VERIFIED** records.
+- **2 PARTIALLY_VERIFIED** records, where source inspection or specific details still require confirmation.
 - **195 awaiting original founder photography**.
 - No record is marked photographed, illustrated or published.
 
-The visual inventory currently contains **95 third-party reference photographs across 76 locations**, each linked to a registered source and reuse licence. **120 of 195 catalogue records still need a reference photograph.** Visual Discovery Batch 003 adds eight new location matches across Clontarf, including the Presbyterian church, promenade shelter, St Anthony's Hall, Brian Ború's Well and three historic post boxes; one additional image documents the Clontarf Road cast-iron structure as a field-comparison reference. Contextual images are explicitly distinguished from exact-object photographs. No third-party image is treated as founder photography. Visual Discovery Batch 004 adds four exact Clontarf matches (the Castle Avenue church and cemetery, the Seafield Road West Celtic cross, and Clontarf Garda Station) plus a Marino Crescent streetscape reference. See the [Visual Discovery Batch 060 report](documentation/VISUAL-DISCOVERY-BATCH-060.md), [Visual Discovery Batch 059 report](documentation/VISUAL-DISCOVERY-BATCH-059.md), [Visual Discovery Batch 001 report](documentation/VISUAL-DISCOVERY-BATCH-001.md), [Batch 002 report](documentation/VISUAL-DISCOVERY-BATCH-002.md) and [Batch 003 report](documentation/VISUAL-DISCOVERY-BATCH-003.md) for image matches, provenance and limitations. This is an expanding research inventory, not a complete survey of Dublin. 150 records currently carry source-derived WGS 84 map coordinates; 45 records are intentionally unmapped pending defensible location data. Coordinates are not founder-recorded GPS fixes and still require field verification.
+The visual inventory currently contains **95 third-party reference photographs across 76 locations**, each linked to a registered source and reuse licence. **119 of 195 catalogue records still need a reference photograph.** Visual Discovery Batch 003 adds eight new location matches across Clontarf, including the Presbyterian church, promenade shelter, St Anthony's Hall, Brian Ború's Well and three historic post boxes; one additional image documents the Clontarf Road cast-iron structure as a field-comparison reference. Contextual images are explicitly distinguished from exact-object photographs. No third-party image is treated as founder photography. Visual Discovery Batch 004 adds four exact Clontarf matches (the Castle Avenue church and cemetery, the Seafield Road West Celtic cross, and Clontarf Garda Station) plus a Marino Crescent streetscape reference. See the [Visual Discovery Batch 060 report](documentation/VISUAL-DISCOVERY-BATCH-060.md), [Visual Discovery Batch 059 report](documentation/VISUAL-DISCOVERY-BATCH-059.md), [Visual Discovery Batch 001 report](documentation/VISUAL-DISCOVERY-BATCH-001.md), [Batch 002 report](documentation/VISUAL-DISCOVERY-BATCH-002.md) and [Batch 003 report](documentation/VISUAL-DISCOVERY-BATCH-003.md) for image matches, provenance and limitations. This is an expanding research inventory, not a complete survey of Dublin. 150 records currently carry source-derived WGS 84 map coordinates; 45 records are intentionally unmapped pending defensible location data. Coordinates are not founder-recorded GPS fixes and still require field verification.
 
 ## Locked map baseline
 
@@ -61,7 +61,7 @@ DISCOVER → INVESTIGATE → VERIFY → LOCATE → PLAN FIELDWORK → FOUNDER PH
 
 ## Website
 
-CICAN VASILE DUBLIN is a black, map-first discovery and fieldwork application with a searchable catalogue and evidence-led research feed. Its core functions include:
+CICAN DUBLIN is a black, map-first discovery and fieldwork application with a searchable catalogue and evidence-led research feed. Its core functions include:
 
 - Search across record names, IDs, addresses, categories, historical descriptions, periods, significance, references, research notes and photography briefs.
 - Category and district filters.

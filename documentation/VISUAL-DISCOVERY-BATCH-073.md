@@ -36,9 +36,9 @@ https://www.buildingsofireland.ie/buildings-search/building/50100594/huband-brid
 
 A strong exact-object historical photograph was found:
 - Wikimedia Commons file page: https://commons.wikimedia.org/wiki/File:Huband_Bridge_(6337098348).jpg
-- Image: https://upload.wikimedia.org/wikipedia/commons/6/6e/Huband_Bridge_%286337098348%29.jpg
+- Image: https://upload.wikimedia.org/wikipedia/commons/d/d6/Huband_Bridge_%286337098348%29.jpg
 - NLI Flickr Commons source: https://www.flickr.com/photos/nlireland/6337098348
-- NLI catalogue record: https://catalogue.nli.ie/Record/vtls000049362
+- NLI catalogue record: https://catalogue.nli.ie/Record/vtls000048163
 - NLI reference: WIL 24[12]; photographer Elinor Wiltshire; photograph dated late autumn/early winter 1966.
 - Commons file page records camera position 53.336395, -6.241832 and labels the file “No known copyright restrictions”.
 

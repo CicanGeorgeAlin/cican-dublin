@@ -2629,5 +2629,15 @@
     "source_type": "IMAGE_RESEARCH_LEAD",
     "specific_reference": "Category listing includes “Dublin - The Baths at Clontarf - 20220208125314.jpg”, original dimensions 4,032 × 3,024 pixels. Potential exact-object image for DUB-BLD-0060 / NIAH 50030148.",
     "notes": "The category listing identifies a photograph explicitly titled for the Baths at Clontarf. The individual Commons file page could not be retrieved in this research pass, so uploader/photographer, capture date, image content and reuse licence could not be independently verified. This is a research lead only: do not attach it to the visual inventory or publish/reuse it until the individual file page and original image have been inspected and licence/attribution confirmed."
+  },
+  {
+    "id": "WMC-FAIRVIEW-CHIMNEY-SMIRKYBEC-2021-01",
+    "name": "Fairview Park former public convenience — Art Deco chimney stack and roofscape — photograph",
+    "publisher": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Dublin_-_Fairview_Park_public_toilets_-_20210930143857.jpg",
+    "accessed": "2026-10-29",
+    "source_type": "WIKIMEDIA_COMMONS_PHOTOGRAPH",
+    "specific_reference": "File: Dublin - Fairview Park public toilets - 20210930143857.jpg; photograph taken 30 September 2021; original 3024 × 4032 pixels.",
+    "notes": "Photographer/uploader: Smirkybec. Exact building match confirmed by viewing the original image: the centrally located rendered chimney stack is clearly visible above the historic roofscape, matching the separately catalogued micro-feature DUB-STR-0060 and NIAH 50120133. Licensed CC BY-SA 4.0; attribution and share-alike conditions apply. This is a third-party reference photograph, not a founder original. Source coordinates describe the photographer's viewpoint, not the exact building feature location."
   }
 ]

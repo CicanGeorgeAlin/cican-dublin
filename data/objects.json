@@ -7452,5 +7452,43 @@
     "coordinate_source": "National Inventory of Architectural Heritage registration 50080060 publishes Irish Grid coordinates 312840, 233688 (TM65 / Irish Grid, EPSG:29902). Transformed to WGS 84 using EPSG coordinate transformation operation 1641. The source point is the NIAH building location; positional accuracy of the original point is not specified. Founder field GPS verification remains outstanding.",
     "coordinate_accuracy_m": null,
     "coordinate_status": "SOURCE_DERIVED"
+  },
+  {
+    "id": "DUB-STR-0092",
+    "name": "103 Ringsend Park — marble drinking fountain recessed into garden wall",
+    "category": "STREET_DETAIL",
+    "district": "Dublin 4",
+    "address": "Garden wall at the junction of Ringsend Park and Cambridge Road, Ringsend, Dublin 4",
+    "historical_period": "Early 20th century; date disputed (c.1906 or c.1930 in consulted sources)",
+    "historical_description": "A marble drinking fountain recessed into a brick garden wall at the junction of Ringsend Park and Cambridge Road, with decorative granite capping. Dublin City Council's current Record of Protected Structures lists the feature as RPS 7376 at 103 Ringsend Park. A BusConnects architectural-heritage survey describes the fountain as c.1930; a separate EPA-published environmental report describes it as erected in 1906. The consulted sources do not resolve this date discrepancy. The EPA report includes photographs of the fountain structure and publishes ITM coordinates 718340, 734070.",
+    "historical_significance": "A small surviving public-amenity feature associated with the historic streetscape of Ringsend Park and the provision of public drinking water. Its location within a garden wall makes it an easily overlooked piece of neighbourhood heritage.",
+    "national_inventory_reference": null,
+    "national_grid_reference": null,
+    "latitude": 53.343606440345326,
+    "longitude": -6.222801858074779,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Located in the public streetscape at a garden wall. Photograph from the public footpath without obstructing pedestrians or entering private property. Confirm the fountain remains unobstructed and accessible at the time of the visit.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.343606440345326%2C-6.222801858074779&travelmode=walking",
+    "photography_brief": [
+      "Photograph the complete fountain and its relationship to the brick garden wall",
+      "Capture the marble basin, recessed surround and decorative granite capping",
+      "Record any inscription, maker's mark, repair, water outlet or surviving plumbing detail without assuming its function",
+      "Take a wider view showing the junction of Ringsend Park and Cambridge Road",
+      "Photograph the feature square-on and from both oblique angles where safe",
+      "Record founder GPS at the actual fountain position; the current coordinate is derived from published ITM easting/northing, not a founder field GPS fix"
+    ],
+    "sources": [
+      "DCC-RPS-2022-2028-VOLUME4",
+      "BUSCONNECTS-RINGSEND-CBC16-RPS7376",
+      "EPA-RINGSEND-PARK-FEATURES-2024"
+    ],
+    "coordinate_source": "The EPA-published environmental report gives ITM coordinates 718340 E, 734070 N for RPS 7376. These were transformed from Irish Transverse Mercator (EPSG:2157) to WGS 84 (EPSG:4326) using a standard CRS transformation. The source coordinate's positional accuracy is not specified; founder field GPS verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED",
+    "research_notes": "Dating discrepancy retained: BusConnects CBC16 architectural-heritage appendix describes the fountain as c.1930; EPA-published report describes it as erected in 1906. Both identify RPS 7376 at 103 Ringsend Park and describe a fountain in/at the garden wall. Do not state a single definitive construction year until further primary evidence resolves the discrepancy."
   }
 ]

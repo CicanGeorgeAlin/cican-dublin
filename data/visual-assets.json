@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 195,
+  "record_count": 196,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -7549,6 +7549,37 @@
         "Anthemion finials and individual iron details",
         "Carved granite plinth and junctions",
         "Any visible repairs, alterations or maker's marks"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED"
+    },
+    {
+      "record_id": "DUB-INF-0003",
+      "name": "Wood Quay — surviving Hiberno-Norse city wall section",
+      "category": "INFRASTRUCTURE",
+      "district": "Dublin 8",
+      "address": "Wood Quay Venue, Dublin City Council Civic Offices, Wood Quay, Dublin 8",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Photograph the accessible wall section in the Wood Quay Venue only with permission",
+        "Record the full surviving wall length and height where visible",
+        "Capture stone construction, joints, repairs and transitions",
+        "Photograph the western external continuation from a lawful public viewpoint if visible",
+        "Record interpretation panels and the relationship between the wall and modern Civic Offices"
       ],
       "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
       "original_photo": null,

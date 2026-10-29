@@ -7414,5 +7414,43 @@
     "coordinate_source": "PlanningRegister.ie planning report for the former Boland's Mill site reports site coordinates 53.34149, -6.23685. This is a source-derived coordinate for the wider 1.098-hectare former mill site, not a surveyed point on the individual warehouse facade. Founder field GPS verification remains outstanding.",
     "coordinate_accuracy_m": null,
     "coordinate_status": "SOURCE_DERIVED"
+  },
+  {
+    "id": "DUB-INF-0005",
+    "name": "Kilmainham Mill — former flour and textile mill complex",
+    "category": "INFRASTRUCTURE",
+    "district": "Dublin 8",
+    "address": "Kilmainham Lane / Rowserstown Lane, Kilmainham, Dublin 8",
+    "historical_period": "c.1815–1825; expanded in the mid-to-late 19th century",
+    "historical_description": "A surviving early nineteenth-century industrial mill complex beside the River Camac. The National Inventory of Architectural Heritage records an attached L-plan, four-storey former flour mill built c.1820, with a two-storey brick extension and later concrete extension. Dublin City Council's September 2023 project briefing records a mid-to-late nineteenth-century expansion that included a steam engine, a rerouted headrace serving a new water wheel, a cast-iron sectional aqueduct and cast-iron internal columns. The mill later changed from flour and corn processing to cloth finishing around 1903/04; industrial activity ceased in 2000. This record covers the surviving mill complex, not the medieval predecessor mill: the earlier water-powered activity is evidenced historically but is not catalogued here as a separately located surviving structure.",
+    "historical_significance": "A rare surviving example of Dublin's early nineteenth-century milling and textile-finishing industry, retaining evidence of successive power and production systems beside the River Camac. Dublin City Council described it in 2023 as the last remaining largely unaltered early nineteenth-century flour mill in Dublin and probably the last remaining fulling mill in Ireland.",
+    "national_inventory_reference": "50080060",
+    "national_grid_reference": "312840, 233688",
+    "latitude": 53.34162948893106,
+    "longitude": -6.306587188161125,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "The complex is owned by Dublin City Council. DCC's September 2023 briefing states that accessibility was limited and facilities for widespread use were not available at that time. Do not enter the site, buildings or work areas without explicit permission. Confirm current public access and photography permission with Dublin City Council before any visit; photograph only from lawful public viewpoints.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.34162948893106%2C-6.306587188161125&travelmode=walking",
+    "photography_brief": [
+      "Capture the complete mill complex from lawful public viewpoints, including its relationship to the River Camac",
+      "Photograph the four-storey mill block, rubble limestone masonry, quoins and surviving window openings",
+      "Record the later brick extension, chimney and roofline where visible",
+      "Look for externally visible evidence of the millrace, weir, water-management features and industrial additions; do not infer or label features without visual evidence",
+      "Record any visible interpretation, plaques or conservation works",
+      "Obtain permission before entering the site or photographing from within the complex",
+      "Record founder GPS at the actual accessible viewpoint; the current point is the NIAH published building coordinate transformed from Irish Grid, not a founder field fix"
+    ],
+    "sources": [
+      "NIAH-50080060-KILMAINHAM-MILL",
+      "DCC-KILMAINHAM-MILL-PROJECT-UPDATE-2023",
+      "HHC-KILMAINHAM-MILL-CONSERVATION"
+    ],
+    "coordinate_source": "National Inventory of Architectural Heritage registration 50080060 publishes Irish Grid coordinates 312840, 233688 (TM65 / Irish Grid, EPSG:29902). Transformed to WGS 84 using EPSG coordinate transformation operation 1641. The source point is the NIAH building location; positional accuracy of the original point is not specified. Founder field GPS verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED"
   }
 ]

@@ -2649,5 +2649,35 @@
     "source_type": "IMAGE_REFERENCE_VISUALLY_VERIFIED",
     "specific_reference": "Original file 5,184 × 3,456 pixels; photograph dated 3 February 2012; author Deitel55; CC BY-SA 3.0 Unported.",
     "notes": "Original file preview visually inspected and confirms the exact Huband Bridge over the Grand Canal, Dublin. Attribution: Deitel55, “GrandCanal-5-HubandBridge.JPG”, 3 February 2012, via Wikimedia Commons. Licence: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0). Preserve attribution, link to licence and indicate any changes; ShareAlike applies to adaptations. Third-party reference only, not a founder original. Original file not downloaded into the repository."
+  },
+  {
+    "id": "DCC-WOOD-QUAY-VENUE",
+    "name": "Wood Quay Venue — official venue and location information",
+    "publisher": "Dublin City Council",
+    "url": "https://www.dublincity.ie/business-and-events/hire-venue-or-park-event/wood-quay-venue",
+    "accessed": "2026-10-29",
+    "source_type": "OFFICIAL_LOCAL_AUTHORITY",
+    "specific_reference": "Official venue description and published coordinates 53.344229874547, -6.2708973884583.",
+    "notes": "Dublin City Council describes the Wood Quay Venue as featuring a stretch of the original Hiberno-Norse (Viking) City Wall dating from 1100 AD, within the Civic Offices, Wood Quay, Dublin 8. The published coordinates locate the venue, not the precise wall alignment."
+  },
+  {
+    "id": "DCC-WOOD-QUAY-CITY-WALL-REVIEW",
+    "name": "Dublin City Heritage Plan — Archaeology Projects Review: Dublin City Walls / Wood Quay Venue",
+    "publisher": "Dublin City Council",
+    "url": "https://www.dublincity.ie/sites/default/files/2021-04/dchp-2002-2012-archaeology-projects-review.pdf",
+    "accessed": "2026-10-29",
+    "source_type": "OFFICIAL_ARCHAEOLOGICAL_REPORT",
+    "specific_reference": "Project: Dublin City Walls — Wood Quay Venue; synopsis of the surviving wall within and outside the Civic Offices.",
+    "notes": "The review describes the basement section as approximately 18 metres long and 3.5 metres high, with a further approximately six-metre section extending outside to the west; the below-ground extent is unknown. It records that the wall section dates to c.1100 and notes historic access arrangements. Current access must be confirmed with Dublin City Council."
+  },
+  {
+    "id": "DCC-CITY-WALLS-DEFENCES-CONSERVATION-PLAN",
+    "name": "Dublin City Walls and Defences Conservation Plan",
+    "publisher": "Dublin City Council",
+    "url": "https://www.dublincity.ie/sites/default/files/media/file-uploads/2018-05/Dublin_City_Walls_Defences_Conservation_Plan.pdf",
+    "accessed": "2026-10-29",
+    "source_type": "OFFICIAL_CONSERVATION_PLAN",
+    "specific_reference": "Section 2.1.3, The First Hiberno-Norse Stone Wall c.1100; discussion of surviving sections at Cook Street and Wood Quay.",
+    "notes": "Official conservation plan documents the c.1100 Hiberno-Norse stone wall and surviving remains, including a section within the Civic Offices at Wood Quay. Distinguishes above-ground surviving fragments from archaeological remains known only below ground."
   }
 ]

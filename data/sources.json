@@ -2639,5 +2639,15 @@
     "source_type": "WIKIMEDIA_COMMONS_PHOTOGRAPH",
     "specific_reference": "File: Dublin - Fairview Park public toilets - 20210930143857.jpg; photograph taken 30 September 2021; original 3024 × 4032 pixels.",
     "notes": "Photographer/uploader: Smirkybec. Exact building match confirmed by viewing the original image: the centrally located rendered chimney stack is clearly visible above the historic roofscape, matching the separately catalogued micro-feature DUB-STR-0060 and NIAH 50120133. Licensed CC BY-SA 4.0; attribution and share-alike conditions apply. This is a third-party reference photograph, not a founder original. Source coordinates describe the photographer's viewpoint, not the exact building feature location."
+  },
+  {
+    "id": "WMC-HUBAND-BRIDGE-DEITEL55-2012-01",
+    "name": "Huband Bridge over the Grand Canal — photograph by Deitel55",
+    "publisher": "Wikimedia Commons — Deitel55",
+    "url": "https://commons.wikimedia.org/wiki/File:GrandCanal-5-HubandBridge.JPG",
+    "accessed": "2026-10-29",
+    "source_type": "IMAGE_REFERENCE_VISUALLY_VERIFIED",
+    "specific_reference": "Original file 5,184 × 3,456 pixels; photograph dated 3 February 2012; author Deitel55; CC BY-SA 3.0 Unported.",
+    "notes": "Original file preview visually inspected and confirms the exact Huband Bridge over the Grand Canal, Dublin. Attribution: Deitel55, “GrandCanal-5-HubandBridge.JPG”, 3 February 2012, via Wikimedia Commons. Licence: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0). Preserve attribution, link to licence and indicate any changes; ShareAlike applies to adaptations. Third-party reference only, not a founder original. Original file not downloaded into the repository."
   }
 ]

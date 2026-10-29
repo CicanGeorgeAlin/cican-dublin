@@ -7339,5 +7339,41 @@
     "coordinate_accuracy_m": null,
     "research_notes": "The NIAH register directly confirms the railings, anthemion finials and carved granite plinth enclosing the basement well. Foundry, installation date, exact extents and present condition remain unestablished.",
     "last_researched": "2026-10-26"
+  },
+  {
+    "id": "DUB-INF-0003",
+    "name": "Wood Quay — surviving Hiberno-Norse city wall section",
+    "category": "INFRASTRUCTURE",
+    "district": "Dublin 8",
+    "address": "Wood Quay Venue, Dublin City Council Civic Offices, Wood Quay, Dublin 8",
+    "historical_period": "c.1100",
+    "historical_description": "A surviving section of Dublin's first Hiberno-Norse stone city wall, dated to approximately 1100. Dublin City Council's archaeological project review describes a section approximately 18 metres long and 3.5 metres high within the Civic Offices basement, with a further section approximately six metres long extending outside to the west. The full extent of the wall below ground is not known.",
+    "historical_significance": "Physical survival of the early medieval urban defences of Dublin, associated with the Hiberno-Norse city. The remains are presented as a feature of the Wood Quay Venue within the Civic Offices.",
+    "national_inventory_reference": null,
+    "national_grid_reference": null,
+    "latitude": 53.344229874547,
+    "longitude": -6.2708973884583,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "The internal wall is within the Civic Offices/Wood Quay Venue and access is controlled by venue operations. Confirm public access and photography permission with Dublin City Council before visiting; do not enter staff-only or restricted areas. Photograph the external section only from lawful public viewpoints.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.344229874547%2C-6.2708973884583&travelmode=walking",
+    "photography_brief": [
+      "Photograph the accessible wall section in the Wood Quay Venue only with permission",
+      "Record the full surviving wall length and height where visible",
+      "Capture stone construction, joints, repairs and transitions",
+      "Photograph the western external continuation from a lawful public viewpoint if visible",
+      "Record interpretation panels and the relationship between the wall and modern Civic Offices"
+    ],
+    "sources": [
+      "DCC-WOOD-QUAY-VENUE",
+      "DCC-WOOD-QUAY-CITY-WALL-REVIEW",
+      "DCC-CITY-WALLS-DEFENCES-CONSERVATION-PLAN"
+    ],
+    "coordinate_source": "Coordinates published by Dublin City Council on its official Wood Quay Venue page (53.344229874547, -6.2708973884583). This is a source-derived venue location, not a field GPS fix for the precise wall alignment; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED"
   }
 ]

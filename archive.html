@@ -549,7 +549,7 @@ function render(){
    '<div class="card-content"><div class="card-eyebrow"><span>'+esc(record.district)+'</span><span>'+esc(record.category.replaceAll("_"," "))+'</span></div>'+
    '<h3 class="place-name">'+esc(record.name)+'</h3><div class="place-address">'+esc(record.address)+'</div>'+
    '<p class="place-summary">'+esc(summary)+'</p>'+
-   '<div class="card-footer"><button class="card-action history-action" type="button" data-open="'+esc(record.id)+'">VIEW HISTORY <span aria-hidden="true">↗</span></button>'+walkAction+'</div></div></article>';
+   '<div class="card-footer"><button class="card-action history-action" type="button" data-open="'+esc(record.id)+'">VIEW HISTORY <span aria-hidden="true">↗</span></button><a class="card-action record-link" href="./places/'+encodeURIComponent(record.id)+'.html">PERMANENT RECORD <span aria-hidden="true">↗</span></a>'+walkAction+'</div></div></article>';
  }).join(""):'<div class="empty">No matching places. Try another search.</div>';
  const buttons=[];
  buttons.push('<button type="button" data-page="prev" '+(currentPage===1?"disabled":"")+' aria-label="Previous page">← PREVIOUS</button>');

@@ -2619,5 +2619,15 @@
     "source_type": "IMAGE_REFERENCE_VISUALLY_VERIFIED",
     "specific_reference": "Original file is 4,032 × 3,024 pixels; file page identifies the subject as the Bandstand, Clontarf Road; photograph dated 8 February 2022; author Malone0; CC BY-SA 4.0. NIAH registration 50030149 independently identifies the circular reinforced-concrete bandstand on Clontarf Promenade west of the baths.",
     "notes": "Original-file preview visually inspected and confirms the exact round-plan reinforced-concrete bandstand projecting from the promenade retaining wall. Attribution: Malone0, “Dublin - Bandstand, Clontarf Road - 20220208125421”, 8 February 2022, via Wikimedia Commons. Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). Preserve attribution, link to licence and indicate any modifications; ShareAlike applies to adaptations. Third-party reference only, not a founder original. Original file not downloaded into the repository."
+  },
+  {
+    "id": "WMC-CLONTARF-BATHS-2022-01-LEAD",
+    "name": "Dublin — The Baths at Clontarf — Wikimedia Commons image lead",
+    "publisher": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Clontarf,_Dublin",
+    "accessed": "2026-10-29",
+    "source_type": "IMAGE_RESEARCH_LEAD",
+    "specific_reference": "Category listing includes “Dublin - The Baths at Clontarf - 20220208125314.jpg”, original dimensions 4,032 × 3,024 pixels. Potential exact-object image for DUB-BLD-0060 / NIAH 50030148.",
+    "notes": "The category listing identifies a photograph explicitly titled for the Baths at Clontarf. The individual Commons file page could not be retrieved in this research pass, so uploader/photographer, capture date, image content and reuse licence could not be independently verified. This is a research lead only: do not attach it to the visual inventory or publish/reuse it until the individual file page and original image have been inspected and licence/attribution confirmed."
   }
 ]

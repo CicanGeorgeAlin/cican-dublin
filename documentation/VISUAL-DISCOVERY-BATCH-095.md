@@ -12,7 +12,7 @@
 - **Object:** Huband Bridge — 1791 Grand Canal bridge and parapet lamp standard
 - **Address:** Huband Bridge, connecting Mount Street Crescent with Percy Place, Dublin 2
 - **NIAH registration:** 50100594
-- **Official record:** https://www.buildingsofireland.ie/buildings-search/building/50100594/hub-bridge-warrington-place-percy-place-dublin-2-dublin
+- **Official record:** https://www.buildingsofireland.ie/buildings-search/building/50100594/huband-bridge-warrington-place-percy-place-dublin-2-dublin
 
 ## Photograph accepted
 

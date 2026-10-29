@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cicangeorgealin.github.io/cican-vasile-dublin/sitemap.xml
+Sitemap: https://cicangeorgealin.github.io/cican-dublin/sitemap.xml

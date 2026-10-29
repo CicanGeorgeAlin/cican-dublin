@@ -2729,5 +2729,15 @@
     "source_type": "PLANNING_SITE_COORDINATE",
     "specific_reference": "Planning report for the former Boland's Mill site; published site coordinate 53.34149, -6.23685.",
     "notes": "Coordinate identifies the wider former mill redevelopment site, not the precise location of RPS 7377 building facade. Retain as SOURCE_DERIVED and verify on field visit."
+  },
+  {
+    "id": "DCC-DCIHR-GIS-LAYER",
+    "name": "Dublin City Industrial Heritage Records — GIS feature layer",
+    "publisher": "Heritage Environment Division GIS / ArcGIS REST service",
+    "url": "https://services2.arcgis.com/BdBkthNLO9mzGAMO/ArcGIS/rest/services/Historic_Environment_Division_GIS_Data/FeatureServer/2",
+    "accessed": "2026-10-29",
+    "source_type": "OFFICIAL_GIS_DATASET",
+    "specific_reference": "Industrial Heritage Records point feature layer; fields include MIAID, county, townland, IHR, location, grid reference and feature type.",
+    "notes": "The layer is a structured discovery source for industrial heritage. This batch inspected its metadata and field schema but did not bulk-import its feature records. Each candidate must be individually checked for extant status, exact identity, duplicate status and location."
   }
 ]

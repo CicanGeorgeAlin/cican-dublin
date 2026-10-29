@@ -24,5 +24,9 @@ jobs:
           node --check preview/app/app.js
           node --check preview/service-worker.js
           node --check service-worker.js
+      - name: Check SEO page generator syntax
+        run: node --check scripts/generate-seo-pages.mjs
+      - name: Generate crawlable place pages and full sitemap
+        run: node scripts/generate-seo-pages.mjs
       - name: Validate catalogue, images, links and page scripts
         run: node scripts/validate-archive.mjs

@@ -1,4 +1,4 @@
-# ALWAYS IN THE LIGHT — Permanent CICAN DUBLIN Protocol
+# ALWAYS STAY IN THE LIGHT — Permanent CICAN DUBLIN Protocol
 
 **Project:** CICAN DUBLIN  
 **Founder:** CICAN GEORGE ALIN  
@@ -9,7 +9,7 @@
 
 CICAN DUBLIN exists to bring Dublin's overlooked history into public view: the places, objects, structures, street details, inscriptions, fragments and traces that people may pass every day without knowing their identity or story.
 
-**ALWAYS IN THE LIGHT.**
+**ALWAYS STAY IN THE LIGHT.**
 
 This is a permanent research and publishing principle, not a temporary campaign or a single-batch instruction.
 
@@ -50,4 +50,4 @@ Autopilot means continuing the work whenever the founder sends the next instruct
 
 ## Guiding sentence
 
-**Find what is overlooked. Verify what is found. Preserve what is true. Photograph what remains. Bring Dublin's hidden heritage into the light.**
+**Find what is overlooked. Verify what is found. Preserve what is true. Photograph what remains. Keep Dublin's hidden heritage in the light.**

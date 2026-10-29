@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 const ROOT = process.cwd();
-const BASE = "https://cicangeorgealin.github.io/cican-vasile-dublin";
+const BASE = "https://cicangeorgealin.github.io/cican-dublin";
 const objects = JSON.parse(fs.readFileSync(path.join(ROOT, "data/objects.json"), "utf8"));
 const visualData = JSON.parse(fs.readFileSync(path.join(ROOT, "data/visual-assets.json"), "utf8"));
 const sources = JSON.parse(fs.readFileSync(path.join(ROOT, "data/sources.json"), "utf8"));
@@ -23,7 +23,7 @@ for (const record of objects) {
   const id = compact(record.id);
   if (!/^[A-Z0-9-]+$/.test(id)) throw new Error("Unsafe archive ID: " + id);
   const url = BASE + "/places/" + encodeURIComponent(id) + ".html";
-  const title = compact(record.name) + " | Dublin Heritage Record | CICAN VASILE DUBLIN";
+  const title = compact(record.name) + " | Dublin Heritage Record | CICAN DUBLIN";
   const description = descriptionFor(record);
   const visual = visualById.get(id) || {};
   const images = Array.isArray(visual.reference_images) ? visual.reference_images : [];
@@ -68,12 +68,12 @@ for (const record of objects) {
     '<meta name="description" content="' + escapeHtml(description) + '">',
     '<meta name="author" content="CICAN GEORGE ALIN"><meta name="robots" content="index,follow,max-image-preview:large">',
     '<link rel="canonical" href="' + escapeHtml(url) + '"><meta name="theme-color" content="#070707">',
-    '<meta property="og:type" content="article"><meta property="og:site_name" content="CICAN VASILE DUBLIN"><meta property="og:title" content="' + escapeHtml(title) + '"><meta property="og:description" content="' + escapeHtml(description) + '"><meta property="og:url" content="' + escapeHtml(url) + '">',
+    '<meta property="og:type" content="article"><meta property="og:site_name" content="CICAN DUBLIN"><meta property="og:title" content="' + escapeHtml(title) + '"><meta property="og:description" content="' + escapeHtml(description) + '"><meta property="og:url" content="' + escapeHtml(url) + '">',
     image ? '<meta property="og:image" content="' + escapeHtml(image.image_url) + '">' : '',
     '<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">',
     '<script type="application/ld+json">' + JSON.stringify(schema).replace(/</g, "\\u003c") + '</script>',
     '<style>:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#070707;color:#f4f2ed;font:16px/1.7 system-ui,-apple-system,"Segoe UI",sans-serif}.wrap{width:min(900px,calc(100% - 36px));margin:auto}header,footer{border-bottom:1px solid #292929;padding:18px 0}footer{border-top:1px solid #292929;border-bottom:0;color:#999;font-size:12px}a{color:#fff;text-underline-offset:4px}.brand{font-weight:800;letter-spacing:.12em;text-decoration:none}.eyebrow{color:#aaa;font-size:11px;letter-spacing:.16em;text-transform:uppercase}main{padding:42px 0 70px}h1{font-size:clamp(34px,7vw,60px);line-height:1.04;letter-spacing:-.055em;margin:12px 0}h2{font-size:19px;margin:30px 0 8px}.lead{font-size:18px;color:#d0d0d0}.muted{color:#999}.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin:24px 0}.fact{border:1px solid #333;padding:12px}.fact small{display:block;color:#999;font-size:10px;letter-spacing:.1em;text-transform:uppercase}.fact b{font-size:14px;font-weight:600}.reference{margin:24px 0;border:1px solid #333;padding:12px}.reference img{display:block;width:100%;max-height:520px;object-fit:contain;background:#111}.reference figcaption{font-size:12px;color:#aaa;margin-top:10px}.reference figcaption span{color:#888}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0}.action{display:inline-block;border:1px solid #777;padding:10px 14px;text-decoration:none}.sources li{margin:12px 0}.sources li span{display:block;color:#999;font-size:12px}.breadcrumbs{font-size:12px;color:#999;margin-bottom:24px}.breadcrumbs a{color:#bbb}@media(max-width:600px){main{padding-top:28px}.lead{font-size:16px}}</style>',
-    '</head><body><header><div class="wrap"><a class="brand" href="../">CICAN VASILE DUBLIN</a></div></header>',
+    '</head><body><header><div class="wrap"><a class="brand" href="../">CICAN DUBLIN</a></div></header>',
     '<main class="wrap"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../">Home</a> / <a href="../archive.html">Dublin heritage archive</a> / ' + escapeHtml(record.name) + '</nav>',
     '<p class="eyebrow">' + escapeHtml(record.category || "HERITAGE RECORD") + ' · ' + escapeHtml(record.district || "Dublin") + '</p>',
     '<h1>' + escapeHtml(record.name) + '</h1><p class="lead">' + escapeHtml(record.address || record.district || "Dublin, Ireland") + '</p>',
@@ -85,7 +85,7 @@ for (const record of objects) {
     '<h2>Founder field photography brief</h2><p class="muted">This checklist guides future original photography. It does not mean the location has already been photographed.</p>' + photoBrief,
     '<h2>Research sources</h2><ul class="sources">' + (sourceMarkup.startsWith("<ul>") ? sourceMarkup.slice(4, -5) : '<li>' + sourceMarkup + '</li>') + '</ul>',
     '<p class="muted">This is an expanding, source-led archive. Source-derived map coordinates are not described as field-verified unless the record explicitly says so. Created by CICAN GEORGE ALIN.</p>',
-    '</main><footer><div class="wrap">CICAN VASILE DUBLIN · Evidence-led heritage research · Dublin, Ireland</div></footer></body></html>'
+    '</main><footer><div class="wrap">CICAN DUBLIN · Evidence-led heritage research · Dublin, Ireland</div></footer></body></html>'
   ].join("\n");
   fs.writeFileSync(path.join(placesDir, id + ".html"), html, "utf8");
 }

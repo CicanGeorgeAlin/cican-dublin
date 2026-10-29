@@ -2739,5 +2739,35 @@
     "source_type": "OFFICIAL_GIS_DATASET",
     "specific_reference": "Industrial Heritage Records point feature layer; fields include MIAID, county, townland, IHR, location, grid reference and feature type.",
     "notes": "The layer is a structured discovery source for industrial heritage. This batch inspected its metadata and field schema but did not bulk-import its feature records. Each candidate must be individually checked for extant status, exact identity, duplicate status and location."
+  },
+  {
+    "id": "NIAH-50080060-KILMAINHAM-MILL",
+    "name": "Kilmainham Mill — National Inventory of Architectural Heritage registration 50080060",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50080060/kilmainham-mill-rowserstown-lane-kilmainham-lane-dublin-8-dublin",
+    "accessed": "2026-10-29",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50080060; published Irish Grid coordinates 312840, 233688; date 1815–1825; four-storey former flour mill.",
+    "notes": "NIAH search result records an attached L-plan four-storey former flour mill built c.1820, later used as a textile mill and disused at survey. Published coordinates are transformed to WGS 84 for the catalogue; original point accuracy is unspecified. NIAH page retrieval was blocked during this batch, so details are based on the indexed official record output and corroborated by the DCC 2023 briefing."
+  },
+  {
+    "id": "DCC-KILMAINHAM-MILL-PROJECT-UPDATE-2023",
+    "name": "Kilmainham Mill — Project Update briefing to Arts and Culture SPC, September 2023",
+    "publisher": "Dublin City Council",
+    "url": "https://dublin.moderngov.co.uk/documents/s42504/2.%20Briefing%20paper%20on%20the%20future%20plans%20for%20Kilmainham%20Mills.pdf",
+    "accessed": "2026-10-29",
+    "source_type": "OFFICIAL_LOCAL_AUTHORITY_REPORT",
+    "specific_reference": "September 2023 briefing, pp. 1–3; project background, chronology, industrial features, ownership and access status.",
+    "notes": "DCC identifies the complex beside the River Camac at Kilmainham Lane, Dublin 8; built c.1820 as a flour mill, expanded in the mid-to-late nineteenth century with a steam engine, new water wheel/head race, cast-iron aqueduct and columns; converted to cloth finishing around 1903/04; industrial activity ceased in 2000; purchased by DCC in December 2018. The briefing states stabilisation works were completed in 2023, with limited accessibility and facilities for widespread use. This is a dated project status report, not confirmation of access conditions in 2026."
+  },
+  {
+    "id": "HHC-KILMAINHAM-MILL-CONSERVATION",
+    "name": "Kilmainham Mill — conservation and emergency repair project",
+    "publisher": "Howley Hayes Cooney Architects",
+    "url": "https://www.hhcarchitecture.ie/projects/kilmainham-mill",
+    "accessed": "2026-10-29",
+    "source_type": "CONSERVATION_ARCHITECT_PROJECT_PAGE",
+    "specific_reference": "Project description and location; River Camac mill complex, historic water-powered milling, later steam power and stabilisation works.",
+    "notes": "Conservation architect's project account describes the mill's industrial sequence, its long disuse after 2000, emergency remedial works, re-roofing, hazardous-material removal, stabilisation of structures including the chimney and conservation work in preparation for adaptive reuse. Used as specialist corroboration, not as evidence of current public access."
   }
 ]

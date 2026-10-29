@@ -7375,5 +7375,44 @@
     "coordinate_source": "Coordinates published by Dublin City Council on its official Wood Quay Venue page (53.344229874547, -6.2708973884583). This is a source-derived venue location, not a field GPS fix for the precise wall alignment; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
     "coordinate_status": "SOURCE_DERIVED"
+  },
+  {
+    "id": "DUB-INF-0004",
+    "name": "Boland's warehouse/mill at lifting bridge — six-storey stone warehouse",
+    "category": "ARCHITECTURE",
+    "district": "Dublin 4",
+    "address": "1 Ringsend Road, Dublin 4",
+    "historical_period": "19th century; exact construction date not established in the sources consulted",
+    "historical_description": "A surviving six-storey stone warehouse forming part of the historic Boland's Mills complex at Grand Canal Dock. Dublin City Council's Record of Protected Structures identifies the building as the Boland's warehouse/mill at the lifting bridge on Ringsend Road (RPS 7377). Conservation architects BKD describe the existing six-storey stone quayside building as a mill later converted to a silo; it was conserved and retrofitted as part of the completed Bolands Quay development. The wider industrial complex included other buildings and structures, some of which were removed or redeveloped; this record is specifically for the surviving stone warehouse building, not the entire former complex.",
+    "historical_significance": "A surviving piece of Dublin's grain-milling and docklands industrial history, retaining historic stone industrial fabric within the modern Grand Canal Dock setting. The former Boland's Mills site is also associated with the industrial and commercial development of the docklands; this individual building is recorded as a protected structure (RPS 7377).",
+    "national_inventory_reference": null,
+    "national_grid_reference": null,
+    "latitude": 53.34149,
+    "longitude": -6.23685,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Exterior can be viewed from the public realm around Grand Canal Dock and Ringsend Road. The building is now adapted for residential use; do not enter private residential areas or internal spaces without permission. Check current access restrictions before fieldwork.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.34149%2C-6.23685&travelmode=walking",
+    "photography_brief": [
+      "Photograph the full surviving six-storey stone quayside warehouse from a lawful public viewpoint",
+      "Capture the stone facade, window openings, masonry joints and surviving historic details",
+      "Show the building's relationship to Grand Canal Dock and the modern Bolands Quay development",
+      "Record any visible interpretation, protected-structure plaques or historic building features",
+      "Take close-up detail photographs only from public areas; do not photograph private residential interiors",
+      "Record founder GPS at the actual building frontage; current coordinate is a planning-site centroid, not a precise facade fix"
+    ],
+    "sources": [
+      "DCC-RPS-7377-BOLANDS-MILL",
+      "BKD-BOLANDS-MILLS-CONSERVATION",
+      "IAC-BOLANDS-QUAY-ARCHAEOLOGY",
+      "WMC-BOLANDS-MILL-NIGHTFALL-2025",
+      "PLANNINGREGISTER-BOLANDS-MILL-SITE-COORD"
+    ],
+    "coordinate_source": "PlanningRegister.ie planning report for the former Boland's Mill site reports site coordinates 53.34149, -6.23685. This is a source-derived coordinate for the wider 1.098-hectare former mill site, not a surveyed point on the individual warehouse facade. Founder field GPS verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED"
   }
 ]

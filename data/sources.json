@@ -2679,5 +2679,55 @@
     "source_type": "OFFICIAL_CONSERVATION_PLAN",
     "specific_reference": "Section 2.1.3, The First Hiberno-Norse Stone Wall c.1100; discussion of surviving sections at Cook Street and Wood Quay.",
     "notes": "Official conservation plan documents the c.1100 Hiberno-Norse stone wall and surviving remains, including a section within the Civic Offices at Wood Quay. Distinguishes above-ground surviving fragments from archaeological remains known only below ground."
+  },
+  {
+    "id": "DCC-RPS-7377-BOLANDS-MILL",
+    "name": "Dublin City Record of Protected Structures — RPS 7377, Boland's warehouse/mill",
+    "publisher": "Dublin City Council",
+    "url": "https://www.dublincity.ie/sites/default/files/2020-05/rps_for_web.pdf",
+    "accessed": "2026-10-29",
+    "source_type": "OFFICIAL_PROTECTED_STRUCTURE_RECORD",
+    "specific_reference": "RPS 7377, 1 Ringsend Road, Dublin 4: Boland's warehouse/mill at lifting bridge, Ringsend Road; six-storey stone warehouse.",
+    "notes": "Official Record of Protected Structures entry. Identifies the individual stone warehouse building and its protected-structure reference."
+  },
+  {
+    "id": "BKD-BOLANDS-MILLS-CONSERVATION",
+    "name": "Bolands Mills Residential — conservation and retrofit project",
+    "publisher": "BKD Architects",
+    "url": "https://www.bkd.ie/bolands-mills-residential",
+    "accessed": "2026-10-29",
+    "source_type": "CONSERVATION_ARCHITECT_PROJECT",
+    "specific_reference": "Project description of the existing six-storey stone quayside mill building and its conservation/retrofit; completed 2022.",
+    "notes": "Conservation architects describe the existing stone quayside building as a mill later converted to a silo, conserved and retrofitted with apartments. Strong evidence for survival and reuse of the historic structure."
+  },
+  {
+    "id": "IAC-BOLANDS-QUAY-ARCHAEOLOGY",
+    "name": "Bolands Quay — archaeological and industrial heritage project",
+    "publisher": "IAC Archaeology",
+    "url": "https://iac.ie/project/bolands-quay/",
+    "accessed": "2026-10-29",
+    "source_type": "ARCHAEOLOGICAL_CONSULTANT_PROJECT",
+    "specific_reference": "Project overview: archaeological and industrial heritage assessment and recording at historic Boland's Mill; conserved industrial mill buildings.",
+    "notes": "Archaeological consultant records the redevelopment of the historic Boland's Mill site and the conservation of industrial mill buildings as part of the new development."
+  },
+  {
+    "id": "WMC-BOLANDS-MILL-NIGHTFALL-2025",
+    "name": "Boland's Mill under nightfall — David Kernan, Wikimedia Commons",
+    "publisher": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Boland%27s_Mill_under_nightfall.jpg",
+    "accessed": "2026-10-29",
+    "source_type": "IMAGE_REFERENCE",
+    "specific_reference": "Photograph dated 16 December 2025; author David Kernan; depicts restored historic stone facade of Bolands Flour Mills; CC BY 4.0.",
+    "notes": "Exact-object visual reference for the surviving historic stone mill facade. Attribution: David Kernan, 16 December 2025, CC BY 4.0. Image is a third-party reference and not a founder original."
+  },
+  {
+    "id": "PLANNINGREGISTER-BOLANDS-MILL-SITE-COORD",
+    "name": "Former Boland's Mill — planning site coordinate reference",
+    "publisher": "PlanningRegister.ie (planning application data)",
+    "url": "https://planningregister.ie/report?lat=53.34149&lon=-6.23685&q=Site+of+1.089+ha+known+as+The+former+Boland%27s+Mill+incorporating+33+%26+34+Barrow+Street+together+with%2C+35A+Barrow+Street+%26+35+Barrow+Street%2C+at+Ringsend+Road+and+Barrow+Street%2C+Dublin+4&r=500",
+    "accessed": "2026-10-29",
+    "source_type": "PLANNING_SITE_COORDINATE",
+    "specific_reference": "Planning report for the former Boland's Mill site; published site coordinate 53.34149, -6.23685.",
+    "notes": "Coordinate identifies the wider former mill redevelopment site, not the precise location of RPS 7377 building facade. Retain as SOURCE_DERIVED and verify on field visit."
   }
 ]

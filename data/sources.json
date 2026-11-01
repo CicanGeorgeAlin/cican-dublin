@@ -2839,5 +2839,45 @@
     "source_type": "PLANNING_APPLICATION_RECORD",
     "specific_reference": "Application WEBDSDZ2017/26; 50 Ringsend Road, Dublin 4; decision 22 June 2026; description identifies an existing office building and states a portion of its façade is protected under RPS 7379.",
     "notes": "Current planning record supports the continued existence of an office building associated with RPS 7379 in 2026. It does not independently verify every historic architectural detail in the RPS description or the survival of the separate former factory at Charlotte Quay."
+  },
+  {
+    "id": "DCC-RPS-2022-2028-RPS4003",
+    "name": "Dublin City Development Plan 2022–2028, Volume 4 — RPS 4003 Bottlemaker's Hall",
+    "publisher": "Dublin City Council",
+    "url": "https://www.dublincity.ie/sites/default/files/2022-12/FINAL%20Dublin%20City%20Development%20Plan%202022-2028%20-%20Volume%204%20RPS.pdf",
+    "accessed": "2026-11-01",
+    "source_type": "OFFICIAL_LOCAL_AUTHORITY_REGISTER",
+    "specific_reference": "RPS 4003, Irishtown Road, Dublin 4 — Bottlemaker's Hall.",
+    "notes": "Current statutory Record of Protected Structures, Volume 4 of the Dublin City Development Plan 2022–2028. Confirms the protected-structure listing, not the condition of every component."
+  },
+  {
+    "id": "DCC-PLANNING-WEB3596-26-BOTTLEMAKERS-HALL",
+    "name": "Dublin City Council planning application WEB3596/26 — Bottlemaker's Hall",
+    "publisher": "Dublin City Council planning register; application data reproduced by PlanningRegister.ie",
+    "url": "https://planningregister.ie/application/DCC/WEB3596-26/bottlemaker-s-hall-irishtown-rd-dublin-4",
+    "accessed": "2026-11-01",
+    "source_type": "PLANNING_APPLICATION_RECORD",
+    "specific_reference": "WEB3596/26, Bottlemaker's Hall, Irishtown Road, D04 HD26; received 22 October 2026. Application description identifies an existing detached 250 m², two-storey and one-storey vacant social club and manager's apartment, with proposed renovation and change of use.",
+    "notes": "Current 2026 application is strong evidence that the building complex survives. It is a proposal, not a planning decision or evidence that works have commenced. PlanningRegister page reports map pin 53.33796, -6.22247; source-derived approximate site point, not a surveyed building centroid or founder GPS. Application feed page states CC BY 4.0 for reproduced planning-register data."
+  },
+  {
+    "id": "DIA-BOTTLEMAKERS-HALL-1915",
+    "name": "Dictionary of Irish Architects — Bottlemakers' Hall, Irishtown Road",
+    "publisher": "Irish Architectural Archive / Dictionary of Irish Architects",
+    "url": "https://www.dia.ie/works/view/36201",
+    "accessed": "2026-11-01",
+    "source_type": "ARCHITECTURAL_HISTORICAL_REFERENCE",
+    "specific_reference": "Bottlemakers' Hall, Irishtown Road; architect Aubrey Vincent O'Rourke; date 1915; new club premises for Irish Glass Bottlemakers' Society nearly complete; builder John Dillon; Irish Builder, 8 May 1915, p.221.",
+    "notes": "Supports the 1915 date, architect, builder and original function. Does not establish present condition."
+  },
+  {
+    "id": "DCC-RINGSEND-IRISHTOWN-WALKING-TRAIL-2022",
+    "name": "Dublin City Council — Ringsend & Irishtown Walking Trail Map & Guide",
+    "publisher": "Dublin City Council",
+    "url": "https://www.dublincity.ie/sites/default/files/2022-06/ringsend-irishtown-walking-trail-map-guide-2022.pdf",
+    "accessed": "2026-11-01",
+    "source_type": "OFFICIAL_LOCAL_AUTHORITY_HERITAGE_GUIDE",
+    "specific_reference": "Stop 5, Bottlemakers Hall. Guide states the hall was built in 1915 by an amalgamation of bottle blowers from nearby factories and served social activities; it also notes its association with Jim Larkin's political rallies.",
+    "notes": "Official local-authority heritage trail corroborates the building's date and social/industrial context. Its description is historical interpretation, not a detailed architectural survey."
   }
 ]

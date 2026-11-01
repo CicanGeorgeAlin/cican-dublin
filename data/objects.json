@@ -7722,5 +7722,40 @@
     "coordinate_source": "EIAR ITM 717909, 734127 converted EPSG:2157 to WGS84: 53.34421464294605, -6.2292498858474525. Source-derived, not founder GPS; accuracy unspecified.",
     "coordinate_accuracy_m": null,
     "research_notes": "Description and point are derived from Dublin Port Company's 3FM EIAR Appendix 16-1. The survey-era condition is not a guarantee of unchanged condition in November 2026."
+  },
+  {
+    "id": "DUB-INF-0008",
+    "name": "Ringsend drainage heritage — stone utility house, DCIHR 18-12-151-01",
+    "category": "INFRASTRUCTURE",
+    "district": "Dublin 4",
+    "address": "Historic drainage embankment, Ringsend, Dublin 4",
+    "historical_period": "c.1900; Rathmines and Pembroke Main Drainage Scheme",
+    "historical_description": "A detached two-bay, single-storey masonry syphon house built around 1900 as part of the Rathmines and Pembroke Main Drainage Scheme. The 3FM EIAR describes roughly coursed rock-faced granite walls, limestone quoins, a pitched slate roof, cast-iron rainwater goods, blocked segmental-headed windows with limestone surrounds and granite sills, and a square-headed doorway with granite lintel and threshold.",
+    "historical_significance": "A carefully detailed utility building associated with Dublin's late-nineteenth-century public drainage network.",
+    "national_inventory_reference": "DCIHR 18-12-151-01",
+    "national_grid_reference": null,
+    "latitude": 53.34274929565924,
+    "longitude": -6.216559643624238,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Described as disused. Confirm current condition and lawful public access; do not enter fenced or operational land.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.34274929565924%2C-6.216559643624238&travelmode=walking",
+    "photography_brief": [
+      "Full building from lawful public viewpoint",
+      "Granite walling and limestone quoins",
+      "Blocked window openings and surrounds",
+      "Doorway, lintel, slate roof and rainwater goods"
+    ],
+    "sources": [
+      "DUBLIN-PORT-3FM-EIAR-CH16-APP16-1"
+    ],
+    "feature_type": "PRIMARY_OBJECT",
+    "coordinate_status": "SOURCE_DERIVED",
+    "coordinate_source": "EIAR Appendix 16-1 gives ITM 718758, 733985. Converted EPSG:2157 to WGS84: 53.34274929565924, -6.216559643624238. Source-derived, not founder GPS; accuracy unspecified.",
+    "coordinate_accuracy_m": null,
+    "research_notes": "The EIAR provides the architectural description and source-derived coordinate and describes the building as disused. Current condition requires field verification."
   }
 ]

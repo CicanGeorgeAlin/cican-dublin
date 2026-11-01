@@ -2929,5 +2929,95 @@
     "source_type": "OPENSTREETMAP_DERIVED_GEOGRAPHIC_REFERENCE",
     "specific_reference": "Building feature at 20 Ringsend Road; WGS84 point 53.34220, -6.23464; OpenStreetMap way 49055716.",
     "notes": "Used only as a source-derived building map point. Not a cadastral survey or founder field GPS; positional accuracy unspecified."
+  },
+  {
+    "id": "DCC-RPS-6793-6798-2022-2028",
+    "name": "Dublin City Development Plan 2022–2028, Volume 4 — Pigeon House and Great South Wall RPS entries",
+    "publisher": "Dublin City Council",
+    "url": "https://www.dublincity.ie/sites/default/files/2022-12/FINAL%20Dublin%20City%20Development%20Plan%202022-2028%20-%20Volume%204%20RPS.pdf",
+    "accessed": "2026-11-01",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "RPS 6793–6798, Pigeon House Road, Dublin 4: former St Catherine's Hospital remains; remnants of Pigeon House Fort; former Pigeon House Hotel; former red-brick Pigeon House power station; former sea wall; Great South Wall to lighthouse.",
+    "notes": "Current statutory Dublin City Development Plan 2022–2028 Volume 4. Confirms protected-structure designations and register descriptions. A listing does not independently establish exact present-day survival, access or detailed geometry of each feature."
+  },
+  {
+    "id": "DUBLIN-PORT-HISTORY-PORT-POOLBEG",
+    "name": "Dublin Port — History of the Port",
+    "publisher": "Dublin Port Company",
+    "url": "https://www.dublinport.ie/about-dublin-port/history-of-port/",
+    "accessed": "2026-11-01",
+    "source_type": "OFFICIAL_REPORT",
+    "specific_reference": "South Bull Wall and Poolbeg Lighthouse history; lighthouse first lit 29 September 1767; South Bull Wall replaced the earlier bank in 1753.",
+    "notes": "First-party port history. Supports the South Bull Wall / Great South Wall harbour-engineering context and the lighthouse's first-light date."
+  },
+  {
+    "id": "DUBLIN-PORT-HERITAGE-CONSERVATION-STRATEGY",
+    "name": "Dublin Port Heritage Conservation Strategy",
+    "publisher": "Dublin Port Company; submitted as part of planning documentation",
+    "url": "https://www.pleanala.ie/publicaccess/EIAR-NIS/320250/2.%20Reports/2.4%20Heritage%20%26%20Conservation/Dublin%20Port%20Heritage%20Conservation%20Strategy.pdf",
+    "accessed": "2026-11-01",
+    "source_type": "OFFICIAL_REPORT",
+    "specific_reference": "Sections 3.2.9–3.2.10, Pigeon House Fort and Harbour / South Port Lands; Section 4.1 access to the Port's cultural heritage; Section 5 policies.",
+    "notes": "Identifies the Pigeon House Fort and Harbour and Great South Wall as heritage landscapes. States that restoring pedestrian access from Ringsend to Pigeon House Harbour via the Great South Wall is a long-term aspiration, so unrestricted access must not be assumed. Notes security, safety and access constraints across port lands."
+  },
+  {
+    "id": "DIA-POOLBEG-LIGHTHOUSE-1767",
+    "name": "Dictionary of Irish Architects — Poolbeg Lighthouse and eastern abutment of South Wall",
+    "publisher": "Irish Architectural Archive / Dictionary of Irish Architects",
+    "url": "https://www.dia.ie/works/view/49360/building/CO.%2BDUBLIN%2C%2BDUBLIN%2C%2BSOUTH%2BWALL%2C%2BPOOLBEG%2BLIGHTHOUSE%2B%26%2BEASTERN%2BABUTMENT",
+    "accessed": "2026-11-01",
+    "source_type": "ACADEMIC",
+    "specific_reference": "Work entry for South Wall, Poolbeg Lighthouse & Eastern Abutment; John Smyth; dated 1766–1767 and 1771–1775; first lit 29 September 1767.",
+    "notes": "Architectural-history reference records the lighthouse at the eastern end of the South Wall replacing a floating light, and attributes responsibility for its construction and the eastern abutment to John Smyth. The entry also notes conflicting earlier claims about the start date."
+  },
+  {
+    "id": "MAPCARTA-OSM-POOLBEG-LIGHTHOUSE",
+    "name": "Mapcarta / OpenStreetMap — Poolbeg Lighthouse",
+    "publisher": "Mapcarta, based on OpenStreetMap and linked geographic data",
+    "url": "https://mapcarta.com/W244344138",
+    "accessed": "2026-11-01",
+    "source_type": "OTHER",
+    "specific_reference": "OpenStreetMap way 244344138, building= lighthouse; WGS84 53.34211, -6.15137.",
+    "notes": "Independent geographic cross-check for the lighthouse location. Coordinate is source-derived, not a founder field GPS fix; accuracy is unspecified."
+  },
+  {
+    "id": "WMC-POOLBEG-LIGHTHOUSE-DIXON-2018",
+    "name": "Wikimedia Commons — Poolbeg Lighthouse, Geograph image 5816316",
+    "publisher": "Wikimedia Commons / Geograph Britain and Ireland",
+    "url": "https://commons.wikimedia.org/wiki/File:Poolbeg_Lighthouse_-_geograph.org.uk_-_5816316.jpg",
+    "accessed": "2026-11-01",
+    "source_type": "THIRD_PARTY_PHOTOGRAPH",
+    "specific_reference": "Photograph by David Dixon, captured 21 June 2018; depicted-object location 53.342128, -6.151459; 800 × 600 JPEG.",
+    "notes": "Exact-object image visually inspected. The file page explicitly licenses the photograph CC BY-SA 2.0. Attribution: David Dixon, “Poolbeg Lighthouse”, 21 June 2018, via Wikimedia Commons / Geograph Britain and Ireland. This is a third-party reference, not a founder original."
+  },
+  {
+    "id": "DCC-FILM-OFFICE-PIGEON-HOUSE-POWER-STATION",
+    "name": "Dublin City Film Office — Pigeon House Power Station and Pier",
+    "publisher": "Dublin City Council Film Office",
+    "url": "https://dublincityfilmoffice.ie/filming-location/poolbeg-generating-station/",
+    "accessed": "2026-11-01",
+    "source_type": "OFFICIAL_HERITAGE_PHOTOGRAPH_GALLERY",
+    "specific_reference": "Pigeon House Power Station and Pier location page; description of three construction phases (1902–03, 1911–13, 1933–40), decommissioning in the 1970s, and survival of one of twelve chimneys.",
+    "notes": "Official local-authority heritage/location page with a photographic gallery. Useful for identity and visual research of the former Pigeon House power station. No gallery image was imported; reuse rights for individual images were not established."
+  },
+  {
+    "id": "EXCAVATIONS-2009-PIGEON-HOUSE-FORT-09E0259",
+    "name": "Excavations.ie — 2009:357, Pigeon House Fort, Dublin",
+    "publisher": "Excavations.ie / National Museum of Ireland excavation reports",
+    "url": "https://excavations.ie/report/2009/Dublin/0020692/",
+    "accessed": "2026-11-01",
+    "source_type": "OFFICIAL_REPORT",
+    "specific_reference": "Site Monuments Record DU019–027; licence 09E0259; author Antoine Giacometti, ArchTech Ltd.; ITM E 720213, N 733671; WGS84 53.339604, -6.194840.",
+    "notes": "Report describes an archaeological and architectural survey of the Pigeon House Fort complex, including accessible standing remains, architectural inventory, conservation assessment and small-scale subsurface investigation. This is direct evidence of documented remains in 2009, not confirmation of their present condition or public access in 2026."
+  },
+  {
+    "id": "EXCAVATIONS-2022-POOLBEG-GENERATING-STATION-21E0796",
+    "name": "Excavations.ie — 2022:294, Poolbeg Generating Station, Pigeon House Road",
+    "publisher": "Excavations.ie / National Museum of Ireland excavation reports",
+    "url": "https://excavations.ie/report/2022/Dublin/0031771/",
+    "accessed": "2026-11-01",
+    "source_type": "OFFICIAL_REPORT",
+    "specific_reference": "Licence 21E0796; monitoring of 15 trial pits on 13 October 2021; WGS84 53.339471, -6.191061.",
+    "notes": "The report records no archaeological features or finds of significance in the monitored trial pits. It concerns the modern Poolbeg Generating Station site and must not be conflated with the former Pigeon House Power Station (RPS 6796)."
   }
 ]

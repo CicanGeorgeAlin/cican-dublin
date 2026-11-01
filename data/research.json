@@ -355,5 +355,22 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ]
+  },
+  {
+    "id": "RES-RINGSEND-BOTTLEMAKERS-HALL-2026",
+    "title": "Bottlemaker's Hall survives as a protected former workers' club; 2026 planning application documents its reuse proposal",
+    "area": "IRISHTOWN · RINGSEND · DUBLIN 4",
+    "updated": "2026-11-01",
+    "status": "EXTANT_STRUCTURE_SUPPORTED_BY_CURRENT_PLANNING_RECORD",
+    "status_label": "CURRENT PLANNING EVIDENCE · FOUNDER FIELD PHOTOGRAPHY PENDING",
+    "summary": "Bottlemaker's Hall (also known as Dolphin House) is recorded as a 1915 club building for the Irish Glass Bottlemakers' Society. Dublin City Council's current RPS lists it as RPS 4003. A 2026 planning application describes the existing vacant 250 m² complex and proposes renovation and conversion.",
+    "supported": "The Dictionary of Irish Architects identifies Aubrey Vincent O'Rourke as architect, John Dillon as builder and 1915 as the date. Dublin City Council's Ringsend & Irishtown Walking Trail corroborates the date and social history. The current statutory RPS includes Bottlemaker's Hall as RPS 4003. The 2026 planning application WEB3596/26 describes the extant building complex, its former social-club and manager's-apartment uses, rear dancehall and proposed repair works.",
+    "limits": "The planning application is undecided in the source checked and must not be represented as permission granted or works completed. The map coordinate is an approximate planning-site marker, not a surveyed building point or founder GPS. Current visible condition, exact fabric survival, architectural details and lawful photography viewpoints require founder fieldwork. The property is not open for casual access.",
+    "source_ids": [
+      "DCC-RPS-2022-2028-RPS4003",
+      "DCC-PLANNING-WEB3596-26-BOTTLEMAKERS-HALL",
+      "DIA-BOTTLEMAKERS-HALL-1915",
+      "DCC-RINGSEND-IRISHTOWN-WALKING-TRAIL-2022"
+    ]
   }
 ]

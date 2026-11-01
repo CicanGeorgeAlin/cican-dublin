@@ -7490,5 +7490,46 @@
     "coordinate_accuracy_m": null,
     "coordinate_status": "SOURCE_DERIVED",
     "research_notes": "Dating discrepancy retained: BusConnects CBC16 architectural-heritage appendix describes the fountain as c.1930; EPA-published report describes it as erected in 1906. Both identify RPS 7376 at 103 Ringsend Park and describe a fountain in/at the garden wall. Do not state a single definitive construction year until further primary evidence resolves the discrepancy."
+  },
+  {
+    "id": "DUB-BLD-0094",
+    "name": "Bottlemaker's Hall (Dolphin House) — former Irish Glass Bottlemakers' Society club",
+    "category": "ARCHITECTURE",
+    "district": "Dublin 4",
+    "address": "1A Irishtown Road, Irishtown, Dublin 4, D04 HD26",
+    "historical_period": "1915",
+    "historical_description": "A detached former social-club complex built in 1915 as premises for the Irish Glass Bottlemakers' Society. The Dictionary of Irish Architects attributes the design to Aubrey Vincent O'Rourke and identifies John Dillon as builder. Dublin City Council's Ringsend and Irishtown heritage trail describes the hall as a social centre for the area's bottle-making workers and notes its association with Jim Larkin's political rallies. A 2026 planning application describes the surviving complex as a vacant 250 m² two-storey and one-storey building comprising the former social club and manager's apartment, with a one-storey dancehall to the rear.",
+    "historical_significance": "A tangible surviving landmark of the glass-making workforce and associational life of Ringsend and Irishtown. It links the area's bottle-making industry with workers' recreation, community life and early twentieth-century labour history.",
+    "national_inventory_reference": "Dublin City Council RPS 4003",
+    "national_grid_reference": null,
+    "latitude": 53.33796,
+    "longitude": -6.22247,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Private property and currently described in the 2026 planning application as vacant. View and photograph only from lawful public viewpoints; do not enter the grounds or building. The current application proposes conversion and renovation but has not yet been decided in the source consulted. Check current site conditions and permissions before fieldwork.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.33796%2C-6.22247&travelmode=walking",
+    "photography_brief": [
+      "Photograph the complete Irishtown Road frontage from the public footpath",
+      "Capture the building's two-storey and one-storey volumes without entering the site",
+      "Record the original entrance, brickwork, roofline, chimneys and surviving historic openings",
+      "Photograph the boundary wall, railings and vehicular and pedestrian gates from public space",
+      "Record any surviving signage, plaques or architectural details; do not infer undocumented features",
+      "Take a wider contextual view showing the hall's relationship to Irishtown Road",
+      "Record founder GPS at the actual public viewpoint; the current map point is a source-derived planning-site marker, not founder field GPS"
+    ],
+    "sources": [
+      "DCC-RPS-2022-2028-RPS4003",
+      "DCC-PLANNING-WEB3596-26-BOTTLEMAKERS-HALL",
+      "DIA-BOTTLEMAKERS-HALL-1915",
+      "DCC-RINGSEND-IRISHTOWN-WALKING-TRAIL-2022"
+    ],
+    "feature_type": "PRIMARY_OBJECT",
+    "coordinate_status": "SOURCE_DERIVED",
+    "coordinate_source": "PlanningRegister.ie map associated with Dublin City Council application WEB3596/26 reports site point 53.33796, -6.22247. This is an approximate source-derived planning-site marker, not a surveyed point on the building and not a founder-recorded GPS fix; positional accuracy is unspecified. Confirm the exact building frontage and record founder GPS during lawful fieldwork.",
+    "coordinate_accuracy_m": null,
+    "research_notes": "Current RPS 4003 listing and 2026 planning application independently identify the protected structure at Irishtown Road. The application describes the surviving building complex and proposed conservation works; it does not establish that permission has been granted or works completed. Historic and architectural context supported by the Dictionary of Irish Architects and DCC's Ringsend & Irishtown Walking Trail."
   }
 ]

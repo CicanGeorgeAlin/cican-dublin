@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 209,
+  "record_count": 211,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -8040,6 +8040,70 @@
         "Blocked segmental-headed windows and block-and-start surrounds",
         "Square-headed doorway and granite surround; distinguish later steel door",
         "Relationship to the Great South Wall and former drainage outlet"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-INF-0010",
+      "name": "Masonry landing slip at eastern entrance to Pigeon House Fort (DCIHR 19-09-012)",
+      "category": "INFRASTRUCTURE",
+      "district": "Dublin 4",
+      "address": "Great South Wall beside the eastern entrance to Pigeon House Fort, Dublin 4 (point from 3FM EIAR; field position not verified)",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Wide view showing slip's junction with the Great South Wall",
+        "Rectangular granite paving blocks and stepped profile",
+        "Visible courses and relationship to foreshore, only from a safe viewpoint",
+        "Record any sheet piles without approaching the waterline",
+        "Photograph stone joints, erosion and repairs without climbing onto the structure"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-INF-0011",
+      "name": "White Bank Wharf South Wall slipway (DCIHR 19-09-011)",
+      "category": "INFRASTRUCTURE",
+      "district": "Dublin 4",
+      "address": "White Bank Wharf, Great South Wall, Poolbeg Peninsula, Dublin 4 (point from 3FM EIAR; field position not verified)",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Wide view showing how the slipway is integrated into the Great South Wall",
+        "Long rectangular masonry blocks laid perpendicular to the wall",
+        "North-west corner and any visible erosion/collapse, from a safe distance",
+        "Nearby access steps and relationship to the Sluice House, if visible",
+        "Record later repairs separately from historic masonry"
       ],
       "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
       "original_photo": null,

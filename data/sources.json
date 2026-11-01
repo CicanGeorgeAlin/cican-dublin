@@ -3019,5 +3019,35 @@
     "source_type": "OFFICIAL_REPORT",
     "specific_reference": "Licence 21E0796; monitoring of 15 trial pits on 13 October 2021; WGS84 53.339471, -6.191061.",
     "notes": "The report records no archaeological features or finds of significance in the monitored trial pits. It concerns the modern Poolbeg Generating Station site and must not be conflated with the former Pigeon House Power Station (RPS 6796)."
+  },
+  {
+    "id": "DUBLIN-PORT-3FM-EIAR-CH16-APP16-1",
+    "name": "Dublin Port Company 3FM EIAR — Chapter 16 Cultural Heritage, Appendix 16-1",
+    "publisher": "Dublin Port Company",
+    "url": "https://dublinport3fm.ie/wp-content/uploads/2024/07/Chapter-16-Cultural-Heritage-including-Archaeological-Architectural-Industrial-Volume-2-Part-5.pdf",
+    "accessed": "2026-11-01",
+    "source_type": "OFFICIAL_REPORT",
+    "specific_reference": "Appendix 16-1: DCIHR 18-12-118 boat slip; DCIHR 18-12-121 landing stage; DCIHR 18-12-151-01 syphon house; RPS 6795 former Pigeon House Hotel; signal tower RMP DU019-038001 (approximate point); Macerals Slip DCIHR 19-09-001 (buried).",
+    "notes": "Project EIAR with cultural-heritage survey and illustrated asset catalogue. ITM points converted from EPSG:2157 to WGS84. Survey-era conditions do not establish unchanged condition in November 2026. Embedded images not reused because image-specific licensing was not established."
+  },
+  {
+    "id": "DCC-FILM-OFFICE-PIGEON-HOUSE-HOTEL",
+    "name": "Dublin City Film Office — The Pigeon House (Teach Pigeon)",
+    "publisher": "Dublin City Council Film Office",
+    "url": "https://www.dublincityfilmoffice.ie/filming-location/pigeon-house-hotel/",
+    "accessed": "2026-11-01",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "Hotel construction commenced 1793 and completed 1795; dressed ashlar granite, three storeys over basement, full-height bows at south-east elevation.",
+    "notes": "Official Dublin City Council heritage/location page. Gallery images attributed to Lynn Daly / DCC were not imported because individual reuse terms were not established."
+  },
+  {
+    "id": "DUBLIN-INQUIRER-PIGEON-HOUSE-LEASE-2026",
+    "name": "Dublin Inquirer — Pigeon House Hotel current-use reporting",
+    "publisher": "Dublin Inquirer; Michael Lanigan",
+    "url": "https://www.dublininquirer.com/grand-vision-for-pigeon-house-on-poolbeg-peninsula-is-shrunk-way-down-for-now/",
+    "accessed": "2026-11-01",
+    "source_type": "NEWS_REPORT",
+    "specific_reference": "Published 11 March 2026; reports council ownership, seven rooms temporarily licensed to Celtic Anglian Water and a proposed five-year letting discussed at the South East Area Committee; item deferred to April.",
+    "notes": "Dated secondary reporting only; not proof of final executed lease or current room-by-room occupancy."
   }
 ]

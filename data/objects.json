@@ -7654,5 +7654,73 @@
     "coordinate_source": "3FM EIAR Appendix 16-1 gives ITM 720343, 733686 for RPS 6795. Converted EPSG:2157 to WGS84: 53.33970553746711, -6.192883490566827. Source-derived, not founder GPS; accuracy unspecified.",
     "coordinate_accuracy_m": null,
     "research_notes": "The Film Office confirms construction and architectural form. The EIAR confirms standing status and supplies the coordinate. March 2026 news is dated context, not proof of final executed lease."
+  },
+  {
+    "id": "DUB-INF-0006",
+    "name": "Great South Wall attendant concrete boat slip — DCIHR 18-12-118",
+    "category": "INFRASTRUCTURE",
+    "district": "Dublin 4",
+    "address": "Great South Wall / Ringsend maritime-industrial waterfront, Dublin 4",
+    "historical_period": "c.1920–1930",
+    "historical_description": "Concrete boat slip with iron posts and railings, concrete mooring blocks, a cast-iron lamppost at the north-west corner and limestone masonry quay wall to the east. The EIAR describes original railings surviving and identifies the slip as a surviving maritime feature. It replaced an earlier wooden pier shown on the 1912 OS map.",
+    "historical_significance": "Small, distinctive example of early-twentieth-century maritime infrastructure.",
+    "national_inventory_reference": null,
+    "national_grid_reference": null,
+    "latitude": 53.34484995918657,
+    "longitude": -6.2290583408467,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "The EIAR survey records this feature, but current access and condition must be checked. Photograph only from lawful, safe public viewpoints; do not enter restricted operational areas.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.34484995918657%2C-6.2290583408467&travelmode=walking",
+    "photography_brief": [
+      "Full slip profile and quay relationship",
+      "Iron posts, railings, mooring blocks and lamppost if extant",
+      "Limestone quay wall and visible repairs"
+    ],
+    "sources": [
+      "DUBLIN-PORT-3FM-EIAR-CH16-APP16-1"
+    ],
+    "feature_type": "MICRO_DETAIL",
+    "coordinate_status": "SOURCE_DERIVED",
+    "coordinate_source": "EIAR ITM 717920, 734198 converted EPSG:2157 to WGS84: 53.34484995918657, -6.2290583408467. Source-derived, not founder GPS; accuracy unspecified.",
+    "coordinate_accuracy_m": null,
+    "research_notes": "Description and point are derived from Dublin Port Company's 3FM EIAR Appendix 16-1. The survey-era condition is not a guarantee of unchanged condition in November 2026."
+  },
+  {
+    "id": "DUB-INF-0007",
+    "name": "Ringsend industrial waterfront — timber-and-metal landing stage, DCIHR 18-12-121",
+    "category": "INFRASTRUCTURE",
+    "district": "Dublin 4",
+    "address": "Eastern bank of the River Dodder at its mouth, Ringsend, Dublin 4",
+    "historical_period": "c.1900; later served Hammond Metals from the 1950s",
+    "historical_description": "Timber-plank deck supported on a metal framework and tied into the stone revetment wall on the eastern bank of the River Dodder. It may originally have served a coal yard. The EIAR records it as standing, disused and fallen into disrepair at the time of survey.",
+    "historical_significance": "Surviving remnant of industrial loading infrastructure at the mouth of the Dodder.",
+    "national_inventory_reference": null,
+    "national_grid_reference": null,
+    "latitude": 53.34421464294605,
+    "longitude": -6.2292498858474525,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "The EIAR survey records this feature, but current access and condition must be checked. Photograph only from lawful, safe public viewpoints; do not enter restricted operational areas.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.34421464294605%2C-6.2292498858474525&travelmode=walking",
+    "photography_brief": [
+      "Wide view and relationship to the Dodder mouth",
+      "Timber deck, metal frame and stone revetment",
+      "Visible deterioration; photograph from stable public ground"
+    ],
+    "sources": [
+      "DUBLIN-PORT-3FM-EIAR-CH16-APP16-1"
+    ],
+    "feature_type": "PRIMARY_OBJECT",
+    "coordinate_status": "SOURCE_DERIVED",
+    "coordinate_source": "EIAR ITM 717909, 734127 converted EPSG:2157 to WGS84: 53.34421464294605, -6.2292498858474525. Source-derived, not founder GPS; accuracy unspecified.",
+    "coordinate_accuracy_m": null,
+    "research_notes": "Description and point are derived from Dublin Port Company's 3FM EIAR Appendix 16-1. The survey-era condition is not a guarantee of unchanged condition in November 2026."
   }
 ]

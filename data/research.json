@@ -412,5 +412,24 @@
       "EXCAVATIONS-2009-PIGEON-HOUSE-FORT-09E0259",
       "EXCAVATIONS-2022-POOLBEG-GENERATING-STATION-21E0796"
     ]
+  },
+  {
+    "id": "RES-POOLBEG-RINGSEND-INDUSTRIAL-DETAILS-2026",
+    "title": "Pigeon House Hotel, Great South Wall attendant structures and Ringsend drainage / riverfront micro-heritage",
+    "area": "PIGEON HOUSE PRECINCT · GREAT SOUTH WALL · RINGSEND · RIVER DODDER",
+    "updated": "2026-11-01",
+    "status": "FOUR_OBJECTS_CATALOGUED; ADDITIONAL_FORT_AND_HARBOUR_FEATURES_RETAINED_AS_RESEARCH_LEADS",
+    "status_label": "FOUR SOURCE-LOCATED OBJECTS ADDED · SIGNAL TOWER AND BURIED FEATURES NOT PINNED",
+    "summary": "Discovery Expansion Batch 105 uses the Dublin Port Company 3FM Environmental Impact Assessment and its illustrated Appendix 16-1 catalogue to add four separately identifiable physical objects: the former Pigeon House Hotel (RPS 6795), a c.1920–30 concrete boat slip (DCIHR 18-12-118), a c.1900 timber-and-metal landing stage (DCIHR 18-12-121), and a c.1900 stone syphon house (DCIHR 18-12-151-01). Each has a published ITM point transformed to WGS84; none is represented as founder field GPS.",
+    "supported": "The Dublin City Film Office records the Pigeon House Hotel as built 1793–1795, a classical dressed-ashlar granite building of three storeys over basement. The 3FM EIAR identifies RPS 6795 as standing and supplies ITM 720343, 733686. The same report describes the boat slip's concrete construction, iron railings/posts, mooring blocks, cast-iron lamp and adjacent limestone quay wall; it describes the landing stage's timber deck and metal frame, disused and in disrepair; and it gives a detailed architectural description of the disused stone syphon house. The hotel and three smaller structures are registered as distinct records DUB-BLD-0097 and DUB-INF-0006 to DUB-INF-0008.",
+    "limits": "The EIAR is a project assessment with site inspections and an asset catalogue, but its survey snapshot does not prove unchanged condition or access in November 2026. The hotel is not a public attraction; March 2026 local reporting describes a council letting proposal and use by a wastewater operator, but this is not the executed lease. The EIAR's embedded photographs were not imported because image-specific reuse rights were not established. The Pigeon House Fort Signal Tower (RMP DU019-038001) is described in the EIAR as standing and buried but its location is expressly approximate; no pin or catalogue object is created until its footprint is independently reconciled. The Blockhouse is listed as a site rather than a standing building. Macerals Slip (DCIHR 19-09-001) is recorded as buried beneath the container terminal and is not a present-day visible-object pin. The report also documents the Pigeon House Harbour walls and basin, but their exact extent and current physical condition need further assessment. No authoritative source confirming a separate lifeboat house was established in this batch; it remains an unverified search lead, not an archive fact. The historic St Catherine's Hospital boundary remains and the former Pigeon House power station remain separate assets requiring exact extent/current condition/access checks.",
+    "source_ids": [
+      "DUBLIN-PORT-3FM-EIAR-CH16-APP16-1",
+      "DCC-FILM-OFFICE-PIGEON-HOUSE-HOTEL",
+      "DCC-RPS-6793-6798-2022-2028",
+      "DUBLIN-INQUIRER-PIGEON-HOUSE-LEASE-2026",
+      "DUBLIN-PORT-HERITAGE-CONSERVATION-STRATEGY",
+      "EXCAVATIONS-2009-PIGEON-HOUSE-FORT-09E0259"
+    ]
   }
 ]

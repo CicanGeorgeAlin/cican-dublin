@@ -7531,5 +7531,47 @@
     "coordinate_source": "PlanningRegister.ie map associated with Dublin City Council application WEB3596/26 reports site point 53.33796, -6.22247. This is an approximate source-derived planning-site marker, not a surveyed point on the building and not a founder-recorded GPS fix; positional accuracy is unspecified. Confirm the exact building frontage and record founder GPS during lawful fieldwork.",
     "coordinate_accuracy_m": null,
     "research_notes": "Current RPS 4003 listing and 2026 planning application independently identify the protected structure at Irishtown Road. The application describes the surviving building complex and proposed conservation works; it does not establish that permission has been granted or works completed. Historic and architectural context supported by the Dictionary of Irish Architects and DCC's Ringsend & Irishtown Walking Trail."
+  },
+  {
+    "id": "DUB-BLD-0095",
+    "name": "Dublin United Tramway Company Powerhouse (Windmill Lane Recording Studios) — RPS 7381",
+    "category": "ARCHITECTURE",
+    "district": "Dublin 4",
+    "address": "20 Ringsend Road, Dublin 4, D04 CF66",
+    "historical_period": "1932",
+    "historical_description": "A surviving Art Deco former electrical power station built for the Dublin United Tramways Company. Specialist architectural history identifies Vincent Kelly as architect and dates the building to 1932. The current occupier confirms that No. 20 Ringsend Road was once the electrical power station for the tramline depot and that the recording studios have occupied the building since 1990. Dublin City Council's current Record of Protected Structures lists RPS 7381 as the Ringsend Shelbourne Pierrot Club (former Bovril building), described as a commercial warehouse/sound studio. The sources indicate a layered industrial and cultural history: tramway electricity generation, later Bovril-associated use, and recording-studio use. The exact chronology of the intermediate Bovril phase requires further archival confirmation.",
+    "historical_significance": "A surviving physical link to Dublin's electric tramway infrastructure and a notable Art Deco industrial building later adapted for music recording. It also illustrates the reuse of former industrial buildings in the Docklands. The current recording-studio use gives the building a continuing cultural role, but private interiors are not part of public access.",
+    "national_inventory_reference": "Dublin City Council RPS 7381",
+    "national_grid_reference": null,
+    "latitude": 53.3422,
+    "longitude": -6.23464,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Private recording-studio premises. Exterior may be viewed from the public footpath; do not enter or photograph internal studio spaces without arranging permission. The studio offers a separately booked visitor tour; check its current terms before any interior visit.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.34220%2C-6.23464&travelmode=walking",
+    "photography_brief": [
+      "Photograph the complete Ringsend Road elevation from the public footpath",
+      "Capture the Art Deco massing, parapet, vertical window rhythm and rendered façade",
+      "Record the entrance composition and any surviving green architectural details without assuming they are original",
+      "Look for evidence of former electrical-utility function, service openings or surviving industrial fittings visible from public space",
+      "Record any protected-structure plaque or interpretation if present",
+      "Take a wider streetscape image showing the building's relationship to the Ringsend bus depot and road",
+      "Record founder GPS at the building frontage; current coordinate is an OpenStreetMap-derived building point, not founder field GPS"
+    ],
+    "sources": [
+      "DCC-RPS-7381-2022-2028",
+      "WINDMILL-LANE-BUILDING-HISTORY",
+      "WINDMILL-LANE-PRESS-RELEASE-2020",
+      "ARCHISEEK-DUTC-POWERHOUSE-1932",
+      "MAPCARTA-OSM-WINDMILL-LANE-RECORDING-STUDIOS"
+    ],
+    "feature_type": "PRIMARY_OBJECT",
+    "coordinate_status": "SOURCE_DERIVED",
+    "coordinate_source": "Mapcarta's OpenStreetMap-derived building feature for Windmill Lane Recording Studios, way 49055716, reports 53.34220, -6.23464. Used as a building map point only; not a cadastral survey, not a surveyed façade point and not founder GPS. Positional accuracy unspecified.",
+    "coordinate_accuracy_m": null,
+    "research_notes": "Identity reconciled using the current occupier's first-party history and a specialist architectural-history source. DCC RPS 7381 currently uses the name Ringsend Shelbourne Pierrot Club (former Bovril building), commercial warehouse/sound studio. Windmill Lane identifies the building at 20 Ringsend Road as the former DUTC tramline-depot electrical power station. Archiseek identifies a 1932 building by Vincent Kelly and notes its Art Deco piers and sun-ray gates are missing. Further primary archival research is needed to date and detail the intermediate Bovril use."
   }
 ]

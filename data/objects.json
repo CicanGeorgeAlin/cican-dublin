@@ -7616,5 +7616,43 @@
     "coordinate_accuracy_m": null,
     "research_notes": "The lighthouse identity and first-light date are supported by Dublin Port's official port history and the Dictionary of Irish Architects. The exact-object third-party photograph by David Dixon was visually inspected and its CC BY-SA 2.0 licence checked on Wikimedia Commons. The source-derived point is the depicted-object coordinate, not the photographer's camera location. The wider Great South Wall and Pigeon House precinct contain several separately protected and archaeologically recorded assets; these are retained as research leads pending current survival, exact geometry, access and photographic verification.",
     "last_researched": "2026-11-01"
+  },
+  {
+    "id": "DUB-BLD-0097",
+    "name": "Former Pigeon House Hotel (Teach Pigeon) — late-Georgian harbour hotel",
+    "category": "ARCHITECTURE",
+    "district": "Dublin 4",
+    "address": "Pigeon House Road, Poolbeg Peninsula, Dublin 4",
+    "historical_period": "1793–1795",
+    "historical_description": "Classical dressed-ashlar granite building of three storeys over basement, with full-height bows at either end of the south-east elevation and entrance facing the Liffey and its harbour. Construction commenced in 1793 and was completed in 1795; design attributed to Robert Pool. Built for cross-channel passengers, it became part of the historic Pigeon House defence precinct in 1798 and remained within the precinct until 1897. The 3FM EIAR records it as standing. The Film Office lists short-term office/location use; March 2026 reporting describes rooms used by a wastewater operator under a council letting proposal, whose final terms are not established here.",
+    "historical_significance": "Rare surviving late-eighteenth-century harbour hotel associated with passenger travel and the later Pigeon House precinct.",
+    "national_inventory_reference": "Dublin City Council RPS 6795",
+    "national_grid_reference": null,
+    "latitude": 53.33970553746711,
+    "longitude": -6.192883490566827,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Not a public visitor attraction. Photograph only from a lawful public viewpoint or with express permission; do not enter the building or grounds.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.33970553746711%2C-6.192883490566827&travelmode=walking",
+    "photography_brief": [
+      "Full south-east elevation from a lawful public viewpoint",
+      "Dressed ashlar granite, three-storey-over-basement form and bow ends",
+      "Entrance orientation towards the Liffey and harbour",
+      "Roofline, windows, basement openings and visible repairs"
+    ],
+    "sources": [
+      "DUBLIN-PORT-3FM-EIAR-CH16-APP16-1",
+      "DCC-FILM-OFFICE-PIGEON-HOUSE-HOTEL",
+      "DCC-RPS-6793-6798-2022-2028",
+      "DUBLIN-INQUIRER-PIGEON-HOUSE-LEASE-2026"
+    ],
+    "feature_type": "PRIMARY_OBJECT",
+    "coordinate_status": "SOURCE_DERIVED",
+    "coordinate_source": "3FM EIAR Appendix 16-1 gives ITM 720343, 733686 for RPS 6795. Converted EPSG:2157 to WGS84: 53.33970553746711, -6.192883490566827. Source-derived, not founder GPS; accuracy unspecified.",
+    "coordinate_accuracy_m": null,
+    "research_notes": "The Film Office confirms construction and architectural form. The EIAR confirms standing status and supplies the coordinate. March 2026 news is dated context, not proof of final executed lease."
   }
 ]

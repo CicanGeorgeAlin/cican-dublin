@@ -7866,5 +7866,77 @@
     "coordinate_source": "3FM EIAR Appendix 16-1 gives ITM 721427, 733833. Converted EPSG:2157 to WGS84: 53.34077839985886, -6.176558384835216. Source-derived point, not founder GPS; accuracy unspecified.",
     "coordinate_accuracy_m": null,
     "research_notes": "The EIAR gives a detailed architectural description and records the building as abandoned at survey date. The coordinate is the catalogue ITM point transformed to WGS84, not founder GPS. Present access and condition require verification."
+  },
+  {
+    "id": "DUB-INF-0010",
+    "name": "Masonry landing slip at eastern entrance to Pigeon House Fort (DCIHR 19-09-012)",
+    "category": "INFRASTRUCTURE",
+    "district": "Dublin 4",
+    "address": "Great South Wall beside the eastern entrance to Pigeon House Fort, Dublin 4",
+    "historical_period": "c.1770",
+    "historical_description": "A substantial masonry boat slip adjoining the Great South Wall beside the eastern entrance to Pigeon House Fort. The 3FM EIAR catalogue records it as constructed around 1770 and shown on both the Ordnance Survey First Edition 6-inch series and 25-inch maps. It measures approximately 25m long and 4.3m wide, slopes gently west-to-east at about 10 degrees, and has a surface of rectangular granite masonry similar to the facing blocks of the adjacent Great South Wall. The report records it standing up to 1.6m above the foreshore, with four courses of granite masonry visible; sheet piles protrude from silty sand on the channel side.",
+    "historical_significance": "A rare, individually documented eighteenth-century maritime landing structure contemporary with the construction of the Great South Wall.",
+    "national_inventory_reference": "DCIHR 19-09-012",
+    "national_grid_reference": null,
+    "latitude": 53.340828224386556,
+    "longitude": -6.1910488461794735,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "The slip is at the eastern entrance to Pigeon House Fort within a port landscape with access restrictions. The EIAR also notes sheet piles and foreshore conditions. Do not approach from unstable foreshore or enter restricted land; photograph only from a lawful, safe public viewpoint or with permission.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.340828224386556%2C-6.1910488461794735&travelmode=walking",
+    "photography_brief": [
+      "Wide view showing slip's junction with the Great South Wall",
+      "Rectangular granite paving blocks and stepped profile",
+      "Visible courses and relationship to foreshore, only from a safe viewpoint",
+      "Record any sheet piles without approaching the waterline",
+      "Photograph stone joints, erosion and repairs without climbing onto the structure"
+    ],
+    "sources": [
+      "DUBLIN-PORT-3FM-EIAR-APP16-1-CATALOGUE"
+    ],
+    "feature_type": "PRIMARY_OBJECT",
+    "coordinate_status": "SOURCE_DERIVED",
+    "coordinate_source": "3FM EIAR Appendix 16-1 gives ITM 720462, 733814. Converted EPSG:2157 to WGS84: 53.340828224386556, -6.1910488461794735. Source-derived point, not founder GPS; accuracy unspecified.",
+    "coordinate_accuracy_m": null,
+    "research_notes": "The 3FM EIAR records this slip as c.1770, approximately 25m x 4.3m, with four visible granite courses and up to 1.6m height above foreshore at survey. Present condition and lawful access require field verification."
+  },
+  {
+    "id": "DUB-INF-0011",
+    "name": "White Bank Wharf South Wall slipway (DCIHR 19-09-011)",
+    "category": "INFRASTRUCTURE",
+    "district": "Dublin 4",
+    "address": "White Bank Wharf, Great South Wall, Poolbeg Peninsula, Dublin 4",
+    "historical_period": "c.1770 (believed)",
+    "historical_description": "A stone slip integrated into the Great South Wall and recorded on the Ordnance Survey First Edition 6-inch and later maps. The 3FM EIAR catalogue considers it likely to have been constructed around 1770. The stonework comprises long rectangular masonry blocks, approximately 1m to 1.3m long, laid at right angles to the sea wall. The report records erosion and partial collapse at the north-west corner, apparently caused by wash from ships entering and leaving Dublin Port at low water.",
+    "historical_significance": "An individually recorded historic slipway illustrating the maritime working infrastructure integrated into the eighteenth-century Great South Wall.",
+    "national_inventory_reference": "DCIHR 19-09-011",
+    "national_grid_reference": null,
+    "latitude": 53.341026658546966,
+    "longitude": -6.176923248852423,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "The slipway is exposed to tidal and shipping wash and the EIAR records erosion and partial collapse. Do not approach unstable edges or the waterline; photograph only from lawful, safe public access.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.341026658546966%2C-6.176923248852423&travelmode=walking",
+    "photography_brief": [
+      "Wide view showing how the slipway is integrated into the Great South Wall",
+      "Long rectangular masonry blocks laid perpendicular to the wall",
+      "North-west corner and any visible erosion/collapse, from a safe distance",
+      "Nearby access steps and relationship to the Sluice House, if visible",
+      "Record later repairs separately from historic masonry"
+    ],
+    "sources": [
+      "DUBLIN-PORT-3FM-EIAR-APP16-1-CATALOGUE"
+    ],
+    "feature_type": "PRIMARY_OBJECT",
+    "coordinate_status": "SOURCE_DERIVED",
+    "coordinate_source": "3FM EIAR Appendix 16-1 gives ITM 721402, 733860. Converted EPSG:2157 to WGS84: 53.341026658546966, -6.176923248852423. Source-derived point, not founder GPS; accuracy unspecified.",
+    "coordinate_accuracy_m": null,
+    "research_notes": "The EIAR describes the slipway as believed c.1770 and records erosion/partial collapse at the north-west corner. Present condition and lawful access require field verification."
   }
 ]

@@ -10,7 +10,7 @@ https://cicangeorgealin.github.io/cican-dublin/
 
 ## Current catalogue
 
-The catalogue currently contains **209 records** across Dublin 1, Dublin 2, Dublin 3, Dublin 4 and Dublin 8, linked to **308 source entries** and **27 research notes** (the current `data/research.json` feed count). The current district distribution is 70 records in Dublin 1, 59 in Dublin 2, 66 in Dublin 3, 9 in Dublin 4 and 2 in Dublin 8. Recent research has added individually documented discoveries including historic post boxes, lamp standards, coal-hole covers, boot scrapers, railings and Georgian entrance details.
+The catalogue currently contains **209 records** across Dublin 1, Dublin 2, Dublin 3, Dublin 4 and Dublin 8, linked to **308 source entries** and **27 research notes** (the current `data/research.json` feed count). The current district distribution is 70 records in Dublin 1, 59 in Dublin 2, 66 in Dublin 3, 12 in Dublin 4 and 2 in Dublin 8. Recent research has added individually documented discoveries including historic post boxes, lamp standards, coal-hole covers, boot scrapers, railings and Georgian entrance details.
 
 - **207 VERIFIED** records.
 - **2 PARTIALLY_VERIFIED** records, where source inspection or specific details still require confirmation.

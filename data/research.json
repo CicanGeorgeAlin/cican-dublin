@@ -447,5 +447,20 @@
       "DUBLIN-PORT-HERITAGE-CONSERVATION-STRATEGY",
       "DCC-RPS-6793-6798-2022-2028"
     ]
+  },
+  {
+    "id": "RES-GREAT-SOUTH-WALL-HISTORIC-SLIPS-2026",
+    "title": "Two c.1770 masonry landing slips on the Great South Wall",
+    "area": "PIGEON HOUSE FORT EASTERN ENTRANCE · WHITE BANK WHARF · GREAT SOUTH WALL · DUBLIN 4",
+    "updated": "2026-11-01",
+    "status": "TWO_DISTINCT_SLIPWAYS_CATALOGUED; ACCESS_AND_PRESENT_CONDITION_PENDING_FIELD_CHECK",
+    "status_label": "TWO SOURCE-LOCATED MASONRY SLIPS ADDED · FIELD VERIFICATION REQUIRED",
+    "summary": "Further review of Dublin Port Company's 3FM EIAR Appendix 16-1 identifies two separate historic masonry slipways: the landing slip beside the eastern entrance to Pigeon House Fort (DCIHR 19-09-012) and the White Bank Wharf South Wall slip (DCIHR 19-09-011). Both are associated with the Great South Wall and have separate source-derived ITM points.",
+    "supported": "Appendix 16-1 describes DCIHR 19-09-012 as a c.1770 masonry boat slip, approximately 25m by 4.3m, with rectangular granite blocks, stepped profile and up to four visible courses; ITM 720462, 733814. It describes DCIHR 19-09-011 as a slip believed c.1770, integrated into the Great South Wall, with long rectangular blocks laid at right angles to the wall; its north-west corner had suffered erosion and partial collapse; ITM 721402, 733860. Both are individually registered in the archive with distinct visual records.",
+    "limits": "The report is a survey snapshot and does not prove unchanged condition in November 2026. The eastern Pigeon House Fort slip is within a port landscape where access restrictions apply, and the report notes sheet piles and foreshore conditions. The White Bank slip is exposed to tidal and shipping wash and has recorded erosion/collapse. Coordinates are transformed from report ITM points, not founder GPS. No embedded report photographs were imported because image-specific reuse rights were not independently established.",
+    "source_ids": [
+      "DUBLIN-PORT-3FM-EIAR-APP16-1-CATALOGUE",
+      "DUBLIN-PORT-HERITAGE-CONSERVATION-STRATEGY"
+    ]
   }
 ]

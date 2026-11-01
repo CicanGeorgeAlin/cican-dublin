@@ -2879,5 +2879,55 @@
     "source_type": "OFFICIAL_LOCAL_AUTHORITY_HERITAGE_GUIDE",
     "specific_reference": "Stop 5, Bottlemakers Hall. Guide states the hall was built in 1915 by an amalgamation of bottle blowers from nearby factories and served social activities; it also notes its association with Jim Larkin's political rallies.",
     "notes": "Official local-authority heritage trail corroborates the building's date and social/industrial context. Its description is historical interpretation, not a detailed architectural survey."
+  },
+  {
+    "id": "DCC-RPS-7381-2022-2028",
+    "name": "Dublin City Development Plan 2022–2028, Volume 4 — RPS 7381",
+    "publisher": "Dublin City Council",
+    "url": "https://www.dublincity.ie/sites/default/files/2022-12/FINAL%20Dublin%20City%20Development%20Plan%202022-2028%20-%20Volume%204%20RPS.pdf",
+    "accessed": "2026-11-01",
+    "source_type": "OFFICIAL_LOCAL_AUTHORITY_REGISTER",
+    "specific_reference": "RPS 7381, Ringsend Road, Dublin 4; register description: Ringsend Shelbourne Pierrot Club (former Bovril building), commercial warehouse/sound studio.",
+    "notes": "Current statutory RPS listing. The register's brief historic-use description does not fully explain the building's earlier tramway-powerhouse function; the current operator's building history is used to clarify that identity."
+  },
+  {
+    "id": "WINDMILL-LANE-BUILDING-HISTORY",
+    "name": "Windmill Lane Recording Studios — About Us / Our Building",
+    "publisher": "Windmill Lane Recording Studios",
+    "url": "https://www.windmilllanerecording.com/about/",
+    "accessed": "2026-11-01",
+    "source_type": "OWNER_OR_OCCUPIER_HISTORICAL_ACCOUNT",
+    "specific_reference": "Our Building: No. 20 Ringsend Road was once the electrical power station for the tramline depot; studio home since 1990; currently an Art Deco protected structure.",
+    "notes": "First-party account from the current occupier identifying the building's tramway power-station use, current studio use and address. Not an independent architectural survey."
+  },
+  {
+    "id": "WINDMILL-LANE-PRESS-RELEASE-2020",
+    "name": "Windmill Lane Recording Studios — Visitor Experience press release, 17 February 2020",
+    "publisher": "Windmill Lane Recording Studios",
+    "url": "https://www.windmilllanerecording.com/press-release/",
+    "accessed": "2026-11-01",
+    "source_type": "OWNER_OR_OCCUPIER_HISTORICAL_ACCOUNT",
+    "specific_reference": "Describes the 1990 relocation to a larger Art Deco protected structure, the former electrical power station for the tramline depot on Ringsend Road.",
+    "notes": "First-party account supporting the building's reuse as a recording studio and its former tramway power-station identity."
+  },
+  {
+    "id": "ARCHISEEK-DUTC-POWERHOUSE-1932",
+    "name": "Archiseek — 1932 DUTC Powerhouse, Ringsend, Dublin",
+    "publisher": "Archiseek / Paul Clerkin",
+    "url": "https://www.archiseek.com/1932-dutc-powerhouse-ringsend-dublin/",
+    "accessed": "2026-11-01",
+    "source_type": "ARCHITECTURAL_HISTORICAL_REFERENCE",
+    "specific_reference": "1932 DUTC Powerhouse; architect Vincent Kelly; former Dublin United Tramways Company power station with rendered Art Deco façade. Article notes the Art Deco piers and sun-ray gates are missing.",
+    "notes": "Specialist architectural-history source. Supports date, architect and original function; also records loss of associated decorative piers and gates. It is not the statutory register."
+  },
+  {
+    "id": "MAPCARTA-OSM-WINDMILL-LANE-RECORDING-STUDIOS",
+    "name": "Mapcarta / OpenStreetMap — Windmill Lane Recording Studios, 20 Ringsend Road",
+    "publisher": "Mapcarta, based on OpenStreetMap and linked geographic data",
+    "url": "https://mapcarta.com/W49055716",
+    "accessed": "2026-11-01",
+    "source_type": "OPENSTREETMAP_DERIVED_GEOGRAPHIC_REFERENCE",
+    "specific_reference": "Building feature at 20 Ringsend Road; WGS84 point 53.34220, -6.23464; OpenStreetMap way 49055716.",
+    "notes": "Used only as a source-derived building map point. Not a cadastral survey or founder field GPS; positional accuracy unspecified."
   }
 ]

@@ -7573,5 +7573,48 @@
     "coordinate_source": "Mapcarta's OpenStreetMap-derived building feature for Windmill Lane Recording Studios, way 49055716, reports 53.34220, -6.23464. Used as a building map point only; not a cadastral survey, not a surveyed façade point and not founder GPS. Positional accuracy unspecified.",
     "coordinate_accuracy_m": null,
     "research_notes": "Identity reconciled using the current occupier's first-party history and a specialist architectural-history source. DCC RPS 7381 currently uses the name Ringsend Shelbourne Pierrot Club (former Bovril building), commercial warehouse/sound studio. Windmill Lane identifies the building at 20 Ringsend Road as the former DUTC tramline-depot electrical power station. Archiseek identifies a 1932 building by Vincent Kelly and notes its Art Deco piers and sun-ray gates are missing. Further primary archival research is needed to date and detail the intermediate Bovril use."
+  },
+  {
+    "id": "DUB-BLD-0096",
+    "name": "Poolbeg Lighthouse — red navigation light at the seaward end of the Great South Wall",
+    "category": "ARCHITECTURE",
+    "district": "Dublin 4",
+    "address": "Eastern end of the Great South Wall (South Bull Wall), Dublin Bay, Dublin 4",
+    "historical_period": "1766–1767; first lit 29 September 1767",
+    "historical_description": "The red lighthouse at the seaward end of the Great South Wall, marking the entrance to Dublin Port. Dublin Port records that the light was first lit on 29 September 1767, replacing a floating light previously used to warn shipping. The Dictionary of Irish Architects records John Smyth's responsibility for the lighthouse's construction in 1766–1767 and the eastern abutment of the South Wall in or after 1771. The exact chronology of later alterations is not fully established by the sources reviewed for this record.",
+    "historical_significance": "A landmark piece of Dublin's maritime navigation and harbour-engineering infrastructure, physically associated with the Great South Wall and the historic entrance to the port.",
+    "national_inventory_reference": "Dublin City Council RPS 6798 — Great South Wall (to lighthouse); the cited register entry covers the wall and does not constitute a separate lighthouse entry.",
+    "national_grid_reference": null,
+    "latitude": 53.342128,
+    "longitude": -6.151459,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "The lighthouse stands at the seaward end of the Great South Wall. The breakwater is exposed to wind, waves and changing weather; check current access notices, closures and port restrictions before fieldwork. Do not enter operational or restricted port areas. The evidence reviewed here does not establish unrestricted access to the Pigeon House precinct.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.342128%2C-6.151459&travelmode=walking",
+    "photography_brief": [
+      "Photograph the complete lighthouse from a lawful, safe public viewpoint, keeping clear of the water's edge",
+      "Capture the red masonry tower, lantern gallery, roof/lantern form and visible openings",
+      "Record the junction between the lighthouse base, rock armour and the end of the Great South Wall",
+      "Take a wide view showing the lighthouse's relationship to the breakwater and Dublin Port entrance",
+      "Record visible repairs, masonry joints, ironwork, plaques or inscriptions without assuming their date or function",
+      "Check current port access notices, weather, tide and safety conditions before visiting",
+      "Record founder GPS at the actual lighthouse position only after a safe on-site fix; the existing point is source-derived"
+    ],
+    "sources": [
+      "DCC-RPS-6793-6798-2022-2028",
+      "DUBLIN-PORT-HISTORY-PORT-POOLBEG",
+      "DIA-POOLBEG-LIGHTHOUSE-1767",
+      "MAPCARTA-OSM-POOLBEG-LIGHTHOUSE",
+      "WMC-POOLBEG-LIGHTHOUSE-DIXON-2018"
+    ],
+    "feature_type": "PRIMARY_OBJECT",
+    "coordinate_status": "SOURCE_DERIVED",
+    "coordinate_source": "The Wikimedia Commons file metadata for David Dixon's photograph captured 21 June 2018 records the depicted lighthouse position as 53.342128, -6.151459 (distinct from the camera position). Mapcarta/OpenStreetMap way 244344138 independently reports 53.34211, -6.15137. This is a source-derived object point, not founder field GPS; positional accuracy is unspecified.",
+    "coordinate_accuracy_m": null,
+    "research_notes": "The lighthouse identity and first-light date are supported by Dublin Port's official port history and the Dictionary of Irish Architects. The exact-object third-party photograph by David Dixon was visually inspected and its CC BY-SA 2.0 licence checked on Wikimedia Commons. The source-derived point is the depicted-object coordinate, not the photographer's camera location. The wider Great South Wall and Pigeon House precinct contain several separately protected and archaeologically recorded assets; these are retained as research leads pending current survival, exact geometry, access and photographic verification.",
+    "last_researched": "2026-11-01"
   }
 ]

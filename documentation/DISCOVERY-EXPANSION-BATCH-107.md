@@ -36,6 +36,6 @@ This batch is a further extraction from Dublin Port Company's 3FM EIAR Appendix 
 
 ## Result
 
-The two slipways are recorded separately because they have distinct DCIHR references, locations, fabric descriptions and condition notes. They must not be merged with the earlier Great South Wall boat slip (DCIHR 18-12-118) or the c.1770 slip at the eastern entrance to Pigeon House Fort (DCIHR 19-09-012); this batch's IDs are distinct and each source record is individually reconciled.
+The two slipways are recorded separately because they have distinct DCIHR references, locations, fabric descriptions and condition notes. They must not be merged with the earlier attendant concrete boat slip (DCIHR 18-12-118), which is a separate feature and has a different date, construction and location. Each slipway in this batch has its own DCIHR reference and record.
 
 **ALWAYS STAY IN THE LIGHT.**

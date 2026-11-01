@@ -3049,5 +3049,15 @@
     "source_type": "NEWS_REPORT",
     "specific_reference": "Published 11 March 2026; reports council ownership, seven rooms temporarily licensed to Celtic Anglian Water and a proposed five-year letting discussed at the South East Area Committee; item deferred to April.",
     "notes": "Dated secondary reporting only; not proof of final executed lease or current room-by-room occupancy."
+  },
+  {
+    "id": "DUBLIN-PORT-3FM-EIAR-APP16-1-CATALOGUE",
+    "name": "Dublin Port Company 3FM EIAR — Appendix 16-1, Catalogue of Cultural Heritage Assets",
+    "publisher": "Dublin Port Company; Archaeological Diving Company Ltd.; compiled by Niall Brady and Dominick Gallagher",
+    "url": "https://dublinport3fm.ie/wp-content/uploads/2024/07/Appendix-16.1__Volume-3-Part-8.pdf",
+    "accessed": "2026-11-01",
+    "source_type": "OFFICIAL_ARCHAEOLOGICAL_CATALOGUE",
+    "specific_reference": "Appendix 16-1, pp. 82–85: DCIHR 19-09-008 Lifeboat House (site of); DCIHR 19-09-009-01 Sluice House, South Wall; RMP DU019-028 Half Moon Battery. Includes ITM coordinates and site descriptions based on records and field walkover inspection.",
+    "notes": "The catalogue states its entries draw on RMP, NIAH, DCC RPS, DCIHR, NCEHD and DDIAS, supplemented by Dublin Port Archives and project field walkover inspection. Report photographs are not copied into the visual register; reuse rights were not independently established. Survey condition is time-bound and does not establish present-day access or unchanged fabric."
   }
 ]

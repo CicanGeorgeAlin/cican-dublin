@@ -431,5 +431,21 @@
       "DUBLIN-PORT-HERITAGE-CONSERVATION-STRATEGY",
       "EXCAVATIONS-2009-PIGEON-HOUSE-FORT-09E0259"
     ]
+  },
+  {
+    "id": "RES-POOLBEG-HALF-MOON-LIFEBOAT-SLUICE-2026",
+    "title": "Half Moon Battery, former Lifeboat House remains and South Wall Sluice House",
+    "area": "GREAT SOUTH WALL · POOLBEG PENINSULA · DUBLIN 4",
+    "updated": "2026-11-01",
+    "status": "THREE_SOURCE-LOCATED_ASSETS_CATALOGUED; CURRENT_CONDITION_AND_ACCESS_PENDING_FIELD_CHECK",
+    "status_label": "THREE ASSETS CATALOGUED · FIELD PHOTOGRAPHY AND ACCESS CHECK REQUIRED",
+    "summary": "Batch 106 uses Dublin Port Company's 3FM EIAR Appendix 16-1 to catalogue three separately referenced heritage assets: Half Moon Battery (RMP DU019-028), the former Lifeboat House site (DCIHR 19-09-008), and the South Wall Sluice House (DCIHR 19-09-009-01). Each has an ITM point transformed to WGS84 and a founder photography brief.",
+    "supported": "Appendix 16-1 describes Half Moon Battery as a 1793 gun battery with a surviving south-facing granite perimeter wall, a possible gun-swivel curvature in the Great South Wall and a stone slipway; the report gives ITM 722275, 733893. It describes the Lifeboat House as a c.1850 site with red-brick and granite wall stubs, a breached concrete enclosure wall and ruinous perimeter path; ITM 721370, 733814. It describes the Sluice House as a detached three-bay single-storey masonry building built c.1881, with rubble-stone walls, rusticated quoins and blocked window openings; ITM 721427, 733833. The catalogue explains that entries draw on statutory registers, industrial heritage records, port archives and project field walkover inspections.",
+    "limits": "The 3FM EIAR Appendix 16-1 calls Half Moon Battery a five-gun battery armed with five 24-pounder guns, while Dublin Port's Heritage Conservation Strategy describes a three-gun platform battery. The discrepancy is preserved for further archival checking. The Lifeboat House is catalogued as a site, not a complete standing building; the EIAR describes wall stubs and enclosure remnants. The sluice house is described as abandoned at survey date. None of these survey descriptions proves unchanged condition or current public access in November 2026. The source PDF's photographs were not copied into the visual register because image-specific reuse rights were not independently established. All three new visual records await founder photography.",
+    "source_ids": [
+      "DUBLIN-PORT-3FM-EIAR-APP16-1-CATALOGUE",
+      "DUBLIN-PORT-HERITAGE-CONSERVATION-STRATEGY",
+      "DCC-RPS-6793-6798-2022-2028"
+    ]
   }
 ]

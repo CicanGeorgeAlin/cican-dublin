@@ -390,5 +390,27 @@
       "ARCHISEEK-DUTC-POWERHOUSE-1932",
       "MAPCARTA-OSM-WINDMILL-LANE-RECORDING-STUDIOS"
     ]
+  },
+  {
+    "id": "RES-POOLBEG-PIGEON-HOUSE-2026",
+    "title": "Poolbeg Lighthouse and the protected Pigeon House / Great South Wall heritage landscape",
+    "area": "POOLBEG PENINSULA · PIGEON HOUSE HARBOUR · GREAT SOUTH WALL · DUBLIN 4",
+    "updated": "2026-11-01",
+    "status": "ONE_NEW_OBJECT_VERIFIED; PRECINCT_ASSETS_REMAIN_RESEARCH_LEADS",
+    "status_label": "POOLBEG LIGHTHOUSE CATALOGUED · PIGEON HOUSE PRECINCT REQUIRES SURVIVAL AND ACCESS VERIFICATION",
+    "summary": "The research adds Poolbeg Lighthouse as a separately documented physical object and opens a wider investigation of the Pigeon House heritage landscape. Dublin City Council's current RPS identifies the former St Catherine's Hospital remains (6793), remnants of Pigeon House Fort (6794), former Pigeon House Hotel (6795), former red-brick Pigeon House power station (6796), sea walls along Pigeon House Road (6797), and the Great South Wall to the lighthouse (6798).",
+    "supported": "Dublin Port records that Poolbeg Lighthouse was first lit on 29 September 1767, replacing a floating light at the end of the South Bull Wall. The Dictionary of Irish Architects records John Smyth's responsibility for the lighthouse's construction in 1766–1767 and the eastern abutment of the South Wall in or after 1771. The exact-object photograph by David Dixon, captured 21 June 2018 and visually inspected on Wikimedia Commons, carries an explicit CC BY-SA 2.0 licence and records the depicted lighthouse position at 53.342128, -6.151459. The lighthouse is catalogued as DUB-BLD-0096. Dublin City Film Office describes the former Pigeon House power station as built in phases 1902–03, 1911–13 and 1933–40 and decommissioned in the 1970s. An archaeological survey of Pigeon House Fort was reported in 2009 under SMR DU019-027 / licence 09E0259.",
+    "limits": "The RPS descriptions establish statutory listing, not the exact present-day condition, survival or accessible extent of every feature. The 2009 fort survey documents remains at that date, not their 2026 condition. Dublin Port's Heritage Conservation Strategy describes restoring pedestrian access from Ringsend to Pigeon House Harbour via the Great South Wall as a long-term aspiration and records port security/access constraints; do not assume the Pigeon House precinct is open to the public. The modern Poolbeg Generating Station (including the 2021 trial-pit report) is distinct from the former Pigeon House Power Station (RPS 6796). No separate map pins were created for the fort, hotel, hospital remains, harbour sea walls or former power station in this batch because exact geometry, current survival and lawful access require further verification. The lighthouse coordinate is source-derived, not founder GPS. The Commons photograph is a third-party reference, not founder photography.",
+    "source_ids": [
+      "DCC-RPS-6793-6798-2022-2028",
+      "DUBLIN-PORT-HISTORY-PORT-POOLBEG",
+      "DUBLIN-PORT-HERITAGE-CONSERVATION-STRATEGY",
+      "DIA-POOLBEG-LIGHTHOUSE-1767",
+      "MAPCARTA-OSM-POOLBEG-LIGHTHOUSE",
+      "WMC-POOLBEG-LIGHTHOUSE-DIXON-2018",
+      "DCC-FILM-OFFICE-PIGEON-HOUSE-POWER-STATION",
+      "EXCAVATIONS-2009-PIGEON-HOUSE-FORT-09E0259",
+      "EXCAVATIONS-2022-POOLBEG-GENERATING-STATION-21E0796"
+    ]
   }
 ]

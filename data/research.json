@@ -372,5 +372,23 @@
       "DIA-BOTTLEMAKERS-HALL-1915",
       "DCC-RINGSEND-IRISHTOWN-WALKING-TRAIL-2022"
     ]
+  },
+  {
+    "id": "RES-RINGSEND-RPS7378-7381-IDENTITY-2026",
+    "title": "Ringsend RPS 7378–7381: distinguish the surviving tramway powerhouse from unverified gate and entrance features",
+    "area": "RINGSEND ROAD · GRAND CANAL DOCK · DUBLIN 4",
+    "updated": "2026-11-01",
+    "status": "ONE_STRUCTURE_IDENTIFIED_AND_CATALOGUED; TWO_FEATURES_PENDING_FIELD_VERIFICATION",
+    "status_label": "RPS LISTINGS CHECKED · POWERHOUSE IDENTITY CORROBORATED · OTHER FEATURES UNRESOLVED",
+    "summary": "Dublin City Council's current RPS lists the former Reg Armstrong Works entrance (7378), the former Irish Glass Bottle Company office (7379), four CIE bus-depot granite gate piers (7380), and the Ringsend Shelbourne Pierrot Club / former Bovril building (7381). New research identifies the physical building at 20 Ringsend Road, now Windmill Lane Recording Studios, as the former Dublin United Tramways Company electrical powerhouse, built in 1932.",
+    "supported": "The current DCC RPS Volume 4 confirms the four entries and their register descriptions. Windmill Lane Recording Studios' own building-history page and 2020 press release state that 20 Ringsend Road was the electrical power station for the tramline depot and that the studios moved to the protected Art Deco building in 1990. Archiseek identifies the building as the 1932 DUTC Powerhouse by Vincent Kelly and notes that its Art Deco piers and sun-ray gates are missing. The building was added to the physical catalogue as DUB-BLD-0095.",
+    "limits": "The short RPS 7381 description uses the former Shelbourne Pierrot Club / Bovril building name, while the current occupier documents the same 20 Ringsend Road building as a tramway powerhouse. These are treated as layered uses of one building, but the exact chronology and details of the Bovril phase need archival confirmation. RPS 7378's classical cut-stone carriage entrance and RPS 7380's four granite gate piers have not yet been independently confirmed as physically extant in 2026; no map pins were created for them. RPS 7379's former Irish Glass Bottle Company office remains separate from the demolished factory investigated in Batch 101; the office's present fabric and survival still need confirmation. The OSM building point for 20 Ringsend Road is source-derived, not founder GPS.",
+    "source_ids": [
+      "DCC-RPS-7381-2022-2028",
+      "WINDMILL-LANE-BUILDING-HISTORY",
+      "WINDMILL-LANE-PRESS-RELEASE-2020",
+      "ARCHISEEK-DUTC-POWERHOUSE-1932",
+      "MAPCARTA-OSM-WINDMILL-LANE-RECORDING-STUDIOS"
+    ]
   }
 ]

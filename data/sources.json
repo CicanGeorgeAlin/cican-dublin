@@ -3973,5 +3973,15 @@
     "source_type": "OFFICIAL_REPORT",
     "specific_reference": "Dublin Port Company news release, 6 June 2025.",
     "notes": "Dublin Port reports completion of a €9 million upgrade to the North Wall freight yard, which it said would manage rail freight operations during Alexandra Road works. The release anticipated direct rail access into the Port resuming in 2027 after the upgraded Alexandra Road line; this is a forward-looking statement, not confirmation of completion."
+  },
+  {
+    "id": "DPA-ENGINEERING-DRAWINGS-1800S",
+    "name": "Dublin Port Archive — nineteenth-century engineering drawings collection",
+    "publisher": "Dublin Port Archive / Dublin Port Company",
+    "url": "https://www.dublinportarchive.com/collection/engineering-drawings-1800s/",
+    "accessed": "2026-11-06",
+    "source_type": "ARCHIVAL_CATALOGUE",
+    "specific_reference": "Collection landing page listing North Wall Quay cross-section and old quay-wall plan ED/8853 (c.1890); North Wall Goods Terminus travelling-crane rail arrangement ED/5074 (Chris Mulrany, 1881); and associated quay engineering drawings.",
+    "notes": "The collection catalogue confirms the existence and titles of relevant engineering drawings. The landing page alone does not establish the precise position or survival of individual crane rails, mooring fittings or other components; no such feature is georeferenced solely from the catalogue listing."
   }
 ]

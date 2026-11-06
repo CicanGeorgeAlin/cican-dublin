@@ -493,5 +493,23 @@
       "DPC-CONSERVATION-STRATEGY-2024",
       "DPC-SUBSTATION-2026"
     ]
+  },
+  {
+    "id": "RES-DUBLIN-PORT-ODLUMS-GRAIN-SILO-GROUP-001",
+    "title": "Odlum's Mills and R. & H. Hall — west Dublin Port grain-storage complex",
+    "area": "ALEXANDRA ROAD · BRANCH ROAD SOUTH · DUBLIN 1",
+    "updated": "2026-11-06",
+    "status": "DOCUMENTED_HERITAGE_GROUP",
+    "status_label": "FOUR NIAH RECORDS · SOURCE-DERIVED LOCATORS",
+    "summary": "Four separately registered NIAH industrial buildings at the west end of Dublin Port form a documented grain-storage landscape: the monumental R. & H. Hall silo (50060589), two Odlum's Mills silo structures (50060590 and 50060591), and a separate early steel-frame redbrick industrial building on Alexandra Road (50060592). The NIAH descriptions identify reinforced-concrete silos, riveted steel silo drums, a riveted iron structural frame, loading features and early twentieth-century industrial design.",
+    "supported": "Each building has its own NIAH registration, description and Irish Grid coordinate. Dublin Port's Conservation Strategy explicitly includes the former Odlums Flour Mills among the heritage assets within its conservation strategy. The R. & H. Hall entry records its previous name as Merchants Warehousing Company Ltd/Odlum's Mills; the separate Odlum's records describe neighbouring structures. The buildings are therefore recorded as separate objects rather than merged into a single invented structure.",
+    "limits": "NIAH coordinates have been transformed to WGS 84 and are source-derived, not founder GPS. The exact current operational status, ownership boundaries, access rights and safe public viewpoints have not been field-verified. The term 'Odlum's Mills complex' is used as group context, not as a claim that every registered building had identical ownership or function at every date. The industrial port is operational; no public access or interior access is implied.",
+    "source_ids": [
+      "NIAH-50060589",
+      "NIAH-50060590",
+      "NIAH-50060591",
+      "NIAH-50060592",
+      "DPC-CONSERVATION-STRATEGY-2024"
+    ]
   }
 ]

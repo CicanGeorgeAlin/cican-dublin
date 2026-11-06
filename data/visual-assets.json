@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 264,
+  "record_count": 266,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -10156,6 +10156,72 @@
         "Granite-faced entrance steps and concrete platform, if visible without entering private grounds",
         "North boundary wall and pierced cast-iron double-leaf gates, only from a lawful public viewpoint",
         "Relationship of Port Centre to East Wall Road, Alexandra Road and adjacent port landscape"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-DET-0001",
+      "name": "North Wall Quay — paired iron mooring hooks set into granite coping",
+      "category": "INFRASTRUCTURE",
+      "district": "Dublin 1",
+      "address": "Granite coping of the c.1800 North Wall Quay wall, between the Convention Centre and New Wapping Street; exact individual hook positions not georeferenced",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Locate and photograph every visible paired mooring hook along the parent quay segment",
+        "Capture each fitting square-on and in oblique profile without touching it",
+        "Include the hook-to-granite coping interface and any visible fixings",
+        "Record count and position along the quay using founder GPS only if safely accessible",
+        "Record corrosion, repairs, missing components and differences between fittings",
+        "Take a wider context image showing the fitting's relationship to the river edge and coping"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-DET-0002",
+      "name": "North Wall Quay — three recessed iron access ladders",
+      "category": "INFRASTRUCTURE",
+      "district": "Dublin 1",
+      "address": "Three shallow recesses in the c.1800 North Wall Quay wall, between the Convention Centre and New Wapping Street; exact individual ladder positions not georeferenced",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Find and photograph each of the three documented ladder recesses from the public path",
+        "Capture recess outline, granite masonry and visible iron ladder components",
+        "Record whether each ladder is present, partly missing, repaired or inaccessible",
+        "Take a scale-reference image without placing objects against the historic fabric",
+        "Record exact position only by founder GPS from a safe public standing point",
+        "Photograph the wider quay wall context without implying river access"
       ],
       "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
       "original_photo": null,

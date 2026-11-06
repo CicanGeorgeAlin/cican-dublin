@@ -300,6 +300,18 @@
       ],
       "next_action": "Check current Dublin Port notices for Alexandra Road reopening; compare the final road/rail as-built drawings with historic port plans and the existing North Wall Quay embedded-track record. Identify any surviving, publicly visible railway microfeatures only where an exact object and lawful viewpoint can be established. Photograph Port Centre's exterior, boundary walls and gates only from lawful public viewpoints.",
       "completion": "Complete when current access/reopening status is confirmed by a current official notice, the rail alignment is documented from plan evidence, and any visible historic rail details are either added as unique evidence-backed objects or recorded as not separately locatable."
+    },
+    {
+      "id": "INV-014",
+      "priority": 2,
+      "status": "RESEARCH_PENDING",
+      "title": "Field-document North Wall Quay mooring hooks and recessed ladders; inspect ED/5074 travelling-crane rail plan",
+      "source_ids": [
+        "NIAH-50010011",
+        "DPA-ENGINEERING-DRAWINGS-1800S"
+      ],
+      "next_action": "Request or inspect the full-resolution Dublin Port Archive drawings ED/5074 and ED/8853. Compare the 1881 travelling-crane rail arrangement and c.1890 quay cross-section with historic mapping and the present public quay. During founder fieldwork, count and photograph each paired mooring hook and all three ladder recesses from safe public viewpoints; record current condition and exact GPS only where safe and independently measured.",
+      "completion": "Complete when the full drawings have been inspected and their locations/limits recorded, the present count and condition of the hooks and ladders have been field-photographed, and any further rail or quay-furniture feature is added only if its identity and exact location are supported."
     }
   ],
   "protected_boundaries": [

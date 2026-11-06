@@ -9697,5 +9697,48 @@
     "feature_type": "PRIMARY_OBJECT",
     "last_researched": "2026-11-06",
     "research_notes": "NIAH registration 50100342 consulted. Coordinate is a transformed NIAH site point, not founder GPS. Physical field verification and current condition remain outstanding."
+  },
+  {
+    "id": "DUB-BLD-0117",
+    "name": "Pumphouse No. 1 — Alexandra Basin Heritage Zone",
+    "category": "ARCHITECTURE",
+    "district": "Dublin 1",
+    "address": "Alexandra Road, Dublin Port, Dublin 1",
+    "historical_period": "c.1910; southern section added shortly afterwards",
+    "historical_description": "Detached gable-ended brick pumphouse built around 1910 beside the southeast corner of the former Graving Dock. The NIAH records a northern three-bay double-height section and a southern three-bay two-storey addition, natural slate roof, raised gables with granite coping, buff brickwork, recessed panels, round-headed multi-pane iron windows, granite sills and original timber doors. The building housed the steam engine that powered the gates of Graving Dock No. 1. Dublin Port has since adapted the building for cultural events and heritage use.",
+    "historical_significance": "A surviving component of Dublin's nineteenth- and twentieth-century ship-repair infrastructure and an important remnant of the former graving-dock precinct. Its fabric documents the mechanical systems and industrial architecture that supported vessel maintenance in the port.",
+    "national_inventory_reference": "50060587",
+    "national_grid_reference": "318411, 234709",
+    "latitude": 53.34958257832541,
+    "longitude": -6.2226072493561,
+    "coordinate_source": "NIAH Registration 50060587 publishes Irish Grid 318411, 234709. Converted from TM65 / Irish Grid (EPSG:29902) to WGS 84: 53.349582578325, -6.222607249356. Source-derived NIAH site point, not founder GPS; positional accuracy of the source point is unspecified.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED",
+    "address_source": "https://www.buildingsofireland.ie/buildings-search/building/50060587/pump-house-dublin-city",
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Within Dublin Port's Heritage Zone. Access is subject to the current Dublin Port event programme, site management and operational-port restrictions; confirm access before visiting and photograph only from permitted public areas.",
+    "photography_restrictions": "Do not enter operational or restricted port areas. Respect event controls, barriers and staff instructions. Do not assume the building interior is open to the public.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.34958257832541%2C-6.2226072493561&travelmode=walking",
+    "photography_brief": [
+      "Full exterior from each lawful public viewpoint",
+      "North three-bay double-height section and southern two-storey addition",
+      "Raised brick gables, granite coping and kneeler stones",
+      "Round-headed multi-pane iron windows, granite sills and recessed brick panels",
+      "Original timber vehicle doors and surviving ironwork",
+      "Roofline, eaves, brick bonds and evidence of phased construction",
+      "Context view showing relationship to the former graving-dock precinct"
+    ],
+    "sources": [
+      "NIAH-50060587",
+      "DPC-PUMPHOUSE-2026",
+      "DPA-PUMPHOUSE-HERITAGE-AREA"
+    ],
+    "feature_type": "PRIMARY_OBJECT",
+    "last_researched": "2026-11-06",
+    "research_notes": "NIAH Registration 50060587 and Dublin Port Company / Dublin Port Archive heritage information consulted. NIAH identifies the building fabric and c.1910 date; Dublin Port confirms its former dock-gate engine function and current cultural/heritage use. Coordinates are transformed from the published NIAH Irish Grid reference, not founder GPS. No field inspection or founder photography is claimed."
   }
 ]

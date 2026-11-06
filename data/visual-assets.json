@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 224,
+  "record_count": 235,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -8614,6 +8614,462 @@
         "If visible from an authorised tour route, photograph only from the permitted viewing position",
         "Record any official interpretation panel describing the bascule pit or pivot stone",
         "Do not present the 2022 excavation report as proof that the feature is currently exposed"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-INF-0015",
+      "name": "North Wall Quay — western granite quay wall",
+      "category": "INFRASTRUCTURE",
+      "district": "Dublin 1",
+      "address": "North Wall Quay, between the Convention Centre and New Wapping Street, Dublin 1 (NIAH site point; field position not verified)",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Continuous quay-wall alignment and granite coping",
+        "Paired iron mooring hooks and their fixing details",
+        "Three ladder recesses and surviving iron ladders",
+        "Granite joints, repairs and transitions to modern paving",
+        "Context with the Convention Centre and adjacent quay frontage"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0104",
+      "name": "CIÉ Goods Depot — former North Wall Railway Station",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "48–57 North Wall Quay, Dublin 1 (NIAH site point; field position not verified)",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full thirteen-bay composition from a lawful public viewpoint",
+        "Central block, flanking wings and curved eastern wing",
+        "Granite parapet, cornice, plinth and quoins",
+        "Brickwork, sash windows and entrance details",
+        "Visible railway-related interior fabric only if access is expressly permitted"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-NORTH-WALL-STATION-WMURPHY-2020",
+          "title": "North Wall railway station",
+          "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/North%20Wall%20railway%20station.jpg?width=1280",
+          "source_url": "https://commons.wikimedia.org/wiki/File:North_Wall_railway_station.jpg",
+          "photographer": "William Murphy",
+          "date_taken": "2020-05-25",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "attribution": "William Murphy, “North Wall railway station”, 25 May 2020, Wikimedia Commons (CC BY-SA 2.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Photograph of the former North Wall railway station / CIÉ Goods Depot; third-party reference, not a founder original."
+        }
+      ]
+    },
+    {
+      "record_id": "DUB-BLD-0105",
+      "name": "North Wall Quay — Wool Store",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "North Wall Quay, beside the former North Wall Railway Station, Dublin 1 (NIAH site point; field position not verified)",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full eleven-bay elevation and central pedimented loading bay",
+        "Oculus and splayed brickwork around the gable opening",
+        "Calp-limestone rubble, quoins and granite sills",
+        "Blocked or altered ground-floor openings and loading doors",
+        "Relationship to the former railway station and Park Lane"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-WOOLSTORE-METROCENTRIC-2019",
+          "title": "Former Wool Store building, North Wall Quay",
+          "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Former%20Wool%20Store%20building%2C%20North%20Wall%20Quay%2C%20Dublin%20%2848128307398%29.jpg?width=1280",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Former_Wool_Store_building,_North_Wall_Quay,_Dublin_(48128307398).jpg",
+          "photographer": "Metro Centric",
+          "date_taken": "2019-06-11",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution 2.0 Generic (CC BY 2.0)",
+          "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+          "attribution": "Metro Centric, “Former Wool Store building, North Wall Quay, Dublin”, 11 June 2019, Wikimedia Commons (CC BY 2.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Exact-object photograph taken from Park Lane side; third-party reference, not a founder original."
+        },
+        {
+          "source_id": "WMC-WOOLSTORE-WMURPHY-2013",
+          "title": "The Woolstore, Dublin 1",
+          "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Woolstore%2C%20Dublin%201.jpg?width=1280",
+          "source_url": "https://commons.wikimedia.org/wiki/File:The_Woolstore,_Dublin_1.jpg",
+          "photographer": "William Murphy",
+          "date_taken": "2013-04-29",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "attribution": "William Murphy, “The Woolstore, Dublin 1”, 29 April 2013, Wikimedia Commons (CC BY-SA 2.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Exact-object photograph; third-party reference, not a founder original."
+        }
+      ]
+    },
+    {
+      "record_id": "DUB-BLD-0106",
+      "name": "CIÉ Offices — former London and North Western Railway Hotel",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "58–59 North Wall Quay, Dublin 1 (NIAH site point; field position not verified)",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full street elevation including turret and copper dome",
+        "Terracotta string courses, cornices and window surrounds",
+        "L&WR cartouche and decorative turret details",
+        "Central porch, cast-iron railings and entrance sequence",
+        "Earlier rear wings only where visible from lawful public access"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-LNW-HOTEL-COGRANG-2019",
+          "title": "London and North Western Hotel, North Wall Quay",
+          "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/London%20and%20North%20Western%20Hotel%2C%20North%20Wall%20Quay%2C%20Dublin%2C%20Ireland.jpg?width=1280",
+          "source_url": "https://commons.wikimedia.org/wiki/File:London_and_North_Western_Hotel,_North_Wall_Quay,_Dublin,_Ireland.jpg",
+          "photographer": "Cograng",
+          "date_taken": "2019-11-22",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Cograng, “London and North Western Hotel, North Wall Quay, Dublin, Ireland”, 22 November 2019, Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "Contextual quay photograph; the hotel is visible in the scene but the image is not a complete façade survey."
+        }
+      ]
+    },
+    {
+      "record_id": "DUB-STR-0094",
+      "name": "London and North Western Hotel — cast-iron gateway and granite wall",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 1",
+      "address": "West side of the former London and North Western Railway Hotel, North Wall Quay, Dublin 1 (NIAH site point; field position not verified)",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full gate-and-wall composition from public pavement",
+        "Spearhead finials, trefoil details and chevron-moulded pier heads",
+        "Stop-chamfered cast-iron shafts and junctions",
+        "Granite ashlar wall, quadrant coping and curved return",
+        "Relationship to the southwest corner of the former hotel"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0107",
+      "name": "Richford Motors — former Dublin and Glasgow Steam Packet Company building",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "73 North Wall Quay, Dublin 1 (NIAH site point; field position not verified)",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full retained historic façade and central pediment",
+        "Limestone raking cornice and red-brick gable",
+        "Yellow-brick Doric pilasters and sandstone capitals",
+        "Original fanlight, iron grilles and surviving brick arches",
+        "Clearly distinguish retained façade from the later building behind"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-RICHFORD-73NWQ-DUBLINPROJEKT-2016",
+          "title": "73 North Wall Quay, Dublin",
+          "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/73%20North%20Wall%20Quay%2C%20Dublin.JPG?width=1280",
+          "source_url": "https://commons.wikimedia.org/wiki/File:73_North_Wall_Quay,_Dublin.JPG",
+          "photographer": "Dublinprojekt",
+          "date_taken": "2016-03-11",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Dublinprojekt, “73 North Wall Quay, Dublin”, 11 March 2016, Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Photograph is catalogued under the exact street address; third-party reference, not a founder original."
+        }
+      ]
+    },
+    {
+      "record_id": "DUB-BLD-0108",
+      "name": "Vallance & McGrath's — former North Wall public house",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "81 North Wall Quay, Dublin 1 (NIAH site point; field position not verified)",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full two-bay three-storey street elevation",
+        "Roof profile, clay ridge tiles and chimney details",
+        "Flemish-bond brickwork and window surrounds",
+        "Pub shopfront, shutters and basement grilles",
+        "Record present condition and repairs without assuming they date to the original build"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-VALLANCE-MCGRATH-DUBLINPROJEKT-2016",
+          "title": "Vallance & McGrath's Bar",
+          "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vallance%20%26%20Mc%20Grath%27s%20Bar%20est.%201908.JPG?width=1280",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Vallance_%26_Mc_Grath%27s_Bar_est._1908.JPG",
+          "photographer": "Dublinprojekt",
+          "date_taken": "2016-03-11",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Dublinprojekt, “Vallance & Mc Grath's Bar est. 1908”, 11 March 2016, Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Exact-object reference photograph; third-party reference, not a founder original."
+        }
+      ]
+    },
+    {
+      "record_id": "DUB-BLD-0109",
+      "name": "82 North Wall Quay — gable-fronted warehouse",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "82 North Wall Quay, Castleforbes Road, Dublin 1 (NIAH site point; field position not verified)",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full gable-fronted three-storey elevation",
+        "Oculus and brick surrounds in front and rear gables",
+        "English-bond brickwork and yellow-brick banding",
+        "Granite plinth and segmental-headed openings",
+        "Timber sash windows, blocked openings and later alterations"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-82NWQ-DUBLINPROJEKT-2016",
+          "title": "82 North Wall Quay, Castleforbes Road",
+          "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/82%20North%20Wall%20Quay%2C%20Castleforbes%20Road.JPG?width=1280",
+          "source_url": "https://commons.wikimedia.org/wiki/File:82_North_Wall_Quay,_Castleforbes_Road.JPG",
+          "photographer": "Dublinprojekt",
+          "date_taken": "2016-03-11",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Dublinprojekt, “82 North Wall Quay, Castleforbes Road”, 11 March 2016, Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Exact-object reference photograph; third-party reference, not a founder original."
+        }
+      ]
+    },
+    {
+      "record_id": "DUB-BLD-0110",
+      "name": "94 North Wall Quay — late-Victorian industrial building",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "94 North Wall Quay, Dublin 1 (NIAH site point; field position not verified)",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full rendered front elevation and central breakfront",
+        "Rusticated piers, cornice and moulded details",
+        "Segmental-headed openings, keystones and blocked doors",
+        "Cast-iron railings, gate piers and granite plinth wall",
+        "Exposed rear brickwork only from a lawful public viewpoint"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-INF-0016",
+      "name": "North Wall Quay — eastern historic quay and embedded railway track",
+      "category": "INFRASTRUCTURE",
+      "district": "Dublin 1",
+      "address": "North Wall Quay, between Sean O'Casey Bridge and East Link Bridge, Dublin 1 (NIAH site point; field position not verified)",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Embedded historic railway tracks and their paving context",
+        "Transitions between cobbles, granite, sandstone and modern surfacing",
+        "Steps, ramps and granite-nosed boundary stones",
+        "Modern railings and retained historic quay alignment",
+        "Relationship to Sean O'Casey Bridge and East Link Bridge"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-INF-0017",
+      "name": "Scherzer rolling-lift bridges over the North Wall lock",
+      "category": "INFRASTRUCTURE",
+      "district": "Dublin 1",
+      "address": "North Wall Quay at the lock near Guild Street, Dublin 1 (NIAH site point; field position not verified)",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Both rolling-lift bridge spans and their relationship to the lock",
+        "Curved rolling-lift mechanism and visible steelwork",
+        "Granite ashlar battered retaining walls and coping",
+        "Bridge bearings, joints, rivets and later repairs where safely visible",
+        "Any surviving evidence of the former 1860 drawbridge only if documented, not inferred"
       ],
       "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
       "original_photo": null,

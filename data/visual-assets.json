@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 219,
+  "record_count": 224,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -8422,6 +8422,198 @@
         "Photograph surviving historic fragments only where visible and permitted",
         "Record conservation interpretation and any dates or maker information",
         "Do not claim every component is original; distinguish reconstruction from surviving historic fabric"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0102",
+      "name": "Castleknock Gate — Decimus Burton's granite and iron entrance screen",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 8",
+      "address": "Castleknock Gate, Castleknock Road and Chesterfield Avenue, Phoenix Park, Dublin 8",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full entrance screen and relationship to Castleknock Gate Lodge",
+        "Both vehicular gate leaves and spear-headed ironwork",
+        "Granite piers, cornices, caps and plinths",
+        "Brass lamps and foliate standards",
+        "Granite dwarf wall, railings and pedestrian gates",
+        "Any visible maker marks; transcribe only when legible"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-CASTLEKNOCK-GATE-JP-2007",
+          "title": "View along Chesterfield Avenue towards Castleknock Gate",
+          "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Phoenix%20Park%20Castleknock%20Gate%20-%20geograph.org.uk%20-%20304239.jpg?width=1280",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Phoenix_Park_Castleknock_Gate_-_geograph.org.uk_-_304239.jpg",
+          "photographer": "JP",
+          "date_taken": "2007-01-01",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "attribution": "JP, “Phoenix Park Castleknock Gate”, 1 January 2007, via Wikimedia Commons (CC BY-SA 2.0).",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "A view along Chesterfield Avenue towards Castleknock Gate. Contextual reference image; it is not a close-up condition record of the gate screen."
+        }
+      ]
+    },
+    {
+      "record_id": "DUB-BLD-0103",
+      "name": "Ashtown Gate — Decimus Burton cast-iron and granite entrance screen",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 8",
+      "address": "Ashtown Gate Road, Phoenix Park, Dublin 8",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full gate screen and both gate leaves",
+        "J. & C. McGloughlin Ltd. maker's mark, if legible",
+        "Central pivot of the east pedestrian gate",
+        "Six granite piers, brass lamps and foliated iron standards",
+        "Curlicue railing brackets, dwarf wall and concrete bollards",
+        "Relationship to the two separately catalogued gate lodges"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-MON-0011",
+      "name": "Papal Cross — 1979 papal mass steel monument",
+      "category": "MONUMENT",
+      "district": "Dublin 8",
+      "address": "Fifteen Acres, Phoenix Park, Dublin 8",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full cross and mound from the approach path",
+        "Steel I-beam construction and junction details from ground level",
+        "Granite-flagged platform and all thirty-three steps",
+        "Commemorative plaque and exact inscription",
+        "Base fixings, visible welds and any maker marks",
+        "Wide context showing the cross within the Fifteen Acres"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-PAPAL-CROSS-KNOCKO-2015",
+          "title": "Papal Cross, Phoenix Park",
+          "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Papal%20Cross%2C%20Phoenix%20Park.jpg?width=1280",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Papal_Cross,_Phoenix_Park.jpg",
+          "photographer": "Knocko",
+          "date_taken": "2015-09-08",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Knocko, “Papal Cross, Phoenix Park”, 8 September 2015, via Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Photograph depicts the Papal Cross itself. Third-party reference photograph; not a founder original or current-condition survey."
+        }
+      ]
+    },
+    {
+      "record_id": "DUB-MON-0012",
+      "name": "Knockmaree burial monument — surviving Neolithic cist",
+      "category": "MONUMENT",
+      "district": "Dublin 8",
+      "address": "Knockmaree / Knockmary, west of St Mary's Hospital, Phoenix Park, Dublin 8",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Wide context of the cist and its immediate landscape from the public path",
+        "Capstone and supporting stones without touching or entering the monument",
+        "Any visible cracks, repairs or protective supports, without interpretation beyond observation",
+        "Relationship to the ridge and nearby St Mary's Hospital landscape",
+        "Record litter or damage only as a condition observation, not as historic fabric"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-INF-0014",
+      "name": "Magazine Fort — surviving bascule pit and carved pivot stone beneath Duke of Dorset Gate",
+      "category": "INFRASTRUCTURE",
+      "district": "Dublin 8",
+      "address": "Former Duke of Dorset Gate, Magazine Fort, St Thomas Hill, Phoenix Park, Dublin 8",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "No excavation or probing by visitors",
+        "If visible from an authorised tour route, photograph only from the permitted viewing position",
+        "Record any official interpretation panel describing the bascule pit or pivot stone",
+        "Do not present the 2022 excavation report as proof that the feature is currently exposed"
       ],
       "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
       "original_photo": null,

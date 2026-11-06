@@ -3573,5 +3573,87 @@
     "accessed": "2026-11-06",
     "source_type": "WIKIMEDIA_COMMONS_PHOTOGRAPH",
     "specific_reference": "CHQ Building, Dublin"
+  },
+  {
+    "id": "NIAH-50010159",
+    "name": "Loop Line Railway, Beresford Place",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010159/loop-line-railway-beresford-place-dublin-1-dublin",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50010159; Irish Grid 316310, 234650.",
+    "notes": "Thirteen-span viaduct c.1891; steel girders, masonry arches, granite and Portland-stone piers, cast-iron caissons; designed by John Challoner Smith. Coordinate is published in Irish Grid (TM65 / EPSG:29902) and transformed to WGS84 for the archive. Source-derived NIAH site point, not founder GPS; positional accuracy unspecified."
+  },
+  {
+    "id": "NIAH-50011219",
+    "name": "George's Dock Arch, Custom House Quay",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50011219/custom-house-quay-dublin-dublin-city",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50011219; Irish Grid 316683, 234532.",
+    "notes": "Freestanding limestone triumphal arch built 1813 and relocated from Amiens Street to Custom House Quay in 1998. Coordinate is published in Irish Grid (TM65 / EPSG:29902) and transformed to WGS84 for the archive. Source-derived NIAH site point, not founder GPS; positional accuracy unspecified."
+  },
+  {
+    "id": "NIAH-50010016",
+    "name": "Sheriff Street Lifting Bridge, Spencer Dock",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010016/sheriff-street-lifting-bridge-sheriff-street-upper-dublin-1-dublin-city",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50010016; Irish Grid 317245, 234788.",
+    "notes": "Single-span bascule bridge installed 1939–1941; now fixed; retains reclaimed 1873 railway emblem panels. Coordinate is published in Irish Grid (TM65 / EPSG:29902) and transformed to WGS84 for the archive. Source-derived NIAH site point, not founder GPS; positional accuracy unspecified."
+  },
+  {
+    "id": "NIAH-50010131",
+    "name": "George's Dock Lock, Custom House Quay",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010131/georges-dock-custom-house-quay-dublin-1-co-dublin",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50010131; Irish Grid 316653, 234541.",
+    "notes": "Limestone lock c.1820 connecting George's Dock to the Liffey, with granite coping, timber and steel gates, granite steps and bollards. Coordinate is published in Irish Grid (TM65 / EPSG:29902) and transformed to WGS84 for the archive. Source-derived NIAH site point, not founder GPS; positional accuracy unspecified."
+  },
+  {
+    "id": "WMC-LOOPLINE-ETIENNEKD-2013",
+    "name": "Loopline Bridge, Dublin",
+    "url": "https://commons.wikimedia.org/wiki/File:Loopline_Bridge_-_Dublin.JPG",
+    "photographer": "Etiennekd",
+    "date": "2013-05-05",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "notes": "Etiennekd, 2013-05-05; Photograph of the Loopline Bridge; camera GPS records the river crossing area, not a surveyed position for every viaduct span. Licence: CC BY-SA 3.0.",
+    "publisher": "Wikimedia Commons",
+    "accessed": "2026-11-06",
+    "source_type": "WIKIMEDIA_COMMONS_PHOTOGRAPH",
+    "specific_reference": "Loopline Bridge, Dublin"
+  },
+  {
+    "id": "WMC-GEORGES-ARCH-PAULJOHNSTON-2006",
+    "name": "Archway in plaza, Dublin",
+    "url": "https://commons.wikimedia.org/wiki/File:Archway_in_plaza,_Dublin_-_geograph.org.uk_-_108913.jpg",
+    "photographer": "Paul Johnston-Knight",
+    "date": "2006-01-18",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "notes": "Paul Johnston-Knight, 2006-01-18; Exact-object reference photograph of the relocated arch; historical image from 2006. Licence: CC BY-SA 2.0.",
+    "publisher": "Wikimedia Commons",
+    "accessed": "2026-11-06",
+    "source_type": "WIKIMEDIA_COMMONS_PHOTOGRAPH",
+    "specific_reference": "Archway in plaza, Dublin"
+  },
+  {
+    "id": "WMC-SHERIFF-BASCULE-MECHTRAVELLER-2023",
+    "name": "Old bascule bridge in Dublin",
+    "url": "https://commons.wikimedia.org/wiki/File:Old_bascule_bridge_in_Dublin.jpg",
+    "photographer": "Mechtraveller",
+    "date": "2023-02-12",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "notes": "Mechtraveller, 2023-02-12; Exact-object photograph of the fixed bascule bridge; Commons camera GPS is photographer camera location, not substituted for the NIAH site point. Licence: CC BY-SA 4.0.",
+    "publisher": "Wikimedia Commons",
+    "accessed": "2026-11-06",
+    "source_type": "WIKIMEDIA_COMMONS_PHOTOGRAPH",
+    "specific_reference": "Old bascule bridge in Dublin"
   }
 ]

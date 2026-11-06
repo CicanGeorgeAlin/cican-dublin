@@ -10091,5 +10091,48 @@
     "coordinate_status": "NOT_GEOCODED",
     "last_researched": "2026-11-06",
     "research_notes": "NIAH explicitly records three shallow recesses containing iron ladders. No individual ladder coordinates are published. This child record has no coordinates and no independent map pin; it is attached to the parent quay-wall record. Present survival and condition of all three ladders require founder field verification."
+  },
+  {
+    "id": "DUB-INF-0033",
+    "name": "Dublin Port Diving Bell — Stoney's compressed-air quay-construction caisson",
+    "category": "INFRASTRUCTURE",
+    "district": "Dublin 2",
+    "address": "Sir John Rogerson's Quay, Dublin 2",
+    "historical_period": "Designed mid-nineteenth century; delivered 1866; entered service 1871; fabricated c.1870; used until 1958",
+    "historical_description": "Cast-iron and riveted plate-iron diving bell designed by Dublin Port engineer Bindon Blood Stoney and built by Grendon and Company of Drogheda. The NIAH describes a chamber approximately 23 feet square by 6.5 feet high, accessed by a vertical shaft with iron rungs and incorporating an air lock. The bell was lowered from a floating platform so workers could excavate and level the riverbed under compressed air before large precast concrete quay-wall blocks were placed. It was moved to Sir John Rogerson's Quay in 1989 and is mounted on a modern display structure.",
+    "historical_significance": "An exceptionally important surviving artefact of nineteenth-century harbour engineering and compressed-air construction. Dublin Port's archive records its role in building the North Wall Extension and Alexandra Basin; the bell is now part of Dublin Port's Distributed Museum and a publicly accessible interpretive installation.",
+    "national_inventory_reference": "50020468",
+    "national_grid_reference": "317365, 234293",
+    "latitude": 53.34607947883902,
+    "longitude": -6.238460516703297,
+    "coordinate_source": "NIAH Registration 50020468 publishes Irish Grid 317365, 234293. Converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 (EPSG:4326): 53.34607947883902, -6.238460516703297. Source-derived NIAH site point, not founder GPS; positional accuracy is unspecified.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED",
+    "address_source": "https://www.buildingsofireland.ie/buildings-search/building/50020468/diving-bell-sir-john-rogersons-quay-dublin-2-co-dublin",
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Dublin Port describes the Diving Bell as a public interpretive exhibition / smallest museum on Sir John Rogerson's Quay. Access arrangements and opening conditions should be checked before visiting; the archive does not guarantee opening hours.",
+    "photography_restrictions": "Photograph from the public quay and permitted exhibition areas only. Do not climb on the artefact, enter closed spaces or interfere with interpretive equipment.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.34607947883902%2C-6.238460516703297&travelmode=walking",
+    "photography_brief": [
+      "Full-height overall view showing the bell and modern display structure",
+      "Cast-iron chamber and riveted plate construction",
+      "Vertical access shaft, funnel/air-lock elements where visible in the current display",
+      "Iron rungs and structural details visible without entering restricted areas",
+      "Base, supports and relationship to the quay-side public realm",
+      "Interpretive panels and museum arrangement, recording exact text only from legible photographs",
+      "Context view showing the Diving Bell's position along Sir John Rogerson's Quay"
+    ],
+    "sources": [
+      "NIAH-50020468",
+      "DPC-DIVING-BELL-HISTORY",
+      "DPA-DIVING-BELL-ARCHIVE"
+    ],
+    "feature_type": "PRIMARY_OBJECT",
+    "last_researched": "2026-11-06",
+    "research_notes": "NIAH Registration 50020468 and official Dublin Port histories were consulted. The archive preserves distinct date statements: NIAH describes fabrication c.1870 and use from 1872; Dublin Port says delivered 1866, entered service 1871 and used until 1958. These are retained as source-specific chronology rather than falsely reconciled. NIAH's current WGS84 point is a transformed site locator, not founder GPS. Public display is documented by Dublin Port; current opening hours are not confirmed here."
   }
 ]

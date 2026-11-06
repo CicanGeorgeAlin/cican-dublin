@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 235,
+  "record_count": 239,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -9070,6 +9070,193 @@
         "Granite ashlar battered retaining walls and coping",
         "Bridge bearings, joints, rivets and later repairs where safely visible",
         "Any surviving evidence of the former 1860 drawbridge only if documented, not inferred"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0111",
+      "name": "Point Depot — former North Wall railway goods depot",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "North Wall Quay, East Wall Road, Dublin 1 (NIAH site point; field position not verified)",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Front block and retained historic elevations from public approaches",
+        "Triple-gabled north and east shed elevations where visible",
+        "Limestone ashlar frieze, parapet cornice, arcades and doorcases",
+        "Brickwork, roofline and visible junctions between retained and rebuilt fabric",
+        "Record contemporary venue additions separately from the 1878 depot fabric"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-POINT-DEPOT-ALBERTBRIDGE-1983",
+          "title": "The (CIE) Point Depot, Dublin (1983)",
+          "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_%28CIE%29_Point_Depot%2C_Dublin_%281983%29.jpg?width=1280",
+          "source_url": "https://commons.wikimedia.org/wiki/File:The_(CIE)_Point_Depot,_Dublin_(1983).jpg",
+          "photographer": "Albert Bridge",
+          "date_taken": "1983-08-29",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "attribution": "Albert Bridge, “The (CIE) Point Depot, Dublin (1983)”, 29 August 1983, Wikimedia Commons / Geograph (CC BY-SA 2.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Historical photograph of the depot before its concert-venue conversion; third-party reference, not a current-condition image."
+        },
+        {
+          "source_id": "WMC-POINT-DEPOT-JNESTORIUS-2008",
+          "title": "Point Depot under reconstruction",
+          "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Point_Depot_under_reconstruction.jpg?width=1280",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Point_Depot_under_reconstruction.jpg",
+          "photographer": "Jnestorius",
+          "date_taken": "2008-01-27",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Public domain (author dedication)",
+          "licence_url": "https://commons.wikimedia.org/wiki/File:Point_Depot_under_reconstruction.jpg",
+          "attribution": "Jnestorius, “Point Depot under reconstruction”, 27 January 2008, Wikimedia Commons (author-dedicated public domain).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Photograph from south of East Link Bridge during reconstruction; documents a construction phase, not the current completed venue."
+        }
+      ]
+    },
+    {
+      "record_id": "DUB-INF-0018",
+      "name": "George's Dock — Georgian wet dock and lock entrances",
+      "category": "INFRASTRUCTURE",
+      "district": "Dublin 1",
+      "address": "Custom House Quay, Dublin 1 (NIAH site point; field position not verified)",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Overall rectangular dock plan and relationship to Custom House Quay",
+        "Battered limestone ashlar walls and granite coping",
+        "Curved lock entrances and surviving granite bollards",
+        "Cast-iron mooring ties and any surviving historic fittings",
+        "Separate original dock fabric from modern event deck, water features and railings"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-GEORGES-DOCK-COGRANG-2019",
+          "title": "Customhouse Harbour, Dublin, Ireland",
+          "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Customhouse_Harbour%2C_Dublin%2C_Ireland.jpg?width=1280",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Customhouse_Harbour,_Dublin,_Ireland.jpg",
+          "photographer": "Cograng",
+          "date_taken": "2019-04-23",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Cograng, “Customhouse Harbour, Dublin, Ireland”, 23 April 2019, Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Wikimedia Commons structured data identifies George's Dock as the depicted place; third-party reference, not a founder original."
+        }
+      ]
+    },
+    {
+      "record_id": "DUB-BLD-0112",
+      "name": "CHQ Building — former Tobacco Warehouse / Stack A",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "Custom House Quay, beside George's Dock, Dublin 1 (NIAH site point; field position not verified)",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Four south-facing glazed gables and full quay elevation",
+        "Continuous roof lanterns and slate roof forms",
+        "Cast-iron columns, arched beams and cruciform trusses where public access permits",
+        "Brick side elevation facing George's Dock",
+        "Vaulted basement only where visitor access is permitted; do not enter service spaces"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "WMC-CHQ-DUBLINPROJEKT-2016",
+          "title": "CHQ Building, Dublin",
+          "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/CHQ_Building_1.JPG?width=1280",
+          "source_url": "https://commons.wikimedia.org/wiki/File:CHQ_Building_1.JPG",
+          "photographer": "Dublinprojekt",
+          "date_taken": "2016-03-11",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Dublinprojekt, “CHQ Building 1.JPG”, 11 March 2016, Wikimedia Commons (CC BY-SA 4.0).",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Exact-object reference photograph of the CHQ building; third-party reference, not a founder original."
+        }
+      ]
+    },
+    {
+      "record_id": "DUB-INF-0019",
+      "name": "Custom House Quay — Georgian granite ashlar quay",
+      "category": "INFRASTRUCTURE",
+      "district": "Dublin 1",
+      "address": "Custom House Quay, north bank of the River Liffey, Dublin 1 (NIAH site point; field position not verified)",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Continuous granite ashlar quay wall and saddle-back coping",
+        "Ramped sections and changes in quay profile",
+        "Flagstone pavement, granite kerbs and historic paving transitions",
+        "Relationship to the Custom House at the western end",
+        "Relationship to surviving warehouses and the eastern bridge approach"
       ],
       "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
       "original_photo": null,

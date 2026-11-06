@@ -3477,5 +3477,101 @@
     "accessed": "2026-11-06",
     "source_type": "WIKIMEDIA_COMMONS_PHOTOGRAPH",
     "specific_reference": "Vallance & McGrath's Bar"
+  },
+  {
+    "id": "NIAH-50011169",
+    "name": "The O2 / Point Depot — former North Wall railway goods depot",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50011169/the-o2-north-wall-quay-east-wall-road-dublin-dublin",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50011169; Irish Grid 318035, 234466.",
+    "notes": "Former sixteen-bay two-storey railway goods depot dated 1878; retained front block and east/north shed elevations after c.2008 rebuilding. Coordinate is published in Irish Grid (TM65 / EPSG:29902) and transformed to WGS84 for the archive. Source-derived site point, not founder GPS; positional accuracy unspecified."
+  },
+  {
+    "id": "NIAH-50010005",
+    "name": "George's Dock, Custom House Quay",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010005/georges-dock-custom-house-quay-georges-dock-dublin-1-dublin-city",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50010005; Irish Grid 316647, 234602.",
+    "notes": "Rectangular stone wet dock built 1821 to designs by John Rennie; limestone ashlar walls, granite coping, lock entrances and mooring fittings. Coordinate is published in Irish Grid (TM65 / EPSG:29902) and transformed to WGS84 for the archive. Source-derived site point, not founder GPS; positional accuracy unspecified."
+  },
+  {
+    "id": "NIAH-50010003",
+    "name": "CHQ Building — former Tobacco Warehouse / Stack A",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010003/chq-building-custom-house-quay-georges-dock-dublin-1-dublin",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50010003; Irish Grid 316731, 234581.",
+    "notes": "Former iron-and-masonry warehouse built c.1820 to designs by John Rennie; Butterley Foundry ironwork; converted for commercial use in 2005. Coordinate is published in Irish Grid (TM65 / EPSG:29902) and transformed to WGS84 for the archive. Source-derived site point, not founder GPS; positional accuracy unspecified."
+  },
+  {
+    "id": "NIAH-50060555",
+    "name": "Custom House Quay — Georgian granite ashlar quay",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50060555/custom-house-quay-dublin-city",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50060555; Irish Grid 316379, 234500.",
+    "notes": "Granite ashlar quay built c.1790, with saddle-back coping, flagstone pavement and granite kerbs. Coordinate is published in Irish Grid (TM65 / EPSG:29902) and transformed to WGS84 for the archive. Source-derived site point, not founder GPS; positional accuracy unspecified."
+  },
+  {
+    "id": "WMC-POINT-DEPOT-ALBERTBRIDGE-1983",
+    "name": "The (CIE) Point Depot, Dublin (1983)",
+    "url": "https://commons.wikimedia.org/wiki/File:The_(CIE)_Point_Depot,_Dublin_(1983).jpg",
+    "photographer": "Albert Bridge",
+    "date": "1983-08-29",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "notes": "Albert Bridge, 1983-08-29; Historical photograph of the depot before its concert-venue conversion. Licence: CC BY-SA 2.0.",
+    "publisher": "Wikimedia Commons",
+    "accessed": "2026-11-06",
+    "source_type": "WIKIMEDIA_COMMONS_PHOTOGRAPH",
+    "specific_reference": "The (CIE) Point Depot, Dublin (1983)"
+  },
+  {
+    "id": "WMC-POINT-DEPOT-JNESTORIUS-2008",
+    "name": "Point Depot under reconstruction",
+    "url": "https://commons.wikimedia.org/wiki/File:Point_Depot_under_reconstruction.jpg",
+    "photographer": "Jnestorius",
+    "date": "2008-01-27",
+    "licence": "Public domain (author dedication)",
+    "licenceUrl": "https://commons.wikimedia.org/wiki/File:Point_Depot_under_reconstruction.jpg",
+    "notes": "Jnestorius, 2008-01-27; Photograph from south of East Link Bridge during reconstruction; construction-phase image, not current condition. Licence: Public domain (author dedication).",
+    "publisher": "Wikimedia Commons",
+    "accessed": "2026-11-06",
+    "source_type": "WIKIMEDIA_COMMONS_PHOTOGRAPH",
+    "specific_reference": "Point Depot under reconstruction"
+  },
+  {
+    "id": "WMC-GEORGES-DOCK-COGRANG-2019",
+    "name": "Customhouse Harbour, Dublin, Ireland",
+    "url": "https://commons.wikimedia.org/wiki/File:Customhouse_Harbour,_Dublin,_Ireland.jpg",
+    "photographer": "Cograng",
+    "date": "2019-04-23",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "notes": "Cograng, 2019-04-23; Wikimedia Commons structured data identifies George's Dock as the depicted place. Licence: CC BY-SA 4.0.",
+    "publisher": "Wikimedia Commons",
+    "accessed": "2026-11-06",
+    "source_type": "WIKIMEDIA_COMMONS_PHOTOGRAPH",
+    "specific_reference": "Customhouse Harbour, Dublin, Ireland"
+  },
+  {
+    "id": "WMC-CHQ-DUBLINPROJEKT-2016",
+    "name": "CHQ Building, Dublin",
+    "url": "https://commons.wikimedia.org/wiki/File:CHQ_Building_1.JPG",
+    "photographer": "Dublinprojekt",
+    "date": "2016-03-11",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "notes": "Dublinprojekt, 2016-03-11; Exact-object reference photograph of the CHQ building. Licence: CC BY-SA 4.0.",
+    "publisher": "Wikimedia Commons",
+    "accessed": "2026-11-06",
+    "source_type": "WIKIMEDIA_COMMONS_PHOTOGRAPH",
+    "specific_reference": "CHQ Building, Dublin"
   }
 ]

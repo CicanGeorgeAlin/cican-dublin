@@ -3943,5 +3943,35 @@
     "source_type": "OFFICIAL_HERITAGE_REGISTER",
     "specific_reference": "National Inventory of Architectural Heritage registration 50060592; survey data, description and appraisal. Coordinates 319123, 234719.",
     "notes": "Official NIAH survey record. The Irish Grid coordinate is transformed to WGS 84 for the archive using EPSG:29902 to EPSG:4326; positional accuracy is not specified by the register. Not founder GPS and not field-verified."
+  },
+  {
+    "id": "NIAH-50120265",
+    "name": "Port Centre, East Wall Road / Alexandra Road — NIAH registration 50120265",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50120265/port-centre-east-wall-road-alexandra-road-dublin-3-co-dublin",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "National Inventory of Architectural Heritage registration 50120265; description and appraisal. Published Irish Grid coordinate 318211, 234802.",
+    "notes": "NIAH describes the six-storey Port Centre as designed by Conor Dwyer of Scott Tallon Architects following a 1954 competition and built 1980–81. Coordinate transformed to WGS 84 for archive mapping; positional accuracy not specified. Not founder GPS."
+  },
+  {
+    "id": "DPC-ALEXANDRA-ROAD-UPGRADE-2025-2026",
+    "name": "Alexandra Road reconstruction and rail infrastructure upgrade",
+    "publisher": "Dublin Port Company",
+    "url": "https://www.dublinport.ie/alexroad/",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_INFRASTRUCTURE_UPDATE",
+    "specific_reference": "Dublin Port Alexandra Road closure and reconstruction project page.",
+    "notes": "Dublin Port describes reconstruction of Alexandra Road, its integrated rail line, new rail turnouts, utility ducting and planned segregated pedestrian/cycle track. The page states a closure from 19 July 2025 until Autumn 2026; as of the archive's 6 November 2026 research date, the stated end period has passed, but this page alone does not confirm actual reopening. Do not infer current access."
+  },
+  {
+    "id": "DPC-NORTH-WALL-RAIL-FREIGHT-2025",
+    "name": "€9 million investment in rail freight yard at North Wall",
+    "publisher": "Dublin Port Company",
+    "url": "https://www.dublinport.ie/e9-million-investment-in-rail-freight-yard-at-north-wall/",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_INFRASTRUCTURE_UPDATE",
+    "specific_reference": "Dublin Port Company news release, 6 June 2025.",
+    "notes": "Dublin Port reports completion of a €9 million upgrade to the North Wall freight yard, which it said would manage rail freight operations during Alexandra Road works. The release anticipated direct rail access into the Port resuming in 2027 after the upgraded Alexandra Road line; this is a forward-looking statement, not confirmation of completion."
   }
 ]

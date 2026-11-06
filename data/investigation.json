@@ -312,6 +312,19 @@
       ],
       "next_action": "Request or inspect the full-resolution Dublin Port Archive drawings ED/5074 and ED/8853. Compare the 1881 travelling-crane rail arrangement and c.1890 quay cross-section with historic mapping and the present public quay. During founder fieldwork, count and photograph each paired mooring hook and all three ladder recesses from safe public viewpoints; record current condition and exact GPS only where safe and independently measured.",
       "completion": "Complete when the full drawings have been inspected and their locations/limits recorded, the present count and condition of the hooks and ladders have been field-photographed, and any further rail or quay-furniture feature is added only if its identity and exact location are supported."
+    },
+    {
+      "id": "INV-015",
+      "priority": 2,
+      "status": "RESEARCH_PENDING",
+      "title": "Field-document the Diving Bell and distinguish original ironwork from its modern display structure",
+      "source_ids": [
+        "NIAH-50020468",
+        "DPC-DIVING-BELL-HISTORY",
+        "DPA-DIVING-BELL-ARCHIVE"
+      ],
+      "next_action": "Check current Dublin Port visitor information and access notices before visiting. Photograph the full-height artefact, riveted chamber, access shaft, iron rungs and air-lock details from permitted public/exhibition viewpoints. Compare the present installation with the 2015 opening and 2026 Port Yearbook descriptions to document the reconfigured display without attributing modern supports to the historic bell.",
+      "completion": "Complete when founder photographs document the bell and display structure separately, present access conditions are confirmed, and any inscriptions or interpretive panel text are transcribed directly from legible photographs."
     }
   ],
   "protected_boundaries": [

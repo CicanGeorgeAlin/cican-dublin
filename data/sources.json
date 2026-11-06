@@ -3853,5 +3853,55 @@
     "source_type": "ARCHIVE",
     "specific_reference": "Dublin Port Archive historical account of Graving Dock No. 1, Graving Dock No. 2 and the Pumphouse Heritage Area.",
     "notes": "Dublin Port Archive account identifies Graving Dock No. 1 as opened in February 1860, Graving Dock No. 2 as built in 1957, and describes the 2021 first stage of the heritage-zone project, including infilling Dock No. 2 to create a public plaza while retaining dock-gate features."
+  },
+  {
+    "id": "NIAH-50011170",
+    "name": "East Wall Road / Alexandra Road electricity substation",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50011170/east-wall-road-alexandra-road-dublin-co-dublin",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50011170; Irish Grid 318206, 234875.",
+    "notes": "NIAH record describes a c.1900 two-storey red-brick electricity substation with Flemish-bond brickwork, granite coping and moulded brick detailing. Irish Grid point converted from TM65 / Irish Grid (EPSG:29902) to WGS 84; source-derived, not founder GPS."
+  },
+  {
+    "id": "DPC-SUBSTATION-2026",
+    "name": "The Substation — Dublin Port",
+    "publisher": "Dublin Port Company",
+    "url": "https://www.dublinport.ie/the-substation/",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_GUIDE",
+    "specific_reference": "History of Substation; original sea wall discovery; adaptive reuse as museum.",
+    "notes": "Dublin Port states the redbrick building played a role in early port electrification and was restored as a museum. During refurbishment, part of the 1728 sea wall was discovered beneath it. The source says facing stones were likely reused in the boundary wall; that reuse is presented as a likelihood, not a proven fact."
+  },
+  {
+    "id": "DPC-CRANE-292-2017",
+    "name": "Crane 292 stands tall again after 20 years",
+    "publisher": "Dublin Port Company",
+    "url": "https://www.dublinport.ie/crane-292-stands-tall-20-years/",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_GUIDE",
+    "specific_reference": "Dublin Port Company article dated 28 September 2017.",
+    "notes": "Official account identifies Crane 292 as a 1960s crane, 115 feet tall, used at Alexandra Quay from 1964 until retirement in 1997, built by Stothert and Pitt, and restored beside Port Centre in 2017."
+  },
+  {
+    "id": "BYWAY-CRANE292-GEO",
+    "name": "Crane 292 geographic reference",
+    "publisher": "Byway",
+    "url": "https://www.byway.world/places/attractions/crane-292-dd3ec118",
+    "accessed": "2026-11-06",
+    "source_type": "OPENSTREETMAP_DERIVED_GEOGRAPHIC_REFERENCE",
+    "specific_reference": "Published coordinate 53.34998, -6.22645; mapped point for Crane 292.",
+    "notes": "Used only as a third-party map-derived locator to position the known Crane 292 landmark. This is not an official survey coordinate and not founder GPS; positional accuracy is unspecified. Historical identity and chronology are independently supported by Dublin Port Company."
+  },
+  {
+    "id": "DPC-CONSERVATION-STRATEGY-2024",
+    "name": "Dublin Port Heritage Conservation Strategy",
+    "publisher": "Dublin Port Company; conservation strategy prepared by multidisciplinary heritage team",
+    "url": "https://www.pleanala.ie/publicaccess/EIAR-NIS/320250/2.%20Reports/2.4%20Heritage%20%26%20Conservation/Dublin%20Port%20Heritage%20Conservation%20Strategy.pdf",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_CONSERVATION_PLAN",
+    "specific_reference": "Sections on Alexandra Basin heritage zone and graving docks; pp. 122 and 125 (PDF page labels).",
+    "notes": "The strategy describes Pumphouse No. 2 as a 1950s building with electrically driven pumps and substantial underground supporting structure, associated with Graving Dock No. 2. It records Graving Dock No. 2 infill in 2021, the public space between the two pumphouses, the 1826 patent slip discovery and recovery, and an electric capstan associated with Graving Dock No. 2. The exact current location/state of individual buried or recovered features needs plan-level verification."
   }
 ]

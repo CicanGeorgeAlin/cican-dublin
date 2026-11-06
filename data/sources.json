@@ -3059,5 +3059,115 @@
     "source_type": "OFFICIAL_ARCHAEOLOGICAL_CATALOGUE",
     "specific_reference": "Appendix 16-1, pp. 82–85: DCIHR 19-09-008 Lifeboat House (site of); DCIHR 19-09-009-01 Sluice House, South Wall; RMP DU019-028 Half Moon Battery. Includes ITM coordinates and site descriptions based on records and field walkover inspection. Additional records added 6 November 2026: DCIHR 18-12-149-01 Rope Walk, ITM 718043, 734112 (Appendix 16-1, p.30); DCIHR 19-09-004 Outfall works, Pigeon House Road, ITM 720120, 733795 (Appendix 16-1, pp.59–60).",
     "notes": "The catalogue states its entries draw on RMP, NIAH, DCC RPS, DCIHR, NCEHD and DDIAS, supplemented by Dublin Port Archives and project field walkover inspection. Report photographs are not copied into the visual register; reuse rights were not independently established. Survey condition is time-bound and does not establish present-day access or unchanged fabric. These two entries were added to the archive in Discovery Expansion Batch 108. Their ITM coordinates are source-derived transformations to WGS84, not founder GPS. The Rope Walk entry describes a historic site; survival of the original rope-walk building is not established. The outfall works entry records the 1906 municipal drainage site and replacement of original settlement tanks around 2003. No report photographs were reused."
+  },
+  {
+    "id": "NIAH-50060115",
+    "name": "Magazine Fort",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50060115/magazine-fort-phoenix-park-dublin-8-dublin",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "Magazine Fort",
+    "notes": "NIAH Registration 50060115; Irish Grid 312176, 234458; national rating; military magazine built c.1735 and modified c.1760 and 1801."
+  },
+  {
+    "id": "NIAH-50060116",
+    "name": "Wellington Monument (Wellington Testimonial)",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50060116/wellington-monument-phoenix-park-chapelizod-dublin-8-dublin",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "Wellington Monument (Wellington Testimonial)",
+    "notes": "NIAH Registration 50060116; Irish Grid 313054, 234519; national rating; granite obelisk designed by Robert Smirke, completed 1861."
+  },
+  {
+    "id": "NIAH-50060048",
+    "name": "Ashtown Castle",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50060048/ashtown-castle-phoenix-park-visitor-centre-chesterfield-avenue-castleknock-within-phoenix-park-dublin-8-co-dublin",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "Ashtown Castle",
+    "notes": "NIAH Registration 50060048; Irish Grid 311181, 236336; regional rating; fortified tower house built c.1605."
+  },
+  {
+    "id": "NIAH-50060100",
+    "name": "The Phoenix Monument",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50060100/the-phoenix-monument-chesterfield-avenue-phoenix-park-castleknock-within-phoenix-park-dublin-8-dublin",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "The Phoenix Monument",
+    "notes": "NIAH Registration 50060100; Irish Grid 311511, 235715; regional rating; Portland-stone Corinthian column erected 1747."
+  },
+  {
+    "id": "NIAH-50060017",
+    "name": "Park Gate, Phoenix Park",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50060017/park-gate-phoenix-park-chesterfield-avenue-dublin-8-dublin",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "Park Gate, Phoenix Park",
+    "notes": "NIAH Registration 50060017; Irish Grid 313467, 234459; regional rating; limestone gate piers and entrance structures built c.1810."
+  },
+  {
+    "id": "PHOENIX-PARK-OPW-MAGAZINE-FORT-TOURS",
+    "name": "Magazine Fort guided tours and conservation",
+    "publisher": "Phoenix Park Guide Service / Office of Public Works",
+    "url": "https://www.phoenixpark.ie/tours-2/",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_GUIDE",
+    "specific_reference": "Magazine Fort guided tours and conservation",
+    "notes": "Phoenix Park Guide Service / Office of Public Works visitor information. Describes the phased restoration, reinstatement of the Duke of Dorset Gate, guided tours, booking requirements and visitor meeting point."
+  },
+  {
+    "id": "RTE-MAGAZINE-FORT-REOPENING-2026",
+    "name": "Phoenix Park reopens historic Magazine Fort to the public",
+    "publisher": "RTÉ",
+    "url": "https://www.rte.ie/news/dublin/2026/0727/1585210-magazine-fort/",
+    "accessed": "2026-11-06",
+    "source_type": "NEWS_REPORT",
+    "specific_reference": "Phoenix Park reopens historic Magazine Fort to the public",
+    "notes": "RTÉ report updated 28 July 2026. Reports the fort's reopening, conservation works, stabilisation of ramparts, reinstatement of the Duke of Dorset Gate using a 1969 wedding photograph and surviving fragments, and guided public tours."
+  },
+  {
+    "id": "WMC-MAGAZINE-FORT-WMURPHY-2008",
+    "name": "The Magazine Fort — Phoenix Park — Dublin",
+    "publisher": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:The_Magazine_Fort_-_Phoenix_Park_-_Dublin_(2506197173).jpg",
+    "accessed": "2026-11-06",
+    "source_type": "WIKIMEDIA_COMMONS_PHOTOGRAPH",
+    "specific_reference": "The Magazine Fort — Phoenix Park — Dublin",
+    "notes": "Wikimedia Commons photograph by William Murphy, taken 11 May 2008; CC BY-SA 2.0. Pre-restoration visual reference, not a current-condition image."
+  },
+  {
+    "id": "WMC-ASHTOWN-CASTLE-FWINKELMANN",
+    "name": "Ashtown Castle",
+    "publisher": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Ashtown_Castle1.JPG",
+    "accessed": "2026-11-06",
+    "source_type": "WIKIMEDIA_COMMONS_PHOTOGRAPH",
+    "specific_reference": "Ashtown Castle",
+    "notes": "Wikimedia Commons photograph by Frank Winkelmann; CC BY 3.0. Exact-object reference image; date not established in the file record."
+  },
+  {
+    "id": "WMC-WELLINGTON-MONUMENT-CGPGREY-2005",
+    "name": "Wellington Monument, Phoenix Park",
+    "publisher": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Ireland_-_Dublin_-_Phoenix_Park_-_Wellington_Monument.jpg",
+    "accessed": "2026-11-06",
+    "source_type": "WIKIMEDIA_COMMONS_PHOTOGRAPH",
+    "specific_reference": "Wellington Monument, Phoenix Park",
+    "notes": "Wikimedia Commons photograph by Colin Gregory Palmer (C. G. P. Grey), May 2005; CC BY 2.0."
+  },
+  {
+    "id": "WMC-PHOENIX-MONUMENT-NOELFIRL-2007",
+    "name": "Phoenix Park Monument",
+    "publisher": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Phoenix_Park_Monument.jpg",
+    "accessed": "2026-11-06",
+    "source_type": "WIKIMEDIA_COMMONS_PHOTOGRAPH",
+    "specific_reference": "Phoenix Park Monument",
+    "notes": "Wikimedia Commons photograph by Noelfirl, uploaded 24 March 2007; author dedicated the work to the public domain."
   }
 ]

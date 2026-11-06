@@ -542,5 +542,21 @@
       "NIAH-50010011",
       "DPA-ENGINEERING-DRAWINGS-1800S"
     ]
+  },
+  {
+    "id": "RES-DUBLIN-PORT-DIVING-BELL-ENGINEERING-AND-DISPLAY-001",
+    "title": "Dublin Port Diving Bell — Stoney's compressed-air quay construction technology and public display",
+    "area": "SIR JOHN ROGERSON'S QUAY · DUBLIN 2",
+    "updated": "2026-11-06",
+    "status": "DOCUMENTED_HERITAGE_OBJECT",
+    "status_label": "NIAH REGISTER + DUBLIN PORT HISTORY + PORT ARCHIVE",
+    "summary": "The Dublin Port Diving Bell is a separately registered NIAH industrial artefact (50020468), now displayed on Sir John Rogerson's Quay. It was designed by port engineer Bindon Blood Stoney and used in constructing deep-water quay walls. The bell's chamber, vertical access shaft, iron rungs and air-lock arrangement are described by NIAH; Dublin Port and its archive describe its compressed-air operation, crew, heavy precast quay blocks and use in building the North Wall Extension and Alexandra Basin.",
+    "supported": "NIAH provides a dedicated registration and Irish Grid coordinate. Dublin Port's official history states delivery in 1866, entry into service in 1871 and use until 1958. Dublin Port Archive describes the bell's operation and its role in quay construction, and records its public display and later interpretive museum arrangement. Dublin Port's Distributed Museum page lists the Diving Bell as a heritage/amenity asset.",
+    "limits": "The chronology varies slightly between sources: NIAH says fabricated c.1870 and used from 1872, while Dublin Port says delivered 1866 and entered service 1871. Both source-specific statements are retained. The NIAH coordinate is transformed from Irish Grid and is not founder GPS. Public exhibition is documented but current opening hours and any temporary access restrictions must be checked before visiting. The present interpretive installation includes modern supports and display infrastructure; distinguish these from the historic bell itself.",
+    "source_ids": [
+      "NIAH-50020468",
+      "DPC-DIVING-BELL-HISTORY",
+      "DPA-DIVING-BELL-ARCHIVE"
+    ]
   }
 ]

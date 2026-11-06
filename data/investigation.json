@@ -287,6 +287,19 @@
       ],
       "next_action": "Compare the four NIAH registration footprints with historic Dublin Port plans, the NIAH GIS layer and current lawful public-realm access. Identify whether the R. & H. Hall silo, Odlum's silos and the redbrick steel-frame building have distinct historic names, ownership phases and surviving loading/rail interfaces. Do not infer railway remnants or access routes without primary plan evidence.",
       "completion": "Complete when historic plan references and site relationships are recorded, any coordinate discrepancies are resolved, and a lawful founder-photography viewpoint is identified or explicitly marked unavailable."
+    },
+    {
+      "id": "INV-013",
+      "priority": 2,
+      "status": "RESEARCH_PENDING",
+      "title": "Field-verify Port Centre public-realm details and establish the post-upgrade Alexandra Road rail alignment",
+      "source_ids": [
+        "NIAH-50120265",
+        "DPC-ALEXANDRA-ROAD-UPGRADE-2025-2026",
+        "DPC-NORTH-WALL-RAIL-FREIGHT-2025"
+      ],
+      "next_action": "Check current Dublin Port notices for Alexandra Road reopening; compare the final road/rail as-built drawings with historic port plans and the existing North Wall Quay embedded-track record. Identify any surviving, publicly visible railway microfeatures only where an exact object and lawful viewpoint can be established. Photograph Port Centre's exterior, boundary walls and gates only from lawful public viewpoints.",
+      "completion": "Complete when current access/reopening status is confirmed by a current official notice, the rail alignment is documented from plan evidence, and any visible historic rail details are either added as unique evidence-backed objects or recorded as not separately locatable."
     }
   ],
   "protected_boundaries": [

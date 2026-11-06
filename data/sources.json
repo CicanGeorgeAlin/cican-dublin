@@ -3179,5 +3179,95 @@
     "source_type": "OFFICIAL_HERITAGE_GUIDE",
     "specific_reference": "Official visitor information for Phoenix Park Visitor Centre and Ashtown Castle.",
     "notes": "Official Heritage Ireland visitor information describing Ashtown Castle and the Phoenix Park Visitor Centre. Check current opening hours and visitor arrangements before travel."
+  },
+  {
+    "id": "NIAH-50060002",
+    "name": "Castleknock Gate, Phoenix Park",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50060002/phoenix-park-castleknock-gate-castleknock-road-chesterfield-avenue-castleknock-within-phoenix-park-dublin-8-dublin",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "Castleknock Gate, Phoenix Park",
+    "notes": "NIAH Registration 50060002; Irish Grid 309968, 236744; regional rating; cast-iron and granite gate screen built c.1840, designed by Decimus Burton."
+  },
+  {
+    "id": "NIAH-50060027",
+    "name": "Ashtown Gate, Phoenix Park",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50060027/ashtown-gate-phoenix-park-ashtown-gate-road-castleknock-within-phoenix-park-dublin-8-dublin",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "Ashtown Gate, Phoenix Park",
+    "notes": "NIAH Registration 50060027; Irish Grid 310962, 236888; regional rating; cast-iron and granite gate screen built c.1830, with maker's mark J. & C. McGloughlin Ltd."
+  },
+  {
+    "id": "NIAH-50060364",
+    "name": "The Papal Cross, Phoenix Park",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50060364/the-papal-cross-acres-road-phoenix-park-castleknock-within-phoenix-park-dublin-8-dublin",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "The Papal Cross, Phoenix Park",
+    "notes": "NIAH Registration 50060364; Irish Grid 311305, 235324; national rating; 35m steel cross erected 1979, designed by Ronnie Tallon for the Papal Mass."
+  },
+  {
+    "id": "PHOENIX-PARK-ARCHAEOLOGY",
+    "name": "Phoenix Park — Archaeology: from prehistoric to post-medieval",
+    "publisher": "Phoenix Park / Office of Public Works",
+    "url": "https://www.phoenixpark.ie/archaeology/",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_GUIDE",
+    "specific_reference": "Phoenix Park — Archaeology: from prehistoric to post-medieval",
+    "notes": "Official Phoenix Park archaeology page summarising the park's archaeological monuments, landscape history, Magazine Fort and archaeological survey resources."
+  },
+  {
+    "id": "PHOENIX-PARK-CONSERVATION-PLAN-ARCHAEOLOGY",
+    "name": "Phoenix Park Conservation Management Plan — archaeological significance",
+    "publisher": "Phoenix Park / Office of Public Works",
+    "url": "https://www.phoenixpark.ie/wp-content/uploads/2017/08/Phoenix-Park-Conservation-Management-Plan-Final.compressed.pdf",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_GUIDE",
+    "specific_reference": "Phoenix Park Conservation Management Plan — archaeological significance",
+    "notes": "Archaeological section records Knockmary / Knockmaree burial mound RMP DU018-00711, the central cist as the surviving element, and Neolithic and Early Bronze Age burial evidence."
+  },
+  {
+    "id": "IRISHSTONES-KNOCKMARIDHE-GPS-2013",
+    "name": "Knockmaridhe Linkardstown Burial — field survey",
+    "publisher": "IrishStones.org",
+    "url": "https://www.irishstones.org/place.aspx?i=1&p=580",
+    "accessed": "2026-11-06",
+    "source_type": "SECONDARY_FIELD_SURVEY",
+    "specific_reference": "Knockmaridhe Linkardstown Burial — field survey",
+    "notes": "Independent field survey visited 9 June 2013; reports GPS coordinates 53°21'03.5 N, 006°20'26.6 W and stated GPS accuracy 3m. Used only for the source-derived navigation point; current condition is not assumed."
+  },
+  {
+    "id": "EXCAVATIONS-2022-467-MAGAZINE-FORT",
+    "name": "2022:467 — Magazine Fort, St James, Phoenix Park, Dublin",
+    "publisher": "Excavations.ie / National Museum of Ireland excavation reports",
+    "url": "https://excavations.ie/report/2022/Dublin/0032281/",
+    "accessed": "2026-11-06",
+    "source_type": "ARCHAEOLOGICAL_REPORT",
+    "specific_reference": "2022:467 — Magazine Fort, St James, Phoenix Park, Dublin",
+    "notes": "Archaeological excavation report for licence 21E0869. Records surviving bascule pit and carved pivot stone beneath the former Duke of Dorset Gate arch, and discusses a possible counterweighted drawbridge."
+  },
+  {
+    "id": "WMC-CASTLEKNOCK-GATE-JP-2007",
+    "name": "Phoenix Park Castleknock Gate",
+    "publisher": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Phoenix_Park_Castleknock_Gate_-_geograph.org.uk_-_304239.jpg",
+    "accessed": "2026-11-06",
+    "source_type": "WIKIMEDIA_COMMONS_PHOTOGRAPH",
+    "specific_reference": "Phoenix Park Castleknock Gate",
+    "notes": "Wikimedia Commons photograph by JP, 1 January 2007; CC BY-SA 2.0. Shows the approach along Chesterfield Avenue towards Castleknock Gate; use as a contextual view, not a detailed condition record."
+  },
+  {
+    "id": "WMC-PAPAL-CROSS-KNOCKO-2015",
+    "name": "Papal Cross, Phoenix Park",
+    "publisher": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Papal_Cross,_Phoenix_Park.jpg",
+    "accessed": "2026-11-06",
+    "source_type": "WIKIMEDIA_COMMONS_PHOTOGRAPH",
+    "specific_reference": "Papal Cross, Phoenix Park",
+    "notes": "Wikimedia Commons photograph by Knocko, 8 September 2015; CC BY-SA 4.0. Depicts the Papal Cross itself."
   }
 ]

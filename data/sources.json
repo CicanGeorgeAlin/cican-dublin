@@ -3983,5 +3983,35 @@
     "source_type": "ARCHIVAL_CATALOGUE",
     "specific_reference": "Collection landing page listing North Wall Quay cross-section and old quay-wall plan ED/8853 (c.1890); North Wall Goods Terminus travelling-crane rail arrangement ED/5074 (Chris Mulrany, 1881); and associated quay engineering drawings.",
     "notes": "The collection catalogue confirms the existence and titles of relevant engineering drawings. The landing page alone does not establish the precise position or survival of individual crane rails, mooring fittings or other components; no such feature is georeferenced solely from the catalogue listing."
+  },
+  {
+    "id": "NIAH-50020468",
+    "name": "Diving Bell, Sir John Rogerson's Quay — NIAH registration 50020468",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50020468/diving-bell-sir-john-rogersons-quay-dublin-2-co-dublin",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50020468; survey description and appraisal; Irish Grid 317365, 234293.",
+    "notes": "NIAH describes the diving bell as cast-iron and riveted plate iron, fabricated c.1870, with chamber 23 feet square by 6.5 feet high, vertical access shaft with iron rungs and air lock. It states use from 1872 and use until the 1950s; source-specific date wording is preserved."
+  },
+  {
+    "id": "DPC-DIVING-BELL-HISTORY",
+    "name": "Dublin Port Diving Bell — official history and visitor interpretation",
+    "publisher": "Dublin Port Company",
+    "url": "https://www.dublinport.ie/about-dublin-port/a-city-port/",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_REPORT",
+    "specific_reference": "Dublin Port official Diving Bell history page.",
+    "notes": "Dublin Port states the bell was designed by Bindon Blood Stoney, built by Grendon and Co. in Drogheda, delivered in 1866, entered service in 1871 and used until 1958. This chronology differs in detail from NIAH's c.1870 fabrication / use-from-1872 wording; do not collapse the statements into one unsupported exact date."
+  },
+  {
+    "id": "DPA-DIVING-BELL-ARCHIVE",
+    "name": "Diving Bell — Dublin Port Archive historical feature",
+    "publisher": "Dublin Port Archive",
+    "url": "https://www.dublinportarchive.com/news_event/diving-bell/",
+    "accessed": "2026-11-06",
+    "source_type": "ARCHIVAL_CATALOGUE",
+    "specific_reference": "Dublin Port Archive feature: Diving Bell.",
+    "notes": "Archive describes the 90-ton diving bell, its use to prepare the riverbed for heavy precast quay-wall blocks, six-person crew, compressed-air operation, and public display on Sir John Rogerson's Quay. It describes the bell as placed on display in 2000 and later reconfigured in 2014."
   }
 ]

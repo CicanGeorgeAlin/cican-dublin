@@ -9982,5 +9982,46 @@
     "feature_type": "PRIMARY_OBJECT",
     "last_researched": "2026-11-06",
     "research_notes": "The NIAH record establishes the individual building identity and source-derived coordinate. Dublin Port's Conservation Strategy identifies the former Odlums Flour Mills as part of the port's industrial heritage landscape. No claim of current public access, interior access or founder photography is made."
+  },
+  {
+    "id": "DUB-BLD-0123",
+    "name": "Port Centre — Dublin Port Company headquarters",
+    "category": "ARCHITECTURE",
+    "district": "Dublin 3",
+    "address": "East Wall Road / Alexandra Road, Dublin Port, Dublin 3",
+    "historical_period": "Designed following 1954 architectural competition; built 1980–1981",
+    "historical_description": "Detached six-storey office building over basement, supported on a single-height podium, designed by Conor Dwyer of Scott Tallon Architects following an architectural competition in 1954 and built in 1980–1981. The NIAH describes a glazed envelope set behind an external precast-concrete frame, continuous recessed glazing panels, a louvred concrete parapet carrying Dublin Port Company insignia, a glazed entrance screen with circular glass enclosures and revolving doors, and a concrete entrance platform approached by granite-faced steps. The building is bounded by rubble-limestone walls and includes pierced cast-iron double-leaf gates to the north.",
+    "historical_significance": "A prominent late-twentieth-century architectural landmark at the entrance to Dublin Port. NIAH highlights its technically innovative external concrete frame and full-height glazing, and its role as an architectural marker between the city and the industrial port landscape.",
+    "national_inventory_reference": "50120265",
+    "national_grid_reference": "318211, 234802",
+    "latitude": 53.35046246946,
+    "longitude": -6.225574287817,
+    "coordinate_source": "Published NIAH Irish Grid reference 318211, 234802 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 (EPSG:4326). The NIAH record does not specify positional accuracy. Source-derived point, not founder GPS or field-verified.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED",
+    "address_source": "https://www.buildingsofireland.ie/buildings-search/building/50120265/port-centre-east-wall-road-alexandra-road-dublin-3-co-dublin",
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Dublin Port Company headquarters at the entrance to an operational port. Photograph only from lawful public viewpoints; access to the building, grounds, entrance or gates is not implied.",
+    "photography_restrictions": "Do not enter Port Centre grounds, approach security gates or photograph security-sensitive operations without permission. Use lawful public viewpoints only.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.35046246946%2C-6.225574287817&travelmode=walking",
+    "photography_brief": [
+      "Overall building and podium from a lawful public viewpoint",
+      "External precast-concrete structural frame and recessed glazing panels",
+      "Louvred concrete parapet and Dublin Port Company insignia where legible",
+      "Entrance composition, circular glazed enclosures and revolving doors from public space only",
+      "Granite-faced entrance steps and concrete platform, if visible without entering private grounds",
+      "North boundary wall and pierced cast-iron double-leaf gates, only from a lawful public viewpoint",
+      "Relationship of Port Centre to East Wall Road, Alexandra Road and the adjacent port landscape"
+    ],
+    "sources": [
+      "NIAH-50120265"
+    ],
+    "feature_type": "PRIMARY_OBJECT",
+    "last_researched": "2026-11-06",
+    "research_notes": "NIAH Registration 50120265 was directly consulted. The building was designed by Conor Dwyer of Scott Tallon Architects following an architectural competition in 1954 and built in 1980–81. The transformed coordinate is a source-derived locator, not founder GPS. Current access and field condition remain unverified."
   }
 ]

@@ -511,5 +511,21 @@
       "NIAH-50060592",
       "DPC-CONSERVATION-STRATEGY-2024"
     ]
+  },
+  {
+    "id": "RES-DUBLIN-PORT-RAIL-CORRIDOR-AND-PORT-CENTRE-001",
+    "title": "Port Centre, Alexandra Road reconstruction and North Wall freight-rail continuity",
+    "area": "EAST WALL ROAD · ALEXANDRA ROAD · NORTH WALL · DUBLIN 1 / DUBLIN 3",
+    "updated": "2026-11-06",
+    "status": "DOCUMENTED_INFRASTRUCTURE_CONTEXT",
+    "status_label": "OFFICIAL HERITAGE REGISTER + PORT INFRASTRUCTURE UPDATES",
+    "summary": "Port Centre (NIAH 50120265) is a separately registered late-twentieth-century architectural landmark at the entrance to Dublin Port. Dublin Port's project updates document the reconstruction of Alexandra Road and its integrated rail line, including new rail turnouts, a pedestrian/cycle path and utility ducting. A separate 2025 update records a €9 million North Wall freight-yard upgrade to support rail freight during the Alexandra Road works, with direct rail access to the port anticipated to resume in 2027.",
+    "supported": "The NIAH record gives Port Centre's architect, design competition history, construction dates, architectural description and Irish Grid coordinate. Dublin Port's Alexandra Road project page describes the road/rail works and a closure period stated as 19 July 2025 to Autumn 2026. Dublin Port's 6 June 2025 release confirms the North Wall rail freight yard investment and states the anticipated 2027 return of direct rail access into the Port.",
+    "limits": "The Alexandra Road page's stated closure period has passed by the research date, but the consulted page does not confirm whether the road and rail line have reopened. The 2027 direct-access statement is a forecast, not proof of completed work. No exact historical track alignment, individual turnout coordinate or surviving rail component is inferred from these current project updates. The North Wall freight yard is operational infrastructure and is not represented as a visitor attraction.",
+    "source_ids": [
+      "NIAH-50120265",
+      "DPC-ALEXANDRA-ROAD-UPGRADE-2025-2026",
+      "DPC-NORTH-WALL-RAIL-FREIGHT-2025"
+    ]
   }
 ]

@@ -478,5 +478,20 @@
       "DPC-PUMPHOUSE-2026",
       "DPA-PUMPHOUSE-HERITAGE-AREA"
     ]
+  },
+  {
+    "id": "RES-DUBLIN-PORT-SECOND-PUMPHOUSE-AND-RECOVERED-DOCK-FABRIC-001",
+    "title": "Pumphouse No. 2, buried 1728 sea wall, 1826 patent slip and Graving Dock No. 2 fabric",
+    "area": "ALEXANDRA BASIN · EAST WALL ROAD · DUBLIN 1",
+    "updated": "2026-11-06",
+    "status": "DOCUMENTED_FEATURES_PENDING_SPATIAL_VERIFICATION",
+    "status_label": "OFFICIAL HERITAGE EVIDENCE · EXACT FOOTPRINTS / PRESENT STATE REQUIRE CHECK",
+    "summary": "Dublin Port's Conservation Strategy identifies a second pumphouse built in the 1950s, associated with Graving Dock No. 2, with electrically driven pumps and substantial underground structure. The same strategy records the 1826 patent slip as uncovered and recovered, and an electric capstan associated with Graving Dock No. 2 as recorded during the redevelopment. Dublin Port's Substation account records a section of the original 1728 sea wall discovered beneath the substation during refurbishment. These are distinct heritage subjects, but their exact present locations, visibility and access are not sufficiently established for separate public map pins in this batch.",
+    "supported": "The Conservation Strategy (PDF pp. 122 and 125) describes Pumphouse No. 2, the Graving Dock No. 2 infill in 2021, the 1826 patent slip recovery and the electric capstan recording. Dublin Port's official Substation history describes the discovery of part of the 1728 sea wall beneath the substation and states that facing stones were likely reused in the visible boundary wall.",
+    "limits": "The exact footprint and surviving above-ground extent of Pumphouse No. 2 have not yet been georeferenced against a reliable site plan. The 1826 patent slip was recovered and samples of its stones taken into care; its original alignment and current storage location are not established by the consulted public source. The electric capstan was recorded during works, but its present disposition and exact position are not confirmed. The 1728 sea wall is described as a buried discovery; the suggested reuse of facing stones in the boundary wall is explicitly only likely. Do not create speculative map pins or assert that any of these features are visible to visitors.",
+    "source_ids": [
+      "DPC-CONSERVATION-STRATEGY-2024",
+      "DPC-SUBSTATION-2026"
+    ]
   }
 ]

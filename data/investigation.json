@@ -260,6 +260,18 @@
       "source_ids": [],
       "next_action": "Compare only inspected maps/images using stable control features and document registration method and uncertainty.",
       "completion": "Each mapped feature has traceable evidence, reproducible georeferencing and uncertainty bounds."
+    },
+    {
+      "id": "INV-011",
+      "priority": 2,
+      "status": "RESEARCH_PENDING",
+      "title": "Georeference Pumphouse No. 2 and recovered Alexandra Basin dock features",
+      "source_ids": [
+        "DPC-CONSERVATION-STRATEGY-2024",
+        "DPC-SUBSTATION-2026"
+      ],
+      "next_action": "Obtain and inspect the conservation strategy's original site plans and ABR archaeological/heritage drawings; compare Pumphouse No. 2, electric capstan, 1826 patent slip and buried 1728 sea-wall evidence with current mapping and any publicly accessible interpretation.",
+      "completion": "For each feature, record a source-backed footprint or explicitly retain it as unlocated; distinguish in-situ, buried, recovered, relocated and removed fabric; create a separate catalogue record only when identity and spatial provenance are sufficiently supported."
     }
   ],
   "protected_boundaries": [

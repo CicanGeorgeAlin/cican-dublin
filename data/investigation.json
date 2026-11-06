@@ -272,6 +272,21 @@
       ],
       "next_action": "Obtain and inspect the conservation strategy's original site plans and ABR archaeological/heritage drawings; compare Pumphouse No. 2, electric capstan, 1826 patent slip and buried 1728 sea-wall evidence with current mapping and any publicly accessible interpretation.",
       "completion": "For each feature, record a source-backed footprint or explicitly retain it as unlocated; distinguish in-situ, buried, recovered, relocated and removed fabric; create a separate catalogue record only when identity and spatial provenance are sufficiently supported."
+    },
+    {
+      "id": "INV-012",
+      "priority": 2,
+      "status": "RESEARCH_PENDING",
+      "title": "Verify the Alexandra Road grain-storage group against historic port plans and current public viewpoints",
+      "source_ids": [
+        "NIAH-50060589",
+        "NIAH-50060590",
+        "NIAH-50060591",
+        "NIAH-50060592",
+        "DPC-CONSERVATION-STRATEGY-2024"
+      ],
+      "next_action": "Compare the four NIAH registration footprints with historic Dublin Port plans, the NIAH GIS layer and current lawful public-realm access. Identify whether the R. & H. Hall silo, Odlum's silos and the redbrick steel-frame building have distinct historic names, ownership phases and surviving loading/rail interfaces. Do not infer railway remnants or access routes without primary plan evidence.",
+      "completion": "Complete when historic plan references and site relationships are recorded, any coordinate discrepancies are resolved, and a lawful founder-photography viewpoint is identified or explicitly marked unavailable."
     }
   ],
   "protected_boundaries": [

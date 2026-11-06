@@ -3903,5 +3903,45 @@
     "source_type": "OFFICIAL_CONSERVATION_PLAN",
     "specific_reference": "Sections on Alexandra Basin heritage zone and graving docks; pp. 122 and 125 (PDF page labels).",
     "notes": "The strategy describes Pumphouse No. 2 as a 1950s building with electrically driven pumps and substantial underground supporting structure, associated with Graving Dock No. 2. It records Graving Dock No. 2 infill in 2021, the public space between the two pumphouses, the 1826 patent slip discovery and recovery, and an electric capstan associated with Graving Dock No. 2. The exact current location/state of individual buried or recovered features needs plan-level verification."
+  },
+  {
+    "id": "NIAH-50060589",
+    "name": "R. & H. Hall, Alexandra Road — NIAH registration 50060589",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50060589/r-h-hall-alexandra-road-dublin-1-dublin",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "National Inventory of Architectural Heritage registration 50060589; survey data, description and appraisal. Coordinates 318609, 234766.",
+    "notes": "Official NIAH survey record. The Irish Grid coordinate is transformed to WGS 84 for the archive using EPSG:29902 to EPSG:4326; positional accuracy is not specified by the register. Not founder GPS and not field-verified."
+  },
+  {
+    "id": "NIAH-50060590",
+    "name": "Odlum's Mills, Alexandra Road — NIAH registration 50060590",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50060590/odlums-mills-alexandra-road-dublin-1-dublin",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "National Inventory of Architectural Heritage registration 50060590; survey data, description and appraisal. Coordinates 318671, 234763.",
+    "notes": "Official NIAH survey record. The Irish Grid coordinate is transformed to WGS 84 for the archive using EPSG:29902 to EPSG:4326; positional accuracy is not specified by the register. Not founder GPS and not field-verified."
+  },
+  {
+    "id": "NIAH-50060591",
+    "name": "Odlum's Mills, Alexandra Road — NIAH registration 50060591",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50060591/odlums-mills-alexandra-road-dublin-1-co-dublin",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "National Inventory of Architectural Heritage registration 50060591; survey data, description and appraisal. Coordinates 318701, 234721.",
+    "notes": "Official NIAH survey record. The Irish Grid coordinate is transformed to WGS 84 for the archive using EPSG:29902 to EPSG:4326; positional accuracy is not specified by the register. Not founder GPS and not field-verified."
+  },
+  {
+    "id": "NIAH-50060592",
+    "name": "Alexandra Road, Branch Road South — NIAH registration 50060592",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50060592/alexandra-road-branch-road-south-dublin-1-dublin",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "National Inventory of Architectural Heritage registration 50060592; survey data, description and appraisal. Coordinates 319123, 234719.",
+    "notes": "Official NIAH survey record. The Irish Grid coordinate is transformed to WGS 84 for the archive using EPSG:29902 to EPSG:4326; positional accuracy is not specified by the register. Not founder GPS and not field-verified."
   }
 ]

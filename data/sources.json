@@ -3813,5 +3813,45 @@
     "source_type": "OFFICIAL_HERITAGE_REGISTER",
     "specific_reference": "NIAH Registration 50100342; Irish Grid 317667, 234049.",
     "notes": "NIAH record consulted for description, appraisal, date and Irish Grid coordinate. Coordinate transformed from TM65 / Irish Grid (EPSG:29902) to WGS84; source-derived site point, not founder GPS; positional accuracy unspecified."
+  },
+  {
+    "id": "NIAH-50060587",
+    "name": "Pumphouse No. 1, Alexandra Road",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50060587/pump-house-dublin-city",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50060587; Irish Grid 318411, 234709.",
+    "notes": "NIAH record consulted for description, appraisal, date and Irish Grid coordinate. Coordinate transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using the project's established conversion method; source-derived site point, not founder GPS. The NIAH's recorded in-use status is cross-checked against Dublin Port's current Pumphouse information."
+  },
+  {
+    "id": "NIAH-50060588",
+    "name": "Dublin Graving Dock, Alexandra Road",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50060588/dublin-graving-dock-alexandra-road-dublin-1-co-dublin",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50060588; Irish Grid 318444, 234760.",
+    "notes": "NIAH record consulted for the c.1910 date, poured-concrete construction, sluice gates and coordinate. Its description says the dock remains in use, which conflicts with Dublin Port's Conservation Strategy statement that Graving Dock No. 2 was infilled in 2021. The physical identity, historic date and current condition require further cross-check; not promoted to a physical catalogue record in this batch."
+  },
+  {
+    "id": "DPC-PUMPHOUSE-2026",
+    "name": "The Pumphouse — Dublin Port",
+    "publisher": "Dublin Port Company",
+    "url": "https://www.dublinport.ie/the-pumphouse/",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_GUIDE",
+    "specific_reference": "The Pumphouse and Graving Docks heritage zone; operational history and public cultural use.",
+    "notes": "Official Dublin Port account states that the Pumphouse housed the steam engine powering Graving Dock 1 gates, describes the dock area's shipbuilding and repair role, and records the Pumphouse Presents cultural programme. Consult for present heritage-zone context; it does not establish unrestricted public access."
+  },
+  {
+    "id": "DPA-PUMPHOUSE-HERITAGE-AREA",
+    "name": "Pump-House Heritage Area",
+    "publisher": "Dublin Port Archive",
+    "url": "https://www.dublinportarchive.com/news_event/pump-house-heritage-area/",
+    "accessed": "2026-11-06",
+    "source_type": "ARCHIVE",
+    "specific_reference": "Dublin Port Archive historical account of Graving Dock No. 1, Graving Dock No. 2 and the Pumphouse Heritage Area.",
+    "notes": "Dublin Port Archive account identifies Graving Dock No. 1 as opened in February 1860, Graving Dock No. 2 as built in 1957, and describes the 2021 first stage of the heritage-zone project, including infilling Dock No. 2 to create a public plaza while retaining dock-gate features."
   }
 ]

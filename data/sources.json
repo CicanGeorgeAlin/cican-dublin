@@ -3763,5 +3763,55 @@
     "accessed": "2026-11-06",
     "source_type": "WIKIMEDIA_COMMONS_PHOTOGRAPH",
     "specific_reference": "GrandCanal-4-McKennyBridge.JPG"
+  },
+  {
+    "id": "NIAH-50100330",
+    "name": "The Design Tower, Grand Canal Quay",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50100330/the-design-tower-grand-canal-quay-dublin-2-dublin",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50100330; Irish Grid 317313, 233830.",
+    "notes": "NIAH record consulted for description, appraisal, date and Irish Grid coordinate. Coordinate transformed from TM65 / Irish Grid (EPSG:29902) to WGS84; source-derived site point, not founder GPS; positional accuracy unspecified."
+  },
+  {
+    "id": "NIAH-50100331",
+    "name": "Grand Canal Quay — triple-gable former malt house",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50100331/grand-canal-quay-dublin-2-dublin",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50100331; Irish Grid 317300, 233768.",
+    "notes": "NIAH record consulted for description, appraisal, date and Irish Grid coordinate. Coordinate transformed from TM65 / Irish Grid (EPSG:29902) to WGS84; source-derived site point, not founder GPS; positional accuracy unspecified."
+  },
+  {
+    "id": "NIAH-50100332",
+    "name": "Grand Canal Quay — former Guinness malt house",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50100332/grand-canal-quay-dublin-2-dublin",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50100332; Irish Grid 317306, 233695.",
+    "notes": "NIAH record consulted for description, appraisal, date and Irish Grid coordinate. Coordinate transformed from TM65 / Irish Grid (EPSG:29902) to WGS84; source-derived site point, not founder GPS; positional accuracy unspecified."
+  },
+  {
+    "id": "NIAH-50100334",
+    "name": "Grand Canal Quay — skew-plan former malt house",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50100334/grand-canal-quay-dublin-2-co-dublin",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50100334; Irish Grid 317331, 233597.",
+    "notes": "NIAH record consulted for description, appraisal, date and Irish Grid coordinate. Coordinate transformed from TM65 / Irish Grid (EPSG:29902) to WGS84; source-derived site point, not founder GPS; positional accuracy unspecified."
+  },
+  {
+    "id": "NIAH-50100342",
+    "name": "Hanover Quay",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50100342/hanover-quay-dublin-2-co-dublin",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50100342; Irish Grid 317667, 234049.",
+    "notes": "NIAH record consulted for description, appraisal, date and Irish Grid coordinate. Coordinate transformed from TM65 / Irish Grid (EPSG:29902) to WGS84; source-derived site point, not founder GPS; positional accuracy unspecified."
   }
 ]

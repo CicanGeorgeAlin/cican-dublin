@@ -527,5 +527,20 @@
       "DPC-ALEXANDRA-ROAD-UPGRADE-2025-2026",
       "DPC-NORTH-WALL-RAIL-FREIGHT-2025"
     ]
+  },
+  {
+    "id": "RES-NORTH-WALL-QUAY-MICRO-FITTINGS-AND-CRANE-RAIL-ARCHIVE-001",
+    "title": "North Wall Quay — surviving mooring fittings, recessed ladders and historic travelling-crane rail drawings",
+    "area": "NORTH WALL QUAY · BETWEEN CONVENTION CENTRE AND NEW WAPPING STREET · DUBLIN 1",
+    "updated": "2026-11-06",
+    "status": "MICRO_FEATURES_DOCUMENTED_ARCHIVAL_DRAWINGS_UNLOCATED",
+    "status_label": "TWO SUB-FEATURES CATALOGUED · CRANE-RAIL PLAN LEAD",
+    "summary": "NIAH Registration 50010011 describes paired iron mooring hooks set into the granite coping and three shallow recesses containing iron ladders on the c.1800 North Wall Quay wall. These two feature groups are now separately catalogued beneath the existing quay-wall record, without invented individual coordinates. Dublin Port Archive's engineering-drawings catalogue also lists an 1881 plan and section for the arrangement of rail in connection with travelling cranes at North Wall Goods Terminus (ED/5074), alongside a c.1890 North Wall Quay cross-section and old quay-wall plan (ED/8853).",
+    "supported": "The NIAH record explicitly describes the mooring hooks and three ladder recesses. The Dublin Port Archive collection page explicitly lists drawing ED/5074 by Chris Mulrany (1881) and drawing ED/8853 (c.1890). These sources establish that the fittings are recorded on the quay and that the historical crane-rail drawing exists in the archive catalogue.",
+    "limits": "The NIAH entry does not give a count or individual position for the mooring hooks, and does not provide separate coordinates for the three ladders. Current survival and condition must be field-checked. The online archive catalogue listing does not expose sufficient drawing detail to place the travelling-crane rails on the present map. No crane, rail or bollard pin is created from the catalogue title alone.",
+    "source_ids": [
+      "NIAH-50010011",
+      "DPA-ENGINEERING-DRAWINGS-1800S"
+    ]
   }
 ]

@@ -10023,5 +10023,73 @@
     "feature_type": "PRIMARY_OBJECT",
     "last_researched": "2026-11-06",
     "research_notes": "NIAH Registration 50120265 was directly consulted. The building was designed by Conor Dwyer of Scott Tallon Architects following an architectural competition in 1954 and built in 1980–81. The transformed coordinate is a source-derived locator, not founder GPS. Current access and field condition remain unverified."
+  },
+  {
+    "id": "DUB-DET-0001",
+    "name": "North Wall Quay — paired iron mooring hooks set into granite coping",
+    "category": "INFRASTRUCTURE",
+    "district": "Dublin 1",
+    "address": "Granite coping of the c.1800 North Wall Quay wall, between the Convention Centre and New Wapping Street; exact individual hook positions not georeferenced",
+    "historical_period": "c.1800 quay wall; hook installation date not separately established",
+    "historical_description": "A group of paired iron mooring hooks set into the granite coping of the North Wall Quay wall. NIAH Registration 50010011 explicitly describes several paired iron mooring hooks as surviving features of the c.1800 quay. The register does not provide a count, individual hook coordinates, maker, installation date or detailed fixing specification; these are left open for founder field photography and measurement.",
+    "historical_significance": "Surviving maritime fittings that retain a direct functional connection to the working history of the Liffey quays. They are a small-scale industrial detail that can be missed when the quay is catalogued only as a linear engineering structure.",
+    "national_inventory_reference": "Associated with NIAH 50010011",
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": "DUB-INF-0015",
+    "access_status": "Public quayside promenade. Photograph only from the public path; keep clear of the river edge and cycle route.",
+    "photography_restrictions": "Do not climb onto the coping or touch, move, clean or test the fittings. Photograph from the public path and obey barriers or site rules.",
+    "photography_brief": [
+      "Locate and photograph every visible paired mooring hook along the parent quay segment",
+      "Capture each fitting square-on and in oblique profile without touching it",
+      "Include the hook-to-granite coping interface and any visible fixings",
+      "Record count and position along the quay using founder GPS only if safely accessible",
+      "Record corrosion, repairs, missing components and differences between fittings",
+      "Take a wider context image showing the fitting's relationship to the river edge and coping"
+    ],
+    "sources": [
+      "NIAH-50010011",
+      "DPA-ENGINEERING-DRAWINGS-1800S"
+    ],
+    "feature_type": "MICRO_DETAIL",
+    "coordinate_status": "NOT_GEOCODED",
+    "last_researched": "2026-11-06",
+    "research_notes": "NIAH establishes the existence of several paired iron mooring hooks in the coping. No individual feature point is published. This child record is deliberately not assigned a map coordinate or separate navigation pin; its parent is the NIAH quay-wall site point. Exact count and positions await founder field verification."
+  },
+  {
+    "id": "DUB-DET-0002",
+    "name": "North Wall Quay — three recessed iron access ladders",
+    "category": "INFRASTRUCTURE",
+    "district": "Dublin 1",
+    "address": "Three shallow recesses in the c.1800 North Wall Quay wall, between the Convention Centre and New Wapping Street; exact individual ladder positions not georeferenced",
+    "historical_period": "c.1800 quay wall; ladder installation dates not separately established",
+    "historical_description": "Three shallow recesses in the granite quay wall containing iron ladders. NIAH Registration 50010011 explicitly records three ladder recesses as part of the surviving quay fabric. The register does not state ladder manufacture dates, dimensions, individual coordinates, condition or whether all three ladders remain intact today; those details are reserved for field verification.",
+    "historical_significance": "The recessed ladders are functional maritime access fittings within an early-nineteenth-century quay wall. Their design and survival provide evidence of how the quay edge was accessed and maintained as a working harbour structure.",
+    "national_inventory_reference": "Associated with NIAH 50010011",
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": "DUB-INF-0015",
+    "access_status": "Public quayside promenade. Photograph from the public path only; do not descend, climb, lean over the quay edge or access the river.",
+    "photography_restrictions": "Do not attempt to use the ladders or enter the water. Photograph only from a safe public viewpoint and obey barriers or site rules.",
+    "photography_brief": [
+      "Find and photograph each of the three documented ladder recesses from the public path",
+      "Capture recess outline, granite masonry and visible iron ladder components",
+      "Record whether each ladder is present, partly missing, repaired or inaccessible",
+      "Take a scale-reference image without placing objects against the historic fabric",
+      "Record exact position only by founder GPS from a safe public standing point",
+      "Photograph the wider quay wall context without implying river access"
+    ],
+    "sources": [
+      "NIAH-50010011",
+      "DPA-ENGINEERING-DRAWINGS-1800S"
+    ],
+    "feature_type": "MICRO_DETAIL",
+    "coordinate_status": "NOT_GEOCODED",
+    "last_researched": "2026-11-06",
+    "research_notes": "NIAH explicitly records three shallow recesses containing iron ladders. No individual ladder coordinates are published. This child record has no coordinates and no independent map pin; it is attached to the parent quay-wall record. Present survival and condition of all three ladders require founder field verification."
   }
 ]

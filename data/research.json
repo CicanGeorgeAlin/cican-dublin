@@ -462,5 +462,21 @@
       "DUBLIN-PORT-3FM-EIAR-APP16-1-CATALOGUE",
       "DUBLIN-PORT-HERITAGE-CONSERVATION-STRATEGY"
     ]
+  },
+  {
+    "id": "RES-DUBLIN-PORT-GRAVING-DOCK-IDENTITY-001",
+    "title": "Dublin Port Graving Dock No. 2 — NIAH date and present-condition discrepancy",
+    "area": "ALEXANDRA BASIN · DUBLIN 1",
+    "updated": "2026-11-06",
+    "status": "DOCUMENTED_DISCREPANCY",
+    "status_label": "OFFICIAL-SOURCE CONFLICT · FURTHER IDENTITY CHECK REQUIRED",
+    "summary": "NIAH Registration 50060588 describes a c.1910 concrete graving dock and says it remains in use. Dublin Port's heritage account identifies Graving Dock No. 2 as opening in 1957 and states that it was infilled in 2021 to create a public plaza. The available descriptions may refer to different dock phases or contain a stale NIAH use/date field.",
+    "supported": "The NIAH record supplies registration 50060588, a site coordinate, a c.1910 date, concrete construction, sluice gates and cast-iron mechanisms. Dublin Port's official Pumphouse page gives the dock chronology and states Dock No. 2 opened in 1957 and closed in 2017. Dublin Port Archive describes the 2021 infill and retention of dock-gate features.",
+    "limits": "The exact physical identity and footprint correspondence between NIAH 50060588 and Dublin Port's Graving Dock No. 2 have not been established. The date discrepancy is unresolved. No current dock chamber or operational use is asserted, and no separate catalogue pin is created until the NIAH and port plans are cross-referenced.",
+    "source_ids": [
+      "NIAH-50060588",
+      "DPC-PUMPHOUSE-2026",
+      "DPA-PUMPHOUSE-HERITAGE-AREA"
+    ]
   }
 ]

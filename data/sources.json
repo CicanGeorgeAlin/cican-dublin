@@ -3169,5 +3169,15 @@
     "source_type": "WIKIMEDIA_COMMONS_PHOTOGRAPH",
     "specific_reference": "Phoenix Park Monument",
     "notes": "Wikimedia Commons photograph by Noelfirl, uploaded 24 March 2007; author dedicated the work to the public domain."
+  },
+  {
+    "id": "HERITAGE-IRELAND-ASHTOWN-CASTLE",
+    "name": "Phoenix Park Visitor Centre and Ashtown Castle",
+    "publisher": "Heritage Ireland — Office of Public Works",
+    "url": "https://heritageireland.ie/places-to-visit/phoenix-park-visitor-centre-ashtown-castle/",
+    "accessed": "2026-11-06",
+    "source_type": "OFFICIAL_HERITAGE_GUIDE",
+    "specific_reference": "Official visitor information for Phoenix Park Visitor Centre and Ashtown Castle.",
+    "notes": "Official Heritage Ireland visitor information describing Ashtown Castle and the Phoenix Park Visitor Centre. Check current opening hours and visitor arrangements before travel."
   }
 ]

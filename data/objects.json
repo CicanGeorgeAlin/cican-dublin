@@ -7938,5 +7938,79 @@
     "coordinate_source": "3FM EIAR Appendix 16-1 gives ITM 721402, 733860. Converted EPSG:2157 to WGS84: 53.341026658546966, -6.176923248852423. Source-derived point, not founder GPS; accuracy unspecified.",
     "coordinate_accuracy_m": null,
     "research_notes": "The EIAR describes the slipway as believed c.1770 and records erosion/partial collapse at the north-west corner. Present condition and lawful access require field verification."
+  },
+  {
+    "category": "INFRASTRUCTURE",
+    "district": "Dublin 4",
+    "national_inventory_reference": null,
+    "national_grid_reference": null,
+    "verification_status": "PARTIALLY_VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "coordinate_accuracy_m": null,
+    "sources": [
+      "DUBLIN-PORT-3FM-EIAR-APP16-1-CATALOGUE"
+    ],
+    "feature_type": "SITE",
+    "last_researched": "2026-11-06",
+    "id": "DUB-INF-0012",
+    "name": "Former Rope Walk site — DCIHR 18-12-149-01",
+    "address": "Former Rope Walk site, Ringsend industrial waterfront, Dublin 4",
+    "historical_period": "Recorded on the OS 6-inch map of 1843; nineteenth- and twentieth-century industrial site",
+    "historical_description": "Dublin Port Company's 3FM EIAR Appendix 16-1 records a Rope Walk building at this location on the Ordnance Survey historical 6-inch map of 1843. It describes the building as a long, narrow structure used in the manufacture of rope and canvas. The same catalogue notes that a variety of nineteenth- and twentieth-century structures occupied the site at the time of its survey. The source does not establish that the original rope-walk building survives today, and the current fabric has not been field-verified.",
+    "historical_significance": "A documented trace of the rope- and canvas-making activities associated with Dublin's historic port and industrial waterfront.",
+    "latitude": 53.344050033882695,
+    "longitude": -6.2272441277899215,
+    "coordinate_status": "SOURCE_DERIVED",
+    "coordinate_source": "Dublin Port Company 3FM EIAR Appendix 16-1, p.30, gives ITM Easting 718043, Northing 734112 for DCIHR 18-12-149-01. Converted from EPSG:2157 (Irish Transverse Mercator) to WGS84: 53.344050033882695, -6.2272441277899215. Source-derived point, not founder GPS; source accuracy unspecified.",
+    "access_status": "The catalogue describes a site occupied by a variety of nineteenth- and twentieth-century structures. The survival of the original Rope Walk building is not established. No public access is assumed; photograph only from a lawful public viewpoint or with permission. Do not enter buildings or operational property.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.344050033882695%2C-6.2272441277899215&travelmode=walking",
+    "photography_brief": [
+      "Wide view of the mapped former Rope Walk site from a lawful public viewpoint",
+      "Record the present building footprint and roofline without assuming it is the historic Rope Walk",
+      "Look for any surviving long, narrow industrial building form or fabric, if visible",
+      "Record signs of later nineteenth- or twentieth-century industrial phases separately",
+      "Do not enter buildings or operational property; record founder GPS only from a lawful viewpoint"
+    ],
+    "research_notes": "The 3FM EIAR catalogue identifies the Rope Walk building on the OS historical 6-inch map of 1843 and describes the site as occupied by various later structures. No evidence in this source confirms survival of the original Rope Walk building. Coordinate is the catalogue ITM point transformed to WGS84, not a field GPS fix."
+  },
+  {
+    "category": "INFRASTRUCTURE",
+    "district": "Dublin 4",
+    "national_inventory_reference": null,
+    "national_grid_reference": null,
+    "verification_status": "PARTIALLY_VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "coordinate_accuracy_m": null,
+    "sources": [
+      "DUBLIN-PORT-3FM-EIAR-APP16-1-CATALOGUE"
+    ],
+    "feature_type": "SITE",
+    "last_researched": "2026-11-06",
+    "id": "DUB-INF-0013",
+    "name": "Former Pigeon House Outfall Works — municipal drainage site (DCIHR 19-09-004)",
+    "address": "West side of the former Pigeon House Harbour basin, Poolbeg Peninsula, Dublin 4",
+    "historical_period": "1906; original settlement tanks replaced around 2003",
+    "historical_description": "Dublin Port Company's 3FM EIAR Appendix 16-1 records the Outfall Works as completed in 1906 as part of Dublin's main drainage scheme, occupying the west side of the former Pigeon House Harbour basin. The catalogue describes the works as a major municipal engineering achievement and notes that concrete tanks replaced the original settlement tanks around 2003. The archive records this as a historic industrial and municipal-engineering site, not as a claim that the original 1906 tanks survive.",
+    "historical_significance": "A major component of Dublin Corporation's early municipal sewerage scheme, illustrating the development of public-health and wastewater infrastructure in Dublin.",
+    "latitude": 53.340735278084885,
+    "longitude": -6.196188994754772,
+    "coordinate_status": "SOURCE_DERIVED",
+    "coordinate_source": "Dublin Port Company 3FM EIAR Appendix 16-1, pp.59–60, gives ITM Easting 720120, Northing 733795 for DCIHR 19-09-004. Converted from EPSG:2157 (Irish Transverse Mercator) to WGS84: 53.340735278084885, -6.196188994754772. Source-derived point, not founder GPS; source accuracy unspecified.",
+    "access_status": "The historic site is associated with wastewater infrastructure and settlement tanks. No public access is assumed. Do not enter utility or operational land; photograph only from a lawful public viewpoint or with express permission. Current operating status and access have not been independently verified.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.340735278084885%2C-6.196188994754772&travelmode=walking",
+    "photography_brief": [
+      "Wide contextual view of the former outfall-works site from a lawful public viewpoint",
+      "Record the relationship to the former Pigeon House Harbour basin",
+      "If visible from public land, document the later concrete settlement tanks without presenting them as original 1906 fabric",
+      "Look for surviving historic drainage structures only where they are clearly visible and safely accessible",
+      "Do not enter utility land or approach operational wastewater infrastructure"
+    ],
+    "research_notes": "Appendix 16-1 dates completion of the Outfall Works to 1906 and states that concrete tanks replaced the original settlement tanks around 2003. The entry is a site record; it does not claim that the original tanks survive. Coordinate is the catalogue ITM point transformed to WGS84, not a founder GPS fix."
   }
 ]

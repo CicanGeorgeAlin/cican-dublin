@@ -1,4 +1,4 @@
-const CACHE="cican-dublin-root-v1";
+const CACHE="cican-dublin-root-v2";
 const CACHE_PREFIX="cican-dublin-root-";
 const SHELL=[
   "./",

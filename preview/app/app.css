@@ -569,3 +569,10 @@ body.photo-viewer-open{overflow:hidden}
 .photo-viewer-caption a{color:#dce8d7;font:700 9px/1.5 var(--sans);letter-spacing:.1em;text-decoration:underline;text-underline-offset:3px}
 .photo-viewer-caption small{color:#a3aa9e;font:10px/1.6 var(--sans);text-align:center}
 @media(max-width:420px){.photo-gallery-thumbs{gap:6px}.photo-gallery-thumb img{height:68px}.photo-gallery-thumb span{font-size:6px;padding:6px 5px 0}}
+/* Stage 4 — location-aware discovery and walking plans. */
+.icon-button.is-active{background:#e8eee5;color:#111810;border-color:#e8eee5;box-shadow:0 0 0 3px #e8eee522}
+.result-distance{margin-top:6px;color:#c6d5bd;font:700 8px/1.4 var(--sans);letter-spacing:.1em}
+#plan-walk-button{color:#e3eddd;font-weight:800}
+#plan-walk-button[hidden]{display:none!important}
+.user-location-marker{width:16px;height:16px;border:3px solid #fff;border-radius:50%;background:#5b9dff;box-shadow:0 0 0 7px #5b9dff33,0 0 18px #5b9dff99}
+@media(max-width:850px){.topbar{gap:7px}.topbar-center{flex:1;justify-content:center;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.icon-button{width:34px;height:34px;flex:none;font-size:20px}.result-distance{font-size:8px}}

@@ -576,3 +576,14 @@ body.photo-viewer-open{overflow:hidden}
 #plan-walk-button[hidden]{display:none!important}
 .user-location-marker{width:16px;height:16px;border:3px solid #fff;border-radius:50%;background:#5b9dff;box-shadow:0 0 0 7px #5b9dff33,0 0 18px #5b9dff99}
 @media(max-width:850px){.topbar{gap:7px}.topbar-center{flex:1;justify-content:center;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.icon-button{width:34px;height:34px;flex:none;font-size:20px}.result-distance{font-size:8px}}
+/* Stage 5 — make provenance and verification limits explicit. */
+.evidence-standard{margin:15px 0 0;padding:13px 0;border-top:1px solid #ffffff20;border-bottom:1px solid #ffffff20;color:#c4cbbf}
+.evidence-standard summary{cursor:pointer;list-style:none;color:#d7e1d0;font:700 9px/1.6 var(--sans);letter-spacing:.12em}
+.evidence-standard summary::-webkit-details-marker{display:none}
+.evidence-standard summary:after{content:"＋";float:right;font-size:15px}
+.evidence-standard[open] summary:after{content:"−"}
+.evidence-standard p{margin:11px 0 0;color:#b9c0b3;font:12px/1.75 var(--sans)}
+.evidence-standard p+p{color:#929b8e}
+.editorial-field-notes p{margin:11px 0 0;color:#c0c7bb;font:12px/1.75 var(--sans)}
+.source-link small{overflow-wrap:anywhere}
+@media(max-width:850px){.evidence-standard summary{font-size:10px}.evidence-standard p,.editorial-field-notes p{font-size:12px;line-height:1.75}}

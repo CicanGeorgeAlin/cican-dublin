@@ -108,6 +108,23 @@
     },
     "notes": {
       "type": "string"
+    },
+    "date": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Source publication or creation date as written by the source; may be approximate or descriptive."
+    },
+    "photographer": {
+      "type": "string",
+      "minLength": 1
+    },
+    "licence": {
+      "type": "string",
+      "minLength": 1
+    },
+    "licenceUrl": {
+      "type": "string",
+      "format": "uri"
     }
   }
 }

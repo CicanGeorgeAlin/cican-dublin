@@ -1,6 +1,6 @@
 # CICAN DUBLIN — Data Architecture
 
-**Version:** 1.0  
+**Version:** 2.0  
 **Owner:** CICAN GEORGE ALIN  
 **Scope:** Dublin City and County Dublin
 
@@ -17,6 +17,8 @@ This document defines the common data model used by the research catalogue, map,
 | `data/districts.json` | Geographic research and coverage zones |
 | `data/categories.json` | Human-readable category descriptions used by the current site |
 | `data/taxonomy.json` | Controlled category codes, feature types and classification rules |
+| `data/evidence-claims.json` | Claim-level evidence register; each claim links one object to its supporting sources, assessment, grade and limitations |
+| `data/field-observations.json` | Dated, attributable present-day observations, kept separate from historical source claims |
 | `routes/` | Curated field routes and mission groupings |
 | `photos/originals/` | Founder-supplied original photographs |
 | `line-art/` | Approved derivative illustrations |
@@ -109,3 +111,39 @@ Every publication cycle updates the source registry and research feed together, 
 ## Investigation control register
 
 `data/investigation.json` is the machine-readable claim and task register for active historical investigations. It stores claim-level evidence grades, source IDs, unresolved questions, ordered research tasks and protected boundaries. It is distinct from `data/research.json`: research notes are public narrative findings, while the investigation register controls the evidence audit and next actions. The companion contract is `schemas/investigation.schema.json`. Every source ID referenced by a claim or task must exist in `data/sources.json`. The archive validator checks these references, unique claim/task IDs and permitted evidence grades.
+
+## Version 2.0 — normalized evidence and field observations
+
+The v2.0 architecture is additive. It does not rename, renumber or bulk-rewrite the existing 274 catalogue objects, 410 source records or visual records. `data/objects.json` remains the canonical public object catalogue and existing `parent_id` links remain authoritative.
+
+Two new, independently versionable registers are introduced:
+
+- **`data/evidence-claims.json`** stores one assessable statement about one object, its claim type, supporting source IDs, evidence grade, assessment and explicit limits. A source attached to an object is not automatically treated as proof of every sentence in its description. Claims are added only when a researcher has actually assessed the cited evidence. The register begins empty; existing narrative descriptions are not automatically converted into claims.
+- **`data/field-observations.json`** stores dated observations of present condition, access, fabric, inscriptions, photography or coordinates. Every observation identifies the object, observer, date/time, method and review state. Coordinates are optional and, when present, require an explicit measurement method. A transformed register coordinate is not a founder field observation.
+
+New schema contracts:
+- `schemas/evidence-claim.schema.json`
+- `schemas/field-observation.schema.json`
+
+The source schema now explicitly recognises all fields already present in the source registry, including publication date, photographer, licence and licence URL. The object schema's required set is aligned with the fields actually present on every current catalogue record; inventory references, grid coordinates, decimal coordinates and navigation links remain optional where the object does not have them. This restores the documented backward-compatibility promise.
+
+## Referential integrity and validation
+
+The archive preflight now checks:
+1. Evidence claim IDs are unique; each claim points to an existing object and one or more existing sources.
+2. Field observation IDs are unique; each observation points to an existing object and any linked sources exist.
+3. Coordinate pairs in field observations are complete and declare a measurement method.
+4. Every current object has the fields required by the object schema.
+5. Every source field used in the live registry is represented by the source schema.
+6. Catalogue and visual inventory IDs match exactly, not merely by count.
+
+Empty evidence/observation registers mean that no claim-level assessment or dated field observation has yet been entered under the new model. They do not imply that no historical research or fieldwork has ever occurred. Existing evidence remains in the object/source and investigation registers until a claim is individually assessed and migrated.
+
+## Migration policy
+
+- Preserve all permanent object and source IDs.
+- Never manufacture claim-level evidence by copying a whole-object source list onto every sentence.
+- Never convert source-derived coordinates into field observations.
+- Keep original photographs, licensed reference images and line-art derivatives distinct.
+- Add a claim or field observation only when its required provenance is available.
+- The map continues to read the canonical object, source and visual files. The new registers are research/fieldwork data and do not alter map rendering or the public map API.

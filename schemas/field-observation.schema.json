@@ -1,0 +1,161 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cicangeorgealin.github.io/cican-dublin/schemas/field-observation.schema.json",
+  "title": "CICAN DUBLIN Field Observation",
+  "description": "A dated, attributable observation about the present physical condition or access of one catalogue object. A source-derived coordinate is not a field observation.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "object_id",
+    "observed_at",
+    "observer",
+    "observation_method",
+    "observation_type",
+    "notes",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^OBS-[A-Z0-9-]+$"
+    },
+    "object_id": {
+      "type": "string",
+      "pattern": "^DUB-[A-Z]{3}-[0-9]{4,}$"
+    },
+    "observed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "observer": {
+      "type": "string",
+      "minLength": 1
+    },
+    "observation_method": {
+      "type": "string",
+      "enum": [
+        "FOUNDER_FIELD_VISIT",
+        "REMOTE_SOURCE_REVIEW"
+      ]
+    },
+    "observation_type": {
+      "type": "string",
+      "enum": [
+        "CONDITION",
+        "ACCESS",
+        "COORDINATE",
+        "PHOTOGRAPHY",
+        "INSCRIPTION",
+        "FABRIC",
+        "OTHER"
+      ]
+    },
+    "notes": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "DRAFT",
+        "RECORDED",
+        "REVIEWED"
+      ]
+    },
+    "latitude": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": -90,
+      "maximum": 90
+    },
+    "longitude": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": -180,
+      "maximum": 180
+    },
+    "coordinate_accuracy_m": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "coordinate_method": {
+      "type": "string",
+      "enum": [
+        "DEVICE_GPS",
+        "SURVEY_CONTROL",
+        "OTHER"
+      ]
+    },
+    "photo_paths": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "related_source_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "required": [
+          "latitude"
+        ],
+        "properties": {
+          "latitude": {
+            "type": "number"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "longitude",
+          "coordinate_method"
+        ],
+        "properties": {
+          "longitude": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "required": [
+          "longitude"
+        ],
+        "properties": {
+          "longitude": {
+            "type": "number"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "latitude",
+          "coordinate_method"
+        ],
+        "properties": {
+          "latitude": {
+            "type": "number"
+          }
+        }
+      }
+    }
+  ]
+}

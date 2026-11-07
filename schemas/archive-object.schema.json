@@ -14,19 +14,15 @@
     "historical_period",
     "historical_description",
     "historical_significance",
-    "national_inventory_reference",
-    "national_grid_reference",
-    "latitude",
-    "longitude",
     "verification_status",
     "photography_status",
     "line_art_status",
     "publication_status",
     "parent_id",
     "access_status",
-    "map_url",
     "photography_brief",
-    "sources"
+    "sources",
+    "coordinate_status"
   ],
   "properties": {
     "id": {

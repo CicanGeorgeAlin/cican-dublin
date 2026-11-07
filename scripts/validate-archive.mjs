@@ -5,7 +5,7 @@ import assert from "node:assert/strict";
 const root=process.cwd();
 const read=file=>fs.readFileSync(path.join(root,file),"utf8");
 const json=file=>JSON.parse(read(file));
-const objects=json("data/objects.json"),sources=json("data/sources.json"),visual=json("data/visual-assets.json"),research=json("data/research.json"),investigation=json("data/investigation.json"),sourceSchema=json("schemas/source.schema.json");
+const objects=json("data/objects.json"),sources=json("data/sources.json"),visual=json("data/visual-assets.json"),research=json("data/research.json"),investigation=json("data/investigation.json"),sourceSchema=json("schemas/source.schema.json"),evidenceClaims=json("data/evidence-claims.json"),fieldObservations=json("data/field-observations.json"),evidenceSchema=json("schemas/evidence-claim.schema.json"),observationSchema=json("schemas/field-observation.schema.json"),objectSchema=json("schemas/archive-object.schema.json");
 assert.ok(Array.isArray(objects)&&objects.length>0,"Object catalogue must be a non-empty array.");
 assert.ok(Array.isArray(sources)&&sources.length>0,"Source catalogue must be a non-empty array.");
 assert.ok(Array.isArray(visual.records),"Visual inventory must contain a records array.");
@@ -15,6 +15,32 @@ assert.equal(investigation.methodology,"LOCKED","Investigation methodology must 
 assert.ok(Array.isArray(investigation.claims)&&investigation.claims.length>0,"Investigation register needs claims.");
 assert.ok(Array.isArray(investigation.tasks)&&investigation.tasks.length>0,"Investigation register needs tasks.");
 const claimIds=unique(investigation.claims.map(x=>x.id),"Investigation claim IDs"),taskIds=unique(investigation.tasks.map(x=>x.id),"Investigation task IDs");
+assert.ok(Array.isArray(evidenceClaims),"Object evidence register must be an array.");
+assert.ok(Array.isArray(fieldObservations),"Field observation register must be an array.");
+const evidenceIds=unique(evidenceClaims.map(x=>x.id),"Evidence claim IDs"),observationIds=unique(fieldObservations.map(x=>x.id),"Field observation IDs");
+const objectRequired=objectSchema.required;
+for(const r of objects){for(const key of objectRequired)assert.ok(Object.hasOwn(r,key),"Record "+r.id+" is missing schema-required field "+key+".");}
+for(const s of sources){for(const key of Object.keys(s))assert.ok(Object.hasOwn(sourceSchema.properties,key),"Source "+s.id+" has a field not represented in source.schema.json: "+key);}
+for(const claim of evidenceClaims){
+ for(const key of evidenceSchema.required)assert.ok(Object.hasOwn(claim,key),"Evidence claim "+claim.id+" is missing "+key+".");
+ assert.ok(objectIds.has(claim.object_id),"Evidence claim "+claim.id+" references missing object "+claim.object_id+".");
+ assert.ok(["A","B","C","D","E"].includes(claim.evidence_grade),"Invalid evidence grade on "+claim.id+".");
+ assert.ok(["SUPPORTED","PARTIALLY_SUPPORTED","CONTRADICTED","UNRESOLVED"].includes(claim.assessment),"Invalid assessment on "+claim.id+".");
+ assert.ok(Array.isArray(claim.source_ids)&&claim.source_ids.length>0,"Evidence claim "+claim.id+" needs source IDs.");
+ for(const id of claim.source_ids)assert.ok(sourceIds.has(id),"Evidence claim "+claim.id+" references missing source "+id+".");
+ if(claim.supersedes)assert.ok(evidenceIds.has(claim.supersedes),"Evidence claim "+claim.id+" supersedes missing claim "+claim.supersedes+".");
+}
+for(const observation of fieldObservations){
+ for(const key of observationSchema.required)assert.ok(Object.hasOwn(observation,key),"Field observation "+observation.id+" is missing "+key+".");
+ assert.ok(objectIds.has(observation.object_id),"Field observation "+observation.id+" references missing object "+observation.object_id+".");
+ assert.ok(["FOUNDER_FIELD_VISIT","REMOTE_SOURCE_REVIEW"].includes(observation.observation_method),"Invalid observation method on "+observation.id+".");
+ assert.ok(["DRAFT","RECORDED","REVIEWED"].includes(observation.status),"Invalid observation status on "+observation.id+".");
+ const lat=typeof observation.latitude==="number",lon=typeof observation.longitude==="number";
+ assert.equal(lat,lon,"Field observation "+observation.id+" must have both coordinates or neither.");
+ if(lat)assert.ok(["DEVICE_GPS","SURVEY_CONTROL","OTHER"].includes(observation.coordinate_method),"Coordinates on "+observation.id+" need a declared measurement method.");
+ for(const id of observation.related_source_ids||[])assert.ok(sourceIds.has(id),"Field observation "+observation.id+" references missing source "+id+".");
+}
+
 for(const claim of investigation.claims){assert.ok(["A","B","C","D","E"].includes(claim.grade),"Invalid evidence grade on "+claim.id);for(const id of claim.source_ids)assert.ok(sourceIds.has(id),"Claim "+claim.id+" references missing source "+id);assert.ok(Array.isArray(claim.unknowns),"Claim "+claim.id+" must list unresolved questions.");}
 for(const task of investigation.tasks){assert.ok(task.priority>=1&&task.priority<=4,"Invalid priority on "+task.id);assert.ok(task.next_action&&task.completion,"Task "+task.id+" needs a next action and completion criteria.");for(const id of task.source_ids)assert.ok(sourceIds.has(id),"Task "+task.id+" references missing source "+id);}
 for(const item of research){
@@ -23,6 +49,8 @@ for(const item of research){
  for(const id of item.source_ids)assert.ok(sourceIds.has(id),"Research item "+item.id+" references missing source "+id+".");
 }
 assert.equal(objects.length,visual.records.length,"Every catalogue record must have exactly one visual inventory entry.");
+assert.equal(objectIds.size,visualIds.size,"Catalogue and visual inventory ID counts must match.");
+for(const id of objectIds)assert.ok(visualIds.has(id),"Catalogue record has no visual inventory entry: "+id);
 assert.equal(visual.record_count,objects.length,"Visual inventory record_count must match the master catalogue.");
 for(const r of visual.records){assert.ok(r.name&&r.category&&r.district&&r.address,"Visual entry "+r.record_id+" must carry catalogue identity fields.");assert.ok(Array.isArray(r.planned_shots),"Visual entry "+r.record_id+" must carry a photography plan.");}
 for(const r of objects){
@@ -104,4 +132,4 @@ for(const id of ["photo","makeArt","save","entries"])assert.ok(notebook.includes
 for(const id of ["exportBackup","importBackup","backupFile"])assert.ok(notebook.includes('id="'+id+'"'),"Notebook backup control missing #"+id);
 assert.ok(notebook.includes("CICAN-MY-DUBLIN-BACKUP"),"Notebook backup format marker missing.");
 console.log("ARCHIVE PREFLIGHT PASSED");
-console.log(JSON.stringify({objects:objects.length,sources:sources.length,researchItems:research.length,investigationClaims:investigation.claims.length,investigationTasks:investigation.tasks.length,visualRecords:visual.records.length,referenceImages:visual.records.reduce((n,r)=>n+(r.reference_images||[]).length,0),verified:objects.filter(r=>r.verification_status==="VERIFIED").length,partiallyVerified:objects.filter(r=>r.verification_status==="PARTIALLY_VERIFIED").length},null,2));
+console.log(JSON.stringify({objects:objects.length,sources:sources.length,researchItems:research.length,investigationClaims:investigation.claims.length,investigationTasks:investigation.tasks.length,objectEvidenceClaims:evidenceClaims.length,fieldObservations:fieldObservations.length,visualRecords:visual.records.length,referenceImages:visual.records.reduce((n,r)=>n+(r.reference_images||[]).length,0),verified:objects.filter(r=>r.verification_status==="VERIFIED").length,partiallyVerified:objects.filter(r=>r.verification_status==="PARTIALLY_VERIFIED").length},null,2));

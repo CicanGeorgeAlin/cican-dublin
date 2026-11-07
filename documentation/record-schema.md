@@ -29,3 +29,10 @@
 - One physical discovery has one permanent ID; use parent-child links for details within a larger site.
 - A register entry is evidence of a recorded feature, not proof that the founder has visited or photographed it.
 - Keep source uncertainty visible.
+
+## Version 2.0 evidence and field-observation registers
+
+- `data/evidence-claims.json` is for individually assessable claims. Every claim must identify its catalogue object, exact supporting source IDs, evidence grade, assessment and limitations. Do not infer that every source listed on an object supports every claim.
+- `data/field-observations.json` is for dated present-day observations. Record who observed the feature, when, how and what was actually seen. A remote source review is not a founder field visit.
+- Coordinates in a field observation require both latitude and longitude and an explicit measurement method. Keep source-derived NIAH/GIS points in the object record with source provenance; do not duplicate them as field GPS.
+- Existing catalogue objects and source IDs remain unchanged. New registers start empty and are populated only after individual evidence assessment or actual field observation.

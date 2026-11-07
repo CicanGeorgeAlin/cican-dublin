@@ -1,14 +1,16 @@
 {
-  "version": "1.0",
+  "version": "2.0",
   "scope": "Dublin City and County Dublin",
   "purpose": "A layered geographic framework for research coverage, fieldwork planning and map navigation. Administrative boundaries and working zones are separate layers.",
   "boundary_policy": [
-    "The four local authority areas form the primary administrative coverage layer for Dublin.",
-    "Postal districts are operational work zones only; they are not legal boundaries and do not cover every part of County Dublin as a complete administrative system.",
-    "Townlands are the preferred fine-grained statutory geography for later rural and peri-urban subdivision; use official Tailte Éireann boundary datasets and preserve dataset version and attribution.",
-    "Neighbourhoods, parks, corridors and coastal zones may be added as overlapping fieldwork zones, not as substitutes for statutory boundaries.",
-    "Do not assign a discovery to a local authority solely from a postal district label where the boundary is uncertain; verify the point against an authoritative boundary layer.",
-    "Coverage status describes archive research and fieldwork, never the completeness of the underlying physical heritage."
+    "Use the 2026 Tailte Éireann Local Authorities dataset as the primary administrative coverage framework for Dublin City Council, Fingal County Council, South Dublin County Council and Dún Laoghaire-Rathdown County Council.",
+    "Use Tailte Éireann 2026 townlands as the fine-grained statutory research geography after checking the dataset's reuse terms and metadata.",
+    "Postal districts are operational work zones only. Never use a postal district label as proof that an object lies inside a local-authority boundary.",
+    "Do not publish or redistribute copied boundary geometry until the applicable licence and attribution conditions are confirmed.",
+    "Where an object's coordinates are absent, source-derived at property level, or too imprecise for a boundary decision, leave local-authority assignment unresolved.",
+    "Do not count a source-derived building centroid as an exact micro-detail location.",
+    "Neighbourhoods, parks, corridors and coastal zones may be overlapping fieldwork zones, not substitutes for statutory administrative geography.",
+    "Coverage status describes archive research and fieldwork only; it never implies that a whole area has been exhaustively surveyed."
   ],
   "local_authorities": [
     {
@@ -17,9 +19,13 @@
       "geographic_type": "LOCAL_AUTHORITY",
       "status": "RESEARCH_IN_PROGRESS",
       "source_ids": [
+        "SRC-DUB-LOCAL-AUTH-2026",
+        "SRC-DUB-BOUNDARY-OPEN-DATA",
         "SRC-DUB-LOCAL-AUTH-001"
       ],
-      "coverage_notes": "Initial archive research is in progress. The current catalogue contains 191 records in Dublin 1, Dublin 2 and Dublin 3 (70 in Dublin 1, 55 in Dublin 2 and 66 in Dublin 3). This is a partial research sample, not comprehensive coverage of the Dublin City Council administrative area. Verify each record against authoritative local-authority boundaries; founder fieldwork remains outstanding."
+      "coverage_notes": "The catalogue has a substantial research sample in central and inner Dublin, but no object has been counted against this local-authority polygon layer in the Step 4 audit. The 274 catalogue records are distributed across postal districts Dublin 1, 2, 3, 4 and 8; postal-district labels are not used as a substitute for spatial boundary assignment. Administrative-area record count remains unverified until each defensible point is intersected with the authoritative 2026 boundary dataset.",
+      "boundary_verification_status": "NOT_SPATIALLY_ASSIGNED",
+      "record_count": null
     },
     {
       "id": "DUB-LA-002",
@@ -27,10 +33,13 @@
       "geographic_type": "LOCAL_AUTHORITY",
       "status": "NOT_YET_RESEARCHED",
       "source_ids": [
-        "SRC-DUB-LOCAL-AUTH-001",
+        "SRC-DUB-LOCAL-AUTH-2026",
+        "SRC-DUB-BOUNDARY-OPEN-DATA",
         "SRC-DUB-TOWNLANDS-2026"
       ],
-      "coverage_notes": "Northern and north-western part of the Dublin local authority region; include urban, coastal and rural settlements."
+      "coverage_notes": "No catalogue record count is assigned to this authority in the Step 4 audit. Research coverage is not yet established. Use the 2026 Tailte Éireann local-authority polygon as the administrative frame, then subdivide research by official townlands and documented settlements. Do not infer coverage from postal districts.",
+      "boundary_verification_status": "NOT_SPATIALLY_ASSIGNED",
+      "record_count": null
     },
     {
       "id": "DUB-LA-003",
@@ -38,9 +47,13 @@
       "geographic_type": "LOCAL_AUTHORITY",
       "status": "NOT_YET_RESEARCHED",
       "source_ids": [
-        "SRC-DUB-LOCAL-AUTH-001"
+        "SRC-DUB-LOCAL-AUTH-2026",
+        "SRC-DUB-BOUNDARY-OPEN-DATA",
+        "SRC-DUB-TOWNLANDS-2026"
       ],
-      "coverage_notes": "Western and south-western part of the Dublin local authority region; include urban, suburban and rural settlements."
+      "coverage_notes": "No catalogue record count is assigned to this authority in the Step 4 audit. Research coverage is not yet established. Use the 2026 Tailte Éireann local-authority polygon as the administrative frame, then subdivide research by official townlands and documented settlements. Do not infer coverage from postal districts.",
+      "boundary_verification_status": "NOT_SPATIALLY_ASSIGNED",
+      "record_count": null
     },
     {
       "id": "DUB-LA-004",
@@ -48,36 +61,51 @@
       "geographic_type": "LOCAL_AUTHORITY",
       "status": "NOT_YET_RESEARCHED",
       "source_ids": [
-        "SRC-DUB-LOCAL-AUTH-001"
+        "SRC-DUB-LOCAL-AUTH-2026",
+        "SRC-DUB-BOUNDARY-OPEN-DATA",
+        "SRC-DUB-TOWNLANDS-2026"
       ],
-      "coverage_notes": "Southern and south-eastern part of the Dublin local authority region, including coastal and upland locations."
+      "coverage_notes": "No catalogue record count is assigned to this authority in the Step 4 audit. Research coverage is not yet established. Use the 2026 Tailte Éireann local-authority polygon as the administrative frame, then subdivide research by official townlands and documented settlements. Do not infer coverage from postal districts.",
+      "boundary_verification_status": "NOT_SPATIALLY_ASSIGNED",
+      "record_count": null
     }
   ],
   "working_zone_layers": [
     {
+      "id": "DUB-WZ-ADMIN",
+      "name": "2026 local-authority administrative boundaries",
+      "geographic_type": "LOCAL_AUTHORITY_LAYER",
+      "status": "SOURCE_IDENTIFIED_LICENCE_REVIEW_PENDING",
+      "source_ids": [
+        "SRC-DUB-LOCAL-AUTH-2026"
+      ],
+      "record_file": "data/coverage-zones.json",
+      "notes": "Official Tailte Éireann 2026 ungeneralised polygon dataset; GeoJSON resource listed on data.gov.ie. Geometry not redistributed in this release because the dataset listing does not specify a reuse licence. Administrative assignment remains pending."
+    },
+    {
       "id": "DUB-WZ-POSTAL",
       "name": "Dublin postal districts",
       "geographic_type": "POSTAL_DISTRICT_LAYER",
-      "status": "INITIAL_FRAMEWORK",
+      "status": "INITIAL_FRAMEWORK_COUNTS_RECONCILED",
       "record_file": "data/districts.json",
-      "notes": "Operational discovery and fieldwork groupings only. Not a complete administrative boundary layer."
+      "notes": "Operational discovery and fieldwork groupings only. Current record counts are reconciled against the master catalogue in data/coverage-audit.json. Not administrative boundaries."
     },
     {
       "id": "DUB-WZ-TOWNLAND",
       "name": "Official townlands",
       "geographic_type": "TOWNLAND_LAYER",
-      "status": "SOURCE_IDENTIFIED_NOT_IMPORTED",
+      "status": "SOURCE_IDENTIFIED_LICENCE_REVIEW_PENDING",
       "source_ids": [
         "SRC-DUB-TOWNLANDS-2026"
       ],
-      "notes": "Next detailed statutory subdivision layer. Import only Dublin County records from the authoritative 2026 Tailte Éireann dataset, retaining source identifiers and boundary version."
+      "notes": "Tailte Éireann 2026 townlands dataset identified. Dataset page lists no licence; confirm reuse conditions before copying geometry. Use for fine-grained statutory research subdivision once cleared."
     },
     {
       "id": "DUB-WZ-NEIGHBOURHOOD",
       "name": "Neighbourhood and settlement zones",
       "geographic_type": "NEIGHBOURHOOD_LAYER",
       "status": "NOT_YET_RESEARCHED",
-      "notes": "Add named neighbourhoods and settlements as fieldwork groupings with documented provenance; boundaries may be informal or overlapping."
+      "notes": "Add named neighbourhoods and settlements as overlapping research groupings with documented provenance; boundaries may be informal."
     },
     {
       "id": "DUB-WZ-FIELD",
@@ -93,5 +121,11 @@
     "INITIAL_RESEARCH_COMPLETE",
     "FIELDWORK_IN_PROGRESS",
     "FIELDWORK_REVIEWED"
-  ]
+  ],
+  "boundary_assignment_policy": {
+    "coordinate_rule": "Assign an object to a local authority only after a defensible object coordinate is spatially checked against the authoritative polygon. If coordinate precision is inadequate, leave assignment unresolved.",
+    "micro_detail_rule": "Do not assign a micro-detail using a parent building centroid unless the point is explicitly treated as an approximate context point and cannot change the authority assignment.",
+    "geometry_publication": "Pending licence review; do not bundle copied 2026 boundary geometry in this release.",
+    "last_audited": "2026-11-07"
+  }
 }

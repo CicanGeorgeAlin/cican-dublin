@@ -1805,10 +1805,10 @@
     "name": "Townlands — National Statutory Boundaries — Ungeneralised 2026",
     "publisher": "Tailte Éireann via data.gov.ie",
     "url": "https://data.gov.ie/dataset/townlands-national-statutory-boundaries-ungeneralised-20261",
-    "accessed": "2026-10-24",
+    "accessed": "2026-11-07",
     "source_type": "OFFICIAL_REGISTER",
-    "specific_reference": "2026 national statutory boundary dataset; townlands layer; Tailte Éireann",
-    "notes": "Official townland boundary dataset. Confirm reuse licence and attribution conditions before redistributing extracted geometry."
+    "specific_reference": "2026 National Statutory Boundary dataset; Townlands layer; data.gov.ie dataset page lists XLSX, CSV, GeoJSON and other resources.",
+    "notes": "Official 2026 townland boundary dataset supplied by Tailte Éireann. The dataset describes townlands as statutory boundaries and identifies approximately 50,200 townlands nationally. The 2026 data.gov.ie resource listing states 'No Licence Provided'; do not redistribute extracted geometry until reuse terms are confirmed. Use only Dublin County records for the archive's Dublin coverage layer."
   },
   {
     "id": "SRC-EPSG-TM65-29902",
@@ -4143,5 +4143,15 @@
     "source_type": "NEWS_REPORT",
     "specific_reference": "Jehan Ashmore, 5 November 2017; report on the former B&I Steam Packet office building.",
     "notes": "Afloat describes the date 1909 and the carved company name on the building façade, and discusses the former B&I office redevelopment. Used as corroboration for the visible inscription and corporate history, not as the primary architectural survey."
+  },
+  {
+    "id": "SRC-DUB-LOCAL-AUTH-2026",
+    "name": "Local Authorities — National Statutory Boundaries — Ungeneralised 2026",
+    "publisher": "Tailte Éireann via data.gov.ie",
+    "url": "https://data.gov.ie/en_GB/dataset/local-authorities-national-statutory-boundaries-ungeneralised-20261",
+    "accessed": "2026-11-07",
+    "source_type": "OFFICIAL_GIS_DATASET",
+    "specific_reference": "2026 National Statutory Boundary dataset; Local Authorities layer; GeoJSON resource available from the dataset page.",
+    "notes": "Official 2026 ungeneralised local-authority polygon dataset. Identifies 31 local authorities nationally, including Dublin City Council and the three Dublin county councils: Fingal, South Dublin and Dún Laoghaire-Rathdown. The 2026 dataset page does not specify a reuse licence. Geometry is therefore identified but not copied into the public repository pending licence and metadata review. Tailte Éireann advises due diligence when relying on boundary delineation."
   }
 ]

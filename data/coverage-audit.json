@@ -1,0 +1,105 @@
+{
+  "version": "1.0",
+  "audited_on": "2026-11-07",
+  "scope": "Dublin City and County Dublin",
+  "catalogue_total": 274,
+  "administrative_assignment_status": "NOT_SPATIALLY_VERIFIED",
+  "administrative_assignment_note": "No local-authority record counts are published in this audit. Postal-district labels cannot be substituted for point-in-polygon checks. The official 2026 polygon dataset has been identified; geometry import and spatial assignment await reuse-licence confirmation and a coordinate-precision review.",
+  "local_authorities": [
+    {
+      "id": "DUB-LA-001",
+      "name": "Dublin City Council",
+      "record_count": null,
+      "status": "RESEARCH_IN_PROGRESS",
+      "boundary_verification_status": "NOT_SPATIALLY_ASSIGNED",
+      "next_action": "Spatially test existing defensible object coordinates against the 2026 local-authority polygon; resolve uncertain points individually."
+    },
+    {
+      "id": "DUB-LA-002",
+      "name": "Fingal County Council",
+      "record_count": null,
+      "status": "NOT_YET_RESEARCHED",
+      "boundary_verification_status": "NOT_SPATIALLY_ASSIGNED",
+      "next_action": "Begin evidence-led discovery using the official local-authority polygon and then townland/settlement subdivisions."
+    },
+    {
+      "id": "DUB-LA-003",
+      "name": "South Dublin County Council",
+      "record_count": null,
+      "status": "NOT_YET_RESEARCHED",
+      "boundary_verification_status": "NOT_SPATIALLY_ASSIGNED",
+      "next_action": "Begin evidence-led discovery using the official local-authority polygon and then townland/settlement subdivisions."
+    },
+    {
+      "id": "DUB-LA-004",
+      "name": "Dún Laoghaire-Rathdown County Council",
+      "record_count": null,
+      "status": "NOT_YET_RESEARCHED",
+      "boundary_verification_status": "NOT_SPATIALLY_ASSIGNED",
+      "next_action": "Begin evidence-led discovery using the official local-authority polygon and then townland/settlement subdivisions."
+    }
+  ],
+  "postal_districts": [
+    {
+      "name": "Dublin 1",
+      "record_count": 98,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "Count reconciled from data/objects.json; sample only, not exhaustive."
+    },
+    {
+      "name": "Dublin 2",
+      "record_count": 78,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "Count reconciled from data/objects.json; sample only, not exhaustive."
+    },
+    {
+      "name": "Dublin 3",
+      "record_count": 67,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "Count reconciled from data/objects.json; sample only, not exhaustive."
+    },
+    {
+      "name": "Dublin 4",
+      "record_count": 18,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "Count reconciled from data/objects.json; sample only, not exhaustive."
+    },
+    {
+      "name": "Dublin 8",
+      "record_count": 13,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "Count reconciled from data/objects.json; sample only, not exhaustive."
+    }
+  ],
+  "districts_without_catalogue_records": [
+    "Dublin 5",
+    "Dublin 6",
+    "Dublin 6W",
+    "Dublin 7",
+    "Dublin 9",
+    "Dublin 10",
+    "Dublin 11",
+    "Dublin 12",
+    "Dublin 13",
+    "Dublin 14",
+    "Dublin 15",
+    "Dublin 16",
+    "Dublin 17",
+    "Dublin 18",
+    "Dublin 20",
+    "Dublin 22",
+    "Dublin 24"
+  ],
+  "totals": {
+    "postal_districts_with_records": 5,
+    "local_authorities_with_verified_spatial_assignment": 0,
+    "records_with_verified_local_authority_assignment": 0
+  },
+  "methodology": [
+    "Count records directly from the canonical data/objects.json catalogue.",
+    "Keep postal-district counts separate from administrative-area counts.",
+    "Use Tailte Éireann 2026 local-authority boundaries for spatial attribution after licence review.",
+    "Do not spatially assign records with null coordinates or coordinates whose accuracy is insufficient for the boundary decision.",
+    "Treat this as a baseline coverage audit, not a claim of exhaustive heritage inventory."
+  ]
+}

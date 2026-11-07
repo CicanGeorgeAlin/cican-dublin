@@ -5,7 +5,7 @@ import assert from "node:assert/strict";
 const root=process.cwd();
 const read=file=>fs.readFileSync(path.join(root,file),"utf8");
 const json=file=>JSON.parse(read(file));
-const objects=json("data/objects.json"),sources=json("data/sources.json"),visual=json("data/visual-assets.json"),research=json("data/research.json"),investigation=json("data/investigation.json"),sourceSchema=json("schemas/source.schema.json"),evidenceClaims=json("data/evidence-claims.json"),fieldObservations=json("data/field-observations.json"),evidenceSchema=json("schemas/evidence-claim.schema.json"),observationSchema=json("schemas/field-observation.schema.json"),objectSchema=json("schemas/archive-object.schema.json"),taxonomy=json("data/taxonomy.json"),categories=json("data/categories.json"),taxonomySchema=json("schemas/taxonomy.schema.json"),categoriesSchema=json("schemas/categories.schema.json");
+const objects=json("data/objects.json"),sources=json("data/sources.json"),visual=json("data/visual-assets.json"),research=json("data/research.json"),investigation=json("data/investigation.json"),sourceSchema=json("schemas/source.schema.json"),evidenceClaims=json("data/evidence-claims.json"),fieldObservations=json("data/field-observations.json"),evidenceSchema=json("schemas/evidence-claim.schema.json"),observationSchema=json("schemas/field-observation.schema.json"),objectSchema=json("schemas/archive-object.schema.json"),taxonomy=json("data/taxonomy.json"),categories=json("data/categories.json"),taxonomySchema=json("schemas/taxonomy.schema.json"),categoriesSchema=json("schemas/categories.schema.json"),coverageZones=json("data/coverage-zones.json"),coverageAudit=json("data/coverage-audit.json"),coverageZonesSchema=json("schemas/coverage-zones.schema.json"),coverageAuditSchema=json("schemas/coverage-audit.schema.json");
 assert.ok(Array.isArray(objects)&&objects.length>0,"Object catalogue must be a non-empty array.");
 assert.ok(Array.isArray(sources)&&sources.length>0,"Source catalogue must be a non-empty array.");
 assert.ok(Array.isArray(visual.records),"Visual inventory must contain a records array.");
@@ -25,6 +25,21 @@ for(const code of featureTypeCodes)assert.ok(schemaFeatureTypes.has(code),"Taxon
 for(const code of schemaFeatureTypes)assert.ok(featureTypeCodes.has(code),"Object schema feature type "+code+" is missing from taxonomy.");
 for(const code of new Set(objects.map(x=>x.category)))assert.ok(taxonomyCodes.has(code),"Catalogue uses an unregistered category code: "+code);
 for(const category of categories)assert.ok(category.name&&category.description,"Each display category needs a name and description.");
+assert.ok(Array.isArray(coverageZones.local_authorities)&&coverageZones.local_authorities.length===4,"Coverage framework must contain four Dublin local authorities.");
+assert.ok(Array.isArray(coverageAudit.postal_districts),"Coverage audit must contain postal-district counts.");
+assert.equal(coverageAudit.catalogue_total,objects.length,"Coverage audit total must match the master catalogue.");
+const auditCounts=new Map(coverageAudit.postal_districts.map(x=>[x.name,x.record_count]));
+const districtCounts=new Map();
+for(const r of objects)districtCounts.set(r.district,(districtCounts.get(r.district)||0)+1);
+assert.equal(auditCounts.size,districtCounts.size,"Coverage audit and catalogue must have the same set of populated postal districts.");
+for(const [name,count] of districtCounts)assert.equal(auditCounts.get(name),count,"Coverage count is stale for "+name+".");
+for(const authority of coverageZones.local_authorities){
+ for(const id of authority.source_ids)assert.ok(sourceIds.has(id),"Coverage authority "+authority.id+" references missing source "+id+".");
+ assert.equal(authority.boundary_verification_status,"NOT_SPATIALLY_ASSIGNED","Do not claim administrative assignment before spatial verification.");
+ assert.equal(authority.record_count,null,"Do not publish local-authority counts before spatial verification.");
+}
+for(const layer of coverageZones.working_zone_layers)for(const id of layer.source_ids||[])assert.ok(sourceIds.has(id),"Coverage layer "+layer.id+" references missing source "+id+".");
+
 
 assert.equal(investigation.methodology,"LOCKED","Investigation methodology must be explicitly locked.");
 assert.ok(Array.isArray(investigation.claims)&&investigation.claims.length>0,"Investigation register needs claims.");

@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cicangeorgealin.github.io/cican-dublin/schemas/coverage-zones.schema.json",
+  "title": "CICAN DUBLIN Geographic Coverage Framework",
+  "type": "object",
+  "required": [
+    "version",
+    "scope",
+    "purpose",
+    "boundary_policy",
+    "local_authorities",
+    "working_zone_layers",
+    "coverage_statuses",
+    "boundary_assignment_policy"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "boundary_policy": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "local_authorities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "geographic_type",
+          "status",
+          "source_ids",
+          "coverage_notes",
+          "boundary_verification_status",
+          "record_count"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "geographic_type": {
+            "const": "LOCAL_AUTHORITY"
+          },
+          "status": {
+            "type": "string"
+          },
+          "source_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "coverage_notes": {
+            "type": "string"
+          },
+          "boundary_verification_status": {
+            "type": "string"
+          },
+          "record_count": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "working_zone_layers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "geographic_type",
+          "status",
+          "notes"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "geographic_type": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "source_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "record_file": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "coverage_statuses": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "boundary_assignment_policy": {
+      "type": "object",
+      "required": [
+        "coordinate_rule",
+        "micro_detail_rule",
+        "geometry_publication",
+        "last_audited"
+      ],
+      "properties": {
+        "coordinate_rule": {
+          "type": "string"
+        },
+        "micro_detail_rule": {
+          "type": "string"
+        },
+        "geometry_publication": {
+          "type": "string"
+        },
+        "last_audited": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    }
+  }
+}

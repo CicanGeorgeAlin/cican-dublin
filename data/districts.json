@@ -4,153 +4,153 @@
     "description": "North City",
     "status": "RESEARCH_IN_PROGRESS",
     "geographic_type": "POSTAL_DISTRICT",
-    "coverage_notes": "Research is in progress with 70 catalogue records. This is an expanding sample, not a comprehensive survey; founder photography and on-site coordinate verification remain outstanding. Operational fieldwork zone only; not an administrative boundary."
+    "coverage_notes": "The current master catalogue contains 98 records carrying this postal-district label. This is a research sample, not a comprehensive survey. Postal districts are operational groupings only and do not establish local-authority membership. Founder photography and on-site coordinate verification remain outstanding."
   },
   {
     "name": "Dublin 2",
     "description": "Historic Centre",
     "status": "RESEARCH_IN_PROGRESS",
     "geographic_type": "POSTAL_DISTRICT",
-    "coverage_notes": "Research is in progress with 55 catalogue records. This is an expanding sample, not a comprehensive survey; founder photography and on-site coordinate verification remain outstanding. Operational fieldwork zone only; not an administrative boundary."
+    "coverage_notes": "The current master catalogue contains 78 records carrying this postal-district label. This is a research sample, not a comprehensive survey. Postal districts are operational groupings only and do not establish local-authority membership. Founder photography and on-site coordinate verification remain outstanding."
   },
   {
     "name": "Dublin 3",
     "description": "North-East Dublin",
     "status": "RESEARCH_IN_PROGRESS",
     "geographic_type": "POSTAL_DISTRICT",
-    "coverage_notes": "Research is in progress with 66 catalogue records. This is an expanding sample, not a comprehensive survey; founder photography and on-site coordinate verification remain outstanding. Operational fieldwork zone only; not an administrative boundary."
+    "coverage_notes": "The current master catalogue contains 67 records carrying this postal-district label. This is a research sample, not a comprehensive survey. Postal districts are operational groupings only and do not establish local-authority membership. Founder photography and on-site coordinate verification remain outstanding."
   },
   {
     "name": "Dublin 4",
     "description": "South-East Dublin",
-    "status": "NOT_YET_RESEARCHED",
+    "status": "RESEARCH_IN_PROGRESS",
     "geographic_type": "POSTAL_DISTRICT",
-    "coverage_notes": "Operational fieldwork zone only; not an administrative boundary. Research coverage is not yet complete."
+    "coverage_notes": "The current master catalogue contains 18 records carrying this postal-district label. This is a research sample, not a comprehensive survey. Postal districts are operational groupings only and do not establish local-authority membership. Founder photography and on-site coordinate verification remain outstanding."
   },
   {
     "name": "Dublin 5",
     "description": "North-East suburbs",
     "status": "NOT_YET_RESEARCHED",
     "geographic_type": "POSTAL_DISTRICT",
-    "coverage_notes": "Operational fieldwork zone only; not an administrative boundary. Research coverage is not yet complete."
+    "coverage_notes": "No catalogue records currently carry this postal-district label. This is a research-priority indicator, not proof that the district contains no heritage. Postal districts are operational groupings only and do not establish local-authority membership."
   },
   {
     "name": "Dublin 6",
     "description": "Rathmines and surrounding areas",
     "status": "NOT_YET_RESEARCHED",
     "geographic_type": "POSTAL_DISTRICT",
-    "coverage_notes": "Operational fieldwork zone only; not an administrative boundary. Research coverage is not yet complete."
+    "coverage_notes": "No catalogue records currently carry this postal-district label. This is a research-priority indicator, not proof that the district contains no heritage. Postal districts are operational groupings only and do not establish local-authority membership."
   },
   {
     "name": "Dublin 6W",
     "description": "South-West suburbs",
     "status": "NOT_YET_RESEARCHED",
     "geographic_type": "POSTAL_DISTRICT",
-    "coverage_notes": "Operational fieldwork zone only; not an administrative boundary. Research coverage is not yet complete."
+    "coverage_notes": "No catalogue records currently carry this postal-district label. This is a research-priority indicator, not proof that the district contains no heritage. Postal districts are operational groupings only and do not establish local-authority membership."
   },
   {
     "name": "Dublin 7",
     "description": "Smithfield and surrounding areas",
     "status": "NOT_YET_RESEARCHED",
     "geographic_type": "POSTAL_DISTRICT",
-    "coverage_notes": "Operational fieldwork zone only; not an administrative boundary. Research coverage is not yet complete."
+    "coverage_notes": "No catalogue records currently carry this postal-district label. This is a research-priority indicator, not proof that the district contains no heritage. Postal districts are operational groupings only and do not establish local-authority membership."
   },
   {
     "name": "Dublin 8",
     "description": "The Liberties and Kilmainham",
-    "status": "NOT_YET_RESEARCHED",
+    "status": "RESEARCH_IN_PROGRESS",
     "geographic_type": "POSTAL_DISTRICT",
-    "coverage_notes": "Operational fieldwork zone only; not an administrative boundary. Research coverage is not yet complete."
+    "coverage_notes": "The current master catalogue contains 13 records carrying this postal-district label. This is a research sample, not a comprehensive survey. Postal districts are operational groupings only and do not establish local-authority membership. Founder photography and on-site coordinate verification remain outstanding."
   },
   {
     "name": "Dublin 9",
     "description": "Drumcondra and surrounding areas",
     "status": "NOT_YET_RESEARCHED",
     "geographic_type": "POSTAL_DISTRICT",
-    "coverage_notes": "Operational fieldwork zone only; not an administrative boundary. Research coverage is not yet complete."
+    "coverage_notes": "No catalogue records currently carry this postal-district label. This is a research-priority indicator, not proof that the district contains no heritage. Postal districts are operational groupings only and do not establish local-authority membership."
   },
   {
     "name": "Dublin 10",
     "description": "Ballyfermot",
     "status": "NOT_YET_RESEARCHED",
     "geographic_type": "POSTAL_DISTRICT",
-    "coverage_notes": "Operational fieldwork zone only; not an administrative boundary. Research coverage is not yet complete."
+    "coverage_notes": "No catalogue records currently carry this postal-district label. This is a research-priority indicator, not proof that the district contains no heritage. Postal districts are operational groupings only and do not establish local-authority membership."
   },
   {
     "name": "Dublin 11",
     "description": "Finglas",
     "status": "NOT_YET_RESEARCHED",
     "geographic_type": "POSTAL_DISTRICT",
-    "coverage_notes": "Operational fieldwork zone only; not an administrative boundary. Research coverage is not yet complete."
+    "coverage_notes": "No catalogue records currently carry this postal-district label. This is a research-priority indicator, not proof that the district contains no heritage. Postal districts are operational groupings only and do not establish local-authority membership."
   },
   {
     "name": "Dublin 12",
     "description": "Crumlin and surrounding areas",
     "status": "NOT_YET_RESEARCHED",
     "geographic_type": "POSTAL_DISTRICT",
-    "coverage_notes": "Operational fieldwork zone only; not an administrative boundary. Research coverage is not yet complete."
+    "coverage_notes": "No catalogue records currently carry this postal-district label. This is a research-priority indicator, not proof that the district contains no heritage. Postal districts are operational groupings only and do not establish local-authority membership."
   },
   {
     "name": "Dublin 13",
     "description": "Coastal North Dublin",
     "status": "NOT_YET_RESEARCHED",
     "geographic_type": "POSTAL_DISTRICT",
-    "coverage_notes": "Operational fieldwork zone only; not an administrative boundary. Research coverage is not yet complete."
+    "coverage_notes": "No catalogue records currently carry this postal-district label. This is a research-priority indicator, not proof that the district contains no heritage. Postal districts are operational groupings only and do not establish local-authority membership."
   },
   {
     "name": "Dublin 14",
     "description": "South Dublin",
     "status": "NOT_YET_RESEARCHED",
     "geographic_type": "POSTAL_DISTRICT",
-    "coverage_notes": "Operational fieldwork zone only; not an administrative boundary. Research coverage is not yet complete."
+    "coverage_notes": "No catalogue records currently carry this postal-district label. This is a research-priority indicator, not proof that the district contains no heritage. Postal districts are operational groupings only and do not establish local-authority membership."
   },
   {
     "name": "Dublin 15",
     "description": "Blanchardstown",
     "status": "NOT_YET_RESEARCHED",
     "geographic_type": "POSTAL_DISTRICT",
-    "coverage_notes": "Operational fieldwork zone only; not an administrative boundary. Research coverage is not yet complete."
+    "coverage_notes": "No catalogue records currently carry this postal-district label. This is a research-priority indicator, not proof that the district contains no heritage. Postal districts are operational groupings only and do not establish local-authority membership."
   },
   {
     "name": "Dublin 16",
     "description": "South-West Dublin",
     "status": "NOT_YET_RESEARCHED",
     "geographic_type": "POSTAL_DISTRICT",
-    "coverage_notes": "Operational fieldwork zone only; not an administrative boundary. Research coverage is not yet complete."
+    "coverage_notes": "No catalogue records currently carry this postal-district label. This is a research-priority indicator, not proof that the district contains no heritage. Postal districts are operational groupings only and do not establish local-authority membership."
   },
   {
     "name": "Dublin 17",
     "description": "North-East Dublin",
     "status": "NOT_YET_RESEARCHED",
     "geographic_type": "POSTAL_DISTRICT",
-    "coverage_notes": "Operational fieldwork zone only; not an administrative boundary. Research coverage is not yet complete."
+    "coverage_notes": "No catalogue records currently carry this postal-district label. This is a research-priority indicator, not proof that the district contains no heritage. Postal districts are operational groupings only and do not establish local-authority membership."
   },
   {
     "name": "Dublin 18",
     "description": "South-East Dublin",
     "status": "NOT_YET_RESEARCHED",
     "geographic_type": "POSTAL_DISTRICT",
-    "coverage_notes": "Operational fieldwork zone only; not an administrative boundary. Research coverage is not yet complete."
+    "coverage_notes": "No catalogue records currently carry this postal-district label. This is a research-priority indicator, not proof that the district contains no heritage. Postal districts are operational groupings only and do not establish local-authority membership."
   },
   {
     "name": "Dublin 20",
     "description": "Chapelizod",
     "status": "NOT_YET_RESEARCHED",
     "geographic_type": "POSTAL_DISTRICT",
-    "coverage_notes": "Operational fieldwork zone only; not an administrative boundary. Research coverage is not yet complete."
+    "coverage_notes": "No catalogue records currently carry this postal-district label. This is a research-priority indicator, not proof that the district contains no heritage. Postal districts are operational groupings only and do not establish local-authority membership."
   },
   {
     "name": "Dublin 22",
     "description": "Clondalkin",
     "status": "NOT_YET_RESEARCHED",
     "geographic_type": "POSTAL_DISTRICT",
-    "coverage_notes": "Operational fieldwork zone only; not an administrative boundary. Research coverage is not yet complete."
+    "coverage_notes": "No catalogue records currently carry this postal-district label. This is a research-priority indicator, not proof that the district contains no heritage. Postal districts are operational groupings only and do not establish local-authority membership."
   },
   {
     "name": "Dublin 24",
     "description": "Tallaght",
     "status": "NOT_YET_RESEARCHED",
     "geographic_type": "POSTAL_DISTRICT",
-    "coverage_notes": "Operational fieldwork zone only; not an administrative boundary. Research coverage is not yet complete."
+    "coverage_notes": "No catalogue records currently carry this postal-district label. This is a research-priority indicator, not proof that the district contains no heritage. Postal districts are operational groupings only and do not establish local-authority membership."
   }
 ]

@@ -1,0 +1,154 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cicangeorgealin.github.io/cican-dublin/schemas/coverage-audit.schema.json",
+  "title": "CICAN DUBLIN Geographic Coverage Audit",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "audited_on",
+    "scope",
+    "catalogue_total",
+    "administrative_assignment_status",
+    "administrative_assignment_note",
+    "local_authorities",
+    "postal_districts",
+    "districts_without_catalogue_records",
+    "totals",
+    "methodology"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "audited_on": {
+      "type": "string",
+      "format": "date"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "catalogue_total": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "administrative_assignment_status": {
+      "type": "string",
+      "enum": [
+        "NOT_SPATIALLY_VERIFIED",
+        "PARTIALLY_SPATIALLY_VERIFIED",
+        "SPATIALLY_VERIFIED"
+      ]
+    },
+    "administrative_assignment_note": {
+      "type": "string"
+    },
+    "local_authorities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "record_count",
+          "status",
+          "boundary_verification_status",
+          "next_action"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "record_count": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "status": {
+            "type": "string"
+          },
+          "boundary_verification_status": {
+            "type": "string",
+            "enum": [
+              "NOT_SPATIALLY_ASSIGNED",
+              "PARTIALLY_ASSIGNED",
+              "SPATIALLY_ASSIGNED"
+            ]
+          },
+          "next_action": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "postal_districts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "record_count",
+          "status",
+          "coverage_note"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "record_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "status": {
+            "type": "string"
+          },
+          "coverage_note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "districts_without_catalogue_records": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "totals": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "postal_districts_with_records",
+        "local_authorities_with_verified_spatial_assignment",
+        "records_with_verified_local_authority_assignment"
+      ],
+      "properties": {
+        "postal_districts_with_records": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "local_authorities_with_verified_spatial_assignment": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "records_with_verified_local_authority_assignment": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "methodology": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

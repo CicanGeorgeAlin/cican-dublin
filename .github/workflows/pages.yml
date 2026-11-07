@@ -11,7 +11,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: cican-dublin-pages
+  group: cican-dublin-pages-v2
   cancel-in-progress: true
 
 jobs:

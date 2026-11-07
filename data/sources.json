@@ -4093,5 +4093,55 @@
     "source_type": "SECONDARY_RESEARCH",
     "specific_reference": "Lisa Cassidy, local architectural history post, published c.2012.",
     "notes": "Secondary architectural account describing the 1890s brick warehouse, two original Carlisle Bridge keystones representing the Atlantic and Anna Liffey, and later reuse. Its six other limestone keystones are distinct from the two riverine Carlisle Bridge carvings; do not conflate them."
+  },
+  {
+    "id": "NIAH-50020477",
+    "name": "British & Irish Steam Packet Company offices — NIAH registration 50020477",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50020477/british-irish-steam-packet-company-ltd-lime-street-sir-john-rogersons-quay-dublin-2-dublin",
+    "accessed": "2026-11-07",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50020477; survey description, appraisal and Irish Grid 317069, 234299.",
+    "notes": "NIAH records a freestanding six-bay two-storey office building with attic, built 1909, with carriage arches, goods shed, loading platform, cobbled yard, brick and limestone details, carved fascia lettering and date panel. It states the B&I company moved its offices there in 1909 and that the façade was designed by W.H. Byrne & Sons and formally opened in 1910. Published Irish Grid coordinate transformed to WGS84; positional accuracy unspecified."
+  },
+  {
+    "id": "DCC-RPS-7547-2018",
+    "name": "Dublin City Council Record of Protected Structures — RPS 7547, former B&I Steam Packet offices",
+    "publisher": "Dublin City Council",
+    "url": "https://www.dublincity.ie/sites/default/files/media/file-uploads/2018-05/RPS_Updated_Jan_2018.pdf",
+    "accessed": "2026-11-07",
+    "source_type": "OFFICIAL_PROTECTED_STRUCTURE_RECORD",
+    "specific_reference": "Record of Protected Structures, RPS 7547: 20–24 Sir John Rogerson's Quay, former B&I Steampacket Company office building.",
+    "notes": "Dublin City Council's Record of Protected Structures identifies 20–24 Sir John Rogerson's Quay as the former B&I Steampacket Company office building, RPS 7547. A 2025 planning notice for The Shipping Office independently also identifies the protected structure as RPS 7547."
+  },
+  {
+    "id": "RBR-BI-STEAMPACKET-CONSERVATION",
+    "name": "British & Irish Steam Packet Building — conservation and refurbishment project",
+    "publisher": "RBR Façade Conservation and Building Refurbishment",
+    "url": "https://rbr.ie/steam-package-building-1-lime-street-dublin-2/",
+    "accessed": "2026-11-07",
+    "source_type": "CONSERVATION_ARCHITECT_PROJECT_PAGE",
+    "specific_reference": "Project record for the former B&I Steam Packet building, Lime Street / Sir John Rogerson's Quay.",
+    "notes": "RBR describes conservation works to the c.1909 former B&I office building, including brick and stone repairs, façade cleaning, roof-finish replacement using existing material, sash-window repairs and internal conservation. Contractor-authored account of its own works."
+  },
+  {
+    "id": "MARLET-SHIPPING-OFFICE-2026",
+    "name": "The Shipping Office — protected structure integrated into mixed-use redevelopment",
+    "publisher": "Marlet Property Group",
+    "url": "https://marlet.ie/the-shipping-office-wins-building-of-the-year-2026-office-category/",
+    "accessed": "2026-11-07",
+    "source_type": "OFFICIAL_REPORT",
+    "specific_reference": "Marlet announcement dated 8 May 2026; The Shipping Office, Sir John Rogerson's Quay.",
+    "notes": "Marlet describes The Shipping Office as integrating the protected former British and Irish Steam Packet Company building dating from 1909 into a contemporary mixed-use scheme. The historic building is identified as a focal point connected to the new development by a glazed atrium. Developer-authored source."
+  },
+  {
+    "id": "AFLOAT-BI-STEAMPACKET-2017",
+    "name": "Old B+I Line Office to Become Part of Mixed Dublin Docklands Redevelopment",
+    "publisher": "Afloat",
+    "url": "https://afloat.ie/port-news/dublin-port/item/37637-old-b-i-line-office-to-become-part-of-mixed-dublin-development",
+    "accessed": "2026-11-07",
+    "source_type": "NEWS_REPORT",
+    "specific_reference": "Jehan Ashmore, 5 November 2017; report on the former B&I Steam Packet office building.",
+    "notes": "Afloat describes the date 1909 and the carved company name on the building façade, and discusses the former B&I office redevelopment. Used as corroboration for the visible inscription and corporate history, not as the primary architectural survey."
   }
 ]

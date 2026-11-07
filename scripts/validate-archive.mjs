@@ -5,12 +5,27 @@ import assert from "node:assert/strict";
 const root=process.cwd();
 const read=file=>fs.readFileSync(path.join(root,file),"utf8");
 const json=file=>JSON.parse(read(file));
-const objects=json("data/objects.json"),sources=json("data/sources.json"),visual=json("data/visual-assets.json"),research=json("data/research.json"),investigation=json("data/investigation.json"),sourceSchema=json("schemas/source.schema.json"),evidenceClaims=json("data/evidence-claims.json"),fieldObservations=json("data/field-observations.json"),evidenceSchema=json("schemas/evidence-claim.schema.json"),observationSchema=json("schemas/field-observation.schema.json"),objectSchema=json("schemas/archive-object.schema.json");
+const objects=json("data/objects.json"),sources=json("data/sources.json"),visual=json("data/visual-assets.json"),research=json("data/research.json"),investigation=json("data/investigation.json"),sourceSchema=json("schemas/source.schema.json"),evidenceClaims=json("data/evidence-claims.json"),fieldObservations=json("data/field-observations.json"),evidenceSchema=json("schemas/evidence-claim.schema.json"),observationSchema=json("schemas/field-observation.schema.json"),objectSchema=json("schemas/archive-object.schema.json"),taxonomy=json("data/taxonomy.json"),categories=json("data/categories.json"),taxonomySchema=json("schemas/taxonomy.schema.json"),categoriesSchema=json("schemas/categories.schema.json");
 assert.ok(Array.isArray(objects)&&objects.length>0,"Object catalogue must be a non-empty array.");
 assert.ok(Array.isArray(sources)&&sources.length>0,"Source catalogue must be a non-empty array.");
 assert.ok(Array.isArray(visual.records),"Visual inventory must contain a records array.");
 function unique(values,label){const seen=new Set();for(const value of values){assert.ok(value,label+" contains an empty identifier.");assert.ok(!seen.has(value),label+" contains duplicate: "+value);seen.add(value);}return seen;}
 const objectIds=unique(objects.map(x=>x.id),"Object IDs"),sourceIds=unique(sources.map(x=>x.id),"Source IDs"),visualIds=unique(visual.records.map(x=>x.record_id),"Visual record IDs"),researchIds=unique(research.map(x=>x.id),"Research IDs");
+assert.ok(Array.isArray(taxonomy.category_codes)&&taxonomy.category_codes.length>0,"Taxonomy must define category codes.");
+assert.ok(Array.isArray(taxonomy.feature_types)&&taxonomy.feature_types.length>0,"Taxonomy must define feature types.");
+assert.ok(Array.isArray(categories)&&categories.length>0,"Human-readable category groups must be defined.");
+const taxonomyCodes=unique(taxonomy.category_codes.map(x=>x.code),"Taxonomy category codes");
+const featureTypeCodes=unique(taxonomy.feature_types.map(x=>x.code),"Taxonomy feature types");
+const displayCategoryNames=unique(categories.map(x=>x.name),"Human-readable category group names");
+const schemaCategoryCodes=new Set(objectSchema.properties.category.enum);
+const schemaFeatureTypes=new Set(objectSchema.properties.feature_type.enum);
+for(const code of taxonomyCodes)assert.ok(schemaCategoryCodes.has(code),"Taxonomy category "+code+" is not accepted by the object schema.");
+for(const code of schemaCategoryCodes)assert.ok(taxonomyCodes.has(code),"Object schema category "+code+" is missing from taxonomy.");
+for(const code of featureTypeCodes)assert.ok(schemaFeatureTypes.has(code),"Taxonomy feature type "+code+" is not accepted by the object schema.");
+for(const code of schemaFeatureTypes)assert.ok(featureTypeCodes.has(code),"Object schema feature type "+code+" is missing from taxonomy.");
+for(const code of new Set(objects.map(x=>x.category)))assert.ok(taxonomyCodes.has(code),"Catalogue uses an unregistered category code: "+code);
+for(const category of categories)assert.ok(category.name&&category.description,"Each display category needs a name and description.");
+
 assert.equal(investigation.methodology,"LOCKED","Investigation methodology must be explicitly locked.");
 assert.ok(Array.isArray(investigation.claims)&&investigation.claims.length>0,"Investigation register needs claims.");
 assert.ok(Array.isArray(investigation.tasks)&&investigation.tasks.length>0,"Investigation register needs tasks.");
@@ -132,4 +147,4 @@ for(const id of ["photo","makeArt","save","entries"])assert.ok(notebook.includes
 for(const id of ["exportBackup","importBackup","backupFile"])assert.ok(notebook.includes('id="'+id+'"'),"Notebook backup control missing #"+id);
 assert.ok(notebook.includes("CICAN-MY-DUBLIN-BACKUP"),"Notebook backup format marker missing.");
 console.log("ARCHIVE PREFLIGHT PASSED");
-console.log(JSON.stringify({objects:objects.length,sources:sources.length,researchItems:research.length,investigationClaims:investigation.claims.length,investigationTasks:investigation.tasks.length,objectEvidenceClaims:evidenceClaims.length,fieldObservations:fieldObservations.length,visualRecords:visual.records.length,referenceImages:visual.records.reduce((n,r)=>n+(r.reference_images||[]).length,0),verified:objects.filter(r=>r.verification_status==="VERIFIED").length,partiallyVerified:objects.filter(r=>r.verification_status==="PARTIALLY_VERIFIED").length},null,2));
+console.log(JSON.stringify({objects:objects.length,sources:sources.length,taxonomyCodes:taxonomyCodes.size,displayCategoryGroups:displayCategoryNames.size,researchItems:research.length,investigationClaims:investigation.claims.length,investigationTasks:investigation.tasks.length,objectEvidenceClaims:evidenceClaims.length,fieldObservations:fieldObservations.length,visualRecords:visual.records.length,referenceImages:visual.records.reduce((n,r)=>n+(r.reference_images||[]).length,0),verified:objects.filter(r=>r.verification_status==="VERIFIED").length,partiallyVerified:objects.filter(r=>r.verification_status==="PARTIALLY_VERIFIED").length},null,2));

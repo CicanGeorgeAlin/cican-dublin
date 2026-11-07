@@ -554,3 +554,18 @@ body.photo-viewer-open{overflow:hidden}
 .filter-row-secondary select{background:#080808eF;border-color:#343934;color:#cbd0c8}
 .filter-row select:focus-visible{border-color:#d9e3d4;outline:2px solid #d9e3d455;outline-offset:1px}
 @media(max-width:850px){.top-left{max-width:520px}.filter-row-secondary select{height:35px;min-height:35px;font-size:9px}}
+/* Stage 3 — browsable, credited image collections within each place record. */
+.editorial-photo-gallery{margin:0 0 22px;padding:13px 0 0;border-top:1px solid #ffffff1c}
+.photo-gallery-heading{display:flex;justify-content:space-between;gap:10px;margin:0 0 10px;color:#aeb8a9;font:700 8px/1.5 var(--sans);letter-spacing:.14em}
+.photo-gallery-heading b{color:#858d80;font-weight:600}
+.photo-gallery-thumbs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.photo-gallery-thumb{min-width:0;padding:0 0 8px;border:1px solid #ffffff24;border-radius:8px;overflow:hidden;background:#111411;color:#c7cec1;text-align:left;cursor:pointer}
+.photo-gallery-thumb img{display:block;width:100%;height:82px;object-fit:cover;background:#080a08}
+.photo-gallery-thumb span{display:block;padding:7px 7px 0;font:700 7px/1.4 var(--sans);letter-spacing:.08em;color:#aab5a5}
+.photo-gallery-thumb:hover{border-color:#dce5d8}
+.photo-gallery-thumb:focus-visible{outline:2px solid #e4ebe0;outline-offset:3px}
+.photo-viewer-caption{display:flex;flex-direction:column;align-items:center;gap:6px;max-width:min(90%,760px)}
+.photo-viewer-caption b{font:700 12px/1.5 var(--sans);letter-spacing:.05em}
+.photo-viewer-caption a{color:#dce8d7;font:700 9px/1.5 var(--sans);letter-spacing:.1em;text-decoration:underline;text-underline-offset:3px}
+.photo-viewer-caption small{color:#a3aa9e;font:10px/1.6 var(--sans);text-align:center}
+@media(max-width:420px){.photo-gallery-thumbs{gap:6px}.photo-gallery-thumb img{height:68px}.photo-gallery-thumb span{font-size:6px;padding:6px 5px 0}}

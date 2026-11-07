@@ -4013,5 +4013,25 @@
     "source_type": "ARCHIVAL_CATALOGUE",
     "specific_reference": "Dublin Port Archive feature: Diving Bell.",
     "notes": "Archive describes the 90-ton diving bell, its use to prepare the riverbed for heavy precast quay-wall blocks, six-person crew, compressed-air operation, and public display on Sir John Rogerson's Quay. It describes the bell as placed on display in 2000 and later reconfigured in 2014."
+  },
+  {
+    "id": "NIAH-50020470",
+    "name": "Bushell Ltd. Furniture, 2 Sir John Rogerson's Quay — NIAH registration 50020470",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50020470/bushell-ltd-furniture-2-sir-john-rogersons-quay-dublin-2-dublin",
+    "accessed": "2026-11-07",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50020470; survey data, description and appraisal. Published Irish Grid coordinate 316864, 234309.",
+    "notes": "NIAH records an attached gable-fronted three-bay, two-storey former warehouse built in 1913–14, formerly associated with Tedcastle Steamer Company. The survey describes a pitched slate roof with glazed clerestory, carved granite gable coping, red-brick Flemish-bond walls, granite string courses, red-brick pilasters and an oculus. It attributes the design to James Evans for Tedcastle McCormack and notes later occupation by the British & Irish Steam Packet Company. The published Irish Grid coordinate is transformed to WGS 84 for archive mapping; positional accuracy is unspecified. Not founder GPS and not field-verified."
+  },
+  {
+    "id": "DCC-RPS-7543-2022",
+    "name": "Dublin City Record of Protected Structures — RPS 7543, 2 Sir John Rogerson's Quay",
+    "publisher": "Dublin City Council",
+    "url": "https://www.dublincity.ie/sites/default/files/2022-12/FINAL%20Dublin%20City%20Development%20Plan%202022-2028%20-%20Volume%204%20RPS.pdf",
+    "accessed": "2026-11-07",
+    "source_type": "OFFICIAL_PROTECTED_STRUCTURES_REGISTER",
+    "specific_reference": "Dublin City Development Plan 2022–2028, Volume 4, Record of Protected Structures, RPS 7543: 2 Sir John Rogerson's Quay, façade only.",
+    "notes": "The official Dublin City Council Record of Protected Structures lists 2 Sir John Rogerson's Quay as a protected façade (RPS 7543). The record is used to establish protected-structure status and scope; it does not replace the NIAH survey for architectural description."
   }
 ]

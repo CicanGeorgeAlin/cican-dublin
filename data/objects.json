@@ -10134,5 +10134,49 @@
     "feature_type": "PRIMARY_OBJECT",
     "last_researched": "2026-11-06",
     "research_notes": "NIAH Registration 50020468 and official Dublin Port histories were consulted. The archive preserves distinct date statements: NIAH describes fabrication c.1870 and use from 1872; Dublin Port says delivered 1866, entered service 1871 and used until 1958. These are retained as source-specific chronology rather than falsely reconciled. NIAH's current WGS84 point is a transformed site locator, not founder GPS. Public display is documented by Dublin Port; current opening hours are not confirmed here."
+  },
+  {
+    "id": "DUB-BLD-0124",
+    "name": "2 Sir John Rogerson's Quay — former Tedcastle Steamer Company warehouse (Bushell Ltd. Furniture)",
+    "category": "ARCHITECTURE",
+    "district": "Dublin 2",
+    "address": "2 Sir John Rogerson's Quay, Dublin 2",
+    "historical_period": "1913–1914",
+    "historical_description": "Attached gable-fronted three-bay, two-storey former warehouse built in 1913–14. NIAH records a pitched slate roof set perpendicular to the street with a glazed clerestory, carved granite coping to the gable, cast-iron rainwater goods, red-brick Flemish-bond walls, granite string courses and red-brick pilasters with granite coping. The front elevation includes recessed brick panels, blocked segmental-headed ground-floor openings, square-headed upper windows with bull-nosed brick surrounds and an oculus at the gable apex. A double-height round-headed opening with raised brick pilasters was added around 1980. NIAH identifies its former name as Tedcastle Steamer Company and describes later occupation by the British & Irish Steam Packet Company.",
+    "historical_significance": "A regional-rated mercantile warehouse illustrating the early-twentieth-century commercial and maritime character of Sir John Rogerson's Quay. NIAH attributes the design to James Evans for ship-owner Tedcastle McCormack. The façade is separately listed by Dublin City Council as protected structure RPS 7543.",
+    "national_inventory_reference": "50020470",
+    "national_grid_reference": "316864, 234309",
+    "latitude": 53.34633397037509,
+    "longitude": -6.24597343378008,
+    "coordinate_source": "Published NIAH Irish Grid reference 316864, 234309 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 (EPSG:4326). The NIAH record does not specify positional accuracy. Source-derived point, not founder GPS or field-verified.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED",
+    "address_source": "https://www.buildingsofireland.ie/buildings-search/building/50020470/bushell-ltd-furniture-2-sir-john-rogersons-quay-dublin-2-dublin",
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Street-facing protected façade on Sir John Rogerson's Quay. Photograph only from lawful public space; current occupancy, condition and access beyond the public street are not verified.",
+    "photography_restrictions": "Do not enter private property or obstruct the quay footpath. Photograph the façade from a lawful public viewpoint only.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.34633397037509%2C-6.24597343378008&travelmode=walking",
+    "photography_brief": [
+      "Full gable-fronted façade from a lawful public viewpoint",
+      "Three-bay composition and two-storey proportions",
+      "Pitched slate roof and glazed clerestory, if visible",
+      "Carved granite gable coping and apex oculus",
+      "Red-brick Flemish bond, granite string courses and pilasters",
+      "Blocked ground-floor openings and later double-height round-headed opening",
+      "Cast-iron rainwater goods and surviving historic fabric",
+      "Relationship to the Sir John Rogerson's Quay streetscape"
+    ],
+    "sources": [
+      "NIAH-50020470",
+      "DCC-RPS-7543-2022",
+      "SRC-EPSG-TM65-29902"
+    ],
+    "feature_type": "PRIMARY_OBJECT",
+    "last_researched": "2026-11-07",
+    "research_notes": "NIAH Registration 50020470 and Dublin City Council RPS 7543 were consulted. NIAH describes the building as formerly Tedcastle Steamer Company, designed by James Evans for Tedcastle McCormack and built in 1913–14; it also records later use by the British & Irish Steam Packet Company. The transformed coordinate is a source-derived locator, not founder GPS. RPS 7543 protects the façade only. Current condition, occupancy and field photography remain outstanding."
   }
 ]

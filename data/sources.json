@@ -4033,5 +4033,65 @@
     "source_type": "OFFICIAL_PROTECTED_STRUCTURES_REGISTER",
     "specific_reference": "Dublin City Development Plan 2022–2028, Volume 4, Record of Protected Structures, RPS 7543: 2 Sir John Rogerson's Quay, façade only.",
     "notes": "The official Dublin City Council Record of Protected Structures lists 2 Sir John Rogerson's Quay as a protected façade (RPS 7543). The record is used to establish protected-structure status and scope; it does not replace the NIAH survey for architectural description."
+  },
+  {
+    "id": "NIAH-50020478",
+    "name": "Dublin Tropical Fruit Company warehouse — NIAH registration 50020478",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50020478/sir-john-rogersons-quay-dublin-2-co-dublin",
+    "accessed": "2026-11-07",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50020478; survey description, appraisal and Irish Grid 317154, 234277.",
+    "notes": "NIAH records an attached double-gable-fronted fourteen-bay two-storey former warehouse built c.1890, formerly the Dublin Tropical Fruit Company. It describes the Dutch gables, red-brick Flemish bond, terracotta ridge tiles, limestone details, clerestory and carved keystones. The appraisal identifies two riverine keystones sculpted by Edward Smyth in 1794 for Carlisle Bridge; west represents Anna Liffey and east the Atlantic Ocean. Irish Grid coordinate transformed to WGS84 for archive mapping; positional accuracy unspecified. NIAH image reuse terms must be checked before embedding."
+  },
+  {
+    "id": "DCC-RPS-7721-2026",
+    "name": "Dublin City Council Record of Protected Structures — RPS 7721, Tropical Fruit Co.",
+    "publisher": "Dublin City Council",
+    "url": "https://www.dublincity.ie/sites/default/files/2026-01/volume-3.pdf",
+    "accessed": "2026-11-07",
+    "source_type": "OFFICIAL_PROTECTED_STRUCTURE_RECORD",
+    "specific_reference": "2026 Record of Protected Structures, Volume 3, RPS 7721: 30–32 inclusive, Sir John Rogerson's Quay, Tropical Fruit Co.",
+    "notes": "The current Dublin City Council Record of Protected Structures lists the Tropical Fruit Co. at 30–32 Sir John Rogerson's Quay as RPS 7721. This establishes protected-structure registration; the NIAH survey is used for detailed architectural description."
+  },
+  {
+    "id": "IPUT-TROPICAL-FRUIT-WAREHOUSE",
+    "name": "Tropical Fruit Warehouse — official property history and redevelopment",
+    "publisher": "IPUT Real Estate Dublin",
+    "url": "https://www.iput.com/portfolio/tropical-fruit-warehouse/",
+    "accessed": "2026-11-07",
+    "source_type": "OFFICIAL_REPORT",
+    "specific_reference": "Property page; location, history and redevelopment timeline.",
+    "notes": "IPUT describes the former warehouse as built in the 1890s and used for tropical-fruit imports from 1892. It describes the restored historic warehouse integrated with modern glazed office floors and redevelopment, and identifies the present development as Tropical Fruit Warehouse. Developer-authored source; used for its own project history, not as an independent heritage assessment."
+  },
+  {
+    "id": "HJL-TROPICAL-FRUIT-WAREHOUSE",
+    "name": "Tropical Fruit Warehouse — architectural project record",
+    "publisher": "Henry J Lyons Architects",
+    "url": "https://henryjlyons.com/projects/tropical-fruit-warehouse-dublin-ireland",
+    "accessed": "2026-11-07",
+    "source_type": "ARCHITECTURAL_HISTORICAL_REFERENCE",
+    "specific_reference": "Project description for 30–32 Sir John Rogerson's Quay, Dublin 2.",
+    "notes": "The project architect describes the restored 1890s warehouse, new elevated extension and seven-storey office building, and retention/restoration of historic fabric including 30 original Scots Pine timber trusses, brick façades and slate roofing. It also notes remnants of the adjacent Hibernian Marine School discovered during opening-up works. Project-authored account."
+  },
+  {
+    "id": "ARCHISEEK-TROPICAL-FRUIT-WAREHOUSE",
+    "name": "1890 — Tropical Fruit Importers Building, Sir John Rogerson's Quay",
+    "publisher": "Archiseek — Architecture of Dublin City",
+    "url": "https://www.archiseek.com/fruit-importers-building-sir-john-rogersons-quay-dublin/",
+    "accessed": "2026-11-07",
+    "source_type": "SECONDARY_RESEARCH",
+    "specific_reference": "Paul Clerkin, published 8 July 2007, updated 28 June 2024.",
+    "notes": "Secondary architectural-history account describing the 1890s warehouse, twin gables and two original keystones from Carlisle Bridge representing the Atlantic and Anna Liffey. Used as corroboration, not as a substitute for NIAH."
+  },
+  {
+    "id": "BUILTDUBLIN-TROPICAL-FRUIT-WAREHOUSE",
+    "name": "Tropical Fruit Company warehouse, Sir John Rogerson's Quay",
+    "publisher": "Built Dublin",
+    "url": "https://builtdublin.com/tropical-fruit-company-warehouse-sir-john-rogersons-quay-dublin-2/",
+    "accessed": "2026-11-07",
+    "source_type": "SECONDARY_RESEARCH",
+    "specific_reference": "Lisa Cassidy, local architectural history post, published c.2012.",
+    "notes": "Secondary architectural account describing the 1890s brick warehouse, two original Carlisle Bridge keystones representing the Atlantic and Anna Liffey, and later reuse. Its six other limestone keystones are distinct from the two riverine Carlisle Bridge carvings; do not conflate them."
   }
 ]

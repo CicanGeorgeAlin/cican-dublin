@@ -10433,5 +10433,44 @@
     "feature_type": "MICRO_DETAIL",
     "last_researched": "2026-11-07",
     "research_notes": "NIAH Registration 50020477 records carriage arches to the end bays and to the west wing wall, with terracotta keystones and other ironwork. RBR Conservation describes façade, brick, stone, roof and sash-window conservation works. Child record of DUB-BLD-0126; no independent coordinates or map pin."
+  },
+  {
+    "id": "DUB-BLD-0127",
+    "name": "The Ferryman — former pair of Georgian houses, 35–36 Sir John Rogerson's Quay",
+    "category": "ARCHITECTURE",
+    "district": "Dublin 2",
+    "address": "35–36 Sir John Rogerson's Quay, at Cardiff Lane, Dublin 2",
+    "historical_period": "c.1820",
+    "historical_description": "Corner-sited attached former pair of three-bay, four-storey houses, built c.1820 and now used as a public house and guest house. The National Inventory of Architectural Heritage records an M-profile hipped slate roof, red-brick chimneystacks, red-brick parapet with granite coping, Flemish-bond brick walls, square- and round-headed window openings, granite sills, surviving timber sliding-sash windows, and round-headed door openings with carved Portland-stone architrave and marigold lintel carvings. The two houses were originally separate. NIAH records Michael Scanlon and James Lynch as occupants in the 1850s; contemporary trade directories listed a grocer and shipbuilder at No. 35 and a ship smith at No. 36.",
+    "historical_significance": "A rare surviving early nineteenth-century quay-side pair that preserves the scale, materials and commercial character of the historic Sir John Rogerson's Quay streetscape. Its carved stone doorcase, timber sash windows and diminishing fenestration are notable architectural details. The site also records the former mix of domestic, retail and maritime trades along the quay.",
+    "national_inventory_reference": "50020479",
+    "national_grid_reference": "317215, 234283",
+    "latitude": 53.34602289438518,
+    "longitude": -6.240715353336317,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Street-facing exterior on Sir John Rogerson's Quay and Cardiff Lane; confirm current public-realm access and avoid private guesthouse or interior areas.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.34602289438518%2C-6.240715353336317&travelmode=walking",
+    "photography_brief": [
+      "Full corner composition showing both historic elevations",
+      "Slate roof profile, parapet, chimneystacks and granite coping",
+      "Original brick bonds and diminishing window proportions",
+      "Surviving timber sliding-sash windows and granite sills",
+      "Carved Portland-stone doorcase, marigold lintel carving and fanlight",
+      "Record blocked or replacement openings without assuming their date"
+    ],
+    "sources": [
+      "NIAH-50020479",
+      "EIAR-RINGSEND-CBC-A16-3-FERRYMAN-2023"
+    ],
+    "coordinate_source": "NIAH Irish Grid reference 317215, 234283 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. Source-derived site locator only; the underlying NIAH point's positional accuracy is unspecified and founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED",
+    "feature_type": "PRIMARY_OBJECT",
+    "last_researched": "2026-11-08",
+    "research_notes": "NIAH registration 50020479 provides the architectural description, appraisal, date range and Irish Grid reference. The Ringsend to City Centre Core Bus Corridor Scheme EIAR, Volume 4, Appendix A16.3, page 30 independently identifies 35–36 Sir John Rogerson's Quay as The Ferryman, a c.1820 Georgian-style commercial/residential pair, and records Dublin City Council RPS 7549–7550. No third-party image is registered in this batch because image reuse permission was not independently established. Current condition and field photography remain outstanding."
   }
 ]

@@ -4173,5 +4173,45 @@
     "source_type": "ENVIRONMENTAL_IMPACT_ASSESSMENT_HERITAGE_SURVEY",
     "specific_reference": "Appendix A16.3, page 30: 35–36 Sir John Rogerson's Quay; RPS 7549–7550; NIAH 50020479; c.1820; The Ferryman.",
     "notes": "Independent project heritage inventory corroborating the address, NIAH identifier, protected-structure references, approximate date and use as Georgian-style commercial/residential premises."
+  },
+  {
+    "id": "NIAH-50020472",
+    "name": "Catholic Seamen's Institute, 4 Sir John Rogerson's Quay — NIAH registration 50020472",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50020472/catholic-seamens-institute-sir-john-rogersons-quay-dublin-2-dublin-city",
+    "accessed": "2026-11-08",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH registration 50020472: Survey Data, Description and Appraisal; Irish Grid 316884, 234320.",
+    "notes": "Official record for the c.1825 former house and Catholic Seamen's Institute. Describes the later charitable use, visible platband lettering and vestiges of the institute's fascia sign."
+  },
+  {
+    "id": "NIAH-50020474",
+    "name": "Columbia Mills, 14–15 Sir John Rogerson's Quay — NIAH registration 50020474",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50020474/columbia-mills-sir-john-rogersons-quay-dublin-2-dublin-city",
+    "accessed": "2026-11-08",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH registration 50020474: Survey Data, Description and Appraisal; Irish Grid 316975, 234310.",
+    "notes": "Official record for the c.1890 former mill, previously H.M. Leask & Company, including architectural description and industrial history."
+  },
+  {
+    "id": "DCC-RPS-7544-7546-2018",
+    "name": "Dublin City Council Record of Protected Structures — Sir John Rogerson's Quay entries 7544–7546",
+    "publisher": "Dublin City Council",
+    "url": "https://www.dublincity.ie/sites/default/files/media/file-uploads/2018-05/RPS_Updated_Jan_2018.pdf",
+    "accessed": "2026-11-08",
+    "source_type": "OFFICIAL_PROTECTED_STRUCTURES_REGISTER",
+    "specific_reference": "RPS 7544: 4 Sir John Rogerson's Quay; RPS 7546: Columbia Mills, 14–15 Sir John Rogerson's Quay.",
+    "notes": "Official Dublin City Council protected-structures register listing both the Catholic Seamen's Institute building and Columbia Mills."
+  },
+  {
+    "id": "EIAR-RINGSEND-CBC-PLANNING-REPORT-2023",
+    "name": "Ringsend to City Centre Core Bus Corridor Scheme — EIAR Volume 4, Appendix A2.1 Planning Report",
+    "publisher": "Jacobs / ARUP / SYSTRA project team",
+    "url": "https://ringsendscheme.ie/wp-content/uploads/sites/13/2023/07/Appendix-A2.1-Planning-Report.pdf",
+    "accessed": "2026-11-08",
+    "source_type": "OFFICIAL_REPORT",
+    "specific_reference": "Appendix A2.1: permitted development at Nos. 4 and 5 Sir John Rogerson's Quay; protected structures excepted from demolition.",
+    "notes": "Planning-history context indicating that protected structures at Nos. 4 and 5 were to be retained in the permitted redevelopment scheme. This does not establish the current completed condition."
   }
 ]

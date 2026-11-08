@@ -558,5 +558,20 @@
       "DPC-DIVING-BELL-HISTORY",
       "DPA-DIVING-BELL-ARCHIVE"
     ]
+  },
+  {
+    "id": "RES-FERRYMAN-35-36-SIR-JOHN-ROGERSONS-QUAY-001",
+    "title": "The Ferryman — surviving Georgian pair at 35–36 Sir John Rogerson's Quay",
+    "area": "SIR JOHN ROGERSON'S QUAY · CARDIFF LANE · DUBLIN 2",
+    "updated": "2026-11-08",
+    "status": "DOCUMENTED_HERITAGE_OBJECT",
+    "status_label": "NIAH REGISTER + EIAR HERITAGE INVENTORY",
+    "summary": "NIAH Registration 50020479 records The Ferryman as a corner-sited pair of attached former houses built c.1820, now in use as a public house and guest house. The building retains a documented mix of Georgian brickwork, granite details, timber sliding-sash windows and carved Portland-stone door details. The former houses also have a documented history of nineteenth-century retail and maritime trades.",
+    "supported": "The NIAH record supplies the date range, architectural description, appraisal, Irish Grid reference and historical occupant/trade information. The Ringsend to City Centre Core Bus Corridor Scheme EIAR, Volume 4, Appendix A16.3, page 30 independently identifies the Ferryman at 35–36 Sir John Rogerson's Quay, c.1820, and lists Dublin City Council RPS 7549–7550.",
+    "limits": "The NIAH coordinate is a source-derived site locator, not founder GPS; the underlying point accuracy is unspecified. The current condition of individual sash windows, carved details and openings has not been field-checked. No image was added because file-level reuse permission was not established. Public access to the street-facing exterior does not imply permission to enter the premises or photograph private interiors.",
+    "source_ids": [
+      "NIAH-50020479",
+      "EIAR-RINGSEND-CBC-A16-3-FERRYMAN-2023"
+    ]
   }
 ]

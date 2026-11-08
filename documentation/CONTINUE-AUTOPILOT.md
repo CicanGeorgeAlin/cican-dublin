@@ -133,3 +133,7 @@ Do not ask the founder to say CONTINUE again after every small internal step. Fi
 - Do not conflate the master archive with the set of currently published map pins.
 - Keep website-first delivery; native/mobile app work is a later phase.
 - Preserve the CICAN spelling and the established visual identity.
+
+## Latest autopilot checkpoint — Batch 127
+
+The latest committed discovery batch is [Visual Discovery Batch 127](VISUAL-DISCOVERY-BATCH-127.md). It adds three parent-linked photographic detail records for the c.1920–30 Ringsend concrete boat slip (DCIHR 18-12-118): surviving iron posts and railings, concrete mooring blocks, and the cast-iron lamppost recorded at the north-west corner. The source is Dublin Port's 3FM EIAR Appendix 16-1. Current survival and safe public viewing remain to be field-checked. Next research should continue along the Great South Wall / Ringsend heritage corridor, prioritising documented parapet and ladder details that are not already represented in the catalogue; check current scheme changes and access before creating new records.

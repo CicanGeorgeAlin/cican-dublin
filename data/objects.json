@@ -10688,5 +10688,99 @@
       "If no fenders are visible, record not located rather than assuming removal or demolition"
     ],
     "research_notes": "NIAH 50020465 locates timber fenders to the north of the B.J. Marine building but does not provide a coordinate or count. The relative location is a search instruction, not a verified current pin. Present survival is unconfirmed."
+  },
+  {
+    "district": "Dublin 4",
+    "historical_period": "c.1920–1930",
+    "national_inventory_reference": "DCIHR 18-12-118; Dublin Port 3FM EIAR Appendix 16-1",
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": "DUB-INF-0006",
+    "access_status": "The source describes the historic slip but does not establish current public access. Photograph only from a lawful public viewpoint; do not enter operational or private port land.",
+    "photography_restrictions": "Do not cross barriers, enter water, climb on the slip, touch or move fittings, or approach active port operations. If the feature cannot be viewed safely from public space, do not attempt access.",
+    "sources": [
+      "DUBLIN-PORT-3FM-EIAR-CH16-APP16-1"
+    ],
+    "feature_type": "MICRO_DETAIL",
+    "last_researched": "2026-11-08",
+    "coordinate_status": "NOT_GEOCODED",
+    "id": "DUB-DET-0009",
+    "name": "Ringsend concrete boat slip — surviving iron posts and railings",
+    "category": "INFRASTRUCTURE",
+    "address": "Great South Wall attendant concrete boat slip, Ringsend waterfront, Dublin 4; individual post positions not georeferenced",
+    "historical_description": "The 3FM EIAR cultural-heritage catalogue describes the c.1920–30 concrete boat slip (DCIHR 18-12-118) as retaining original iron posts and railings. The source does not give a count, dimensions, maker or individual positions. Their present survival and condition require field confirmation.",
+    "historical_significance": "The iron posts and railings are a distinct component of the slip's maritime safety and edge treatment, retaining evidence of its original construction and working waterfront function.",
+    "photography_brief": [
+      "Photograph the full visible railing run in relation to the concrete slip",
+      "Capture each distinct post and rail junction without touching the metalwork",
+      "Record missing, replaced, bent or corroded sections without inferring dates",
+      "Use a wider context view to distinguish original fabric from later additions"
+    ],
+    "research_notes": "Parent DUB-INF-0006. The EIAR states original railings survive in its survey context; no current-condition guarantee is made. No child coordinate is assigned."
+  },
+  {
+    "district": "Dublin 4",
+    "historical_period": "c.1920–1930",
+    "national_inventory_reference": "DCIHR 18-12-118; Dublin Port 3FM EIAR Appendix 16-1",
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": "DUB-INF-0006",
+    "access_status": "The source describes the historic slip but does not establish current public access. Photograph only from a lawful public viewpoint; do not enter operational or private port land.",
+    "photography_restrictions": "Do not cross barriers, enter water, climb on the slip, touch or move fittings, or approach active port operations. If the feature cannot be viewed safely from public space, do not attempt access.",
+    "sources": [
+      "DUBLIN-PORT-3FM-EIAR-CH16-APP16-1"
+    ],
+    "feature_type": "MICRO_DETAIL",
+    "last_researched": "2026-11-08",
+    "coordinate_status": "NOT_GEOCODED",
+    "id": "DUB-DET-0010",
+    "name": "Ringsend concrete boat slip — concrete mooring blocks",
+    "category": "INFRASTRUCTURE",
+    "address": "Concrete boat slip, Great South Wall / Ringsend maritime-industrial waterfront, Dublin 4; individual block positions not georeferenced",
+    "historical_description": "The 3FM EIAR cultural-heritage catalogue describes concrete mooring blocks associated with the c.1920–30 boat slip (DCIHR 18-12-118). The source does not state their number, dimensions, original fittings or present condition. No individual block position is supplied.",
+    "historical_significance": "The blocks are evidence of the practical mooring arrangements associated with the historic slip and help document the small-scale equipment of the Ringsend waterfront.",
+    "photography_brief": [
+      "Locate any surviving concrete mooring blocks visible from a safe public viewpoint",
+      "Photograph each block in context and close detail",
+      "Record visible sockets, ironwork, wear and repairs only where clearly observable",
+      "Do not attach measuring equipment or touch, move or test the blocks"
+    ],
+    "research_notes": "Parent DUB-INF-0006. Concrete mooring blocks are explicitly listed in the EIAR. Their present survival and exact positions are unverified; no independent map pin is assigned."
+  },
+  {
+    "district": "Dublin 4",
+    "historical_period": "c.1920–1930",
+    "national_inventory_reference": "DCIHR 18-12-118; Dublin Port 3FM EIAR Appendix 16-1",
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": "DUB-INF-0006",
+    "access_status": "The source describes the historic slip but does not establish current public access. Photograph only from a lawful public viewpoint; do not enter operational or private port land.",
+    "photography_restrictions": "Do not cross barriers, enter water, climb on the slip, touch or move fittings, or approach active port operations. If the feature cannot be viewed safely from public space, do not attempt access.",
+    "sources": [
+      "DUBLIN-PORT-3FM-EIAR-CH16-APP16-1"
+    ],
+    "feature_type": "MICRO_DETAIL",
+    "last_researched": "2026-11-08",
+    "coordinate_status": "NOT_GEOCODED",
+    "id": "DUB-DET-0011",
+    "name": "Ringsend concrete boat slip — cast-iron lamppost at north-west corner",
+    "category": "STREET_DETAIL",
+    "address": "North-west corner of the historic concrete boat slip, Great South Wall / Ringsend waterfront, Dublin 4; precise point not independently georeferenced",
+    "historical_description": "The 3FM EIAR cultural-heritage catalogue records a cast-iron lamppost at the north-west corner of the c.1920–30 boat slip (DCIHR 18-12-118). The source does not identify its maker, date, design pattern or present survival. It is catalogued as a separate photographic detail because of its distinct form and stated position.",
+    "historical_significance": "A cast-iron lighting standard associated with the slip adds a small but distinctive item of historic waterfront street furniture to the industrial heritage record.",
+    "photography_brief": [
+      "Establish the north-west corner of the slip from a safe public viewpoint",
+      "If present, photograph the full lamppost silhouette and its base",
+      "Capture any maker's marks, access covers or decorative details only if legible",
+      "Photograph its relationship to the slip, railing and adjacent quay wall",
+      "If not visible, record not located; do not assume it was removed"
+    ],
+    "research_notes": "Parent DUB-INF-0006. The EIAR records a cast-iron lamppost at the north-west corner. The source does not establish present survival or a precise coordinate; no separate map pin is assigned."
   }
 ]

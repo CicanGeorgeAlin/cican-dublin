@@ -618,5 +618,20 @@
     "source_ids": [
       "DUBLIN-PORT-3FM-EIAR-CH16-APP16-1"
     ]
+  },
+  {
+    "id": "RES-GREAT-SOUTH-WALL-BALLAST-OFFICE-WALL-REMAINS-001",
+    "title": "Great South Wall and Ballast Office Wall — surviving parapets, exposed wall section and visibility gaps",
+    "area": "RINGSEND · PIGEON HOUSE ROAD · POOLBEG · DUBLIN 4",
+    "updated": "2026-11-08",
+    "status": "DOCUMENTED_LINEAR_MONUMENT_WITH_SEGMENT_ACCESS_UNRESOLVED",
+    "status_label": "3FM HERITAGE REPORT · RMP DU018-066 / DU019-029 · RPS 6928",
+    "summary": "The 3FM Great South Wall heritage report distinguishes the 1759 Ballast Office Wall from the later masonry extension towards Poolbeg. It records some Ballast Office Wall boundary sections as visible low parapets and a portion of the north-facing wall as exposed to full height along the ESB Dublin Bay Power Plant cooling-water outfall. The Great South Wall's Area 4 plan states that a significant part of the northern parapet remained intact there in the survey context, while most of the southern parapet was destroyed above ground.",
+    "supported": "The report's historical account dates the Ballast Office Wall to 1759 and describes it as two parallel rubble walls with sand filling the space between. It says the alignment now lies beneath Pigeon House Road, with some boundary walls visible as low parapets. The Area 4 site plan and text locate a full-height exposed portion along the cooling-water outfall. The report separately describes the later Poolbeg extension as having a dry rubble core and granite ashlar façades. It identifies the Great South Wall as RMP DU018-066 and DU019-029 and RPS 6928.",
+    "limits": "The report's diagrams and descriptions are survey/project evidence, not proof of current 2026 condition. It does not supply individual coordinates for each parapet remnant. The cooling-water outfall section is adjacent to ESB/industrial infrastructure and public access is not established. Some stretches of the Great South Wall are buried, missing above ground, behind fences or inaccessible. The Great South Wall and Ballast Office Wall are related but distinct construction phases; do not merge their fabric or dates.",
+    "source_ids": [
+      "DPC-3FM-GREAT-SOUTH-WALL-IMPACTS-INTERPRETATION",
+      "DCC-RPS-6793-6798-2022-2028"
+    ]
   }
 ]

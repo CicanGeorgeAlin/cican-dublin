@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 281,
+  "record_count": 284,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -10718,6 +10718,100 @@
         "Record the number and precise positions only if they can be safely and confidently identified",
         "Distinguish original timber fenders from later protective installations",
         "If no fenders are visible, record not located rather than assuming removal or demolition"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-DET-0009",
+      "name": "Ringsend concrete boat slip — surviving iron posts and railings",
+      "category": "INFRASTRUCTURE",
+      "district": "Dublin 4",
+      "address": "Great South Wall attendant concrete boat slip, Ringsend waterfront, Dublin 4; individual post positions not georeferenced",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Photograph the full visible railing run in relation to the concrete slip",
+        "Capture each distinct post and rail junction without touching the metalwork",
+        "Record missing, replaced, bent or corroded sections without inferring dates",
+        "Use a wider context view to distinguish original fabric from later additions"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-DET-0010",
+      "name": "Ringsend concrete boat slip — concrete mooring blocks",
+      "category": "INFRASTRUCTURE",
+      "district": "Dublin 4",
+      "address": "Concrete boat slip, Great South Wall / Ringsend maritime-industrial waterfront, Dublin 4; individual block positions not georeferenced",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Locate any surviving concrete mooring blocks visible from a safe public viewpoint",
+        "Photograph each block in context and close detail",
+        "Record visible sockets, ironwork, wear and repairs only where clearly observable",
+        "Do not attach measuring equipment or touch, move or test the blocks"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-DET-0011",
+      "name": "Ringsend concrete boat slip — cast-iron lamppost at north-west corner",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 4",
+      "address": "North-west corner of the historic concrete boat slip, Great South Wall / Ringsend waterfront, Dublin 4; precise point not independently georeferenced",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Establish the north-west corner of the slip from a safe public viewpoint",
+        "If present, photograph the full lamppost silhouette and its base",
+        "Capture any maker's marks, access covers or decorative details only if legible",
+        "Photograph its relationship to the slip, railing and adjacent quay wall",
+        "If not visible, record not located; do not assume it was removed"
       ],
       "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
       "original_photo": null,

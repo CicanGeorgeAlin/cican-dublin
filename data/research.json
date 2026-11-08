@@ -590,5 +590,19 @@
       "DCC-RPS-7544-7546-2018",
       "EIAR-RINGSEND-CBC-PLANNING-REPORT-2023"
     ]
+  },
+  {
+    "id": "RES-SIR-JOHN-ROGERSONS-QUAY-GRANITE-STEPS-SETTS-RAILS-FENDERS-001",
+    "title": "Sir John Rogerson's Quay — granite steps, campshire setts and rails, and timber fenders",
+    "area": "SIR JOHN ROGERSON'S QUAY · DUBLIN 2",
+    "updated": "2026-11-08",
+    "status": "NIAH_FEATURES_CATALOGUED_FIELD_SURVIVAL_PENDING",
+    "status_label": "NIAH 50020465 · THREE PARENT-LINKED MICRO-DETAILS",
+    "summary": "NIAH Registration 50020465 documents three further photographable feature groups on Sir John Rogerson's Quay: granite steps with cast-iron railings; stone setts and inset cast-iron rails to the campshire; and timber fenders north of the B.J. Marine building. These are now separately catalogued as child records beneath the existing quay-wall object, DUB-INF-0029. No independent feature coordinates or map pins have been invented.",
+    "supported": "The official NIAH description for registration 50020465 explicitly lists the granite steps and railings, stone setts and inset cast-iron rails to the campshire, and timber fenders north of the B.J. Marine building. The same record dates the ashlar-granite quay wall to c.1870 and provides the wider historical and engineering context.",
+    "limits": "NIAH does not supply individual feature coordinates, counts, detailed dimensions, installation dates or present-condition confirmation for these feature groups. The timber fenders are located only by reference to the B.J. Marine building. The purpose of the inset rails is not specified in the consulted record, so no crane, railway or other specific function is assigned. All three child records remain without independent map pins and await safe founder field verification.",
+    "source_ids": [
+      "NIAH-50020465"
+    ]
   }
 ]

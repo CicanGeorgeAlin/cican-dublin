@@ -10590,5 +10590,103 @@
     "feature_type": "MICRO_DETAIL",
     "last_researched": "2026-11-08",
     "research_notes": "Child record of DUB-BLD-0128. NIAH explicitly notes visible lettering and vestiges of the former institute sign, but does not provide a transcription. No independent coordinate is assigned; use the parent building's map point only for general navigation, not as an exact lettering location."
+  },
+  {
+    "district": "Dublin 2",
+    "historical_period": "Quay wall c.1870; individual fitting or paving installation dates not separately established",
+    "national_inventory_reference": "Associated with NIAH 50020465",
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": "DUB-INF-0029",
+    "access_status": "Public quayside setting; exact current access and condition must be checked on arrival. Stay on designated public paths and obey port, traffic and construction barriers.",
+    "photography_restrictions": "Do not climb onto the quay edge, enter the river, cross barriers, touch or move historic fabric, or approach active port operations. Photograph from a safe public viewpoint only.",
+    "sources": [
+      "NIAH-50020465"
+    ],
+    "feature_type": "MICRO_DETAIL",
+    "last_researched": "2026-11-08",
+    "id": "DUB-DET-0006",
+    "name": "Sir John Rogerson's Quay — granite landing steps with cast-iron railings",
+    "category": "INFRASTRUCTURE",
+    "address": "Sir John Rogerson's Quay, Dublin 2; exact stair position not individually georeferenced",
+    "historical_description": "A group of granite steps descending from the quay level, accompanied by cast-iron railings. NIAH Registration 50020465 explicitly records granite steps with cast-iron railings as features of the c.1870 ashlar-granite quay. The inventory does not provide the number of stair flights, exact positions, dimensions, maker, installation date or current condition.",
+    "historical_significance": "The steps and railings are functional evidence of historic access between the quay surface and the water-facing edge. Their stonework and metalwork form part of the quay's maritime engineering and craftsmanship.",
+    "coordinate_status": "NOT_GEOCODED",
+    "photography_brief": [
+      "Locate each visible granite stair flight associated with the NIAH quay record",
+      "Photograph the full stair run and its relationship to the quay wall",
+      "Capture the cast-iron railing profile, posts, fixings and junction with the stone",
+      "Record worn treads, repairs, blocked access or replacement elements without assuming dates",
+      "Do not descend the steps or approach the water if access is restricted"
+    ],
+    "research_notes": "NIAH 50020465 describes granite steps with cast-iron railings but does not georeference individual stair locations. This child record has no independent coordinates or map pin; the parent quay point is for general site orientation only."
+  },
+  {
+    "district": "Dublin 2",
+    "historical_period": "Quay wall c.1870; individual fitting or paving installation dates not separately established",
+    "national_inventory_reference": "Associated with NIAH 50020465",
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": "DUB-INF-0029",
+    "access_status": "Public quayside setting; exact current access and condition must be checked on arrival. Stay on designated public paths and obey port, traffic and construction barriers.",
+    "photography_restrictions": "Do not climb onto the quay edge, enter the river, cross barriers, touch or move historic fabric, or approach active port operations. Photograph from a safe public viewpoint only.",
+    "sources": [
+      "NIAH-50020465"
+    ],
+    "feature_type": "MICRO_DETAIL",
+    "last_researched": "2026-11-08",
+    "id": "DUB-DET-0007",
+    "name": "Sir John Rogerson's Quay — stone setts and inset cast-iron rails to the campshire",
+    "category": "INFRASTRUCTURE",
+    "address": "Campshire of Sir John Rogerson's Quay, Dublin 2; precise surviving rail segments not individually georeferenced",
+    "historical_description": "Stone setts and inset cast-iron rails within the quay's campshire (the working surface of the quay). NIAH Registration 50020465 explicitly records both elements as part of the quay's surviving fabric. The record does not specify the rail gauge, original use, alignment, length, installation date or present continuity; no railway or crane function is inferred without further evidence.",
+    "historical_significance": "The setts and embedded iron rails preserve evidence of the quay's historic heavy-duty working surface and the movement of goods along the waterfront. They are a small-scale industrial feature that may retain traces of loading and transport arrangements.",
+    "coordinate_status": "NOT_GEOCODED",
+    "photography_brief": [
+      "Locate surviving stone-sett surfaces within the quay's campshire",
+      "Photograph the junction between setts and cast-iron rails",
+      "Capture rail profile, joints, spacing and any visible fixings without touching them",
+      "Record whether rails are continuous, truncated, buried or replaced",
+      "Take a wider contextual photograph showing the relationship to quay buildings and loading areas",
+      "Do not identify the rails as crane or railway track unless a separate source confirms their function"
+    ],
+    "research_notes": "NIAH 50020465 explicitly records stone setts and inset cast-iron rails to the campshire. It does not specify their original function or exact alignment. This child record has no independent coordinates; field photography should document surviving fabric before any interpretation is added."
+  },
+  {
+    "district": "Dublin 2",
+    "historical_period": "Quay wall c.1870; individual fitting or paving installation dates not separately established",
+    "national_inventory_reference": "Associated with NIAH 50020465",
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": "DUB-INF-0029",
+    "access_status": "Public quayside setting; exact current access and condition must be checked on arrival. Stay on designated public paths and obey port, traffic and construction barriers.",
+    "photography_restrictions": "Do not climb onto the quay edge, enter the river, cross barriers, touch or move historic fabric, or approach active port operations. Photograph from a safe public viewpoint only.",
+    "sources": [
+      "NIAH-50020465"
+    ],
+    "feature_type": "MICRO_DETAIL",
+    "last_researched": "2026-11-08",
+    "id": "DUB-DET-0008",
+    "name": "Sir John Rogerson's Quay — timber fenders north of the B.J. Marine building",
+    "category": "INFRASTRUCTURE",
+    "address": "Quayside north of the B.J. Marine building, Sir John Rogerson's Quay, Dublin 2; exact fender positions not individually georeferenced",
+    "historical_description": "Timber fenders recorded by NIAH as located to the north of the B.J. Marine building on Sir John Rogerson's Quay. The NIAH description identifies their material and relative location but does not give a count, dimensions, timber species, installation date, fixing method or current condition. Their present survival must be confirmed in the field.",
+    "historical_significance": "The fenders are evidence of practical measures used to protect quay structures and vessels from impact during berthing. They illustrate the working maritime function of the quay beyond its architectural stonework.",
+    "coordinate_status": "NOT_GEOCODED",
+    "photography_brief": [
+      "Identify the B.J. Marine building as the NIAH location reference before assessing nearby quay fabric",
+      "Photograph any surviving timber fenders from a safe public position",
+      "Capture timber grain, wear, repairs and visible fixing details without contact",
+      "Record the number and precise positions only if they can be safely and confidently identified",
+      "Distinguish original timber fenders from later protective installations",
+      "If no fenders are visible, record not located rather than assuming removal or demolition"
+    ],
+    "research_notes": "NIAH 50020465 locates timber fenders to the north of the B.J. Marine building but does not provide a coordinate or count. The relative location is a search instruction, not a verified current pin. Present survival is unconfirmed."
   }
 ]

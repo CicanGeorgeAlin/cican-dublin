@@ -604,5 +604,19 @@
     "source_ids": [
       "NIAH-50020465"
     ]
+  },
+  {
+    "id": "RES-RINGSEND-BOAT-SLIP-IRON-RAILINGS-MOORING-BLOCKS-LAMP-001",
+    "title": "Ringsend historic concrete boat slip — iron railings, mooring blocks and cast-iron lamppost",
+    "area": "GREAT SOUTH WALL · RINGSEND WATERFRONT · DUBLIN 4",
+    "updated": "2026-11-08",
+    "status": "EIAR_FEATURES_CATALOGUED_CURRENT_SURVIVAL_PENDING",
+    "status_label": "DCIHR 18-12-118 · THREE PARENT-LINKED MICRO-DETAILS",
+    "summary": "The Dublin Port 3FM EIAR cultural-heritage catalogue describes the c.1920–30 concrete boat slip (DCIHR 18-12-118) with iron posts and railings, concrete mooring blocks, and a cast-iron lamppost at its north-west corner. These three individually photographable components are now catalogued beneath DUB-INF-0006.",
+    "supported": "Appendix 16-1 identifies the boat slip as a concrete structure dating c.1920–30, records original railings, concrete mooring blocks and a cast-iron lamppost at its north-west corner, and notes the limestone masonry quay wall to the east. It states that the slip was built on the site of an earlier wooden pier shown on the 1912 OS map.",
+    "limits": "The EIAR is a survey record and does not prove that every component remains in place today. It provides no individual counts, dimensions, maker details or exact coordinates for the child features. No independent coordinates or map pins have been assigned. Access is not assumed; photograph only from safe lawful public viewpoints.",
+    "source_ids": [
+      "DUBLIN-PORT-3FM-EIAR-CH16-APP16-1"
+    ]
   }
 ]

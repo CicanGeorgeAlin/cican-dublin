@@ -4153,5 +4153,25 @@
     "source_type": "OFFICIAL_GIS_DATASET",
     "specific_reference": "2026 National Statutory Boundary dataset; Local Authorities layer; GeoJSON resource available from the dataset page.",
     "notes": "Official 2026 ungeneralised local-authority polygon dataset. Identifies 31 local authorities nationally, including Dublin City Council and the three Dublin county councils: Fingal, South Dublin and Dún Laoghaire-Rathdown. The 2026 dataset page does not specify a reuse licence. Geometry is therefore identified but not copied into the public repository pending licence and metadata review. Tailte Éireann advises due diligence when relying on boundary delineation."
+  },
+  {
+    "id": "NIAH-50020479",
+    "name": "The Ferryman, 35–36 Sir John Rogerson's Quay — NIAH registration 50020479",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50020479/the-ferryman-35-36-sir-john-rogersons-quay-cardiff-lane-dublin-2-dublin",
+    "accessed": "2026-11-08",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH registration 50020479: Survey Data, Description and Appraisal; coordinates 317215, 234283.",
+    "notes": "Primary official architectural inventory record for the former pair of houses at 35–36 Sir John Rogerson's Quay. Records c.1820 construction, architectural fabric, historical occupants and maritime/commercial trades."
+  },
+  {
+    "id": "EIAR-RINGSEND-CBC-A16-3-FERRYMAN-2023",
+    "name": "Ringsend to City Centre Core Bus Corridor Scheme — EIAR Volume 4, Appendix A16.3",
+    "publisher": "Jacobs / ARUP / SYSTRA project team",
+    "url": "https://ringsendscheme.ie/wp-content/uploads/sites/13/2023/07/Appendix-A16.1-A16.3-Architectural-Heritage.pdf",
+    "accessed": "2026-11-08",
+    "source_type": "ENVIRONMENTAL_IMPACT_ASSESSMENT_HERITAGE_SURVEY",
+    "specific_reference": "Appendix A16.3, page 30: 35–36 Sir John Rogerson's Quay; RPS 7549–7550; NIAH 50020479; c.1820; The Ferryman.",
+    "notes": "Independent project heritage inventory corroborating the address, NIAH identifier, protected-structure references, approximate date and use as Georgian-style commercial/residential premises."
   }
 ]

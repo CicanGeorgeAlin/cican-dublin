@@ -573,5 +573,22 @@
       "NIAH-50020479",
       "EIAR-RINGSEND-CBC-A16-3-FERRYMAN-2023"
     ]
+  },
+  {
+    "id": "RES-SIR-JOHN-ROGERSONS-QUAY-CATHOLIC-SEAMENS-INSTITUTE-COLUMBIA-MILLS-001",
+    "title": "Sir John Rogerson's Quay — Catholic Seamen's Institute and Columbia Mills",
+    "area": "SIR JOHN ROGERSON'S QUAY · DUBLIN 2",
+    "updated": "2026-11-08",
+    "status": "DOCUMENTED_HERITAGE_OBJECTS_WITH_FIELD_CONDITION_PENDING",
+    "status_label": "TWO NIAH REGISTERS + DCC PROTECTED STRUCTURES REGISTER + PLANNING HISTORY",
+    "summary": "Two further historic structures are documented on Sir John Rogerson's Quay: the c.1825 former Catholic Seamen's Institute at No. 4 (NIAH 50020472; RPS 7544), and Columbia Mills at Nos. 14–15 (NIAH 50020474; RPS 7546), a c.1890 former mill associated with H.M. Leask & Company. NIAH also records vestigial lettering associated with the former Seamen's Institute; this is separately registered as a parent-linked inscription target without an independent coordinate.",
+    "supported": "The two NIAH records provide architectural descriptions, historical uses and Irish Grid references. Dublin City Council's RPS list identifies both protected structures. The 2023 Ringsend to City Centre Core Bus Corridor planning report describes the protected buildings at Nos. 4 and 5 as exceptions to demolition under a permitted redevelopment scheme. NIAH specifically records visible lettering on the platbands and vestiges of the institute sign at No. 4.",
+    "limits": "The NIAH surveys date from 2015 and do not establish current condition. The planning report records a permitted scheme, not proof of completed works. No. 4 is described as disused by NIAH; its current occupancy and public access remain unconfirmed. Columbia Mills' 2020 planning appeal includes a proposed alteration and extension; the proposal must not be mistaken for completed construction. The inscription's exact wording and present survival are unknown. All coordinates are source-derived and not founder GPS.",
+    "source_ids": [
+      "NIAH-50020472",
+      "NIAH-50020474",
+      "DCC-RPS-7544-7546-2018",
+      "EIAR-RINGSEND-CBC-PLANNING-REPORT-2023"
+    ]
   }
 ]

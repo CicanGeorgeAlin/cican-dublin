@@ -141,3 +141,8 @@ The latest committed discovery batch is [Visual Discovery Batch 127](VISUAL-DISC
 ## Latest autopilot checkpoint — Batch 128
 
 The latest committed discovery batch is [Visual Discovery Batch 128](VISUAL-DISCOVERY-BATCH-128.md). It adds the linear Great South Wall parent record (DUB-INF-0034) and two Ballast Office Wall child targets: visible low parapet remnants (DUB-DET-0012) and the exposed full-height north-facing wall beside the ESB cooling-water outfall (DUB-DET-0013). Source: Dublin Port 3FM *Great South Wall: Overview of Impacts, Mitigation & Interpretation*. Both detail records intentionally have no independent coordinates. The cooling-water outfall is an industrial/utility edge; no public access is assumed. Next: inspect the conservation/restoration specifications and engineering drawings for specific historic coping, steps and fittings, distinguishing surviving fabric from proposed restoration.
+
+
+## Latest autopilot checkpoint — Batch 129
+
+The latest committed discovery batch is [Visual Discovery Batch 129](VISUAL-DISCOVERY-BATCH-129.md). This is a research-only batch: it registers Dublin Port 3FM EIAR Appendix 16-6 and adds a research note distinguishing original basalt-containing parapet capping, historical timber coping (most reportedly rotted and replaced with cement), later square stone coping and proposed reconstruction. No new physical object was added because neither source locates surviving examples individually. Next: inspect RPS drawings S26-HER-XX-DR-HE 100-1000 to 1006 and conservation survey/photo schedules for chainage-specific distinctions between original fabric, later repair, dismantled material and proposed rebuild. Never treat proposed reconstruction as surviving heritage; verify access before field photography.

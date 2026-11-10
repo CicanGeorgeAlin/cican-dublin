@@ -325,6 +325,18 @@
       ],
       "next_action": "Check current Dublin Port visitor information and access notices before visiting. Photograph the full-height artefact, riveted chamber, access shaft, iron rungs and air-lock details from permitted public/exhibition viewpoints. Compare the present installation with the 2015 opening and 2026 Port Yearbook descriptions to document the reconfigured display without attributing modern supports to the historic bell.",
       "completion": "Complete when founder photographs document the bell and display structure separately, present access conditions are confirmed, and any inscriptions or interpretive panel text are transcribed directly from legible photographs."
+    },
+    {
+      "id": "INV-016",
+      "priority": 2,
+      "status": "RESEARCH_PENDING",
+      "title": "Map and field-verify original Great South Wall parapet capping versus later square coping, timber coping and 3FM rebuilds",
+      "source_ids": [
+        "DPC-3FM-APPENDIX-16-6-GSW-CONSERVATION",
+        "DPC-3FM-GREAT-SOUTH-WALL-IMPACTS-INTERPRETATION"
+      ],
+      "next_action": "Obtain and inspect RPS drawings S26-HER-XX-DR-HE 100-1000 to 1006 and the relevant detailed conservation survey/photographic schedules. Identify whether drawings distinguish original basalt-containing domed capping, later square coping, timber coping remnants, cement replacements, dismantled fabric and proposed reconstruction by exact chainage or segment. Compare the approved/as-built works record with present conditions only from lawful public viewpoints; do not enter restricted port or ESB land.",
+      "completion": "Complete when each material/profile claim is linked to an inspected drawing, photograph or field observation; surviving historic fabric is separated from later repair and proposed reconstruction; exact positions are recorded only where supported; and any new catalogue records pass duplicate, source and location checks."
     }
   ],
   "protected_boundaries": [

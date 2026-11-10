@@ -633,5 +633,20 @@
       "DPC-3FM-GREAT-SOUTH-WALL-IMPACTS-INTERPRETATION",
       "DCC-RPS-6793-6798-2022-2028"
     ]
+  },
+  {
+    "id": "RES-GSW-PARAPET-CAPPING-MATERIAL-AND-REPAIR-STRATIGRAPHY-001",
+    "title": "Great South Wall parapet capping — original basalt mix, timber coping history and later repair distinctions",
+    "area": "GREAT SOUTH WALL · RINGSEND TO POOLBEG · DUBLIN 4",
+    "updated": "2026-11-10",
+    "status": "DOCUMENTED_CONSERVATION_SPECIFICATION_WITH_FEATURE_LOCATIONS_UNRESOLVED",
+    "status_label": "OFFICIAL 3FM EIAR · APPENDIX 16-6 · OCTOBER 2023",
+    "summary": "The 3FM conservation specification records basalt as part of the original parapet-capping material and deliberately excludes basalt from proposed rebuilt capping so that new work remains subtly distinguishable. The accompanying overview separately records historical use of timber coping in some places, most of which it says had rotted and been replaced with cement. It also warns that square stone coping found on some rebuilt areas is not original and is not the model for new reconstruction.",
+    "supported": "Appendix 16-6 says original capping material contains a mix of basalt stone; for rebuilding, basalt is proposed to be omitted so the new stone texture remains discernible from original fabric. It prefers salvaged stone from areas carefully dismantled for the 3FM project, then similar stone if salvaged material is exhausted. The specification sets out NHL 3.5 lime mortar, careful recording of affected masonry, mortar analysis and repair methods. The Great South Wall Overview, historical account p.5, states timber coping was used in some places but most had rotted and been replaced with cement. Its mitigation summary pp.18–19 distinguishes original parapet profiles from later square stone coping and describes a domed capping profile for proposed reconstruction.",
+    "limits": "Neither source supplies a dependable, individually georeferenced inventory of surviving basalt capping stones or surviving timber coping. The timber coping statement is historical and explicitly says most had rotted; it does not identify surviving examples. The basalt statement describes original capping composition and a proposed rebuilding distinction, not a verified current stone-by-stone survey. Square coping is identified as later/non-original in the report, but individual locations are not established here. No new physical object records or map pins are justified by this evidence alone. The engineering drawings S26-HER-XX-DR-HE 100-1000 to 1006 are referenced but were not independently inspected in this batch.",
+    "source_ids": [
+      "DPC-3FM-APPENDIX-16-6-GSW-CONSERVATION",
+      "DPC-3FM-GREAT-SOUTH-WALL-IMPACTS-INTERPRETATION"
+    ]
   }
 ]

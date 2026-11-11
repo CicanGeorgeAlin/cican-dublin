@@ -4623,5 +4623,35 @@
     "source_type": "OFFICIAL_HERITAGE_RECORD",
     "specific_reference": "NIAH Registration 50080656; survey description, appraisal, date and published Irish Grid reference 314651, 233580.",
     "notes": "Official NIAH record used for object identity, historical description, appraisal and source grid reference. Transformed WGS84 point is source-derived; current physical condition and founder GPS remain unverified."
+  },
+  {
+    "id": "NIAH-50070481",
+    "name": "74 Eccles Street — cast-iron coal-hole cover in granite pavement — NIAH Registration 50070481",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50070481/74-eccles-street-dublin-7-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50070481; survey description, appraisal and published Irish Grid reference 315580, 235537.",
+    "notes": "Official NIAH building survey used to verify the presence and description of the individual pavement or façade detail. Published grid reference identifies the host building, not exact feature-centre coordinates."
+  },
+  {
+    "id": "NIAH-50070484",
+    "name": "77 Eccles Street — cast-iron coal-hole cover in granite pavement — NIAH Registration 50070484",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50070484/77-eccles-street-dublin-7-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50070484; survey description, appraisal and published Irish Grid reference 315597, 235530.",
+    "notes": "Official NIAH building survey used to verify the presence and description of the individual pavement or façade detail. Published grid reference identifies the host building, not exact feature-centre coordinates."
+  },
+  {
+    "id": "NIAH-50910150",
+    "name": "St Andrew Street — carved limestone historic street-name plaque — NIAH Registration 50910150",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50910150/trocadero-3-st-andrew-street-dublin-2-co-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50910150; survey description, appraisal and published Irish Grid reference 315823, 233956.",
+    "notes": "Official NIAH building survey used to verify the presence and description of the individual pavement or façade detail. Published grid reference identifies the host building, not exact feature-centre coordinates."
   }
 ]

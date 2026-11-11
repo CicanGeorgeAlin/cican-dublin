@@ -10928,5 +10928,81 @@
     "feature_type": "MICRO_DETAIL",
     "last_researched": "2026-11-06",
     "research_notes": "NIAH registration 50011219 was directly consulted. This record is source-verified, but its coordinate is a transformed NIAH site point, not founder GPS. Physical field verification and present condition remain outstanding."
+  },
+  {
+    "id": "DUB-STR-0096",
+    "name": "St Anne’s Park — shell house with ‘The House that Jack built’ pier",
+    "category": "ARCHITECTURE",
+    "district": "Dublin 5",
+    "address": "Within the walled garden at St Anne’s Park, Raheny, Dublin 5",
+    "historical_period": "c. 1850",
+    "historical_description": "A square-plan rubble-stone shell house within the walled garden. The NIAH records groin-vaulted stone arches, rounded wall corners, interior niches decorated with pebbles and shells, and niches incorporating animal bone and skull material. A central freestanding two-stage pier carries projecting basins and pebble-and-shell decoration; lettering below the basins reads “The House that Jack built”, with a dog figure on the lower stage.",
+    "historical_significance": "An unusually personal ornamental garden structure within the former St Anne’s estate. Its shellwork, bone decoration, lettering and figurative detail make it a particularly rich visual record of nineteenth-century garden craft and estate leisure.",
+    "national_inventory_reference": "50030040",
+    "national_grid_reference": "321484, 237275",
+    "latitude": null,
+    "longitude": null,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Located within St Anne’s Park. Confirm that the walled-garden paths and structure are accessible on the day; remain on public paths and do not touch or remove shell, bone or masonry material.",
+    "map_url": null,
+    "photography_brief": [
+      "Photograph the complete shell house from the public path",
+      "Record the central pier and the wording “The House that Jack built” exactly",
+      "Close views of shell and pebble decoration in the niches",
+      "Document the dog figure and projecting basins without touching the fabric",
+      "Record condition and any conservation barriers; do not enter closed or unsafe areas"
+    ],
+    "sources": [
+      "NIAH-50030040",
+      "DCC-NORTH-BULL-ISLAND-PARKS-ACCESS"
+    ],
+    "coordinate_status": "NOT_SET",
+    "coordinate_source": "NIAH Registration 50030040 publishes Irish Grid 321484, 237275. No WGS84 coordinate or field GPS has been assigned in this batch.",
+    "coordinate_accuracy_m": null,
+    "feature_type": "MICRO_DETAIL",
+    "last_researched": "2026-11-11",
+    "research_notes": "NIAH description and appraisal consulted directly. The NIAH suggests the shell decoration may have been made by or for the Guinness daughters, but this is presented as a possibility, not an established attribution. Present condition and precise position require field verification."
+  },
+  {
+    "id": "DUB-STR-0097",
+    "name": "St Anne’s Park — Naniken River grotto / hermitage",
+    "category": "ARCHITECTURE",
+    "district": "Dublin 5",
+    "address": "On the Naniken River path within St Anne’s Park, Raheny, Dublin 5",
+    "historical_period": "c. 1860",
+    "historical_description": "A small grotto with a pointed-arch opening, rubble calp-limestone frontage and a chamber with rubble-stone walls and a yellow-brick groin-vaulted ceiling. The NIAH describes it as set into an earthen bank overlooking the Naniken River. The structure is partly concealed when approached from the south-east and forms part of the estate’s sequence of riverside landscape features.",
+    "historical_significance": "A surviving component of the nineteenth-century designed landscape of St Anne’s estate. The NIAH interprets it as a possible hermitage, a type of garden feature intended to suggest occupation by a mysterious or secluded figure.",
+    "national_inventory_reference": "50030035",
+    "national_grid_reference": "321841, 237270",
+    "latitude": null,
+    "longitude": null,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Within St Anne’s Park along the Naniken River landscape. Use designated public paths, check for temporary closures and do not enter the chamber or climb the earthen bank.",
+    "map_url": null,
+    "photography_brief": [
+      "Photograph the grotto from the public path looking towards the pointed-arch opening",
+      "Record the relationship between the grotto, earthen bank and Naniken River",
+      "Close view of calp-limestone rubble and surviving abutment",
+      "Photograph the yellow-brick vaulted ceiling only if visible safely from an authorised public viewpoint",
+      "Record vegetation, condition and any access restrictions without disturbing the structure"
+    ],
+    "sources": [
+      "NIAH-50030035",
+      "DCC-NORTH-BULL-ISLAND-PARKS-ACCESS"
+    ],
+    "coordinate_status": "NOT_SET",
+    "coordinate_source": "NIAH Registration 50030035 publishes Irish Grid 321841, 237270. No WGS84 coordinate or field GPS has been assigned in this batch.",
+    "coordinate_accuracy_m": null,
+    "feature_type": "MICRO_DETAIL",
+    "last_researched": "2026-11-11",
+    "research_notes": "NIAH description and appraisal consulted directly. The NIAH calls this a grotto and notes that it has been described as a hermitage; the alternative label is not treated as a proven original function. Present condition and exact field position require verification."
   }
 ]

@@ -746,5 +746,35 @@
       "DCC-ST-ANNES-PARK-ACCESS",
       "DCC-ST-ANNES-FOLLIES"
     ]
+  },
+  {
+    "id": "RES-ST-ANNES-WALLED-GARDEN-ROCKWORK-GATE-HERMITAGE-2026",
+    "title": "St Anne’s Park — earlier walled garden, Rockwork Bridge, relocated gate screen and hermitage bridge",
+    "area": "RAHENY · DUBLIN 5",
+    "updated": "2026-11-11",
+    "status": "DOCUMENTED_HERITAGE_RECORDS",
+    "status_label": "FOUR OFFICIAL NIAH RECORDS CONSULTED",
+    "summary": "Four additional NIAH-registered structures in St Anne’s Park were compared with the catalogue and added as distinct records: earlier walled garden remains (50030026), Rockwork Bridge (50030028), relocated iron gate screen (50030039), and double-arch bridge with hermitage (50030034).",
+    "supported": [
+      "NIAH 50030026 dates the earlier walled-garden remains to c.1820 and notes their presence on first-edition OS and Thornhill deed maps, predating the Guinness acquisition in 1835.",
+      "NIAH 50030028 records a c.1860 single-arch pedestrian bridge made from roughly hewn limestone slabs to resemble a natural rock feature.",
+      "NIAH 50030039 records a c.1850 wrought- and cast-iron gate screen moved c.1980 to its present garden entrance.",
+      "NIAH 50030034 records a c.1860 double-arch bridge over the Naniken River and footpath, incorporating a hermitage; an earlier timber bridge is marked on the first-edition OS map."
+    ],
+    "limits": [
+      "No founder field inspection has been completed; current condition and exact visible details remain unverified.",
+      "NIAH Irish Grid references are retained, but no WGS84 coordinates or founder GPS are assigned in this batch.",
+      "The gate screen's current location is not its original c.1850 position; relocation is explicitly recorded.",
+      "The earlier walled garden is recorded as remains; no assumption is made that its full original perimeter survives.",
+      "No online photograph was added without confirming a suitable reuse licence."
+    ],
+    "source_ids": [
+      "NIAH-50030026",
+      "NIAH-50030028",
+      "NIAH-50030039",
+      "NIAH-50030034",
+      "DCC-ST-ANNES-PARK-ACCESS",
+      "DCC-ST-ANNES-FOLLIES"
+    ]
   }
 ]

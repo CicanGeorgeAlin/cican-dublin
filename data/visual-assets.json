@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 313,
+  "record_count": 310,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -11554,102 +11554,6 @@
         "Photograph its relationship to nearby paths and other follies without assuming a connection",
         "Record any interpretive plaque or conservation signage",
         "Do not infer the boulders' geological source from appearance alone"
-      ],
-      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
-      "original_photo": null,
-      "photo_credit": null,
-      "capture_date": null,
-      "capture_location_verification": "NOT_FIELD_VERIFIED",
-      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
-      "line_art_file": null,
-      "line_art_spec": {
-        "paper": "A4",
-        "orientation": "Choose to suit original composition",
-        "resolution_dpi": 300,
-        "pixel_size_portrait": "2480x3508",
-        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
-        "source_requirement": "Corresponding founder-captured original photograph"
-      },
-      "gallery_status": "NOT_YET_PUBLISHED",
-      "reference_images": []
-    },
-    {
-      "record_id": "DUB-STR-0137",
-      "name": "Howth Road, Dublin 3 — c.1825 granite GPO / Howth milestone",
-      "category": "STREET_DETAIL",
-      "district": "Dublin 3",
-      "address": "North side of Howth Road, Dublin 3, Ireland",
-      "visual_priority": "HIGH",
-      "planned_shots": [
-        "Locate and photograph the complete granite marker from the public footpath",
-        "Capture the inset cast-iron plaque square-on and transcribe its lettering",
-        "Record the chamfered sides and benchmark on the south-west face",
-        "Include a contextual view showing its relationship to Howth Road",
-        "Check and record current condition without cleaning or touching the marker"
-      ],
-      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
-      "original_photo": null,
-      "photo_credit": null,
-      "capture_date": null,
-      "capture_location_verification": "NOT_FIELD_VERIFIED",
-      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
-      "line_art_file": null,
-      "line_art_spec": {
-        "paper": "A4",
-        "orientation": "Choose to suit original composition",
-        "resolution_dpi": 300,
-        "pixel_size_portrait": "2480x3508",
-        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
-        "source_requirement": "Corresponding founder-captured original photograph"
-      },
-      "gallery_status": "NOT_YET_PUBLISHED",
-      "reference_images": []
-    },
-    {
-      "record_id": "DUB-STR-0138",
-      "name": "Howth Road, Clontarf — c.1825 granite GPO / Howth milestone",
-      "category": "STREET_DETAIL",
-      "district": "Dublin 3",
-      "address": "North side of Howth Road, Clontarf, Ballyhoy, Dublin 3, Ireland",
-      "visual_priority": "HIGH",
-      "planned_shots": [
-        "Photograph the full marker and its relationship to the north-side footpath",
-        "Capture the raised plaque lettering “P.O/Dublin/4/Howth/5”",
-        "Record the chamfered granite faces and top profile",
-        "Document the rear cast-iron rivets only if visible without touching or moving the object",
-        "Record condition and any obstruction or vegetation"
-      ],
-      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
-      "original_photo": null,
-      "photo_credit": null,
-      "capture_date": null,
-      "capture_location_verification": "NOT_FIELD_VERIFIED",
-      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
-      "line_art_file": null,
-      "line_art_spec": {
-        "paper": "A4",
-        "orientation": "Choose to suit original composition",
-        "resolution_dpi": 300,
-        "pixel_size_portrait": "2480x3508",
-        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
-        "source_requirement": "Corresponding founder-captured original photograph"
-      },
-      "gallery_status": "NOT_YET_PUBLISHED",
-      "reference_images": []
-    },
-    {
-      "record_id": "DUB-STR-0139",
-      "name": "Howth Road, Raheny North — c.1825 granite GPO / Howth milestone",
-      "category": "STREET_DETAIL",
-      "district": "Dublin 5",
-      "address": "North side of Howth Road, Raheny North, Dublin 5, Ireland",
-      "visual_priority": "HIGH",
-      "planned_shots": [
-        "Locate the marker using its NIAH reference and published Irish Grid point",
-        "Photograph the full granite milestone in its roadside context",
-        "Capture and transcribe the cast-iron plaque reading “P.O/Dublin/5/Howth/4”",
-        "Record the chamfered sides, cap and visible condition",
-        "Check for obscuring vegetation or later roadside changes"
       ],
       "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
       "original_photo": null,

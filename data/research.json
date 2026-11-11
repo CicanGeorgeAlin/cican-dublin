@@ -718,5 +718,33 @@
       "DCC-ST-ANNES-PARK-ACCESS",
       "DCC-ST-ANNES-FOLLIES"
     ]
+  },
+  {
+    "id": "RES-ST-ANNES-TEMPLE-ARCH-YEW-CIRCLE-2026",
+    "title": "St Anne’s Park — Herculanean Temple, rustic archway and Yew Circle fountain",
+    "area": "RAHENY · DUBLIN 5",
+    "updated": "2026-11-11",
+    "status": "DOCUMENTED_HERITAGE_RECORDS",
+    "status_label": "THREE OFFICIAL NIAH RECORDS CONSULTED",
+    "summary": "Three further separately registered St Anne’s Park landscape features were added after comparison against the archive: Herculanean Temple (50030024), rustic archway (50030030) and Yew Circle / former fountain (50030031).",
+    "supported": [
+      "NIAH 50030024 documents a c.1850 Ionic temple folly with six-column portico, carved stonework and wrought-iron railings.",
+      "NIAH 50030030 documents a c.1860 U-plan arrangement of a central segmental arch, flanking arches and granite steps intended to frame views towards Howth and the Dublin Mountains.",
+      "NIAH 50030031 documents a c.1860 circular fountain pit surrounded by mature yew trees and records its former marble basin, statue and pump mechanism.",
+      "Dublin City Council's Follies guide includes Herculanean Temple, Arch and Yew Circle / Fountain within the park's garden follies."
+    ],
+    "limits": [
+      "No founder field inspection has been completed; current condition, exact visibility and access are unverified.",
+      "NIAH Irish Grid references are retained, but no WGS84 coordinate or founder GPS is assigned in this batch.",
+      "The original fountain statue, marble basin and pump mechanism are historical descriptions, not claims that those components survive.",
+      "Dublin City Council's conservation account of floor tiles at Herculanean Temple does not establish their present visibility or condition."
+    ],
+    "source_ids": [
+      "NIAH-50030024",
+      "NIAH-50030030",
+      "NIAH-50030031",
+      "DCC-ST-ANNES-PARK-ACCESS",
+      "DCC-ST-ANNES-FOLLIES"
+    ]
   }
 ]

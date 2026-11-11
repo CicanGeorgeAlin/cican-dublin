@@ -674,7 +674,8 @@
     "supported": [
       "NIAH 50030040 documents shell-and-pebble decoration, bone and skull material in niches, the central pier inscription “The House that Jack built”, and a dog figure.",
       "NIAH 50030035 documents the pointed-arch grotto, calp-limestone rubble frontage, yellow-brick groin vault and riverside setting.",
-      "Dublin City Council provides public park visitor information; this does not establish the present access condition of either individual feature."
+      "Dublin City Council provides public park visitor information; this does not establish the present access condition of either individual feature.",
+      "Dublin City Council's dedicated Follies guide independently lists Shell House / Dogs Graveyard and Rustic Hermits Cave – Cave among the twelve St Anne’s Park follies."
     ],
     "limits": [
       "No founder field inspection has been completed.",
@@ -686,7 +687,8 @@
     "source_ids": [
       "NIAH-50030040",
       "NIAH-50030035",
-      "DCC-NORTH-BULL-ISLAND-PARKS-ACCESS"
+      "DCC-ST-ANNES-PARK-ACCESS",
+      "DCC-ST-ANNES-FOLLIES"
     ]
   }
 ]

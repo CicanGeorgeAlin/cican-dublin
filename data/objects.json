@@ -11403,7 +11403,7 @@
   },
   {
     "id": "DUB-BLD-0138",
-    "name": "St Anne’s Park — temple folly overlooking the artificial pond",
+    "name": "St Anne’s Park — Pompeiian Temple / Boathouse (former tea house)",
     "category": "ARCHITECTURE",
     "district": "Dublin 5",
     "address": "St Anne’s Park, Raheny, Dublin 5, Ireland",
@@ -11432,13 +11432,15 @@
     "sources": [
       "NIAH-50030032",
       "DCC-ST-ANNES-PARK-ACCESS",
-      "DCC-ST-ANNES-FOLLIES"
+      "DCC-ST-ANNES-FOLLIES",
+      "OLDSTONE-ST-ANNES-FOLLIES-2018",
+      "DCC-ST-ANNES-PARK-FOLLIES"
     ],
     "coordinate_status": "NOT_SET",
     "coordinate_source": "NIAH Registration 50030032 publishes Irish Grid 321969, 237264. No WGS84 point or founder GPS assigned.",
     "coordinate_accuracy_m": null,
     "last_researched": "2026-11-11",
-    "research_notes": "NIAH Registration 50030032 dates the folly to c.1860 and identifies it as overlooking an artificial pond. It is distinct from the Herculanean Temple (50030024), already catalogued."
+    "research_notes": "NIAH Registration 50030032 dates the folly to c.1860 and identifies it as overlooking an artificial pond. It is distinct from the Herculanean Temple (50030024), already catalogued. Additional identity research: the conservation contractor Oldstone Conservation identifies the Boathouse as the Pompeiian Temple and states it is adjacent to the duck pond and was formerly used as a tea house. The official Dublin City Council follies list separately names the Boat House. This is treated as an alias for NIAH 50030032, not a second structure."
   },
   {
     "id": "DUB-INF-0137",
@@ -11590,5 +11592,79 @@
     "map_url": null,
     "last_researched": "2026-11-11",
     "research_notes": "Dublin City Council identifies St Anne’s Well as medieval and on the Record of Monuments and Places (DU019-012). The 2017 archaeological monitoring report documents the 2016 cleaning works, circular base opening, surviving nineteenth-century grille, granite paving extending 2.45m, and dry condition at that time. No claim is made about present water level or current physical condition."
+  },
+  {
+    "id": "DUB-ARC-0001",
+    "name": "St Anne’s House (formerly Thornhill) — excavated mansion remains, portico and entrance",
+    "category": "ARCHAEOLOGY",
+    "district": "Dublin 5",
+    "address": "Former St Anne’s House site, St Anne’s Park, Raheny, Dublin 5, Ireland",
+    "historical_period": "Early nineteenth century origins; major Guinness-era enlargement from 1835 and remodelling from 1873; fire 1943; demolition 1968",
+    "historical_description": "Archaeological remains of the former mansion, including in-situ external and internal walls, room surfaces, window recesses, cellar remains, the front portico foundations, front-step and entrance features, porch tile panels, parts of the picture gallery, and the remains of the carriage-road surface. The 2024 community excavation report documents the southern and western portions of the mansion footprint and records a 450 m² excavation area. The house began as Thornhill, was acquired by Arthur and Benjamin Lee Guinness in 1835, expanded over subsequent decades, remodelled from 1873, gutted by fire in December 1943 and demolished in 1968.",
+    "historical_significance": "The surviving archaeological fabric provides direct physical evidence of the architectural development, domestic interiors, circulation, construction materials and destruction of a major Dublin estate mansion. The excavated encaustic tiles, Portland-stone façade, Dublin calp-limestone portico foundations, jostle stone, heating infrastructure and carriage-road surface supplement historic maps and photographs. The archaeological report also records that the mansion's remains survive beneath demolition deposits and later imported soil.",
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "The excavation area is an archaeological site and may not be open for unsupervised access. Photograph only from designated public paths or during authorised Dublin City Council community archaeology events. Do not enter fenced areas, excavate, remove objects or disturb the ground.",
+    "photography_brief": [
+      "Overall view of the former mansion mound and any interpretation/signage from public paths",
+      "Any exposed or conserved masonry only when visible from authorised public access",
+      "Portico footprint and front-step remains during an authorised excavation/open day",
+      "Document surviving tile fragments and architectural details only when access is expressly permitted",
+      "Record the landscape context and relationship to the historic avenue and Herculanean Temple",
+      "Do not photograph or publish sensitive excavation details beyond official public interpretation"
+    ],
+    "sources": [
+      "DCC-ST-ANNES-2024-EXCAVATION-REPORT",
+      "DCC-ST-ANNES-PARK-ARCHAEOLOGY"
+    ],
+    "coordinate_status": "NOT_SET",
+    "latitude": null,
+    "longitude": null,
+    "national_grid_reference": null,
+    "coordinate_source": "The archaeological report includes a site-location figure and excavation plan but no verified WGS84 point for this specific feature in the reviewed text. No coordinate assigned.",
+    "coordinate_accuracy_m": null,
+    "map_url": null,
+    "last_researched": "2026-11-11",
+    "research_notes": "Evidence: Dublin City Council's preliminary archaeological excavation report dated 20 November 2024, licence 22E0688 ext. It documents the 2024 excavation of the mansion's portico, porch, picture gallery, part of the main hall and carriage road, plus previous investigations of the drawing room, statue room and cellars. Exact present-day access and exposed condition require field verification."
+  },
+  {
+    "id": "DUB-LND-0001",
+    "name": "St Anne’s Park — Rockwork Feature (separate from Rockwork Bridge)",
+    "category": "LANDSCAPE",
+    "district": "Dublin 5",
+    "address": "St Anne’s Park, Raheny, Dublin 5, Ireland",
+    "historical_period": "Nineteenth century estate landscape; included in 2016–2018 conservation programme",
+    "historical_description": "A distinct rustic rockwork folly listed by Dublin City Council among the twelve St Anne’s Park garden follies and separately identified as the Rockwork Feature in the 2016–2018 conservation contractor's project account. The contractor describes the Rockwork Feature, Rustic Archways, Bridge & Cave and Rustic Bridge as smaller follies mainly consisting of large stone boulders, with vegetation and topsoil removed and minor stone repairs undertaken during conservation. The contractor suggests the boulders may have been transported from Lough Corrib, but this proposed origin is not treated as established fact.",
+    "historical_significance": "The Rockwork Feature is a separately named component of the designed landscape and must not be conflated with the separately catalogued Rockwork Bridge (NIAH 50030028). Its construction from large boulders and its conservation history are documented, while its exact layout, material provenance and present condition require further verification.",
+    "verification_status": "RESEARCH_LEAD",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Exact feature position and current access route have not yet been established. Photograph only from designated public paths and do not climb, move stones or disturb vegetation.",
+    "photography_brief": [
+      "Locate the separately named Rockwork Feature using Dublin City Council park interpretation or on-site staff guidance",
+      "Capture the complete arrangement from the public path once positively identified",
+      "Record individual boulder forms, joints and any visible repair work",
+      "Photograph its relationship to nearby paths and other follies without assuming a connection",
+      "Record any interpretive plaque or conservation signage",
+      "Do not infer the boulders' geological source from appearance alone"
+    ],
+    "sources": [
+      "DCC-ST-ANNES-PARK-FOLLIES",
+      "OLDSTONE-ST-ANNES-FOLLIES-2018"
+    ],
+    "coordinate_status": "NOT_SET",
+    "latitude": null,
+    "longitude": null,
+    "national_grid_reference": null,
+    "coordinate_source": "The reviewed official and conservation sources identify the feature by name but do not provide a reliable exact coordinate. No point assigned pending field identification.",
+    "coordinate_accuracy_m": null,
+    "map_url": null,
+    "last_researched": "2026-11-11",
+    "research_notes": "Dublin City Council lists Rockwork Feature separately among the twelve follies. Oldstone Conservation's project account identifies it as a distinct item within the twelve-folly conservation programme and describes a group of smaller boulder-built features; the Lough Corrib origin is only a contractor's likelihood statement, not a verified provenance. Keep this record as RESEARCH_LEAD until the exact feature is field-identified."
   }
 ]

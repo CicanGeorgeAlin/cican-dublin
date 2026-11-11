@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "audited_on": "2026-11-08",
+  "audited_on": "2026-11-11",
   "scope": "Dublin City and County Dublin",
-  "catalogue_total": 287,
+  "catalogue_total": 288,
   "administrative_assignment_status": "NOT_SPATIALLY_VERIFIED",
   "administrative_assignment_note": "No local-authority record counts are published in this audit. Postal-district labels cannot be substituted for point-in-polygon checks. The official 2026 polygon dataset has been identified; geometry import and spatial assignment await reuse-licence confirmation and a coordinate-precision review.",
   "local_authorities": [
@@ -60,7 +60,7 @@
     },
     {
       "name": "Dublin 4",
-      "record_count": 24,
+      "record_count": 25,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "Count reconciled from data/objects.json; sample only, not exhaustive."
     },

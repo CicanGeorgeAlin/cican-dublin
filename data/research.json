@@ -648,5 +648,19 @@
       "DPC-3FM-APPENDIX-16-6-GSW-CONSERVATION",
       "DPC-3FM-GREAT-SOUTH-WALL-IMPACTS-INTERPRETATION"
     ]
+  },
+  {
+    "id": "RES-GSW-POOLBEG-ROUNDHEAD-ROCK-ARMOUR-2026",
+    "title": "Great South Wall roundhead — 2026 rock-armour reinforcement at Poolbeg Lighthouse",
+    "area": "POOLBEG LIGHTHOUSE · GREAT SOUTH WALL ROUNDHEAD · DUBLIN 4",
+    "updated": "2026-11-11",
+    "status": "OFFICIAL_COMPLETION_REPORTED_FIELD_CONDITION_PENDING",
+    "status_label": "DUBLIN PORT COMPANY · 23 MARCH 2026",
+    "summary": "Dublin Port Company reported completion of remedial rock-armour works around the Great South Wall roundhead near Poolbeg Lighthouse. The release describes approximately 5,000 tonnes of individually sized 6–9 tonne rocks transported by barge from Arklow and placed using a 150-tonne long-reach material handler. The feature is now separately catalogued as a contemporary infrastructure detail beneath the Great South Wall.",
+    "supported": "The official Port release dated 23 March 2026 states that the €2.5 million works followed storm damage, restored the breakwater's design profile, and that public access near the lighthouse had reopened after completion. It also identifies the rock sizes, total tonnage, barge transport and placement machinery.",
+    "limits": "The release does not provide exact chainage, a surveyed footprint, exact number of rocks, as-built drawings or an independent post-completion condition survey. It does not establish the current condition on 11 November 2026. No coordinates or map pin are assigned. The project image is credited to Murphy and is not reused because a separate image licence was not established. This contemporary rock armour must not be described as original historic masonry.",
+    "source_ids": [
+      "DPC-GSW-ROUNDHEAD-ROCK-ARMOUR-2026"
+    ]
   }
 ]

@@ -4443,5 +4443,25 @@
     "source_type": "OFFICIAL_LOCAL_AUTHORITY",
     "specific_reference": "Project background, estate history and archaeological programme.",
     "notes": "Official local-authority background source for St Anne’s Park heritage and archaeology."
+  },
+  {
+    "id": "DCC-ST-ANNES-2024-EXCAVATION-REPORT",
+    "name": "St Anne’s House (formerly Thornhill), St Anne’s Park — Preliminary Archaeological Excavation Report, 20 November 2024, Licence 22E0688 ext",
+    "publisher": "Dublin City Council / Archaeology and Built Heritage Ltd.",
+    "url": "https://www.dublincity.ie/sites/default/files/2025-05/2024-preliminary-archaeological-report.pdf",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_ARCHAEOLOGICAL_REPORT",
+    "specific_reference": "2024 community excavation report; sections 1–5; figures 8 and plates 1–16; licence 22E0688 ext.",
+    "notes": "Primary archaeological report documenting the former mansion site, in-situ remains, portico foundations, front steps, porch tiles, carriage road, picture gallery, main hall, demolition deposits and earlier excavations."
+  },
+  {
+    "id": "OLDSTONE-ST-ANNES-FOLLIES-2018",
+    "name": "St Anne’s Park — Follies conservation project",
+    "publisher": "Oldstone Conservation Ltd.",
+    "url": "https://www.oldstone.ie/project/st-annes-park-follies/",
+    "accessed": "2026-11-11",
+    "source_type": "CONSERVATION_ARCHITECT_PROJECT",
+    "specific_reference": "Project details and works; completed March 2018; conservation of twelve follies.",
+    "notes": "Contractor's project account identifies the Boathouse as the Pompeiian Temple, formerly used as a tea house, and separately lists the Rockwork Feature. Its proposed Lough Corrib origin for some boulders is recorded only as a suggestion."
   }
 ]

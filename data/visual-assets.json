@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 293,
+  "record_count": 296,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -11100,6 +11100,102 @@
         "Granite cornice, stepped parapet and corner finials",
         "Wrought-iron gate, limestone keystone and yellow-brick bond",
         "Record any surviving inscription only if legible; do not infer that historic lettering remains"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0133",
+      "name": "St Anne’s Park — Herculanean Temple",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 5",
+      "address": "Beside the Naniken River landscape, St Anne’s Park, Raheny, Dublin 5",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full temple and portico from a public path",
+        "Six Ionic columns and carved capitals",
+        "Architrave and frieze, including surviving wreath and swag carving",
+        "Granite plinth wall and wrought-iron railings",
+        "Any visible floor tiles only from an authorised public viewpoint; no entry into restricted areas"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0134",
+      "name": "St Anne’s Park — rustic archway and flanking viewing arches",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 5",
+      "address": "Elevated garden landscape overlooking Dublin Bay, St Anne’s Park, Raheny, Dublin 5",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Overall U-plan arrangement from a public path",
+        "Central segmental arch and flanking side arches",
+        "Rubble and cobble limestone and sandstone textures",
+        "Nosed granite steps and their relationship to the former avenue",
+        "View corridors towards Howth and the Dublin Mountains, if currently visible"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0135",
+      "name": "St Anne’s Park — Yew Circle and former fountain",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 5",
+      "address": "Within the historic garden landscape near the walled garden, St Anne’s Park, Raheny, Dublin 5",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Wide view of circular pit and surrounding yew trees",
+        "Rendered fountain surround and any surviving basin fabric",
+        "Yew hedge form and any remaining openings",
+        "Relationship to the walled garden and historic sightline",
+        "Any visible pump or water-system remnants only if safely accessible and clearly identifiable"
       ],
       "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
       "original_photo": null,

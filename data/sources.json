@@ -4243,5 +4243,35 @@
     "accessed": "2026-11-06",
     "source_type": "WIKIMEDIA_COMMONS_PHOTOGRAPH",
     "specific_reference": "The Woolstore, Dublin 1"
+  },
+  {
+    "id": "NIAH-50030040",
+    "name": "St Anne’s Park shell house",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030040/st-annes-park-raheny-dublin-5-co-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50030040; description and appraisal of the shell house within the walled garden at St Anne’s Park.",
+    "notes": "Official NIAH record. Describes the shell-and-pebble decoration, bone and skull material in niches, central pier lettering “The House that Jack built”, and a dog figure. The suggested association with the Guinness daughters is speculative in the source."
+  },
+  {
+    "id": "NIAH-50030035",
+    "name": "St Anne’s Park grotto",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030035/st-annes-park-raheny-dublin-5-co-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50030035; description and appraisal of the grotto on the Naniken River.",
+    "notes": "Official NIAH record. Describes the pointed-arch opening, calp-limestone rubble frontage, yellow-brick groin vault and riverside setting. It notes that the structure has also been described as a hermitage."
+  },
+  {
+    "id": "DCC-NORTH-BULL-ISLAND-PARKS-ACCESS",
+    "name": "North Bull Island and Dublin City Parks visitor information",
+    "publisher": "Dublin City Council",
+    "url": "https://www.dublincity.ie/parks-and-nature/dublin-city-parks/visit-park/north-bull-island",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_LOCAL_AUTHORITY",
+    "specific_reference": "Dublin City Council parks visitor information and public-access management context.",
+    "notes": "Used only as general Dublin City Council parks-access guidance. It is not evidence for the condition or precise accessibility of individual St Anne’s Park features."
   }
 ]

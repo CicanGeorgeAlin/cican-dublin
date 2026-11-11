@@ -4383,5 +4383,65 @@
     "source_type": "OFFICIAL_HERITAGE_RECORD",
     "specific_reference": "NIAH Registration 50030034; survey data, description and appraisal.",
     "notes": "Official NIAH record consulted for this separately catalogued feature. Present condition and exact field position remain to be checked."
+  },
+  {
+    "id": "NIAH-50030032",
+    "name": "St Anne’s Park — temple folly overlooking the artificial pond",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030032/st-annes-park-raheny-dublin-5-co-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50030032; survey data, description and appraisal.",
+    "notes": "Official NIAH record consulted for this separately catalogued bridge or folly. Current condition and exact field position remain to be checked."
+  },
+  {
+    "id": "NIAH-50030025",
+    "name": "St Anne’s Park — Naniken River footbridge with carved stone bracket",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030025/st-annes-park-raheny-dublin-5-co-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50030025; survey data, description and appraisal.",
+    "notes": "Official NIAH record consulted for this separately catalogued bridge or folly. Current condition and exact field position remain to be checked."
+  },
+  {
+    "id": "NIAH-50030027",
+    "name": "St Anne’s Park — Naniken River segmental-arch footbridge",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030027/st-annes-park-raheny-dublin-5-co-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50030027; survey data, description and appraisal.",
+    "notes": "Official NIAH record consulted for this separately catalogued bridge or folly. Current condition and exact field position remain to be checked."
+  },
+  {
+    "id": "NIAH-50030036",
+    "name": "St Anne’s Park — former kitchen-garden path bridge with groin-vaulted passage",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030036/st-annes-park-raheny-dublin-5-co-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50030036; survey data, description and appraisal.",
+    "notes": "Official NIAH record consulted for this separately catalogued bridge or folly. Current condition and exact field position remain to be checked."
+  },
+  {
+    "id": "EXCAVATIONS-2017-653-ST-ANNES-WELL",
+    "name": "2017:653 — RAHENY: St Anne’s Park, Dublin (Licence 16E0164)",
+    "publisher": "Excavations.ie / Department of Housing, Local Government and Heritage archaeological excavation database",
+    "url": "https://excavations.ie/report/2017/Dublin/0027639/",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_ARCHAEOLOGICAL_REPORT",
+    "specific_reference": "2017:653; licence 16E0164; St Anne’s Well, RMP DU019-012; ITM E 721916m N 737315m; published latitude/longitude 53.371942, -6.167878.",
+    "notes": "Report of archaeological monitoring during cleaning of St Anne’s Well in 2016. Records the circular opening at the base, nineteenth-century metal grille, granite paving extending 2.45m, and well dry for decades at time of report."
+  },
+  {
+    "id": "DCC-ST-ANNES-PARK-ARCHAEOLOGY",
+    "name": "St Anne’s Park Community Archaeology Programme",
+    "publisher": "Dublin City Council",
+    "url": "https://www.dublincity.ie/archaeology-conservation-and-heritage/archaeology-dublin/st-annes-park-community-archaeology-programme",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_LOCAL_AUTHORITY",
+    "specific_reference": "Project background, estate history and archaeological programme.",
+    "notes": "Official local-authority background source for St Anne’s Park heritage and archaeology."
   }
 ]

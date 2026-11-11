@@ -4693,5 +4693,55 @@
     "source_type": "OFFICIAL_HERITAGE_RECORD",
     "specific_reference": "NIAH Registration 50910032; building survey description, appraisal and published Irish Grid reference 315593, 233776.",
     "notes": "Official NIAH record identifies the pavement light or grille. Published grid reference locates host building, not exact feature centre."
+  },
+  {
+    "id": "NIAH-50010730",
+    "name": "1 Sherrard Street Lower — Ordnance Survey benchmark and 1827 street-name date panel — NIAH Registration 50010730",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010730/sherrard-street-lower-north-circular-road-dublin-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50010730; description, appraisal and published Irish Grid reference 316002, 235735.",
+    "notes": "Official NIAH survey is the source for the recorded physical feature. The published grid point identifies the host building/structure and is not a surveyed micro-coordinate for the detail."
+  },
+  {
+    "id": "NIAH-60260097",
+    "name": "Cherrywood Railway Viaduct — Ordnance Survey benchmark in granite pier — NIAH Registration 60260097",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/60260097/cherrywood-road-loughlinstown-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 60260097; description, appraisal and published Irish Grid reference 324410, 222818.",
+    "notes": "Official NIAH survey is the source for the recorded physical feature. The published grid point identifies the host building/structure and is not a surveyed micro-coordinate for the detail."
+  },
+  {
+    "id": "NIAH-50110355",
+    "name": "25 Pleasants Street — full-height cast-iron ventilation pipe — NIAH Registration 50110355",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50110355/25-pleasants-street-dublin-8-co-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50110355; description, appraisal and published Irish Grid reference 315430, 233021.",
+    "notes": "Official NIAH survey is the source for the recorded physical feature. The published grid point identifies the host building/structure and is not a surveyed micro-coordinate for the detail."
+  },
+  {
+    "id": "NIAH-50020369",
+    "name": "45 Pearse Street — historic pavement iron grille — NIAH Registration 50020369",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50020369/45-pearse-street-dublin-2-co-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50020369; description, appraisal and published Irish Grid reference 316684, 234063.",
+    "notes": "Official NIAH survey is the source for the recorded physical feature. The published grid point identifies the host building/structure and is not a surveyed micro-coordinate for the detail."
+  },
+  {
+    "id": "NIAH-50020367",
+    "name": "The Lombard, 1 Lombard Street East — cubed-glass basement pavement light — NIAH Registration 50020367",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50020367/the-lombard-1-lombard-street-east-pearse-street-dublin-2-co-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50020367; description, appraisal and published Irish Grid reference 316671, 234068.",
+    "notes": "Official NIAH survey is the source for the recorded physical feature. The published grid point identifies the host building/structure and is not a surveyed micro-coordinate for the detail."
   }
 ]

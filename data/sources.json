@@ -4283,5 +4283,35 @@
     "source_type": "OFFICIAL_LOCAL_AUTHORITY_HERITAGE_GUIDE",
     "specific_reference": "Dublin City Council's list and interpretation of the twelve garden follies at St Anne’s Park, including Shell House / Dogs Graveyard and Rustic Hermits Cave – Cave.",
     "notes": "Official council interpretation confirms the shell house and rustic grotto/ cave as distinct features among twelve garden follies built by the Guinness family, with the group broadly dating to the 1850s and 1860s."
+  },
+  {
+    "id": "NIAH-50030021",
+    "name": "The Roman Tower, St Anne’s Park",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030021/the-roman-tower-st-annes-park-raheny-dublin-5-co-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50030021; survey data, description and appraisal.",
+    "notes": "Records the tower's original position on the roof of St Anne's House, its move in 1873, and its role as a viewing tower over Dublin Bay."
+  },
+  {
+    "id": "NIAH-50030023",
+    "name": "Annie Lee Tower and Bridge, St Anne’s Park",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030023/annie-lee-tower-and-bridge-st-annes-park-raheny-dublin-5-co-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50030023; survey data, description and appraisal.",
+    "notes": "Records the 1838 bridge and tower, its pointed arch and limestone fabric, the 1926 plaque, and the commemoration of Annie Lee's birth."
+  },
+  {
+    "id": "NIAH-50030037",
+    "name": "The Clock Tower, St Anne’s Park",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030037/the-clock-tower-st-annes-park-raheny-dublin-5-co-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50030037; survey data, description and appraisal.",
+    "notes": "Records the 1854 four-stage bell tower, its walled-garden entrance, yellow-brick and carved-stone details, clock and former Guinness family motto inscription."
   }
 ]

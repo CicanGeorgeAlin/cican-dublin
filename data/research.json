@@ -808,5 +808,33 @@
       "DCC-ST-ANNES-PARK-FOLLIES",
       "DCC-ST-ANNES-PARK-ARCHAEOLOGY"
     ]
+  },
+  {
+    "id": "RES-ST-ANNES-HOUSE-ROCKWORK-BOATHOUSE-IDENTITY-2026",
+    "title": "St Anne’s Park — mansion archaeology, Rockwork Feature and Boathouse identity",
+    "area": "RAHENY · DUBLIN 5",
+    "updated": "2026-11-11",
+    "status": "MIXED_VERIFIED_AND_RESEARCH_LEAD",
+    "status_label": "ONE ARCHAEOLOGICAL RECORD VERIFIED; ONE LANDSCAPE LEAD PENDING FIELD IDENTIFICATION",
+    "summary": "Batch 136 adds the excavated remains of St Anne’s House as a distinct archaeological site record, registers the Rockwork Feature as a research lead separate from Rockwork Bridge, and improves the existing NIAH 50030032 record by confirming its alternate identity as the Boathouse / Pompeiian Temple.",
+    "supported": [
+      "Dublin City Council's 20 November 2024 archaeological report documents the 2024 excavation of 450 m² around the mansion's southern façade, portico, porch, picture gallery and part of the main hall.",
+      "The report records in-situ walls, surfaces, window recesses, portico foundations, surviving front-step details, decorative encaustic floor tiles, heating infrastructure and the historic carriage-road surface.",
+      "Dublin City Council's official follies list names both Rockwork Feature and Boat House as separate items in the park's twelve-folly group.",
+      "Oldstone Conservation's project account lists Rockwork Feature separately and identifies the Boathouse as the Pompeiian Temple, formerly used as a tea house. This supports aliasing the Boathouse to existing NIAH 50030032, not creating a duplicate."
+    ],
+    "limits": [
+      "No WGS84 point is assigned to the mansion remains or Rockwork Feature; the report map and park-wide address are not precise enough for a feature pin.",
+      "Rockwork Feature remains RESEARCH_LEAD until its exact field location is positively identified; it is not the same object as Rockwork Bridge (NIAH 50030028).",
+      "The possible Lough Corrib origin of some boulders is a contractor's suggestion and is not accepted as verified provenance.",
+      "The excavation report documents discoveries and condition during 2024; current exposure, access and condition require fresh field verification.",
+      "The Boathouse alias is attached to existing NIAH 50030032 to avoid duplicate catalogue records."
+    ],
+    "source_ids": [
+      "DCC-ST-ANNES-2024-EXCAVATION-REPORT",
+      "DCC-ST-ANNES-PARK-ARCHAEOLOGY",
+      "DCC-ST-ANNES-PARK-FOLLIES",
+      "OLDSTONE-ST-ANNES-FOLLIES-2018"
+    ]
   }
 ]

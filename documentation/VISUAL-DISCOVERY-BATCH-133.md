@@ -33,3 +33,8 @@ No online photograph was attached without a confirmed reuse licence. Each record
 - Duplicate IDs introduced: **0**
 
 This is a growing evidence-led sample, not a claim of exhaustive coverage of St Anne’s Park or Dublin heritage.
+
+
+## Follow-up integrity repair
+
+A post-batch source-reference audit found that an existing St Anne’s Park Rockwork Feature record referenced `DCC-ST-ANNES-PARK-FOLLIES`, which was absent from the source registry. The official Dublin City Council Follies guide was restored as a source entry. The repository now contains 446 registered sources; this repair does not add another catalogue object or image.

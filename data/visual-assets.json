@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 330,
+  "record_count": 335,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -12282,6 +12282,161 @@
         "Iron bars, frame and any decorative pattern",
         "Fixings and interface with paving",
         "View showing its relationship to the concealed basement"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-STR-0160",
+      "name": "1 Sherrard Street Lower — Ordnance Survey benchmark and 1827 street-name date panel",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 1",
+      "address": "1 Sherrard Street Lower, junction with North Circular Road, Dublin 1, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Benchmark detail on the corner plinth wall",
+        "Limestone date panel reading Lower Sherrard St. 1827",
+        "Relationship between benchmark and date panel",
+        "Granite paving and kerbing in context"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-STR-0161",
+      "name": "Cherrywood Railway Viaduct — Ordnance Survey benchmark in granite pier",
+      "category": "STREET_DETAIL",
+      "district": "Loughlinstown, County Dublin",
+      "address": "Cherrywood Road, Loughlinstown, County Dublin, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Whole five-arch viaduct from safe public vantage",
+        "Benchmark inscription on granite pier",
+        "Close-up showing inscription and surrounding stone dressing",
+        "Relationship of marked pier to road and arches"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-STR-0162",
+      "name": "25 Pleasants Street — full-height cast-iron ventilation pipe",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 8",
+      "address": "25 Pleasants Street, Dublin 8, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full vertical run of the ventilation pipe from public vantage",
+        "Pipe brackets and attachment points",
+        "Pipe termination and visible outlet details",
+        "Relationship to basement and façade materials"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-STR-0163",
+      "name": "45 Pearse Street — historic pavement iron grille",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 2",
+      "address": "45 Pearse Street, Dublin 2, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Grille in context with granite paving and kerb",
+        "Close-up of iron bar pattern and frame",
+        "Pavement interface and visible drainage openings",
+        "Wider frontage context"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-STR-0164",
+      "name": "The Lombard, 1 Lombard Street East — cubed-glass basement pavement light",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 2",
+      "address": "The Lombard, 1 Lombard Street East, corner of Pearse Street, Dublin 2, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Cubed-glass pavement light in its granite surround",
+        "Individual glass blocks and surface condition",
+        "Granite pavier surround and pavement joints",
+        "Position on the south side of the building and street corner"
       ],
       "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
       "original_photo": null,

@@ -4343,5 +4343,45 @@
     "source_type": "OFFICIAL_HERITAGE_RECORD",
     "specific_reference": "NIAH Registration 50030031; survey data, description and appraisal.",
     "notes": "Official NIAH record. Description and appraisal consulted for the separately catalogued structure; present condition and field position remain to be checked."
+  },
+  {
+    "id": "NIAH-50030026",
+    "name": "St Anne’s Park — remains of the earlier walled garden",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030026/st-annes-park-raheny-dublin-5-co-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50030026; survey data, description and appraisal.",
+    "notes": "Official NIAH record consulted for this separately catalogued feature. Present condition and exact field position remain to be checked."
+  },
+  {
+    "id": "NIAH-50030028",
+    "name": "St Anne’s Park — Rockwork Bridge",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030028/st-annes-park-raheny-dublin-5-co-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50030028; survey data, description and appraisal.",
+    "notes": "Official NIAH record consulted for this separately catalogued feature. Present condition and exact field position remain to be checked."
+  },
+  {
+    "id": "NIAH-50030039",
+    "name": "St Anne’s Park — relocated nineteenth-century iron gate screen and granite piers",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030039/st-annes-park-raheny-dublin-5-co-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50030039; survey data, description and appraisal.",
+    "notes": "Official NIAH record consulted for this separately catalogued feature. Present condition and exact field position remain to be checked."
+  },
+  {
+    "id": "NIAH-50030034",
+    "name": "St Anne’s Park — double-arch bridge incorporating a hermitage",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030034/st-annes-park-raheny-dublin-5-co-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50030034; survey data, description and appraisal.",
+    "notes": "Official NIAH record consulted for this separately catalogued feature. Present condition and exact field position remain to be checked."
   }
 ]

@@ -71,13 +71,13 @@
       "coverage_note": "Count reconciled from data/objects.json; sample only, not exhaustive."
     },
     {
-      "district": "Dublin 5",
-      "count": 2,
-      "assignment_status": "ADDRESS_LABEL_ONLY"
+      "name": "Dublin 5",
+      "record_count": 2,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "Count reconciled from data/objects.json; sample only, not exhaustive."
     }
   ],
   "districts_without_catalogue_records": [
-    "Dublin 5",
     "Dublin 6",
     "Dublin 6W",
     "Dublin 7",
@@ -96,7 +96,7 @@
     "Dublin 24"
   ],
   "totals": {
-    "postal_districts_with_records": 5,
+    "postal_districts_with_records": 6,
     "local_authorities_with_verified_spatial_assignment": 0,
     "records_with_verified_local_authority_assignment": 0
   },

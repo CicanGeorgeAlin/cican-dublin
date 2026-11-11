@@ -4503,5 +4503,65 @@
     "source_type": "OFFICIAL_LOCAL_AUTHORITY",
     "specific_reference": "Dublin City Council park guide listing the twelve garden follies at St Anne’s Park and identifying their names.",
     "notes": "Official local-authority guide used to distinguish individually named follies, including the Shell House / Dogs Graveyard, Roman Tower, Annie Lee Bridge, Herculanean Temple and Rockwork Feature. Used as supporting identification evidence; exact present condition and field locations remain separate verification tasks."
+  },
+  {
+    "id": "NIAH-50120064",
+    "name": "Malahide Road, Dublin 9 — c.1850 granite GPO / Malahide milestone — NIAH Registration 50120064",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50120064/malahide-road-dublin-9-co-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50120064; survey data, description, appraisal and published Irish Grid reference 318043, 236742.",
+    "notes": "Official NIAH heritage record used for the feature description, historic inscription, classification/date and published Irish Grid reference. The transformed WGS84 point is source-derived; current physical condition and founder GPS remain unverified."
+  },
+  {
+    "id": "NIAH-50130216",
+    "name": "Malahide Road at Belcamp Lane — c.1890 granite GPO / Malahide milestone — NIAH Registration 50130216",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50130216/malahide-road-belcamp-lane-dublin-17-co-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50130216; survey data, description, appraisal and published Irish Grid reference 320864, 240445.",
+    "notes": "Official NIAH heritage record used for the feature description, historic inscription, classification/date and published Irish Grid reference. The transformed WGS84 point is source-derived; current physical condition and founder GPS remain unverified."
+  },
+  {
+    "id": "NIAH-50130243",
+    "name": "Malahide Road, Artane — c.1820 granite GPO / Malahide milestone and surround — NIAH Registration 50130243",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50130243/malahide-road-dublin-3-co-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50130243; survey data, description, appraisal and published Irish Grid reference 319068, 238039.",
+    "notes": "Official NIAH heritage record used for the feature description, historic inscription, classification/date and published Irish Grid reference. The transformed WGS84 point is source-derived; current physical condition and founder GPS remain unverified."
+  },
+  {
+    "id": "NIAH-11344043",
+    "name": "Dublin Road, Auburn, Malahide — c.1850 cast-iron GPO / Malahide milestone — NIAH Registration 11344043",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/11344043/dublin-road-auburn-malahide-co-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 11344043; survey data, description, appraisal and published Irish Grid reference 321318, 245055.",
+    "notes": "Official NIAH heritage record used for the feature description, historic inscription, classification/date and published Irish Grid reference. The transformed WGS84 point is source-derived; current physical condition and founder GPS remain unverified."
+  },
+  {
+    "id": "NIAH-11358047",
+    "name": "Dublin Road, Burrow, Sutton — c.1850 cast-iron GPO / Howth milestone — NIAH Registration 11358047",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/11358047/dublin-road-burrow-co-by-howth-ed-sutton-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 11358047; survey data, description, appraisal and published Irish Grid reference 324918, 239225.",
+    "notes": "Official NIAH heritage record used for the feature description, historic inscription, classification/date and published Irish Grid reference. The transformed WGS84 point is source-derived; current physical condition and founder GPS remain unverified."
+  },
+  {
+    "id": "NIAH-50120131",
+    "name": "Howth Road, Dublin 3 — c.1850 granite GPO / Howth milestone — NIAH Registration 50120131",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50120131/howth-road-dublin-3-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50120131; survey data, description, appraisal and published Irish Grid reference 318204, 236475.",
+    "notes": "Official NIAH heritage record used for the feature description, historic inscription, classification/date and published Irish Grid reference. The transformed WGS84 point is source-derived; current physical condition and founder GPS remain unverified."
   }
 ]

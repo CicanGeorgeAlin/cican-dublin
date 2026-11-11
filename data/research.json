@@ -690,5 +690,33 @@
       "DCC-ST-ANNES-PARK-ACCESS",
       "DCC-ST-ANNES-FOLLIES"
     ]
+  },
+  {
+    "id": "RES-ST-ANNES-TOWER-BRIDGE-2026",
+    "title": "St Anne’s Park — Roman Tower, Annie Lee Tower and Bridge, and Clock Tower",
+    "area": "RAHENY · DUBLIN 5",
+    "updated": "2026-11-11",
+    "status": "DOCUMENTED_HERITAGE_RECORDS",
+    "status_label": "THREE OFFICIAL NIAH RECORDS CONSULTED",
+    "summary": "Three separately registered structures in St Anne’s Park were identified in the NIAH and checked against the existing catalogue: the Roman Tower (50030021), Annie Lee Tower and Bridge (50030023), and Clock Tower (50030037).",
+    "supported": [
+      "NIAH 50030021 records the Roman Tower as built in 1837 and moved from the roof of St Anne’s House to its present position in 1873; it served as a viewing tower over Dublin Bay.",
+      "NIAH 50030023 records the Annie Lee Tower and Bridge as dating to 1838 and links its construction to the birth of Annie Lee; the plaque on the tower was inserted in 1926.",
+      "NIAH 50030037 records the Clock Tower as built in 1854 and describes its four-stage form, walled-garden entrance, clock, bell and former inscription.",
+      "Dublin City Council identifies these as part of the twelve follies in the St Anne’s Park landscape."
+    ],
+    "limits": [
+      "No founder field inspection has been completed; present condition and visibility remain unverified.",
+      "NIAH Irish Grid references are retained, but no WGS84 coordinate or field GPS is assigned in this batch.",
+      "The former Clock Tower inscription is a historical source statement and is not assumed to survive.",
+      "The Annie Lee Tower plaque wording has not been transcribed without direct inspection."
+    ],
+    "source_ids": [
+      "NIAH-50030021",
+      "NIAH-50030023",
+      "NIAH-50030037",
+      "DCC-ST-ANNES-PARK-ACCESS",
+      "DCC-ST-ANNES-FOLLIES"
+    ]
   }
 ]

@@ -4563,5 +4563,65 @@
     "source_type": "OFFICIAL_HERITAGE_RECORD",
     "specific_reference": "NIAH Registration 50120131; survey data, description, appraisal and published Irish Grid reference 318204, 236475.",
     "notes": "Official NIAH heritage record used for the feature description, historic inscription, classification/date and published Irish Grid reference. The transformed WGS84 point is source-derived; current physical condition and founder GPS remain unverified."
+  },
+  {
+    "id": "NIAH-50100257",
+    "name": "Lady Grattan Fountain, St Stephen’s Green — 1880 marble and granite drinking fountain — NIAH Registration 50100257",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50100257/lady-grattan-fountain-saint-stephens-green-dublin-2-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50100257; survey description, appraisal, date and published Irish Grid reference 316031, 233514.",
+    "notes": "Official NIAH record used for object identity, historical description, appraisal and source grid reference. Transformed WGS84 point is source-derived; current physical condition and founder GPS remain unverified."
+  },
+  {
+    "id": "NIAH-50080411",
+    "name": "Inchicore Railway Works — c.1890 Glenfield & Kennedy cast-iron water hydrant — NIAH Registration 50080411",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50080411/inchicore-railway-works-inchicore-dublin-8-co-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50080411; survey description, appraisal, date and published Irish Grid reference 311030, 233263.",
+    "notes": "Official NIAH record used for object identity, historical description, appraisal and source grid reference. Transformed WGS84 point is source-derived; current physical condition and founder GPS remain unverified."
+  },
+  {
+    "id": "NIAH-50080307",
+    "name": "James’s Street — Francis Sandys 1790 drinking fountain and sundial obelisk — NIAH Registration 50080307",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50080307/jamess-street-dublin-8-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50080307; survey description, appraisal, date and published Irish Grid reference 313923, 233898.",
+    "notes": "Official NIAH record used for object identity, historical description, appraisal and source grid reference. Transformed WGS84 point is source-derived; current physical condition and founder GPS remain unverified."
+  },
+  {
+    "id": "NIAH-50070207",
+    "name": "Stanley Street — surviving Dublin Corporation cast-iron tram rails and point — NIAH Registration 50070207",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50070207/stanley-street-dublin-7-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50070207; survey description, appraisal, date and published Irish Grid reference 314540, 234742.",
+    "notes": "Official NIAH record used for object identity, historical description, appraisal and source grid reference. Transformed WGS84 point is source-derived; current physical condition and founder GPS remain unverified."
+  },
+  {
+    "id": "NIAH-50070158",
+    "name": "Rutland Fountain — 1785 Duke of Rutland public water fountain, Collins Barracks — NIAH Registration 50070158",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50070158/rutland-fountain-national-museum-of-ireland-collins-barracks-benburb-street-dublin-7-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50070158; survey description, appraisal, date and published Irish Grid reference 314117, 234534.",
+    "notes": "Official NIAH record used for object identity, historical description, appraisal and source grid reference. Transformed WGS84 point is source-derived; current physical condition and founder GPS remain unverified."
+  },
+  {
+    "id": "NIAH-50080656",
+    "name": "Gray Street / Reginald Street — former MacFarlane drinking-fountain canopy, now Sacred Heart monument — NIAH Registration 50080656",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50080656/gray-street-reginald-street-dublin-8-dublin-city",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50080656; survey description, appraisal, date and published Irish Grid reference 314651, 233580.",
+    "notes": "Official NIAH record used for object identity, historical description, appraisal and source grid reference. Transformed WGS84 point is source-derived; current physical condition and founder GPS remain unverified."
   }
 ]

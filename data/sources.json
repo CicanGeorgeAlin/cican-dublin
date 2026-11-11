@@ -4313,5 +4313,35 @@
     "source_type": "OFFICIAL_HERITAGE_RECORD",
     "specific_reference": "NIAH Registration 50030037; survey data, description and appraisal.",
     "notes": "Records the 1854 four-stage bell tower, its walled-garden entrance, yellow-brick and carved-stone details, clock and former Guinness family motto inscription."
+  },
+  {
+    "id": "NIAH-50030024",
+    "name": "St Anne’s Park — Herculanean Temple",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030024/st-annes-park-raheny-dublin-5-co-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50030024; survey data, description and appraisal.",
+    "notes": "Official NIAH record. Description and appraisal consulted for the separately catalogued structure; present condition and field position remain to be checked."
+  },
+  {
+    "id": "NIAH-50030030",
+    "name": "St Anne’s Park — rustic archway and flanking viewing arches",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030030/st-annes-park-raheny-dublin-5-co-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50030030; survey data, description and appraisal.",
+    "notes": "Official NIAH record. Description and appraisal consulted for the separately catalogued structure; present condition and field position remain to be checked."
+  },
+  {
+    "id": "NIAH-50030031",
+    "name": "St Anne’s Park — Yew Circle and former fountain",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030031/st-annes-park-raheny-dublin-5-co-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50030031; survey data, description and appraisal.",
+    "notes": "Official NIAH record. Description and appraisal consulted for the separately catalogued structure; present condition and field position remain to be checked."
   }
 ]

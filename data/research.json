@@ -776,5 +776,37 @@
       "DCC-ST-ANNES-PARK-ACCESS",
       "DCC-ST-ANNES-FOLLIES"
     ]
+  },
+  {
+    "id": "RES-ST-ANNES-WELL-TEMPLE-NANIKEN-BRIDGES-2026",
+    "title": "St Anne’s Park — holy well, pond temple and three Naniken bridges",
+    "area": "RAHENY · DUBLIN 5",
+    "updated": "2026-11-11",
+    "status": "DOCUMENTED_HERITAGE_AND_ARCHAEOLOGICAL_RECORDS",
+    "status_label": "FIVE FEATURES DOCUMENTED FROM OFFICIAL RECORDS",
+    "summary": "Batch 135 adds the separately registered pond temple folly (NIAH 50030032), three distinct Naniken River/path bridges (NIAH 50030025, 50030027 and 50030036), and St Anne’s Well (RMP DU019-012), supported by an archaeological monitoring report.",
+    "supported": [
+      "NIAH 50030032 describes a c.1860 single-bay temple folly overlooking an artificial pond, distinct from the already catalogued Herculanean Temple (50030024).",
+      "NIAH 50030025 records a c.1860 segmental-arch bridge with a carved stone bracket on the west spandrel and brick soffit visible at the path surface.",
+      "NIAH 50030027 records a separate c.1860 segmental-arch bridge with squared-stone voussoirs, part of the historic garden path system.",
+      "NIAH 50030036 records a c.1860 bridge linking the route to the former kitchen gardens with the riverside path, with a groin-vaulted passage.",
+      "Dublin City Council identifies St Anne’s Well as medieval and a protected recorded monument DU019-012. Excavations.ie report 2017:653 documents the 2016 monitoring, nineteenth-century grille, circular opening and granite paving."
+    ],
+    "limits": [
+      "The NIAH Irish Grid references for the four built structures are retained without WGS84 coordinates or founder GPS.",
+      "The well's published latitude/longitude and ITM coordinates are source-derived from the archaeological report, not field-verified.",
+      "The archaeological report records the well as dry at the time of the 2016 monitoring; present water conditions are unknown.",
+      "Current condition, exact visibility of internal details and safe photographic viewpoints require field inspection.",
+      "No online photographs were added without confirming a suitable reuse licence."
+    ],
+    "source_ids": [
+      "NIAH-50030032",
+      "NIAH-50030025",
+      "NIAH-50030027",
+      "NIAH-50030036",
+      "EXCAVATIONS-2017-653-ST-ANNES-WELL",
+      "DCC-ST-ANNES-PARK-FOLLIES",
+      "DCC-ST-ANNES-PARK-ARCHAEOLOGY"
+    ]
   }
 ]

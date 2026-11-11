@@ -10958,7 +10958,8 @@
     ],
     "sources": [
       "NIAH-50030040",
-      "DCC-NORTH-BULL-ISLAND-PARKS-ACCESS"
+      "DCC-ST-ANNES-PARK-ACCESS",
+      "DCC-ST-ANNES-FOLLIES"
     ],
     "coordinate_status": "NOT_SET",
     "coordinate_source": "NIAH Registration 50030040 publishes Irish Grid 321484, 237275. No WGS84 coordinate or field GPS has been assigned in this batch.",
@@ -10996,7 +10997,8 @@
     ],
     "sources": [
       "NIAH-50030035",
-      "DCC-NORTH-BULL-ISLAND-PARKS-ACCESS"
+      "DCC-ST-ANNES-PARK-ACCESS",
+      "DCC-ST-ANNES-FOLLIES"
     ],
     "coordinate_status": "NOT_SET",
     "coordinate_source": "NIAH Registration 50030035 publishes Irish Grid 321841, 237270. No WGS84 coordinate or field GPS has been assigned in this batch.",

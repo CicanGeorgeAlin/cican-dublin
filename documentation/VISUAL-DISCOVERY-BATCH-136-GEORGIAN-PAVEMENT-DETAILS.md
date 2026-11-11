@@ -36,7 +36,7 @@ Four visual records and detailed founder photography briefs were registered. No 
 ## Reconciliation
 
 - Catalogue objects: **326** (up from 322)
-- Registered sources: **458** (unchanged; all four NIAH sources were already registered)
+- Registered sources: **461** (up from 458; three new NIAH source records, with the Mountjoy Square source already registered)
 - Visual records: **326** (up from 322)
 - New detail objects: **4**
 - Duplicate IDs introduced: **0**

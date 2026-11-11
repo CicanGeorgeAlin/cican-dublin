@@ -4493,5 +4493,15 @@
     "source_type": "OFFICIAL_HERITAGE_RECORD",
     "specific_reference": "NIAH Registration 50030007; c.1825 dressed granite milestone; plaque “P.O/Dublin/5/Howth/4”; Irish Grid 322530, 238277.",
     "notes": "Official NIAH survey record used for the historic description, classification, plaque transcription and published Irish Grid reference. The transformed WGS84 point is source-derived; current physical condition and founder GPS remain unverified."
+  },
+  {
+    "id": "DCC-ST-ANNES-PARK-FOLLIES",
+    "name": "St Anne’s Park — Follies",
+    "publisher": "Dublin City Council",
+    "url": "https://www.dublincity.ie/parks-and-nature/dublin-city-parks/visit-park/st-annes-park/follies",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_LOCAL_AUTHORITY",
+    "specific_reference": "Dublin City Council park guide listing the twelve garden follies at St Anne’s Park and identifying their names.",
+    "notes": "Official local-authority guide used to distinguish individually named follies, including the Shell House / Dogs Graveyard, Roman Tower, Annie Lee Bridge, Herculanean Temple and Rockwork Feature. Used as supporting identification evidence; exact present condition and field locations remain separate verification tasks."
   }
 ]

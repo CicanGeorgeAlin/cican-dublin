@@ -4265,13 +4265,23 @@
     "notes": "Official NIAH record. Describes the pointed-arch opening, calp-limestone rubble frontage, yellow-brick groin vault and riverside setting. It notes that the structure has also been described as a hermitage."
   },
   {
-    "id": "DCC-NORTH-BULL-ISLAND-PARKS-ACCESS",
-    "name": "North Bull Island and Dublin City Parks visitor information",
+    "id": "DCC-ST-ANNES-PARK-ACCESS",
+    "name": "St Anne’s Park visitor information",
     "publisher": "Dublin City Council",
-    "url": "https://www.dublincity.ie/parks-and-nature/dublin-city-parks/visit-park/north-bull-island",
+    "url": "https://www.dublincity.ie/parks-and-nature/dublin-city-parks/visit-park/st-annes-park",
     "accessed": "2026-11-11",
     "source_type": "OFFICIAL_LOCAL_AUTHORITY",
-    "specific_reference": "Dublin City Council parks visitor information and public-access management context.",
-    "notes": "Used only as general Dublin City Council parks-access guidance. It is not evidence for the condition or precise accessibility of individual St Anne’s Park features."
+    "specific_reference": "Official park address, visitor information and accessibility.",
+    "notes": "Confirms St Anne’s Park, Clontarf East / Raheny, Dublin 5 and provides visitor information. It does not verify the condition or precise access route to the individual follies."
+  },
+  {
+    "id": "DCC-ST-ANNES-FOLLIES",
+    "name": "St Anne’s Park — Follies",
+    "publisher": "Dublin City Council",
+    "url": "https://www.dublincity.ie/parks-and-nature/dublin-city-parks/visit-park/st-annes-park/follies",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_LOCAL_AUTHORITY_HERITAGE_GUIDE",
+    "specific_reference": "Dublin City Council's list and interpretation of the twelve garden follies at St Anne’s Park, including Shell House / Dogs Graveyard and Rustic Hermits Cave – Cave.",
+    "notes": "Official council interpretation confirms the shell house and rustic grotto/ cave as distinct features among twelve garden follies built by the Guinness family, with the group broadly dating to the 1850s and 1860s."
   }
 ]

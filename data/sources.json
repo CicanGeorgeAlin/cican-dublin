@@ -4463,5 +4463,35 @@
     "source_type": "CONSERVATION_ARCHITECT_PROJECT",
     "specific_reference": "Project details and works; completed March 2018; conservation of twelve follies.",
     "notes": "Contractor's project account identifies the Boathouse as the Pompeiian Temple, formerly used as a tea house, and separately lists the Rockwork Feature. Its proposed Lough Corrib origin for some boulders is recorded only as a suggestion."
+  },
+  {
+    "id": "NIAH-50030295",
+    "name": "Howth Road, Dublin 3 — milestone / milepost",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030295/howth-road-dublin-3-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50030295; c.1825 dressed granite milestone; plaque “P.O/Dublin 3/Howth 6”; Irish Grid 319658, 237171.",
+    "notes": "Official NIAH survey record used for the historic description, classification, plaque transcription and published Irish Grid reference. The transformed WGS84 point is source-derived; current physical condition and founder GPS remain unverified."
+  },
+  {
+    "id": "NIAH-50030081",
+    "name": "Howth Road, Clontarf, Ballyhoy — milestone / milepost",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030081/howth-road-clontarf-ballyhoy-dublin-3-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50030081; c.1825 dressed granite milestone; plaque “P.O/Dublin/4/Howth/5”; Irish Grid 320949, 237960.",
+    "notes": "Official NIAH survey record used for the historic description, classification, plaque transcription and published Irish Grid reference. The transformed WGS84 point is source-derived; current physical condition and founder GPS remain unverified."
+  },
+  {
+    "id": "NIAH-50030007",
+    "name": "Howth Road, Raheny North — milestone / milepost",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030007/howth-road-raheny-north-dublin-5-co-dublin",
+    "accessed": "2026-11-11",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50030007; c.1825 dressed granite milestone; plaque “P.O/Dublin/5/Howth/4”; Irish Grid 322530, 238277.",
+    "notes": "Official NIAH survey record used for the historic description, classification, plaque transcription and published Irish Grid reference. The transformed WGS84 point is source-derived; current physical condition and founder GPS remain unverified."
   }
 ]

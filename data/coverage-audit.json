@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "audited_on": "2026-11-11",
+  "audited_on": "2026-11-13",
   "scope": "Dublin City and County Dublin",
-  "catalogue_total": 307,
+  "catalogue_total": 335,
   "administrative_assignment_status": "NOT_SPATIALLY_VERIFIED",
   "administrative_assignment_note": "No local-authority record counts are published in this audit. Postal-district labels cannot be substituted for point-in-polygon checks. The official 2026 polygon dataset has been identified; geometry import and spatial assignment await reuse-licence confirmation and a coordinate-precision review.",
   "local_authorities": [
@@ -42,19 +42,25 @@
   "postal_districts": [
     {
       "name": "Dublin 1",
-      "record_count": 98,
+      "record_count": 101,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "Count reconciled from data/objects.json; sample only, not exhaustive."
     },
     {
+      "name": "Dublin 17",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "Newly populated district in the current catalogue; count reconciled from data/objects.json. Coverage remains a sample, not exhaustive."
+    },
+    {
       "name": "Dublin 2",
-      "record_count": 85,
+      "record_count": 92,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "Count reconciled from data/objects.json; sample only, not exhaustive."
     },
     {
       "name": "Dublin 3",
-      "record_count": 67,
+      "record_count": 71,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "Count reconciled from data/objects.json; sample only, not exhaustive."
     },
@@ -65,23 +71,51 @@
       "coverage_note": "Count reconciled from data/objects.json; sample only, not exhaustive."
     },
     {
-      "name": "Dublin 8",
-      "record_count": 13,
+      "name": "Dublin 5",
+      "record_count": 20,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "Count reconciled from data/objects.json; sample only, not exhaustive."
     },
     {
-      "name": "Dublin 5",
-      "record_count": 19,
+      "name": "Dublin 7",
+      "record_count": 4,
       "status": "RESEARCH_IN_PROGRESS",
-      "coverage_note": "Count reconciled from data/objects.json; includes one research-lead feature and is not exhaustive."
+      "coverage_note": "Newly populated district in the current catalogue; count reconciled from data/objects.json. Coverage remains a sample, not exhaustive."
+    },
+    {
+      "name": "Dublin 8",
+      "record_count": 17,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "Count reconciled from data/objects.json; sample only, not exhaustive."
+    },
+    {
+      "name": "Dublin 9",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "Newly populated district in the current catalogue; count reconciled from data/objects.json. Coverage remains a sample, not exhaustive."
+    },
+    {
+      "name": "Loughlinstown, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "Newly populated district in the current catalogue; count reconciled from data/objects.json. Coverage remains a sample, not exhaustive."
+    },
+    {
+      "name": "Malahide, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "Newly populated district in the current catalogue; count reconciled from data/objects.json. Coverage remains a sample, not exhaustive."
+    },
+    {
+      "name": "Sutton, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "Newly populated district in the current catalogue; count reconciled from data/objects.json. Coverage remains a sample, not exhaustive."
     }
   ],
   "districts_without_catalogue_records": [
     "Dublin 6",
     "Dublin 6W",
-    "Dublin 7",
-    "Dublin 9",
     "Dublin 10",
     "Dublin 11",
     "Dublin 12",
@@ -89,7 +123,6 @@
     "Dublin 14",
     "Dublin 15",
     "Dublin 16",
-    "Dublin 17",
     "Dublin 18",
     "Dublin 20",
     "Dublin 22",

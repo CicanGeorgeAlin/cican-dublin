@@ -12268,7 +12268,8 @@
     "coordinate_source": "Published NIAH Irish Grid reference 315580, 235537 transformed from EPSG:29902 to WGS84 using EPSG operation 1641. The grid locates the host building, not the exact cover/plaque; this is an approximate locator, not founder GPS or a surveyed feature coordinate.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH 50070481 describes a cast-iron coal-hole cover in the granite pavement to the front of 74 Eccles Street. This is a separately catalogued detail, not a duplicate of the parent building. NIAH grid reference locates the building, not a surveyed exact cover centre; coordinates are approximate source-derived locators only. Current survival and precise cover position require field verification.",
-    "last_researched": "2026-11-11"
+    "last_researched": "2026-11-11",
+    "access_status": "Access and current visibility have not yet been verified. Photograph only from a lawful, safe public viewpoint; do not enter private property or restricted areas. Check local access restrictions before fieldwork."
   },
   {
     "id": "DUB-STR-0153",
@@ -12304,7 +12305,8 @@
     "coordinate_source": "Published NIAH Irish Grid reference 315597, 235530 transformed from EPSG:29902 to WGS84 using EPSG operation 1641. The grid locates the host building, not the exact cover/plaque; this is an approximate locator, not founder GPS or a surveyed feature coordinate.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH 50070484 specifically records a cast-iron coal-hole cover in the granite pavement in front of 77 Eccles Street. The NIAH grid reference is for the building and is not an exact surveyed cover coordinate. The WGS84 point is an approximate source-derived locator; current survival and precise position require field verification.",
-    "last_researched": "2026-11-11"
+    "last_researched": "2026-11-11",
+    "access_status": "Access and current visibility have not yet been verified. Photograph only from a lawful, safe public viewpoint; do not enter private property or restricted areas. Check local access restrictions before fieldwork."
   },
   {
     "id": "DUB-STR-0154",
@@ -12340,7 +12342,8 @@
     "coordinate_source": "Published NIAH Irish Grid reference 315980, 235494 transformed from EPSG:29902 to WGS84 using EPSG operation 1641. The grid locates the host building, not the exact cover/plaque; this is an approximate locator, not founder GPS or a surveyed feature coordinate.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH 50010820 records a cast-iron coal-hole cover in the pavement to the front of No. 3 Mountjoy Square North. Parent building is already catalogued as DUB-BLD-0025; this entry separately records the physical coal-hole detail and links to that parent. The published grid reference is for the building, not exact cover centre; locator is approximate and source-derived.",
-    "last_researched": "2026-11-11"
+    "last_researched": "2026-11-11",
+    "access_status": "Access and current visibility have not yet been verified. Photograph only from a lawful, safe public viewpoint; do not enter private property or restricted areas. Check local access restrictions before fieldwork."
   },
   {
     "id": "DUB-STR-0155",
@@ -12376,7 +12379,8 @@
     "coordinate_source": "Published NIAH Irish Grid reference 315823, 233956 transformed from EPSG:29902 to WGS84 using EPSG operation 1641. The grid locates the host building, not the exact cover/plaque; this is an approximate locator, not founder GPS or a surveyed feature coordinate.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH 50910150 identifies a carved limestone name plaque reading 'St. Andrew's Street' at the northeast end of the façade. NIAH also notes the south end was formerly called Hog Hill. This is a separate detail entry, not a duplicate of the host building. Published grid locates the host building; exact plaque position is not independently surveyed and must be field checked.",
-    "last_researched": "2026-11-11"
+    "last_researched": "2026-11-11",
+    "access_status": "Access and current visibility have not yet been verified. Photograph only from a lawful, safe public viewpoint; do not enter private property or restricted areas. Check local access restrictions before fieldwork."
   },
   {
     "id": "DUB-STR-0156",
@@ -12412,7 +12416,8 @@
     "coordinate_source": "Published NIAH Irish Grid reference 315948, 233949 transformed from EPSG:29902 to WGS84 using EPSG operation 1641. The reference locates the host building, not the exact pavement feature; approximate locator only, not founder GPS.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH 50910139 explicitly records a cast-iron pavement light at street level serving the basement. Published Irish Grid 315948, 233949 identifies the host building, not an exact surveyed centre of the light; WGS84 point is approximate source-derived locator, not founder GPS. Current survival and exact position require field verification.",
-    "last_researched": "2026-11-11"
+    "last_researched": "2026-11-11",
+    "access_status": "Access and current visibility have not yet been verified. Photograph only from a lawful, safe public viewpoint; do not enter private property or restricted areas. Check local access restrictions before fieldwork."
   },
   {
     "id": "DUB-STR-0157",
@@ -12448,7 +12453,8 @@
     "coordinate_source": "Published NIAH Irish Grid reference 315932, 233959 transformed from EPSG:29902 to WGS84 using EPSG operation 1641. The reference locates the host building, not the exact pavement feature; approximate locator only, not founder GPS.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH 50910142 describes the basement as enclosed by a cast-iron pavement light at street level. Published Irish Grid 315932, 233959 locates the host building, not an exact surveyed light centre; coordinate is an approximate source-derived locator, not founder GPS. Current survival and exact position require field verification.",
-    "last_researched": "2026-11-11"
+    "last_researched": "2026-11-11",
+    "access_status": "Access and current visibility have not yet been verified. Photograph only from a lawful, safe public viewpoint; do not enter private property or restricted areas. Check local access restrictions before fieldwork."
   },
   {
     "id": "DUB-STR-0158",
@@ -12484,7 +12490,8 @@
     "coordinate_source": "Published NIAH Irish Grid reference 316077, 234519 transformed from EPSG:29902 to WGS84 using EPSG operation 1641. The reference locates the host building, not the exact pavement feature; approximate locator only, not founder GPS.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH 50010284 explicitly records a glazed cast-iron pavement light to the cellar set in granite slabs. Published Irish Grid 316077, 234519 identifies the host building, not the exact light centre; WGS84 point is approximate source-derived locator, not founder GPS. Current survival and exact location require field verification.",
-    "last_researched": "2026-11-11"
+    "last_researched": "2026-11-11",
+    "access_status": "Access and current visibility have not yet been verified. Photograph only from a lawful, safe public viewpoint; do not enter private property or restricted areas. Check local access restrictions before fieldwork."
   },
   {
     "id": "DUB-STR-0159",
@@ -12520,7 +12527,8 @@
     "coordinate_source": "Published NIAH Irish Grid reference 315593, 233776 transformed from EPSG:29902 to WGS84 using EPSG operation 1641. The reference locates the host building, not the exact pavement feature; approximate locator only, not founder GPS.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH 50910032 records a grille serving the basement in the pavement to the front of the building. The source does not specify a more precise original function. Published Irish Grid 315593, 233776 locates the host building, not exact grille centre; coordinate is an approximate source-derived locator, not founder GPS. Current survival and exact position require field verification.",
-    "last_researched": "2026-11-11"
+    "last_researched": "2026-11-11",
+    "access_status": "Access and current visibility have not yet been verified. Photograph only from a lawful, safe public viewpoint; do not enter private property or restricted areas. Check local access restrictions before fieldwork."
   },
   {
     "id": "DUB-STR-0160",
@@ -12556,7 +12564,8 @@
     "coordinate_source": "Published NIAH Irish Grid reference 316002, 235735 transformed from EPSG:29902 to WGS84 using EPSG operation 1641. This identifies the host building/structure, not exact detail position; approximate locator, not founder GPS.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH 50010730 records a good example of an Ordnance Survey benchmark on the plinth wall at the corner and a decorative Portland limestone panel inscribed 'Lower Sherrard St. 1827'. This is at 1 Sherrard Street Lower and is distinct from the previously catalogued benchmark at 1 Sherrard Street Upper (DUB-STR-0048). NIAH grid identifies host building, not exact benchmark point; approximate source-derived locator pending field GPS.",
-    "last_researched": "2026-11-11"
+    "last_researched": "2026-11-11",
+    "access_status": "Access and current visibility have not yet been verified. Photograph only from a lawful, safe public viewpoint; do not enter private property or restricted areas. Check local access restrictions before fieldwork."
   },
   {
     "id": "DUB-STR-0161",
@@ -12592,7 +12601,8 @@
     "coordinate_source": "Published NIAH Irish Grid reference 324410, 222818 transformed from EPSG:29902 to WGS84 using EPSG operation 1641. This identifies the host building/structure, not exact detail position; approximate locator, not founder GPS.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH 60260097 records a benchmark on a granite ashlar pier of the five-arch viaduct built 1852–1853 and opened 1854. The published Irish Grid point is for the viaduct, not the exact benchmark inscription; approximate source-derived locator pending founder GPS. The structure is disused; confirm lawful public access and safe vantage before field photography.",
-    "last_researched": "2026-11-11"
+    "last_researched": "2026-11-11",
+    "access_status": "Access and current visibility have not yet been verified. Photograph only from a lawful, safe public viewpoint; do not enter private property or restricted areas. Check local access restrictions before fieldwork."
   },
   {
     "id": "DUB-STR-0162",
@@ -12628,7 +12638,8 @@
     "coordinate_source": "Published NIAH Irish Grid reference 315430, 233021 transformed from EPSG:29902 to WGS84 using EPSG operation 1641. This identifies the host building/structure, not exact detail position; approximate locator, not founder GPS.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH 50110355 describes the c.1845 house as retaining a full-height ventilation pipe. The published Irish Grid point identifies the host building; exact pipe alignment and current condition require field confirmation. No claim is made about the pipe's original purpose beyond NIAH's ventilation identification.",
-    "last_researched": "2026-11-11"
+    "last_researched": "2026-11-11",
+    "access_status": "Access and current visibility have not yet been verified. Photograph only from a lawful, safe public viewpoint; do not enter private property or restricted areas. Check local access restrictions before fieldwork."
   },
   {
     "id": "DUB-STR-0163",
@@ -12664,7 +12675,8 @@
     "coordinate_source": "Published NIAH Irish Grid reference 316684, 234063 transformed from EPSG:29902 to WGS84 using EPSG operation 1641. This identifies the host building/structure, not exact detail position; approximate locator, not founder GPS.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH 50020369 describes granite kerb stones and granite paving with an iron grille to the front of 45 Pearse Street. The source does not explicitly identify the grille's original function; it is catalogued neutrally as an iron pavement grille. Published grid identifies the host building, not exact grille centre; approximate locator pending field GPS.",
-    "last_researched": "2026-11-11"
+    "last_researched": "2026-11-11",
+    "access_status": "Access and current visibility have not yet been verified. Photograph only from a lawful, safe public viewpoint; do not enter private property or restricted areas. Check local access restrictions before fieldwork."
   },
   {
     "id": "DUB-STR-0164",
@@ -12700,6 +12712,7 @@
     "coordinate_source": "Published NIAH Irish Grid reference 316671, 234068 transformed from EPSG:29902 to WGS84 using EPSG operation 1641. This identifies the host building/structure, not exact detail position; approximate locator, not founder GPS.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH 50020367 describes cubed glass with granite pavier surrounds to a basement light on the south side of the building. Published grid identifies the host building, not exact glass-light centre; approximate source-derived locator pending founder GPS. Current survival, glass condition and safe access require field verification.",
-    "last_researched": "2026-11-11"
+    "last_researched": "2026-11-11",
+    "access_status": "Access and current visibility have not yet been verified. Photograph only from a lawful, safe public viewpoint; do not enter private property or restricted areas. Check local access restrictions before fieldwork."
   }
 ]

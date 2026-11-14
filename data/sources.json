@@ -4833,5 +4833,35 @@
     "source_type": "OFFICIAL_REGISTER",
     "specific_reference": "NIAH Registration 50920229; description, appraisal and Irish Grid coordinate 315728, 233024.",
     "notes": "NIAH records a c.1800 townhouse with a cast-iron coal-hole cover to the footpath and historic railings and a granite entrance platform."
+  },
+  {
+    "id": "NIAH-50120227",
+    "name": "Ballybough Road at O'Sullivan Avenue — NIAH Registration 50120227",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50120227/ballybough-road-osullivan-avenue-dublin-3-co-dublin",
+    "accessed": "2026-11-14",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50120227; description, appraisal and Irish Grid coordinate 316914, 235828.",
+    "notes": "NIAH records a freestanding cast-iron Edward VII pillar post box, c.1905, with crown, raised Post Office lettering and McDowall Steven & Co. maker's mark."
+  },
+  {
+    "id": "NIAH-50120017",
+    "name": "Philipsburgh Avenue at Morroch Terrace — NIAH Registration 50120017",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50120017/philipsburgh-avenue-morroch-terrace-dublin-3-co-dublin",
+    "accessed": "2026-11-14",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50120017; description, appraisal and Irish Grid coordinate 317281, 237037.",
+    "notes": "NIAH records a freestanding cast-iron pillar post box, c.1935, with P&T (Poist agus Teileagrafa) insignia, at the west side of Philipsburgh Avenue at Morroch Terrace."
+  },
+  {
+    "id": "NIAH-50010980",
+    "name": "James Joyce Centre, 35 North Great George's Street — NIAH Registration 50010980",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010980/james-joyce-cultural-centre-35-north-great-georges-street-dublin-dublin",
+    "accessed": "2026-11-14",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50010980; description, appraisal and Irish Grid coordinate 315908, 235158.",
+    "notes": "NIAH records the 1784 house now used as a museum, including cast-iron air vents below windows, a Victorian bell push and a cast-iron corner lamp standard at the entrance."
   }
 ]

@@ -836,5 +836,36 @@
       "DCC-ST-ANNES-PARK-FOLLIES",
       "OLDSTONE-ST-ANNES-FOLLIES-2018"
     ]
+  },
+  {
+    "id": "RES-DUBLIN-STREET-DETAIL-POSTBOX-COALHOLE-2026-11-14",
+    "title": "Dublin street details — three historic post boxes, a boot scraper and a coal-hole cover",
+    "area": "DUBLIN 2 · DUBLIN 8",
+    "updated": "2026-11-14",
+    "status": "DOCUMENTED_HERITAGE_RECORDS",
+    "status_label": "FIVE MICRO-DETAILS ADDED FROM OFFICIAL NIAH SURVEYS",
+    "summary": "Five separately identifiable street-detail records were added after checking the existing catalogue: three cast-iron post boxes, one cast-iron entrance boot scraper and one pavement coal-hole cover. The NIAH source points are retained as approximate host-feature locators, not exact founder GPS.",
+    "supported": [
+      "NIAH 50080463 describes an Edward VII wall-mounted cast-iron post box at Saint Patrick’s House on South Circular Road, with a W. T. Allen & Co. maker’s mark.",
+      "NIAH 50080012 describes a c.1935 freestanding P&T cast-iron pillar post box at South Circular Road, Islandbridge, with a Carron Company maker’s mark.",
+      "NIAH 50020308 describes a c.1930 cast-iron pillar post box by A. Handyside, Derby & London, on Townsend Street south of the former Screen Cinema; the NIAH record notes it is not in its original location.",
+      "NIAH 50930104 records a cast-iron boot scraper at the granite entrance platform and a coal-hole cover in the pavement at 29 Fitzwilliam Street Upper.",
+      "Dublin City Council Development Plan Policy BHA18 explicitly identifies post boxes, boot scrapers and coal-hole covers among historic public-realm features to be conserved."
+    ],
+    "limits": [
+      "All five records remain PARTIALLY_VERIFIED; no founder field visit has confirmed present survival, condition or exact detail position.",
+      "The NIAH Irish Grid references were transformed from EPSG:29902 to WGS 84 using operation 1641. Transformation accuracy does not establish the accuracy of the source feature point.",
+      "For 29 Fitzwilliam Street Upper, the NIAH coordinate locates the host townhouse, not the exact boot scraper or coal-hole cover. Both map points are approximate discovery locators only.",
+      "No reference photographs were copied into the visual inventory; all five records await founder photography.",
+      "Access is not assumed. Photograph only from lawful public viewpoints and do not enter private property or obstruct footpaths."
+    ],
+    "source_ids": [
+      "NIAH-50080463",
+      "NIAH-50080012",
+      "NIAH-50020308",
+      "NIAH-50930104",
+      "DCC-DEVELOPMENT-PLAN-BHA18-2022-2028",
+      "SRC-EPSG-TM65-29902"
+    ]
   }
 ]

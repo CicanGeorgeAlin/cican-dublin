@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "audited_on": "2026-11-13",
+  "audited_on": "2026-11-14",
   "scope": "Dublin City and County Dublin",
-  "catalogue_total": 335,
+  "catalogue_total": 340,
   "administrative_assignment_status": "NOT_SPATIALLY_VERIFIED",
   "administrative_assignment_note": "No local-authority record counts are published in this audit. Postal-district labels cannot be substituted for point-in-polygon checks. The official 2026 polygon dataset has been identified; geometry import and spatial assignment await reuse-licence confirmation and a coordinate-precision review.",
   "local_authorities": [
@@ -54,7 +54,7 @@
     },
     {
       "name": "Dublin 2",
-      "record_count": 92,
+      "record_count": 95,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "Count reconciled from data/objects.json; sample only, not exhaustive."
     },
@@ -84,7 +84,7 @@
     },
     {
       "name": "Dublin 8",
-      "record_count": 17,
+      "record_count": 19,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "Count reconciled from data/objects.json; sample only, not exhaustive."
     },
@@ -129,7 +129,7 @@
     "Dublin 24"
   ],
   "totals": {
-    "postal_districts_with_records": 6,
+    "postal_districts_with_records": 12,
     "local_authorities_with_verified_spatial_assignment": 0,
     "records_with_verified_local_authority_assignment": 0
   },

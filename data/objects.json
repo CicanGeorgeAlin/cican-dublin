@@ -32,7 +32,8 @@
     ],
     "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
-    "coordinate_status": "SOURCE_DERIVED"
+    "coordinate_status": "SOURCE_DERIVED",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-ART-0002",
@@ -67,7 +68,8 @@
     ],
     "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
-    "coordinate_status": "SOURCE_DERIVED"
+    "coordinate_status": "SOURCE_DERIVED",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0001",
@@ -104,7 +106,8 @@
     ],
     "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
-    "coordinate_status": "SOURCE_DERIVED"
+    "coordinate_status": "SOURCE_DERIVED",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0002",
@@ -139,7 +142,8 @@
     ],
     "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
-    "coordinate_status": "SOURCE_DERIVED"
+    "coordinate_status": "SOURCE_DERIVED",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0003",
@@ -174,7 +178,8 @@
     ],
     "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
-    "coordinate_status": "SOURCE_DERIVED"
+    "coordinate_status": "SOURCE_DERIVED",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0004",
@@ -209,7 +214,8 @@
     ],
     "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
-    "coordinate_status": "SOURCE_DERIVED"
+    "coordinate_status": "SOURCE_DERIVED",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0005",
@@ -474,7 +480,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50110521. The coal-hole cover is attributed by NIAH to the South City Foundry. The published coordinate locates the building/site, not the precise cover centre; create a separate micro-detail record only after field GPS verification."
+    "research_notes": "NIAH Registration 50110521. The coal-hole cover is attributed by NIAH to the South City Foundry. The published coordinate locates the building/site, not the precise cover centre; create a separate micro-detail record only after field GPS verification.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0012",
@@ -511,7 +518,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50920250. The point locates the property; exact coal-hole, boot-scraper and lamp-standard positions are not separately georeferenced. Record them as child micro-details only after field photography and GPS."
+    "research_notes": "NIAH Registration 50920250. The point locates the property; exact coal-hole, boot-scraper and lamp-standard positions are not separately georeferenced. Record them as child micro-details only after field photography and GPS.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0013",
@@ -548,7 +556,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50920252. The published point locates the building, not the precise coal-hole cover centre. Verify the visible pavement detail from the public footpath; no entry onto school property."
+    "research_notes": "NIAH Registration 50920252. The published point locates the building, not the precise coal-hole cover centre. Verify the visible pavement detail from the public footpath; no entry onto school property.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0014",
@@ -585,7 +594,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50920231. The published point locates the property, not the precise coal-hole cover centre; field GPS is needed before a separate cover record is created."
+    "research_notes": "NIAH Registration 50920231. The published point locates the property, not the precise coal-hole cover centre; field GPS is needed before a separate cover record is created.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0015",
@@ -622,7 +632,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50010086. The official record explicitly calls the coal-hole cover original. The coordinate locates the building; exact cover centre requires field verification."
+    "research_notes": "NIAH Registration 50010086. The official record explicitly calls the coal-hole cover original. The coordinate locates the building; exact cover centre requires field verification.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0016",
@@ -659,7 +670,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50010072. The published coordinate locates the building, not the exact coal-hole cover centre. Verify visible details from public space and create separate child records only after precise field GPS."
+    "research_notes": "NIAH Registration 50010072. The published coordinate locates the building, not the exact coal-hole cover centre. Verify visible details from public space and create separate child records only after precise field GPS.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0017",
@@ -696,7 +708,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50010070. The NIAH coordinate locates the building; the precise coal-hole cover centre is not separately georeferenced. Verify the frontage and photograph from the public footpath."
+    "research_notes": "NIAH Registration 50010070. The NIAH coordinate locates the building; the precise coal-hole cover centre is not separately georeferenced. Verify the frontage and photograph from the public footpath.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0018",
@@ -733,7 +746,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50010071. The published point locates the building, not the exact coal-hole cover; verify the cover and frontage in the field."
+    "research_notes": "NIAH Registration 50010071. The published point locates the building, not the exact coal-hole cover; verify the cover and frontage in the field.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0019",
@@ -770,7 +784,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50010073. The coordinate is the building/site point; the exact coal-hole cover location needs field verification."
+    "research_notes": "NIAH Registration 50010073. The coordinate is the building/site point; the exact coal-hole cover location needs field verification.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0020",
@@ -807,7 +822,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50010074. The building point does not pinpoint the individual bootscrapers or coal-hole cover; record those exact locations during founder fieldwork."
+    "research_notes": "NIAH Registration 50010074. The building point does not pinpoint the individual bootscrapers or coal-hole cover; record those exact locations during founder fieldwork.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0021",
@@ -844,7 +860,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50011162. The NIAH appraisal attributes the coal-hole cover to Henshaw of Dublin. The published point locates the house; exact cover-centre coordinates and legible marks require field photography."
+    "research_notes": "NIAH Registration 50011162. The NIAH appraisal attributes the coal-hole cover to Henshaw of Dublin. The published point locates the house; exact cover-centre coordinates and legible marks require field photography.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0022",
@@ -881,7 +898,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50010750. The NIAH point locates the property; the coal-hole cover's exact position requires on-site GPS verification."
+    "research_notes": "NIAH Registration 50010750. The NIAH point locates the property; the coal-hole cover's exact position requires on-site GPS verification.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0023",
@@ -918,7 +936,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50010104. The published point locates the building; exact coal-hole cover position requires field GPS."
+    "research_notes": "NIAH Registration 50010104. The published point locates the building; exact coal-hole cover position requires field GPS.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0024",
@@ -955,7 +974,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50100085. The coordinate locates the building block; basement-light and coal-hole positions must be confirmed on site before separate micro-detail records are created."
+    "research_notes": "NIAH Registration 50100085. The coordinate locates the building block; basement-light and coal-hole positions must be confirmed on site before separate micro-detail records are created.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0025",
@@ -992,7 +1012,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50010820. The published coordinate locates the property; exact positions of the coal-hole cover and bootscraper require field verification. NIAH records political meetings there in 1919."
+    "research_notes": "NIAH Registration 50010820. The published coordinate locates the property; exact positions of the coal-hole cover and bootscraper require field verification. NIAH records political meetings there in 1919.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0026",
@@ -1029,7 +1050,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50060408. The published coordinate locates the property; exact coal-hole and bootscraper positions require field verification."
+    "research_notes": "NIAH Registration 50060408. The published coordinate locates the property; exact coal-hole and bootscraper positions require field verification.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0027",
@@ -1066,7 +1088,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50010087. The record explicitly describes an original coal-hole cover inscribed Henshaw Dublin. The published point locates the building, not the exact cover centre; field GPS is needed before creating a separate cover record."
+    "research_notes": "NIAH Registration 50010087. The record explicitly describes an original coal-hole cover inscribed Henshaw Dublin. The published point locates the building, not the exact cover centre; field GPS is needed before creating a separate cover record.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0028",
@@ -1103,7 +1126,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50010067. The published point locates the building; the exact coal-hole cover and bootscraper positions require field GPS."
+    "research_notes": "NIAH Registration 50010067. The published point locates the building; the exact coal-hole cover and bootscraper positions require field GPS.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0029",
@@ -1140,7 +1164,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50010068. The published point locates the property; the precise coal-hole cover position requires field verification."
+    "research_notes": "NIAH Registration 50010068. The published point locates the property; the precise coal-hole cover position requires field verification.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0030",
@@ -1177,7 +1202,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50010069. The published point locates the building; exact positions of the coal-hole cover and bootscraper need field GPS."
+    "research_notes": "NIAH Registration 50010069. The published point locates the building; exact positions of the coal-hole cover and bootscraper need field GPS.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0031",
@@ -1214,7 +1240,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50930231. The published point locates the building; the exact coal-hole cover centre needs field GPS. Embassy frontage: photograph only from the public footpath and respect security restrictions."
+    "research_notes": "NIAH Registration 50930231. The published point locates the building; the exact coal-hole cover centre needs field GPS. Embassy frontage: photograph only from the public footpath and respect security restrictions.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0032",
@@ -1251,7 +1278,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50930035. The published point locates the building, not the exact pavement cover; field GPS is required for a separate micro-detail record."
+    "research_notes": "NIAH Registration 50930035. The published point locates the building, not the exact pavement cover; field GPS is required for a separate micro-detail record.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0033",
@@ -1288,7 +1316,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50930242. The published point locates the building; exact coal-hole position requires founder field verification."
+    "research_notes": "NIAH Registration 50930242. The published point locates the building; exact coal-hole position requires founder field verification.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0034",
@@ -1325,7 +1354,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50010727. The official record describes original granite paving and a coal-hole cover. The coordinate locates the property; exact cover-centre GPS remains a field task."
+    "research_notes": "NIAH Registration 50010727. The official record describes original granite paving and a coal-hole cover. The coordinate locates the property; exact cover-centre GPS remains a field task.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0035",
@@ -1362,7 +1392,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50011089. The published point locates the building; the bootscraper's exact position is not separately georeferenced and should be checked on site."
+    "research_notes": "NIAH Registration 50011089. The published point locates the building; the bootscraper's exact position is not separately georeferenced and should be checked on site.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0036",
@@ -1399,7 +1430,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50010393. The published point locates the building, not the exact two lamp standards. Photograph visible details from the public footpath; exact lamp positions need field verification."
+    "research_notes": "NIAH Registration 50010393. The published point locates the building, not the exact two lamp standards. Photograph visible details from the public footpath; exact lamp positions need field verification.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0037",
@@ -1436,7 +1468,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50930293. The coordinate locates the building; the exact lamp-standard and coal-hole positions require field GPS before separate micro-detail records."
+    "research_notes": "NIAH Registration 50930293. The coordinate locates the building; the exact lamp-standard and coal-hole positions require field GPS before separate micro-detail records.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-BLD-0038",
@@ -5120,7 +5153,7 @@
       "DPA-ENGINEERING-DRAWINGS-1800S"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "NOT_GEOCODED",
+    "coordinate_status": "NOT_SET",
     "last_researched": "2026-11-06",
     "research_notes": "NIAH establishes the existence of several paired iron mooring hooks in the coping. No individual feature point is published. This child record is deliberately not assigned a map coordinate or separate navigation pin; its parent is the NIAH quay-wall site point. Exact count and positions await founder field verification."
   },
@@ -5154,7 +5187,7 @@
       "DPA-ENGINEERING-DRAWINGS-1800S"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "NOT_GEOCODED",
+    "coordinate_status": "NOT_SET",
     "last_researched": "2026-11-06",
     "research_notes": "NIAH explicitly records three shallow recesses containing iron ladders. No individual ladder coordinates are published. This child record has no coordinates and no independent map pin; it is attached to the parent quay-wall record. Present survival and condition of all three ladders require founder field verification."
   },
@@ -5302,7 +5335,7 @@
     "address": "Sir John Rogerson's Quay, Dublin 2; exact stair position not individually georeferenced",
     "historical_description": "A group of granite steps descending from the quay level, accompanied by cast-iron railings. NIAH Registration 50020465 explicitly records granite steps with cast-iron railings as features of the c.1870 ashlar-granite quay. The inventory does not provide the number of stair flights, exact positions, dimensions, maker, installation date or current condition.",
     "historical_significance": "The steps and railings are functional evidence of historic access between the quay surface and the water-facing edge. Their stonework and metalwork form part of the quay's maritime engineering and craftsmanship.",
-    "coordinate_status": "NOT_GEOCODED",
+    "coordinate_status": "NOT_SET",
     "photography_brief": [
       "Locate each visible granite stair flight associated with the NIAH quay record",
       "Photograph the full stair run and its relationship to the quay wall",
@@ -5334,7 +5367,7 @@
     "address": "Campshire of Sir John Rogerson's Quay, Dublin 2; precise surviving rail segments not individually georeferenced",
     "historical_description": "Stone setts and inset cast-iron rails within the quay's campshire (the working surface of the quay). NIAH Registration 50020465 explicitly records both elements as part of the quay's surviving fabric. The record does not specify the rail gauge, original use, alignment, length, installation date or present continuity; no railway or crane function is inferred without further evidence.",
     "historical_significance": "The setts and embedded iron rails preserve evidence of the quay's historic heavy-duty working surface and the movement of goods along the waterfront. They are a small-scale industrial feature that may retain traces of loading and transport arrangements.",
-    "coordinate_status": "NOT_GEOCODED",
+    "coordinate_status": "NOT_SET",
     "photography_brief": [
       "Locate surviving stone-sett surfaces within the quay's campshire",
       "Photograph the junction between setts and cast-iron rails",
@@ -5367,7 +5400,7 @@
     "address": "Quayside north of the B.J. Marine building, Sir John Rogerson's Quay, Dublin 2; exact fender positions not individually georeferenced",
     "historical_description": "Timber fenders recorded by NIAH as located to the north of the B.J. Marine building on Sir John Rogerson's Quay. The NIAH description identifies their material and relative location but does not give a count, dimensions, timber species, installation date, fixing method or current condition. Their present survival must be confirmed in the field.",
     "historical_significance": "The fenders are evidence of practical measures used to protect quay structures and vessels from impact during berthing. They illustrate the working maritime function of the quay beyond its architectural stonework.",
-    "coordinate_status": "NOT_GEOCODED",
+    "coordinate_status": "NOT_SET",
     "photography_brief": [
       "Identify the B.J. Marine building as the NIAH location reference before assessing nearby quay fabric",
       "Photograph any surviving timber fenders from a safe public position",
@@ -5394,7 +5427,7 @@
     ],
     "feature_type": "MICRO_DETAIL",
     "last_researched": "2026-11-08",
-    "coordinate_status": "NOT_GEOCODED",
+    "coordinate_status": "NOT_SET",
     "id": "DUB-DET-0009",
     "name": "Ringsend concrete boat slip — surviving iron posts and railings",
     "category": "INFRASTRUCTURE",
@@ -5425,7 +5458,7 @@
     ],
     "feature_type": "MICRO_DETAIL",
     "last_researched": "2026-11-08",
-    "coordinate_status": "NOT_GEOCODED",
+    "coordinate_status": "NOT_SET",
     "id": "DUB-DET-0010",
     "name": "Ringsend concrete boat slip — concrete mooring blocks",
     "category": "INFRASTRUCTURE",
@@ -5456,7 +5489,7 @@
     ],
     "feature_type": "MICRO_DETAIL",
     "last_researched": "2026-11-08",
-    "coordinate_status": "NOT_GEOCODED",
+    "coordinate_status": "NOT_SET",
     "id": "DUB-DET-0011",
     "name": "Ringsend concrete boat slip — cast-iron lamppost at north-west corner",
     "category": "STREET_DETAIL",
@@ -5487,7 +5520,7 @@
     "longitude": null,
     "coordinate_source": null,
     "coordinate_accuracy_m": null,
-    "coordinate_status": "NOT_GEOCODED",
+    "coordinate_status": "NOT_SET",
     "address_source": null,
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
@@ -5526,7 +5559,7 @@
     "longitude": null,
     "coordinate_source": null,
     "coordinate_accuracy_m": null,
-    "coordinate_status": "NOT_GEOCODED",
+    "coordinate_status": "NOT_SET",
     "address_source": null,
     "verification_status": "VERIFIED",
     "photography_status": "TO_PHOTOGRAPH",
@@ -5623,7 +5656,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50100594. The coordinate locates the bridge. Photograph the parapet lamp from safe public viewpoints and do not climb barriers or enter the canal."
+    "research_notes": "NIAH Registration 50100594. The coordinate locates the bridge. Photograph the parapet lamp from safe public viewpoints and do not climb barriers or enter the canal.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-INF-0003",
@@ -5659,7 +5693,8 @@
     ],
     "coordinate_source": "Coordinates published by Dublin City Council on its official Wood Quay Venue page (53.344229874547, -6.2708973884583). This is a source-derived venue location, not a field GPS fix for the precise wall alignment; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
-    "coordinate_status": "SOURCE_DERIVED"
+    "coordinate_status": "SOURCE_DERIVED",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-INF-0004",
@@ -5698,7 +5733,8 @@
     ],
     "coordinate_source": "PlanningRegister.ie planning report for the former Boland's Mill site reports site coordinates 53.34149, -6.23685. This is a source-derived coordinate for the wider 1.098-hectare former mill site, not a surveyed point on the individual warehouse facade. Founder field GPS verification remains outstanding.",
     "coordinate_accuracy_m": null,
-    "coordinate_status": "SOURCE_DERIVED"
+    "coordinate_status": "SOURCE_DERIVED",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-INF-0005",
@@ -5736,7 +5772,8 @@
     ],
     "coordinate_source": "National Inventory of Architectural Heritage registration 50080060 publishes Irish Grid coordinates 312840, 233688 (TM65 / Irish Grid, EPSG:29902). Transformed to WGS 84 using EPSG coordinate transformation operation 1641. The source point is the NIAH building location; positional accuracy of the original point is not specified. Founder field GPS verification remains outstanding.",
     "coordinate_accuracy_m": null,
-    "coordinate_status": "SOURCE_DERIVED"
+    "coordinate_status": "SOURCE_DERIVED",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-INF-0006",
@@ -5871,7 +5908,7 @@
     "sources": [
       "DUBLIN-PORT-3FM-EIAR-APP16-1-CATALOGUE"
     ],
-    "feature_type": "ARCHAEOLOGICAL_REMAINS",
+    "feature_type": "SITE",
     "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "3FM EIAR Appendix 16-1 gives ITM 721370, 733814. Converted EPSG:2157 to WGS84: 53.34062080720545, -6.177421145216574. Source-derived point, not founder GPS; accuracy unspecified.",
     "coordinate_accuracy_m": null,
@@ -6054,7 +6091,7 @@
       "NIAH-50060115",
       "PHOENIX-PARK-OPW-MAGAZINE-FORT-TOURS"
     ],
-    "feature_type": "ARCHAEOLOGICAL_REMAINS",
+    "feature_type": "MICRO_DETAIL",
     "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Excavations.ie report 2022:467 publishes ITM E 712106, N 734487 and decimal coordinates 53.348710, -6.316215. The ITM point was independently transformed from EPSG:2157 to WGS 84, yielding 53.348709562642924, -6.316229224580713. Source-derived archaeological investigation point, not founder GPS; positional accuracy unspecified.",
     "coordinate_accuracy_m": null,
@@ -6880,7 +6917,8 @@
       "DPC-GSW-ROUNDHEAD-ROCK-ARMOUR-2026"
     ],
     "coordinate_status": "NOT_SET",
-    "research_notes": "Parent DUB-INF-0034, Great South Wall. The official Port release identifies the roundhead near Poolbeg Lighthouse but does not provide a point or polygon for the intervention. No independent coordinates or map pin are assigned. This is a contemporary engineering feature, not original eighteenth-century wall fabric."
+    "research_notes": "Parent DUB-INF-0034, Great South Wall. The official Port release identifies the roundhead near Poolbeg Lighthouse but does not provide a point or polygon for the intervention. No independent coordinates or map pin are assigned. This is a contemporary engineering feature, not original eighteenth-century wall fabric.",
+    "feature_type": "MICRO_DETAIL"
   },
   {
     "id": "DUB-INS-0001",
@@ -6917,7 +6955,8 @@
     "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
     "coordinate_status": "SOURCE_DERIVED",
-    "research_notes": "Additional secondary academic transcription source reviewed 2026-10-27: Irish Famine Memorials (Dr Emily Mark-FitzGerald, UCD) transcribes the fixed dedication/artist plaques and sponsor plaque text, and confirms sponsor-name plaques beneath the memorial. It does not transcribe every individual name embedded in the paving; keep partial pending complete field/photo inventory."
+    "research_notes": "Additional secondary academic transcription source reviewed 2026-10-27: Irish Famine Memorials (Dr Emily Mark-FitzGerald, UCD) transcribes the fixed dedication/artist plaques and sponsor plaque text, and confirms sponsor-name plaques beneath the memorial. It does not transcribe every individual name embedded in the paving; keep partial pending complete field/photo inventory.",
+    "feature_type": "MICRO_DETAIL"
   },
   {
     "id": "DUB-INS-0002",
@@ -7028,7 +7067,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0040 (Vernon Lodge — 1885 carved limestone pedestrian entrance). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH records the date stone and dates the entrance to 1885. Exact visible inscription and physical condition await founder photography.",
@@ -7066,7 +7105,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0040 (Vernon Lodge — 1885 carved limestone pedestrian entrance). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH explicitly attributes the coat of arms, crest and motto to the Vernon family. The full physical composition and exact inscription must be checked against founder photographs.",
@@ -7104,7 +7143,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0079 (53 Gardiner Street Upper — Sherrard Street corner townhouse). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference 315850, 235647 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using project operation 1641. The point locates the host building; positional accuracy is not specified and founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
     "last_researched": "2026-10-27",
@@ -7141,7 +7180,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0082 (238 Clonliffe Road — Victorian corner house). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference 316055, 236201 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. NIAH point is source-derived, not founder GPS.",
     "research_notes": "Full official NIAH Registration 50120194 record reviewed 2026-10-27. Its Description explicitly records an inscribed granite street-name plaque on the front elevation of 238 Clonliffe Road. The record confirms the object’s presence and host building; it does not transcribe the plaque wording. Exact inscription, current condition and precise micro-feature position remain founder fieldwork tasks.",
     "last_researched": "2026-10-27",
@@ -7160,7 +7199,7 @@
     "national_grid_reference": null,
     "latitude": 53.3619282,
     "longitude": -6.1961647,
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0072 (54 Vernon Avenue — 1913 detached villa). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference 320137, 236127 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. Original NIAH point positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
     "verification_status": "VERIFIED",
@@ -7295,7 +7334,8 @@
     ],
     "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
-    "coordinate_status": "SOURCE_DERIVED"
+    "coordinate_status": "SOURCE_DERIVED",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-MON-0001",
@@ -7330,7 +7370,8 @@
     ],
     "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
-    "coordinate_status": "SOURCE_DERIVED"
+    "coordinate_status": "SOURCE_DERIVED",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-MON-0002",
@@ -7365,7 +7406,8 @@
     ],
     "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
-    "coordinate_status": "SOURCE_DERIVED"
+    "coordinate_status": "SOURCE_DERIVED",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-MON-0003",
@@ -7401,7 +7443,8 @@
     ],
     "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
-    "coordinate_status": "SOURCE_DERIVED"
+    "coordinate_status": "SOURCE_DERIVED",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-MON-0004",
@@ -7436,7 +7479,8 @@
     ],
     "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
-    "coordinate_status": "SOURCE_DERIVED"
+    "coordinate_status": "SOURCE_DERIVED",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-MON-0005",
@@ -7471,7 +7515,8 @@
     ],
     "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
-    "coordinate_status": "SOURCE_DERIVED"
+    "coordinate_status": "SOURCE_DERIVED",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-MON-0006",
@@ -7506,7 +7551,8 @@
     ],
     "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
-    "coordinate_status": "SOURCE_DERIVED"
+    "coordinate_status": "SOURCE_DERIVED",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-MON-0007",
@@ -7731,7 +7777,7 @@
       "PHOENIX-PARK-ARCHAEOLOGY",
       "IRISHSTONES-KNOCKMARIDHE-GPS-2013"
     ],
-    "feature_type": "ARCHAEOLOGICAL_REMAINS",
+    "feature_type": "PRIMARY_OBJECT",
     "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "The IrishStones survey entry for Knockmaridhe reports GPS coordinates 53°21'03.5\"N, 006°20'26.6\"W and a stated GPS accuracy of 3m from a 9 June 2013 visit. Converted to decimal WGS 84. This is third-party field GPS, not founder GPS; the official archaeological identity is supported by Phoenix Park's Conservation Management Plan and NMS record DU018-00711.",
     "coordinate_accuracy_m": 3,
@@ -7770,7 +7816,8 @@
     ],
     "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
-    "coordinate_status": "SOURCE_DERIVED"
+    "coordinate_status": "SOURCE_DERIVED",
+    "feature_type": "MICRO_DETAIL"
   },
   {
     "id": "DUB-STR-0002",
@@ -7996,7 +8043,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50010291. Documentary description and published grid reference recorded; confirm the box remains in situ and photograph all marks on site."
+    "research_notes": "NIAH Registration 50010291. Documentary description and published grid reference recorded; confirm the box remains in situ and photograph all marks on site.",
+    "feature_type": "MICRO_DETAIL"
   },
   {
     "id": "DUB-STR-0008",
@@ -8033,7 +8081,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50010458. NIAH places the box on the east side of Jervis Street near Mary Street and opposite the former Saint Mary's Church; verify current location and condition in the field."
+    "research_notes": "NIAH Registration 50010458. NIAH places the box on the east side of Jervis Street near Mary Street and opposite the former Saint Mary's Church; verify current location and condition in the field.",
+    "feature_type": "MICRO_DETAIL"
   },
   {
     "id": "DUB-STR-0009",
@@ -8070,7 +8119,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50010515. Survey period 1930–1950; NIAH describes an installed c.1940 double box. Confirm current survival and exact street-side position."
+    "research_notes": "NIAH Registration 50010515. Survey period 1930–1950; NIAH describes an installed c.1940 double box. Confirm current survival and exact street-side position.",
+    "feature_type": "MICRO_DETAIL"
   },
   {
     "id": "DUB-STR-0010",
@@ -8107,7 +8157,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50010555. The official record describes a c.1930 twin post box at the junction with Cathal Brugha Street, in direct view of the GPO; verify current position and active use."
+    "research_notes": "NIAH Registration 50010555. The official record describes a c.1930 twin post box at the junction with Cathal Brugha Street, in direct view of the GPO; verify current position and active use.",
+    "feature_type": "MICRO_DETAIL"
   },
   {
     "id": "DUB-STR-0011",
@@ -8144,7 +8195,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50060629. NIAH describes the box outside No. 530 on the south side of the North Circular Road; verify current survival, exact frontage and safe photography position."
+    "research_notes": "NIAH Registration 50060629. NIAH describes the box outside No. 530 on the south side of the North Circular Road; verify current survival, exact frontage and safe photography position.",
+    "feature_type": "MICRO_DETAIL"
   },
   {
     "id": "DUB-STR-0012",
@@ -8181,7 +8233,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50010954. Survey record dates the box to c.1890 and places it at the southwest corner of Mountjoy Square at the Grenville Street junction; verify exact current location and condition."
+    "research_notes": "NIAH Registration 50010954. Survey record dates the box to c.1890 and places it at the southwest corner of Mountjoy Square at the Grenville Street junction; verify exact current location and condition.",
+    "feature_type": "MICRO_DETAIL"
   },
   {
     "id": "DUB-STR-0013",
@@ -8218,7 +8271,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50910076. NIAH places this c.1930 twin box at the South Great George's Street and Fade Street junction, outside the South City Markets; verify present condition and exact point in the field."
+    "research_notes": "NIAH Registration 50910076. NIAH places this c.1930 twin box at the South Great George's Street and Fade Street junction, outside the South City Markets; verify present condition and exact point in the field.",
+    "feature_type": "MICRO_DETAIL"
   },
   {
     "id": "DUB-STR-0014",
@@ -8255,7 +8309,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50020294. The official record places the box at the Burgh Quay and Hawkins Street junction and records it as in use; verify present survival and condition."
+    "research_notes": "NIAH Registration 50020294. The official record places the box at the Burgh Quay and Hawkins Street junction and records it as in use; verify present survival and condition.",
+    "feature_type": "MICRO_DETAIL"
   },
   {
     "id": "DUB-STR-0015",
@@ -8292,7 +8347,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50020195. NIAH describes a c.1930 double box on the north side of Dame Street, south of the Central Bank; verify current position and condition."
+    "research_notes": "NIAH Registration 50020195. NIAH describes a c.1930 double box on the north side of Dame Street, south of the Central Bank; verify current position and condition.",
+    "feature_type": "MICRO_DETAIL"
   },
   {
     "id": "DUB-STR-0016",
@@ -8329,7 +8385,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50100001. The record describes a c.1930 double-opening post box with Áth Cliath lettering and notes a temporary red repaint for the 1916 centenary; exact frontage and current condition need field confirmation."
+    "research_notes": "NIAH Registration 50100001. The record describes a c.1930 double-opening post box with Áth Cliath lettering and notes a temporary red repaint for the 1916 centenary; exact frontage and current condition need field confirmation.",
+    "feature_type": "MICRO_DETAIL"
   },
   {
     "id": "DUB-STR-0017",
@@ -8366,7 +8423,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50020308. NIAH locates the box south of the Screen Cinema and explicitly notes that it is not in its original location; retain this relocation caveat."
+    "research_notes": "NIAH Registration 50020308. NIAH locates the box south of the Screen Cinema and explicitly notes that it is not in its original location; retain this relocation caveat.",
+    "feature_type": "MICRO_DETAIL"
   },
   {
     "id": "DUB-STR-0018",
@@ -8403,7 +8461,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50100593. NIAH dates the post box to c.1900 and places it at the east end of Mount Street Crescent at Warrington Place; verify its present position."
+    "research_notes": "NIAH Registration 50100593. NIAH dates the post box to c.1900 and places it at the east end of Mount Street Crescent at Warrington Place; verify its present position.",
+    "feature_type": "MICRO_DETAIL"
   },
   {
     "id": "DUB-STR-0019",
@@ -8440,7 +8499,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50110429. NIAH dates this cast-iron box to c.1985 and identifies the Tonge & Taggart Ltd Dublin foundry mark; verify the current object and maker's inscription."
+    "research_notes": "NIAH Registration 50110429. NIAH dates this cast-iron box to c.1985 and identifies the Tonge & Taggart Ltd Dublin foundry mark; verify the current object and maker's inscription.",
+    "feature_type": "MICRO_DETAIL"
   },
   {
     "id": "DUB-STR-0020",
@@ -8477,7 +8537,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50910194. NIAH describes a c.1940 double post box on the footpath in front of the main post office; verify the current position and access."
+    "research_notes": "NIAH Registration 50910194. NIAH describes a c.1940 double post box on the footpath in front of the main post office; verify the current position and access.",
+    "feature_type": "MICRO_DETAIL"
   },
   {
     "id": "DUB-STR-0021",
@@ -8514,7 +8575,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50020222. NIAH dates the box to c.1915 and places it on the west footpath of Westmoreland Street; verify current survival."
+    "research_notes": "NIAH Registration 50020222. NIAH dates the box to c.1915 and places it on the west footpath of Westmoreland Street; verify current survival.",
+    "feature_type": "MICRO_DETAIL"
   },
   {
     "id": "DUB-STR-0022",
@@ -8551,7 +8613,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50100400. NIAH describes an Edward VII pillar box near Merrion Street Upper and records it as in active use; verify current location and condition."
+    "research_notes": "NIAH Registration 50100400. NIAH describes an Edward VII pillar box near Merrion Street Upper and records it as in active use; verify current location and condition.",
+    "feature_type": "MICRO_DETAIL"
   },
   {
     "id": "DUB-STR-0023",
@@ -8588,7 +8651,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50930153. NIAH dates the box to c.1910 and places it at the south-east end of Fitzwilliam Place; verify current condition."
+    "research_notes": "NIAH Registration 50930153. NIAH dates the box to c.1910 and places it at the south-east end of Fitzwilliam Place; verify current condition.",
+    "feature_type": "MICRO_DETAIL"
   },
   {
     "id": "DUB-STR-0024",
@@ -8625,7 +8689,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50930014. The official record describes a c.1880 cast-iron box and specifically notes the absence of a royal cipher; verify this unusual feature in the field."
+    "research_notes": "NIAH Registration 50930014. The official record describes a c.1880 cast-iron box and specifically notes the absence of a royal cipher; verify this unusual feature in the field.",
+    "feature_type": "MICRO_DETAIL"
   },
   {
     "id": "DUB-STR-0025",
@@ -8662,7 +8727,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50930229. NIAH dates the box to c.1890 and places it at the Fitzwilliam Square South and Pembroke Street Upper junction; verify current position."
+    "research_notes": "NIAH Registration 50930229. NIAH dates the box to c.1890 and places it at the Fitzwilliam Square South and Pembroke Street Upper junction; verify current position.",
+    "feature_type": "MICRO_DETAIL"
   },
   {
     "id": "DUB-STR-0026",
@@ -8699,7 +8765,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50010116. NIAH dates the cast-iron gas-lamp standard to c.1870, places it on the Amiens Street/Buckingham Street traffic island and records conversion to electricity c.1900. Use safe viewpoints; do not enter the traffic island."
+    "research_notes": "NIAH Registration 50010116. NIAH dates the cast-iron gas-lamp standard to c.1870, places it on the Amiens Street/Buckingham Street traffic island and records conversion to electricity c.1900. Use safe viewpoints; do not enter the traffic island.",
+    "feature_type": "MICRO_DETAIL"
   },
   {
     "id": "DUB-STR-0027",
@@ -8736,7 +8803,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50020523. NIAH dates the concrete lamp standard to c.1935 and places it at the east end on the north side of College Street. Verify present survival and whether the lanterns and brackets remain complete."
+    "research_notes": "NIAH Registration 50020523. NIAH dates the concrete lamp standard to c.1935 and places it at the east end on the north side of College Street. Verify present survival and whether the lanterns and brackets remain complete.",
+    "feature_type": "MICRO_DETAIL"
   },
   {
     "id": "DUB-STR-0028",
@@ -8774,7 +8842,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50010060. The record describes the structure as both lamp standard and former fountain, erected c.1880 and converted to electricity c.1900. It stands on a traffic island; no field approach should enter the carriageway."
+    "research_notes": "NIAH Registration 50010060. The record describes the structure as both lamp standard and former fountain, erected c.1880 and converted to electricity c.1900. It stands on a traffic island; no field approach should enter the carriageway.",
+    "feature_type": "MICRO_DETAIL"
   },
   {
     "id": "DUB-STR-0038",
@@ -8811,7 +8880,8 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ],
-    "research_notes": "NIAH Registration 50020527. NIAH places the standard at the west end on the south side of Pearse Street; verify present survival and completeness."
+    "research_notes": "NIAH Registration 50020527. NIAH places the standard at the west end on the south side of Pearse Street; verify present survival and completeness.",
+    "feature_type": "MICRO_DETAIL"
   },
   {
     "id": "DUB-STR-0039",
@@ -8884,7 +8954,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0049 (Warrenpoint gate lodge — 84 Clontarf Road). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference 318992, 236009 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using the project's established transformation (EPSG operation 1641). The source point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH describes masonry sphinxes on the entrance piers. Exact number, condition and visibility should be verified from public viewpoints during fieldwork.",
@@ -8922,7 +8992,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0050 (86 Clontarf Road). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference 319039, 236025 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using the project's established transformation (EPSG operation 1641). The NIAH record does not state positional accuracy; exact on-site position remains unverified.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH explicitly records a petal-motif fanlight. The fanlight's present condition and visibility from public space await founder photography.",
@@ -8960,7 +9030,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0047 (Clontarf Castle gate lodge — Gothic Revival entrance building). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference 319498, 236289 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using the project's established transformation. Source-point positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH explicitly records a shield over the former carriage arch. The exact carved design, current condition and visibility from public space await founder photography.",
@@ -9114,7 +9184,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0078 (1 Sherrard Street Upper — c.1828 townhouse with surviving historic entrance fabric). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference 315869, 235660 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using project operation 1641. The point locates the host building; positional accuracy is not specified and founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
     "last_researched": "2026-10-27",
@@ -9151,7 +9221,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0078 (1 Sherrard Street Upper — c.1828 townhouse with surviving historic entrance fabric). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference 315869, 235660 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using project operation 1641. The point locates the host building; positional accuracy is not specified and founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
     "last_researched": "2026-10-27",
@@ -9188,7 +9258,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0078 (1 Sherrard Street Upper — c.1828 townhouse with surviving historic entrance fabric). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference 315869, 235660 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using project operation 1641. The point locates the host building; positional accuracy is not specified and founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
     "last_researched": "2026-10-26"
@@ -9573,7 +9643,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0082 (238 Clonliffe Road — Victorian corner house). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference 316055, 236201 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. NIAH point is source-derived, not founder GPS.",
     "research_notes": "NIAH Registration 50120194. Indexed official register content reviewed; direct full-page verification remains pending. Exact micro-detail position is not independently mapped; use the linked host record for field navigation. Confirm current presence, condition, access and exact feature position during founder fieldwork. No founder photograph or line art exists. Official NIAH full record details were retrieved and reviewed on 2026-10-27, including the registration number, location, classification/rating, date, Description and Appraisal where supplied. The catalogue description is source-verified against NIAH; current physical condition, exact micro-feature position where applicable, and founder photography remain separate fieldwork tasks.",
     "last_researched": "2026-10-27",
@@ -9611,7 +9681,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0082 (238 Clonliffe Road — Victorian corner house). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference 316055, 236201 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. NIAH point is source-derived, not founder GPS.",
     "research_notes": "NIAH Registration 50120194. Indexed official register content reviewed; direct full-page verification remains pending. Exact micro-detail position is not independently mapped; use the linked host record for field navigation. Confirm current presence, condition, access and exact feature position during founder fieldwork. No founder photograph or line art exists. Official NIAH full record details were retrieved and reviewed on 2026-10-27, including the registration number, location, classification/rating, date, Description and Appraisal where supplied. The catalogue description is source-verified against NIAH; current physical condition, exact micro-feature position where applicable, and founder photography remain separate fieldwork tasks.",
     "last_researched": "2026-10-27",
@@ -9648,7 +9718,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0083 (Fairview Park — 1930s former public convenience). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference 317513, 236163 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. NIAH point is source-derived, not founder GPS.",
     "research_notes": "NIAH Registration 50120133. Indexed official register content reviewed; direct full-page verification remains pending. Exact micro-detail position is not independently mapped; use the linked host record for field navigation. Confirm current presence, condition, access and exact feature position during founder fieldwork. No founder photograph or line art exists. Official NIAH full record details were retrieved and reviewed on 2026-10-27, including the registration number, location, classification/rating, date, Description and Appraisal where supplied. The catalogue description is source-verified against NIAH; current physical condition, exact micro-feature position where applicable, and founder photography remain separate fieldwork tasks.",
     "last_researched": "2026-10-27",
@@ -9667,7 +9737,7 @@
     "national_grid_reference": "320244, 236366",
     "latitude": 53.3640502,
     "longitude": -6.1944676,
-    "coordinate_status": "NIAH_SITE_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "National Inventory of Architectural Heritage Registration 50030341 publishes the road-group location at Irish Grid 320244, 236366. Converted from TM65 / Irish Grid (EPSG:29902) to WGS 84. This is a location reference for the Seafield Road East/West group, not the surveyed coordinate of each individual lamp standard; exact surviving standards and positions require field verification.",
     "coordinate_accuracy_m": null,
     "verification_status": "VERIFIED",
@@ -9704,7 +9774,7 @@
     "national_grid_reference": null,
     "latitude": 53.3568783,
     "longitude": -6.2456004,
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0018 (12 Charleville Mall — Georgian house with coal-hole cover). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
     "verification_status": "VERIFIED",
@@ -9740,7 +9810,7 @@
     "national_grid_reference": null,
     "latitude": 53.3568783,
     "longitude": -6.2456004,
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0018 (12 Charleville Mall — Georgian house with coal-hole cover). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
     "verification_status": "VERIFIED",
@@ -9776,7 +9846,7 @@
     "national_grid_reference": null,
     "latitude": 53.33859414294933,
     "longitude": -6.247011861420609,
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0085 (46 Merrion Square East — Georgian townhouse and historic setting). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: NIAH Registration 50100511, published Irish Grid reference 316816, 233446, transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. This is a source-derived building point, not founder-recorded GPS; exact micro-detail positions remain separate fieldwork tasks.",
     "coordinate_accuracy_m": null,
     "verification_status": "VERIFIED",
@@ -9812,7 +9882,7 @@
     "national_grid_reference": null,
     "latitude": 53.33859414294933,
     "longitude": -6.247011861420609,
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0085 (46 Merrion Square East — Georgian townhouse and historic setting). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: NIAH Registration 50100511, published Irish Grid reference 316816, 233446, transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. This is a source-derived building point, not founder-recorded GPS; exact micro-detail positions remain separate fieldwork tasks.",
     "coordinate_accuracy_m": null,
     "verification_status": "VERIFIED",
@@ -9848,7 +9918,7 @@
     "national_grid_reference": null,
     "latitude": 53.354174976842785,
     "longitude": -6.246928037571168,
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0084 (86 Amiens Street — Regency townhouse with surviving street-fabric details). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference 316779, 235180 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The point locates the building, not each micro-feature; field verification remains outstanding.",
     "coordinate_accuracy_m": null,
     "verification_status": "VERIFIED",
@@ -9884,7 +9954,7 @@
     "national_grid_reference": null,
     "latitude": 53.354174976842785,
     "longitude": -6.246928037571168,
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0084 (86 Amiens Street — Regency townhouse with surviving street-fabric details). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference 316779, 235180 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The point locates the building, not each micro-feature; field verification remains outstanding.",
     "coordinate_accuracy_m": null,
     "verification_status": "VERIFIED",
@@ -9920,7 +9990,7 @@
     "national_grid_reference": null,
     "latitude": 53.354174976842785,
     "longitude": -6.246928037571168,
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0084 (86 Amiens Street — Regency townhouse with surviving street-fabric details). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference 316779, 235180 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The point locates the building, not each micro-feature; field verification remains outstanding.",
     "coordinate_accuracy_m": null,
     "verification_status": "VERIFIED",
@@ -9956,7 +10026,7 @@
     "national_grid_reference": null,
     "latitude": 53.354174976842785,
     "longitude": -6.246928037571168,
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0084 (86 Amiens Street — Regency townhouse with surviving street-fabric details). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference 316779, 235180 transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The point locates the building, not each micro-feature; field verification remains outstanding.",
     "coordinate_accuracy_m": null,
     "verification_status": "VERIFIED",
@@ -9992,7 +10062,7 @@
     "national_grid_reference": null,
     "latitude": 53.3571706,
     "longitude": -6.2588065,
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0025 (3 Mountjoy Square North — Georgian house with historic political use and coal-hole cover). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
     "verification_status": "VERIFIED",
@@ -10028,7 +10098,7 @@
     "national_grid_reference": null,
     "latitude": 53.3571706,
     "longitude": -6.2588065,
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0025 (3 Mountjoy Square North — Georgian house with historic political use and coal-hole cover). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
     "verification_status": "VERIFIED",
@@ -10064,7 +10134,7 @@
     "national_grid_reference": null,
     "latitude": 53.3571706,
     "longitude": -6.2588065,
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0025 (3 Mountjoy Square North — Georgian house with historic political use and coal-hole cover). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
     "verification_status": "VERIFIED",
@@ -10117,7 +10187,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0086 (6 Seville Place — Victorian townhouse with historic entrance fabric). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: NIAH Registration 50010046, published Irish Grid reference 316827, 235171, transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. This is a source-derived building point, not founder-recorded GPS; exact micro-detail positions remain separate fieldwork tasks.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH Registration 50010046 directly inspected. The source confirms the feature's presence but does not separately establish its exact date, maker or current condition unless stated in the description. Confirm the feature on site and record only what the founder can observe.",
@@ -10153,7 +10223,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0087 (17 Earlsfort Terrace — late-Victorian townhouse and ironwork). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: NIAH Registration 50110448, published Irish Grid reference 316074, 232852, transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. This is a source-derived building point, not founder-recorded GPS; exact micro-detail positions remain separate fieldwork tasks.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH Registration 50110448 directly inspected. The source confirms the feature's presence but does not separately establish its exact date, maker or current condition unless stated in the description. Confirm the feature on site and record only what the founder can observe.",
@@ -10189,7 +10259,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0087 (17 Earlsfort Terrace — late-Victorian townhouse and ironwork). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: NIAH Registration 50110448, published Irish Grid reference 316074, 232852, transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. This is a source-derived building point, not founder-recorded GPS; exact micro-detail positions remain separate fieldwork tasks.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH Registration 50110448 directly inspected. The source confirms the feature's presence but does not separately establish its exact date, maker or current condition unless stated in the description. Confirm the feature on site and record only what the founder can observe.",
@@ -10226,7 +10296,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0087 (17 Earlsfort Terrace — late-Victorian townhouse and ironwork). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: NIAH Registration 50110448, published Irish Grid reference 316074, 232852, transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. This is a source-derived building point, not founder-recorded GPS; exact micro-detail positions remain separate fieldwork tasks.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH Registration 50110448 directly inspected. The source confirms the feature's presence but does not separately establish its exact date, maker or current condition unless stated in the description. Confirm the feature on site and record only what the founder can observe.",
@@ -10262,7 +10332,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0088 (47 Hardwicke Street — early Georgian townhouse with entrance fabric). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: NIAH Registration 50010889, published Irish Grid reference 315611, 235317, transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. This is a source-derived building point, not founder-recorded GPS; exact micro-detail positions remain separate fieldwork tasks.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH Registration 50010889 directly inspected. The source confirms the feature's presence but does not separately establish its exact date, maker or current condition unless stated in the description. Confirm the feature on site and record only what the founder can observe.",
@@ -10298,7 +10368,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0089 (6 Sherrard Street Upper — late-Georgian townhouse). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: NIAH Registration 50010744, published Irish Grid reference 315897, 235677, transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. This is a source-derived building point, not founder-recorded GPS; exact micro-detail positions remain separate fieldwork tasks.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH Registration 50010744 directly inspected. The source confirms the feature's presence but does not separately establish its exact date, maker or current condition unless stated in the description. Confirm the feature on site and record only what the founder can observe.",
@@ -10335,7 +10405,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0031 (1 Pembroke Street Upper — Georgian embassy frontage with coal-hole cover). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH Registration 50930231 directly inspected. The source confirms this feature's presence but does not separately state its maker or installation date. Confirm current condition and precise position during founder fieldwork.",
@@ -10371,7 +10441,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0031 (1 Pembroke Street Upper — Georgian embassy frontage with coal-hole cover). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH Registration 50930231 directly inspected. The source confirms this feature's presence but does not separately state its maker or installation date. Confirm current condition and precise position during founder fieldwork.",
@@ -10407,7 +10477,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0014 (37 Harcourt Street — Georgian frontage and coal-hole cover). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH Registration 50920231 directly inspected. The source confirms this feature's presence but does not separately state its maker or installation date. Confirm current condition and precise position during founder fieldwork.",
@@ -10443,7 +10513,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0090 (18 Earlsfort Terrace — late-Victorian townhouse with surviving entrance ironwork). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: NIAH Registration 50110449, published Irish Grid reference 316073, 232844, transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. This point locates the host building, not the precise micro-detail position; it is not founder-recorded GPS.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH Registration 50110449 directly inspected. The source confirms the feature's presence but does not separately establish its maker, exact installation date or current condition unless stated. Confirm its survival and details during founder fieldwork.",
@@ -10479,7 +10549,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0090 (18 Earlsfort Terrace — late-Victorian townhouse with surviving entrance ironwork). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: NIAH Registration 50110449, published Irish Grid reference 316073, 232844, transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. This point locates the host building, not the precise micro-detail position; it is not founder-recorded GPS.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH Registration 50110449 directly inspected. The source confirms the feature's presence but does not separately establish its maker, exact installation date or current condition unless stated. Confirm its survival and details during founder fieldwork.",
@@ -10516,7 +10586,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0090 (18 Earlsfort Terrace — late-Victorian townhouse with surviving entrance ironwork). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: NIAH Registration 50110449, published Irish Grid reference 316073, 232844, transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. This point locates the host building, not the precise micro-detail position; it is not founder-recorded GPS.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH Registration 50110449 directly inspected. The source confirms the feature's presence but does not separately establish its maker, exact installation date or current condition unless stated. Confirm its survival and details during founder fieldwork.",
@@ -10552,7 +10622,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0091 (1 Harcourt Terrace — Regency corner house and pavement setting). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: NIAH Registration 50110463, published Irish Grid reference 316089, 232750, transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. This point locates the host building, not the precise micro-detail position; it is not founder-recorded GPS.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH Registration 50110463 directly inspected. The source confirms the feature's presence but does not separately establish its maker, exact installation date or current condition unless stated. Confirm its survival and details during founder fieldwork.",
@@ -10588,7 +10658,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0092 (2 Pembroke Street Upper — Regency townhouse with historic entrance fittings). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: NIAH Registration 50930232, published Irish Grid reference 316382, 233017, transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. This point locates the host building, not the precise micro-detail position; it is not founder-recorded GPS.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH Registration 50930232 directly inspected. The source confirms the feature's presence but does not separately establish its maker, exact installation date or current condition unless stated. Confirm its survival and details during founder fieldwork.",
@@ -10624,7 +10694,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0092 (2 Pembroke Street Upper — Regency townhouse with historic entrance fittings). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: NIAH Registration 50930232, published Irish Grid reference 316382, 233017, transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG operation 1641. This point locates the host building, not the precise micro-detail position; it is not founder-recorded GPS.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH Registration 50930232 directly inspected. The source confirms the feature's presence but does not separately establish its maker, exact installation date or current condition unless stated. Confirm its survival and details during founder fieldwork.",
@@ -10660,7 +10730,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0033 (13 Pembroke Street Upper — Georgian townhouse with coal-hole cover). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH Registration 50930242 directly inspected. The source confirms the feature's presence but does not separately establish its maker, exact installation date or current condition unless stated. Confirm its survival and details during founder fieldwork.",
@@ -10696,7 +10766,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0093 (84 Harcourt Street — early-Victorian townhouse with surviving cast-iron entrance fittings). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: NIAH Registration 50920237, published Irish Grid reference 315754, 233156, transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using the project's established EPSG operation 1641. This point locates the host building, not the exact position of its micro-details; it is not a founder-recorded GPS fix.",
     "coordinate_accuracy_m": null,
     "research_notes": "The NIAH register directly confirms the bootscraper's presence on the shared granite entrance platform. Maker, installation date, exact position and current condition remain unestablished.",
@@ -10732,7 +10802,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0093 (84 Harcourt Street — early-Victorian townhouse with surviving cast-iron entrance fittings). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: NIAH Registration 50920237, published Irish Grid reference 315754, 233156, transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using the project's established EPSG operation 1641. This point locates the host building, not the exact position of its micro-details; it is not a founder-recorded GPS fix.",
     "coordinate_accuracy_m": null,
     "research_notes": "The NIAH register directly confirms a cast-iron coal-hole cover to the street west of the building. Its precise pavement position, maker, date, inscription and current condition remain to be checked on site.",
@@ -10769,7 +10839,7 @@
       "SRC-EPSG-TM65-29902"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent building DUB-BLD-0093 (84 Harcourt Street — early-Victorian townhouse with surviving cast-iron entrance fittings). The published NIAH point locates the host building, not this exact micro-detail. This pin is a building-level navigation reference only; the exact feature position must be field-verified before claiming a precise micro-location. Parent coordinate provenance: NIAH Registration 50920237, published Irish Grid reference 315754, 233156, transformed from TM65 / Irish Grid (EPSG:29902) to WGS 84 using the project's established EPSG operation 1641. This point locates the host building, not the exact position of its micro-details; it is not a founder-recorded GPS fix.",
     "coordinate_accuracy_m": null,
     "research_notes": "The NIAH register directly confirms the railings, anthemion finials and carved granite plinth enclosing the basement well. Foundry, installation date, exact extents and present condition remain unestablished.",
@@ -10811,7 +10881,8 @@
     "coordinate_source": "The EPA-published environmental report gives ITM coordinates 718340 E, 734070 N for RPS 7376. These were transformed from Irish Transverse Mercator (EPSG:2157) to WGS 84 (EPSG:4326) using a standard CRS transformation. The source coordinate's positional accuracy is not specified; founder field GPS verification remains outstanding.",
     "coordinate_accuracy_m": null,
     "coordinate_status": "SOURCE_DERIVED",
-    "research_notes": "Dating discrepancy retained: BusConnects CBC16 architectural-heritage appendix describes the fountain as c.1930; EPA-published report describes it as erected in 1906. Both identify RPS 7376 at 103 Ringsend Park and describe a fountain in/at the garden wall. Do not state a single definitive construction year until further primary evidence resolves the discrepancy."
+    "research_notes": "Dating discrepancy retained: BusConnects CBC16 architectural-heritage appendix describes the fountain as c.1930; EPA-published report describes it as erected in 1906. Both identify RPS 7376 at 103 Ringsend Park and describe a fountain in/at the garden wall. Do not state a single definitive construction year until further primary evidence resolves the discrepancy.",
+    "feature_type": "MICRO_DETAIL"
   },
   {
     "id": "DUB-STR-0093",
@@ -10846,7 +10917,7 @@
       "RTE-MAGAZINE-FORT-REOPENING-2026"
     ],
     "feature_type": "MICRO_DETAIL",
-    "coordinate_status": "PARENT_BUILDING_REFERENCE",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Navigation coordinate inherited from parent record DUB-BLD-0099 (Magazine Fort), based on NIAH Registration 50060115 Irish Grid 312176, 234458 transformed to WGS 84. This is the fort's site point, not a surveyed coordinate for the gate itself; exact gate position requires founder field verification.",
     "coordinate_accuracy_m": null,
     "research_notes": "RTÉ's 28 July 2026 report records that the Duke of Dorset Gate had been dismantled in the 1970s and was reinstated using a 1969 wedding photograph and surviving pieces. The Phoenix Park Guide Service describes the gate's reconstruction as a highlight of the phased restoration. This record is a separate feature, not a second fort."
@@ -11440,7 +11511,8 @@
     "coordinate_source": "NIAH Registration 50030032 publishes Irish Grid 321969, 237264. No WGS84 point or founder GPS assigned.",
     "coordinate_accuracy_m": null,
     "last_researched": "2026-11-11",
-    "research_notes": "NIAH Registration 50030032 dates the folly to c.1860 and identifies it as overlooking an artificial pond. It is distinct from the Herculanean Temple (50030024), already catalogued. Additional identity research: the conservation contractor Oldstone Conservation identifies the Boathouse as the Pompeiian Temple and states it is adjacent to the duck pond and was formerly used as a tea house. The official Dublin City Council follies list separately names the Boat House. This is treated as an alias for NIAH 50030032, not a second structure."
+    "research_notes": "NIAH Registration 50030032 dates the folly to c.1860 and identifies it as overlooking an artificial pond. It is distinct from the Herculanean Temple (50030024), already catalogued. Additional identity research: the conservation contractor Oldstone Conservation identifies the Boathouse as the Pompeiian Temple and states it is adjacent to the duck pond and was formerly used as a tea house. The official Dublin City Council follies list separately names the Boat House. This is treated as an alias for NIAH 50030032, not a second structure.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-INF-0137",
@@ -11478,7 +11550,8 @@
     "coordinate_source": "NIAH Registration 50030025 publishes Irish Grid 321843, 237271. No WGS84 point or founder GPS assigned.",
     "coordinate_accuracy_m": null,
     "last_researched": "2026-11-11",
-    "research_notes": "NIAH Registration 50030025 records a c.1860 bridge and specifically notes the west-spandrel carved bracket and brick soffit. Do not enter the river or climb the bridge."
+    "research_notes": "NIAH Registration 50030025 records a c.1860 bridge and specifically notes the west-spandrel carved bracket and brick soffit. Do not enter the river or climb the bridge.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-INF-0138",
@@ -11515,7 +11588,8 @@
     "coordinate_source": "NIAH Registration 50030027 publishes Irish Grid 321817, 237273. No WGS84 point or founder GPS assigned.",
     "coordinate_accuracy_m": null,
     "last_researched": "2026-11-11",
-    "research_notes": "NIAH Registration 50030027 records a c.1860 functional footbridge and describes it as part of a pair of similar bridges. This is catalogued separately from NIAH 50030025 because the inventory records two distinct crossings."
+    "research_notes": "NIAH Registration 50030027 records a c.1860 functional footbridge and describes it as part of a pair of similar bridges. This is catalogued separately from NIAH 50030025 because the inventory records two distinct crossings.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-INF-0139",
@@ -11553,7 +11627,8 @@
     "coordinate_source": "NIAH Registration 50030036 publishes Irish Grid 321539, 237305. No WGS84 point or founder GPS assigned.",
     "coordinate_accuracy_m": null,
     "last_researched": "2026-11-11",
-    "research_notes": "NIAH Registration 50030036 records the bridge as c.1860 and describes its former kitchen-garden route and groin-vaulted interior. Present condition requires field inspection."
+    "research_notes": "NIAH Registration 50030036 records the bridge as c.1860 and describes its former kitchen-garden route and groin-vaulted interior. Present condition requires field inspection.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-MON-0013",
@@ -11591,7 +11666,8 @@
     "coordinate_accuracy_m": null,
     "map_url": null,
     "last_researched": "2026-11-11",
-    "research_notes": "Dublin City Council identifies St Anne’s Well as medieval and on the Record of Monuments and Places (DU019-012). The 2017 archaeological monitoring report documents the 2016 cleaning works, circular base opening, surviving nineteenth-century grille, granite paving extending 2.45m, and dry condition at that time. No claim is made about present water level or current physical condition."
+    "research_notes": "Dublin City Council identifies St Anne’s Well as medieval and on the Record of Monuments and Places (DU019-012). The 2017 archaeological monitoring report documents the 2016 cleaning works, circular base opening, surviving nineteenth-century grille, granite paving extending 2.45m, and dry condition at that time. No claim is made about present water level or current physical condition.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-ARC-0001",
@@ -11628,7 +11704,8 @@
     "coordinate_accuracy_m": null,
     "map_url": null,
     "last_researched": "2026-11-11",
-    "research_notes": "Evidence: Dublin City Council's preliminary archaeological excavation report dated 20 November 2024, licence 22E0688 ext. It documents the 2024 excavation of the mansion's portico, porch, picture gallery, part of the main hall and carriage road, plus previous investigations of the drawing room, statue room and cellars. Exact present-day access and exposed condition require field verification."
+    "research_notes": "Evidence: Dublin City Council's preliminary archaeological excavation report dated 20 November 2024, licence 22E0688 ext. It documents the 2024 excavation of the mansion's portico, porch, picture gallery, part of the main hall and carriage road, plus previous investigations of the drawing room, statue room and cellars. Exact present-day access and exposed condition require field verification.",
+    "feature_type": "SITE"
   },
   {
     "id": "DUB-LND-0001",
@@ -11665,7 +11742,8 @@
     "coordinate_accuracy_m": null,
     "map_url": null,
     "last_researched": "2026-11-11",
-    "research_notes": "Dublin City Council lists Rockwork Feature separately among the twelve follies. Oldstone Conservation's project account identifies it as a distinct item within the twelve-folly conservation programme and describes a group of smaller boulder-built features; the Lough Corrib origin is only a contractor's likelihood statement, not a verified provenance. Keep this record as RESEARCH_LEAD until the exact feature is field-identified."
+    "research_notes": "Dublin City Council lists Rockwork Feature separately among the twelve follies. Oldstone Conservation's project account identifies it as a distinct item within the twelve-folly conservation programme and describes a group of smaller boulder-built features; the Lough Corrib origin is only a contractor's likelihood statement, not a verified provenance. Keep this record as RESEARCH_LEAD until the exact feature is field-identified.",
+    "feature_type": "PRIMARY_OBJECT"
   },
   {
     "id": "DUB-STR-0137",
@@ -12263,8 +12341,8 @@
       "NIAH-50070481",
       "SRC-EPSG-TM65-29902"
     ],
-    "feature_type": "DETAIL_OBJECT",
-    "coordinate_status": "SOURCE_DERIVED_APPROXIMATE",
+    "feature_type": "MICRO_DETAIL",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 315580, 235537 transformed from EPSG:29902 to WGS84 using EPSG operation 1641. The grid locates the host building, not the exact cover/plaque; this is an approximate locator, not founder GPS or a surveyed feature coordinate.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH 50070481 describes a cast-iron coal-hole cover in the granite pavement to the front of 74 Eccles Street. This is a separately catalogued detail, not a duplicate of the parent building. NIAH grid reference locates the building, not a surveyed exact cover centre; coordinates are approximate source-derived locators only. Current survival and precise cover position require field verification.",
@@ -12300,8 +12378,8 @@
       "NIAH-50070484",
       "SRC-EPSG-TM65-29902"
     ],
-    "feature_type": "DETAIL_OBJECT",
-    "coordinate_status": "SOURCE_DERIVED_APPROXIMATE",
+    "feature_type": "MICRO_DETAIL",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 315597, 235530 transformed from EPSG:29902 to WGS84 using EPSG operation 1641. The grid locates the host building, not the exact cover/plaque; this is an approximate locator, not founder GPS or a surveyed feature coordinate.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH 50070484 specifically records a cast-iron coal-hole cover in the granite pavement in front of 77 Eccles Street. The NIAH grid reference is for the building and is not an exact surveyed cover coordinate. The WGS84 point is an approximate source-derived locator; current survival and precise position require field verification.",
@@ -12337,8 +12415,8 @@
       "NIAH-50010820",
       "SRC-EPSG-TM65-29902"
     ],
-    "feature_type": "DETAIL_OBJECT",
-    "coordinate_status": "SOURCE_DERIVED_APPROXIMATE",
+    "feature_type": "MICRO_DETAIL",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 315980, 235494 transformed from EPSG:29902 to WGS84 using EPSG operation 1641. The grid locates the host building, not the exact cover/plaque; this is an approximate locator, not founder GPS or a surveyed feature coordinate.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH 50010820 records a cast-iron coal-hole cover in the pavement to the front of No. 3 Mountjoy Square North. Parent building is already catalogued as DUB-BLD-0025; this entry separately records the physical coal-hole detail and links to that parent. The published grid reference is for the building, not exact cover centre; locator is approximate and source-derived.",
@@ -12374,8 +12452,8 @@
       "NIAH-50910150",
       "SRC-EPSG-TM65-29902"
     ],
-    "feature_type": "DETAIL_OBJECT",
-    "coordinate_status": "SOURCE_DERIVED_APPROXIMATE",
+    "feature_type": "MICRO_DETAIL",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 315823, 233956 transformed from EPSG:29902 to WGS84 using EPSG operation 1641. The grid locates the host building, not the exact cover/plaque; this is an approximate locator, not founder GPS or a surveyed feature coordinate.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH 50910150 identifies a carved limestone name plaque reading 'St. Andrew's Street' at the northeast end of the façade. NIAH also notes the south end was formerly called Hog Hill. This is a separate detail entry, not a duplicate of the host building. Published grid locates the host building; exact plaque position is not independently surveyed and must be field checked.",
@@ -12411,8 +12489,8 @@
       "NIAH-50910139",
       "SRC-EPSG-TM65-29902"
     ],
-    "feature_type": "DETAIL_OBJECT",
-    "coordinate_status": "SOURCE_DERIVED_APPROXIMATE",
+    "feature_type": "MICRO_DETAIL",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 315948, 233949 transformed from EPSG:29902 to WGS84 using EPSG operation 1641. The reference locates the host building, not the exact pavement feature; approximate locator only, not founder GPS.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH 50910139 explicitly records a cast-iron pavement light at street level serving the basement. Published Irish Grid 315948, 233949 identifies the host building, not an exact surveyed centre of the light; WGS84 point is approximate source-derived locator, not founder GPS. Current survival and exact position require field verification.",
@@ -12448,8 +12526,8 @@
       "NIAH-50910142",
       "SRC-EPSG-TM65-29902"
     ],
-    "feature_type": "DETAIL_OBJECT",
-    "coordinate_status": "SOURCE_DERIVED_APPROXIMATE",
+    "feature_type": "MICRO_DETAIL",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 315932, 233959 transformed from EPSG:29902 to WGS84 using EPSG operation 1641. The reference locates the host building, not the exact pavement feature; approximate locator only, not founder GPS.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH 50910142 describes the basement as enclosed by a cast-iron pavement light at street level. Published Irish Grid 315932, 233959 locates the host building, not an exact surveyed light centre; coordinate is an approximate source-derived locator, not founder GPS. Current survival and exact position require field verification.",
@@ -12485,8 +12563,8 @@
       "NIAH-50010284",
       "SRC-EPSG-TM65-29902"
     ],
-    "feature_type": "DETAIL_OBJECT",
-    "coordinate_status": "SOURCE_DERIVED_APPROXIMATE",
+    "feature_type": "MICRO_DETAIL",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 316077, 234519 transformed from EPSG:29902 to WGS84 using EPSG operation 1641. The reference locates the host building, not the exact pavement feature; approximate locator only, not founder GPS.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH 50010284 explicitly records a glazed cast-iron pavement light to the cellar set in granite slabs. Published Irish Grid 316077, 234519 identifies the host building, not the exact light centre; WGS84 point is approximate source-derived locator, not founder GPS. Current survival and exact location require field verification.",
@@ -12522,8 +12600,8 @@
       "NIAH-50910032",
       "SRC-EPSG-TM65-29902"
     ],
-    "feature_type": "DETAIL_OBJECT",
-    "coordinate_status": "SOURCE_DERIVED_APPROXIMATE",
+    "feature_type": "MICRO_DETAIL",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 315593, 233776 transformed from EPSG:29902 to WGS84 using EPSG operation 1641. The reference locates the host building, not the exact pavement feature; approximate locator only, not founder GPS.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH 50910032 records a grille serving the basement in the pavement to the front of the building. The source does not specify a more precise original function. Published Irish Grid 315593, 233776 locates the host building, not exact grille centre; coordinate is an approximate source-derived locator, not founder GPS. Current survival and exact position require field verification.",
@@ -12559,8 +12637,8 @@
       "NIAH-50010730",
       "SRC-EPSG-TM65-29902"
     ],
-    "feature_type": "DETAIL_OBJECT",
-    "coordinate_status": "SOURCE_DERIVED_APPROXIMATE",
+    "feature_type": "MICRO_DETAIL",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 316002, 235735 transformed from EPSG:29902 to WGS84 using EPSG operation 1641. This identifies the host building/structure, not exact detail position; approximate locator, not founder GPS.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH 50010730 records a good example of an Ordnance Survey benchmark on the plinth wall at the corner and a decorative Portland limestone panel inscribed 'Lower Sherrard St. 1827'. This is at 1 Sherrard Street Lower and is distinct from the previously catalogued benchmark at 1 Sherrard Street Upper (DUB-STR-0048). NIAH grid identifies host building, not exact benchmark point; approximate source-derived locator pending field GPS.",
@@ -12596,8 +12674,8 @@
       "NIAH-60260097",
       "SRC-EPSG-TM65-29902"
     ],
-    "feature_type": "DETAIL_OBJECT",
-    "coordinate_status": "SOURCE_DERIVED_APPROXIMATE",
+    "feature_type": "MICRO_DETAIL",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 324410, 222818 transformed from EPSG:29902 to WGS84 using EPSG operation 1641. This identifies the host building/structure, not exact detail position; approximate locator, not founder GPS.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH 60260097 records a benchmark on a granite ashlar pier of the five-arch viaduct built 1852–1853 and opened 1854. The published Irish Grid point is for the viaduct, not the exact benchmark inscription; approximate source-derived locator pending founder GPS. The structure is disused; confirm lawful public access and safe vantage before field photography.",
@@ -12633,8 +12711,8 @@
       "NIAH-50110355",
       "SRC-EPSG-TM65-29902"
     ],
-    "feature_type": "DETAIL_OBJECT",
-    "coordinate_status": "SOURCE_DERIVED_APPROXIMATE",
+    "feature_type": "MICRO_DETAIL",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 315430, 233021 transformed from EPSG:29902 to WGS84 using EPSG operation 1641. This identifies the host building/structure, not exact detail position; approximate locator, not founder GPS.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH 50110355 describes the c.1845 house as retaining a full-height ventilation pipe. The published Irish Grid point identifies the host building; exact pipe alignment and current condition require field confirmation. No claim is made about the pipe's original purpose beyond NIAH's ventilation identification.",
@@ -12670,8 +12748,8 @@
       "NIAH-50020369",
       "SRC-EPSG-TM65-29902"
     ],
-    "feature_type": "DETAIL_OBJECT",
-    "coordinate_status": "SOURCE_DERIVED_APPROXIMATE",
+    "feature_type": "MICRO_DETAIL",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 316684, 234063 transformed from EPSG:29902 to WGS84 using EPSG operation 1641. This identifies the host building/structure, not exact detail position; approximate locator, not founder GPS.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH 50020369 describes granite kerb stones and granite paving with an iron grille to the front of 45 Pearse Street. The source does not explicitly identify the grille's original function; it is catalogued neutrally as an iron pavement grille. Published grid identifies the host building, not exact grille centre; approximate locator pending field GPS.",
@@ -12707,8 +12785,8 @@
       "NIAH-50020367",
       "SRC-EPSG-TM65-29902"
     ],
-    "feature_type": "DETAIL_OBJECT",
-    "coordinate_status": "SOURCE_DERIVED_APPROXIMATE",
+    "feature_type": "MICRO_DETAIL",
+    "coordinate_status": "SOURCE_DERIVED",
     "coordinate_source": "Published NIAH Irish Grid reference 316671, 234068 transformed from EPSG:29902 to WGS84 using EPSG operation 1641. This identifies the host building/structure, not exact detail position; approximate locator, not founder GPS.",
     "coordinate_accuracy_m": null,
     "research_notes": "NIAH 50020367 describes cubed glass with granite pavier surrounds to a basement light on the south side of the building. Published grid identifies the host building, not exact glass-light centre; approximate source-derived locator pending founder GPS. Current survival, glass condition and safe access require field verification.",

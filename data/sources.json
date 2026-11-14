@@ -4803,5 +4803,35 @@
     "source_type": "OFFICIAL_REGISTER",
     "specific_reference": "NIAH Registration 50930290; description, appraisal and Irish Grid coordinate 316317, 233005.",
     "notes": "NIAH describes a c.1830 townhouse with shared granite entrance platform and cast-iron boot scraper, decorative iron railings and a coal-hole cover in the pavement."
+  },
+  {
+    "id": "NIAH-50110519",
+    "name": "25 Hatch Street Lower — NIAH Registration 50110519",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50110519/25-hatch-street-lower-dublin-2-dublin",
+    "accessed": "2026-11-14",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50110519; description, appraisal and Irish Grid coordinate 316173, 232889.",
+    "notes": "NIAH records a c.1810 townhouse with a wrought-iron boot-scrape on the entrance platform and a cast-iron coal-hole cover in the footpath."
+  },
+  {
+    "id": "NIAH-50930219",
+    "name": "26 Fitzwilliam Square — NIAH Registration 50930219",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50930219/26-fitzwilliam-square-dublin-2-dublin",
+    "accessed": "2026-11-14",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50930219; description, appraisal and Irish Grid coordinate 316464, 233018.",
+    "notes": "NIAH records a c.1825 townhouse with a cast-iron boot scraper, pavement coal-hole cover and a metal grille affixed to a basement-window sill."
+  },
+  {
+    "id": "NIAH-50920229",
+    "name": "35 Harcourt Street — NIAH Registration 50920229",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50920229/35-harcourt-street-dublin-2-dublin",
+    "accessed": "2026-11-14",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50920229; description, appraisal and Irish Grid coordinate 315728, 233024.",
+    "notes": "NIAH records a c.1800 townhouse with a cast-iron coal-hole cover to the footpath and historic railings and a granite entrance platform."
   }
 ]

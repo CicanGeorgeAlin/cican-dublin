@@ -897,5 +897,23 @@
       "SRC-EPSG-TM65-29902",
       "DCC-DEVELOPMENT-PLAN-BHA18-2022-2028"
     ]
+  },
+  {
+    "id": "RES-DUBLIN-STREET-DETAILS-BATCH-139",
+    "title": "Batch 139 — Georgian entrance fittings and pavement coal-hole covers",
+    "area": "DUBLIN 2 · HATCH STREET · FITZWILLIAM SQUARE · HARCOURT STREET",
+    "updated": "2026-11-14",
+    "status": "DOCUMENTED_CONTEXT",
+    "status_label": "OFFICIAL NIAH STREET-DETAIL DISCOVERY",
+    "summary": "Three NIAH-surveyed Georgian townhouses were registered with six individually photographable details: the wrought-iron boot-scrape and pavement coal-hole cover at 25 Hatch Street Lower; the cast-iron boot scraper, pavement coal-hole cover and basement-window metal grille at 26 Fitzwilliam Square; and the pavement coal-hole cover at 35 Harcourt Street.",
+    "supported": "NIAH registrations 50110519, 50930219 and 50920229 describe the buildings and listed entrance or pavement features. Published Irish Grid coordinates were transformed from EPSG:29902 to WGS 84 using operation 1641. Dublin City Council Policy BHA18 provides conservation-policy context.",
+    "limits": "NIAH coordinates locate host buildings, not exact micro-features. Present survival and condition are not field-verified. All six details await lawful founder photography and exact GPS. The 26 Fitzwilliam Square grille is described only as metal; its material is not inferred.",
+    "source_ids": [
+      "NIAH-50110519",
+      "NIAH-50930219",
+      "NIAH-50920229",
+      "DCC-DEVELOPMENT-PLAN-BHA18-2022-2028",
+      "SRC-EPSG-TM65-29902"
+    ]
   }
 ]

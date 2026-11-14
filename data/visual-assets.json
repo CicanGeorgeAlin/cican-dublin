@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 364,
+  "record_count": 370,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -13339,6 +13339,192 @@
         "Cast-iron shaft, lantern or surviving fittings",
         "Junction with railings, gate and entrance steps",
         "Wider view showing its position south of the doorway"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels or added objects",
+        "source_requirement": "Founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-STR-0187",
+      "name": "Drumcondra Road Lower — Edward VII cast-iron pillar post box",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 9",
+      "address": "West side of Drumcondra Road Lower beside Drumcondra railway station, Dublin 9, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full post box from a safe public viewpoint",
+        "Edward VII crown and royal insignia",
+        "Raised Post Office lettering, fluted frieze and cap",
+        "McDowall Steven maker's mark and plinth details"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels or added objects",
+        "source_requirement": "Founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-STR-0188",
+      "name": "Drumcondra Road Upper — P&T cast-iron pillar post box",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 9",
+      "address": "East side of Drumcondra Road Upper, Dublin 9, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full post box and streetscape context",
+        "P&T insignia on the east-facing front",
+        "Domed cap, dentillated frieze and moulded neck",
+        "Maker's mark and plinth"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels or added objects",
+        "source_requirement": "Founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-STR-0189",
+      "name": "All Hallows College boundary wall — Saorstát Éireann wall-mounted post box",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 9",
+      "address": "Boundary wall of All Hallows College, Church Avenue, Dublin 9, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Whole wall-mounted box and surrounding wall",
+        "S.É. insignia, wreath and harp",
+        "Post Office lettering on the hood",
+        "Postal District 9 wall stencil, if still legible"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels or added objects",
+        "source_requirement": "Founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-STR-0190",
+      "name": "Collins Avenue — Carron Company P&T pillar post box",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 9",
+      "address": "North side of Collins Avenue, Dublin 9, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full post box and north-side streetscape",
+        "P&T insignia and front face",
+        "Domed cap, neck and dentillated frieze",
+        "Carron Company maker's mark on rear of base"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels or added objects",
+        "source_requirement": "Founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-STR-0191",
+      "name": "Swords Road — Carron Company P&T pillar post box",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 9",
+      "address": "West side of Swords Road, Dublin 9, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full post box from a safe public viewpoint",
+        "P&T insignia and south-facing front",
+        "Domed cap, moulded neck and dentillated frieze",
+        "Carron Company lettering on the front of the base"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels or added objects",
+        "source_requirement": "Founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-STR-0192",
+      "name": "Collins Avenue — P&T pillar post box with bilingual collection lettering",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 9",
+      "address": "Collins Avenue, Dublin 9, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full post box and streetscape context",
+        "P&T motif and hinged door",
+        "Bilingual An chéad bailiú eile / Next collection lettering",
+        "Carron Company maker's mark and moulded plinth"
       ],
       "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
       "original_photo": null,

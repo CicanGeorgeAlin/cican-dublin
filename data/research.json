@@ -915,5 +915,23 @@
       "DCC-DEVELOPMENT-PLAN-BHA18-2022-2028",
       "SRC-EPSG-TM65-29902"
     ]
+  },
+  {
+    "id": "RES-DUBLIN-STREET-FURNITURE-BATCH-140",
+    "title": "Batch 140 — Dublin 3 cast-iron post boxes and James Joyce Centre micro-details",
+    "area": "DUBLIN 1 · NORTH GREAT GEORGE'S STREET; DUBLIN 3 · BALLYBOUGH AND PHILIPSBURGH AVENUE",
+    "updated": "2026-11-14",
+    "status": "DOCUMENTED_CONTEXT",
+    "status_label": "OFFICIAL NIAH STREET-FURNITURE AND ARCHITECTURAL-DETAIL DISCOVERY",
+    "summary": "Two previously unregistered NIAH post boxes in Dublin 3 were added: the Edward VII / McDowall Steven pillar box at Ballybough Road and O'Sullivan Avenue, and the P&T pillar box at Philipsburgh Avenue and Morroch Terrace. In Dublin 1, the James Joyce Centre at 35 North Great George's Street was added as a parent building with separate visual records for its cast-iron air vents, Victorian bell push and cast-iron corner lamp standard.",
+    "supported": "NIAH registrations 50120227, 50120017 and 50010980 document the two post boxes and the James Joyce Centre building and details. The two Dublin 3 post boxes were checked against the existing catalogue and were not previously registered. Published Irish Grid references were transformed from EPSG:29902 to WGS 84 using operation 1641.",
+    "limits": "NIAH survey descriptions do not establish current on-site survival or condition. The James Joyce Centre coordinate locates the host building, not exact positions of its vents, bell push or lamp standard. All new records await founder field photography; exact feature GPS and current condition remain unverified.",
+    "source_ids": [
+      "NIAH-50120227",
+      "NIAH-50120017",
+      "NIAH-50010980",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ]
   }
 ]

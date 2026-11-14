@@ -4773,5 +4773,35 @@
     "source_type": "OFFICIAL_HERITAGE_RECORD",
     "specific_reference": "NIAH Registration 50930104; survey description, appraisal and published Irish Grid reference 316642, 233136.",
     "notes": "Official survey describes a cast-iron boot scraper at the granite entrance platform and a coal-hole cover in the pavement. Published point identifies the host townhouse, not either detail's exact centre."
+  },
+  {
+    "id": "NIAH-50010819",
+    "name": "4 Mountjoy Square North — NIAH Registration 50010819",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010819/mountjoy-square-north-dublin-co-dublin",
+    "accessed": "2026-11-14",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50010819; description, appraisal and Irish Grid coordinate 315989, 235499.",
+    "notes": "NIAH describes a c.1792 Georgian house with remnants of cast-iron boot scrapers, two cast-iron coal-hole covers in granite pavement flags, original wrought-iron railings and cast-iron corner posts."
+  },
+  {
+    "id": "NIAH-50930208",
+    "name": "43 Fitzwilliam Place — NIAH Registration 50930208",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50930208/43-fitzwilliam-place-dublin-2-dublin",
+    "accessed": "2026-11-14",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50930208; description, appraisal and Irish Grid coordinate 316479, 232922.",
+    "notes": "NIAH describes a c.1850 former townhouse with original cast-iron basement railings and boot scraper, plus a pavement coal-hole cover."
+  },
+  {
+    "id": "NIAH-50930290",
+    "name": "21 Pembroke Street Upper — NIAH Registration 50930290",
+    "publisher": "Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50930290/21-pembroke-street-upper-dublin-2-dublin",
+    "accessed": "2026-11-14",
+    "source_type": "OFFICIAL_REGISTER",
+    "specific_reference": "NIAH Registration 50930290; description, appraisal and Irish Grid coordinate 316317, 233005.",
+    "notes": "NIAH describes a c.1830 townhouse with shared granite entrance platform and cast-iron boot scraper, decorative iron railings and a coal-hole cover in the pavement."
   }
 ]

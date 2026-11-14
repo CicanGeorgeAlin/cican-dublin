@@ -4743,5 +4743,35 @@
     "source_type": "OFFICIAL_HERITAGE_RECORD",
     "specific_reference": "NIAH Registration 50020367; description, appraisal and published Irish Grid reference 316671, 234068.",
     "notes": "Official NIAH survey is the source for the recorded physical feature. The published grid point identifies the host building/structure and is not a surveyed micro-coordinate for the detail."
+  },
+  {
+    "id": "NIAH-50080463",
+    "name": "Saint Patrick’s House, South Circular Road — Edward VII wall-mounted post box — NIAH Registration 50080463",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50080463/south-circular-road-kilmainham-dublin-8-co-dublin",
+    "accessed": "2026-11-14",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50080463; survey description, appraisal and published Irish Grid reference 312940, 233408.",
+    "notes": "Official survey describes a wall-mounted cast-iron post box with Edward VII insignia and W. T. Allen & Co. maker’s mark. Published point is an approximate locator pending founder GPS."
+  },
+  {
+    "id": "NIAH-50080012",
+    "name": "South Circular Road, Islandbridge — Carron Company P&T pillar post box — NIAH Registration 50080012",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50080012/south-circular-road-islandbridge-dublin-8-dublin",
+    "accessed": "2026-11-14",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50080012; survey description, appraisal and published Irish Grid reference 312711, 234162.",
+    "notes": "Official survey describes a c.1935 cast-iron P&T pillar box with Carron Company maker’s mark. Published point is an approximate locator pending founder GPS."
+  },
+  {
+    "id": "NIAH-50930104",
+    "name": "29 Fitzwilliam Street Upper — historic entrance fittings and coal-hole cover — NIAH Registration 50930104",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50930104/29-fitzwilliam-street-upper-dublin-2-co-dublin",
+    "accessed": "2026-11-14",
+    "source_type": "OFFICIAL_HERITAGE_RECORD",
+    "specific_reference": "NIAH Registration 50930104; survey description, appraisal and published Irish Grid reference 316642, 233136.",
+    "notes": "Official survey describes a cast-iron boot scraper at the granite entrance platform and a coal-hole cover in the pavement. Published point identifies the host townhouse, not either detail's exact centre."
   }
 ]

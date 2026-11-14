@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 335,
+  "record_count": 340,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -12455,7 +12455,164 @@
       },
       "gallery_status": "NOT_YET_PUBLISHED",
       "reference_images": []
+    },
+    {
+      "record_id": "DUB-STR-0165",
+      "name": "Saint Patrick’s House, South Circular Road — Edward VII wall-mounted cast-iron post box",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 8",
+      "address": "Saint Patrick’s House, South Circular Road, Kilmainham, Dublin 8, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full post box and surrounding boundary wall",
+        "Edward VII royal cipher and crown",
+        "Letter slot, moulded frame and maker’s mark",
+        "Relationship to Saint Patrick’s House frontage"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-STR-0166",
+      "name": "South Circular Road, Islandbridge — Carron Company cast-iron P&T pillar post box",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 8",
+      "address": "South Circular Road, Islandbridge, Dublin 8, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full pillar box from front and side",
+        "P&T insignia and letter aperture",
+        "Carron Company maker’s mark at rear of plinth",
+        "Cap, neck, dentillated frieze and base",
+        "Relationship to footpath and street"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-STR-0167",
+      "name": "Townsend Street — Andrew Handyside cast-iron pillar post box",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 2",
+      "address": "Townsend Street footpath, south of the former Screen Cinema, Dublin 2, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full pillar box and immediate street context",
+        "Handyside maker’s insignia on plinth",
+        "POST OFFICE lettering and letter slot",
+        "Fluted cap, moulded neck and base",
+        "Visible wear, repainting or repairs"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-STR-0168",
+      "name": "29 Fitzwilliam Street Upper — cast-iron entrance boot scraper",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 2",
+      "address": "29 Fitzwilliam Street Upper, Dublin 2, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Boot scraper in context with entrance platform",
+        "Close-up of cast-iron profile and fixing",
+        "Granite steps and adjacent railings",
+        "Relationship to doorway and street frontage"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-STR-0169",
+      "name": "29 Fitzwilliam Street Upper — pavement coal-hole cover",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 2",
+      "address": "Pavement outside 29 Fitzwilliam Street Upper, Dublin 2, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Cover and complete outline within pavement",
+        "Maker’s marks, lettering or pattern if present",
+        "Iron surface, frame and pavement interface",
+        "Wider view showing position outside townhouse"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
     }
   ],
-  "last_updated": "2026-11-11"
+  "last_updated": "2026-11-14"
 }

@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 340,
+  "record_count": 349,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -12609,6 +12609,282 @@
         "pixel_size_portrait": "2480x3508",
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0139",
+      "name": "4 Mountjoy Square North — Georgian townhouse and historic entrance fabric",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "4 Mountjoy Square North, Dublin 1, Ireland",
+      "visual_priority": "MEDIUM",
+      "planned_shots": [
+        "Full frontage from public footpath",
+        "Granite platform, steps and Ionic doorcase",
+        "Original railings and cast-iron corner posts",
+        "Context of basement and pavement details"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels or added objects",
+        "source_requirement": "Founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-STR-0170",
+      "name": "4 Mountjoy Square North — remnants of cast-iron entrance boot scrapers",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 1",
+      "address": "Entrance platform at 4 Mountjoy Square North, Dublin 1, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full entrance platform and scraper positions",
+        "Close-up of each surviving cast-iron remnant",
+        "Fixings, corrosion and relationship to granite steps"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels or added objects",
+        "source_requirement": "Founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-STR-0171",
+      "name": "4 Mountjoy Square North — paired cast-iron pavement coal-hole covers",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 1",
+      "address": "Pavement outside 4 Mountjoy Square North, Dublin 1, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Locate and photograph both covers separately",
+        "Record separate GPS coordinates for each cover",
+        "Capture patterns, lettering, maker marks and granite settings",
+        "Show pavement relationship to the townhouse"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels or added objects",
+        "source_requirement": "Founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0140",
+      "name": "43 Fitzwilliam Place — Georgian townhouse and historic entrance fabric",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 2",
+      "address": "43 Fitzwilliam Place, Dublin 2, Ireland",
+      "visual_priority": "MEDIUM",
+      "planned_shots": [
+        "Full frontage and bowed rear form where publicly visible",
+        "Decorative balconettes and granite details",
+        "Original basement railings and entrance steps",
+        "Context of pavement features"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels or added objects",
+        "source_requirement": "Founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-STR-0172",
+      "name": "43 Fitzwilliam Place — cast-iron entrance boot scraper",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 2",
+      "address": "Entrance steps at 43 Fitzwilliam Place, Dublin 2, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Boot scraper in context with entrance steps",
+        "Close-up of cast-iron form and fixings",
+        "Relationship to granite steps and basement railings"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels or added objects",
+        "source_requirement": "Founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-STR-0173",
+      "name": "43 Fitzwilliam Place — pavement coal-hole cover",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 2",
+      "address": "Pavement outside 43 Fitzwilliam Place, Dublin 2, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Complete cover and surrounding pavement flags",
+        "Lettering, maker marks and surface pattern",
+        "Frame and granite or pavement interface",
+        "Wider location context"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels or added objects",
+        "source_requirement": "Founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0141",
+      "name": "21 Pembroke Street Upper — Georgian townhouse and historic entrance fabric",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 2",
+      "address": "21 Pembroke Street Upper, Dublin 2, Ireland",
+      "visual_priority": "MEDIUM",
+      "planned_shots": [
+        "Full frontage and relationship to terrace",
+        "Decorative balconettes and basement grille",
+        "Ionic portico, petal fanlight and granite steps",
+        "Context of entrance and pavement details"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels or added objects",
+        "source_requirement": "Founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-STR-0174",
+      "name": "21 Pembroke Street Upper — cast-iron entrance boot scraper",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 2",
+      "address": "Shared granite entrance platform at 21 Pembroke Street Upper, Dublin 2, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Boot scraper and full shared granite platform",
+        "Close-up of cast-iron shape and fixings",
+        "Five granite steps and adjacent railings"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels or added objects",
+        "source_requirement": "Founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-STR-0175",
+      "name": "21 Pembroke Street Upper — pavement coal-hole cover",
+      "category": "STREET_DETAIL",
+      "district": "Dublin 2",
+      "address": "Pavement outside 21 Pembroke Street Upper, Dublin 2, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Complete cover and pavement setting",
+        "Any maker mark, lettering or decorative pattern",
+        "Cover frame and surrounding paving",
+        "Wider view showing position outside the townhouse"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels or added objects",
+        "source_requirement": "Founder-captured original photograph"
       },
       "gallery_status": "NOT_YET_PUBLISHED",
       "reference_images": []

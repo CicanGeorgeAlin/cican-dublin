@@ -867,5 +867,35 @@
       "DCC-DEVELOPMENT-PLAN-BHA18-2022-2028",
       "SRC-EPSG-TM65-29902"
     ]
+  },
+  {
+    "id": "RES-MOUNTJOY-FITZWILLIAM-PEMBROKE-MICRODETAILS-2026-11-14",
+    "title": "Georgian street details — Mountjoy Square North, Fitzwilliam Place and Pembroke Street Upper",
+    "area": "DUBLIN 1 · DUBLIN 2",
+    "updated": "2026-11-14",
+    "status": "DOCUMENTED_HERITAGE_RECORDS",
+    "status_label": "THREE BUILDINGS AND SIX MICRO-DETAIL RECORDS ADDED",
+    "summary": "Batch 138 records three NIAH-surveyed Georgian townhouses and six independently catalogued entrance and pavement details. The existing Charleville Mall and Marlborough Street records were checked and excluded from duplicate insertion.",
+    "supported": [
+      "NIAH 50010819 documents 4 Mountjoy Square North, built c.1792, including remnants of cast-iron boot scrapers and two coal-hole covers in granite pavement flags.",
+      "NIAH 50930208 documents 43 Fitzwilliam Place, built c.1850, including a cast-iron boot scraper and pavement coal-hole cover.",
+      "NIAH 50930290 documents 21 Pembroke Street Upper, built c.1830, including a cast-iron boot scraper on a shared granite entrance platform and a pavement coal-hole cover.",
+      "Dublin City Council Policy BHA18 identifies boot scrapers and coal-hole covers among historic public-realm features to conserve."
+    ],
+    "limits": [
+      "NIAH Irish Grid references were transformed from EPSG:29902 to WGS 84 using operation 1641; these are host-building points, not exact positions of individual details.",
+      "The paired covers at 4 Mountjoy Square North remain grouped pending field confirmation of their survival and exact positions.",
+      "All six micro-details are PARTIALLY_VERIFIED and await founder field photography; current condition and visibility are not confirmed.",
+      "The three parent building records are source-verified against NIAH surveys, not field-verified.",
+      "Photograph only from lawful public viewpoints; do not enter private property or obstruct pedestrians."
+    ],
+    "source_ids": [
+      "NIAH-50010819",
+      "NIAH-50930208",
+      "NIAH-50930290",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902",
+      "DCC-DEVELOPMENT-PLAN-BHA18-2022-2028"
+    ]
   }
 ]

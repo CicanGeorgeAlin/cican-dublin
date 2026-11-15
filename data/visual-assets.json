@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 393,
+  "record_count": 400,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -14247,7 +14247,225 @@
       },
       "gallery_status": "NOT_YET_PUBLISHED",
       "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0157",
+      "name": "Botanic View, 176 Botanic Road",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 9",
+      "address": "176 Botanic Road, Glasnevin, Dublin 9, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full façade and relationship to adjoining terrace",
+        "Ionic doorcase, anthemion fanlight and panelled door",
+        "Granite entrance steps, wrought-iron handrails and front railings",
+        "Roofline, parapet and rear return where visible"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels or added objects",
+        "source_requirement": "Founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0158",
+      "name": "170 Botanic Road — late-Georgian villa",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 9",
+      "address": "170 Botanic Road, Glasnevin, Dublin 9, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Whole villa frontage and garden boundary",
+        "Recessed Doric portico and peacock-tail fanlight",
+        "Granite steps, wrought-iron railings and gate",
+        "Stucco quoins, sash windows and parapet"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels or added objects",
+        "source_requirement": "Founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0159",
+      "name": "Three Sisters Craft, 187 Botanic Road",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 9",
+      "address": "187 Botanic Road, Glasnevin, Dublin 9, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full cranked façade and adjoining shopfront group",
+        "Inscribed 1901 sandstone parapet",
+        "Brick piers with foliate capitals and shopfront detailing",
+        "Gables, roofline, doors and granite threshold"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels or added objects",
+        "source_requirement": "Founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0160",
+      "name": "Hart's Buildings, 2–6 Botanic Road",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 9",
+      "address": "2–6 Botanic Road, at Prospect Avenue, Glasnevin, Dublin 9, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Whole corner composition from both street approaches",
+        "Mansard roof, gablets, dormers and chimneystacks",
+        "Canted corner and dated gable detail",
+        "Original doorways, transom and shopfront details"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels or added objects",
+        "source_requirement": "Founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0161",
+      "name": "The Brian Boru, 5 Prospect Road",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 11",
+      "address": "5 Prospect Road, Glasnevin, Dublin 11, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full exterior and pubfront from public pavement",
+        "Parapet lettering and first-floor Brian Boru panel",
+        "Doric pilasters, fascia signage and timber doors",
+        "Visible historic interior features only with proprietor permission"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels or added objects",
+        "source_requirement": "Founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0162",
+      "name": "The Porterhouse, 22 Prospect Road — former Iona Airways garage",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 9",
+      "address": "22 Prospect Road, Glasnevin, Dublin 9, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Overall trapezoidal form and roof lantern",
+        "Stepped parapets, raised gables and rendered panels",
+        "Window openings and surviving linear architectural details",
+        "Photograph from public footpath; avoid obstructing business"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels or added objects",
+        "source_requirement": "Founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0163",
+      "name": "National Botanic Gardens — Great Palm House",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 9",
+      "address": "National Botanic Gardens, Botanic Road, Glasnevin, Dublin 9, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Great Palm House exterior from several garden paths",
+        "Full central lantern and curved roof wings",
+        "Cast-iron columns, capitals and internal walkway where visitor access permits",
+        "Boiler-house masonry and historic service details where visible",
+        "Follow garden visitor and photography rules"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels or added objects",
+        "source_requirement": "Founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
     }
   ],
-  "last_updated": "2026-11-14"
+  "last_updated": "2026-11-15"
 }

@@ -6,17 +6,17 @@
 
 ## Current measured coverage
 
-The current visual-assets file contains 449 records, matching its declared record count.
+The current visual-assets file contains 451 records, matching its declared record count.
 
 | Measure | Count |
 |---|---:|
-| Archive records in visual-assets.json | 449 |
-| Records with at least one online reference image | 106 |
+| Archive records in visual-assets.json | 451 |
+| Records with at least one online reference image | 108 |
 | Records without an online reference image | 343 |
-| Registered reference-image entries | 131 |
+| Registered reference-image entries | 133 |
 | Founder-original photographs recorded | 0 |
 
-These are catalogue measurements from the current committed file after the latest Clontarf and NIAH import batch. They are not a claim that every image has been visually rechecked during this audit, nor that every referenced URL is currently reachable.
+These are catalogue measurements from the current committed file after the 17 November Clontarf NIAH discovery batches. They are not a claim that every image has been visually rechecked during this audit, nor that every referenced URL is currently reachable.
 
 ## Publishing rule
 
@@ -71,6 +71,13 @@ Every place should have a useful visual cue where possible. The website should c
 - 6 Castle Avenue, Clontarf, NIAH 50030352: added as `DUB-BLD-0182`, with its official NIAH registration record, source-derived map point and one official NIAH survey reference image. This is a private residence; the record instructs visitors to photograph only from the public footpath.
 - Both image entries preserve the NIAH terms: educational/private use with credit; commercial reuse requires prior written agreement. Neither is represented as a founder photograph.
 - The published Irish Grid coordinates were transformed to WGS 84 and labelled `SOURCE_DERIVED`; they are not founder GPS or field-verified positions.
+
+## Latest Clontarf NIAH import — 17 November 2026 (Batch 153)
+
+- `DUB-BLD-0183` — 40–82 Kincora Road, NIAH 50030328: added as a registered group of eleven pairs of semi-detached houses, with source-derived map point and official NIAH survey image 50030328_6.jpg.
+- `DUB-BLD-0184` — 25 The Stiles Road, NIAH 50030336: added as an International Modern private residence, with source-derived map point and official NIAH survey image 50030336_14.jpg.
+- Both images carry the NIAH educational/private-use credit condition and commercial permission requirement. Neither is represented as a founder photograph. Both locations remain in the founder-photography queue.
+- The two coordinate pairs were transformed from the published Irish Grid references to WGS 84. They are source-derived locators, not founder GPS.
 
 ## Limitations of this audit
 

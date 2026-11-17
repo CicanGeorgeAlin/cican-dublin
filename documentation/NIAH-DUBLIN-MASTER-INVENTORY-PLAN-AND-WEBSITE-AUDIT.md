@@ -143,10 +143,11 @@ Two previously absent Clontarf records were added after direct review of their o
 - `DUB-BLD-0182` — 6 Castle Avenue, Clontarf, NIAH 50030352.
 - `DUB-BLD-0183` — 40–82 Kincora Road, Clontarf, NIAH 50030328.
 - `DUB-BLD-0184` — 25 The Stiles Road, Clontarf, NIAH 50030336.
+- `DUB-BLD-0185` — historic Blackheath house at Clontarf Hospital, NIAH 50030329. A second institutional source was added for the hospital's history; no third-party photograph was used because image reuse rights were not established.
 
 Each has a permanent CICAN ID, official register source, source-derived coordinate, walking map link, photography brief and one official NIAH gallery image. The private-residence access restriction is recorded for 6 Castle Avenue. Both image records retain the NIAH educational/private-use credit condition and commercial permission requirement.
 
-The image validator was expanded to accept the documented `DETAIL_PHOTOGRAPH` role, and two Wikimedia Commons source records were aligned with the existing `WIKIMEDIA_COMMONS_PHOTOGRAPH` source-type enum. The coverage audit was updated to 451 records and 77 Dublin 3 records. The quality gate, CICAN deployment workflow and Pages build passed for commit `c10eb21da7cf5d3858c0d7158a85842ce646e3b9`. Batch 153 then added two more records and two NIAH reference images; its own workflow results are pending final confirmation.
+The image validator was expanded to accept the documented `DETAIL_PHOTOGRAPH` role, and two Wikimedia Commons source records were aligned with the existing `WIKIMEDIA_COMMONS_PHOTOGRAPH` source-type enum. The coverage audit was updated to 452 records and 78 Dublin 3 records. The quality gate, CICAN deployment workflow and Pages build passed for commit `c10eb21da7cf5d3858c0d7158a85842ce646e3b9`. Batch 153 then added two more records and two NIAH reference images. Batch 154 added the historic Blackheath house without an image, preserving it for founder photography. Validation and deployment for the latest commits are being checked.
 
 ## 6. Immediate next actions
 

@@ -17085,5 +17085,83 @@
     "feature_type": "MICRO_DETAIL",
     "research_notes": "Child of DUB-INF-0142. The host bridge coordinate is not an exact benchmark location; current survival and exact positions require field verification. Source-derived coordinates are not founder GPS.",
     "last_researched": "2026-11-17"
+  },
+  {
+    "id": "DUB-BLD-0181",
+    "name": "Clontarf GAA Club (Belgrove House / Bellgrove House)",
+    "category": "ARCHITECTURE",
+    "district": "Dublin 3",
+    "address": "Seafield Road West, Clontarf, Dublin 3",
+    "historical_period": "c. 1830",
+    "historical_description": "Detached U-plan four-bay two-storey former house, built c. 1830 and possibly incorporating earlier fabric. NIAH describes a full-height bowed projection to the former south front, a box-bay window, later additions and a porch at the north entrance. The building is now used as a GAA clubhouse and crèche.",
+    "historical_significance": "An early surviving house in the area, predating the large-scale early twentieth-century developments around it. NIAH records its association with the Vernon Estate, its former school use and its long residential history.",
+    "national_inventory_reference": "50030101",
+    "national_grid_reference": "319986, 236327",
+    "latitude": 53.3637585,
+    "longitude": -6.1983558,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Club premises. Photograph the exterior from the public road; obtain permission before entering the grounds or photographing interiors.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3637585%2C-6.1983558&travelmode=walking",
+    "photography_brief": [
+      "Whole building from a lawful public viewpoint",
+      "Former south elevation and bowed projection, if visible",
+      "Roofline, chimneystacks and surviving historic fabric",
+      "Relationship to Seafield Road West and surrounding development",
+      "Former gate lodge only as a separate record if independently verified"
+    ],
+    "sources": [
+      "NIAH-50030101",
+      "NIAH-IMAGE-50030101-2026",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ],
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED",
+    "feature_type": "PRIMARY_OBJECT",
+    "research_notes": "NIAH Registration 50030101. NIAH records the previous names Belgrove House/Bellgrove House, former school use and current clubhouse/crèche use. The map point is source-derived, not founder GPS."
+  },
+  {
+    "id": "DUB-BLD-0182",
+    "name": "6 Castle Avenue, Clontarf",
+    "category": "ARCHITECTURE",
+    "district": "Dublin 3",
+    "address": "6 Castle Avenue, Clontarf, Dublin 3",
+    "historical_period": "c. 1850",
+    "historical_description": "Terraced three-bay, two-bay, three-storey house built c. 1850. NIAH records a raised rendered parapet with moulded cornice and platband, rendered walls and quoins, timber sliding-sash windows, an elliptical-headed entrance with carved timber doorcase and scrolled consoles, a decorative petal fanlight, granite entrance steps and cast-iron railings and gates.",
+    "historical_significance": "Part of an elegant short terrace of Georgian inspiration retaining significant nineteenth-century architectural detailing. NIAH notes the decorative entrance, fanlight, timber sash windows and iron railings, and suggests the Dublin and Drogheda Railway may have encouraged suburban house development in Clontarf.",
+    "national_inventory_reference": "50030352",
+    "national_grid_reference": "319263, 236048",
+    "latitude": 53.3614164,
+    "longitude": -6.2093157,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Private residence. Photograph only from the public footpath; do not enter the property, obstruct access or photograph interiors.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3614164%2C-6.2093157&travelmode=walking",
+    "photography_brief": [
+      "Full front elevation from the public footpath",
+      "Carved timber doorcase and petal fanlight",
+      "Timber sash windows and rendered parapet details",
+      "Cast-iron railings, gates and granite plinth wall",
+      "Terrace context without obstructing residents"
+    ],
+    "sources": [
+      "NIAH-50030352",
+      "NIAH-IMAGE-50030352-2026",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ],
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED",
+    "feature_type": "PRIMARY_OBJECT",
+    "research_notes": "NIAH Registration 50030352. Private residential property. The NIAH point is a published survey coordinate transformed to WGS 84; exact field position and current condition remain for founder verification."
   }
 ]

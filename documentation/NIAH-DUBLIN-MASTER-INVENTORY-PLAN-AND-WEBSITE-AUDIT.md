@@ -38,7 +38,7 @@ This is a dated baseline of ministerial recommendations, not a verified current 
 ### Official data sources
 
 - NIAH Data Download page: https://www.buildingsofireland.ie/niah-data-download/
-  - The page provides a Dublin CSV download and states that its download contains Ministerial Recommendations indexed by registration number, with location, classification, rating, description, appraisal and links to records/images.
+  - The page provides a Dublin CSV download and states that its download contains Ministerial Recommendations indexed by registration number, with location, classification, rating, description, appraisal and links to records/images. The page explicitly defines this Dublin file as Dublin City, Fingal and South Dublin County; it does not list Dún Laoghaire–Rathdown. Therefore it is not sufficient by itself for the project's four-authority scope.
   - The page says data is refreshed as surveys are published.
 - National NIAH dataset on data.gov.ie: https://data.gov.ie/dataset/national-inventory-of-architectural-heritage-niah-national-dataset
   - The dataset record exposes the NIAH Feature Service and a national CSV download.
@@ -47,11 +47,11 @@ This is a dated baseline of ministerial recommendations, not a verified current 
 - Historic Environment Viewer: https://www.archaeology.ie/advice-and-support/locate-a-monument-or-wreck/historic-environment-viewer/
   - The Viewer provides access to NIAH and National Monuments Service spatial datasets.
 
-The national CSV resource record on data.gov.ie was updated 10 November 2026. The NIAH Dublin download page and its CSV link were inspected; the ZIP cannot be parsed in this current environment. A current four-authority count therefore remains **not yet established**.
+The NIAH Feature Service resource record on data.gov.ie reports a data update of 16 September 2026 and a Creative Commons Attribution 4.0 licence. The national CSV/feature-service route is the appropriate starting point for a reproducible four-authority census. The downloadable Dublin ZIP could not be parsed directly in this research session. A current four-authority count therefore remains **not yet established**.
 
 ## 3. Import strategy — do not dump blindly into the curated catalogue
 
-The existing CICAN catalogue has 447 curated records according to the current README and coverage audit. The canonical `data/objects.json` is approximately 1.2 MB and could not be fully returned by the GitHub file-fetch interface in this audit. No complete duplicate reconciliation can honestly be claimed from this inspection alone.
+The existing CICAN catalogue has 447 curated records according to the current README and coverage audit. The canonical `data/objects.json` is approximately 1.2 MB. It has since been read in full through the GitHub repository API for exact NIAH-reference duplicate checks. The catalogue currently contains 449 curated records, of which 437 carry a NIAH registration reference. This is a count of current CICAN records with NIAH references, **not** the total number of NIAH records in Dublin.
 
 The safe approach is to create a separately auditable **NIAH source index** and then reconcile it with the curated archive:
 
@@ -82,7 +82,7 @@ This prevents the user interface from implying that all official records have be
 
 ### Latest repository state inspected
 
-- Latest commit at audit start: `95cabe0f397e6289c9de03489784895aae67089f` (Batch 151 research note).
+- Latest completed production commit at this audit update: `c10eb21da7cf5d3858c0d7158a85842ce646e3b9` (Clontarf NIAH import, photo coverage update and validator/source-schema corrections).
 - `index.html` uses `<base href="./preview/">`, so its relative map app assets resolve into `preview/`.
 - The app script is `preview/app/app.js`; its data endpoints resolve to root `data/objects.json`, `data/sources.json` and `data/visual-assets.json`.
 - `service-worker.js` pre-caches the map app, archive JSON and required shell assets and serves navigation/data with network-first behaviour.
@@ -103,7 +103,7 @@ This confirms that the code requests high-accuracy browser location. It does **n
 
 ### Latest automated quality and deployment runs
 
-For commit `95cabe0f397e6289c9de03489784895aae67089f`:
+For commit `c10eb21da7cf5d3858c0d7158a85842ce646e3b9`:
 
 - **Archive quality gate:** completed successfully.
   - Check map application JavaScript syntax — success.
@@ -117,8 +117,9 @@ For commit `95cabe0f397e6289c9de03489784895aae67089f`:
   - Configure Pages, render social preview, upload and deploy — success.
 
 Workflow runs:
-- Quality: https://github.com/CicanGeorgeAlin/cican-dublin/actions/runs/44075751778
-- Pages deployment: https://github.com/CicanGeorgeAlin/cican-dublin/actions/runs/44075751691
+- Quality: https://github.com/CicanGeorgeAlin/cican-dublin/actions/runs/44088324275
+- CICAN deployment: https://github.com/CicanGeorgeAlin/cican-dublin/actions/runs/44088324313
+- GitHub Pages build: https://github.com/CicanGeorgeAlin/cican-dublin/actions/runs/44088324521
 
 ### Runtime test boundary
 
@@ -126,12 +127,24 @@ The public Pages URL could not be opened in the available live browser retrieval
 
 ## 5. Current archive baseline
 
-- Curated catalogue: 447 records (README and coverage audit).
-- Registered sources: 552 (last confirmed Batch 146 reconciliation; source file is present and readable).
+- Curated catalogue: 449 records.
+- Records with a NIAH registration reference: 437. This is not the full NIAH Dublin total.
+- Registered sources: 560.
+- Visual inventory: 449 records; 106 records have at least one online reference image, 343 remain without one; 131 reference-image entries are registered.
 - Current local-authority spatial assignments: 0 confirmed in the coverage audit.
 - NIAH Dublin complete current total: not yet counted.
 - Full NIAH source-index import: not yet performed.
-- No NIAH mass-import has been attempted in this audit.
+- No mass-import of the official four-authority NIAH dataset has been attempted.
+
+### Latest manual NIAH import batch — 17 November 2026
+
+Two previously absent Clontarf records were added after direct review of their official NIAH pages:
+- `DUB-BLD-0181` — Clontarf GAA Club (Belgrove House / Bellgrove House), NIAH 50030101.
+- `DUB-BLD-0182` — 6 Castle Avenue, Clontarf, NIAH 50030352.
+
+Each has a permanent CICAN ID, official register source, source-derived coordinate, walking map link, photography brief and one official NIAH gallery image. The private-residence access restriction is recorded for 6 Castle Avenue. Both image records retain the NIAH educational/private-use credit condition and commercial permission requirement.
+
+The image validator was expanded to accept the documented `DETAIL_PHOTOGRAPH` role, and two Wikimedia Commons source records were aligned with the existing `WIKIMEDIA_COMMONS_PHOTOGRAPH` source-type enum. The coverage audit was updated to 449 records and 75 Dublin 3 records. The quality gate, CICAN deployment workflow and Pages build all passed for commit `c10eb21da7cf5d3858c0d7158a85842ce646e3b9`.
 
 ## 6. Immediate next actions
 

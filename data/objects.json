@@ -17241,5 +17241,44 @@
     "coordinate_status": "SOURCE_DERIVED",
     "feature_type": "PRIMARY_OBJECT",
     "research_notes": "NIAH Registration 50030336. Private residential property. The published NIAH coordinate is transformed to WGS 84 and is not founder GPS or a field-verified entrance point."
+  },
+  {
+    "id": "DUB-BLD-0185",
+    "name": "Clontarf Hospital — historic Blackheath house",
+    "category": "ARCHITECTURE",
+    "district": "Dublin 3",
+    "address": "Blackheath Park, Clontarf, Dublin 3",
+    "historical_period": "1872; extended 1879; later hospital use",
+    "historical_description": "Former detached complex-plan, multiple-bay, three-storey house with dormer attic, built in 1872 and extended in 1879. NIAH describes canted bays, box bays, a gabled entrance breakfront, carved timber and stone details, Portland stone window surrounds, stained-glass stair-hall windows and decorative interior plasterwork and joinery. NIAH records the building as in use as a hospital administration building.",
+    "historical_significance": "Designed by Thomas Drew for Gibson Black and built in two phases during the 1870s. The house was later occupied by the Orthopaedic Hospital, founded in 1876, and is part of the history of the Incorporated Orthopaedic Hospital of Ireland. The hospital's own history records its move to the Clontarf site in 1941; the NIAH record documents the historic house itself.",
+    "national_inventory_reference": "50030329",
+    "national_grid_reference": "319742, 236747",
+    "latitude": 53.36758560279686,
+    "longitude": -6.201860236312754,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Hospital grounds and buildings are not open photography locations by default. Photograph only from a public footpath where lawful and unobstructive; do not enter, approach patients, staff or private areas, or photograph clinical activity. Seek permission from the hospital for closer exterior views.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3675856028%2C-6.2018602363&travelmode=walking",
+    "photography_brief": [
+      "Establish from a public viewpoint whether the historic Blackheath house remains visible and distinguishable from later hospital buildings",
+      "Capture the north entrance elevation and gabled breakfront if visible",
+      "Look for surviving box bays, canted bays and historic roof forms",
+      "Record the historic building separately from the 2009 hospital facility",
+      "Do not photograph patients, staff, clinical areas or restricted hospital grounds"
+    ],
+    "sources": [
+      "NIAH-50030329",
+      "IOH-HOSPITAL-HISTORY-2026",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ],
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED",
+    "feature_type": "PRIMARY_OBJECT",
+    "research_notes": "NIAH Registration 50030329. The NIAH description says the historic house is used as the hospital administration building; the hospital's official history says the new hospital building was completed in 2009. Keep the historic house distinct from the newer hospital facility. A historical image found on social media was not imported because reuse rights were not established."
   }
 ]

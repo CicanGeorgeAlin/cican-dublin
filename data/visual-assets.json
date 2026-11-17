@@ -13263,7 +13263,22 @@
         "source_requirement": "Founder-captured original photograph"
       },
       "gallery_status": "NOT_YET_PUBLISHED",
-      "reference_images": []
+      "reference_images": [
+        {
+          "source_id": "WMC-DUB1-JAMES-JOYCE-CENTRE-2008-01",
+          "title": "James Joyce Centre at 35 North Great George's Street — exterior façade",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/James_Joyce_Centre_at_35_Great_George%27s_Street.jpg?utm_campaign=index&utm_content=thumbnail_unscaled&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:James_Joyce_Centre_at_35_Great_George%27s_Street.jpg",
+          "photographer": "Pointillist",
+          "date_taken": "2008-04-03",
+          "source_collection": "Wikimedia Commons",
+          "licence": "Public domain dedication by author; Wikimedia Commons file page labels the image public domain.",
+          "licence_url": "https://commons.wikimedia.org/wiki/File:James_Joyce_Centre_at_35_Great_George%27s_Street.jpg",
+          "attribution": "Pointillist, “James Joyce Centre at 35 Great George's Street”, 3 April 2008, via Wikimedia Commons; dedicated to the public domain by the author.",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Exact exterior photograph of the James Joyce Centre at 35 North Great George's Street, Dublin. The façade and entrance are visible. Historical reference photograph from 2008; not a current-condition image and not a CICAN founder original."
+        }
+      ]
     },
     {
       "record_id": "DUB-STR-0184",

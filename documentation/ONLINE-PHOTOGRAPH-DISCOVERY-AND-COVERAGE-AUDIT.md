@@ -6,17 +6,17 @@
 
 ## Current measured coverage
 
-The current visual-assets file contains 447 records, matching its declared record count.
+The current visual-assets file contains 449 records, matching its declared record count.
 
 | Measure | Count |
 |---|---:|
-| Archive records in visual-assets.json | 447 |
-| Records with at least one online reference image | 104 |
+| Archive records in visual-assets.json | 449 |
+| Records with at least one online reference image | 106 |
 | Records without an online reference image | 343 |
-| Registered reference-image entries | 129 |
+| Registered reference-image entries | 131 |
 | Founder-original photographs recorded | 0 |
 
-These are catalogue measurements from the current committed file after the Clontarf image-discovery batch. They are not a claim that every image has been visually rechecked during this audit, nor that every referenced URL is currently reachable.
+These are catalogue measurements from the current committed file after the latest Clontarf and NIAH import batch. They are not a claim that every image has been visually rechecked during this audit, nor that every referenced URL is currently reachable.
 
 ## Publishing rule
 
@@ -64,6 +64,13 @@ Every place should have a useful visual cue where possible. The website should c
 - Vernon Lodge, 41A Castle Avenue (NIAH 50030164): three official NIAH images covering the front elevation, street setting and entrance detail.
 - Clontarf Stationmaster's House, 96 Howth Road (NIAH 50030283): two official NIAH images covering the street view and polychrome brick gable.
 - Both NIAH image groups are subject to the NIAH website terms: educational/private use with NIAH credit; commercial use requires prior written agreement. Their records explicitly preserve that condition.
+
+## Latest NIAH import batch — 17 November 2026
+
+- Clontarf GAA Club (Belgrove House / Bellgrove House), NIAH 50030101: added as `DUB-BLD-0181`, with its official NIAH registration record, source-derived map point and one official NIAH survey reference image.
+- 6 Castle Avenue, Clontarf, NIAH 50030352: added as `DUB-BLD-0182`, with its official NIAH registration record, source-derived map point and one official NIAH survey reference image. This is a private residence; the record instructs visitors to photograph only from the public footpath.
+- Both image entries preserve the NIAH terms: educational/private use with credit; commercial reuse requires prior written agreement. Neither is represented as a founder photograph.
+- The published Irish Grid coordinates were transformed to WGS 84 and labelled `SOURCE_DERIVED`; they are not founder GPS or field-verified positions.
 
 ## Limitations of this audit
 

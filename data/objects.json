@@ -17163,5 +17163,83 @@
     "coordinate_status": "SOURCE_DERIVED",
     "feature_type": "PRIMARY_OBJECT",
     "research_notes": "NIAH Registration 50030352. Private residential property. The NIAH point is a published survey coordinate transformed to WGS 84; exact field position and current condition remain for founder verification."
+  },
+  {
+    "id": "DUB-BLD-0183",
+    "name": "40–82 Kincora Road — International Style semi-detached housing group",
+    "category": "ARCHITECTURE",
+    "district": "Dublin 3",
+    "address": "40–82 Kincora Road, Clontarf, Dublin 3",
+    "historical_period": "c. 1930",
+    "historical_description": "Group of eleven pairs of five-bay, two-storey semi-detached houses built around 1930. NIAH describes flat roofs, central balconies to the front bays, alternating entrances, rendered walls with red-brick panels, concrete sills and canopies, and front garden boundaries with metal gates and brick piers. Some properties have later roof and window alterations.",
+    "historical_significance": "Designed by Joseph Downes of McDonnell & Dixon for the Dublin Commercial Public Utility Society. NIAH identifies the group as an example of the International Style in Irish housing, with its paired villa-like composition and retained boundary treatments contributing to the suburban streetscape.",
+    "national_inventory_reference": "50030328",
+    "national_grid_reference": "319859, 236180",
+    "latitude": 53.36246715608683,
+    "longitude": -6.200318201936759,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Group of private homes. Photograph the streetscape from the public footpath only; do not enter gardens or photograph interiors. Avoid identifying or focusing on residents.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3624671561%2C-6.2003182019&travelmode=walking",
+    "photography_brief": [
+      "Wide view showing the repeated paired-house composition",
+      "Central balcony and asymmetrical entrance arrangement",
+      "Red-brick panels against rendered walls",
+      "Concrete entrance canopies and surviving early boundary details",
+      "Record alterations without implying all houses retain original fabric"
+    ],
+    "sources": [
+      "NIAH-50030328",
+      "NIAH-IMAGE-50030328-2026",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ],
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED",
+    "feature_type": "PRIMARY_OBJECT",
+    "research_notes": "NIAH Registration 50030328. This record represents the registered group 40–82 Kincora Road, not an assertion that every individual house is unchanged. Source point is a locator for the group; founder field verification remains outstanding."
+  },
+  {
+    "id": "DUB-BLD-0184",
+    "name": "25 The Stiles Road — International Modern house",
+    "category": "ARCHITECTURE",
+    "district": "Dublin 3",
+    "address": "25 The Stiles Road, Clontarf, Dublin 3",
+    "historical_period": "1935–1937",
+    "historical_description": "Detached irregular-plan house built 1935–37, comprising single-, two- and three-storey sections with rounded corners and a flat-roofed open-sided porch. NIAH describes flat roofs behind rendered parapets, smooth rendered walls, rounded corner windows and vertical strip windows. The building has a front steel gate and rendered garden wall; some window frames and the entrance door are replacements.",
+    "historical_significance": "Designed by Vincent O'Hanlon and identified by NIAH as an example of the International Modern style in a suburban residential setting, with subdued Art Deco references in its curved corners, stepped façade and flat roofs.",
+    "national_inventory_reference": "50030336",
+    "national_grid_reference": "319243, 236809",
+    "latitude": 53.368255083108735,
+    "longitude": -6.209329300824205,
+    "verification_status": "VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Private residence. Photograph only from the public footpath; do not enter the property or photograph interiors.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.3682550831%2C-6.2093293008&travelmode=walking",
+    "photography_brief": [
+      "Full house from a lawful public viewpoint",
+      "Rounded corners and stepped parapet silhouette",
+      "Flat roof and open-sided porch",
+      "Vertical strip and corner window arrangement",
+      "Front boundary wall and steel gate, without focusing on residents"
+    ],
+    "sources": [
+      "NIAH-50030336",
+      "NIAH-IMAGE-50030336-2026",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ],
+    "coordinate_source": "Published NIAH Irish Grid reference converted from TM65 / Irish Grid (EPSG:29902) to WGS 84 using EPSG transformation operation 1641. The original point's positional accuracy is not specified; founder field verification remains outstanding.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED",
+    "feature_type": "PRIMARY_OBJECT",
+    "research_notes": "NIAH Registration 50030336. Private residential property. The published NIAH coordinate is transformed to WGS 84 and is not founder GPS or a field-verified entrance point."
   }
 ]

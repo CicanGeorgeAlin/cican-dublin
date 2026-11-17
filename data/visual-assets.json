@@ -1596,7 +1596,51 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "NIAH-IMAGE-50030164-2026",
+          "title": "Vernon Lodge — frontal view of the carved limestone entrance",
+          "image_url": "https://www.buildingsofireland.ie/building-images/niah/images/survey_specific/800/50030164_1.jpg",
+          "source_url": "https://www.buildingsofireland.ie/buildings-search/building/50030164/vernon-lodge-41a-castle-avenue-clontarf-dublin-3-co-dublin",
+          "photographer": "NIAH survey photograph; individual photographer not stated on record",
+          "date_taken": null,
+          "source_collection": "National Inventory of Architectural Heritage — Buildings of Ireland",
+          "licence": "NIAH website terms: educational or private use permitted with credit to NIAH; commercial use requires prior written agreement.",
+          "licence_url": "https://www.buildingsofireland.ie/terms-and-conditions/",
+          "attribution": "National Inventory of Architectural Heritage (NIAH), Department of Housing, Local Government and Heritage. Image 50030164_1.jpg.",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Frontal photograph of the carved limestone pedestrian entrance dated 1885. Shows the Tudor arch, gable, crenellations and heraldic carving. Official NIAH survey image; not a current-condition claim and not a founder original."
+        },
+        {
+          "source_id": "NIAH-IMAGE-50030164-2026",
+          "title": "Vernon Lodge — side view and street setting",
+          "image_url": "https://www.buildingsofireland.ie/building-images/niah/images/survey_specific/800/50030164_3.jpg",
+          "source_url": "https://www.buildingsofireland.ie/buildings-search/building/50030164/vernon-lodge-41a-castle-avenue-clontarf-dublin-3-co-dublin",
+          "photographer": "NIAH survey photograph; individual photographer not stated on record",
+          "date_taken": null,
+          "source_collection": "National Inventory of Architectural Heritage — Buildings of Ireland",
+          "licence": "NIAH website terms: educational or private use permitted with credit to NIAH; commercial use requires prior written agreement.",
+          "licence_url": "https://www.buildingsofireland.ie/terms-and-conditions/",
+          "attribution": "National Inventory of Architectural Heritage (NIAH), Department of Housing, Local Government and Heritage. Image 50030164_3.jpg.",
+          "image_role": "STREET_CONTEXT",
+          "location_note": "Side view of the entrance and its relationship to the pavement and street. Official NIAH survey image."
+        },
+        {
+          "source_id": "NIAH-IMAGE-50030164-2026",
+          "title": "Vernon Lodge — carved entrance door and nameplate detail",
+          "image_url": "https://www.buildingsofireland.ie/building-images/niah/images/survey_specific/800/50030164_5.jpg",
+          "source_url": "https://www.buildingsofireland.ie/buildings-search/building/50030164/vernon-lodge-41a-castle-avenue-clontarf-dublin-3-co-dublin",
+          "photographer": "NIAH survey photograph; individual photographer not stated on record",
+          "date_taken": null,
+          "source_collection": "National Inventory of Architectural Heritage — Buildings of Ireland",
+          "licence": "NIAH website terms: educational or private use permitted with credit to NIAH; commercial use requires prior written agreement.",
+          "licence_url": "https://www.buildingsofireland.ie/terms-and-conditions/",
+          "attribution": "National Inventory of Architectural Heritage (NIAH), Department of Housing, Local Government and Heritage. Image 50030164_5.jpg.",
+          "image_role": "DETAIL_PHOTOGRAPH",
+          "location_note": "Close-up of the timber door, Vernon Lodge nameplate and historic entrance hardware. Official NIAH survey image."
+        }
+      ]
     },
     {
       "record_id": "DUB-BLD-0041",
@@ -1707,7 +1751,37 @@
         "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
         "source_requirement": "Corresponding founder-captured original photograph"
       },
-      "gallery_status": "NOT_YET_PUBLISHED"
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "NIAH-IMAGE-50030283-2026",
+          "title": "Clontarf Stationmaster's House — wide street view",
+          "image_url": "https://www.buildingsofireland.ie/building-images/niah/images/survey_specific/800/50030283_13.jpg",
+          "source_url": "https://www.buildingsofireland.ie/buildings-search/building/50030283/clontarf-railway-station-96-howth-road-clontarf-dublin-3-dublin",
+          "photographer": "NIAH survey photograph; individual photographer not stated on record",
+          "date_taken": null,
+          "source_collection": "National Inventory of Architectural Heritage — Buildings of Ireland",
+          "licence": "NIAH website terms: educational or private use permitted with credit to NIAH; commercial use requires prior written agreement.",
+          "licence_url": "https://www.buildingsofireland.ie/terms-and-conditions/",
+          "attribution": "National Inventory of Architectural Heritage (NIAH), Department of Housing, Local Government and Heritage. Image 50030283_13.jpg.",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Wide street view showing the former stationmaster's house and its relationship to the road. Official NIAH survey image; building is described as a private house, so view only from lawful public space."
+        },
+        {
+          "source_id": "NIAH-IMAGE-50030283-2026",
+          "title": "Clontarf Stationmaster's House — polychrome brick gable detail",
+          "image_url": "https://www.buildingsofireland.ie/building-images/niah/images/survey_specific/800/50030283_2.jpg",
+          "source_url": "https://www.buildingsofireland.ie/buildings-search/building/50030283/clontarf-railway-station-96-howth-road-clontarf-dublin-3-dublin",
+          "photographer": "NIAH survey photograph; individual photographer not stated on record",
+          "date_taken": null,
+          "source_collection": "National Inventory of Architectural Heritage — Buildings of Ireland",
+          "licence": "NIAH website terms: educational or private use permitted with credit to NIAH; commercial use requires prior written agreement.",
+          "licence_url": "https://www.buildingsofireland.ie/terms-and-conditions/",
+          "attribution": "National Inventory of Architectural Heritage (NIAH), Department of Housing, Local Government and Heritage. Image 50030283_2.jpg.",
+          "image_role": "DETAIL_PHOTOGRAPH",
+          "location_note": "Close-up of the former stationmaster's house red and yellow brick gable and window detailing. Official NIAH survey image."
+        }
+      ]
     },
     {
       "record_id": "DUB-BLD-0044",

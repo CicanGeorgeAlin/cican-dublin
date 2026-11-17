@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 451,
+  "record_count": 452,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -16215,6 +16215,38 @@
           "location_note": "Official NIAH street-context photograph including the distinctive modern house. Private residence; image is a third-party reference, not a founder original."
         }
       ]
+    },
+    {
+      "record_id": "DUB-BLD-0185",
+      "name": "Clontarf Hospital — historic Blackheath house",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 3",
+      "address": "Blackheath Park, Clontarf, Dublin 3",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Establish from a public viewpoint whether the historic Blackheath house remains visible and distinguishable from later hospital buildings",
+        "Capture the north entrance elevation and gabled breakfront if visible",
+        "Look for surviving box bays, canted bays and historic roof forms",
+        "Record the historic building separately from the 2009 hospital facility",
+        "Do not photograph patients, staff, clinical areas or restricted hospital grounds"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
     }
   ],
   "last_updated": "2026-11-17"

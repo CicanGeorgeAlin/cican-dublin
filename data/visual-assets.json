@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 447,
+  "record_count": 449,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -16027,6 +16027,100 @@
       },
       "gallery_status": "NOT_YET_PUBLISHED",
       "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0181",
+      "name": "Clontarf GAA Club (Belgrove House / Bellgrove House)",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 3",
+      "address": "Seafield Road West, Clontarf, Dublin 3",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Whole building from a lawful public viewpoint",
+        "Former south elevation and bowed projection, if visible",
+        "Roofline, chimneystacks and surviving historic fabric",
+        "Relationship to Seafield Road West and surrounding development",
+        "Former gate lodge only as a separate record if independently verified"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "NIAH-IMAGE-50030101-2026",
+          "title": "Clontarf GAA Club — official NIAH survey view",
+          "image_url": "https://www.buildingsofireland.ie/building-images/niah/images/survey_specific/800/50030101_20.jpg",
+          "source_url": "https://www.buildingsofireland.ie/buildings-search/building/50030101/clontarf-gaa-club-seafield-road-west-clontarf-dublin-3-co-dublin",
+          "photographer": "NIAH survey photograph; individual photographer not stated on record",
+          "date_taken": null,
+          "source_collection": "National Inventory of Architectural Heritage — Buildings of Ireland",
+          "licence": "NIAH website terms permit educational or private use with credit to NIAH; commercial reuse requires prior written agreement.",
+          "licence_url": "https://www.buildingsofireland.ie/terms-and-conditions/",
+          "attribution": "National Inventory of Architectural Heritage (NIAH), Department of Housing, Local Government and Heritage. Image 50030101_20.jpg.",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Official NIAH survey photograph from the Clontarf GAA Club record. Third-party reference image, not a founder original."
+        }
+      ]
+    },
+    {
+      "record_id": "DUB-BLD-0182",
+      "name": "6 Castle Avenue, Clontarf",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 3",
+      "address": "6 Castle Avenue, Clontarf, Dublin 3",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Full front elevation from the public footpath",
+        "Carved timber doorcase and petal fanlight",
+        "Timber sash windows and rendered parapet details",
+        "Cast-iron railings, gates and granite plinth wall",
+        "Terrace context without obstructing residents"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": [
+        {
+          "source_id": "NIAH-IMAGE-50030352-2026",
+          "title": "6 Castle Avenue — official NIAH entrance and railings view",
+          "image_url": "https://www.buildingsofireland.ie/building-images/niah/images/survey_specific/800/50030352_4.jpg",
+          "source_url": "https://www.buildingsofireland.ie/buildings-search/building/50030352/6-castle-avenue-clontarf-dublin-3-dublin",
+          "photographer": "NIAH survey photograph; individual photographer not stated on record",
+          "date_taken": null,
+          "source_collection": "National Inventory of Architectural Heritage — Buildings of Ireland",
+          "licence": "NIAH website terms permit educational or private use with credit to NIAH; commercial reuse requires prior written agreement.",
+          "licence_url": "https://www.buildingsofireland.ie/terms-and-conditions/",
+          "attribution": "National Inventory of Architectural Heritage (NIAH), Department of Housing, Local Government and Heritage. Image 50030352_4.jpg.",
+          "image_role": "OBJECT_PHOTOGRAPH",
+          "location_note": "Official NIAH survey photograph showing the entrance, decorative gates and part of the front elevation. Private residence; third-party reference image, not a founder original."
+        }
+      ]
     }
   ],
   "last_updated": "2026-11-17"

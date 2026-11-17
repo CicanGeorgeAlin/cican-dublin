@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "audited_on": "2026-11-15",
+  "audited_on": "2026-11-17",
   "scope": "Dublin City and County Dublin",
-  "catalogue_total": 400,
+  "catalogue_total": 424,
   "administrative_assignment_status": "NOT_SPATIALLY_VERIFIED",
   "administrative_assignment_note": "No local-authority record counts are published in this audit. Postal-district labels cannot be substituted for point-in-polygon checks. The official 2026 polygon dataset has been identified; geometry import and spatial assignment await reuse-licence confirmation and a coordinate-precision review.",
   "local_authorities": [
@@ -90,9 +90,9 @@
     },
     {
       "name": "Dublin 9",
-      "record_count": 36,
+      "record_count": 42,
       "status": "RESEARCH_IN_PROGRESS",
-      "coverage_note": "Count reconciled from data/objects.json after Discovery Batch 143. Coverage remains a sample, not exhaustive."
+      "coverage_note": "Count reconciled from data/objects.json after Discovery Batch 144; includes newly catalogued Botanic Gardens structures, a cemetery hydrant and John Kavanagh's. Coverage remains a sample, not exhaustive."
     },
     {
       "name": "Loughlinstown, County Dublin",
@@ -114,9 +114,9 @@
     },
     {
       "name": "Dublin 11",
-      "record_count": 1,
+      "record_count": 19,
       "status": "RESEARCH_IN_PROGRESS",
-      "coverage_note": "Newly populated postal district in Discovery Batch 143; count reconciled from data/objects.json. Coverage remains a sample, not exhaustive."
+      "coverage_note": "Count reconciled from data/objects.json after Discovery Batch 144; includes Prospect Square, cemetery structures and monuments, Farrelly's Cottages and Old Finglas Road. Coverage remains a sample, not exhaustive."
     }
   ],
   "districts_without_catalogue_records": [

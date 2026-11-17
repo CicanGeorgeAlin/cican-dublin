@@ -10,15 +10,15 @@ https://cicangeorgealin.github.io/cican-dublin/
 
 ## Current catalogue
 
-The catalogue currently contains **400 records** across Dublin City and County Dublin, linked to **508 registered source entries**. Postal-district labels and settlement names are work-zone groupings, not verified local-authority boundary assignments. See the [geographic coverage audit](data/coverage-audit.json) and the [Step 4 geographic coverage audit](documentation/COVERAGE-AUDIT-STEP-4.md).
+The catalogue currently contains **424 records** across Dublin City and County Dublin, linked to **532 registered source entries**. Postal-district labels and settlement names are work-zone groupings, not verified local-authority boundary assignments. See the [geographic coverage audit](data/coverage-audit.json) and the [Step 4 geographic coverage audit](documentation/COVERAGE-AUDIT-STEP-4.md).
 
 - **319 VERIFIED** records.
-- **80 PARTIALLY_VERIFIED** records, where source inspection or specific details still require field confirmation.
+- **104 PARTIALLY_VERIFIED** records, where source inspection or specific details still require field confirmation.
 - **1 RESEARCH_LEAD** record(s), retained as leads rather than promoted to verified objects.
-- **400 awaiting original founder photography**.
+- **424 awaiting original founder photography**.
 - No record is marked photographed, illustrated or published.
 
-The catalogue is a growing, evidence-led sample, not a claim of exhaustive coverage. Reference photographs, founder originals, contextual images and rights-pending research leads remain distinct. Discovery Batch 142 added thirteen new NIAH-backed Dublin 9 sites and ten individually catalogued micro-details. Discovery Batch 143 adds seven further NIAH-backed sites around Glasnevin village, Botanic Road, Prospect Road and the National Botanic Gardens, including late-Georgian houses, a 1901 shop, a 1920s commercial corner group, two historic public houses/former transport buildings and the Great Palm House. Coordinates remain source-derived site locators, not founder GPS; field condition and access require verification. See the [Discovery Batch 142 report](documentation/DISCOVERY-EXPANSION-BATCH-142.md) and [Discovery Batch 143 report](documentation/DISCOVERY-EXPANSION-BATCH-143.md).
+The catalogue is a growing, evidence-led sample, not a claim of exhaustive coverage. Reference photographs, founder originals, contextual images and rights-pending research leads remain distinct. Discovery Batch 142 added thirteen new NIAH-backed Dublin 9 sites and ten micro-details. Batch 143 added seven further Glasnevin and Botanic Road sites. Batch 144 adds 24 new NIAH-backed objects across the National Botanic Gardens and Glasnevin Cemetery area, including four glasshouse/workshop structures, the cemetery's historic boundaries and entrance structures, its mortuary chapel, the O'Connell Circle and tower, individual family and archbishop mausoleums, a Victorian hydrant, a historic pub and vernacular houses. Coordinates remain source-derived site locators, not founder GPS; field condition and access require verification. See the [Batch 142 report](documentation/DISCOVERY-EXPANSION-BATCH-142.md), [Batch 143 report](documentation/DISCOVERY-EXPANSION-BATCH-143.md) and [Batch 144 report](documentation/DISCOVERY-EXPANSION-BATCH-144.md).
 ## Locked map baseline
 
 The current map-marker implementation is preserved as **MAP MARKER SYSTEM V1 BASELINE** on the [`baseline/v1-map-marker-system`](https://github.com/CicanGeorgeAlin/cican-dublin/tree/baseline/v1-map-marker-system) branch. Recovery commit: `afc74b4a0814a856efe5f6f97a4ad3bfebbcc0bb`. Future map improvements should preserve this reference point.

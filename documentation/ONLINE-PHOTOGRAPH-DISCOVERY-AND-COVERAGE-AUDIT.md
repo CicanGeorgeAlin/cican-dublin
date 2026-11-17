@@ -6,13 +6,13 @@
 
 ## Current measured coverage
 
-The current visual-assets file contains 451 records, matching its declared record count.
+The current visual-assets file contains 452 records, matching its declared record count.
 
 | Measure | Count |
 |---|---:|
-| Archive records in visual-assets.json | 451 |
+| Archive records in visual-assets.json | 452 |
 | Records with at least one online reference image | 108 |
-| Records without an online reference image | 343 |
+| Records without an online reference image | 344 |
 | Registered reference-image entries | 133 |
 | Founder-original photographs recorded | 0 |
 
@@ -78,6 +78,12 @@ Every place should have a useful visual cue where possible. The website should c
 - `DUB-BLD-0184` — 25 The Stiles Road, NIAH 50030336: added as an International Modern private residence, with source-derived map point and official NIAH survey image 50030336_14.jpg.
 - Both images carry the NIAH educational/private-use credit condition and commercial permission requirement. Neither is represented as a founder photograph. Both locations remain in the founder-photography queue.
 - The two coordinate pairs were transformed from the published Irish Grid references to WGS 84. They are source-derived locators, not founder GPS.
+
+## Latest Blackheath discovery — 17 November 2026 (Batch 154)
+
+- `DUB-BLD-0185` — Clontarf Hospital's historic Blackheath house, NIAH 50030329, added with its official register record and a second institutional history source.
+- No online image was imported. A historical image surfaced on social media, but reuse rights were not established. The image slot remains empty and the record stays in the founder-photography queue.
+- The NIAH point is source-derived and transformed from the published Irish Grid reference. The photography brief distinguishes the historic house from the modern hospital facility and includes hospital privacy/access safeguards.
 
 ## Limitations of this audit
 

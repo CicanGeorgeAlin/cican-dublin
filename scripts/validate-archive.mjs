@@ -115,7 +115,7 @@ for(const v of visual.records){
  for(const image of v.reference_images||[]){
   for(const field of ["source_id","image_url","source_url","photographer","licence","licence_url","attribution","image_role"])assert.ok(typeof image[field]==="string"&&image[field].trim(),"Image "+v.record_id+" is missing "+field+".");
   assert.ok(sourceIds.has(image.source_id),"Image "+v.record_id+" references missing image source "+image.source_id+".");
-  assert.ok(["OBJECT_PHOTOGRAPH","STREET_CONTEXT"].includes(image.image_role),"Image "+v.record_id+" has an invalid image_role.");
+  assert.ok(["OBJECT_PHOTOGRAPH","DETAIL_PHOTOGRAPH","STREET_CONTEXT"].includes(image.image_role),"Image "+v.record_id+" has an invalid image_role.");
   for(const field of ["image_url","source_url","licence_url"])assert.equal(new URL(image[field]).protocol,"https:","Image links must use HTTPS: "+v.record_id);
  }
 }

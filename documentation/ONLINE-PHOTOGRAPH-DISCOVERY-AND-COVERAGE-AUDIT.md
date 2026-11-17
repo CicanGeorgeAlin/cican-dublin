@@ -11,12 +11,12 @@ The current visual-assets file contains 447 records, matching its declared recor
 | Measure | Count |
 |---|---:|
 | Archive records in visual-assets.json | 447 |
-| Records with at least one online reference image | 102 |
-| Records without an online reference image | 345 |
-| Registered reference-image entries | 124 |
+| Records with at least one online reference image | 104 |
+| Records without an online reference image | 343 |
+| Registered reference-image entries | 129 |
 | Founder-original photographs recorded | 0 |
 
-These are catalogue measurements from the current committed file after the first new image-discovery update. They are not a claim that every image has been visually rechecked during this audit, nor that every referenced URL is currently reachable.
+These are catalogue measurements from the current committed file after the Clontarf image-discovery batch. They are not a claim that every image has been visually rechecked during this audit, nor that every referenced URL is currently reachable.
 
 ## Publishing rule
 
@@ -58,6 +58,12 @@ These are catalogue measurements from the current committed file after the first
 ## Visitor experience
 
 Every place should have a useful visual cue where possible. The website should clearly distinguish third-party reference photography from founder-captured photography. Where no image is available, the record should remain discoverable and be visibly marked as awaiting a founder photograph rather than showing an unrelated image.
+
+## Latest additions in the Clontarf batch
+
+- Vernon Lodge, 41A Castle Avenue (NIAH 50030164): three official NIAH images covering the front elevation, street setting and entrance detail.
+- Clontarf Stationmaster's House, 96 Howth Road (NIAH 50030283): two official NIAH images covering the street view and polychrome brick gable.
+- Both NIAH image groups are subject to the NIAH website terms: educational/private use with NIAH credit; commercial use requires prior written agreement. Their records explicitly preserve that condition.
 
 ## Limitations of this audit
 

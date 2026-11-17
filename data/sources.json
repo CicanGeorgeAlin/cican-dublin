@@ -5583,5 +5583,25 @@
     "source_type": "OPEN_LICENCE_PHOTOGRAPH",
     "specific_reference": "Photograph by Sürrell, taken 14 March 2011; 3,000 × 4,000 pixels; Creative Commons Attribution-ShareAlike 3.0 Unported.",
     "notes": "High-resolution exterior photograph of the James Joyce Centre front. Exact match to 35 North Great George's Street. Reuse requires attribution, licence link and ShareAlike compliance; not a CICAN founder photograph."
+  },
+  {
+    "id": "NIAH-IMAGE-50030164-2026",
+    "name": "Vernon Lodge — official NIAH survey photographs",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030164/vernon-lodge-41a-castle-avenue-clontarf-dublin-3-co-dublin",
+    "accessed": "2026-11-17",
+    "source_type": "OFFICIAL_HERITAGE_PHOTOGRAPH",
+    "specific_reference": "NIAH registration 50030164; image files 50030164_1.jpg (front elevation), 50030164_3.jpg (side/street context), and 50030164_5.jpg (entrance detail).",
+    "notes": "Official NIAH survey photographs. NIAH website terms permit educational or private use with credit to the National Inventory of Architectural Heritage; commercial use requires prior written agreement. Use on CICAN Dublin only while consistent with those terms. Not founder photographs."
+  },
+  {
+    "id": "NIAH-IMAGE-50030283-2026",
+    "name": "Clontarf Stationmaster's House — official NIAH survey photographs",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030283/clontarf-railway-station-96-howth-road-clontarf-dublin-3-dublin",
+    "accessed": "2026-11-17",
+    "source_type": "OFFICIAL_HERITAGE_PHOTOGRAPH",
+    "specific_reference": "NIAH registration 50030283; image files 50030283_13.jpg (wide street view) and 50030283_2.jpg (brick gable detail).",
+    "notes": "Official NIAH survey photographs. NIAH website terms permit educational or private use with credit to the National Inventory of Architectural Heritage; commercial use requires prior written agreement. Use on CICAN Dublin only while consistent with those terms. The building is described by NIAH as a former stationmaster's house now in use as a private house; images are documentary references, not an invitation to enter private property."
   }
 ]

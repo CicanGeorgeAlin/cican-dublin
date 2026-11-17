@@ -933,5 +933,40 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ]
+  },
+  {
+    "id": "RES-FINGAL-HERITAGE-BATCH-146",
+    "title": "Batch 146 — Fingal bridges, pumps, inscriptions and vernacular buildings",
+    "area": "LUSK · SWORDS · SKERRIES · DONABATE · KILLEEK · FINGAL, COUNTY DUBLIN",
+    "updated": "2026-11-17",
+    "status": "DOCUMENTED_CONTEXT",
+    "status_label": "OFFICIAL NIAH CATALOGUE EXPANSION",
+    "summary": "Twenty new NIAH-backed primary objects and three parent-linked micro-details have been registered across Lusk, Swords, Skerries, Donabate and Killeek. The batch includes the 1754 inscribed boulder at Clay Cottage, a cast-iron post box, two distinct Lissenhall bridges, a 1760 five-arch bridge, a 1925 Tonge and Taggart pump, a c.1890 Swords pump and a commemorative plaque on Mill Bridge.",
+    "supported": "The twenty primary objects each have an individual NIAH registration and source-registry entry. The three child records separately catalogue the Clay Cottage 1754 boulder, Peter Wilson's Mill Bridge plaque and Mill Bridge benchmark-inscribed parapets. Published Irish Grid references with usable values were transformed using EPSG:29902 operation 1641. The Ballisk Thatch Cottage is retained without a map pin because NIAH publishes -1,-1 rather than a usable coordinate.",
+    "limits": "All 23 records are PARTIALLY_VERIFIED and await founder photography. NIAH surveys are historical source evidence, not proof of present survival or condition. Host-building or bridge coordinates do not locate micro-details precisely. No third-party images were imported. Commercial reuse of NIAH website content requires prior written agreement; the archive uses paraphrased descriptions and source attribution.",
+    "source_ids": [
+      "NIAH-11323024",
+      "NIAH-11335013",
+      "NIAH-11335014",
+      "NIAH-11323010",
+      "NIAH-11311010",
+      "NIAH-11343016",
+      "NIAH-11335007",
+      "NIAH-11335008",
+      "NIAH-11335011",
+      "NIAH-11335012",
+      "NIAH-11336026",
+      "NIAH-11342011",
+      "NIAH-11335019",
+      "NIAH-11323011",
+      "NIAH-11343015",
+      "NIAH-11336010",
+      "NIAH-11336002",
+      "NIAH-11336003",
+      "NIAH-11336005",
+      "NIAH-11329015",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ]
   }
 ]

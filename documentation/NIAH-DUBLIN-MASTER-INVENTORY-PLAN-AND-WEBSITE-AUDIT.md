@@ -82,7 +82,7 @@ This prevents the user interface from implying that all official records have be
 
 ### Latest repository state inspected
 
-- Latest completed production commit at this audit update: `c10eb21da7cf5d3858c0d7158a85842ce646e3b9` (Clontarf NIAH import, photo coverage update and validator/source-schema corrections).
+- Latest completed production commit before Batch 153: `c10eb21da7cf5d3858c0d7158a85842ce646e3b9`. Batch 153 records and image references have now been committed; their validation and deployment runs are being checked.
 - `index.html` uses `<base href="./preview/">`, so its relative map app assets resolve into `preview/`.
 - The app script is `preview/app/app.js`; its data endpoints resolve to root `data/objects.json`, `data/sources.json` and `data/visual-assets.json`.
 - `service-worker.js` pre-caches the map app, archive JSON and required shell assets and serves navigation/data with network-first behaviour.
@@ -103,7 +103,7 @@ This confirms that the code requests high-accuracy browser location. It does **n
 
 ### Latest automated quality and deployment runs
 
-For commit `c10eb21da7cf5d3858c0d7158a85842ce646e3b9`:
+For commit `c10eb21da7cf5d3858c0d7158a85842ce646e3b9` (the preceding completed production batch):
 
 - **Archive quality gate:** completed successfully.
   - Check map application JavaScript syntax — success.
@@ -127,10 +127,10 @@ The public Pages URL could not be opened in the available live browser retrieval
 
 ## 5. Current archive baseline
 
-- Curated catalogue: 449 records.
-- Records with a NIAH registration reference: 437. This is not the full NIAH Dublin total.
-- Registered sources: 560.
-- Visual inventory: 449 records; 106 records have at least one online reference image, 343 remain without one; 131 reference-image entries are registered.
+- Curated catalogue: 451 records.
+- Records with a NIAH registration reference: 439. This is not the full NIAH Dublin total.
+- Registered sources: 564.
+- Visual inventory: 451 records; 108 records have at least one online reference image, 343 remain without one; 133 reference-image entries are registered.
 - Current local-authority spatial assignments: 0 confirmed in the coverage audit.
 - NIAH Dublin complete current total: not yet counted.
 - Full NIAH source-index import: not yet performed.
@@ -141,10 +141,12 @@ The public Pages URL could not be opened in the available live browser retrieval
 Two previously absent Clontarf records were added after direct review of their official NIAH pages:
 - `DUB-BLD-0181` — Clontarf GAA Club (Belgrove House / Bellgrove House), NIAH 50030101.
 - `DUB-BLD-0182` — 6 Castle Avenue, Clontarf, NIAH 50030352.
+- `DUB-BLD-0183` — 40–82 Kincora Road, Clontarf, NIAH 50030328.
+- `DUB-BLD-0184` — 25 The Stiles Road, Clontarf, NIAH 50030336.
 
 Each has a permanent CICAN ID, official register source, source-derived coordinate, walking map link, photography brief and one official NIAH gallery image. The private-residence access restriction is recorded for 6 Castle Avenue. Both image records retain the NIAH educational/private-use credit condition and commercial permission requirement.
 
-The image validator was expanded to accept the documented `DETAIL_PHOTOGRAPH` role, and two Wikimedia Commons source records were aligned with the existing `WIKIMEDIA_COMMONS_PHOTOGRAPH` source-type enum. The coverage audit was updated to 449 records and 75 Dublin 3 records. The quality gate, CICAN deployment workflow and Pages build all passed for commit `c10eb21da7cf5d3858c0d7158a85842ce646e3b9`.
+The image validator was expanded to accept the documented `DETAIL_PHOTOGRAPH` role, and two Wikimedia Commons source records were aligned with the existing `WIKIMEDIA_COMMONS_PHOTOGRAPH` source-type enum. The coverage audit was updated to 451 records and 77 Dublin 3 records. The quality gate, CICAN deployment workflow and Pages build passed for commit `c10eb21da7cf5d3858c0d7158a85842ce646e3b9`. Batch 153 then added two more records and two NIAH reference images; its own workflow results are pending final confirmation.
 
 ## 6. Immediate next actions
 

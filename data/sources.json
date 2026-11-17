@@ -5683,5 +5683,25 @@
     "source_type": "OFFICIAL_HERITAGE_PHOTOGRAPH",
     "specific_reference": "Official NIAH gallery image 50030336_14.jpg, opened from the registration 50030336 page image gallery.",
     "notes": "NIAH website terms: educational or private use permitted with credit to NIAH; commercial reuse requires prior written agreement. Individual photographer and capture date are not stated on the record. This is a third-party reference image, not a founder original."
+  },
+  {
+    "id": "NIAH-50030329",
+    "name": "Clontarf Hospital / Blackheath — NIAH registration 50030329",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50030329/clontarf-hospital-blackheath-park-clontarf-dublin-3-dublin",
+    "accessed": "2026-11-17",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 50030329; Blackheath Park, Clontarf, Dublin 3; published Irish Grid reference 319742, 236747.",
+    "notes": "Official NIAH record reviewed. Supports the registration number, historical name Blackheath, design attribution to Thomas Drew, 1872 construction and 1879 extension, description, appraisal, current recorded administrative use and published coordinate. WGS 84 coordinate is transformed from the published Irish Grid reference and remains source-derived."
+  },
+  {
+    "id": "IOH-HOSPITAL-HISTORY-2026",
+    "name": "Clontarf Hospital — official hospital history",
+    "publisher": "The Incorporated Orthopaedic Hospital of Ireland trading as Clontarf Hospital",
+    "url": "https://www.ioh.ie/about-us/hospital-history/",
+    "accessed": "2026-11-17",
+    "source_type": "INSTITUTIONAL_HISTORY",
+    "specific_reference": "Hospital History page; foundation in 1876 and relocation to Clontarf in 1941.",
+    "notes": "Institutional source for the hospital's history and its move to Clontarf. Used to add context only; the NIAH registration remains the primary source for the historic Blackheath house. The hospital states that its modern hospital facility was completed in 2009."
   }
 ]

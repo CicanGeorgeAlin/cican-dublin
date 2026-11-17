@@ -11,12 +11,12 @@ The current visual-assets file contains 447 records, matching its declared recor
 | Measure | Count |
 |---|---:|
 | Archive records in visual-assets.json | 447 |
-| Records with at least one online reference image | 101 |
-| Records without an online reference image | 346 |
-| Registered reference-image entries | 122 |
+| Records with at least one online reference image | 102 |
+| Records without an online reference image | 345 |
+| Registered reference-image entries | 124 |
 | Founder-original photographs recorded | 0 |
 
-These are catalogue measurements from the file at the time of this audit. They are not a claim that every image has been visually rechecked during this audit, nor that every referenced URL is currently reachable.
+These are catalogue measurements from the current committed file after the first new image-discovery update. They are not a claim that every image has been visually rechecked during this audit, nor that every referenced URL is currently reachable.
 
 ## Publishing rule
 

@@ -20,10 +20,11 @@ The national NIAH Buildings open-data Feature Service exposes a separate point l
 The canonical production file `data/objects.json` was fetched from the repository and parsed in full on 20 November 2026.
 
 - Catalogue records: **460**.
-- Records with a non-empty `national_inventory_reference` field: **448**.
-- Distinct eight-digit numeric NIAH registration numbers found inside those fields: **340**.
+- Records with a non-empty `national_inventory_reference` field: **450**.
+- Eight-digit numeric NIAH reference occurrences found inside those fields: **432**.
+- Distinct eight-digit numeric NIAH registration numbers found inside those fields: **342**.
 - The 448 populated fields are not 448 unique NIAH records: many contain explanatory prose, other designation references, or repeat a parent NIAH registration across multiple separately catalogued micro-features.
-- The 340 distinct numeric references are therefore the current auditable CICAN numerator candidate for Building Survey registration coverage, subject to a full exact-match reconciliation against the current official NIAH extract.
+- The 342 distinct numeric references are the current CICAN numerator candidate for Building Survey registration coverage. The current 342-record public NIAH file contains exactly these 342 unique references. The 20 November 2026 national CSV audit artifact confirms 340 registrations in the prior snapshot; two later additions, 11324032 and 11323022, require a fresh official CSV audit.
 - Catalogue records without a populated NIAH reference: **12**. These may be legitimate non-NIAH objects (e.g. archaeological, industrial or micro-detail records); absence of an NIAH reference is not automatically a defect.
 
 Do not report 340/65,000 as a completion percentage: 65,000 is the national buildings-and-gardens total, while CICAN's intended geographic scope is Dublin only.
@@ -72,4 +73,4 @@ The primary overall NIAH completion percentage should combine only unique, in-sc
 - data.gov.ie, NIAH National Thatch Census: https://data.gov.ie/en_GB/dataset/national-inventory-of-architectural-heritage-niah-national-thatch-census
 - data.gov.ie, NIAH national dataset metadata and current live-view guidance: https://data.gov.ie/dataset/national-inventory-of-architectural-heritage-niah-national-dataset
 
-**Integrity note:** The national public website count is not a Dublin denominator. The 340 figure is a parsed count of distinct numeric NIAH references in CICAN's current catalogue, not a verified number of exact official matches until the current official four-authority registration list has been extracted.
+**Integrity note:** The national public website count is not a Dublin denominator. The current parsed CICAN numerator is 342 distinct numeric NIAH references, with 340 exact national-CSV matches confirmed in the previous audit snapshot and two later additions awaiting re-audit. The official four-authority Dublin denominator has not yet been extracted and reconciled; do not report a completion percentage or treat 3,396 as an independently confirmed official denominator.

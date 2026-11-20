@@ -45,7 +45,10 @@ for (const record of objects) {
       "addressCountry": "IE"
     },
     "containedInPlace": { "@type": "City", "name": "Dublin", "containedInPlace": { "@type": "Country", "name": "Ireland" } },
-    "identifier": id
+    "identifier": id,
+    "inLanguage": "en-IE",
+    "isPartOf": { "@type": "WebSite", "name": "CICAN DUBLIN", "url": BASE + "/" },
+    "mainEntityOfPage": url
   };
   if (lat !== null && lon !== null) schema.geo = { "@type": "GeoCoordinates", "latitude": lat, "longitude": lon };
   if (image) schema.image = image.image_url;
@@ -66,9 +69,9 @@ for (const record of objects) {
     '<html lang="en-IE"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">',
     '<title>' + escapeHtml(title) + '</title>',
     '<meta name="description" content="' + escapeHtml(description) + '">',
-    '<meta name="author" content="CICAN GEORGE ALIN"><meta name="robots" content="index,follow,max-image-preview:large">',
+    '<meta name="author" content="CICAN GEORGE ALIN"><meta name="robots" content="index,follow,max-image-preview:large"><meta name="theme-color" content="#070707"><meta property="og:locale" content="en_IE">',
     '<link rel="canonical" href="' + escapeHtml(url) + '"><meta name="theme-color" content="#070707">',
-    '<meta property="og:type" content="article"><meta property="og:site_name" content="CICAN DUBLIN"><meta property="og:title" content="' + escapeHtml(title) + '"><meta property="og:description" content="' + escapeHtml(description) + '"><meta property="og:url" content="' + escapeHtml(url) + '">',
+    '<meta property="og:type" content="article"><meta property="og:site_name" content="CICAN DUBLIN"><meta property="og:title" content="' + escapeHtml(title) + '"><meta property="og:description" content="' + escapeHtml(description) + '"><meta property="og:url" content="' + escapeHtml(url) + '"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="' + escapeHtml(title) + '"><meta name="twitter:description" content="' + escapeHtml(description) + '">',
     image ? '<meta property="og:image" content="' + escapeHtml(image.image_url) + '">' : '',
     '<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">',
     '<script type="application/ld+json">' + JSON.stringify(schema).replace(/</g, "\\u003c") + '</script>',
@@ -92,12 +95,13 @@ for (const record of objects) {
 
 const today = new Date().toISOString().slice(0, 10);
 const urls = [
-  { loc: BASE + "/", priority: "1.0" },
-  { loc: BASE + "/archive.html", priority: "0.9" },
-  ...objects.map(record => ({ loc: BASE + "/places/" + encodeURIComponent(record.id) + ".html", priority: "0.7" }))
+  { loc: BASE + "/" },
+  { loc: BASE + "/archive.html" },
+  { loc: BASE + "/about.html" },
+  ...objects.map(record => ({ loc: BASE + "/places/" + encodeURIComponent(record.id) + ".html" }))
 ];
 const sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
-  urls.map(item => '  <url><loc>' + item.loc + '</loc><lastmod>' + today + '</lastmod><changefreq>monthly</changefreq><priority>' + item.priority + '</priority></url>').join("\n") +
+  urls.map(item => '  <url><loc>' + item.loc + '</loc></url>').join("\n") +
   '\n</urlset>\n';
 fs.writeFileSync(path.join(ROOT, "sitemap.xml"), sitemap, "utf8");
 console.log("Generated " + objects.length + " crawlable place pages and a sitemap with " + urls.length + " URLs.");

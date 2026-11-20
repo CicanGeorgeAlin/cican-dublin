@@ -968,5 +968,38 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ]
+  },
+  {
+    "id": "RES-NIAH-AND-CLONDAKLIN-RESEARCH-BATCH-005",
+    "title": "Batch 005 — Cappagh and Neillstown NIAH structures; Clondalkin churchyard crosses",
+    "area": "CAPPAGH · NEILLSTOWN · RAHEEN · CLONDAKLIN, COUNTY DUBLIN",
+    "updated": "2026-11-20",
+    "status": "DOCUMENTED_CONTEXT",
+    "status_label": "FOUR NIAH OBJECTS ADDED; TWO CROSS RECORDS RETAINED AS RESEARCH LEADS",
+    "summary": "Four previously unregistered NIAH structures were added as separate PARTIALLY_VERIFIED archive objects: Cappaghmore Lodge (11205029), the Neillstown house (11205033), the Lucan-Newlands Road railway bridge at Cappagh (11205034), and the Cloverhill Road house at Raheen (11205039). A separate South Dublin County Council conservation plan was reviewed for two distinct granite crosses in the Clondalkin churchyard and the RMP-listed font. The crosses remain research leads because current survival and exact positions have not been independently field-verified.",
+    "supported": [
+      "NIAH 11205029 documents Cappaghmore Lodge and its limestone entrance screen, cast-iron gates and gate piers.",
+      "NIAH 11205033 documents a detached single-storey c.1860 house at Neillstown.",
+      "NIAH 11205034 documents a c.1860 single-arch road bridge over the railway on Lucan-Newlands Road at Cappagh.",
+      "NIAH 11205039 documents a detached c.1860 house at Cloverhill Road, Raheen, with a later c.1940 east extension.",
+      "The March 2026 Clondalkin Conservation Plan reproduces separate RMP descriptions for DU017-041003 and DU017-041004: two granite crosses with different forms, positions and dimensions. It also lists DU017-041007 as a font."
+    ],
+    "limits": [
+      "All four new NIAH records are PARTIALLY_VERIFIED; present condition, survival, occupancy and lawful photography viewpoints await founder field verification.",
+      "The four individual NIAH page coordinate pairs are legacy Irish Grid / National Grid values (TM65 / EPSG:29902), not ITM. They were transformed to WGS 84 using operation 1641. Transformation accuracy does not establish source-point accuracy. The NIAH bulk dataset separately provides ITM and Irish Grid fields.",
+      "Locality labels Cappagh, Neillstown and Raheen are not point-in-polygon local-authority assignments. Coverage remains NOT_SPATIALLY_VERIFIED.",
+      "The Clondalkin cross descriptions are reproduced RMP material in the 2026 plan. They do not prove present survival or exact GPS. The font entry is listed but lacks sufficient detailed attributes.",
+      "No reference photographs were imported. All four new visual records await founder photography.",
+      "NIAH 11205032 was not included: its individual record page returned HTTP 403 during this pass."
+    ],
+    "source_ids": [
+      "NIAH-11205029",
+      "NIAH-11205033",
+      "NIAH-11205034",
+      "NIAH-11205039",
+      "SDCC-CLON-CONSERVATION-PLAN-2026",
+      "SRC-NIAH-NATIONAL-DATASET",
+      "SRC-EPSG-TM65-29902"
+    ]
   }
 ]

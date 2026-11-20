@@ -62,10 +62,24 @@ ul{padding-left:20px;color:#bbb7ad}
 li{padding:4px 0}
 footer{border-top:1px solid var(--line);padding:22px 0 30px;color:#888;font-size:11px}
 @media(max-width:560px){header .wrap{display:flex;flex-direction:column;gap:12px}nav{float:none;gap:15px;flex-wrap:wrap}main{padding-top:38px}.lead{font-size:17px}}
+
+/* CICAN is a text-only wordmark. The tagline shares its typeface and white colour. */
+.brand{display:flex!important;align-items:flex-start!important;justify-content:flex-start!important;gap:0!important;text-decoration:none!important}
+.brand-emblem,.cican-emblem,.atlas-brand-mark{display:none!important}
+.brand-lockup{display:flex!important;flex-direction:column!important;align-items:flex-start!important;gap:5px!important;min-width:0}
+.brand-wordmark{display:block!important;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif!important;font-size:13px!important;font-weight:800!important;letter-spacing:.24em!important;line-height:1!important;color:#fff!important;text-shadow:0 0 12px #ffffff25!important}
+.brand-tagline{display:block!important;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif!important;font-size:8px!important;font-weight:800!important;letter-spacing:.16em!important;line-height:1.2!important;color:#fff!important;white-space:nowrap}
+.brand-lockup small{display:block!important;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif!important;font-size:8px!important;font-weight:800!important;letter-spacing:.16em!important;line-height:1.2!important;color:#fff!important;white-space:nowrap}
+.atlas-intro-brand{display:flex;align-items:center;gap:0}
+.atlas-intro-brand>span:last-child{display:flex;flex-direction:column;gap:5px}
+.atlas-intro-brand b{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;font-weight:800;letter-spacing:.24em;color:#fff}
+.atlas-intro-brand small{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;font-size:8px;font-weight:800;letter-spacing:.16em;color:#fff}
+@media(max-width:850px){.brand-wordmark{font-size:12px!important}.brand-tagline,.brand-lockup small{font-size:7px!important}}
+
 </style>
 </head>
 <body>
-<header><div class="wrap"><a class="brand" href="./" aria-label="CICAN — A Dublin Experience"><img src="./preview/assets/cican-emblem.svg" alt=""><span class="brand-lockup">CICAN<small>A DUBLIN EXPERIENCE</small></span></a><nav aria-label="Main navigation"><a href="./">MAP</a><a href="./archive.html">ARCHIVE</a><a href="./about.html" aria-current="page">ABOUT</a></nav></div></header>
+<header><div class="wrap"><a class="brand" href="./" aria-label="CICAN — A Dublin Experience"><span class="brand-lockup"><span class="brand-wordmark">CICAN</span><span class="brand-tagline">A Dublin Experience</span></span></a><nav aria-label="Main navigation"><a href="./">MAP</a><a href="./archive.html">ARCHIVE</a><a href="./about.html" aria-current="page">ABOUT</a></nav></div></header>
 <main class="wrap">
 <p class="kicker">CICAN · A DUBLIN EXPERIENCE</p>
 <h1>Every detail has a history. Every source has a story.</h1>

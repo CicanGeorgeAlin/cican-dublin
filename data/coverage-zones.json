@@ -31,13 +31,13 @@
       "id": "DUB-LA-002",
       "name": "Fingal County Council",
       "geographic_type": "LOCAL_AUTHORITY",
-      "status": "NOT_YET_RESEARCHED",
+      "status": "RESEARCH_IN_PROGRESS",
       "source_ids": [
         "SRC-DUB-LOCAL-AUTH-2026",
         "SRC-DUB-BOUNDARY-OPEN-DATA",
         "SRC-DUB-TOWNLANDS-2026"
       ],
-      "coverage_notes": "No catalogue record count is assigned to this authority in the Step 4 audit. Research coverage is not yet established. Use the 2026 Tailte Éireann local-authority polygon as the administrative frame, then subdivide research by official townlands and documented settlements. Do not infer coverage from postal districts.",
+      "coverage_notes": "Initial NIAH discovery is now underway in Fingal, including Rush/Kenure and Donabate/Portrane. The catalogue contains source-derived Fingal settlement locators, but no local-authority record count is assigned until defensible points are spatially tested against the official 2026 boundary polygon.",
       "boundary_verification_status": "NOT_SPATIALLY_ASSIGNED",
       "record_count": null
     },

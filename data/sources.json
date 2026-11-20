@@ -5703,5 +5703,55 @@
     "source_type": "ARCHITECTURAL_HISTORICAL_REFERENCE",
     "specific_reference": "Hospital History page; foundation in 1876 and relocation to Clontarf in 1941.",
     "notes": "Official institutional history page used as contextual historical reference for the hospital's foundation and relocation to Clontarf. The NIAH record remains the primary source for the historic Blackheath house. The hospital states that its modern hospital facility was completed in 2009."
+  },
+  {
+    "id": "NIAH-11205029",
+    "name": "Cappaghmore Lodge — NIAH registration 11205029",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/11205029/cappaghmore-lodge-cappagh-co-dublin",
+    "accessed": "2026-11-20",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 11205029; Cappagh, County Dublin; page coordinate 306671, 232382; recorded 24 May 2002.",
+    "notes": "Official NIAH record supports registration, rating, interest categories, date range, gate-lodge use, description and appraisal. Page coordinate is treated as legacy Irish Grid / National Grid (TM65, EPSG:29902), not ITM. NIAH bulk metadata distinguishes Irish Grid and ITM fields. Current survival, condition and access are not field-verified."
+  },
+  {
+    "id": "NIAH-11205033",
+    "name": "Neillstown — NIAH registration 11205033",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/11205033/neillstown-co-dublin",
+    "accessed": "2026-11-20",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 11205033; Neillstown, County Dublin; page coordinate 306652, 232572; recorded 28 May 2002.",
+    "notes": "Official NIAH record supports rating, architectural interest, date range, house use, description and appraisal. Page coordinate is treated as legacy Irish Grid / National Grid (TM65, EPSG:29902), not ITM. NIAH bulk metadata distinguishes Irish Grid and ITM fields. Vacancy and boarded-window statements are historical observations, not present-day verification."
+  },
+  {
+    "id": "NIAH-11205034",
+    "name": "Lucan-Newlands Road railway bridge, Cappagh — NIAH registration 11205034",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/11205034/lucan-newlands-road-cappagh-co-dublin",
+    "accessed": "2026-11-20",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 11205034; Lucan-Newlands Road, Cappagh, County Dublin; page coordinate 306615, 232599; recorded 24 May 2002.",
+    "notes": "Official NIAH record supports rating, architectural/technical interest, date range, bridge use, description and appraisal. Page coordinate is treated as legacy Irish Grid / National Grid (TM65, EPSG:29902), not ITM. NIAH bulk metadata distinguishes Irish Grid and ITM fields. Active railway safety restrictions apply; no track access is implied."
+  },
+  {
+    "id": "NIAH-11205039",
+    "name": "Cloverhill Road, Raheen house — NIAH registration 11205039",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/11205039/cloverhill-road-raheen-ne-by-co-dublin",
+    "accessed": "2026-11-20",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH Registration 11205039; Cloverhill Road, Raheen (north-east by), County Dublin; page coordinate 307426, 233052; recorded 27 May 2002.",
+    "notes": "Official NIAH record supports rating, architectural interest, date range, house use, description and appraisal. Page coordinate is treated as legacy Irish Grid / National Grid (TM65, EPSG:29902), not ITM. NIAH bulk metadata distinguishes Irish Grid and ITM fields. The commercial-yard setting does not imply public access."
+  },
+  {
+    "id": "SDCC-CLON-CONSERVATION-PLAN-2026",
+    "name": "Clondalkin Conservation Plan — March 2026",
+    "publisher": "South Dublin County Council; prepared by Molloy & Associates Conservation Architects",
+    "url": "https://www.sdcc.ie/en/devplan2022/variations/variation-1/clondalkin-local-planning-framework/supporting%20documents/conservation-plan.pdf",
+    "accessed": "2026-11-20",
+    "source_type": "OFFICIAL_CONSERVATION_PLAN",
+    "specific_reference": "Appendix A3, Recorded Monuments within the Study Area; RMP DU017-041003, DU017-041004 and DU017-041007; PDF pages 36–37.",
+    "notes": "The Council-commissioned plan reproduces RMP descriptions for two distinct Clondalkin granite crosses: a low cross with damaged head, ringed cross on west face and Latin cross on south face (DU017-041003), and a taller plain granite cross with asymmetrical arms (DU017-041004). Positions are described relative to the medieval church fragment. DU017-041007 is listed as a font but no detailed description was extracted. Reproduced RMP descriptions do not establish present survival, condition or exact GPS."
   }
 ]

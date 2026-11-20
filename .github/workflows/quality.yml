@@ -30,11 +30,16 @@ jobs:
         run: node scripts/generate-seo-pages.mjs
       - name: Validate catalogue, images, links and page scripts
         run: node scripts/validate-archive.mjs
-      - name: Audit all NIAH references against the official national CSV
+      - name: Audit existing NIAH registrations against the official national CSV
         run: node scripts/audit-niah-registrations.mjs
-      - name: Upload official NIAH audit report
+      - name: Build four-authority Dublin NIAH coverage and missing-registration queue
+        run: node scripts/audit-niah-dublin-coverage.mjs
+      - name: Upload official NIAH audit reports and review queue
         uses: actions/upload-artifact@v4
         with:
-          name: niah-340-official-register-audit
-          path: audit/niah-340-official-register-audit.json
+          name: niah-dublin-bulk-coverage-audit
+          path: |
+            audit/niah-340-official-register-audit.json
+            audit/niah-dublin-coverage-audit.json
+            audit/niah-dublin-missing-registrations.json
           if-no-files-found: error

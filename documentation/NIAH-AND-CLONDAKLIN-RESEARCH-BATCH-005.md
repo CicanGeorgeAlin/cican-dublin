@@ -52,7 +52,7 @@ For web mapping, the four page-level pairs were transformed from EPSG:29902 to W
 - 11205034: 53.3331383193, -6.4003727781
 - 11205039: 53.3370430942, -6.3880509088
 
-The transformation accuracy is not the source centroid accuracy. These are source-derived locators, not founder GPS. Earlier Batches 002–004 incorrectly called individual-page coordinate pairs “ITM”; the continue checkpoint now clarifies the distinction, and those earlier report files will be corrected in the next documentation maintenance pass.
+The transformation accuracy is not the source centroid accuracy. These are source-derived locators, not founder GPS. Earlier Batches 002–004 incorrectly called individual-page coordinate pairs “ITM”; the continue checkpoint and the earlier Batch 002–004 reports have now been corrected to distinguish Irish Grid from ITM.
 
 ## Specialist discovery — Clondalkin granite crosses
 

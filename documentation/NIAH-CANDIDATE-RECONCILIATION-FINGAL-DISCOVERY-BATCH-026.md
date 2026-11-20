@@ -13,7 +13,7 @@ Continue Batch 025 by comparing held registration numbers against the current pu
 
 The current data/niah-registered-objects.json was retrieved and parsed in full: **342 records**. The current data/sources.json was retrieved and parsed in full: **580 source records**.
 
-The following 22 registration numbers were checked by exact national_inventory_reference equality against all 342 public records and by exact-number search across all 580 source records:
+The following 20 documented candidate registration numbers were checked by exact national_inventory_reference equality against all 342 public records and by exact-number search across all 580 source records:
 
 **Batch 025 candidates:** 11321004, 11321008, 11323013, 11323014, 11323025, 11342006.
 
@@ -77,7 +77,7 @@ Matching census feature rows for the current candidates were not retrieved in th
 
 - Existing published NIAH collection: **342**.
 - Existing source registry: **580**.
-- Candidate registrations exact-checked against those two files: **22**.
+- Documented candidate registrations exact-checked against those two files: **20** (plus two exploratory IDs not promoted to the candidate queue).
 - Exact matches in the published NIAH collection: **0**.
 - Exact matches in source registry: **0**.
 - Additional official NIAH search-listing leads discovered: **7**.

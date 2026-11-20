@@ -5,7 +5,7 @@ import assert from "node:assert/strict";
 const root=process.cwd();
 const read=file=>fs.readFileSync(path.join(root,file),"utf8");
 const json=file=>JSON.parse(read(file));
-const objects=json("data/objects.json"),sources=json("data/sources.json"),visual=json("data/visual-assets.json"),research=json("data/research.json"),investigation=json("data/investigation.json"),sourceSchema=json("schemas/source.schema.json"),evidenceClaims=json("data/evidence-claims.json"),fieldObservations=json("data/field-observations.json"),evidenceSchema=json("schemas/evidence-claim.schema.json"),observationSchema=json("schemas/field-observation.schema.json"),objectSchema=json("schemas/archive-object.schema.json"),taxonomy=json("data/taxonomy.json"),categories=json("data/categories.json"),taxonomySchema=json("schemas/taxonomy.schema.json"),categoriesSchema=json("schemas/categories.schema.json"),coverageZones=json("data/coverage-zones.json"),coverageAudit=json("data/coverage-audit.json"),coverageZonesSchema=json("schemas/coverage-zones.schema.json"),coverageAuditSchema=json("schemas/coverage-audit.schema.json");
+const objects=json("data/objects.json"),pageObjects=json("data/niah-registered-objects.json"),sources=json("data/sources.json"),visual=json("data/visual-assets.json"),research=json("data/research.json"),investigation=json("data/investigation.json"),sourceSchema=json("schemas/source.schema.json"),evidenceClaims=json("data/evidence-claims.json"),fieldObservations=json("data/field-observations.json"),evidenceSchema=json("schemas/evidence-claim.schema.json"),observationSchema=json("schemas/field-observation.schema.json"),objectSchema=json("schemas/archive-object.schema.json"),taxonomy=json("data/taxonomy.json"),categories=json("data/categories.json"),taxonomySchema=json("schemas/taxonomy.schema.json"),categoriesSchema=json("schemas/categories.schema.json"),coverageZones=json("data/coverage-zones.json"),coverageAudit=json("data/coverage-audit.json"),coverageZonesSchema=json("schemas/coverage-zones.schema.json"),coverageAuditSchema=json("schemas/coverage-audit.schema.json");
 assert.ok(Array.isArray(objects)&&objects.length>0,"Object catalogue must be a non-empty array.");
 assert.ok(Array.isArray(sources)&&sources.length>0,"Source catalogue must be a non-empty array.");
 assert.ok(Array.isArray(visual.records),"Visual inventory must contain a records array.");
@@ -102,6 +102,7 @@ assert.ok(mapApp.includes('navigator.serviceWorker.register("../service-worker.j
 assert.ok(rootServiceWorker.includes('"./index.html"')&&rootServiceWorker.includes('"./data/objects.json"')&&rootServiceWorker.includes('"./data/sources.json"')&&rootServiceWorker.includes('"./data/visual-assets.json"'),"Root service worker must cache the public homepage and canonical archive data.");
 assert.ok(/isArchiveData=\/\\.json\$\/i/.test(rootServiceWorker),"Root service worker must correctly detect JSON archive requests.");
 assert.ok(mapApp.includes("const walk=isValidPoint(r)?")&&mapApp.includes("LOCATION NOT MAPPED"),"Unmapped records must never receive broken walking directions.");
+assert.ok(mapApp.includes('const DATA_URL="../data/niah-registered-objects.json"'),"Map must load the NIAH-only Stage 1 catalogue.");
 assert.ok(mapApp.includes("Promise.all([fetch(DATA_URL")&&mapApp.includes("fetch(SOURCES_URL")&&mapApp.includes("fetch(VISUALS_URL"),"Archive datasets must load concurrently to reduce initial wait time.");
 assert.ok(mapApp.includes("editorial-photo-note")&&mapApp.includes("photo.licence"),"Photo details must display creator attribution and reuse licence.");
 assert.ok(mapApp.includes("const coordinateText=isValidPoint(r)?")&&mapApp.includes("NOT MAPPED · FIELD LOCATION NEEDED"),"Unmapped records must show a clear coordinate status instead of NaN.");
@@ -129,7 +130,11 @@ const sitemap=read("sitemap.xml"),robots=read("robots.txt");
 assert.ok(sitemap.includes("https://cicangeorgealin.github.io/cican-dublin/")&&sitemap.includes("https://cicangeorgealin.github.io/cican-dublin/archive.html"),"Sitemap must include the public homepage and discovery catalogue.");
 assert.ok(robots.includes("Sitemap: https://cicangeorgealin.github.io/cican-dublin/sitemap.xml"),"Robots file must advertise the sitemap.");
 assert.ok(sitemap.includes("/places/"),"Sitemap must include generated place pages.");
-for(const record of objects){
+assert.equal(pageObjects.length,340,"Stage 1 must publish one canonical record per unique exact NIAH registration number.");
+const publishedNiahRefs=unique(pageObjects.map(r=>r.national_inventory_reference),"Published NIAH registration numbers");
+for(const record of pageObjects)assert.ok(/^\\d{8}$/.test(record.national_inventory_reference),"Published record "+record.id+" must have an exact eight-digit NIAH registration number.");
+assert.equal(publishedNiahRefs.size,pageObjects.length,"Published NIAH registration numbers must be unique.");
+for(const record of pageObjects){
  const pagePath="places/"+record.id+".html";
  assert.ok(fs.existsSync(path.join(root,pagePath)),"Missing generated SEO page: "+pagePath);
  const page=read(pagePath);
@@ -153,7 +158,7 @@ if(mapFirstHome){
 }
 const archive=read("archive.html");
 for(const id of ["gallery","detail","detailBody","search","districtFilter","categoryFilter","pageSize","pagination"])assert.ok(archive.includes('id="'+id+'"'),"Archive page missing #"+id);
-assert.ok(archive.includes('Promise.all(["objects","sources","visual-assets","research"]'),"Archive must load objects, sources, visuals and research.");
+assert.ok(archive.includes('Promise.all(["niah-registered-objects","sources","visual-assets","research"]'),"Archive must load the NIAH-only Stage 1 catalogue, sources, visuals and research.");
 assert.ok(archive.includes("function renderResearch()"),"Archive must render the evidence-graded research feed.");
 assert.ok(archive.includes('id="research-feed"'),"Archive must expose the research feed.");
 assert.ok(archive.includes("visualAssets=visualData"),"Archive must assign visual inventory.");

@@ -84,7 +84,7 @@ The Clondalkin section records:
 
 ## 4. Coordinate and access policy
 
-All four NIAH coordinates are preserved as original ITM pairs above. No WGS84 conversion has been made in this batch. No source point is represented as exact micro-feature GPS or founder field GPS. The station building is a private residence and railway infrastructure is a restricted safety environment; no access rights are inferred from NIAH map points.
+All four individual-page coordinate pairs are preserved as legacy Irish Grid / National Grid (TM65, EPSG:29902) values above, not ITM. No WGS84 conversion was made in Batch 004. No source point is represented as exact micro-feature GPS or founder field GPS. The station building is a private residence and railway infrastructure is a restricted safety environment; no access rights are inferred from NIAH map points.
 
 ## 5. Outcome ledger
 
@@ -116,3 +116,8 @@ All four NIAH coordinates are preserved as original ITM pairs above. No WGS84 co
 ## Next checkpoint
 
 Resolve the canonical catalogue retrieval using a verified full-content route and parse the entire JSON before assigning IDs. Then compare all four NIAH registrations, names, addresses and component relationships against the full object catalogue. After that, query the current NIAH / Historic Environment Viewer data for exact current attributes and local-authority fields, spatially verify the four locations against the official authority boundaries, and inspect the Clondalkin churchyard cross/font SMR records. Promote only distinct, eligible records with complete source and visual provenance.
+
+
+## Coordinate-system erratum — Batch 005 (20 November 2026)
+
+The individual NIAH record-page coordinate pairs in this report are treated as legacy Irish Grid / National Grid values (TM65, EPSG:29902), not ITM. The NIAH national dataset metadata distinguishes Irish Grid and ITM coordinate fields. This correction supersedes the earlier ITM label.

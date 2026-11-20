@@ -3,7 +3,7 @@ import path from "node:path";
 
 const ROOT = process.cwd();
 const BASE = "https://cicangeorgealin.github.io/cican-dublin";
-const objects = JSON.parse(fs.readFileSync(path.join(ROOT, "data/objects.json"), "utf8"));
+const objects = JSON.parse(fs.readFileSync(path.join(ROOT, "data/niah-registered-objects.json"), "utf8"));
 const visualData = JSON.parse(fs.readFileSync(path.join(ROOT, "data/visual-assets.json"), "utf8"));
 const sources = JSON.parse(fs.readFileSync(path.join(ROOT, "data/sources.json"), "utf8"));
 const sourceById = new Map(sources.map(source => [source.id, source]));
@@ -105,4 +105,4 @@ const sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://w
   urls.map(item => '  <url><loc>' + item.loc + '</loc></url>').join("\n") +
   '\n</urlset>\n';
 fs.writeFileSync(path.join(ROOT, "sitemap.xml"), sitemap, "utf8");
-console.log("Generated " + objects.length + " crawlable place pages and a sitemap with " + urls.length + " URLs.");
+console.log("Generated " + objects.length + " NIAH-registered place pages and a sitemap with " + urls.length + " URLs.");

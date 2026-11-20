@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "audited_on": "2026-11-17",
+  "audited_on": "2026-11-20",
   "scope": "Dublin City and County Dublin",
-  "catalogue_total": 452,
+  "catalogue_total": 456,
   "administrative_assignment_status": "NOT_SPATIALLY_VERIFIED",
   "administrative_assignment_note": "No local-authority record counts are published in this audit. Postal-district labels cannot be substituted for point-in-polygon checks. The official 2026 polygon dataset has been identified; geometry import and spatial assignment await reuse-licence confirmation and a coordinate-precision review.",
   "local_authorities": [
@@ -26,9 +26,9 @@
       "id": "DUB-LA-003",
       "name": "South Dublin County Council",
       "record_count": null,
-      "status": "NOT_YET_RESEARCHED",
+      "status": "RESEARCH_IN_PROGRESS",
       "boundary_verification_status": "NOT_SPATIALLY_ASSIGNED",
-      "next_action": "Begin evidence-led discovery using the official local-authority polygon and then townland/settlement subdivisions."
+      "next_action": "Continue NIAH and NMS discovery across Clondalkin, Cappagh, Neillstown and Raheen; spatially assign records only after official boundary and coordinate-precision checks."
     },
     {
       "id": "DUB-LA-004",
@@ -147,6 +147,24 @@
       "record_count": 1,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "Settlement work-zone label, not a postal district or local-authority assignment. Count reconciled from data/objects.json after Discovery Batch 146; coverage remains a sample, not exhaustive."
+    },
+    {
+      "name": "Cappagh, County Dublin",
+      "record_count": 2,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "New settlement work-zone label from NIAH 11205029 and 11205034; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
+      "name": "Neillstown, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "New settlement work-zone label from NIAH 11205033; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
+      "name": "Raheen, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "New settlement work-zone label from NIAH 11205039; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
     }
   ],
   "districts_without_catalogue_records": [

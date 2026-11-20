@@ -14,21 +14,13 @@ The live map and archive now use `data/niah-registered-objects.json`, a curated 
 
 Selection rules: only records whose `national_inventory_reference` field is exactly one eight-digit numeric NIAH reference are eligible. Repeated catalogue records carrying the same NIAH number are consolidated to one canonical record for the live Stage 1 collection. A canonical building/primary-object record is preferred over a separately catalogued detail when both share the same parent registration. The excluded records remain in the master catalogue; they have not been deleted.
 
-Snapshot 20 November 2026: 460 master records reviewed; 406 rows had an exact eight-digit reference field; these represented 340 distinct registration numbers. The live NIAH collection therefore contains 340 canonical records. A further 54 master rows were excluded because their reference field was absent or contained only a parent association/other register reference; 66 repeated rows were consolidated. This is a structural filter, not yet an independent full-row reconciliation against the latest official four-authority NIAH export.
+Audit completed 20 November 2026: all 340 unique registration numbers in the Stage 1 collection were matched against the official national NIAH CSV dataset. The automated audit found 340 exact matches, zero missing references and zero duplicate references in the CICAN collection. The audit report is retained as a GitHub Actions artifact in the [official NIAH audit workflow](https://github.com/CicanGeorgeAlin/cican-dublin/actions/runs/44732958253). This confirms registration-number existence in the national dataset; it does not independently validate every descriptive claim, present-day condition, photograph or micro-feature location.
 
-## Current catalogue
+## Current public Stage 1 collection
 
-**Snapshot: 20 November 2026.** The production catalogue contains **460 records** linked to **577 registered source entries**.
+**Snapshot: 20 November 2026.** The live map and searchable archive use **340 NIAH-registered records**, not the 460-record master catalogue. Each public record has one unique eight-digit registration number matched against the official national NIAH CSV dataset. The original master catalogue remains preserved for research and provenance; it is not the Stage 1 public display source.
 
-- **324 VERIFIED** records.
-- **135 PARTIALLY_VERIFIED** records, where evidence or specific details still require further checking.
-- **1 RESEARCH_LEAD** record, retained as a lead rather than promoted to a verified object.
-- **460 awaiting founder photography**; none is marked as founder-photographed.
-- **460 visual-inventory entries**, one for every catalogue record.
-- **133 registered reference-image entries** across the visual inventory.
-- **424 of 460 records** have numeric latitude/longitude coordinates. These are source-derived map locations, not founder GPS fixes.
-
-The figures above are separate measures: catalogue objects, source entries, visual-inventory records, reference-image entries and coordinate coverage must not be combined. The archive is a growing, evidence-led sample, not a claim of exhaustive coverage. See the [geographic coverage audit](data/coverage-audit.json), [visual inventory](data/visual-assets.json) and [source registry](data/sources.json).
+The 340 records are the current verified registration-number baseline, not a claim that Dublin's full NIAH inventory has been collected. Historical descriptions, exact micro-feature positions, current physical condition and founder photography remain separate evidence and fieldwork tasks. The archive is a growing, evidence-led sample, not a claim of exhaustive coverage. See the [geographic coverage audit](data/coverage-audit.json), [visual inventory](data/visual-assets.json) and [source registry](data/sources.json).
 
 ## Locked map baseline
 

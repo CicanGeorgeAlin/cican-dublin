@@ -128,3 +128,8 @@ The Pages workflow generates crawlable place pages and the sitemap from the regi
 2. Reconcile national CSV fields and coordinate CRS for these five records separately.
 3. Continue the next five individually page-verified Dublin City NIAH registrations.
 4. Keep all five awaiting founder field photography; do not claim current survival or access without field evidence.
+
+
+## Official national CSV and deployment result — 20 November 2026
+
+The final Archive quality gate completed successfully for Batch 053. The official national CSV contained 48,327 rows and the exact REG_NO audit matched **470/470** public NIAH records, including all five Batch 053 additions. The four-authority Dublin denominator remains **7,535** unique registrations: Dublin City 5,692; Fingal 667; South Dublin 790; Dún Laoghaire–Rathdown 386. **7,065** remain for review. Official duplicate references: **0**. The archive validator passed and the Pages deployment workflow completed successfully (quality run 44806363031; deployment run 44806363185). This confirms exact registration-number presence, not full field-level reconciliation or field verification.

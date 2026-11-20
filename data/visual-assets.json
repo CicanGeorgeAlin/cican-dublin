@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 456,
+  "record_count": 460,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -16357,6 +16357,132 @@
         "Timber sash windows and slate roofline",
         "Brick chimney stacks",
         "Distinguish the c.1940 east extension from the earlier house"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-INF-0189",
+      "name": "Mack's Bridge — Newbridge Demesne",
+      "category": "INFRASTRUCTURE",
+      "district": "Donabate, County Dublin",
+      "address": "Mack's Bridge, Newbridge Demesne, Donabate, Fingal, County Dublin, Ireland",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Confirm the exact bridge identity from a lawful public viewpoint",
+        "Full structure and its relationship to the demesne landscape",
+        "Visible masonry or metalwork only if safely observable",
+        "Approach, parapets and watercourse context without entering restricted areas"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0190",
+      "name": "Kilcrea House — c.1800 farmhouse",
+      "category": "ARCHITECTURE",
+      "district": "Kilcrea, County Dublin",
+      "address": "Kilcrea House, Kilcrea, Donabate, Fingal, County Dublin, Ireland",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Overall farmhouse from a lawful public viewpoint",
+        "Five-bay two-storey principal elevation",
+        "Parallel range and northeast return, if visible",
+        "Later entrance porch and fenestration, distinguishing c.1985 changes",
+        "Associated outbuildings and entrance gateways only where visible from public space"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-INF-0190",
+      "name": "Kilcrea — metal railway bridge between stone piers",
+      "category": "INFRASTRUCTURE",
+      "district": "Kilcrea, County Dublin",
+      "address": "Kilcrea railway bridge, Kilcrea, Donabate, Fingal, County Dublin, Ireland",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Bridge from a safe public viewpoint",
+        "Metal span and supporting stone piers, if visible",
+        "Relationship to Corballis Road and the crossing below",
+        "Any visible historic metalwork without approaching railway property"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0191",
+      "name": "Corballis House — c.1830 farmhouse and farmyard group",
+      "category": "ARCHITECTURE",
+      "district": "Corballis, County Dublin",
+      "address": "Corballis House, Corballis, Donabate, Fingal, County Dublin, Ireland",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Overall farmhouse from a lawful public viewpoint",
+        "Three-bay two-storey front and dormer attic",
+        "Central projecting two-storey bay and rear return, if visible",
+        "Attached former farm building and farmyard group from public space",
+        "Distinguish historic fabric from later conversions without entering the site"
       ],
       "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
       "original_photo": null,

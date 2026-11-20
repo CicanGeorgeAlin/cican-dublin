@@ -58,7 +58,7 @@ The official NIAH dataset currently advertises:
 
 A Dáil written answer from 31 March 2021 listed 5,802 NIAH structures recommended to the four Dublin authorities (Fingal 664; South Dublin 788; Dublin City 3,967; Dún Laoghaire–Rathdown 383). This is a dated 2021 recommendation baseline, **not** a verified current 2026 count of every NIAH record. It must not be used as the final denominator.
 
-**Current official census, 20 November 2026:** the national NIAH CSV contains 48,327 rows. Filtering County=DUBLIN and the four local authorities yields 7,535 unique Building Survey registrations: Dublin City 5,692; Fingal 667; South Dublin 790; Dún Laoghaire-Rathdown 386. The public CICAN collection contains 442 unique registrations, all exact-matched to the CSV; 7,093 remain in the review queue. Exact registration reconciliation is 442 / 7,535 = 5.9%; this is not a measure of full historical research, field location or photography completion. The earlier 3,396 working target is superseded.
+**Current official census, 20 November 2026:** the national NIAH CSV contains 48,327 rows. Filtering County=DUBLIN and the four local authorities yields 7,535 unique Building Survey registrations: Dublin City 5,692; Fingal 667; South Dublin 790; Dún Laoghaire-Rathdown 386. The public CICAN collection now contains 454 unique registrations, all exact-matched to the CSV; 7,081 remain in the review queue. Exact registration reconciliation is 454 / 7,535 = 6.0%; this is not a measure of full historical research, field location or photography completion. The earlier 3,396 working target is superseded.
 
 **NIAH completion calculation at the current audited snapshot:**
 - Denominator = **7,535** unique current Building Survey registrations across the four Dublin authorities.

@@ -7129,5 +7129,65 @@
     "notes": "The individual Buildings of Ireland record page was opened and checked for exact registration number, title, rating, special-interest categories, original/in-use type, date range, description and appraisal. Coordinate attributes are taken from the official national NIAH CSV row matched by REG_NO, not from the unlabelled coordinate pair displayed on the individual page. The CSV explicitly supplies ITM EPSG:2157 and WGS84 latitude/longitude. NIAH metadata warns that source centroids may need revision; positional accuracy is unspecified. Dataset record data is CC BY 4.0. The linked NIAH photograph is not reused; its separate image rights have not been established.",
     "licence": "CC BY 4.0 — NIAH dataset record data only; linked photographs are not reused without separate rights verification.",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "NIAH-11201008",
+    "name": "Cooldrinagh Lane — gate piers and boundary wall (NIAH 11201008) — NIAH registration 11201008",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/11201008/cooldrinagh-lane-cooldrinagh-co-dublin",
+    "accessed": "2026-11-20",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH registration 11201008; local authority South Dublin County Council; rating Regional; original use demesne walls/gates/railings; date range 1750–1780 (c.1765); special interest Architectural; date recorded 26/04/2002; survey NIAH Survey of South Dublin County 2002; ITM EPSG:2157 E 701010, N 735597; WGS84 latitude 53.360916, longitude -6.482468.",
+    "notes": "The individual Buildings of Ireland record page was opened and its exact registration number, rating, special-interest categories, original/in-use type, date range, description and appraisal checked. Coordinate attributes are taken from the official national NIAH CSV row matched by REG_NO, not from the unlabelled coordinate pair displayed on the individual page. The CSV explicitly supplies ITM EPSG:2157 and WGS84 latitude/longitude. NIAH metadata warns that source centroids may need revision; positional accuracy is unspecified. Dataset record data is CC BY 4.0. The linked NIAH photograph is not reused; its separate image rights have not been established.",
+    "licence": "CC BY 4.0 — NIAH dataset record data only; linked photographs are not reused without separate rights verification.",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "NIAH-11201009",
+    "name": "Cooldrinagh Lane — former farm outbuilding (NIAH 11201009) — NIAH registration 11201009",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/11201009/cooldrinagh-lane-cooldrinagh-co-dublin",
+    "accessed": "2026-11-20",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH registration 11201009; local authority South Dublin County Council; rating Regional; original use outbuilding; date range 1750–1800 (c.1775); special interest Architectural; date recorded 26/04/2002; survey NIAH Survey of South Dublin County 2002; ITM EPSG:2157 E 701028, N 735580; WGS84 latitude 53.360764, longitude -6.482203.",
+    "notes": "The individual Buildings of Ireland record page was opened and its exact registration number, rating, special-interest categories, original/in-use type, date range, description and appraisal checked. Coordinate attributes are taken from the official national NIAH CSV row matched by REG_NO, not from the unlabelled coordinate pair displayed on the individual page. The CSV explicitly supplies ITM EPSG:2157 and WGS84 latitude/longitude. NIAH metadata warns that source centroids may need revision; positional accuracy is unspecified. Dataset record data is CC BY 4.0. The linked NIAH photograph is not reused; its separate image rights have not been established.",
+    "licence": "CC BY 4.0 — NIAH dataset record data only; linked photographs are not reused without separate rights verification.",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "NIAH-11201013",
+    "name": "Cooldrinagh Lane — former walled garden (NIAH 11201013) — NIAH registration 11201013",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/11201013/cooldrinagh-lane-cooldrinagh-co-dublin",
+    "accessed": "2026-11-20",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH registration 11201013; local authority South Dublin County Council; rating Regional; original use walled garden; date range 1750–1780 (c.1765); special interest Architectural, Artistic, Historical; date recorded 29/04/2002; survey NIAH Survey of South Dublin County 2002; ITM EPSG:2157 E 700989, N 735507; WGS84 latitude 53.360116, longitude -6.482811.",
+    "notes": "The individual Buildings of Ireland record page was opened and its exact registration number, rating, special-interest categories, original/in-use type, date range, description and appraisal checked. Coordinate attributes are taken from the official national NIAH CSV row matched by REG_NO, not from the unlabelled coordinate pair displayed on the individual page. The CSV explicitly supplies ITM EPSG:2157 and WGS84 latitude/longitude. NIAH metadata warns that source centroids may need revision; positional accuracy is unspecified. Dataset record data is CC BY 4.0. The linked NIAH photograph is not reused; its separate image rights have not been established.",
+    "licence": "CC BY 4.0 — NIAH dataset record data only; linked photographs are not reused without separate rights verification.",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "NIAH-11201015",
+    "name": "Cooldrinagh Lane — former stables and coach house (NIAH 11201015) — NIAH registration 11201015",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/11201015/cooldrinagh-lane-cooldrinagh-co-dublin",
+    "accessed": "2026-11-20",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH registration 11201015; local authority South Dublin County Council; rating Regional; original use stables; date range 1830–1870 (c.1850); special interest Architectural; date recorded 29/04/2002; survey NIAH Survey of South Dublin County 2002; ITM EPSG:2157 E 701045, N 735388; WGS84 latitude 53.359036, longitude -6.48201.",
+    "notes": "The individual Buildings of Ireland record page was opened and its exact registration number, rating, special-interest categories, original/in-use type, date range, description and appraisal checked. Coordinate attributes are taken from the official national NIAH CSV row matched by REG_NO, not from the unlabelled coordinate pair displayed on the individual page. The CSV explicitly supplies ITM EPSG:2157 and WGS84 latitude/longitude. NIAH metadata warns that source centroids may need revision; positional accuracy is unspecified. Dataset record data is CC BY 4.0. The linked NIAH photograph is not reused; its separate image rights have not been established.",
+    "licence": "CC BY 4.0 — NIAH dataset record data only; linked photographs are not reused without separate rights verification.",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "NIAH-11201016",
+    "name": "Cooldrinagh Lane — T & T cast-iron water pump (NIAH 11201016) — NIAH registration 11201016",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/11201016/cooldrinagh-lane-cooldrinagh-co-dublin",
+    "accessed": "2026-11-20",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH registration 11201016; local authority South Dublin County Council; rating Regional; original use water pump; date range 1860–1900 (c.1880); special interest Artistic, Social, Technical; date recorded 25/04/2002; survey NIAH Survey of South Dublin County 2002; ITM EPSG:2157 E 701115, N 735121; WGS84 latitude 53.356623, longitude -6.481037.",
+    "notes": "The individual Buildings of Ireland record page was opened and its exact registration number, rating, special-interest categories, original/in-use type, date range, description and appraisal checked. Coordinate attributes are taken from the official national NIAH CSV row matched by REG_NO, not from the unlabelled coordinate pair displayed on the individual page. The CSV explicitly supplies ITM EPSG:2157 and WGS84 latitude/longitude. NIAH metadata warns that source centroids may need revision; positional accuracy is unspecified. Dataset record data is CC BY 4.0. The linked NIAH photograph is not reused; its separate image rights have not been established.",
+    "licence": "CC BY 4.0 — NIAH dataset record data only; linked photographs are not reused without separate rights verification.",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/"
   }
 ]

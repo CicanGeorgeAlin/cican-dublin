@@ -361,3 +361,10 @@ Batch 052 adds five individually opened official NIAH core records in Dublin Cit
 ## Post-publication integrity correction
 
 The first quality-gate run exposed a pre-existing Batch 051 cross-catalogue inconsistency: the three Batch 051 public NIAH entries (50060551, 50020320 and 50130155) were present in the public register but their matching master objects lacked the `national_inventory_reference` field. The three master objects were corrected by adding their exact references from their existing individual NIAH source records. No object identity, description, coordinate or status was changed. The subsequent quality run must confirm the master/public reference sets reconcile exactly.
+
+
+## Batch 052 national CSV audit update — 20 November 2026
+
+The repository quality workflow completed successfully: the official national CSV download returned 48,327 rows and exact REG_NO matching passed for **465/465** public NIAH records, including all five Batch 052 additions. The four-authority Dublin denominator is **7,535** unique registrations; **7,070** remain to be reviewed; official duplicate registration references: **0**. This is registration-number presence verification, not full field reconciliation. Descriptions, appraisal, dates, ITM/WGS84 coordinates, rights, access and current physical condition remain separate checks. Keep the five Batch 052 records SOURCE_VERIFIED_CORE; do not label them NATIONAL_DATA_VERIFIED or FIELD_VERIFIED solely from the REG_NO audit.
+
+Quality workflow: https://github.com/CicanGeorgeAlin/cican-dublin/actions/runs/44805077270

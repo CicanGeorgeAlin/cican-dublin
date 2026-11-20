@@ -8,7 +8,7 @@
 
 **Provisional measured-readiness index: 42%**
 
-This is a planning indicator, not a claim that 34% of Dublin's heritage has been discovered or that the website is 34% built. It averages only the four measurable workstreams below, weighted by their agreed planning importance. The NIAH Building Survey denominator is now measured; the wider non-NIAH heritage universe remains unbounded.
+This is a planning indicator, not a claim that 42% of Dublin's heritage has been discovered or that the website is 42% built. It averages only the four measurable workstreams below, weighted by their agreed planning importance. The NIAH Building Survey denominator is now measured; the wider non-NIAH heritage universe remains unbounded.
 
 | Workstream | Weight in measured index | Current score | Evidence / calculation |
 |---|---:|---:|---|
@@ -24,21 +24,22 @@ The 80% platform score is an explicit planning estimate based on implemented cod
 
 ## 2. Verified production baseline
 
-README snapshot and data files inspected on 20 November 2026:
+README snapshot and data files inspected after NIAH Batch 030 on 20 November 2026:
 
-- 460 catalogue objects.
-- 577 registered sources.
-- 324 VERIFIED, 135 PARTIALLY_VERIFIED, 1 RESEARCH_LEAD.
-- 460 visual inventory records.
+- 562 catalogue objects.
+- 680 registered sources.
+- 324 VERIFIED, 237 PARTIALLY_VERIFIED, 1 RESEARCH_LEAD.
+- 562 visual inventory records.
 - 133 registered reference-image entries.
-- 108 of 460 records have one or more reference images.
+- 108 of 562 records have one or more reference images (19.2%).
 - 99 OBJECT_PHOTOGRAPH references, 32 STREET_CONTEXT references and 2 DETAIL_PHOTOGRAPH references.
-- 460 records awaiting founder photography.
+- 562 records awaiting founder photography.
 - 0 founder original photographs recorded in the visual inventory.
-- 460 records waiting for original photographs before line art.
-- 460 galleries marked NOT_YET_PUBLISHED.
-- 424/460 have numeric latitude/longitude (92.2%); these are source-derived coordinates, not founder GPS fixes.
+- 562 records waiting for original photographs before line art.
+- 562 galleries marked NOT_YET_PUBLISHED.
+- 526/562 have numeric latitude/longitude (93.6%); these are source-derived coordinates, not founder GPS fixes.
 - 0 records spatially assigned to a verified local-authority polygon in the coverage audit.
+- 442 unique NIAH registrations in the public collection, all exact-matched to the official CSV.
 - Four Dublin local-authority areas are in scope: Dublin City, Fingal, South Dublin and Dún Laoghaire–Rathdown.
 
 Counts are separate measures and must not be added together.
@@ -60,23 +61,25 @@ A Dáil written answer from 31 March 2021 listed 5,802 NIAH structures recommend
 **Current official census, 20 November 2026:** the national NIAH CSV contains 48,327 rows. Filtering County=DUBLIN and the four local authorities yields 7,535 unique Building Survey registrations: Dublin City 5,692; Fingal 667; South Dublin 790; Dún Laoghaire-Rathdown 386. The public CICAN collection contains 442 unique registrations, all exact-matched to the CSV; 7,093 remain in the review queue. Exact registration reconciliation is 442 / 7,535 = 5.9%; this is not a measure of full historical research, field location or photography completion. The earlier 3,396 working target is superseded.
 
 **NIAH completion calculation at the current audited snapshot:**
-- Denominator = unique current NIAH registrations whose official local-authority assignment is one of the four Dublin authorities, extracted from the current national source and date-stamped.
-- Numerator = those unique NIAH registrations reconciled to a CICAN catalogue object, with exact match, partial match, conflict or missing status.
-- Report separate rates for reconciled, fully researched, field-located and founder-photographed records. Do not call simple catalogue matches fully complete.
+- Denominator = **7,535** unique current Building Survey registrations across the four Dublin authorities.
+- Numerator = **442** unique registrations reconciled to CICAN and exact-matched to the official national CSV.
+- Missing from the public collection = **7,093**.
+- Exact registration reconciliation = **5.9%**. This is not the same as fully researched, field-located or founder-photographed completion. Report those measures separately.
 
 ## 4. Full completion checklist
 
 ### A. Official NIAH census and integration
-- [ ] Obtain the current national NIAH extract / live feature query.
-- [ ] Extract all records for Dublin City, Fingal, South Dublin and Dún Laoghaire–Rathdown.
-- [ ] Confirm local-authority values against official boundaries where necessary.
-- [ ] Deduplicate registration numbers and preserve source rows.
-- [ ] Build a machine-readable NIAH staging index.
-- [ ] Reconcile every NIAH registration against all 460 catalogue objects.
-- [ ] Classify each as exact match, probable match, conflict, new candidate or out of scope.
-- [ ] Import only verified missing objects; add source references to existing matches.
-- [ ] Add an explicit NIAH register filter/layer without implying RPS status.
-- [ ] Re-run schema, duplicate, link, image and deployment validation.
+- [x] Obtain the current national NIAH extract / live feature query.
+- [x] Extract all records for Dublin City, Fingal, South Dublin and Dún Laoghaire–Rathdown.
+- [ ] Confirm local-authority values against official boundaries where necessary; point-in-polygon assignment remains outstanding.
+- [x] Deduplicate official registration numbers and preserve source rows.
+- [x] Build a machine-readable NIAH staging index and missing-registration queue.
+- [x] Reconcile all 7,535 official registrations against the 562-object master: 442 exact matches and 7,093 missing.
+- [x] Classify exact matches and missing registrations; probable/conflict review remains a separate task.
+- [x] Import Batch 030: 100 new official registrations, 25 per authority, as PARTIALLY_VERIFIED objects with source and visual entries.
+- [ ] Continue reviewing and importing the remaining 7,093 registrations in batches of up to 100.
+- [ ] Confirm the explicit NIAH register filter/layer and its labels do not imply RPS status.
+- [x] Re-run schema, duplicate, link, image and deployment validation for Batch 030.
 
 ### B. Wider heritage discovery beyond NIAH
 - [ ] National Monuments Service / Historic Environment Viewer records.

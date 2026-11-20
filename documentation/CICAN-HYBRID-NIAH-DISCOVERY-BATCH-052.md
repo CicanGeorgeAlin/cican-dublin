@@ -105,7 +105,7 @@ Each candidate was checked against the complete master object catalogue, public 
 
 - Five master objects, five public NIAH core records, five official individual-page source records and five visual photography plans were added.
 - All five records are **SOURCE_VERIFIED_CORE** in the batch workflow; the legacy object status field is `VERIFIED` for the individual-page transcription only.
-- National CSV/FeatureServer row matching remains **PENDING** for all five. None is `NATIONAL_DATA_VERIFIED`.
+- The post-publication official national CSV audit matched **all 465/465** public NIAH registrations by exact eight-digit REG_NO, including all five Batch 052 records. The audit downloaded 48,327 CSV rows and found no duplicate official registration references. This confirms exact registration-number presence, but does not itself reconcile every title, description, appraisal, date, ITM coordinate or field condition; therefore no `NATIONAL_DATA_VERIFIED` claim is made and field-level reconciliation remains a separate task.
 - All five have null latitude/longitude, `coordinate_status: NOT_SET`, and no map URL. Unlabelled NIAH page coordinate pairs were not transformed or published.
 - No NIAH-linked photographs were reused. Founder photography and A4 line art remain outstanding.
 - Access is not inferred from a record page or map. Private/residential and institutional restrictions are stated in the individual photography briefs.
@@ -117,7 +117,8 @@ Each candidate was checked against the complete master object catalogue, public 
 - Source records: **703**
 - Visual records: **585**
 - New public core pages: **5**
-- National-row matches added in this batch: **0**
+- Exact REG_NO matches in the post-publication national CSV audit: **465/465**
+- Full field-level national-data reconciliations completed in this batch: **0**
 - New map pins: **0**
 
 The GitHub Pages workflow generates crawlable place pages and the sitemap from the registered-object catalogue. Deployment and live rendering must be confirmed from the Actions run; repository writes alone are not proof of live deployment.
@@ -133,3 +134,10 @@ The GitHub Pages workflow generates crawlable place pages and the sitemap from t
 ## Post-publication integrity correction
 
 The first quality-gate run exposed a pre-existing Batch 051 cross-catalogue inconsistency: the three Batch 051 public NIAH entries (50060551, 50020320 and 50130155) were present in the public register but their matching master objects lacked the `national_inventory_reference` field. The three master objects were corrected by adding their exact references from their existing individual NIAH source records. No object identity, description, coordinate or status was changed. The subsequent quality run must confirm the master/public reference sets reconcile exactly.
+
+
+## Official national CSV audit result — 20 November 2026
+
+The repository quality workflow successfully downloaded the official national NIAH CSV and matched all **465/465** public catalogue registrations by exact REG_NO. Source rows: **48,327**. Four-authority Dublin denominator: **7,535** unique registrations (Dublin City 5,692; Fingal 667; South Dublin 790; Dún Laoghaire–Rathdown 386). Registrations still to review: **7,070**. Official duplicate references: **0**. The audit verifies registration-number presence and returns the official name/local-authority fields; it does not by itself certify that every transcribed description, appraisal, date or coordinate has been reconciled. The five new records remain SOURCE_VERIFIED_CORE; do not upgrade to NATIONAL_DATA_VERIFIED or FIELD_VERIFIED on the basis of REG_NO matching alone.
+
+Quality workflow: https://github.com/CicanGeorgeAlin/cican-dublin/actions/runs/44805077270

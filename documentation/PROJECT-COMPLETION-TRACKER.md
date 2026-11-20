@@ -6,19 +6,19 @@
 
 ## 1. Executive status
 
-**Provisional measured-readiness index: 34%**
+**Provisional measured-readiness index: 42%**
 
-This is a planning indicator, not a claim that 34% of Dublin's heritage has been discovered or that the website is 34% built. It averages only the four measurable workstreams below, weighted by their agreed planning importance, and excludes the still-unknown NIAH census denominator and wider non-NIAH heritage universe.
+This is a planning indicator, not a claim that 34% of Dublin's heritage has been discovered or that the website is 34% built. It averages only the four measurable workstreams below, weighted by their agreed planning importance. The NIAH Building Survey denominator is now measured; the wider non-NIAH heritage universe remains unbounded.
 
 | Workstream | Weight in measured index | Current score | Evidence / calculation |
 |---|---:|---:|---|
 | Website/platform and automated delivery | 20% | 80% | Map-first application, catalogue, search/filter/detail and automated quality/deployment workflows exist; final live Android/device and end-to-end checks remain outstanding. |
-| Catalogue evidence verification | 20% | 70.4% | 324 VERIFIED / 460 records = 70.4%; 135 PARTIALLY_VERIFIED; 1 RESEARCH_LEAD. |
-| Geographic authority assignment | 15% | 0% | 0 of 460 records spatially assigned to the four local authorities in the 20 Nov coverage audit. |
-| Visual reference coverage | 20% | 23.5% | 108 of 460 records have at least one registered reference image = 23.5%. |
-| **Measured subtotal** | **75%** | **34% weighted average** | (20×0.80 + 20×0.704 + 15×0 + 20×0.235) / 75 = 0.344. Rounded to 34%. |
+| Catalogue evidence verification | 20% | 57.7% | 324 VERIFIED / 562 records = 57.7%; 237 PARTIALLY_VERIFIED; 1 RESEARCH_LEAD. |
+| Geographic authority assignment | 15% | 0% | 0 of 562 records spatially assigned by point-in-polygon to the four local authorities; CSV authority labels are not a substitute for spatial assignment. |
+| Visual reference coverage | 20% | 19.2% | 108 of 562 records have at least one registered reference image = 19.2%. |
+| **Measured subtotal** | **75%** | **42% weighted average** | (20×0.80 + 20×0.577 + 15×0 + 20×0.192) / 75 = 0.418. Rounded to 42%. |
 
-**Unscored / unknown inventory work: 25% of the planned index.** The current exact number of NIAH records across all four Dublin authorities has not yet been extracted and reconciled. Wider non-NIAH heritage (archaeology, industrial heritage, micro-features, street furniture, inscriptions and field discoveries) has no finite complete denominator. Do not silently count this unknown work as complete or incomplete.
+**Unscored / unknown inventory work: 25% of the planned index.** The current official NIAH Building Survey denominator is measured at 7,535 registrations across the four Dublin authorities. Wider non-NIAH heritage (archaeology, industrial heritage, micro-features, street furniture, inscriptions and field discoveries) has no finite complete denominator. Do not silently count this unknown work as complete or incomplete.
 
 The 80% platform score is an explicit planning estimate based on implemented code and successful automated workflows, not a live runtime certification. It must be replaced by a checklist score after physical-device testing.
 
@@ -57,9 +57,9 @@ The official NIAH dataset currently advertises:
 
 A Dáil written answer from 31 March 2021 listed 5,802 NIAH structures recommended to the four Dublin authorities (Fingal 664; South Dublin 788; Dublin City 3,967; Dún Laoghaire–Rathdown 383). This is a dated 2021 recommendation baseline, **not** a verified current 2026 count of every NIAH record. It must not be used as the final denominator.
 
-A 17 November 2026 repository audit reported 439 catalogue records with an NIAH registration reference at a then-current 451-record baseline. This older count is not yet reconciled to the 460-record 20 November snapshot. Therefore no NIAH coverage percentage is certified at this baseline.
+**Current official census, 20 November 2026:** the national NIAH CSV contains 48,327 rows. Filtering County=DUBLIN and the four local authorities yields 7,535 unique Building Survey registrations: Dublin City 5,692; Fingal 667; South Dublin 790; Dún Laoghaire-Rathdown 386. The public CICAN collection contains 442 unique registrations, all exact-matched to the CSV; 7,093 remain in the review queue. Exact registration reconciliation is 442 / 7,535 = 5.9%; this is not a measure of full historical research, field location or photography completion. The earlier 3,396 working target is superseded.
 
-**NIAH completion formula once the census is complete:**
+**NIAH completion calculation at the current audited snapshot:**
 - Denominator = unique current NIAH registrations whose official local-authority assignment is one of the four Dublin authorities, extracted from the current national source and date-stamped.
 - Numerator = those unique NIAH registrations reconciled to a CICAN catalogue object, with exact match, partial match, conflict or missing status.
 - Report separate rates for reconciled, fully researched, field-located and founder-photographed records. Do not call simple catalogue matches fully complete.

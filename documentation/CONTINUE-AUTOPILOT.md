@@ -97,7 +97,26 @@ For each CONTINUE run:
 
 ## Batch size and stopping rule
 
-Prefer a coherent, source-bounded batch over an arbitrary target count. A batch may contain one exceptionally complex archaeological site or several well-documented micro-objects. Do not pad a batch with weak leads to reach a number. Continue investigating a source collection or street corridor until its relevant records have been checked, then log what was and was not covered.
+### Stage 1 — NIAH Dublin registration coverage
+
+The founder has approved a **maximum target of 100 individually verified NIAH registrations per batch**. This is a ceiling, not a quota or deadline. Publish fewer when fewer records pass every requirement.
+
+Use the official national NIAH CSV bulk source first:
+- https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data
+
+Filter the official source by the four Dublin local authorities: Dublin City Council, Fingal County Council, South Dublin County Council and Dún Laoghaire-Rathdown County Council. Use the official registration number as the primary key. Compare against the complete master catalogue, public NIAH collection and source registry before creating any record.
+
+The GitHub Actions quality workflow runs:
+- `scripts/audit-niah-registrations.mjs` to recheck current public registrations against the official national CSV.
+- `scripts/audit-niah-dublin-coverage.mjs` to build the four-authority denominator and a machine-generated queue of official registrations missing from the current public collection.
+
+The missing-registration queue is a research queue only. It does not authorise automatic publication. Individually verify the NIAH record, identity, duplicates/parent relationships, coordinates and CRS, source provenance, image rights and access conditions before adding a record. Only an official NIAH registration number qualifies for this Stage 1 stream; RPS-only and SMR-only records remain excluded.
+
+After verification, publish up to 100 accepted records in a coherent batch, update all linked catalogue/source/visual/SEO/sitemap data, run the quality gate, inspect the diff and confirm deployment separately. If the workflow, denominator or source data is unresolved, stop and document the blocker rather than guessing.
+
+### Other discovery streams
+
+For non-NIAH discovery work, prefer a coherent, source-bounded batch over an arbitrary target count. A batch may contain one exceptionally complex archaeological site or several well-documented micro-objects. Do not pad a batch with weak leads to reach a number. Continue investigating a source collection or street corridor until its relevant records have been checked, then log what was and was not covered.
 
 ## Definition of done for each batch
 

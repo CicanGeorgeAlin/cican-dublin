@@ -23,11 +23,11 @@ The canonical production file `data/objects.json` was fetched from the repositor
 - Records with a non-empty `national_inventory_reference` field: **450**.
 - Eight-digit numeric NIAH reference occurrences found inside those fields: **432**.
 - Distinct eight-digit numeric NIAH registration numbers found inside those fields: **342**.
-- The 448 populated fields are not 448 unique NIAH records: many contain explanatory prose, other designation references, or repeat a parent NIAH registration across multiple separately catalogued micro-features.
+- The 450 populated fields are not 450 unique NIAH records: 432 eight-digit numeric occurrences resolve to 342 distinct registration numbers; the remaining populated values include explanatory prose or other designation references, and repeated parent registrations may occur across separately catalogued micro-features.
 - The 342 distinct numeric references are the current CICAN numerator candidate for Building Survey registration coverage. The current 342-record public NIAH file contains exactly these 342 unique references. The 20 November 2026 national CSV audit artifact confirms 340 registrations in the prior snapshot; two later additions, 11324032 and 11323022, require a fresh official CSV audit.
 - Catalogue records without a populated NIAH reference: **12**. These may be legitimate non-NIAH objects (e.g. archaeological, industrial or micro-detail records); absence of an NIAH reference is not automatically a defect.
 
-Do not report 340/65,000 as a completion percentage: 65,000 is the national buildings-and-gardens total, while CICAN's intended geographic scope is Dublin only.
+Do not report 342/65,000 as a completion percentage: 65,000 is the national buildings-and-gardens total, while CICAN's intended geographic scope is Dublin only.
 
 ## 3. Correct NIAH completion calculation
 
@@ -55,7 +55,7 @@ The primary overall NIAH completion percentage should combine only unique, in-sc
 
 1. Extract the current full national NIAH Building Survey data or query the live Feature Service; obtain unique registrations and local-authority values.
 2. Count the Dublin four-authority denominator, date-stamp it and save the registration list.
-3. Exact-match all official Dublin registrations against the 340 distinct numeric references and the complete catalogue; classify exact, related-parent, probable, conflict and missing.
+3. Exact-match all official Dublin registrations against the 342 distinct numeric references and the complete catalogue; classify exact, related-parent, probable, conflict and missing.
 4. Obtain the complete Historic Gardens and Designed Landscapes export; count Dublin entries and reconcile them separately.
 5. Obtain the National Thatch Census export; count Dublin records, identify overlaps with Building Survey registrations, and link them without double-counting.
 6. Add every missing in-scope official NIAH record to the website, preserving source descriptions, record URLs, official IDs, classifications, coordinates and provenance.

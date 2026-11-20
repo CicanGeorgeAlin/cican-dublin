@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 562,
+  "record_count": 568,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -19647,6 +19647,193 @@
         "Structural and architectural details described in the NIAH record",
         "Materials, workmanship and setting where visible and accessible",
         "Current condition and any conservation interpretation visible from public access"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0274",
+      "name": "Leixlip Road — detached house (NIAH 11201005)",
+      "category": "ARCHITECTURE",
+      "district": "Leixlip, County Dublin",
+      "address": "Leixlip Road, Cooldrinagh, Leixlip, County Dublin, Ireland",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Full elevation from a lawful public vantage point",
+        "Projecting gabled entrance porch and round-headed doorway",
+        "Slate roof, perforated cresting and carved barge boards where visible",
+        "Window openings, stone sills and surviving sash/casement details",
+        "Boundary wall and blocked entrance gate only from public space"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-INF-0204",
+      "name": "Leixlip Road — granite milestone (NIAH 11201007)",
+      "category": "INFRASTRUCTURE",
+      "district": "Leixlip, County Dublin",
+      "address": "Leixlip Road, Cooldrinagh, Leixlip, County Dublin, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full view of the granite milestone from a lawful public vantage point",
+        "Top and three inscribed sides, without touching or cleaning the stone",
+        "Any visible benchmark detail using a close view from public space",
+        "Relationship to the adjoining rubble stone wall and streetscape"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0275",
+      "name": "1 Cooldrinagh Lane",
+      "category": "ARCHITECTURE",
+      "district": "Leixlip, County Dublin",
+      "address": "1 Cooldrinagh Lane, Cooldrinagh Lane, Leixlip, County Dublin, Ireland",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Overall façade from a lawful public vantage point",
+        "Projecting cast-iron arched hood and slender supporting columns",
+        "Original cast- and wrought-iron street railings where visible",
+        "Window openings, stone sills and roofline"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0276",
+      "name": "2 Cooldrinagh Lane",
+      "category": "ARCHITECTURE",
+      "district": "Leixlip, County Dublin",
+      "address": "2 Cooldrinagh Lane, Cooldrinagh Lane, Leixlip, County Dublin, Ireland",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Overall façade from a lawful public vantage point",
+        "Timber sash windows and architrave surrounds",
+        "Cast-iron entrance hood and supporting columns",
+        "Original cast- and wrought-iron street railings"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0277",
+      "name": "3 Cooldrinagh Lane",
+      "category": "ARCHITECTURE",
+      "district": "Leixlip, County Dublin",
+      "address": "3 Cooldrinagh Lane, Cooldrinagh Lane, Leixlip, County Dublin, Ireland",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Full five-bay façade from a lawful public vantage point",
+        "Cast-iron entrance hood and supporting columns",
+        "Depressed-arched carriageway and replacement timber doors",
+        "Original street railings and roofline"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0278",
+      "name": "Cooldrinagh House",
+      "category": "ARCHITECTURE",
+      "district": "Leixlip, County Dublin",
+      "address": "Cooldrinagh House, Cooldrinagh Lane, Leixlip, County Dublin, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Overall house and setting from a lawful public vantage point",
+        "Ionic doorcase and timber panelled entrance door",
+        "Double-flight entrance steps and cast-iron railings",
+        "Granite string course, window surrounds and roofline"
       ],
       "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
       "original_photo": null,

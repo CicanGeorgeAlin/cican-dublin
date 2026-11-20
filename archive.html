@@ -591,7 +591,7 @@ function openRecord(id,updateUrl=true){
  $("#detailName").textContent=record.name;
  $("#detailStatus").textContent="";
  const mapHref=walkingUrl(record);
- const sourceSection=linkedSources.length?'<div class="source-list">'+linkedSources.map(source=>'<div class="source-entry"><a href="'+esc(safeUrl(source.url))+'" target="_blank" rel="noopener noreferrer">'+esc(source.name)+' ↗</a><small>'+esc([source.publisher,source.specific_reference].filter(Boolean).join(" · "))+'</small></div>').join("")+'</div>':'<p>Historical references are being added.</p>';
+ const sourceSection=linkedSources.length?'<div class="source-list">'+linkedSources.map(source=>'<div class="source-entry"><a href="'+esc(safeUrl(source.url))+'" target="_blank" rel="noopener noreferrer">'+esc(source.name)+' ↗</a><small>'+esc([source.publisher,source.specific_reference,source.licence].filter(Boolean).join(" · "))+'</small>'+(source.licenceUrl?'<a href="'+esc(safeUrl(source.licenceUrl))+'" target="_blank" rel="noopener noreferrer">LICENCE TERMS ↗</a>':'')+'</div>').join("")+'</div>':'<p>Historical references are being added.</p>';
  const brief=(record.photography_brief||[]);
  const photoBrief=brief.length?'<ul class="photo-brief">'+brief.map(item=>'<li>'+esc(item)+'</li>').join("")+'</ul>':'<p class="muted-copy">A detailed photography brief has not yet been added.</p>';
  const visualRecord=(visualAssets.records||[]).find(item=>item.record_id===record.id)||{};

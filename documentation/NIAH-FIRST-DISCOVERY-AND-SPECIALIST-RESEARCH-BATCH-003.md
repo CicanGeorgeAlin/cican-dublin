@@ -55,3 +55,8 @@ Source PDF: https://www.archaeology.ie/app/uploads/2025/03/Archaeology-RMP-Dubli
 ## Next checkpoint
 
 Continue with the held Coolevin House candidate only after its identity and local-authority assignment are checked against the full catalogue and official spatial boundary. Then select the next four eligible NIAH records from the official search/service, keeping the 4 NIAH + 1 specialist cycle. Prioritise a specialist archaeological record that can be spatially tied to a distinct physical object without conflating it with an NIAH parent structure.
+
+
+## Coordinate-system erratum — Batch 005 (20 November 2026)
+
+The individual NIAH record-page coordinate pairs in this report are treated as legacy Irish Grid / National Grid values (TM65, EPSG:29902), not ITM. The NIAH national dataset metadata distinguishes the two coordinate fields. Original page values remain preserved; this correction supersedes the earlier ITM label.

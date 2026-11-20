@@ -51,3 +51,8 @@ The complete canonical datasets were retrieved from Git blobs and parsed before 
 2. Confirm GitHub Pages deployment and generated place pages/sitemap.
 3. Continue the next five individually opened Dublin City NIAH registrations.
 4. Reconcile national CSV description/appraisal/date/coordinate fields separately and keep founder field photography distinct.
+
+
+## Official national CSV, quality and deployment confirmation — 20 November 2026
+
+The first quality run correctly blocked deployment because the coverage audit still reported 590 catalogue records after the batch had increased the master catalogue to 595. The coverage audit was corrected and the quality workflow rerun. The final quality gate passed: official national CSV source rows **48,327**; exact public REG_NO matches **475/475**; four-authority Dublin Building Survey denominator **7,535**; remaining official registrations **7,060**; official duplicate references **0**; unassigned authority rows **0**. The archive validator passed. The SEO generator produced **475 crawlable NIAH place pages** and a sitemap with **478 URLs**. The explicit Pages deployment and the GitHub Pages build/deployment workflow both completed successfully. Workflow runs: [quality 44815750067](https://github.com/CicanGeorgeAlin/cican-dublin/actions/runs/44815750067), [CICAN Pages deploy 44815749994](https://github.com/CicanGeorgeAlin/cican-dublin/actions/runs/44815749994), [Pages build/deployment 44815749645](https://github.com/CicanGeorgeAlin/cican-dublin/actions/runs/44815749645). No manual visual, physical-device, GPS or field-access test is claimed.

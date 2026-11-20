@@ -19,15 +19,15 @@ The national NIAH Buildings open-data Feature Service exposes a separate point l
 
 The canonical production file `data/objects.json` was fetched from the repository and parsed in full on 20 November 2026.
 
-- Catalogue records: **460**.
-- Records with a non-empty `national_inventory_reference` field: **450**.
-- Eight-digit numeric NIAH reference occurrences found inside those fields: **432**.
-- Distinct eight-digit numeric NIAH registration numbers found inside those fields: **342**.
-- The 450 populated fields are not 450 unique NIAH records: 432 eight-digit numeric occurrences resolve to 342 distinct registration numbers; the remaining populated values include explanatory prose or other designation references, and repeated parent registrations may occur across separately catalogued micro-features.
-- The 342 distinct numeric references are the current CICAN numerator for Building Survey registration coverage. The current 342-record public NIAH file contains exactly these 342 unique references. The 20 November 2026 national CSV audit confirms all 342 current public registrations, including 11324032 and 11323022, as exact official matches.
+- Catalogue records: **562**.
+- Records with a non-empty `national_inventory_reference` field: **550**.
+- Eight-digit numeric NIAH reference occurrences found inside those fields: **532**.
+- Distinct eight-digit numeric NIAH registration numbers found inside those fields: **442**.
+- The 550 populated fields are not 550 unique NIAH records: 532 eight-digit numeric occurrences resolve to 442 distinct registration numbers; the remaining populated values include explanatory prose or other designation references, and repeated parent registrations may occur across separately catalogued micro-features.
+- The 442 distinct numeric references are the current CICAN numerator for Building Survey registration coverage. The current 442-record public NIAH file contains exactly these 442 unique references. The 20 November 2026 national CSV audit confirms all 442 current public registrations as exact official matches. Batch 030 added 100 records, 25 per authority, all with PARTIALLY_VERIFIED status pending individual-page, access and field checks.
 - Catalogue records without a populated NIAH reference: **12**. These may be legitimate non-NIAH objects (e.g. archaeological, industrial or micro-detail records); absence of an NIAH reference is not automatically a defect.
 
-Do not report 342/65,000 as a completion percentage: 65,000 is the national buildings-and-gardens total, while CICAN's intended geographic scope is Dublin only.
+Do not report 442/65,000 as a completion percentage: 65,000 is the national buildings-and-gardens total, while CICAN's intended geographic scope is Dublin only.
 
 ## 3. Correct NIAH completion calculation
 
@@ -55,7 +55,7 @@ The primary overall NIAH completion percentage should combine only unique, in-sc
 
 1. **Completed 20 November 2026:** GitHub Actions downloaded the official national CSV (48,327 rows) and parsed REG_NO, COUNTY and LOCAL_AUTHORITY.
 2. **Completed 20 November 2026:** County=DUBLIN plus the four official local-authority values produced 7,535 unique Building Survey registrations: Dublin City 5,692; Fingal 667; South Dublin 790; Dún Laoghaire-Rathdown 386. No blank/unrecognised authority values or duplicate registration numbers were found in this filtered set.
-3. **Completed 20 November 2026:** all 342 current public NIAH references matched the official CSV; 7,193 official Dublin registrations are absent from the public collection and now form a machine-generated review queue. The master catalogue's 342 unique numeric references exactly match the public collection.
+3. **Completed 20 November 2026:** all 442 current public NIAH references matched the official CSV; 7,093 official Dublin registrations are absent from the public collection and now form a machine-generated review queue. The master catalogue's 442 unique numeric references exactly match the public collection. Batch 030 imported 100 official records with 25 registrations from each authority.
 4. Obtain the complete Historic Gardens and Designed Landscapes export; count Dublin entries and reconcile them separately.
 5. Obtain the National Thatch Census export; count Dublin records, identify overlaps with Building Survey registrations, and link them without double-counting.
 6. Add every missing in-scope official NIAH record to the website, preserving source descriptions, record URLs, official IDs, classifications, coordinates and provenance.
@@ -73,4 +73,4 @@ The primary overall NIAH completion percentage should combine only unique, in-sc
 - data.gov.ie, NIAH National Thatch Census: https://data.gov.ie/en_GB/dataset/national-inventory-of-architectural-heritage-niah-national-thatch-census
 - data.gov.ie, NIAH national dataset metadata and current live-view guidance: https://data.gov.ie/dataset/national-inventory-of-architectural-heritage-niah-national-dataset
 
-**Integrity note:** The current official national CSV snapshot provides a four-authority Dublin Building Survey denominator of 7,535 unique registrations. The current CICAN numerator is 342, all 342 exact-matched to the CSV; 7,193 remain to be reviewed. The earlier 3,396 planning target is not supported by this current official snapshot and must not be used as the completion denominator. Historic Gardens and Designed Landscapes and the National Thatch Census remain separate datasets and are not included in this Building Survey denominator.
+**Integrity note:** The current official national CSV snapshot provides a four-authority Dublin Building Survey denominator of 7,535 unique registrations. The current CICAN numerator is 442, all 442 exact-matched to the CSV; 7,093 remain to be reviewed. The earlier 3,396 planning target is superseded by this current official snapshot and must not be used as the completion denominator. Historic Gardens and Designed Landscapes and the National Thatch Census remain separate datasets and are not included in this Building Survey denominator.

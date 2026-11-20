@@ -130,7 +130,7 @@ const sitemap=read("sitemap.xml"),robots=read("robots.txt");
 assert.ok(sitemap.includes("https://cicangeorgealin.github.io/cican-dublin/")&&sitemap.includes("https://cicangeorgealin.github.io/cican-dublin/archive.html"),"Sitemap must include the public homepage and discovery catalogue.");
 assert.ok(robots.includes("Sitemap: https://cicangeorgealin.github.io/cican-dublin/sitemap.xml"),"Robots file must advertise the sitemap.");
 assert.ok(sitemap.includes("/places/"),"Sitemap must include generated place pages.");
-assert.equal(pageObjects.length,341,"Stage 1 must publish one canonical record per unique exact NIAH registration number.");
+assert.equal(pageObjects.length,342,"Stage 1 must publish one canonical record per unique exact NIAH registration number.");
 const publishedNiahRefs=unique(pageObjects.map(r=>r.national_inventory_reference),"Published NIAH registration numbers");
 for(const record of pageObjects)assert.ok(/^[0-9]{8}$/.test(record.national_inventory_reference),"Published record "+record.id+" must have an exact eight-digit NIAH registration number.");
 assert.equal(publishedNiahRefs.size,pageObjects.length,"Published NIAH registration numbers must be unique.");

@@ -4858,7 +4858,9 @@
     "accessed": "2026-10-24",
     "source_type": "OFFICIAL_REGISTER",
     "specific_reference": "Spatial Reference Systems and provenance metadata",
-    "notes": "Dataset metadata identifies Irish Transverse Mercator (ITM, EPSG:2157) as the current spatial reference system and states that downloads include both Irish Grid and ITM coordinates to facilitate transition. It also explains that existing point centroids were digitised relative to OSI 6-inch mapping and that the older IG-referenced series requires revision against larger-scale ITM mapping. This is why converted points are source-derived and still require field checking."
+    "notes": "Dataset metadata identifies Irish Transverse Mercator (ITM, EPSG:2157) as the current spatial reference system and states that downloads include both Irish Grid and ITM coordinates to facilitate transition. It also explains that existing point centroids were digitised relative to OSI 6-inch mapping and that the older IG-referenced series requires revision against larger-scale ITM mapping. This is why converted points are source-derived and still require field checking. The data.gov.ie metadata identifies CC BY 4.0 reuse terms. This attribution applies to NIAH dataset records; it does not grant reuse rights for linked photographs, mapping tiles or other third-party material.",
+    "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0) — NIAH dataset record data; third-party linked images and other third-party materials are excluded unless separately licensed.",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "SRC-NIAH-NORTH-CITY",

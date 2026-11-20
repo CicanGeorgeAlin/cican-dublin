@@ -23,9 +23,9 @@ jobs:
     timeout-minutes: 15
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: 22
       - name: Check map app JavaScript syntax
@@ -40,18 +40,17 @@ jobs:
       - name: Run archive safety preflight
         run: node scripts/validate-archive.mjs
       - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
         with:
-          enablement: true
       - name: Render social preview PNG
         run: |
           sudo apt-get update
           sudo apt-get install -y librsvg2-bin
           rsvg-convert --width 1200 --height 630 --output assets/social-preview.png assets/social-preview.svg
       - name: Upload website
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: .
       - name: Deploy website
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

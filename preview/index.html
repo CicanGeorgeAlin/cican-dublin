@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#050505">
 <meta name="robots" content="noindex,follow">
-<meta name="description" content="CICAN — A Dublin Experience. Explore Dublin through an evidence-led heritage map, historic places, architecture and overlooked details.">
+<meta name="description" content="CICAN — A DUBLIN EXPERIENCE. Explore Dublin through an evidence-led heritage map, historic places, architecture and overlooked details.">
 <meta property="og:title" content="CICAN DUBLIN — Open the Atlas">
 <meta property="og:description" content="Discover Dublin's history in every detail — from landmarks to overlooked street features.">
 <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
 <link rel="stylesheet" href="./app/app.css">
-<title>CICAN — A Dublin Experience | Open the Atlas</title>
+<title>CICAN — A DUBLIN EXPERIENCE | Open the Atlas</title>
 <style>
 /* CICAN is a text-only wordmark. The tagline shares its typeface and white colour. */
 .brand{display:flex!important;align-items:flex-start!important;justify-content:flex-start!important;gap:0!important;text-decoration:none!important}
@@ -29,13 +29,26 @@
 .atlas-intro-brand small{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;font-size:8px;font-weight:800;letter-spacing:.16em;color:#fff}
 @media(max-width:850px){.brand-wordmark{font-size:12px!important}.brand-tagline,.brand-lockup small{font-size:7px!important}}
 </style>
+<style>
+/* CICAN text-only identity: stronger all-caps tagline, no emblem. */
+.brand{display:flex!important;align-items:flex-start!important;gap:0!important;text-decoration:none!important}
+.brand-emblem,.cican-emblem,.atlas-brand-mark{display:none!important}
+.brand-lockup{display:flex!important;flex-direction:column!important;align-items:flex-start!important;gap:6px!important}
+.brand-wordmark{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif!important;font-size:14px!important;font-weight:850!important;letter-spacing:.24em!important;line-height:1!important;color:#fff!important;text-shadow:0 0 16px #ffffff45!important}
+.brand-tagline{display:block!important;font-family:"Arial Narrow","Helvetica Neue",Arial,sans-serif!important;font-size:10px!important;font-weight:900!important;letter-spacing:.19em!important;line-height:1.2!important;color:#fff!important;text-shadow:0 0 13px #ffffff55,0 1px 8px #000!important;white-space:nowrap}
+.atlas-intro-brand{display:flex;align-items:center;gap:0}
+.atlas-intro-brand>span:last-child{display:flex;flex-direction:column;gap:6px}
+.atlas-intro-brand b{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;font-weight:850;letter-spacing:.24em;color:#fff}
+.atlas-intro-brand small{font-family:"Arial Narrow","Helvetica Neue",Arial,sans-serif;font-size:10px;font-weight:900;letter-spacing:.19em;color:#fff;text-shadow:0 0 13px #ffffff55}
+@media(max-width:850px){.brand-wordmark{font-size:13px!important}.brand-tagline{font-size:9px!important}.atlas-intro-brand small{font-size:9px!important}}
+</style>
 </head>
 <body>
 <div class="app-shell">
 <section class="atlas-intro" id="atlas-intro" aria-labelledby="atlas-title">
  <div class="atlas-intro-grid" aria-hidden="true"></div>
  <div class="atlas-intro-content">
-  <div class="atlas-intro-brand"><span><b>CICAN</b><small>A Dublin Experience</small></span></div>
+  <div class="atlas-intro-brand"><span><b>CICAN</b><small>A DUBLIN EXPERIENCE</small></span></div>
   <p class="atlas-kicker"><span></span> A CITY OF STORIES, DETAIL BY DETAIL</p>
   <h1 id="atlas-title">Dublin is<br><em>more than</em><br>what you see.</h1>
   <p class="atlas-intro-copy">Every street holds a story. Every stone has a past. Open the map and discover the details that make this city extraordinary.</p>
@@ -48,7 +61,7 @@
 </section>
 
 <header class="topbar">
- <a class="brand" href="./app.html" aria-label="CICAN — A Dublin Experience"><span class="brand-lockup"><span class="brand-wordmark">CICAN</span><span class="brand-tagline">A Dublin Experience</span></span></a>
+ <a class="brand" href="./app.html" aria-label="CICAN — A DUBLIN EXPERIENCE"><span class="brand-lockup"><span class="brand-wordmark">CICAN</span><span class="brand-tagline">A DUBLIN EXPERIENCE</span></span></a>
  <div class="topbar-center"><span class="live-dot"></span><span id="catalogue-status">CONNECTING TO CICAN</span></div>
  <button class="icon-button desktop-mode-button" id="saved-mode-toggle" type="button" title="Open saved places" aria-label="Open saved places" aria-pressed="false">♡</button><button class="icon-button" id="locate-button" type="button" title="Centre map on my location" aria-label="Centre map on my location">⌖</button>
 </header>

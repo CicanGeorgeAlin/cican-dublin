@@ -13,9 +13,9 @@ This is a planning indicator, not a claim that 42% of Dublin's heritage has been
 | Workstream | Weight in measured index | Current score | Evidence / calculation |
 |---|---:|---:|---|
 | Website/platform and automated delivery | 20% | 80% | Map-first application, catalogue, search/filter/detail and automated quality/deployment workflows exist; final live Android/device and end-to-end checks remain outstanding. |
-| Catalogue evidence verification | 20% | 57.7% | 324 VERIFIED / 562 records = 57.7%; 237 PARTIALLY_VERIFIED; 1 RESEARCH_LEAD. |
-| Geographic authority assignment | 15% | 0% | 0 of 562 records spatially assigned by point-in-polygon to the four local authorities; CSV authority labels are not a substitute for spatial assignment. |
-| Visual reference coverage | 20% | 19.2% | 108 of 562 records have at least one registered reference image = 19.2%. |
+| Catalogue evidence verification | 20% | 57.0% | 324 VERIFIED / 568 records = 57.0%; 243 PARTIALLY_VERIFIED; 1 RESEARCH_LEAD. |
+| Geographic authority assignment | 15% | 0% | 0 of 568 records spatially assigned by point-in-polygon to the four local authorities; CSV authority labels are not a substitute for spatial assignment. |
+| Visual reference coverage | 20% | 19.0% | 108 of 568 records have at least one registered reference image = 19.0%. |
 | **Measured subtotal** | **75%** | **42% weighted average** | (20×0.80 + 20×0.577 + 15×0 + 20×0.192) / 75 = 0.418. Rounded to 42%. |
 
 **Unscored / unknown inventory work: 25% of the planned index.** The current official NIAH Building Survey denominator is measured at 7,535 registrations across the four Dublin authorities. Wider non-NIAH heritage (archaeology, industrial heritage, micro-features, street furniture, inscriptions and field discoveries) has no finite complete denominator. Do not silently count this unknown work as complete or incomplete.
@@ -24,22 +24,22 @@ The 80% platform score is an explicit planning estimate based on implemented cod
 
 ## 2. Verified production baseline
 
-README snapshot and data files inspected after NIAH Batch 030 on 20 November 2026:
+README snapshot and data files inspected after NIAH Batch 031 on 20 November 2026:
 
-- 562 catalogue objects.
-- 680 registered sources.
+- 568 catalogue objects.
+- 686 registered sources.
 - 324 VERIFIED, 237 PARTIALLY_VERIFIED, 1 RESEARCH_LEAD.
-- 562 visual inventory records.
+- 568 visual inventory records.
 - 133 registered reference-image entries.
-- 108 of 562 records have one or more reference images (19.2%).
+- 108 of 568 records have one or more reference images (19.0%).
 - 99 OBJECT_PHOTOGRAPH references, 32 STREET_CONTEXT references and 2 DETAIL_PHOTOGRAPH references.
-- 562 records awaiting founder photography.
+- 568 records awaiting founder photography.
 - 0 founder original photographs recorded in the visual inventory.
-- 562 records waiting for original photographs before line art.
-- 562 galleries marked NOT_YET_PUBLISHED.
-- 526/562 have numeric latitude/longitude (93.6%); these are source-derived coordinates, not founder GPS fixes.
+- 568 records waiting for original photographs before line art.
+- 568 galleries marked NOT_YET_PUBLISHED.
+- 532/568 have numeric latitude/longitude (93.7%); these are source-derived coordinates, not founder GPS fixes.
 - 0 records spatially assigned to a verified local-authority polygon in the coverage audit.
-- 442 unique NIAH registrations in the public collection, all exact-matched to the official CSV.
+- 448 unique NIAH registrations in the public collection, all exact-matched to the official CSV.
 - Four Dublin local-authority areas are in scope: Dublin City, Fingal, South Dublin and Dún Laoghaire–Rathdown.
 
 Counts are separate measures and must not be added together.
@@ -62,8 +62,8 @@ A Dáil written answer from 31 March 2021 listed 5,802 NIAH structures recommend
 
 **NIAH completion calculation at the current audited snapshot:**
 - Denominator = **7,535** unique current Building Survey registrations across the four Dublin authorities.
-- Numerator = **442** unique registrations reconciled to CICAN and exact-matched to the official national CSV.
-- Missing from the public collection = **7,093**.
+- Numerator = **448** unique registrations reconciled to CICAN and exact-matched to the official national CSV.
+- Missing from the public collection = **7,087**.
 - Exact registration reconciliation = **5.9%**. This is not the same as fully researched, field-located or founder-photographed completion. Report those measures separately.
 
 ## 4. Full completion checklist
@@ -74,12 +74,14 @@ A Dáil written answer from 31 March 2021 listed 5,802 NIAH structures recommend
 - [ ] Confirm local-authority values against official boundaries where necessary; point-in-polygon assignment remains outstanding.
 - [x] Deduplicate official registration numbers and preserve source rows.
 - [x] Build a machine-readable NIAH staging index and missing-registration queue.
-- [x] Reconcile all 7,535 official registrations against the 562-object master: 442 exact matches and 7,093 missing.
+- [x] Reconcile all 7,535 official registrations against the 568-object master: 448 exact matches and 7,087 missing.
 - [x] Classify exact matches and missing registrations; probable/conflict review remains a separate task.
 - [x] Import Batch 030: 100 new official registrations, 25 per authority, as PARTIALLY_VERIFIED objects with source and visual entries.
-- [ ] Continue reviewing and importing the remaining 7,093 registrations in batches of up to 100.
+- [x] Import Batch 031: six individual-page-checked Cooldrinagh registrations with official CSV coordinate provenance, source and visual entries.
+- [ ] Continue reviewing and importing the remaining 7,087 registrations in batches of up to 100.
 - [ ] Confirm the explicit NIAH register filter/layer and its labels do not imply RPS status.
 - [x] Re-run schema, duplicate, link, image and deployment validation for Batch 030.
+- [ ] Re-run and record the post-Batch-031 quality gate and Pages deployment.
 
 ### B. Wider heritage discovery beyond NIAH
 - [ ] National Monuments Service / Historic Environment Viewer records.
@@ -177,7 +179,7 @@ Deliverables:
 1. Date-stamped current national extract.
 2. Four-authority NIAH total, broken down by authority.
 3. Unique registration-number list and coordinate provenance.
-4. Reconciliation against the complete 460-object catalogue.
+4. Reconciliation against the complete 568-object catalogue.
 5. Exact missing-registration queue.
 6. Reproducible script/report and quality checks.
 
@@ -193,4 +195,9 @@ Only after this milestone can we publish a defensible NIAH coverage percentage a
 - Dáil written answer, 31 March 2021, Dublin NIAH recommendation counts: https://data.oireachtas.ie/ie/oireachtas/debateRecord/dail/2021-03-31/writtens/mul%40/main.pdf
 - Tailte Éireann boundary data: https://tailte.ie/map-shop/professional-map-products/boundary-data/
 
-**Baseline integrity note:** The production README and visual asset file were inspected on 20 November 2026. The visual inventory currently shows 460/460 awaiting founder photography, 460/460 awaiting original-photo-based line art and 460/460 galleries not yet published. These are material outstanding workstreams even though the website and automated deployment are already operational.
+**Baseline integrity note:** The production README and visual asset file were inspected on 20 November 2026. The visual inventory currently shows 568/568 awaiting founder photography, 568/568 awaiting original-photo-based line art and 568/568 galleries not yet published. These are material outstanding workstreams even though the website and automated deployment are already operational.
+
+
+## Latest production update — NIAH Batch 031 (20 November 2026)
+
+Six Cooldrinagh / Leixlip NIAH registrations were checked against their individual Buildings of Ireland pages and matched to the official national CSV by exact REG_NO: 11201005, 11201007, 11201010, 11201011, 11201012 and 11201014. All six passed full-master, public-collection and source-registry duplicate checks and were added to the master catalogue, public NIAH collection, source registry and visual inventory. Totals are now 568 master objects, 448 public NIAH registrations, 686 sources and 568 visual records. The public collection remains 448/7,535 = 5.9%, with 7,087 registrations in the review queue. The six additions are PARTIALLY_VERIFIED, SOURCE_DERIVED and awaiting founder photography; no NIAH photographs were reused. See [NIAH Cooldrinagh Verification & Publication Batch 031](NIAH-COOLDRINAGH-VERIFICATION-PUBLICATION-BATCH-031.md).

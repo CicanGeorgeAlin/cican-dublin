@@ -222,3 +222,8 @@ Access categories in the heritage audit are historical survey observations from 
 ## 14. Production change statement
 
 Documentation-only research batch. No production catalogue objects, photographs, map pins, website code or public-facing content were changed.
+
+
+## Catalogue reconciliation erratum — Batch 013 (20 November 2026)
+
+The Batch 012 no-match note for NIAH 11336026 was stale. A subsequent full-catalogue inspection found this registration already represented by DUB-BLD-0179, “Hearse Road — c.1850 house and associated former forge complex”. It was not added again. The Batch 013 report records the current catalogue identity and preserves the existing object.

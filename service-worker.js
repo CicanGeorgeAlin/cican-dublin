@@ -1,4 +1,4 @@
-const CACHE="cican-dublin-root-v10";
+const CACHE="cican-dublin-root-v11";
 const CACHE_PREFIX="cican-dublin-root-";
 const SHELL=[
   "./",
@@ -9,7 +9,7 @@ const SHELL=[
   "./preview/manifest.webmanifest",
   "./preview/assets/favicon.svg",
   "./preview/assets/cican-emblem.svg",
-  "./data/objects.json",
+  "./data/niah-registered-objects.json",
   "./data/sources.json",
   "./data/visual-assets.json"
 ];

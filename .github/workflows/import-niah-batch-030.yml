@@ -1,0 +1,87 @@
+name: Import CICAN Dublin NIAH Batch 030
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/import-niah-dublin-batch-030.mjs"
+      - ".github/workflows/import-niah-batch-030.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: niah-batch-030-import
+  cancel-in-progress: false
+
+jobs:
+  import-and-validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      - name: Build the latest official four-authority missing-registration queue
+        run: node scripts/audit-niah-dublin-coverage.mjs
+
+      - name: Import the fixed 100-registration Batch 030
+        run: node scripts/import-niah-dublin-batch-030.mjs
+
+      - name: Generate all crawlable place pages and sitemap
+        run: node scripts/generate-seo-pages.mjs
+
+      - name: Validate catalogue, sources, coordinates, visual inventory and pages
+        run: node scripts/validate-archive.mjs
+
+      - name: Re-audit all public NIAH registrations against the official national CSV
+        run: node scripts/audit-niah-registrations.mjs
+
+      - name: Rebuild four-authority denominator and remaining review queue
+        run: node scripts/audit-niah-dublin-coverage.mjs
+
+      - name: Assert exact post-import census counts
+        run: |
+          node --input-type=module -e '
+          import fs from "node:fs";
+          const a=JSON.parse(fs.readFileSync("audit/niah-dublin-coverage-audit.json","utf8"));
+          const expected={four_authority_unique_registration_count:7535,archive_unique_registration_count:442,archive_unique_registrations_matched_to_four_authority_source:442,missing_official_registrations_available_for_review:7093,rows_with_unassigned_or_unrecognised_authority:0};
+          for(const [key,value] of Object.entries(expected)){if(a[key]!==value)throw new Error(key+" expected "+value+" but got "+a[key]);}
+          if(a.duplicate_registration_numbers_in_official_dublin_rows.length!==0)throw new Error("Official Dublin source contains duplicate registration numbers.");
+          console.log(JSON.stringify(expected,null,2));
+          '
+
+      - name: Commit validated Batch 030 data and generated pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/objects.json data/niah-registered-objects.json data/sources.json data/visual-assets.json data/coverage-audit.json places sitemap.xml documentation/NIAH-DUBLIN-FOUR-AUTHORITY-FASTTRACK-BATCH-030.md audit/niah-batch-030-imported.json
+          git commit -m "Publish NIAH Dublin FastTrack Batch 030"
+          git push origin HEAD:main
+
+      - name: Dispatch GitHub Pages deployment for the validated data commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref main
+
+      - name: Upload Batch 030 and official audit reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: cican-niah-batch-030-verification
+          path: |
+            documentation/NIAH-DUBLIN-FOUR-AUTHORITY-FASTTRACK-BATCH-030.md
+            audit/niah-batch-030-imported.json
+            audit/niah-dublin-coverage-audit.json
+            audit/niah-dublin-missing-registrations.json
+            audit/niah-340-official-register-audit.json
+          if-no-files-found: error

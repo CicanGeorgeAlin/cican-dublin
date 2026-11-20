@@ -24,7 +24,9 @@
 <meta property="og:description" content="Explore Dublin's historic places, landmarks, monuments, buildings and streets through an evidence-based interactive heritage map and visual archive.">
 <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
 <link rel="manifest" href="./manifest.webmanifest">
-<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.css">
+<link rel="preconnect" href="https://unpkg.com" crossorigin>
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.css" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.css"></noscript>
 <link rel="stylesheet" href="./app/app.css">
 <title>CICAN Dublin | Heritage Map &amp; Archive</title>
 <style>

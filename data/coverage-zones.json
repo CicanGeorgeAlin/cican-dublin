@@ -37,7 +37,7 @@
         "SRC-DUB-BOUNDARY-OPEN-DATA",
         "SRC-DUB-TOWNLANDS-2026"
       ],
-      "coverage_notes": "Initial NIAH discovery is now underway in Fingal, including Rush/Kenure and Donabate/Portrane. The catalogue contains source-derived Fingal settlement locators, but no local-authority record count is assigned until defensible points are spatially tested against the official 2026 boundary polygon.",
+      "coverage_notes": "Initial NIAH discovery is now underway in Fingal, including Rush/Kenure and Donabate/Portrane. The catalogue contains source-derived Fingal settlement locators, but no local-authority record count is assigned until defensible points are spatially tested against the official 2026 boundary polygon. Batch 024 adds Rose Cottage (NIAH 11323022) in Greatcommon, Lusk; administrative assignment remains pending point-in-polygon verification.",
       "boundary_verification_status": "NOT_SPATIALLY_ASSIGNED",
       "record_count": null
     },

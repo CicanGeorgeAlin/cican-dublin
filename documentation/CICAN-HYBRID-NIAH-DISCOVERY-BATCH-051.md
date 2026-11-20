@@ -40,3 +40,8 @@ All three public NIAH coordinate pairs are unlabelled CRS; none are transformed 
 
 ## Evidence status and next actions
 All three pages are SOURCE_VERIFIED_CORE. National CSV/FeatureServer row matching remains PENDING; none is NATIONAL_DATA_VERIFIED or FIELD_VERIFIED. Live Pages deployment needs a separate smoke test. Continue 3–5 Dublin candidates per batch and maintain the retrospective audit separately.
+
+
+## Post-publication repository validation (20 November 2026)
+
+All updated canonical files were fetched again from GitHub and parsed successfully. Final totals: 580 master objects, 460 registered NIAH records, 698 sources, 580 visual records; visual record_count is 580. Global duplicate checks found no repeated master IDs, registered IDs, NIAH REG_NO values, source IDs or visual record IDs. Every registered record's source references resolve; every registered and visual record has a matching master object. Each new record appears exactly once in all four data inventories, has null latitude/longitude and no map_url, and each of the three page URLs is present in sitemap.xml. All three page files, the Batch 051 report and the CONTINUE-AUTOPILOT checkpoint were read back successfully. Exact official NIAH page titles were recorded in the source registry. The three live GitHub Pages URLs and site root remained inaccessible through the web retrieval layer; this is inconclusive and is not treated as a deployment failure. The GitHub combined commit-status endpoint returned no status checks. Therefore repository publication and structural validation are confirmed; live production rendering remains unverified.

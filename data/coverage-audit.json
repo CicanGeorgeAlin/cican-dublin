@@ -2,7 +2,7 @@
   "version": "1.0",
   "audited_on": "2026-11-20",
   "scope": "Dublin City and County Dublin",
-  "catalogue_total": 562,
+  "catalogue_total": 568,
   "administrative_assignment_status": "NOT_SPATIALLY_VERIFIED",
   "administrative_assignment_note": "No local-authority record counts are published in this audit. Postal-district labels cannot be substituted for point-in-polygon checks. The official 2026 polygon dataset has been identified; geometry import and spatial assignment await reuse-licence confirmation and a coordinate-precision review.",
   "local_authorities": [
@@ -204,9 +204,9 @@
     },
     {
       "name": "Leixlip, County Dublin",
-      "record_count": 5,
+      "record_count": 11,
       "status": "RESEARCH_IN_PROGRESS",
-      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json after NIAH Batch 031."
     },
     {
       "name": "Loughlinstown, County Dublin",
@@ -324,6 +324,6 @@
     "Use Tailte Éireann 2026 local-authority boundaries for spatial attribution after licence review.",
     "Do not spatially assign records with null coordinates or coordinates whose accuracy is insufficient for the boundary decision.",
     "Treat this as a baseline coverage audit, not a claim of exhaustive heritage inventory.",
-    "Batch 030 adds 100 source-derived NIAH Building Survey records. District labels are derived from official NIAH town or townland fields; they do not establish spatial local-authority assignment."
+    "Batch 030 added 100 and Batch 031 added six source-derived NIAH Building Survey records. District labels are derived from official NIAH town or townland fields; they do not establish spatial local-authority assignment."
   ]
 }

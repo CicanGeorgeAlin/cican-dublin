@@ -22193,7 +22193,8 @@
     "address_source": "NIAH-50060551",
     "feature_type": "PRIMARY_OBJECT",
     "research_notes": "Batch 051. Individual official NIAH record opened; exact REG_NO, official title, rating, special-interest categories, use, date range, date recorded, description and appraisal captured. NIAH page coordinate pair is not labelled with a CRS and is not used for map placement. National CSV/FeatureServer row remains pending. This is desk research, not current field inspection. The individual NIAH page shows coordinate pair 315841, 234355 without a CRS label. It is deliberately not published or transformed. National CSV/FeatureServer row remains pending; this is not national-data or field verification.",
-    "last_researched": "2026-11-20"
+    "last_researched": "2026-11-20",
+    "national_inventory_reference": "50060551"
   },
   {
     "id": "DUB-BLD-0284",
@@ -22231,7 +22232,8 @@
     "address_source": "NIAH-50020320",
     "feature_type": "PRIMARY_OBJECT",
     "research_notes": "Batch 051. Individual official NIAH record opened; exact REG_NO, official title, rating, special-interest categories, use, date range, date recorded, description and appraisal captured. NIAH page coordinate pair is not labelled with a CRS and is not used for map placement. National CSV/FeatureServer row remains pending. This is desk research, not current field inspection. The individual NIAH page shows coordinate pair 316273, 234187 without a CRS label. It is deliberately not published or transformed. National CSV/FeatureServer row remains pending; this is not national-data or field verification.",
-    "last_researched": "2026-11-20"
+    "last_researched": "2026-11-20",
+    "national_inventory_reference": "50020320"
   },
   {
     "id": "DUB-BLD-0285",
@@ -22269,7 +22271,8 @@
     "address_source": "NIAH-50130155",
     "feature_type": "PRIMARY_OBJECT",
     "research_notes": "Batch 051. Individual official NIAH record opened; exact REG_NO, official title, rating, special-interest categories, use, date range, date recorded, description and appraisal captured. NIAH page coordinate pair is not labelled with a CRS and is not used for map placement. National CSV/FeatureServer row remains pending. This is desk research, not current field inspection. This is a separately registered gate-screen/boundary-wall asset (REG_NO 50130155), not the already catalogued former college building (50130152), old chapel (50130151), new chapel (50130154), or separately registered P&T pillar postbox (50120002). Those co-located records were retained as distinct assets after relationship review. The individual NIAH page shows coordinate pair 316248, 236972 without a CRS label; it is deliberately not published or transformed. National CSV/FeatureServer row remains pending.",
-    "last_researched": "2026-11-20"
+    "last_researched": "2026-11-20",
+    "national_inventory_reference": "50130155"
   },
   {
     "id": "DUB-BLD-0286",

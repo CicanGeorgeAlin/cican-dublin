@@ -79,19 +79,20 @@ A specialist report does not count as a new published catalogue object unless th
 
 ## 5. Critical production safety gate
 
-The project has previously encountered a canonical catalogue retrieval problem: the file at data/objects.json was fetched as empty, while historical snapshots and staged records existed separately. This is a **hard stop** for bulk production imports.
+The project previously received an empty response for data/objects.json from one file-fetch route. A direct GitHub Contents API read subsequently confirmed the canonical file is approximately 1.25 MB and contains 452 valid JSON objects. The empty response was a retrieval limitation, not proof that the repository file was empty.
 
 Before any NIAH batch changes the production catalogue:
-1. Fetch the current canonical catalogue from the repository.
-2. Confirm the response contains the expected complete JSON content.
-3. Parse it and compare record counts and hashes against known repository history/snapshots.
-4. Establish which file is authoritative and whether historical records are missing.
-5. Recover and reconcile the canonical catalogue before merging any staged batch.
-6. Confirm no existing records would be overwritten or lost.
+1. Retrieve data/objects.json through the GitHub Contents API or another route capable of returning the full file; do not rely on a truncated/empty connector response.
+2. Confirm the repository metadata size and the returned content length are consistent.
+3. Parse the complete JSON and record total objects, duplicate archive IDs, and malformed entries.
+4. Compare with known snapshots and staging files only where history/reconciliation requires it.
+5. Preserve the current canonical catalogue and confirm no existing records would be overwritten or lost.
+6. Validate all changes against the complete current catalogue before committing.
 
-Until this gate passes, continue source research, queue construction, deduplication against available evidence and report preparation. Keep proposed records in staging/documentation only. Explicitly state that no production catalogue or map pins were changed.
+If full content cannot be retrieved or parsed, stop production edits but continue source research, queue construction and documentation. Never infer that a file is empty from a connector response alone, and never silently replace a canonical catalogue with a partial snapshot.
 
-Never silently replace a missing or empty catalogue with a partial historical snapshot.
+### NIAH reference reconciliation
+A repeated NIAH registration number is not automatically a duplicate archive object. The archive may document separately identifiable components or micro-details associated with one NIAH-registered parent structure. Check object identity, parent/child relationships and context before deduplicating. Report separately: total archive objects, objects carrying NIAH references, distinct NIAH registration numbers, and repeated NIAH references requiring review. Do not enforce blanket uniqueness of NIAH registration numbers across all archive objects.
 
 ## 6. Images and visual evidence
 

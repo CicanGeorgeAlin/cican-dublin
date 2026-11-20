@@ -2,7 +2,7 @@
   "version": "1.0",
   "audited_on": "2026-11-20",
   "scope": "Dublin City and County Dublin",
-  "catalogue_total": 462,
+  "catalogue_total": 562,
   "administrative_assignment_status": "NOT_SPATIALLY_VERIFIED",
   "administrative_assignment_note": "No local-authority record counts are published in this audit. Postal-district labels cannot be substituted for point-in-polygon checks. The official 2026 polygon dataset has been identified; geometry import and spatial assignment await reuse-licence confirmation and a coordinate-precision review.",
   "local_authorities": [
@@ -41,10 +41,46 @@
   ],
   "postal_districts": [
     {
+      "name": "Balbriggan, County Dublin",
+      "record_count": 17,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
+      "name": "Balscaddan, County Dublin",
+      "record_count": 2,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
       "name": "Cappagh, County Dublin",
       "record_count": 2,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "New settlement work-zone label from NIAH 11205029 and 11205034; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
+      "name": "CLARKSTOWN, HAROLDSGRANGE, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
+      "name": "CLARKSTOWN, KILMASHOGUE, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
+      "name": "COOLDRINAGH, County Dublin",
+      "record_count": 2,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
+      "name": "COOLFORES, REYNOLDSTOWN, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
     },
     {
       "name": "Corballis, County Dublin",
@@ -60,7 +96,7 @@
     },
     {
       "name": "Dublin 1",
-      "record_count": 108,
+      "record_count": 132,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "Count reconciled from data/objects.json; includes Batch 140 additions. Coverage remains a sample, not exhaustive."
     },
@@ -119,6 +155,24 @@
       "coverage_note": "Count reconciled from data/objects.json after Discovery Batch 144; includes newly catalogued Botanic Gardens structures, a cemetery hydrant and John Kavanagh's. Coverage remains a sample, not exhaustive."
     },
     {
+      "name": "Dublin City, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
+      "name": "Dundrum, County Dublin",
+      "record_count": 3,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
+      "name": "HAROLDSGRANGE, County Dublin",
+      "record_count": 5,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
       "name": "Kilcrea, County Dublin",
       "record_count": 2,
       "status": "RESEARCH_IN_PROGRESS",
@@ -131,10 +185,40 @@
       "coverage_note": "Settlement work-zone label, not a postal district or local-authority assignment. Count reconciled from data/objects.json after Discovery Batch 146; coverage remains a sample, not exhaustive."
     },
     {
+      "name": "KILMASHOGUE, County Dublin",
+      "record_count": 2,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
+      "name": "KILMASHOGUE, TAYLORSGRANGE, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
+      "name": "KNOCKNAGIN, County Dublin",
+      "record_count": 2,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
+      "name": "Leixlip, County Dublin",
+      "record_count": 5,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
       "name": "Loughlinstown, County Dublin",
       "record_count": 1,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "Settlement work-zone label, not a postal district or local-authority assignment. Count reconciled from data/objects.json after Discovery Batch 146; coverage remains a sample, not exhaustive."
+    },
+    {
+      "name": "Lucan, County Dublin",
+      "record_count": 18,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
     },
     {
       "name": "Lusk, County Dublin",
@@ -149,6 +233,12 @@
       "coverage_note": "Settlement work-zone label, not a postal district or local-authority assignment. Count reconciled from data/objects.json after Discovery Batch 146; coverage remains a sample, not exhaustive."
     },
     {
+      "name": "MURPHYSTOWN, County Dublin",
+      "record_count": 2,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
       "name": "Neillstown, County Dublin",
       "record_count": 1,
       "status": "RESEARCH_IN_PROGRESS",
@@ -161,10 +251,22 @@
       "coverage_note": "New settlement work-zone label from NIAH 11205039; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
     },
     {
+      "name": "RATHBEAL, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
       "name": "Rush, County Dublin",
       "record_count": 1,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "Fingal settlement work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json. Coverage remains a sample, not exhaustive."
+    },
+    {
+      "name": "Sandyford, County Dublin",
+      "record_count": 4,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
     },
     {
       "name": "Skerries, County Dublin",
@@ -183,6 +285,18 @@
       "record_count": 11,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "Settlement work-zone label, not a postal district or local-authority assignment. Count reconciled from data/objects.json after Discovery Batch 146; coverage remains a sample, not exhaustive."
+    },
+    {
+      "name": "TAYLORSGRANGE, County Dublin",
+      "record_count": 6,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
+      "name": "WHITESTOWN (BA. E BY.) BALSCADDAN ED, County Dublin",
+      "record_count": 2,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
     }
   ],
   "districts_without_catalogue_records": [
@@ -200,7 +314,7 @@
     "Dublin 24"
   ],
   "totals": {
-    "postal_districts_with_records": 10,
+    "postal_districts_with_records": 43,
     "local_authorities_with_verified_spatial_assignment": 0,
     "records_with_verified_local_authority_assignment": 0
   },
@@ -209,6 +323,7 @@
     "Keep postal-district counts separate from administrative-area counts.",
     "Use Tailte Éireann 2026 local-authority boundaries for spatial attribution after licence review.",
     "Do not spatially assign records with null coordinates or coordinates whose accuracy is insufficient for the boundary decision.",
-    "Treat this as a baseline coverage audit, not a claim of exhaustive heritage inventory."
+    "Treat this as a baseline coverage audit, not a claim of exhaustive heritage inventory.",
+    "Batch 030 adds 100 source-derived NIAH Building Survey records. District labels are derived from official NIAH town or townland fields; they do not establish spatial local-authority assignment."
   ]
 }

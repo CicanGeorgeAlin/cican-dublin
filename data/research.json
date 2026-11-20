@@ -1001,5 +1001,37 @@
       "SRC-NIAH-NATIONAL-DATASET",
       "SRC-EPSG-TM65-29902"
     ]
+  },
+  {
+    "id": "RES-KILCREA-CORBALLIS-RESEARCH-BATCH-013",
+    "title": "Batch 013 — Newbridge, Kilcrea and Corballis NIAH registrations; Kilcrea archaeological landscape",
+    "area": "NEWBRIDGE DEMESNE · KILCREA · CORBALLIS · DONABATE",
+    "updated": "2026-11-20",
+    "status": "DOCUMENTED_CONTEXT",
+    "status_label": "FOUR NIAH OBJECTS ADDED; KILCREA ARCHAEOLOGICAL RECORDS RETAINED AS RESEARCH LEADS",
+    "summary": "Four NIAH-backed structures were added as separate PARTIALLY_VERIFIED objects: Mack's Bridge (11336004), Kilcrea House (11336025), Kilcrea railway bridge (11336027), and Corballis House (11336028). The Fingal 2022 Donabate–Portrane Heritage Audit was reviewed for Kilcrea Church DU012-016001, graveyard DU012-016002, enclosure DU012-017, tidal mill DU012-018 and ring-ditch DU012-072. Those archaeological records remain research leads; the audit's 2021 condition/access notes are historical observations, and current NMS geometry, exact positions and access have not been independently verified.",
+    "supported": [
+      "Fingal's heritage audit identifies Mack's Bridge as NIAH 11336004; the 2019 EIAR supplies an explicit ITM coordinate.",
+      "NIAH 11336025 describes Kilcrea House as a Regional-rated c.1800 farmhouse with a parallel range, return and associated outbuildings.",
+      "NIAH 11336027 describes a metal railway bridge between stone piers, c.1860, altered c.1960; RPS 502 is a possible but unconfirmed match.",
+      "NIAH 11336028 describes Corballis House as a Regional-rated c.1830 farmhouse with dormer attic, projecting bay, rear return and attached farmyard buildings.",
+      "The 2022 Fingal audit records separate church and graveyard SMR references at Kilcrea, plus an enclosure, tidal mill and ring-ditch; it distinguishes standing remains, inaccessible mill evidence and cropmark-only sites."
+    ],
+    "limits": [
+      "Mack's Bridge individual NIAH page and detailed appraisal were not retrieved; its object description is intentionally limited to what the Fingal audit and EIAR support.",
+      "The RPS 502 / NIAH 11336027 relationship is a candidate match, not a confirmed cross-reference.",
+      "The 2021 Kilcrea church/graveyard access and condition notes are not current. The tidal mill was marked inaccessible; enclosure/ring-ditch evidence was not visible at ground level. No new archaeological object IDs or map pins were created.",
+      "Three EIAR coordinates are explicitly ITM (EPSG:2157); Corballis House's NIAH page coordinate is treated as Irish Grid / National Grid (EPSG:29902), not ITM. Source point accuracy is unknown; no founder GPS is claimed.",
+      "No reference photographs were imported. The 1889/1890 Corballis family photograph mentioned in the audit has no verified reuse licence and was not registered as a reusable asset.",
+      "Locality labels Newbridge/Donabate, Kilcrea and Corballis are work-zone labels only; Fingal local-authority spatial assignment remains unverified."
+    ],
+    "source_ids": [
+      "FINGAL-DONABATE-PORTRANE-HERITAGE-AUDIT-2022",
+      "BROADMEADOW-WAY-EIAR-2019",
+      "NIAH-11336025",
+      "NIAH-11336027-SEARCH",
+      "NIAH-11336028",
+      "DONABATE-LAP-2016"
+    ]
   }
 ]

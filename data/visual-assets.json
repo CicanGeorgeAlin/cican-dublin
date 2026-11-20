@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 574,
+  "record_count": 577,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -20020,6 +20020,102 @@
         "T & T maker's mark on the side, if legible without touching the pump",
         "Pump head, handle, spout and visible casting details",
         "Relationship to the surrounding street furniture and lane"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0281",
+      "name": "Iveagh Trust Buildings — Patrick Street blocks",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 8",
+      "address": "Patrick Street, Dublin 8, County Dublin, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Overall west-facing group from a lawful public viewpoint",
+        "Mansard roofline, stepped gablets and copper-clad cupolas",
+        "Terracotta date plaques and string courses",
+        "Granite entrance surrounds, carved tympana and shopfront pilasters",
+        "Wrought-iron pedestrian gates and boundary railings, where visible from public space"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0282",
+      "name": "Iveagh Trust Buildings — Bride Street blocks",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 8",
+      "address": "Bride Street, Dublin 8, County Dublin, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Overall east-facing group from a lawful public viewpoint",
+        "Mansard roofs, cupolas and terracotta date plaques",
+        "Granite entrance surrounds and carved tympana",
+        "Round-headed pedestrian arch and wrought-iron gates, where visible",
+        "Cast-iron railings on granite plinths"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0283",
+      "name": "The Whitworth Building (formerly Whitworth Hospital)",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 7",
+      "address": "Morningstar Avenue, Dublin 7, County Dublin, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full north-facing façade and overall symmetry from a lawful public viewpoint",
+        "Inscribed granite platband reading WHITWORTH HOSPITAL",
+        "Inscribed rear platband reading WHITWORTH HOSPITAL A.D. MDCCCXVI, only if lawfully visible",
+        "Central pediment, granite cornices and entrance surround",
+        "Calp limestone, granite string course and red-brick detailing"
       ],
       "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
       "original_photo": null,

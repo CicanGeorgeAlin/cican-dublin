@@ -2,7 +2,7 @@
   "version": "1.0",
   "audited_on": "2026-11-20",
   "scope": "Dublin City and County Dublin",
-  "catalogue_total": 456,
+  "catalogue_total": 460,
   "administrative_assignment_status": "NOT_SPATIALLY_VERIFIED",
   "administrative_assignment_note": "No local-authority record counts are published in this audit. Postal-district labels cannot be substituted for point-in-polygon checks. The official 2026 polygon dataset has been identified; geometry import and spatial assignment await reuse-licence confirmation and a coordinate-precision review.",
   "local_authorities": [
@@ -138,7 +138,7 @@
     },
     {
       "name": "Donabate, County Dublin",
-      "record_count": 6,
+      "record_count": 7,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "Settlement work-zone label, not a postal district or local-authority assignment. Count reconciled from data/objects.json after Discovery Batch 146; coverage remains a sample, not exhaustive."
     },
@@ -165,6 +165,18 @@
       "record_count": 1,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "New settlement work-zone label from NIAH 11205039; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
+      "name": "Kilcrea, County Dublin",
+      "record_count": 2,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "Two new NIAH work-zone records: Kilcrea House and the Kilcrea railway bridge. This settlement label is not a verified local-authority assignment."
+    },
+    {
+      "name": "Corballis, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "One new NIAH work-zone record: Corballis House. This settlement label is not a verified local-authority assignment."
     }
   ],
   "districts_without_catalogue_records": [

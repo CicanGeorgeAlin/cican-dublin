@@ -13180,5 +13180,44 @@
     "feature_type": "PRIMARY_OBJECT",
     "research_notes": "NIAH explicitly notes that the entrance was rebuilt in 1986; do not describe all visible fabric as eighteenth-century original. Source-derived coordinates are not founder GPS.",
     "last_researched": "2026-11-17"
+  },
+  {
+    "id": "DUB-BLD-0193",
+    "name": "Rose Cottage (Roseville) — c.1860 thatched house",
+    "category": "ARCHITECTURE",
+    "district": "Lusk, County Dublin",
+    "address": "Skerries Road (R127), Greatcommon, Lusk, Fingal, County Dublin, Ireland",
+    "historical_period": "1840–1880; described c.1860",
+    "historical_description": "Detached east-facing five-bay single-storey thatched house with a projecting entrance porch. The NIAH describes a double-pitched roof, gabled to the right and hipped to the left, with corrugated iron to the rear pitch; two brick chimney stacks with clay pots; cast-iron rainwater goods; slate roofs to the front and rear porches; roughcast-rendered walls; and two-over-two timber sash windows. Fingal County Council's 2022 thatch survey additionally records a front windbreak, enclosed front garden with wrought-iron railings, long rear garden and outbuilding, wheaten-straw roof with bamboo rodding and lattice band, and rear roof slope covered with galvanised sheeting at the time of survey.",
+    "historical_significance": "NIAH rates the house Regional for Architectural and Social interest. Fingal County Council's 2022 survey notes early façade features including sash windows and a windbreak, and describes its ornamental garden setting. The 2022 report is a dated survey record, not confirmation of present-day condition.",
+    "national_inventory_reference": "11323022",
+    "national_grid_reference": "ITM E 721936.5424, N 756013.5006",
+    "latitude": 53.53989029208341,
+    "longitude": -6.160322551841821,
+    "verification_status": "PARTIALLY_VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Private residential property. Photograph only from a lawful public road or with owner/occupier permission. Do not enter the property without permission.",
+    "photography_restrictions": "Respect residential privacy and road safety on the R127. No Fingal report photograph has been imported because a separate image-reuse licence has not been confirmed.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.53989029208341%2C-6.160322551841821&travelmode=walking",
+    "photography_brief": [
+      "Whole east-facing elevation and setback from the R127, from a lawful public viewpoint",
+      "Thatched roof profile, hipped and gabled ends, ridge and bamboo rodding where visible",
+      "Front windbreak, entrance porch and two-over-two timber sash windows",
+      "Wrought-iron garden railings and entrance setting from public space",
+      "Rear roof treatment only if visible from a lawful public viewpoint; do not enter the property"
+    ],
+    "sources": [
+      "NIAH-11323022",
+      "FINGAL-THATCH-PROJECT-2022"
+    ],
+    "coordinate_source": "Fingal County Council / Carrig Conservation International, Fingal Thatch Project 2022, gazetteer Record FCC-TS-28, explicitly labels ITM east 721936.5424 and north 756013.5006. Converted from EPSG:2157 to WGS 84 using PROJ operation 'Inverse of Irish Transverse Mercator + IRENET95 to WGS 84 (1) + axis order change (2D)' (stated transformation accuracy 1 m). Source-point accuracy is not separately supplied. This is a source-derived property locator, not founder GPS. The NIAH individual page displays 322012, 255992 without a CRS label; that raw pair is not used for map placement.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED",
+    "feature_type": "PRIMARY_OBJECT",
+    "research_notes": "Official NIAH registration 11323022, Rose Cottage, Greatcommon; Regional rating for Architectural and Social interest; date range 1840–1880 and description c.1860; recorded 2 August 2000. Fingal County Council's 2022 Thatch Project Gazetteer Record FCC-TS-28 independently identifies Rose Cottage AKA Roseville, Skerries Road, Greatcommon, Lusk, and supplies explicit ITM coordinates. The 2022 condition observations are not current 2026 verification. Current survival, thatch condition, occupancy, exact public viewpoint and access require lawful field verification. Do not confuse this property with other houses named Rose Cottage in Tooman or elsewhere.",
+    "last_researched": "2026-11-20"
   }
 ]

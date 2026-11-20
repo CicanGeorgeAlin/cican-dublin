@@ -7189,5 +7189,38 @@
     "notes": "The individual Buildings of Ireland record page was opened and its exact registration number, rating, special-interest categories, original/in-use type, date range, description and appraisal checked. Coordinate attributes are taken from the official national NIAH CSV row matched by REG_NO, not from the unlabelled coordinate pair displayed on the individual page. The CSV explicitly supplies ITM EPSG:2157 and WGS84 latitude/longitude. NIAH metadata warns that source centroids may need revision; positional accuracy is unspecified. Dataset record data is CC BY 4.0. The linked NIAH photograph is not reused; its separate image rights have not been established.",
     "licence": "CC BY 4.0 — NIAH dataset record data only; linked photographs are not reused without separate rights verification.",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "NIAH-50080685",
+    "name": "Iveagh Trust Buildings — Patrick Street blocks — NIAH registration 50080685",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50080685/iveagh-trust-buildings-patrick-street-dublin-8-co-dublin",
+    "accessed": "2026-11-20",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH registration 50080685; rating Regional; categories of special interest Architectural, Artistic, Historical, Social; official description and appraisal transcribed from individual Buildings of Ireland record. Date range 1900–1905; built 1901.",
+    "notes": "Transcribed from the individual public NIAH record page, accessed 20 November 2026. The public page's coordinate pair is not assigned a CRS here and is not used for map placement. NIAH website terms permit educational/private use with source credit; commercial use requires prior written agreement. No NIAH photographs are reused by this archive.",
+    "licence": "NIAH website terms: educational/private use permitted with NIAH credit; commercial use requires prior written agreement. Image reuse rights are separate and not granted by this record citation."
+  },
+  {
+    "id": "NIAH-50080686",
+    "name": "Iveagh Trust Buildings — Bride Street blocks — NIAH registration 50080686",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50080686/iveagh-trust-buildings-bride-street-dublin-8-co-dublin",
+    "accessed": "2026-11-20",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH registration 50080686; rating Regional; categories of special interest Architectural, Artistic, Historical, Social; official description and appraisal transcribed from individual Buildings of Ireland record. Date range 1900–1905; built 1904.",
+    "notes": "Transcribed from the individual public NIAH record page, accessed 20 November 2026. The public page's coordinate pair is not assigned a CRS here and is not used for map placement. NIAH website terms permit educational/private use with source credit; commercial use requires prior written agreement. No NIAH photographs are reused by this archive.",
+    "licence": "NIAH website terms: educational/private use permitted with NIAH credit; commercial use requires prior written agreement. Image reuse rights are separate and not granted by this record citation."
+  },
+  {
+    "id": "NIAH-50070337",
+    "name": "The Whitworth Building (formerly Whitworth Hospital) — NIAH registration 50070337",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50070337/the-whitworth-building-morningstar-avenue-dublin-7-co-dublin",
+    "accessed": "2026-11-20",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH registration 50070337; rating Regional; categories of special interest Architectural, Historical, Social; official description and appraisal transcribed from individual Buildings of Ireland record. Date range 1815–1820; dated 1816.",
+    "notes": "Transcribed from the individual public NIAH record page, accessed 20 November 2026. The public page's coordinate pair is not assigned a CRS here and is not used for map placement. NIAH website terms permit educational/private use with source credit; commercial use requires prior written agreement. No NIAH photographs are reused by this archive.",
+    "licence": "NIAH website terms: educational/private use permitted with NIAH credit; commercial use requires prior written agreement. Image reuse rights are separate and not granted by this record citation."
   }
 ]

@@ -57,6 +57,20 @@
 .icon-button{box-shadow:0 8px 28px #0008}
 @media(max-width:850px){.discovery-panel{bottom:54px!important}.discovery-panel.detail-open{display:flex!important;bottom:54px!important;width:100%;height:calc(100% - 112px);max-height:none;border-radius:16px 16px 0 0}}
  .panel-seo-links{font-size:11px;line-height:1.6;margin:9px 0 0;color:#8d8d8d}.panel-seo-links a{color:inherit;text-decoration:underline;text-underline-offset:3px}.panel-seo-links a:hover{color:#fff}
+
+/* CICAN is a text-only wordmark. The tagline shares its typeface and white colour. */
+.brand{display:flex!important;align-items:flex-start!important;justify-content:flex-start!important;gap:0!important;text-decoration:none!important}
+.brand-emblem,.cican-emblem,.atlas-brand-mark{display:none!important}
+.brand-lockup{display:flex!important;flex-direction:column!important;align-items:flex-start!important;gap:5px!important;min-width:0}
+.brand-wordmark{display:block!important;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif!important;font-size:13px!important;font-weight:800!important;letter-spacing:.24em!important;line-height:1!important;color:#fff!important;text-shadow:0 0 12px #ffffff25!important}
+.brand-tagline{display:block!important;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif!important;font-size:8px!important;font-weight:800!important;letter-spacing:.16em!important;line-height:1.2!important;color:#fff!important;white-space:nowrap}
+.brand-lockup small{display:block!important;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif!important;font-size:8px!important;font-weight:800!important;letter-spacing:.16em!important;line-height:1.2!important;color:#fff!important;white-space:nowrap}
+.atlas-intro-brand{display:flex;align-items:center;gap:0}
+.atlas-intro-brand>span:last-child{display:flex;flex-direction:column;gap:5px}
+.atlas-intro-brand b{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;font-weight:800;letter-spacing:.24em;color:#fff}
+.atlas-intro-brand small{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;font-size:8px;font-weight:800;letter-spacing:.16em;color:#fff}
+@media(max-width:850px){.brand-wordmark{font-size:12px!important}.brand-tagline,.brand-lockup small{font-size:7px!important}}
+
 </style>
 </head>
 <body>
@@ -64,7 +78,7 @@
 <section class="atlas-intro" id="atlas-intro" aria-labelledby="atlas-title">
  <div class="atlas-intro-grid" aria-hidden="true"></div>
  <div class="atlas-intro-content">
-  <div class="atlas-intro-brand"><span class="atlas-brand-mark"><img class="cican-emblem" src="./assets/cican-emblem.svg" alt=""></span><span><b>CICAN</b><small>A DUBLIN EXPERIENCE</small></span></div>
+  <div class="atlas-intro-brand"><span><b>CICAN</b><small>A Dublin Experience</small></span></div>
   <p class="atlas-kicker"><span></span> A CITY OF STORIES, DETAIL BY DETAIL</p>
   <h1 id="atlas-title">CICAN<br><em>A Dublin Experience</em></h1>
   <p class="atlas-intro-copy">Every street holds a story. Every stone has a past. Open the map and discover the details that make this city extraordinary.</p>
@@ -77,7 +91,7 @@
 </section>
 
 <header class="topbar">
- <a class="brand" href="https://cicangeorgealin.github.io/cican-dublin/" aria-label="CICAN home"><img class="brand-emblem" src="./assets/cican-emblem.svg" alt=""><span class="brand-lockup"><span class="brand-wordmark">CICAN</span><span class="brand-tagline">A DUBLIN EXPERIENCE</span></span></a>
+ <a class="brand" href="https://cicangeorgealin.github.io/cican-dublin/" aria-label="CICAN — A Dublin Experience"><span class="brand-lockup"><span class="brand-wordmark">CICAN</span><span class="brand-tagline">A Dublin Experience</span></span></a>
  <div class="topbar-center"><span class="live-dot"></span><span id="catalogue-status">CONNECTING TO CICAN</span></div>
  <button class="icon-button desktop-mode-button" id="saved-mode-toggle" type="button" title="Open saved places" aria-label="Open saved places" aria-pressed="false">♡</button><button class="icon-button" id="locate-button" type="button" title="Centre map on my location" aria-label="Centre map on my location">⌖</button>
 </header>

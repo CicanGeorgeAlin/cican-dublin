@@ -7117,5 +7117,17 @@
     "notes": "The official individual Buildings of Ireland record page was opened and its exact registration number, record identity, rating, date range and descriptive text checked. Coordinate attributes are taken from the official national NIAH CSV row matched by REG_NO, not from the unlabelled coordinate pair displayed on the individual page. The CSV includes explicit ITM EPSG:2157 and WGS84 latitude/longitude. The NIAH dataset warns that source centroids may need revision; positional accuracy is unspecified. Dataset record data is CC BY 4.0. The linked NIAH photograph is not reused; its separate image rights have not been established.",
     "licence": "CC BY 4.0 — NIAH dataset record data only; linked photographs are not reused without separate rights verification.",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "NIAH-11201017",
+    "name": "Lucan Demesne — weir (NIAH registration 11201017) — NIAH registration 11201017",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/11201017/lucan-demesne-lucan-dublin",
+    "accessed": "2026-11-20",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH registration 11201017; local authority South Dublin County Council; rating Regional; original use weir; in-use type weir; date range 1770–1800; special interest Architectural, Technical; date recorded 25/04/2002; survey NIAH Survey of South Dublin County 2002; ITM EPSG:2157 E 702113, N 735363; WGS84 latitude 53.358603, longitude -6.465972.",
+    "notes": "The individual Buildings of Ireland record page was opened and checked for exact registration number, title, rating, special-interest categories, original/in-use type, date range, description and appraisal. Coordinate attributes are taken from the official national NIAH CSV row matched by REG_NO, not from the unlabelled coordinate pair displayed on the individual page. The CSV explicitly supplies ITM EPSG:2157 and WGS84 latitude/longitude. NIAH metadata warns that source centroids may need revision; positional accuracy is unspecified. Dataset record data is CC BY 4.0. The linked NIAH photograph is not reused; its separate image rights have not been established.",
+    "licence": "CC BY 4.0 — NIAH dataset record data only; linked photographs are not reused without separate rights verification.",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/"
   }
 ]

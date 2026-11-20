@@ -1,8 +1,8 @@
 {
   "id": "./app.html",
-  "name": "CICAN DUBLIN — Dublin Heritage Archive",
-  "short_name": "CICAN DUBLIN",
-  "description": "An interactive Dublin heritage map and evidence-led visual archive of historic places, buildings, streets, monuments and overlooked details.",
+  "name": "CICAN — A Dublin Experience",
+  "short_name": "CICAN",
+  "description": "A living Dublin experience: discover historic places, architecture, streets and overlooked heritage details through an evidence-led interactive archive.",
   "start_url": "./app.html",
   "scope": "./",
   "display": "standalone",

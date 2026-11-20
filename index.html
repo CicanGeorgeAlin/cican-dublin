@@ -6,40 +6,45 @@
 <base href="./preview/">
 <meta name="theme-color" content="#050505">
 <link rel="canonical" href="https://cicangeorgealin.github.io/cican-dublin/">
-<meta name="description" content="Explore Dublin’s NIAH-registered heritage places in the CICAN DUBLIN evidence-led interactive map and visual archive.">
+<meta name="description" content="CICAN — A Dublin Experience. Explore Dublin through an evidence-led heritage map, historic places, architecture and overlooked details.">
 <meta name="author" content="CICAN GEORGE ALIN">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="CICAN DUBLIN">
+<meta property="og:site_name" content="CICAN — A Dublin Experience">
 <meta property="og:url" content="https://cicangeorgealin.github.io/cican-dublin/">
 <meta property="og:image" content="https://cicangeorgealin.github.io/cican-dublin/assets/social-preview.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="CICAN">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="CICAN Dublin | NIAH Heritage Map &amp; Archive">
-<meta name="twitter:description" content="Explore Dublin's historic places, landmarks, monuments, buildings and streets through an evidence-based interactive heritage map and visual archive.">
+<meta name="twitter:title" content="CICAN — A Dublin Experience">
+<meta name="twitter:description" content="Discover Dublin’s historic places, architecture, streets and overlooked details through CICAN’s living heritage map and visual archive.">
 <meta name="twitter:image" content="https://cicangeorgealin.github.io/cican-dublin/assets/social-preview.png">
-<meta property="og:title" content="CICAN DUBLIN | Interactive Dublin Heritage Map &amp; Visual Archive">
-<meta property="og:description" content="Explore Dublin's historic places, landmarks, monuments, buildings and streets through an evidence-based interactive heritage map and visual archive.">
+<meta property="og:title" content="CICAN — A Dublin Experience">
+<meta property="og:description" content="Discover Dublin’s historic places, architecture, streets and overlooked details through CICAN’s living heritage map and visual archive.">
 <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
 <link rel="manifest" href="./manifest.webmanifest">
 <link rel="preconnect" href="https://unpkg.com" crossorigin>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.css" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.css"></noscript>
 <link rel="stylesheet" href="./app/app.css">
-<title>CICAN Dublin | NIAH Heritage Map &amp; Archive</title>
+<title>CICAN — A Dublin Experience | Heritage Map &amp; Archive</title>
 <style>
 /* Minimal CICAN wordmark; keep the map and interactions as the focus. */
 .topbar{position:absolute;top:0;left:0;right:0;height:104px;min-height:104px;align-items:center;padding:0 24px;gap:8px;background:linear-gradient(180deg,#05050550 0%,#0505051c 58%,transparent 100%);border:0;backdrop-filter:blur(1.5px)}
-.brand{display:flex;align-items:center;justify-content:center;min-width:0;max-width:360px}
-.brand-wordmark{display:block;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;font-size:13px!important;font-weight:800!important;letter-spacing:.22em!important;line-height:1;color:#f5f5f5!important;text-shadow:0 0 12px #ffffff25!important}
+.brand{display:flex;align-items:center;justify-content:flex-start;gap:10px;min-width:0;max-width:360px;text-decoration:none}
+.brand-emblem{display:block;width:38px;height:38px;flex:0 0 38px;filter:drop-shadow(0 0 10px #c8b58e22)}
+.brand-lockup{display:flex;flex-direction:column;gap:5px;min-width:0}
+.brand-wordmark{display:block;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;font-size:13px!important;font-weight:800!important;letter-spacing:.24em!important;line-height:1;color:#f5f5f5!important;text-shadow:0 0 12px #ffffff25!important}
+.brand-tagline{display:block;font-size:7px;font-weight:600;letter-spacing:.13em;line-height:1;color:#c8b58e;white-space:nowrap}
 .topbar-center{color:#e0e0e0;text-shadow:0 1px 5px #000}
 .brand-mark{box-shadow:0 0 24px #fff2}
 @media(max-width:850px){
  .topbar{height:100px;min-height:100px;padding:0 14px;gap:8px}
  .brand{max-width:calc(100vw - 112px)}
- .brand-wordmark{font-size:13px!important;letter-spacing:.22em!important}
+ .brand-emblem{width:32px;height:32px;flex-basis:32px}
+ .brand-wordmark{font-size:12px!important;letter-spacing:.22em!important}
+ .brand-tagline{font-size:6px;letter-spacing:.1em}
  .topbar-center{font-size:6px;letter-spacing:.04em}
 }
 @media(max-width:520px){.topbar-center{display:none}.brand{max-width:calc(100vw - 108px)}}
@@ -59,9 +64,9 @@
 <section class="atlas-intro" id="atlas-intro" aria-labelledby="atlas-title">
  <div class="atlas-intro-grid" aria-hidden="true"></div>
  <div class="atlas-intro-content">
-  <div class="atlas-intro-brand"><span class="atlas-brand-mark"><img class="cican-emblem" src="./assets/cican-emblem.svg" alt=""></span><span><b>CICAN</b><small>DUBLIN</small></span></div>
+  <div class="atlas-intro-brand"><span class="atlas-brand-mark"><img class="cican-emblem" src="./assets/cican-emblem.svg" alt=""></span><span><b>CICAN</b><small>A DUBLIN EXPERIENCE</small></span></div>
   <p class="atlas-kicker"><span></span> A CITY OF STORIES, DETAIL BY DETAIL</p>
-  <h1 id="atlas-title">CICAN Dublin<br><em>is more than</em><br>a heritage map.</h1>
+  <h1 id="atlas-title">CICAN<br><em>A Dublin Experience</em></h1>
   <p class="atlas-intro-copy">Every street holds a story. Every stone has a past. Open the map and discover the details that make this city extraordinary.</p>
   <div class="atlas-intro-bottom">
    <button class="atlas-enter" id="enter-atlas" type="button"><span>OPEN THE ATLAS</span><b>↗</b></button>
@@ -72,8 +77,8 @@
 </section>
 
 <header class="topbar">
- <a class="brand" href="https://cicangeorgealin.github.io/cican-dublin/" aria-label="CICAN home"><span class="brand-wordmark">CICAN</span></a>
- <div class="topbar-center"><span class="live-dot"></span><span id="catalogue-status">CONNECTING TO CICAN DUBLIN</span></div>
+ <a class="brand" href="https://cicangeorgealin.github.io/cican-dublin/" aria-label="CICAN home"><img class="brand-emblem" src="./assets/cican-emblem.svg" alt=""><span class="brand-lockup"><span class="brand-wordmark">CICAN</span><span class="brand-tagline">A DUBLIN EXPERIENCE</span></span></a>
+ <div class="topbar-center"><span class="live-dot"></span><span id="catalogue-status">CONNECTING TO CICAN</span></div>
  <button class="icon-button desktop-mode-button" id="saved-mode-toggle" type="button" title="Open saved places" aria-label="Open saved places" aria-pressed="false">♡</button><button class="icon-button" id="locate-button" type="button" title="Centre map on my location" aria-label="Centre map on my location">⌖</button>
 </header>
 <main class="workspace">
@@ -92,7 +97,7 @@
  </section>
  <aside class="discovery-panel" id="discovery-panel">
   <button class="panel-grip" id="panel-grip" type="button" aria-label="Expand discovery panel" aria-expanded="false"><span></span></button>
-  <div class="panel-head"><div><p class="eyebrow">THE CITY, DETAIL BY DETAIL</p><h2 id="panel-title">CICAN Dublin — Dublin’s Heritage Archive</h2><p class="panel-intro" id="panel-intro">Explore Dublin’s historic buildings, streets, monuments and overlooked details through an independent, evidence-led visual heritage archive created by CICAN GEORGE ALIN. Browse researched places, source references, mapped locations and fieldwork notes.</p><p class="panel-seo-links"><a href="https://cicangeorgealin.github.io/cican-dublin/archive.html">Browse the Dublin heritage archive</a><span aria-hidden="true"> · </span><a href="https://cicangeorgealin.github.io/cican-dublin/about.html">About CICAN DUBLIN</a></p><div class="archive-stats" id="archive-stats" aria-live="polite"><span><b>—</b><small>CATALOGUE RECORDS</small></span><i></i><span><b>—</b><small>DOCUMENTED</small></span><i></i><span><b>—</b><small>IN REVIEW</small></span></div></div><button class="panel-close" id="close-detail" type="button" aria-label="Close detail" hidden>×</button></div>
+  <div class="panel-head"><div><p class="eyebrow">THE CITY, DETAIL BY DETAIL</p><h2 id="panel-title">CICAN — A Dublin Experience</h2><p class="panel-intro" id="panel-intro">Explore Dublin’s historic buildings, streets, monuments and overlooked details through an independent, evidence-led visual heritage archive created by CICAN GEORGE ALIN. Browse researched places, source references, mapped locations and fieldwork notes.</p><p class="panel-seo-links"><a href="https://cicangeorgealin.github.io/cican-dublin/archive.html">Browse the Dublin heritage archive</a><span aria-hidden="true"> · </span><a href="https://cicangeorgealin.github.io/cican-dublin/about.html">About CICAN DUBLIN</a></p><div class="archive-stats" id="archive-stats" aria-live="polite"><span><b>—</b><small>CATALOGUE RECORDS</small></span><i></i><span><b>—</b><small>DOCUMENTED</small></span><i></i><span><b>—</b><small>IN REVIEW</small></span></div></div><button class="panel-close" id="close-detail" type="button" aria-label="Close detail" hidden>×</button></div>
   <div class="panel-toolbar" id="panel-toolbar"><span id="result-count">LOADING ARCHIVE</span><div class="toolbar-actions"><button id="nearby-button" class="text-button" type="button">⌖ NEAR ME</button><button id="saved-toggle" class="text-button" type="button">♡ SAVED</button></div></div>
   <div id="results" class="results" aria-live="polite"><div class="loading">Loading Dublin discoveries…</div></div>
   <section id="detail-view" class="detail-view" hidden></section>

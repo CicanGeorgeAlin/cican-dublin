@@ -656,8 +656,8 @@
     "url": "https://www.fingal.ie/sites/default/files/2023-02/Fingal%20Thatch%20Project%202022_Report.pdf",
     "accessed": "2026-11-20",
     "source_type": "OFFICIAL_LOCAL_AUTHORITY_REPORT",
-    "specific_reference": "Gazetteer Record FCC-TS-27, Kilbush House, Kilbush Lane, Rush; NIAH 11324032; RPS 264; ITM east 727000.8903, north 754343.8243; description and appraisal.",
-    "notes": "The 2022 Fingal survey independently links Kilbush House to NIAH 11324032 and supplies explicitly labelled ITM coordinates, a detailed building description and an appraisal. It documents survey-era condition and thatched fabric, not current 2026 condition. The report's embedded photograph is not imported as a reusable archive image because its separate image reuse licence has not been established."
+    "specific_reference": "Gazetteer Record FCC-TS-27, Kilbush House, Kilbush Lane, Rush; NIAH 11324032; RPS 264; ITM east 727000.8903, north 754343.8243; description and appraisal. Also gazetteer Record FCC-TS-28, Rose Cottage AKA Roseville, Skerries Road, Greatcommon, Lusk; NIAH 11323022; RPS 306; ITM east 721936.5424, north 756013.5006; description and appraisal.",
+    "notes": "The 2022 Fingal survey independently links Kilbush House to NIAH 11324032 and supplies explicitly labelled ITM coordinates, a detailed building description and an appraisal. It documents survey-era condition and thatched fabric, not current 2026 condition. The report's embedded photograph is not imported as a reusable archive image because its separate image reuse licence has not been established. The same report also records Rose Cottage / Roseville (FCC-TS-28; NIAH 11323022) with explicitly labelled ITM coordinates and a detailed 2022 description/appraisal. These are survey-era observations, not confirmation of current condition. Its embedded photograph has not been reused because a separate image licence has not been established."
   },
   {
     "id": "GEO-DUB-BLD-0009-2012-01",
@@ -5833,5 +5833,15 @@
     "accessed": "2026-11-06",
     "source_type": "WIKIMEDIA_COMMONS_PHOTOGRAPH",
     "specific_reference": "The Woolstore, Dublin 1"
+  },
+  {
+    "id": "NIAH-11323022",
+    "name": "Rose Cottage, Greatcommon, Co. Dublin — NIAH registration 11323022",
+    "publisher": "National Inventory of Architectural Heritage, Department of Housing, Local Government and Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/11323022/rose-cottage-greatcommon-co-dublin",
+    "accessed": "2026-11-20",
+    "source_type": "OFFICIAL_NIAH_RECORD",
+    "specific_reference": "Registration 11323022; Regional rating; Architectural and Social interest; house; date 1840–1880, described c.1860; recorded 02/08/2000; description and displayed coordinate pair 322012, 255992 (CRS not labelled on individual page).",
+    "notes": "Primary official NIAH individual record. Used for registration identity, rating, interests, date range and architectural description. The page's coordinate pair is not assigned a CRS on the page and is not used for map placement."
   }
 ]

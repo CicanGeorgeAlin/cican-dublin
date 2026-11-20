@@ -2,7 +2,7 @@
   "version": "1.0",
   "audited_on": "2026-11-20",
   "scope": "Dublin City and County Dublin",
-  "catalogue_total": 460,
+  "catalogue_total": 461,
   "administrative_assignment_status": "NOT_SPATIALLY_VERIFIED",
   "administrative_assignment_note": "No local-authority record counts are published in this audit. Postal-district labels cannot be substituted for point-in-polygon checks. The official 2026 polygon dataset has been identified; geometry import and spatial assignment await reuse-licence confirmation and a coordinate-precision review.",
   "local_authorities": [
@@ -41,10 +41,34 @@
   ],
   "postal_districts": [
     {
+      "name": "Cappagh, County Dublin",
+      "record_count": 2,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "New settlement work-zone label from NIAH 11205029 and 11205034; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
+      "name": "Corballis, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "One new NIAH work-zone record: Corballis House. This settlement label is not a verified local-authority assignment."
+    },
+    {
+      "name": "Donabate, County Dublin",
+      "record_count": 7,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "Settlement work-zone label, not a postal district or local-authority assignment. Count reconciled from data/objects.json after Discovery Batch 146; coverage remains a sample, not exhaustive."
+    },
+    {
       "name": "Dublin 1",
       "record_count": 108,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "Count reconciled from data/objects.json; includes Batch 140 additions. Coverage remains a sample, not exhaustive."
+    },
+    {
+      "name": "Dublin 11",
+      "record_count": 19,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "Count reconciled from data/objects.json after Discovery Batch 144; includes Prospect Square, cemetery structures and monuments, Farrelly's Cottages and Old Finglas Road. Coverage remains a sample, not exhaustive."
     },
     {
       "name": "Dublin 17",
@@ -95,52 +119,10 @@
       "coverage_note": "Count reconciled from data/objects.json after Discovery Batch 144; includes newly catalogued Botanic Gardens structures, a cemetery hydrant and John Kavanagh's. Coverage remains a sample, not exhaustive."
     },
     {
-      "name": "Loughlinstown, County Dublin",
-      "record_count": 1,
+      "name": "Kilcrea, County Dublin",
+      "record_count": 2,
       "status": "RESEARCH_IN_PROGRESS",
-      "coverage_note": "Settlement work-zone label, not a postal district or local-authority assignment. Count reconciled from data/objects.json after Discovery Batch 146; coverage remains a sample, not exhaustive."
-    },
-    {
-      "name": "Malahide, County Dublin",
-      "record_count": 1,
-      "status": "RESEARCH_IN_PROGRESS",
-      "coverage_note": "Settlement work-zone label, not a postal district or local-authority assignment. Count reconciled from data/objects.json after Discovery Batch 146; coverage remains a sample, not exhaustive."
-    },
-    {
-      "name": "Sutton, County Dublin",
-      "record_count": 1,
-      "status": "RESEARCH_IN_PROGRESS",
-      "coverage_note": "Settlement work-zone label, not a postal district or local-authority assignment. Count reconciled from data/objects.json after Discovery Batch 146; coverage remains a sample, not exhaustive."
-    },
-    {
-      "name": "Dublin 11",
-      "record_count": 19,
-      "status": "RESEARCH_IN_PROGRESS",
-      "coverage_note": "Count reconciled from data/objects.json after Discovery Batch 144; includes Prospect Square, cemetery structures and monuments, Farrelly's Cottages and Old Finglas Road. Coverage remains a sample, not exhaustive."
-    },
-    {
-      "name": "Lusk, County Dublin",
-      "record_count": 4,
-      "status": "RESEARCH_IN_PROGRESS",
-      "coverage_note": "Settlement work-zone label, not a postal district or local-authority assignment. Count reconciled from data/objects.json after Discovery Batch 146; coverage remains a sample, not exhaustive."
-    },
-    {
-      "name": "Swords, County Dublin",
-      "record_count": 11,
-      "status": "RESEARCH_IN_PROGRESS",
-      "coverage_note": "Settlement work-zone label, not a postal district or local-authority assignment. Count reconciled from data/objects.json after Discovery Batch 146; coverage remains a sample, not exhaustive."
-    },
-    {
-      "name": "Skerries, County Dublin",
-      "record_count": 1,
-      "status": "RESEARCH_IN_PROGRESS",
-      "coverage_note": "Settlement work-zone label, not a postal district or local-authority assignment. Count reconciled from data/objects.json after Discovery Batch 146; coverage remains a sample, not exhaustive."
-    },
-    {
-      "name": "Donabate, County Dublin",
-      "record_count": 7,
-      "status": "RESEARCH_IN_PROGRESS",
-      "coverage_note": "Settlement work-zone label, not a postal district or local-authority assignment. Count reconciled from data/objects.json after Discovery Batch 146; coverage remains a sample, not exhaustive."
+      "coverage_note": "Two new NIAH work-zone records: Kilcrea House and the Kilcrea railway bridge. This settlement label is not a verified local-authority assignment."
     },
     {
       "name": "Killeek, County Dublin",
@@ -149,10 +131,22 @@
       "coverage_note": "Settlement work-zone label, not a postal district or local-authority assignment. Count reconciled from data/objects.json after Discovery Batch 146; coverage remains a sample, not exhaustive."
     },
     {
-      "name": "Cappagh, County Dublin",
-      "record_count": 2,
+      "name": "Loughlinstown, County Dublin",
+      "record_count": 1,
       "status": "RESEARCH_IN_PROGRESS",
-      "coverage_note": "New settlement work-zone label from NIAH 11205029 and 11205034; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+      "coverage_note": "Settlement work-zone label, not a postal district or local-authority assignment. Count reconciled from data/objects.json after Discovery Batch 146; coverage remains a sample, not exhaustive."
+    },
+    {
+      "name": "Lusk, County Dublin",
+      "record_count": 4,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "Settlement work-zone label, not a postal district or local-authority assignment. Count reconciled from data/objects.json after Discovery Batch 146; coverage remains a sample, not exhaustive."
+    },
+    {
+      "name": "Malahide, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "Settlement work-zone label, not a postal district or local-authority assignment. Count reconciled from data/objects.json after Discovery Batch 146; coverage remains a sample, not exhaustive."
     },
     {
       "name": "Neillstown, County Dublin",
@@ -167,16 +161,28 @@
       "coverage_note": "New settlement work-zone label from NIAH 11205039; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
     },
     {
-      "name": "Kilcrea, County Dublin",
-      "record_count": 2,
-      "status": "RESEARCH_IN_PROGRESS",
-      "coverage_note": "Two new NIAH work-zone records: Kilcrea House and the Kilcrea railway bridge. This settlement label is not a verified local-authority assignment."
-    },
-    {
-      "name": "Corballis, County Dublin",
+      "name": "Rush, County Dublin",
       "record_count": 1,
       "status": "RESEARCH_IN_PROGRESS",
-      "coverage_note": "One new NIAH work-zone record: Corballis House. This settlement label is not a verified local-authority assignment."
+      "coverage_note": "Fingal settlement work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json. Coverage remains a sample, not exhaustive."
+    },
+    {
+      "name": "Skerries, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "Settlement work-zone label, not a postal district or local-authority assignment. Count reconciled from data/objects.json after Discovery Batch 146; coverage remains a sample, not exhaustive."
+    },
+    {
+      "name": "Sutton, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "Settlement work-zone label, not a postal district or local-authority assignment. Count reconciled from data/objects.json after Discovery Batch 146; coverage remains a sample, not exhaustive."
+    },
+    {
+      "name": "Swords, County Dublin",
+      "record_count": 11,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "Settlement work-zone label, not a postal district or local-authority assignment. Count reconciled from data/objects.json after Discovery Batch 146; coverage remains a sample, not exhaustive."
     }
   ],
   "districts_without_catalogue_records": [

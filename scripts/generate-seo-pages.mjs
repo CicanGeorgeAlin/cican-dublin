@@ -24,7 +24,7 @@ for (const record of objects) {
   if (!/^[A-Z0-9-]+$/.test(id)) throw new Error("Unsafe archive ID: " + id);
   const url = BASE + "/places/" + encodeURIComponent(id) + ".html";
   const rawTitleName = compact(record.name);
-  const shortTitleName = rawTitleName.length > 44 ? rawTitleName.slice(0, 43).replace(/\\s+\\S*$/, "") + "…" : rawTitleName;
+  const shortTitleName = rawTitleName.length > 44 ? rawTitleName.slice(0, 43).replace(/\s+\S*$/, "") + "…" : rawTitleName;
   const title = shortTitleName + " | CICAN Dublin";
   const description = descriptionFor(record);
   const visual = visualById.get(id) || {};

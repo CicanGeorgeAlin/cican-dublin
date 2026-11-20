@@ -5753,5 +5753,65 @@
     "source_type": "OFFICIAL_CONSERVATION_PLAN",
     "specific_reference": "Appendix A3, Recorded Monuments within the Study Area; RMP DU017-041003, DU017-041004 and DU017-041007; PDF pages 36–37.",
     "notes": "The Council-commissioned plan reproduces RMP descriptions for two distinct Clondalkin granite crosses: a low cross with damaged head, ringed cross on west face and Latin cross on south face (DU017-041003), and a taller plain granite cross with asymmetrical arms (DU017-041004). Positions are described relative to the medieval church fragment. DU017-041007 is listed as a font but no detailed description was extracted. Reproduced RMP descriptions do not establish present survival, condition or exact GPS."
+  },
+  {
+    "id": "FINGAL-DONABATE-PORTRANE-HERITAGE-AUDIT-2022",
+    "name": "Donabate–Portrane Heritage Assets Audit Report (2022)",
+    "publisher": "Fingal County Council; archaeological inventory compiled by Trim Archaeology Projects",
+    "url": "https://www.fingal.ie/sites/default/files/2023-03/Donabate%20Portrane%20Heritage%20Audit%20Report%20FINAL%2019.09.2022.pdf",
+    "accessed": "2026-11-20",
+    "source_type": "OFFICIAL_LOCAL_AUTHORITY_REPORT",
+    "specific_reference": "Kilcrea and Corballis archaeological inventory; SMR DU012-016001, DU012-016002, DU012-017, DU012-018, DU012-072; NIAH Mack's Bridge 11336004; site inspections September 2021.",
+    "notes": "Provides field observations, classifications, access status and explicitly labelled ITM/Irish Grid coordinate pairs for Kilcrea and Corballis archaeological assets. Church and graveyard were described as extremely overgrown and partially accessible in 2021; tidal mill marked inaccessible; enclosure/ring-ditch records based on cropmark evidence and not visible at ground level. These are dated survey observations, not present-day condition claims."
+  },
+  {
+    "id": "BROADMEADOW-WAY-EIAR-2019",
+    "name": "Broadmeadow Way EIAR Appendix 1 — Constraints Report (May 2019)",
+    "publisher": "Fingal County Council; Clifton Scannell Emerson Associates and Creagh House Environmental Ltd",
+    "url": "https://www.pleanala.ie/publicaccess/EIAR-NIS/304624/00-Broadmeadow%20Way%20EIAR%20and%20NIS-Digital/EIAR%20Documents/Volume%204%20PDF/Broadmeadow%20Way-Vol%204A-EIAR%20Appendix%201%20%28May%202019%29.pdf",
+    "accessed": "2026-11-20",
+    "source_type": "ENVIRONMENTAL_IMPACT_ASSESSMENT_HERITAGE_SURVEY",
+    "specific_reference": "Architectural heritage constraints schedule rows identifying Mack's Bridge NIAH 11336004 (ITM 721957,749441), Kilcrea House 11336025 (ITM 721763,748728), and Kilcrea railway bridge 11336027 (ITM 722586,748520).",
+    "notes": "Official EIAR appendix explicitly labels the three coordinate pairs as ITM. It provides a source-derived constraint locator, not founder GPS or an independently surveyed building footprint. Use EPSG:2157 for the ITM coordinates and preserve source accuracy separately from transformation accuracy."
+  },
+  {
+    "id": "NIAH-11336025",
+    "name": "Kilcrea House — NIAH registration 11336025",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/11336025/kilcrea-house-fingal",
+    "accessed": "2026-11-20",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH 11336025; Kilcrea, County Dublin; Irish Grid E 321712, N 248739; recorded 1 August 2000.",
+    "notes": "Official individual record: Regional rating; Architectural and Artistic interest; farmhouse, date range 1780–1820, described c.1800; detached five-bay two-storey house with parallel range, return, later c.1985 renovation/refenestration and added porch. The EIAR provides a separately labelled ITM coordinate pair for the same NIAH registration."
+  },
+  {
+    "id": "NIAH-11336027-SEARCH",
+    "name": "Kilcrea railway bridge — NIAH 11336027 county search record",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/?county=DU&date_from=&date_to=&group=&location_type=building&query=&search_page=5&town=&townland=&type=",
+    "accessed": "2026-11-20",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH County Dublin search result 11336027; metal railway bridge spanning between stone piers, c.1860, altered c.1960.",
+    "notes": "Official NIAH county search result supports the registration and brief description. Individual NIAH page details were not independently retrieved in this batch. EIAR Appendix 1 provides explicit ITM E 722586, N 748520."
+  },
+  {
+    "id": "NIAH-11336028",
+    "name": "Corballis House — NIAH registration 11336028",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/11336028/corballis-house-fingal",
+    "accessed": "2026-11-20",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH 11336028; Corballis, County Dublin; individual-page coordinate E 323483, N 248689; recorded 9 August 2000.",
+    "notes": "Official individual NIAH record: Regional rating; Architectural interest; farmhouse, date range 1800–1860, described c.1830; detached three-bay two-storey house with dormer attic, projecting bay, rear return, attached former farm buildings and farmyard group. Page coordinate is treated as legacy Irish Grid / National Grid (EPSG:29902), not ITM."
+  },
+  {
+    "id": "DONABATE-LAP-2016",
+    "name": "Donabate Local Area Plan 2016 — protected structures and archaeological heritage",
+    "publisher": "Fingal County Council",
+    "url": "https://www.fingal.ie/sites/default/files/2019-03/Donabate%20LAP%202016%20-%20Text%20Part%203.pdf",
+    "accessed": "2026-11-20",
+    "source_type": "OFFICIAL_POLICY",
+    "specific_reference": "Section 5; RPS 502, Railway Bridge, Corballis Road, Kilcrea; RPS 505, Vernacular House and Former Forge, Hearse Road, Donabate.",
+    "notes": "Council plan lists RPS 502 as a stone rail bridge over a road in Kilcrea. This is a possible match to NIAH 11336027 but the cross-reference is not explicitly stated. RPS 505 relates to the Hearse Road house/forge group, already represented in the CICAN catalogue as DUB-BLD-0179 / NIAH 11336026; do not duplicate it."
   }
 ]

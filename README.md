@@ -8,6 +8,14 @@ An evidence-first discovery, research, fieldwork and visual-preservation archive
 
 https://cicangeorgealin.github.io/cican-dublin/
 
+## Stage 1: NIAH-registered Dublin catalogue
+
+The live map and archive now use `data/niah-registered-objects.json`, a curated Stage 1 collection containing **340 unique eight-digit NIAH registration numbers**. The 460-record master catalogue remains preserved in `data/objects.json` for provenance and later research; it is not the live Stage 1 display source.
+
+Selection rules: only records whose `national_inventory_reference` field is exactly one eight-digit numeric NIAH reference are eligible. Repeated catalogue records carrying the same NIAH number are consolidated to one canonical record for the live Stage 1 collection. A canonical building/primary-object record is preferred over a separately catalogued detail when both share the same parent registration. The excluded records remain in the master catalogue; they have not been deleted.
+
+Snapshot 20 November 2026: 460 master records reviewed; 406 rows had an exact eight-digit reference field; these represented 340 distinct registration numbers. The live NIAH collection therefore contains 340 canonical records. A further 54 master rows were excluded because their reference field was absent or contained only a parent association/other register reference; 66 repeated rows were consolidated. This is a structural filter, not yet an independent full-row reconciliation against the latest official four-authority NIAH export.
+
 ## Current catalogue
 
 **Snapshot: 20 November 2026.** The production catalogue contains **460 records** linked to **577 registered source entries**.

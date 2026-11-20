@@ -24,7 +24,9 @@ The data.gov.ie listing for the National Inventory of Architectural Heritage Nat
 - Publisher: Department of Housing, Local Government and Heritage.
 - Format: national CSV download.
 - Licence: Creative Commons Attribution 4.0.
-- Listing metadata reports a data update on **10 November 2026**.
+- Dataset-level metadata currently reports **11 January 2024** as its last update.
+- The linked national CSV bulk snapshot is labelled with version date **11 October 2023**.
+- The separately catalogued NIAH ArcGIS Feature Service resource reports data and metadata last updated **16 September 2026**.
 - The dataset describes the NIAH's statutory purpose as identifying, recording and evaluating Ireland's post-1700 architectural heritage.
 - The CSV is a snapshot; the listing also directs users to live GIS web services and the Historic Environment Viewer for current views.
 
@@ -34,7 +36,7 @@ https://data.gov.ie/dataset/national-inventory-of-architectural-heritage-niah-na
 CSV resource:
 https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data
 
-The 10 November 2026 date is the listing's reported update date. It should not be mistaken for an independently inspected CSV file's internal version date until the file is downloaded and its metadata/header is checked.
+The three dates belong to different resources/metadata fields and must not be conflated: the CSV snapshot's stated version date is 11 October 2023; the dataset-level data.gov.ie metadata says 11 January 2024; and the separately listed ArcGIS Feature Service resource reports 16 September 2026. The live service is therefore the freshest currently documented source in the reviewed metadata, while the CSV is a historical snapshot until its file is inspected.
 
 ### Official NIAH data download page
 

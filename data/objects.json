@@ -21809,5 +21809,44 @@
     "feature_type": "PRIMARY_OBJECT",
     "last_researched": "2026-11-20",
     "research_notes": "NIAH-only Stage 1 Batch 031. Exact registration 11201014 confirmed in the official national CSV and the individual Buildings of Ireland record page. Local authority: South Dublin County Council. Rating: Regional. Original type: country house. Date range: 1750–1780. Special interest: ARCHITECTURAL. Survey: NIAH Survey of South Dublin County 2002. The official national CSV provides ITM EPSG:2157 coordinates and WGS84 latitude/longitude; these are source-derived centroids, not founder GPS. The individual-page coordinate pair has no CRS label and is not used. Present survival, condition, exact on-site position, access and photography permissions remain unverified. NIAH-linked photographs were not reused because their separate image rights were not established."
+  },
+  {
+    "id": "DUB-INF-0205",
+    "name": "Lucan Demesne — weir (NIAH 11201017)",
+    "category": "INFRASTRUCTURE",
+    "district": "Lucan, County Dublin",
+    "address": "Lucan Demesne, Lucan, County Dublin, Ireland",
+    "historical_period": "1770–1800 (c.1785)",
+    "historical_description": "The official NIAH record describes a single-stage weir of coursed and uncoursed limestone rubble, with a central spine of dressed limestone. A sluice on the north side of the river has a groove for former sluice gates.",
+    "historical_significance": "The NIAH appraisal identifies it as an unusual late-eighteenth-century weir, partly formed using the river bedrock, and suggests it probably served a mill on the north bank, of which it is now the last remnant.",
+    "national_inventory_reference": "11201017",
+    "national_grid_reference": null,
+    "latitude": 53.358603,
+    "longitude": -6.465972,
+    "coordinate_source": "Official NIAH national CSV: ITM_E=702113, ITM_N=735363 (EPSG:2157); LATITUDE=53.358603, LONGITUDE=-6.465972 copied directly from the same source. NIAH metadata warns that point centroids were digitised relative to OSI 6-inch mapping and may need revision against larger-scale mapping. Source positional accuracy is unspecified. This is not founder GPS. The unlabelled coordinate pair displayed on the individual NIAH page (302169, 235339) is preserved in Batch 032 documentation only and is not used for mapping.",
+    "coordinate_accuracy_m": null,
+    "coordinate_status": "SOURCE_DERIVED",
+    "address_source": "NIAH-11201017",
+    "verification_status": "PARTIALLY_VERIFIED",
+    "photography_status": "TO_PHOTOGRAPH",
+    "line_art_status": "TO_CREATE",
+    "publication_status": "NOT_PUBLISHED",
+    "parent_id": null,
+    "access_status": "Not assessed. Confirm lawful public access, riverbank conditions and site rules before visiting. The NIAH record does not establish current access or present-day condition.",
+    "photography_restrictions": "Photograph only from lawful public space or with permission. Do not enter the river, climb onto the weir, cross barriers or approach unstable/wet banks. Do not disturb the structure or watercourse.",
+    "map_url": "https://www.google.com/maps/dir/?api=1&destination=53.358603%2C-6.465972&travelmode=walking",
+    "photography_brief": [
+      "Overall view of the weir from a safe, lawful public vantage point",
+      "Limestone rubble construction and central dressed-stone spine, if visible without approaching the water",
+      "North-side sluice groove, only where safely visible from public space",
+      "Relationship between the weir, river channel and surviving mill landscape, without entering restricted land"
+    ],
+    "sources": [
+      "NIAH-11201017",
+      "SRC-NIAH-NATIONAL-DATASET"
+    ],
+    "feature_type": "PRIMARY_OBJECT",
+    "last_researched": "2026-11-20",
+    "research_notes": "NIAH-only Stage 1 Batch 032. Exact registration 11201017 confirmed on the individual Buildings of Ireland record page and matched to the official national CSV by REG_NO. The individual page identifies Regional rating, Architectural and Technical interest, original/in-use type weir, date range 1770–1800, and survey date 25/04/2002. Official national CSV assigns South Dublin County Council and provides ITM EPSG:2157 E 702113, N 735363 plus WGS84 53.358603, -6.465972. The unlabelled coordinate pair shown on the individual page is not used for mapping. Current survival, condition, exact on-site position, access and founder photography remain unverified. No NIAH-linked photograph is reused because separate image rights have not been established."
   }
 ]

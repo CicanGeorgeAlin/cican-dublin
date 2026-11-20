@@ -12,14 +12,14 @@ Resume under the binding [CICAN NIAH Gold Standard Publication Protocol](CICAN-N
 
 The GitHub Contents endpoint returned empty content for the two large JSON files, but the Git blob endpoint successfully returned their complete contents. This resolves the earlier technical blocker for local catalogue inspection.
 
-| File | Records | Git blob SHA |
+| File | Records | Repository blob identifier as returned by the API |
 |---|---:|---|
-| `data/objects.json` | 574 | `1fd2cd93b6d42b25a3641c87` |
+| `data/objects.json` | 574 | `1fd2cd93b6d42b25a3641c87` (API returned an abbreviated 24-character identifier) |
 | `data/niah-registered-objects.json` | 454 | `4895c933c01390490aa4733c56c4c3085b7f5dee` |
 | `data/sources.json` | 692 | `9630c3ea68a8cd26eabb95b9717d7f467673dc45` |
 | `data/visual-assets.json` | 574 visual records | `915676b5ad1772cb5c4d48ea6663eed47abd3315` |
 
-All four datasets were parsed in full during this preflight. These are current repository blob identifiers observed on 20 November 2026, not checksums of the external NIAH dataset.
+All four datasets were parsed in full during this preflight. These are repository blob identifiers as returned by the GitHub API on 20 November 2026 (the objects.json identifier was returned abbreviated), not checksums of the external NIAH dataset.
 
 ## Structural preflight findings
 

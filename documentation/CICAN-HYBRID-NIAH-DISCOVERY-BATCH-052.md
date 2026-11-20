@@ -128,3 +128,8 @@ The GitHub Pages workflow generates crawlable place pages and the sitemap from t
 2. Continue the next 3–5 Dublin City NIAH candidates, checking exact REG_NO, title, aliases, address and nearby separately registered assets before publication.
 3. Continue exact national-row enrichment for these five records and the separate retrospective audit. Do not delay productive discovery solely because the national bulk endpoint is inaccessible.
 4. Keep all five awaiting founder field photography; do not claim present survival or access without field evidence.
+
+
+## Post-publication integrity correction
+
+The first quality-gate run exposed a pre-existing Batch 051 cross-catalogue inconsistency: the three Batch 051 public NIAH entries (50060551, 50020320 and 50130155) were present in the public register but their matching master objects lacked the `national_inventory_reference` field. The three master objects were corrected by adding their exact references from their existing individual NIAH source records. No object identity, description, coordinate or status was changed. The subsequent quality run must confirm the master/public reference sets reconcile exactly.

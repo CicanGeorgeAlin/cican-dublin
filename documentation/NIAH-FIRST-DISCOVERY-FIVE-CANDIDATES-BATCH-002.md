@@ -30,7 +30,7 @@ These authority assignments are locality-based research labels, not yet point-in
 - **Special-interest categories:** Archaeological, Architectural, Artistic, Historical, Social
 - **NIAH date range:** 1700–1740
 - **Original / current use:** Graveyard/cemetery
-- **Official ITM coordinate:** E 303172, N 235187
+- **NIAH page coordinate (treated as Irish Grid / EPSG:29902):** E 303172, N 235187
 - **Date recorded:** 24 April 2002
 
 The NIAH describes an enclosed cemetery containing the unroofed remains of a church rebuilt around 1730, ruins of a medieval tower house, and carved headstones dating from the early eighteenth century. Its appraisal identifies the group as including the original Lucan Estate tower house and headstones associated with the Vesey and Sarsfield families.
@@ -47,7 +47,7 @@ The NIAH describes an enclosed cemetery containing the unroofed remains of a chu
 - **Special-interest categories:** Architectural, Technical
 - **NIAH date range:** 1880–1890
 - **Original / current use:** House / House
-- **Official ITM coordinate:** E 306690, N 232684
+- **NIAH page coordinate (treated as Irish Grid / EPSG:29902):** E 306690, N 232684
 - **Date recorded:** 24 May 2002
 
 The official description identifies a detached, multiple-bay, single-storey house dating to around 1885, on a U-shaped plan. It has diagonally set corner projections, a central projecting gabled glazed porch, rendered ruled-and-lined walls, timber sash windows and a pitched slate roof with perforated cresting and finials. The appraisal calls attention to its unusual design, original proportions and materials, and its south-facing setting across substantial grounds.
@@ -64,7 +64,7 @@ The official description identifies a detached, multiple-bay, single-storey hous
 - **Special-interest categories:** Architectural, Technical
 - **NIAH date range:** 1780–1820
 - **Original / current use:** Weir / Weir
-- **Official ITM coordinate:** E 314761, N 229659
+- **NIAH page coordinate (treated as Irish Grid / EPSG:29902):** E 314761, N 229659
 - **Date recorded:** 30 May 2002
 
 The NIAH describes a two-stage weir in the River Dodder, around 1800, originally supplying water to a mill stream. The first tier is described as cobbled slabs, cobbles and cement, with a curving profile about 10 metres long and a drop of about 3 metres. The second tier is about 5 metres long with a vertical drop of about 2 metres. The overall width is given as about 25 metres, leading to a millstream, sluice and overflow on the north bank; substantial revetment walls are noted downstream.
@@ -81,7 +81,7 @@ The NIAH describes a two-stage weir in the River Dodder, around 1800, originally
 - **Special-interest categories:** Architectural, Artistic, Historical, Scientific, Social, Technical
 - **NIAH date range:** 1830–1840
 - **Original / current use:** Church/chapel / Church/chapel
-- **Official ITM coordinate:** E 324923, N 224732
+- **NIAH page coordinate (treated as Irish Grid / EPSG:29902):** E 324923, N 224732
 - **Date recorded:** 31 January 2017
 
 The official record identifies a detached five-bay, double-height Church of Ireland church designed in 1834 and built in 1835, with later improvement works in 1879–80. It describes a cruciform plan, granite construction, a three-stage tower, lancet openings, stained glass, a spiral staircase, timber choir gallery, exposed timber roof construction and landscaped grounds. The appraisal attributes the design to Frederick Darley Junior and the later improvements to William John Welland. It also notes stained glass by Heaton, Butler and Bayne, Catherine O'Brien and Franz Mayer and Company.
@@ -98,7 +98,7 @@ The official record identifies a detached five-bay, double-height Church of Irel
 - **Special-interest categories:** Architectural, Artistic
 - **NIAH date range:** 1890–1900
 - **Original / current use:** Presbytery/parochial/curate's house
-- **Official ITM coordinate:** E 318548, N 246989
+- **NIAH page coordinate (treated as Irish Grid / EPSG:29902):** E 318548, N 246989
 - **Date recorded:** 26 July 2000
 
 The official record names the building Pastorville and describes a detached three-bay, two-storey red-brick house, around 1895, with recessed entrance porch, projecting full-height bays and a two-storey rear return. The record attributes the design to J. Kelly Freeman and notes that he exhibited the design at the Royal Hibernian Academy of Arts exhibition in 1894. Architectural details include red-brick Flemish bond, rubble-stone plinth, yellow-brick coping and decorative brick string courses.
@@ -123,7 +123,7 @@ This is a reference-number collision check, not proof that the physical assets h
 
 The five candidates provide locality coverage across all four Dublin local-authority areas in the project scope. The authority assignments in this report are provisional, based on the named localities and the published record descriptions. The project's coverage audit still records zero spatially verified local-authority assignments. A formal point-in-polygon check against the current official local-authority boundaries remains necessary.
 
-The NIAH records provide Irish Transverse Mercator (ITM) eastings and northings. These are retained verbatim here. They have not been converted into WGS84 latitude/longitude, and no map pins have been created. The national NIAH metadata explicitly advises quoting ITM coordinates for official purposes; coordinate transformations and any positional precision caveats must be recorded separately.
+The individual Buildings of Ireland record pages display coordinate pairs such as 303172, 235187. These values are treated as legacy Irish Grid / National Grid (TM65, EPSG:29902), not ITM. They are retained verbatim in this report. The NIAH bulk dataset provides both Irish Grid and ITM coordinate fields and advises quoting ITM easting/northings for official purposes. Do not relabel the page-level pairs as ITM; when transforming these page values for web mapping, record EPSG:29902 and the chosen transformation, and keep source-point accuracy separate from transformation accuracy.
 
 ## 4. Source version and date correction
 
@@ -154,7 +154,7 @@ These dates must not be conflated. The ArcGIS Feature Service is the freshest cu
 | New official NIAH candidate records checked | 5 |
 | Candidate NIAH references already in catalogue | 0 |
 | Provisional local-authority areas represented | 4 |
-| Official ITM coordinate pairs captured | 5 |
+| Individual NIAH page coordinate pairs captured (treated as Irish Grid / EPSG:29902) | 5 |
 | WGS84 coordinate transformations completed | 0 |
 | Candidate objects staged in catalogue JSON | 0 |
 | Production catalogue additions | 0 |
@@ -174,3 +174,8 @@ These dates must not be conflated. The ArcGIS Feature Service is the freshest cu
 ## Batch 002 conclusion
 
 Five genuinely new NIAH candidate references have been identified and checked against the current CICAN catalogue. They cover all four project local-authority areas by locality, but their administrative assignments remain provisional until spatial verification. All five ITM coordinate pairs and official record links are documented. No catalogue records or map pins have been added. The next stage is to query the live NIAH Feature Service for exact current attributes, confirm local-authority values, transform coordinates and prepare evidence-backed object drafts for controlled publication.
+
+
+## Coordinate-system erratum — Batch 005 (20 November 2026)
+
+The individual Buildings of Ireland record-page coordinate pairs in this report (for example 303172, 235187) are treated as legacy Irish Grid / National Grid (TM65, EPSG:29902), not ITM. The NIAH national dataset metadata distinguishes Irish Grid and ITM coordinate fields and states that downloads include both. This correction supersedes the earlier ITM label; source-centroid accuracy remains unknown.

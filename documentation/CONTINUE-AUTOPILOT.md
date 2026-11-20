@@ -99,6 +99,8 @@ For each CONTINUE run:
 
 ### Stage 1 — NIAH Dublin registration coverage
 
+**Latest official bulk census baseline — 20 November 2026:** the national NIAH CSV contains 7,535 unique Building Survey registrations for County Dublin across the four target local authorities: Dublin City 5,692; Fingal 667; South Dublin 790; Dún Laoghaire-Rathdown 386. The current public collection contains 342 registrations, and all 342 matched the official CSV. The machine-generated missing-registration queue contains 7,193 records. The earlier 3,396 planning target is superseded as a denominator by this current official snapshot. See [Four-Authority Bulk Census 001](NIAH-FOUR-AUTHORITY-BULK-CENSUS-001.md).
+
 The founder has approved a **maximum target of 100 individually verified NIAH registrations per batch**. This is a ceiling, not a quota or deadline. Publish fewer when fewer records pass every requirement.
 
 Use the official national NIAH CSV bulk source first:

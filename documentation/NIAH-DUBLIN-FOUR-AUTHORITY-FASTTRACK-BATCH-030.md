@@ -1,7 +1,7 @@
 # CICAN Dublin — NIAH Four-Authority FastTrack Batch 030
 
 **Date:** 2026-11-20
-**Status:** 100 official NIAH registrations reconciled and added as PARTIALLY_VERIFIED archive records; no field verification claimed.
+**Status:** 100 official NIAH registrations reconciled and added as PARTIALLY_VERIFIED archive records; post-import national CSV audit, archive validation and GitHub Pages deployment all passed. No founder field verification is claimed.
 
 ## Authority distribution
 
@@ -134,9 +134,9 @@
 - Public NIAH collection: 442
 - Source registry: 680
 - Visual inventory: 562
-- Public registrations matched to the official CSV: expected 442 (rechecked by the workflow after import).
+- Public registrations matched to the official CSV: **442/442** exact matches.
 
-## Scope and limitations
+## Post-import audit and deployment\n\n- Official four-authority denominator: **7,535** unique Building Survey registrations.\n- Public NIAH collection after Batch 030: **442** unique registrations.\n- Exact official CSV matches: **442/442**.\n- Remaining official registrations for review: **7,093**.\n- Duplicate official registration numbers: **0**.\n- Unassigned or unrecognised local-authority rows: **0**.\n- Master catalogue: **562** objects; source registry: **680** sources; visual inventory: **562** records.\n- Archive validation and official registration audit passed.\n- GitHub Pages deployment succeeded: https://github.com/CicanGeorgeAlin/cican-dublin/actions/runs/44745800831\n- Import and verification workflow succeeded: https://github.com/CicanGeorgeAlin/cican-dublin/actions/runs/44745671636\n- Data commit: `d6d74d895ddaab0003434f9f58a3af956c4f223f`.\n\n## Scope and limitations
 
 This batch uses the official Building Survey CSV for four-authority registration identity and source fields. It does not include RPS-only or SMR-only records. It does not claim that the official CSV's point centroids are exact building footprints. Access, present-day condition and image rights remain separate checks.
 

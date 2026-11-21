@@ -1,6 +1,6 @@
 # CICAN Dublin Archive — Batch 065 research review
 
-**Status:** research-only; full canonical duplicate, alias, footprint and coordinate reconciliation pending  
+**Status:** research-only; exact registration/title/address screen passed; related-footprint review remains open  
 **Accessed:** 21 November 2026  
 **Candidates:** five individual NIAH registrations  
 **Publication:** not authorised
@@ -37,32 +37,65 @@
 - NIAH describes it as part of a terrace of seven similar houses on the west side of Seville Place.
 - Official record: https://www.buildingsofireland.ie/buildings-search/building/50010044/seville-place-dublin-1-dublin-city-13
 
-## Exclusion and related-feature controls
+## Official national CSV coordinate reconciliation
 
-- **50010041 — Connolly Station water tower and adjacent turntable:** excluded because it is already represented in current main as **DUB-INF-0195 / Connolly Station**. Do not create a second archive object for it.
-- **50010042 — Parcels Post Office:** a separate NIAH building within the Great Northern Railway Terminus complex. It must not be conflated with the already archived water tower (50010041) or the current-main locomotive shed (50010034). Confirm the separate building footprint before any import.
-- **50010039 and 50010040:** individually registered addresses in the early nineteenth-century terrace of five; retain distinct identities.
-- **50010043 and 50010044:** individually registered buildings in the terrace of seven; retain distinct identities.
-- **50010044 bootscraper:** check against the existing micro-detail inventory, including DUB-STR-0073 at 6 Seville Place. Similarity of feature type does not establish that these are the same physical object.
+The successful Batch 065 quality run uploaded the official NIAH Dublin missing-registration queue generated from the national CSV. All five candidates occur in that queue. The CSV fields were matched by `REG_NO`; `ITM_E` and `ITM_N` are EPSG:2157, while `LATITUDE` and `LONGITUDE` are separately supplied fields.
 
-## Coordinate provenance
+| NIAH registration | Official CSV address | ITM_E | ITM_N | Latitude | Longitude |
+|---|---|---:|---:|---:|---:|
+| 50010039 | 103 Seville Place | 716803 | 735197 | 53.354070 | -6.245464 |
+| 50010040 | 104 Seville Place | 716800 | 735203 | 53.354125 | -6.245492 |
+| 50010042 | 102–106 Amiens Street / Preston Street | 716659 | 735095 | 53.353186 | -6.247663 |
+| 50010043 | Hugh Ward & Co. Solicitors, 9 Seville Place | 716760 | 735177 | 53.353900 | -6.246102 |
+| 50010044 | 8 Seville Place | 716761 | 735186 | 53.353981 | -6.246098 |
 
-The individual NIAH pages display coordinate pairs but do not label their CRS. The accompanying JSON preserves those values only as raw page evidence. They are **not** labelled ITM, Irish Grid, latitude/longitude or GPS and are not imported into archive map fields.
-
-The official NIAH download provides separate ITM, latitude/longitude and National Grid fields. Retrieve and match the official CSV fields by registration number before any coordinate adoption. The official dataset metadata notes that historical centroid positions may need revision. Sources:
+Source: NIAH National CSV, Department of Housing, Local Government and Heritage, download URL: https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data. The data.gov.ie metadata reports the dataset last updated 10 November 2026 and states that ITM easting/northings should be quoted for official purposes. It also warns that existing point centroids were digitised relative to OSI 6-inch mapping and may need revision against larger-scale mapping:
 - NIAH Data Download: https://www.buildingsofireland.ie/niah-data-download/
 - NIAH National Dataset metadata: https://data.gov.ie/dataset/national-inventory-of-architectural-heritage-niah-national-dataset
 
-## Preliminary duplicate screen and remaining gates
+The individual NIAH pages display coordinate pairs but do not label their CRS. Those raw page values remain separate evidence and must not be relabelled as ITM. CSV points are source-derived historic centroids, not founder GPS, surveyed building footprints or field-verified positions.
 
-A preliminary indexed-repository exact-registration search returned no hit for 50010039, 50010040, 50010042, 50010043 or 50010044. This is **not** a complete duplicate determination. The current-main baseline at commit `baff31959d56ae418aa8b89239054f2622a5e44c` is 615 objects, 495 public NIAH records, 735 sources and 615 visual records. The full canonical JSON datasets and every open research/import PR must still be parsed and reconciled.
+## Canonical duplicate and cross-PR review
 
-Before any import:
-1. Re-run exact NIAH registration, normalized title, address and alias checks against current main and every open PR.
-2. Compare the 50010042 railway-complex footprint against DUB-INF-0195 / NIAH 50010041 and NIAH 50010034 without merging distinct registrations.
-3. Check the Seville Place terrace group relationships and the existing micro-detail inventory.
-4. Extract official national CSV ITM and latitude/longitude values by registration number and preserve source provenance.
-5. Convert the evidence packet into candidate archive objects only after the above review; then validate against `schemas/archive-object.schema.json`, source references, IDs and visual parity.
+The complete current-main `data/objects.json` (615 records) and `data/niah-registered-objects.json` (495 records) were parsed from their Git blobs. The candidate set has:
+- Zero exact NIAH registration collisions in either canonical array.
+- Zero normalized candidate name/address/alias collisions in either canonical array.
+- All five registrations present in the official Dublin missing-registration queue.
+- No candidate registration found in the diffs/comments of open PRs #28, #29, #30, #32, #33 or #35. PR #36 is this research packet.
+
+The successful official-register audit reports 48,327 national CSV rows and 495/495 existing archive NIAH references matched uniquely. This is a useful baseline check; the missing-registration queue is a review queue, not an automatic import list.
+
+## Spatial proximity and relationship flags
+
+Straight-line distances below compare official CSV latitude/longitude points with current-main source-derived points. They are only proximity flags because NIAH centroid positional accuracy is unspecified.
+
+| Candidate | Nearest current-main point | Approx. distance |
+|---|---|---:|
+| 50010039 — 103 Seville Place | DUB-BLD-0320 / 102 Seville Place / NIAH 50010038 | 6 m |
+| 50010040 — 104 Seville Place | DUB-BLD-0320 / 102 Seville Place / NIAH 50010038 | 12 m |
+| 50010042 — Parcels Post Office | DUB-BLD-0210 / 108 Amiens Street / NIAH 50010113 | 44 m |
+| 50010043 — 9 Seville Place | DUB-BLD-0086 / 6 Seville Place / NIAH 50010046 | 22 m |
+| 50010044 — 8 Seville Place | DUB-BLD-0086 / 6 Seville Place / NIAH 50010046 | 14 m |
+
+- **50010039 and 50010040:** individually registered adjacent houses in the NIAH-described terrace of five. Their close centroids and shared terrace context do not make them duplicates.
+- **50010042:** a separately described railway parcels office within the Great Northern Railway Terminus complex. It is approximately 50 m from DUB-INF-0195 / NIAH 50010041 (Connolly Station water tower and turntable). It must remain a separate registration, but its footprint still needs comparison with the water tower and NIAH 50010034 locomotive shed before import.
+- **50010043 and 50010044:** separately registered houses in a terrace of seven. Their official CSV points are approximately 9 m apart. The nearby 6 Seville Place record is a different registered house.
+- **50010044 bootscraper:** NIAH records a cast-iron bootscraper at 8 Seville Place. Existing DUB-STR-0073 is specifically documented at 6 Seville Place; the addresses differ, but verify the exact entrance object before creating any new micro-detail record.
+
+## Exclusion and related-feature controls
+
+- **50010041 — Connolly Station water tower and adjacent turntable:** excluded because it is already represented in current main as **DUB-INF-0195 / Connolly Station**. Do not create a second archive object for it.
+- **50010042 — Parcels Post Office:** a separate NIAH building within the Great Northern Railway Terminus complex. Do not conflate it with the water tower (50010041) or the current-main locomotive shed (50010034).
+- **50010039–50010040** and **50010043–50010044:** preserve their separate NIAH identities and terrace relationships.
+- Do not infer parcel boundaries or feature extents from centroid distances.
+
+## Remaining gates
+
+1. Obtain and visually inspect suitable large-scale historic mapping / footprint evidence for the railway complex and Seville Place terrace relationships.
+2. Retain the official CSV coordinate provenance; do not promote source points to field-verified positions.
+3. Convert the evidence packet into candidate archive objects only after footprint and relationship review.
+4. Then validate every candidate against `schemas/archive-object.schema.json`, source references, ID allocation, and visual-record parity.
+5. Run technical checks and inspect generated place pages before any publication decision.
 
 ## Explicit non-actions
 

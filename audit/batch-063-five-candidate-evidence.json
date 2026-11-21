@@ -27,7 +27,16 @@
         "northing": 234938,
         "crs": "not labelled on individual page; raw only, not imported"
       },
-      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010029/dublin-city"
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010029/dublin-city",
+      "official_niah_csv_coordinates": {
+        "itm_e": 716952,
+        "itm_n": 734963,
+        "latitude": 53.351935,
+        "longitude": -6.243306,
+        "itm_crs": "EPSG:2157",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data"
+      }
     },
     {
       "registration": "50010030",
@@ -49,7 +58,16 @@
         "northing": 234934,
         "crs": "not labelled on individual page; raw only, not imported"
       },
-      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010030/oriel-street-upper-dublin-1-dublin-city"
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010030/oriel-street-upper-dublin-1-dublin-city",
+      "official_niah_csv_coordinates": {
+        "itm_e": 716915,
+        "itm_n": 734961,
+        "latitude": 53.351929,
+        "longitude": -6.243862,
+        "itm_crs": "EPSG:2157",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data"
+      }
     },
     {
       "registration": "50010031",
@@ -71,7 +89,16 @@
         "northing": 234929,
         "crs": "not labelled on individual page; raw only, not imported"
       },
-      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010031/oriel-street-upper-dublin-1-dublin"
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010031/oriel-street-upper-dublin-1-dublin",
+      "official_niah_csv_coordinates": {
+        "itm_e": 716911,
+        "itm_n": 734956,
+        "latitude": 53.351885,
+        "longitude": -6.243917,
+        "itm_crs": "EPSG:2157",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data"
+      }
     },
     {
       "registration": "50010032",
@@ -93,7 +120,16 @@
         "northing": 235031,
         "crs": "not labelled on individual page; raw only, not imported"
       },
-      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010032/seville-place-dublin-1-dublin"
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010032/seville-place-dublin-1-dublin",
+      "official_niah_csv_coordinates": {
+        "itm_e": 716882,
+        "itm_n": 735059,
+        "latitude": 53.352813,
+        "longitude": -6.244317,
+        "itm_crs": "EPSG:2157",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data"
+      }
     },
     {
       "registration": "50010033",
@@ -115,7 +151,16 @@
         "northing": 235070,
         "crs": "not labelled on individual page; raw only, not imported"
       },
-      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010033/saint-laurence-otoole-school-seville-place-dublin-1-co-dublin"
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010033/saint-laurence-otoole-school-seville-place-dublin-1-co-dublin",
+      "official_niah_csv_coordinates": {
+        "itm_e": 716920,
+        "itm_n": 735095,
+        "latitude": 53.353133,
+        "longitude": -6.243743,
+        "itm_crs": "EPSG:2157",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data"
+      }
     }
   ],
   "screening": {
@@ -127,5 +172,16 @@
     "Individual-page coordinate pairs are preserved only as raw displayed evidence; the page does not label their CRS.",
     "Do not convert or import these values as ITM, Irish Grid, GPS, or map coordinates.",
     "Do not assign archive IDs, add catalogue/source/visual records, create map pins, claim founder photography, merge, or deploy from this research packet."
-  ]
+  ],
+  "official_dataset_reconciliation": {
+    "source": "Official NIAH Dublin CSV bulk dataset",
+    "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
+    "audit_artifact": "niah-dublin-missing-registrations.json",
+    "audit_workflow_run": "44909511525",
+    "audited_at": "2026-11-21T13:34:40.111Z",
+    "official_source_row_count": 48327,
+    "official_dublin_unique_registration_count": 7535,
+    "registration_status": "ALL_BATCH_CANDIDATES_PRESENT_IN_OFFICIAL_DUBLIN_MISSING_REGISTRATION_QUEUE",
+    "coordinate_note": "ITM_E and ITM_N are the separately labelled official Irish Transverse Mercator fields (EPSG:2157); LATITUDE and LONGITUDE are separate official CSV fields. Values are source-derived, not founder GPS or field-verified footprint coordinates."
+  }
 }

@@ -1,0 +1,254 @@
+{
+  "title": "CICAN Dublin Archive — Batch 067 candidate evidence packet",
+  "batch": "067",
+  "status": "RESEARCH_ONLY_CANONICAL_REGISTRATION_TITLE_ADDRESS_SCREEN_PASSED_FOOTPRINT_REVIEW_PENDING",
+  "accessed": "2026-11-21",
+  "candidate_count": 5,
+  "archive_ids_assigned": false,
+  "coordinates_imported": false,
+  "map_pins_authorised": false,
+  "candidates": [
+    {
+      "registration": "50010051",
+      "official_title": "109 Seville Place, Dublin 1, DUBLIN",
+      "address": "109 Seville Place, Dublin 1, Ireland",
+      "rating": "Regional",
+      "special_interests": [
+        "Architectural"
+      ],
+      "original_use": "House",
+      "recorded_use": "Apartment/flat (converted)",
+      "date_range": "1820–1840",
+      "description_built_date": "c.1830",
+      "description_summary": "Terraced two-bay three-storey house over raised basement, one of a group of five similar houses, now in multiple occupancy. M-profile slate roof with black clay ridge tiles, hipped to south behind parapet with granite coping; stepped brick chimneystacks; machine-made red Flemish-bond brick walls with granite plinth; gauged-brick flat-arched openings and replacement uPVC windows. Round-headed entrance with deep moulded surround and Doric doorcase; replacement timber door and fanlight. Extended concrete platform shared with neighbour to south, with three granite steps; original wrought-iron railings and matching pedestrian gate.",
+      "appraisal_summary": "NIAH describes this as an important component of a terrace of seven tall red-brick houses from the late Georgian period. It appears to have been refaced with little original fabric remaining, but the terrace retains an early residential streetscape.",
+      "page_displayed_coordinates": {
+        "easting": 316843,
+        "northing": 235210,
+        "crs": "not labelled on individual NIAH page; raw evidence only"
+      },
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010051/109-seville-place-dublin-1-co-dublin",
+      "official_niah_csv_coordinates": {
+        "itm_e": 716769,
+        "itm_n": 735236,
+        "latitude": 53.354428,
+        "longitude": -6.24596,
+        "crs": "EPSG:2157 for ITM_E/ITM_N; latitude/longitude separately supplied",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data"
+      },
+      "relationship_flags": [
+        "NIAH describes a shared platform with the neighbour to the south. Batch 066 candidate 50010050 (108 Seville Place) describes an extended platform shared with the neighbour to the north; these may be two descriptions of the same shared entrance/platform context. Do not create duplicate platform or micro-detail objects without footprint-level identification.",
+        "Part of the late-Georgian Seville Place terrace; retain its own NIAH registration."
+      ]
+    },
+    {
+      "registration": "50010052",
+      "official_title": "110 Seville Place, Dublin 1, DUBLIN",
+      "address": "110 Seville Place, Dublin 1, Ireland",
+      "rating": "Regional",
+      "special_interests": [
+        "Architectural",
+        "Artistic"
+      ],
+      "original_use": "House",
+      "recorded_use": null,
+      "date_range": "1820–1840",
+      "description_built_date": "c.1830",
+      "description_summary": "Terraced two-bay three-storey house over raised basement, one of a group of five similar houses, now in multiple occupancy. M-profile slate roof with black clay ridge tiles, hipped to north behind parapet with granite coping; red Flemish-bond brick walls with granite plinth over rendered basement; gauged-brick openings and replacement timber sash windows. Round-headed entrance with deep moulded surround and Doric doorcase; replacement timber door and fanlight. Extended platform shared with neighbouring house, with replacement granite paving and three replacement granite steps; replacement iron railings.",
+      "appraisal_summary": "NIAH identifies this as a recently refurbished component of a terrace of seven tall red-brick late-Georgian houses. The terrace contributes to the early residential streetscape associated with city expansion and the railway.",
+      "page_displayed_coordinates": {
+        "easting": 316839,
+        "northing": 235214,
+        "crs": "not labelled on individual NIAH page; raw evidence only"
+      },
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010052/110-seville-place-dublin-1-co-dublin",
+      "official_niah_csv_coordinates": {
+        "itm_e": 716765,
+        "itm_n": 735240,
+        "latitude": 53.354465,
+        "longitude": -6.246018,
+        "crs": "EPSG:2157 for ITM_E/ITM_N; latitude/longitude separately supplied",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data"
+      },
+      "relationship_flags": [
+        "One of a group of five similar houses; appraisal also places it in a terrace of seven. Preserve the exact wording and do not infer a different group boundary.",
+        "Shared entrance platform and steps are terrace context, not grounds to merge separate registered houses."
+      ]
+    },
+    {
+      "registration": "50010053",
+      "official_title": "111 Seville Place, Dublin 1, DUBLIN",
+      "address": "111 Seville Place, Dublin 1, Ireland",
+      "rating": "Regional",
+      "special_interests": [
+        "Architectural",
+        "Artistic"
+      ],
+      "original_use": "House",
+      "recorded_use": "House",
+      "date_range": "1820–1840",
+      "description_built_date": "c.1830",
+      "description_summary": "Terraced two-bay three-storey house over raised basement with two-storey rear extension, built as one of a group of five similar houses. M-profile slate roof with black clay ridge tiles, hipped to south behind parapet with granite coping; red Flemish-bond brick walls, rebuilt to the top half of the façade in machine-made red brick; granite plinth over rendered basement; gauged-brick openings and replacement timber sash windows. Round-headed entrance with deep moulded surround and Doric doorcase; replacement timber door, engaged Doric columns and original decorative leaded fanlight. Extended platform shared with neighbouring house, with replacement granite paving and three replacement granite steps; original wrought-iron railings.",
+      "appraisal_summary": "NIAH describes this as an important component of a terrace of seven tall red-brick late-Georgian houses. Although much external fabric has been replaced, the overall composition contributes to the early residential streetscape.",
+      "page_displayed_coordinates": {
+        "easting": 316836,
+        "northing": 235219,
+        "crs": "not labelled on individual NIAH page; raw evidence only"
+      },
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010053/111-seville-place-dublin-1-dublin",
+      "official_niah_csv_coordinates": {
+        "itm_e": 716761,
+        "itm_n": 735245,
+        "latitude": 53.35451,
+        "longitude": -6.246062,
+        "crs": "EPSG:2157 for ITM_E/ITM_N; latitude/longitude separately supplied",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data"
+      },
+      "relationship_flags": [
+        "One of a group of five similar houses and part of a larger terrace of seven, according to the individual record and appraisal respectively.",
+        "Shared platform with neighbouring house; do not create a separate micro-detail record without exact object identification."
+      ]
+    },
+    {
+      "registration": "50010054",
+      "official_title": "112 Seville Place, Dublin 1, DUBLIN",
+      "address": "112 Seville Place, Dublin 1, Ireland",
+      "rating": "Regional",
+      "special_interests": [
+        "Architectural"
+      ],
+      "original_use": "House",
+      "recorded_use": "Apartment/flat (converted)",
+      "date_range": "1820–1840",
+      "description_built_date": "c.1830",
+      "description_summary": "Terraced two-bay three-storey house over raised basement with two-storey rear extension, one of a group of five similar houses, now in multiple occupancy. M-profile slate roof with black clay ridge tiles, hipped to north behind parapet with granite coping; red Flemish-bond brick walls, rebuilt to the top half of the façade in machine-made red brick; granite plinth over rendered basement; gauged-brick openings and replacement timber casement windows. Round-headed entrance with deep moulded surround and Doric doorcase; early timber panelled door, engaged Doric columns and plain glazed fanlight. Extended concrete platform with three concrete steps; original wrought-iron railings.",
+      "appraisal_summary": "NIAH describes this as a component of a terrace of seven tall red-brick late-Georgian houses. Despite replacement of much external fabric, the building retains its overall composition and contributes to the streetscape.",
+      "page_displayed_coordinates": {
+        "easting": 316832,
+        "northing": 235223,
+        "crs": "not labelled on individual NIAH page; raw evidence only"
+      },
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010054/112-seville-place-dublin-1-co-dublin",
+      "official_niah_csv_coordinates": {
+        "itm_e": 716758,
+        "itm_n": 735249,
+        "latitude": 53.354547,
+        "longitude": -6.24612,
+        "crs": "EPSG:2157 for ITM_E/ITM_N; latitude/longitude separately supplied",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data"
+      },
+      "relationship_flags": [
+        "One of a group of five similar houses and part of a larger terrace of seven, according to the individual record and appraisal respectively.",
+        "Do not merge with neighbouring houses based on continuous terrace form or shared street-facing boundary elements."
+      ]
+    },
+    {
+      "registration": "50010055",
+      "official_title": "113 Seville Place, Dublin 1, DUBLIN",
+      "address": "113 Seville Place, Dublin 1, Ireland",
+      "rating": "Regional",
+      "special_interests": [
+        "Architectural"
+      ],
+      "original_use": "House",
+      "recorded_use": "Apartment/flat (converted)",
+      "date_range": "1820–1840",
+      "description_built_date": "c.1830",
+      "description_summary": "Terraced two-bay three-storey house over raised basement, built as one of a pair and now in multiple occupancy. M-profile slate roof with black clay ridge tiles, hipped to north behind rebuilt parapet with granite coping; red Flemish-bond brick walls on granite plinth over rendered basement; gauged-brick flat-arched openings, replacement uPVC windows and rendered rear elevation. Elliptical-headed entrance with deep moulded surround, replacement timber door and plain glazed fanlight. Extended granite platform with four concrete steps, shared with adjoining house; replacement steel division and original wrought-iron railings.",
+      "appraisal_summary": "NIAH describes this as one of a pair of houses that stand as the tallest structures on the terrace, abutted by a single-storey villa to the north. It dates from the late Georgian period and retains its overall composition despite loss of much external fabric.",
+      "page_displayed_coordinates": {
+        "easting": 316827,
+        "northing": 235227,
+        "crs": "not labelled on individual NIAH page; raw evidence only"
+      },
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010055/113-seville-place-dublin-1-co-dublin",
+      "official_niah_csv_coordinates": {
+        "itm_e": 716753,
+        "itm_n": 735253,
+        "latitude": 53.354584,
+        "longitude": -6.246194,
+        "crs": "EPSG:2157 for ITM_E/ITM_N; latitude/longitude separately supplied",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data"
+      },
+      "relationship_flags": [
+        "NIAH specifically describes this house as one of a pair and notes a single-storey villa to the north; do not automatically group it with the five-house group described in adjacent records.",
+        "Shared granite platform with adjoining house; preserve the relationship without asserting a parcel boundary."
+      ]
+    }
+  ],
+  "coordinate_policy": {
+    "page_display_pairs_crs": "Individual NIAH page coordinate displays are not labelled with a CRS; retained as raw evidence only.",
+    "official_csv": "All five candidate rows matched by REG_NO in the official NIAH national CSV. ITM_E/ITM_N are EPSG:2157; LATITUDE/LONGITUDE are separate supplied fields.",
+    "source_csv_version": "Official dataset metadata last updated 10 November 2026; accessed through successful Batch 065 workflow artifact on 21 November 2026.",
+    "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
+    "imported_to_archive": false,
+    "map_pins_authorised": false,
+    "notes": "Source-derived NIAH points are historic centroids with unspecified positional accuracy, not founder GPS or field-verified building footprints."
+  },
+  "screening": {
+    "status": "CANONICAL_EXACT_REGISTRATION_TITLE_ADDRESS_SCREEN_PASSED",
+    "current_main_baseline": {
+      "objects": 615,
+      "public_niah_records": 495,
+      "commit": "baff31959d56ae418aa8b89239054f2622a5e44c"
+    },
+    "canonical_dataset_result": "Full current-main data/objects.json and data/niah-registered-objects.json parsed. Zero exact registration collisions and zero normalized candidate name/address/alias matches for all five registrations.",
+    "open_pr_result": "Open PRs #28, #29, #30, #32, #33, #35, #36 and #37 reviewed. No candidate registrations 50010051–50010055 appear as candidate/import records.",
+    "official_missing_queue": "All five registrations appear in the official NIAH Dublin missing-registration queue generated from the national CSV.",
+    "nearest_main_points": [
+      {
+        "registration": "50010051",
+        "nearest_archive_id": "DUB-BLD-0086",
+        "nearest_registration": "50010046",
+        "nearest_name": "6 Seville Place",
+        "distance_m": 42
+      },
+      {
+        "registration": "50010052",
+        "nearest_archive_id": "DUB-BLD-0086",
+        "nearest_registration": "50010046",
+        "nearest_name": "6 Seville Place",
+        "distance_m": 44
+      },
+      {
+        "registration": "50010053",
+        "nearest_archive_id": "DUB-BLD-0199",
+        "nearest_registration": "50010085",
+        "nearest_name": "81 Amiens Street",
+        "distance_m": 43
+      },
+      {
+        "registration": "50010054",
+        "nearest_archive_id": "DUB-BLD-0199",
+        "nearest_registration": "50010085",
+        "nearest_name": "81 Amiens Street",
+        "distance_m": 41
+      },
+      {
+        "registration": "50010055",
+        "nearest_archive_id": "DUB-BLD-0199",
+        "nearest_registration": "50010085",
+        "nearest_name": "81 Amiens Street",
+        "distance_m": 38
+      }
+    ],
+    "cross_batch_relationships": [
+      "Batch 066 candidate 50010050 (108 Seville Place) describes a granite platform shared with the neighbour to the north; Batch 067 candidate 50010051 (109 Seville Place) describes a platform shared with the neighbour to the south. These may describe the same shared entrance platform. Do not create duplicate platform or micro-detail objects.",
+      "NIAH 50010046 (6 Seville Place) is already archived as DUB-BLD-0086; it is a neighbouring terrace comparator, not a new candidate."
+    ],
+    "spatial_limits": "Distances compare source-derived CSV points with current-main source-derived points. They are proximity flags only; no footprint or parcel boundary has been established."
+  },
+  "policy": [
+    "Research evidence only; not an archive-object import.",
+    "No permanent archive IDs, source IDs or visual record IDs allocated.",
+    "No coordinate fields imported and no map pins authorised.",
+    "Preserve each NIAH registration separately even where properties share a terrace, platform, steps or railings.",
+    "Do not create micro-detail records from descriptive text alone; independently identify exact physical features.",
+    "Complete footprint, source, schema, ID, visual parity and technical review before any publication."
+  ]
+}

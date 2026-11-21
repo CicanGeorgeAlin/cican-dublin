@@ -1,0 +1,141 @@
+{
+  "title": "CICAN Dublin Archive — Batch 062 candidate evidence packet",
+  "batch": "062",
+  "status": "RESEARCH_ONLY_DUPLICATE_SCREEN_PENDING",
+  "accessed": "2026-11-21",
+  "candidate_count": 5,
+  "archive_ids_assigned": false,
+  "coordinates_imported": false,
+  "map_pins_authorised": false,
+  "candidates": [
+    {
+      "registration": "50010024",
+      "official_title": "45 Seville Place, Marion Terrace, Dublin 1, DUBLIN",
+      "address": "45 Seville Place, Marion Terrace, Dublin 1, Ireland",
+      "rating": "Regional",
+      "special_interests": [
+        "Architectural"
+      ],
+      "original_use": "House",
+      "recorded_use": "House",
+      "date_range": "1860–1880",
+      "description_built_date": "c.1870",
+      "description_summary": "Terraced two-bay, two-storey brown-brick house, one of a group of five. M-profile slate roof behind parapet with granite coping; Flemish-bond brickwork over granite plinth; gauged-brick window heads; two-over-two timber sliding sash windows; round-headed entrance in moulded render surround; panelled door, engaged pilasters, granite steps and wrought-iron railings.",
+      "appraisal_summary": "NIAH places the house in the nineteenth-century development of southern Seville Place following the railway's arrival in the 1830s–1840s. Survival of original fenestration and joinery contributes to its architectural significance.",
+      "page_displayed_coordinates": {
+        "easting": 317053,
+        "northing": 234902,
+        "crs": "not labelled on individual page; not imported"
+      },
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010024/45-seville-place-marion-terrace-dublin-1-dublin"
+    },
+    {
+      "registration": "50010025",
+      "official_title": "44 Seville Place, Emerald Street, Dublin 1, DUBLIN",
+      "address": "44 Seville Place / Emerald Street, Dublin 1, Ireland",
+      "rating": "Regional",
+      "special_interests": [
+        "Architectural",
+        "Artistic"
+      ],
+      "original_use": "House",
+      "recorded_use": "House",
+      "date_range": "1860–1880",
+      "description_built_date": "c.1870",
+      "description_summary": "Corner-sited end-of-terrace three-bay, two-storey brown-brick house, one of a group of five. Double-pile slate roof hipped to the north; Flemish-bond brickwork over granite plinth; incised stone street-name plaque on north elevation; varied square- and round-headed openings; original timber sash windows and shutters; moulded entrance, panelled door, granite steps and wrought-iron railings.",
+      "appraisal_summary": "NIAH identifies this as a terminating house in a composed terrace of five. Its corner position and small round-headed windows distinguish the end house; surviving original fenestration and joinery contribute to significance.",
+      "page_displayed_coordinates": {
+        "easting": 317051,
+        "northing": 234910,
+        "crs": "not labelled on individual page; not imported"
+      },
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010025/44-seville-place-emerald-street-dublin-1-dublin"
+    },
+    {
+      "registration": "50010026",
+      "official_title": "Emerald Dairy, 43 Seville Place, Emerald Street, Dublin 1, DUBLIN",
+      "address": "43 Seville Place / Emerald Street, Dublin 1, Ireland",
+      "rating": "Regional",
+      "special_interests": [
+        "Architectural",
+        "Social"
+      ],
+      "previous_name": "Emerald Dairy",
+      "original_use": "Shop/retail outlet",
+      "recorded_use": "Unknown",
+      "date_range": "1860–1880",
+      "description_built_date": "c.1870",
+      "description_summary": "Corner-sited terraced two-bay, two-storey former house over basement, with wraparound ground-floor shopfront and four-bay two-storey rear extension. Double-pile hipped slate roof; Flemish-bond brown brick; bracketed cast-iron gutters; red-brick sawtooth eaves; rendered platband retaining raised lettering reading 'Emerald Dairy'. Ground-floor windows are blocked and the shopfront is partly concealed by steel shutters.",
+      "appraisal_summary": "NIAH links the terrace to post-railway nineteenth-century development and identifies the retained Emerald Dairy lettering as evidence of the building's former dairy use and local social role. The dairy took its name from adjacent Emerald Street.",
+      "page_displayed_coordinates": {
+        "easting": 317034,
+        "northing": 234921,
+        "crs": "not labelled on individual page; not imported"
+      },
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010026/emerald-dairy-seville-place-emerald-street-dublin-1-dublin"
+    },
+    {
+      "registration": "50010027",
+      "official_title": "42 Seville Place, Dublin 1, DUBLIN",
+      "address": "42 Seville Place, Dublin 1, Ireland",
+      "rating": "Regional",
+      "special_interests": [
+        "Architectural"
+      ],
+      "original_use": "House",
+      "date_range": "1860–1880",
+      "description_built_date": "c.1870",
+      "description_summary": "Terraced two-bay, two-storey house over raised basement, one of a group of four. Double-pile pitched slate roof with yellow-brick shouldered chimneystacks, yellow clay pots, bracketed cast-iron gutters and red-brick sawtooth eaves. Rendered walls with moulded quoins and plinth; square-headed window openings with rendered reveals; windows blocked and entrance concealed behind recent steel shutters.",
+      "appraisal_summary": "NIAH relates the terrace to development after the railway arrived in the 1830s–1840s and notes that retained bracketed eaves and rendered dressings contribute to the building's significance.",
+      "page_displayed_coordinates": {
+        "easting": 317033,
+        "northing": 234929,
+        "crs": "not labelled on individual page; not imported"
+      },
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010027/42-seville-place-dublin-1-co-dublin"
+    },
+    {
+      "registration": "50010028",
+      "official_title": "41 Seville Place, Dublin 1, DUBLIN",
+      "address": "41 Seville Place, Dublin 1, Ireland",
+      "rating": "Regional",
+      "special_interests": [
+        "Architectural",
+        "Artistic"
+      ],
+      "original_use": "House",
+      "recorded_use": "House",
+      "date_range": "1860–1880",
+      "description_built_date": "c.1870",
+      "description_summary": "Terraced two-bay, two-storey house over raised basement, one of a group of four. M-profile slate roof; shared yellow-brick chimneystacks; brown Flemish-bond brickwork over granite plinth; original two-over-two timber sliding sash windows; moulded entrance surround and panelled door with engaged pilasters; granite platform and steps; granite plinth wall and wrought-iron railings.",
+      "appraisal_summary": "NIAH describes a composed terrace of four houses whose terminating houses have a distinctive single-bay upper storey. The survival of original fenestration, sawtooth eaves and delicate wrought-iron railings contributes to architectural significance.",
+      "page_displayed_coordinates": {
+        "easting": 317029,
+        "northing": 234933,
+        "crs": "not labelled on individual page; not imported"
+      },
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010028/41-seville-place-dublin-1-co-dublin"
+    }
+  ],
+  "duplicate_screen": {
+    "status": "PENDING",
+    "note": "Do not treat these candidates as archive-missing or import-ready until exact registration, normalized title/address, alias and related-footprint checks have been run against the current main datasets and all open review branches."
+  },
+  "coordinate_policy": {
+    "page_display_pairs_crs": "individual NIAH page does not explicitly label CRS",
+    "imported_to_archive": false,
+    "map_pins_authorised": false,
+    "notes": "The displayed pairs are retained only as raw page evidence. Use official national dataset coordinate fields only after registration-level reconciliation and an approved CRS-aware import policy."
+  },
+  "related_site_notes": [
+    "50010024 and 50010025 belong to the NIAH-described terrace group of five; keep as separate registrations.",
+    "50010026 (Emerald Dairy) is a separately registered corner property at 43 Seville Place / Emerald Street.",
+    "50010027 and 50010028 are separate neighbouring registrations in a terrace group of four; 41 Seville Place is a terminating house with a distinctive upper-storey arrangement."
+  ],
+  "excluded_candidate": {
+    "registration": "50010021",
+    "address": "48 Seville Place, Dublin 1",
+    "reason": "Carried forward from Batch 061 as an unresolved source-access exclusion; do not infer invalidity or duplicate status."
+  },
+  "status_note": "Research candidates only. No archive IDs, catalogue/source/visual records, coordinates, map pins, founder photography claims, merge or production deployment."
+}

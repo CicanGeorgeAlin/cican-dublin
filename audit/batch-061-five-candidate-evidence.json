@@ -1,0 +1,282 @@
+{
+  "title": "CICAN Dublin Archive — Batch 061 candidate evidence packet",
+  "batch": "061",
+  "status": "RESEARCH_ONLY_NOT_FOR_IMPORT",
+  "accessed": "2026-11-21",
+  "candidate_count": 5,
+  "proposed_archive_id": null,
+  "coordinate_imported": false,
+  "map_pins_authorised": false,
+  "candidates": [
+    {
+      "registration": "50010017",
+      "official_title": "Saint Laurence O'Toole's Church, Seville Place, Sherriff Street Lower, Dublin 1, DUBLIN",
+      "address": "Seville Place / Sherriff Street Lower, Dublin 1, Ireland",
+      "rating": "Regional",
+      "special_interests": [
+        "Architectural",
+        "Artistic",
+        "Social"
+      ],
+      "original_use": "Church/chapel",
+      "recorded_use": "Church/chapel",
+      "date_range": "1840–1850",
+      "description_built_date": "1844–1850",
+      "architects": "John B. Keane; steeple by John Bourke",
+      "description_summary": "Freestanding cruciform limestone Gothic Revival Roman Catholic church with five-bay nave, gabled transepts, chancel, four-stage tower, broach spire, pointed-arch openings, geometric tracery and stained glass.",
+      "appraisal_summary": "NIAH says it served the growing dockworker community and remains a local landmark/social focal point. Appraisal says begun in 1844 by John B. Keane and completed in 1858 by John Bourke; this conflicts with the survey/date-range fields and is retained as an unresolved source-internal discrepancy.",
+      "page_displayed_coordinates": {
+        "easting": 317106,
+        "northing": 234825,
+        "crs": "not labelled on individual page; likely National Grid/Irish Grid, provisional"
+      },
+      "official_csv_itm": {
+        "easting": 717027,
+        "northing": 734852,
+        "crs": "ITM EPSG:2157"
+      },
+      "official_csv_latitude": 53.350925,
+      "official_csv_longitude": -6.242221,
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010017/saint-laurence-otooles-church-seville-place-sherriff-street-lower-dublin-1-dublin",
+      "duplicate_screen": "zero exact collisions in all four current main datasets and staged PR candidate registration checks",
+      "relationship_flags": [
+        "Separate registration from attached school 50010018; shared-site/curtilage review required.",
+        "Nearby current-main Seville Place records include NIAH 50010034 (locomotive shed), 50010036–50010038 (Nos. 100–102) and NIAH 50010046 (No. 6). These are distinct registrations/assets; compare mapped footprints and setting before any map placement."
+      ],
+      "official_niah_csv_coordinates": {
+        "itm_e": 717027,
+        "itm_n": 734852,
+        "latitude": 53.350925,
+        "longitude": -6.242221,
+        "itm_crs": "EPSG:2157",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data"
+      }
+    },
+    {
+      "registration": "50010018",
+      "official_title": "Saint Laurence O'Toole School, Saint Laurence Place East, Sheriff Street Lower, Dublin 1, DUBLIN",
+      "address": "Saint Laurence Place East / Sheriff Street Lower, Dublin 1, Ireland",
+      "rating": "Regional",
+      "special_interests": [
+        "Architectural",
+        "Artistic",
+        "Social"
+      ],
+      "original_use": "School",
+      "recorded_use": "School",
+      "date_range": "1845–1850",
+      "description_built_date": "1847–1848",
+      "description_summary": "Attached multiple-bay two-storey limestone school range in church grounds, including boys' and girls' school ranges, connecting wings, pointed-arch and square-headed openings, limestone dressings and decorative roof features.",
+      "appraisal_summary": "NIAH identifies the group as a local landmark with an important educational role and links it to Catholic education after Emancipation.",
+      "page_displayed_coordinates": {
+        "easting": 317070,
+        "northing": 234819,
+        "crs": "not labelled on individual page; likely National Grid/Irish Grid, provisional"
+      },
+      "official_csv_itm": {
+        "easting": 716999,
+        "northing": 734844,
+        "crs": "ITM EPSG:2157"
+      },
+      "official_csv_latitude": 53.350857,
+      "official_csv_longitude": -6.242649,
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010018/saint-laurence-otoole-school-saint-laurence-place-east-sheriff-street-lower-dublin-1-dublin",
+      "duplicate_screen": "zero exact collisions in all four current main datasets and staged PR candidate registration checks",
+      "relationship_flags": [
+        "Distinct registration from church 50010017 but attached to and within its grounds; preserve as separate NIAH record, review shared-site relationship.",
+        "Cross-PR distinction: PR #33 includes NIAH 50010033, a separate detached modernist Saint Laurence O'Toole School built 1936–38 on Seville Place. This candidate is the distinct attached limestone school group built 1847–48 within the church grounds (NIAH 50010018). Do not merge or conflate the two.",
+        "Existing NIAH 50010020 / DUB-BLD-0194 (The Oasis Centre, former convent) is nearby in the same ecclesiastical cluster. Preserve separate registration; verify boundaries/footprints."
+      ],
+      "official_niah_csv_coordinates": {
+        "itm_e": 716999,
+        "itm_n": 734844,
+        "latitude": 53.350857,
+        "longitude": -6.242649,
+        "itm_crs": "EPSG:2157",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data"
+      }
+    },
+    {
+      "registration": "50010019",
+      "official_title": "49 Seville Place, Saint Laurence Place East, Dublin 1, DUBLIN",
+      "address": "49 Seville Place, Saint Laurence Place East, Dublin 1, Ireland",
+      "rating": "Regional",
+      "special_interests": [
+        "Architectural",
+        "Artistic",
+        "Social"
+      ],
+      "original_use": "Presbytery/parochial/curate's house",
+      "recorded_use": "Presbytery/parochial/curate's house",
+      "date_range": "1870–1875",
+      "description_built_date": "1872",
+      "architect": "John Bourke",
+      "description_summary": "Corner-sited attached three-bay three-storey presbytery over raised basement, with mixed garden-wall-bond red brick, granite quoins and dressings, varied sash windows and paired recessed porches.",
+      "appraisal_summary": "NIAH highlights its two principal elevations, Lombardic detailing, high-quality stonework and place in an ecclesiastical/educational cluster.",
+      "page_displayed_coordinates": {
+        "easting": 317072,
+        "northing": 234880,
+        "crs": "not labelled on individual page; likely National Grid/Irish Grid, provisional"
+      },
+      "official_csv_itm": {
+        "easting": 717000,
+        "northing": 734906,
+        "crs": "ITM EPSG:2157"
+      },
+      "official_csv_latitude": 53.351418,
+      "official_csv_longitude": -6.242608,
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010019/49-seville-place-saint-laurence-place-east-dublin-1-dublin",
+      "duplicate_screen": "zero exact registration/name/address collisions; nearby street-text relation flagged to DUB-BLD-0194 / NIAH 50010020, The Oasis Centre",
+      "relationship_flags": [
+        "Existing NIAH 50010020 / DUB-BLD-0194 is the nearby convent on Saint Laurence Place East / Emerald Street. NIAH 50010019 appraisal itself refers to adjacent red-brick convent. Not an exact duplicate; confirm footprints/frontages before any import."
+      ],
+      "official_niah_csv_coordinates": {
+        "itm_e": 717000,
+        "itm_n": 734906,
+        "latitude": 53.351418,
+        "longitude": -6.242608,
+        "itm_crs": "EPSG:2157",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data"
+      }
+    },
+    {
+      "registration": "50010022",
+      "official_title": "47 Seville Place, Marion Terrace, Dublin 1, DUBLIN",
+      "address": "47 Seville Place, Marion Terrace, Dublin 1, Ireland",
+      "rating": "Regional",
+      "special_interests": [
+        "Architectural"
+      ],
+      "original_use": "House",
+      "recorded_use": "House",
+      "date_range": "1860–1880",
+      "description_built_date": "c.1870",
+      "description_summary": "Terraced two-bay two-storey brown-brick house in Flemish bond, with M-profile slate roof, granite coping and plinth, gauged brick window heads, sash windows, moulded entrance surround, panelled door and wrought-iron railings.",
+      "appraisal_summary": "NIAH identifies it as one of five well-proportioned houses in a terrace developed in the second half of the nineteenth century.",
+      "page_displayed_coordinates": {
+        "easting": 317060,
+        "northing": 234891,
+        "crs": "not labelled on individual page; likely National Grid/Irish Grid, provisional"
+      },
+      "official_csv_itm": {
+        "easting": 716989,
+        "northing": 734919,
+        "crs": "ITM EPSG:2157"
+      },
+      "official_csv_latitude": 53.351529,
+      "official_csv_longitude": -6.242764,
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010022/seville-place-marion-terrace-dublin-1-dublin-city-3",
+      "duplicate_screen": "zero exact collisions in all four current main datasets and staged PR candidate registration checks",
+      "relationship_flags": [
+        "Distinct registration from neighbouring 46 Seville Place / NIAH 50010023; part of same NIAH-described terrace group.",
+        "PR #32 candidates NIAH 50010024–50010028 are neighbouring properties farther along the Seville Place terrace; keep each separate by its own registration and address."
+      ],
+      "official_niah_csv_coordinates": {
+        "itm_e": 716989,
+        "itm_n": 734919,
+        "latitude": 53.351529,
+        "longitude": -6.242764,
+        "itm_crs": "EPSG:2157",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data"
+      }
+    },
+    {
+      "registration": "50010023",
+      "official_title": "46 Seville Place, Marion Terrace, Dublin 1, DUBLIN",
+      "address": "46 Seville Place, Marion Terrace, Dublin 1, Ireland",
+      "rating": "Regional",
+      "special_interests": [
+        "Architectural",
+        "Artistic"
+      ],
+      "original_use": "House",
+      "recorded_use": "House",
+      "date_range": "1860–1880",
+      "description_built_date": "c.1870",
+      "description_summary": "Terraced two-bay two-storey brown-brick house, one of a group of five, with M-profile slate roof, Flemish-bond brickwork, granite plinth, gauged-brick voussoirs, rendered reveals and a moulded entrance surround.",
+      "appraisal_summary": "NIAH says it contributes to an attractive terrace of well-proportioned houses associated with nineteenth-century development after the railway arrived.",
+      "page_displayed_coordinates": {
+        "easting": 317057,
+        "northing": 234897,
+        "crs": "not labelled on individual page; likely National Grid/Irish Grid, provisional"
+      },
+      "official_csv_itm": {
+        "easting": 716985,
+        "northing": 734923,
+        "crs": "ITM EPSG:2157"
+      },
+      "official_csv_latitude": 53.351572,
+      "official_csv_longitude": -6.242819,
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010023/dublin-city",
+      "duplicate_screen": "zero exact collisions in all four current main datasets and staged PR candidate registration checks",
+      "relationship_flags": [
+        "Distinct registration from neighbouring 47 Seville Place / NIAH 50010022; part of same NIAH-described terrace group.",
+        "PR #32 candidates NIAH 50010024–50010028 are neighbouring properties farther along the Seville Place terrace; keep each separate by its own registration and address."
+      ],
+      "official_niah_csv_coordinates": {
+        "itm_e": 716985,
+        "itm_n": 734923,
+        "latitude": 53.351572,
+        "longitude": -6.242819,
+        "itm_crs": "EPSG:2157",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data"
+      }
+    }
+  ],
+  "duplicate_screen": {
+    "main_objects": 615,
+    "niah_register": 495,
+    "sources": 735,
+    "visual_records": 615,
+    "comparison_commit": "baff31959d56ae418aa8b89239054f2622a5e44c",
+    "exact_registration_collisions": 0,
+    "normalized_title_address_collisions": 0,
+    "cross_pr_reviewed": [
+      29,
+      32,
+      33,
+      35
+    ],
+    "notes": "Refreshed full-dataset scan against current main found no exact NIAH registration, normalized official title or exact address collision for the five candidates. Cross-PR review found related street/ensemble entries but no same-registration or same-property match. 50010018 is distinct from 50010033: the former is an attached 1847–48 limestone school range within the church grounds; the latter is a detached modernist school built 1936–38 on Seville Place. 50010019 and 50010018 are in the same ecclesiastical cluster as existing convent 50010020 / DUB-BLD-0194; preserve separate NIAH identities and review footprints/frontages before any import. The two Marion Terrace houses are distinct registrations and neighbouring records; PR #32 continues the terrace with Nos. 45–41. No spatial overlap is certified solely by this textual check."
+  },
+  "coordinate_policy": {
+    "page_display_pairs_crs": "unlabelled on individual NIAH pages; likely Irish Grid/National Grid, provisional; not ITM",
+    "official_dataset_itm_crs": "EPSG:2157",
+    "imported_to_archive": false,
+    "map_pins_authorised": false,
+    "notes": "NIAH dataset provides separate ITM_E/ITM_N, latitude/longitude and National Grid fields. The official dataset metadata warns historical centroids may require revision. Preserve raw values and reconcile by registration number before any import."
+  },
+  "excluded_candidates": [
+    {
+      "registration": "50010021",
+      "address": "48 Seville Place, Dublin 1",
+      "reason": "Official national queue candidate; individual official Buildings of Ireland record could not be reliably reopened in this batch, so not included.",
+      "official_niah_csv_coordinates": {
+        "itm_e": 716993,
+        "itm_n": 734914,
+        "latitude": 53.351487,
+        "longitude": -6.242703,
+        "itm_crs": "EPSG:2157",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data"
+      }
+    }
+  ],
+  "archive_id_allocation": "None. Current production main ends at DUB-BLD-0320. PR #35 separately stages DUB-BLD-0321–0330 and remains unmerged; Batch 060 PR #29 has no permanent IDs. Do not allocate or reserve Batch 061 IDs until all competing import PRs are resolved and the target branch is rechecked.",
+  "status_note": "Research-only. No archive IDs, canonical source IDs or visual record IDs assigned; no objects imported; no map pins authorised; no production deployment.",
+  "official_dataset_reconciliation": {
+    "source": "Official NIAH Dublin CSV bulk dataset",
+    "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
+    "audit_artifact": "niah-dublin-missing-registrations.json",
+    "audit_workflow_run": "44909511525",
+    "audited_at": "2026-11-21T13:34:40.111Z",
+    "official_source_row_count": 48327,
+    "official_dublin_unique_registration_count": 7535,
+    "coordinate_note": "ITM_E and ITM_N are separately labelled official Irish Transverse Mercator fields (EPSG:2157); LATITUDE and LONGITUDE are separate official CSV fields. Source-derived only, not founder GPS or field-verified footprint coordinates."
+  }
+}

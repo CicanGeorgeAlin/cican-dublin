@@ -116,3 +116,24 @@ The maximum current master ID by prefix is `DUB-BLD-0315` for buildings. No new 
 - The current object validator requires exact one-to-one parity between catalogue IDs and visual inventory IDs. Any eventual five-object import therefore needs five corresponding visual plans with matching IDs, all still marked `TO_PHOTOGRAPH` / `TO_CREATE` and no founder original claimed.
 
 **Independent review outcome:** Exact duplicate screen passed against current full datasets. Schema review identified a coordinate reference-system hold point and a legacy verification-status mapping hold point. The five objects are not yet import-ready; resolve those two points and complete candidate-specific source records before preparing a data-changing import.
+
+
+## Cross-PR sequential ID reconciliation — 21 November 2026
+
+A separate review of PR #28's actual `data/objects.json` patch showed that Batches 058–059 already add ten building records using `DUB-BLD-0316` through `DUB-BLD-0325`. The original Batch 060 draft IDs `DUB-BLD-0316` through `DUB-BLD-0320` would therefore collide if both PRs were merged.
+
+This was corrected before any import: Batch 060 candidate object IDs and matching visual `record_id` values are now `DUB-BLD-0326` through `DUB-BLD-0330`. These are **conditional proposed IDs**, not reserved IDs. They assume PR #28 retains all ten records and is merged first. Recalculate the next sequential IDs against the then-current `main` and every open import PR immediately before any future data import. If PR #28 changes or is not merged, recalculate rather than preserving a gap or guessing.
+
+## Repository quality gate result — 21 November 2026
+
+Archive quality gate workflow #1840 completed successfully on the PR #29 merge ref:
+- Archive preflight passed: 610 objects, 728 sources, 610 visual records and 133 reference images.
+- SEO generator produced 490 crawlable NIAH place pages and a sitemap with 493 URLs.
+- Official national NIAH CSV audit: 48,327 source rows; all 490 currently archived registrations matched; zero unmatched.
+- Four-authority Dublin denominator: 7,535 unique registrations; 490 archive matches; 7,045 remain for review; zero unassigned authority rows; zero official duplicate registrations.
+- Separate Batches 058–059 official CSV reconciliation: 10 candidates, 10 matches, zero missing or duplicate matches.
+- Audit outputs were uploaded in workflow artifact `niah-dublin-bulk-coverage-audit`, artifact ID `14708710642`.
+
+The workflow validates the existing repository catalogues and the separate 058–059 reconciliation. It does not itself import or independently validate the five Batch 060 candidate records. Their draft object/source fields were separately checked against the current JSON Schema structures, including required fields, permitted properties, types, enums, ID patterns, URI syntax, conditional coordinate constraints, unique identifiers and visual-record parity. The corrected Batch 060 JSON was then rechecked; all five objects and sources had zero schema errors.
+
+**Current decision:** Batch 060 remains a separate draft review. The cross-PR ID collision has been resolved in the candidate package. No catalogue mutation, PR merge or production deployment has occurred.

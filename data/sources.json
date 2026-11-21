@@ -7555,5 +7555,68 @@
     "source_type": "OFFICIAL_HERITAGE_REGISTER",
     "specific_reference": "Official NIAH title: The Goodwill Thrift Shop, 142 Capel Street, Dublin 1, DUBLIN; registration 50010446. Rating: Regional. Special interest: Architectural. Original use: House. Recorded current use: Shop/retail outlet. Date range: 1810–1830 (built c.1820); date recorded: 24/11/2011. Individual public NIAH description and appraisal consulted.",
     "notes": "Transcribed from the individual public Buildings of Ireland NIAH record. Supports the exact registration number, official title, locality, rating, special-interest categories, recorded use(s), date range, date recorded and summarised description/appraisal. The displayed coordinate pair is not imported pending separate national-row/ITM reconciliation. No NIAH photograph is reused; this source citation does not establish image reuse rights."
+  },
+  {
+    "id": "NIAH-50010034",
+    "name": "National Inventory of Architectural Heritage — Seville Place locomotive shed",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010034/seville-place-dublin-1-co-dublin",
+    "accessed": "2026-11-21",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH registration 50010034; individual record including survey data, description and appraisal."
+  },
+  {
+    "id": "NIAH-50010035",
+    "name": "National Inventory of Architectural Heritage — Coburg Place railway service building",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010035/coburg-place-dublin-1-dublin",
+    "accessed": "2026-11-21",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH registration 50010035; individual record including survey data, description and appraisal."
+  },
+  {
+    "id": "NIAH-50010036",
+    "name": "National Inventory of Architectural Heritage — 100 Seville Place",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010036/100-seville-place-dublin-1-co-dublin",
+    "accessed": "2026-11-21",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH registration 50010036; individual record including survey data, description and appraisal."
+  },
+  {
+    "id": "NIAH-50010037",
+    "name": "National Inventory of Architectural Heritage — 101 Seville Place",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010037/101-seville-place-dublin-1-dublin",
+    "accessed": "2026-11-21",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH registration 50010037; individual record including survey data, description and appraisal."
+  },
+  {
+    "id": "NIAH-50010038",
+    "name": "National Inventory of Architectural Heritage — 102 Seville Place",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010038/102-seville-place-dublin-1-co-dublin",
+    "accessed": "2026-11-21",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH registration 50010038; individual record including survey data, description and appraisal."
+  },
+  {
+    "id": "DART-WEST-EIAR-A21-2-BUILT-HERITAGE",
+    "name": "DART+ West Environmental Impact Assessment Report — Appendix A21.2 Built Heritage Structures",
+    "publisher": "DART+ West project / Environmental Impact Assessment Report",
+    "url": "https://www.dartplus.ie/S3mvc/media/DART-West-Railway-Order/4%20EIAR/Volume%204%20Appendices/Chapter%2021%20Architectural%20Heritage/A21-2-Built-Heritage-Structures.pdf",
+    "accessed": "2026-11-21",
+    "source_type": "ENVIRONMENTAL_IMPACT_ASSESSMENT_HERITAGE_APPENDIX",
+    "specific_reference": "Appendix A21.2, built heritage entries for 100–102 Seville Place, Coburg Place railway service building and Seville Place locomotive shed; project-area relationships and NIAH references."
+  },
+  {
+    "id": "DART-WEST-EIAR-CH21-ARCH-HERITAGE",
+    "name": "DART+ West Environmental Impact Assessment Report — Chapter 21 Architectural Heritage",
+    "publisher": "DART+ West project / Environmental Impact Assessment Report",
+    "url": "https://www.dartplus.ie/S3mvc/media/DART-West-Railway-Order/4%20EIAR/Volume%202%20Main%20Text/Chapter-21-Architectural-Heritage.pdf",
+    "accessed": "2026-11-21",
+    "source_type": "ENVIRONMENTAL_IMPACT_ASSESSMENT_HERITAGE_REPORT",
+    "specific_reference": "Chapter 21, built heritage receiving environment and assessment of 100–102 Seville Place and the surrounding railway corridor."
   }
 ]

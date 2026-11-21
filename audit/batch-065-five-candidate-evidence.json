@@ -1,0 +1,329 @@
+{
+  "title": "CICAN Dublin Archive — Batch 065 candidate evidence packet",
+  "batch": "065",
+  "status": "RESEARCH_ONLY_FULL_DUPLICATE_AND_COORDINATE_RECONCILIATION_PENDING",
+  "accessed": "2026-11-21",
+  "candidate_count": 5,
+  "archive_ids_assigned": false,
+  "coordinates_imported": false,
+  "map_pins_authorised": false,
+  "candidates": [
+    {
+      "registration": "50010039",
+      "official_title": "103 Seville Place, Dublin 1, DUBLIN",
+      "address": "103 Seville Place, Dublin 1, Ireland",
+      "rating": "Regional",
+      "special_interests": [
+        "Architectural",
+        "Artistic"
+      ],
+      "original_use": "House",
+      "recorded_use": "House",
+      "date_range": "1820–1840",
+      "description_built_date": "c.1830",
+      "description_summary": "Terraced two-bay three-storey house over raised basement. Flemish-bond red brick, granite plinth, slate roof behind parapet, gauged-brick window openings and two-over-two timber sliding sash windows. The entrance has an Ionic doorcase, original timber door and fanlight; a shared granite platform and steps serve the frontage.",
+      "appraisal_summary": "NIAH describes the house as one of a terrace of five dating from the early nineteenth century, built during city expansion associated with the North Circular Road and railway. It retains its original door and doorcase, façade composition and ironmongery despite upper-floor wall rebuilding.",
+      "page_displayed_coordinates": {
+        "easting": 316877,
+        "northing": 235171,
+        "crs": "not labelled on individual NIAH page; raw evidence only"
+      },
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010039/103-seville-place-dublin-1-co-dublin",
+      "duplicate_screen": "preliminary exact-string repository search returned no hit; full current-main dataset and all-open-PR duplicate review pending",
+      "relationship_flags": [
+        "Part of an early nineteenth-century terrace of five; compare with NIAH 50010040 and adjacent registered Seville Place properties without merging separate registrations.",
+        "Nearby current-main Batch 064 records include 100–102 Seville Place (NIAH 50010036–50010038); distinct addresses and registrations."
+      ],
+      "official_niah_csv_coordinates": {
+        "itm_e": 716803,
+        "itm_n": 735197,
+        "latitude": 53.35407,
+        "longitude": -6.245464,
+        "local_authority": "Dublin City Council",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
+        "source_fields": {
+          "registration": "REG_NO",
+          "easting": "ITM_E",
+          "northing": "ITM_N",
+          "latitude": "LATITUDE",
+          "longitude": "LONGITUDE"
+        },
+        "crs": "EPSG:2157 for ITM_E/ITM_N; latitude/longitude separately supplied by CSV",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "positional_accuracy": "unspecified by dataset"
+      }
+    },
+    {
+      "registration": "50010040",
+      "official_title": "104 Seville Place, Dublin 1, DUBLIN",
+      "address": "104 Seville Place, Dublin 1, Ireland",
+      "rating": "Regional",
+      "special_interests": [
+        "Architectural",
+        "Artistic"
+      ],
+      "original_use": "House",
+      "recorded_use": "Apartment/flat (converted)",
+      "date_range": "1820–1840",
+      "description_built_date": "c.1830",
+      "description_summary": "Terraced two-bay three-storey house over raised basement, now in multiple occupancy. M-profile slate roof behind parapet with granite coping; red brick in Flemish bond over a granite plinth and rendered basement; gauged-brick window openings and replacement uPVC windows; rendered gable and rear elevation; altered entrance and front boundary.",
+      "appraisal_summary": "NIAH identifies it as one of a terrace of five dating from the early nineteenth century, constructed before the former Dublin and Drogheda railway was inserted to the south. Although much external detailing has been lost, the overall façade composition contributes to the early domestic streetscape.",
+      "page_displayed_coordinates": {
+        "easting": 316875,
+        "northing": 235177,
+        "crs": "not labelled on individual NIAH page; raw evidence only"
+      },
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010040/104-seville-place-dublin-1-co-dublin",
+      "duplicate_screen": "preliminary exact-string repository search returned no hit; full current-main dataset and all-open-PR duplicate review pending",
+      "relationship_flags": [
+        "Part of the same NIAH-described early nineteenth-century terrace of five as 103 Seville Place (NIAH 50010039); retain separate building identities."
+      ],
+      "official_niah_csv_coordinates": {
+        "itm_e": 716800,
+        "itm_n": 735203,
+        "latitude": 53.354125,
+        "longitude": -6.245492,
+        "local_authority": "Dublin City Council",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
+        "source_fields": {
+          "registration": "REG_NO",
+          "easting": "ITM_E",
+          "northing": "ITM_N",
+          "latitude": "LATITUDE",
+          "longitude": "LONGITUDE"
+        },
+        "crs": "EPSG:2157 for ITM_E/ITM_N; latitude/longitude separately supplied by CSV",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "positional_accuracy": "unspecified by dataset"
+      }
+    },
+    {
+      "registration": "50010042",
+      "official_title": "Parcels Post office, 102–106 Amiens Street, Preston Street, Dublin 1, DUBLIN",
+      "address": "102–106 Amiens Street / Preston Street, Dublin 1, Ireland",
+      "rating": "Regional",
+      "special_interests": [
+        "Architectural",
+        "Artistic",
+        "Historical",
+        "Social"
+      ],
+      "previous_name": "Parcels Post office",
+      "original_use": "Post office",
+      "recorded_use": "Office",
+      "date_range": "1890–1895",
+      "description_built_date": "1892",
+      "architect": "J. Howard Pentland",
+      "description_summary": "Detached seven-bay two-storey former railway parcels office over raised basement, with a Dutch-gable-fronted return and rear extension. Decorative Flemish Revival red-brick elevations, shaped gables, limestone copings, engaged pilasters, elaborate chimneystack, moulded cornices and a detailed entrance with spoked fanlight.",
+      "appraisal_summary": "NIAH identifies the building as designed by J. Howard Pentland in 1892 as part of the Great Northern Railway Terminus complex. Its scale, decorative Flemish Revival detailing and former role in railway mail handling contribute to its architectural and historical interest.",
+      "page_displayed_coordinates": {
+        "easting": 316733,
+        "northing": 235069,
+        "crs": "not labelled on individual NIAH page; raw evidence only"
+      },
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010042/parcels-post-office-102-106-amiens-street-preston-street-dublin-1-dublin",
+      "duplicate_screen": "preliminary exact-string repository search returned no hit; full current-main dataset and all-open-PR duplicate review pending",
+      "relationship_flags": [
+        "Part of the Great Northern Railway Terminus / Connolly Station complex.",
+        "NIAH 50010041 (water tower and adjacent turntable) is already represented in the archive as DUB-INF-0195 Connolly Station; this parcels office is a separately described building and registration, but shared-complex footprint review is required.",
+        "Nearby NIAH 50010034 locomotive shed and turntable is already in current main; preserve distinct registered feature boundaries."
+      ],
+      "official_niah_csv_coordinates": {
+        "itm_e": 716659,
+        "itm_n": 735095,
+        "latitude": 53.353186,
+        "longitude": -6.247663,
+        "local_authority": "Dublin City Council",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
+        "source_fields": {
+          "registration": "REG_NO",
+          "easting": "ITM_E",
+          "northing": "ITM_N",
+          "latitude": "LATITUDE",
+          "longitude": "LONGITUDE"
+        },
+        "crs": "EPSG:2157 for ITM_E/ITM_N; latitude/longitude separately supplied by CSV",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "positional_accuracy": "unspecified by dataset"
+      }
+    },
+    {
+      "registration": "50010043",
+      "official_title": "Hugh Ward & Co. Solicitors, 9 Seville Place, Dublin 1, DUBLIN",
+      "address": "9 Seville Place, Dublin 1, Ireland",
+      "rating": "Regional",
+      "special_interests": [
+        "Architectural",
+        "Artistic"
+      ],
+      "original_use": "House",
+      "recorded_use": "Office",
+      "date_range": "1840–1860",
+      "description_built_date": "c.1850",
+      "description_summary": "End-of-terrace two-bay two-storey house over raised basement, now in office use. Yellow Flemish-bond brick walls on granite plinth, M-profile slate roof, gauged-brick window openings, granite platform and ten granite steps, moulded entrance surround, Doric doorcase and decorative cast-iron railings.",
+      "appraisal_summary": "NIAH describes the building as formerly mid-terrace and now terminating a terrace of seven houses at its southern end. Renovation removed some external detail, but the Victorian façade contributes to the residential streetscape and continues the traditional scale of the opposite late-Georgian terrace.",
+      "page_displayed_coordinates": {
+        "easting": 316835,
+        "northing": 235151,
+        "crs": "not labelled on individual NIAH page; raw evidence only"
+      },
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010043/hugh-ward-co-solicitors-9-seville-place-dublin-1-co-dublin",
+      "duplicate_screen": "preliminary exact-string repository search returned no hit; full current-main dataset and all-open-PR duplicate review pending",
+      "relationship_flags": [
+        "Part of a terrace of seven; compare with NIAH 50010044 (8 Seville Place) and nearby NIAH 50010045–50010046 as distinct individual registrations."
+      ],
+      "official_niah_csv_coordinates": {
+        "itm_e": 716760,
+        "itm_n": 735177,
+        "latitude": 53.3539,
+        "longitude": -6.246102,
+        "local_authority": "Dublin City Council",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
+        "source_fields": {
+          "registration": "REG_NO",
+          "easting": "ITM_E",
+          "northing": "ITM_N",
+          "latitude": "LATITUDE",
+          "longitude": "LONGITUDE"
+        },
+        "crs": "EPSG:2157 for ITM_E/ITM_N; latitude/longitude separately supplied by CSV",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "positional_accuracy": "unspecified by dataset"
+      }
+    },
+    {
+      "registration": "50010044",
+      "official_title": "8 Seville Place, Dublin 1, DUBLIN",
+      "address": "8 Seville Place, Dublin 1, Ireland",
+      "rating": "Regional",
+      "special_interests": [
+        "Architectural",
+        "Artistic"
+      ],
+      "original_use": "House",
+      "recorded_use": "House",
+      "date_range": "1840–1860",
+      "description_built_date": "c.1850",
+      "description_summary": "Terraced two-bay two-storey house over raised basement. Yellow Flemish-bond brickwork with original lime pointing on granite plinth, M-profile slate roof, gauged-brick openings, a Doric doorcase, original flat-panelled timber door and petal fanlight, shared granite platform and ten granite steps, cast-iron bootscraper and decorative railings.",
+      "appraisal_summary": "NIAH describes it as a mid-sized early Victorian townhouse forming part of a terrace of seven similar houses on the west side of Seville Place. The façade, original doorcase, wall finish and ironmongery contribute to the residential streetscape.",
+      "page_displayed_coordinates": {
+        "easting": 316835,
+        "northing": 235160,
+        "crs": "not labelled on individual NIAH page; raw evidence only"
+      },
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010044/seville-place-dublin-1-dublin-city-13",
+      "duplicate_screen": "preliminary exact-string repository search returned no hit; full current-main dataset and all-open-PR duplicate review pending",
+      "relationship_flags": [
+        "Part of a terrace of seven; preserve as a separate NIAH identity from 9 Seville Place (50010043) and neighbouring registered houses.",
+        "NIAH describes a cast-iron bootscraper; any future micro-detail record must first check the existing DUB-STR-0073 bootscraper at 6 Seville Place and avoid assuming a shared object."
+      ],
+      "official_niah_csv_coordinates": {
+        "itm_e": 716761,
+        "itm_n": 735186,
+        "latitude": 53.353981,
+        "longitude": -6.246098,
+        "local_authority": "Dublin City Council",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
+        "source_fields": {
+          "registration": "REG_NO",
+          "easting": "ITM_E",
+          "northing": "ITM_N",
+          "latitude": "LATITUDE",
+          "longitude": "LONGITUDE"
+        },
+        "crs": "EPSG:2157 for ITM_E/ITM_N; latitude/longitude separately supplied by CSV",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "positional_accuracy": "unspecified by dataset"
+      }
+    }
+  ],
+  "exclusions": [
+    {
+      "registration": "50010041",
+      "address": "Connolly Station water tower and adjacent turntable",
+      "reason": "Already represented in current main as DUB-INF-0195 Connolly Station; do not duplicate. This is distinct from the proposed 50010042 parcels office."
+    }
+  ],
+  "coordinate_policy": {
+    "page_display_pairs_crs": "Individual NIAH page coordinates are not labelled with a CRS and remain raw page evidence only.",
+    "official_csv_itm_and_latitude_longitude": "Extracted and matched by REG_NO from the official NIAH national CSV; ITM_E/ITM_N are EPSG:2157 and LATITUDE/LONGITUDE are separate fields.",
+    "source_csv_version": "Official national dataset metadata last updated 10 November 2026; accessed via Batch 065 successful quality-run artifact on 21 November 2026.",
+    "source_csv_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
+    "imported_to_archive": false,
+    "map_pins_authorised": false,
+    "notes": "Do not relabel page-displayed coordinate pairs as ITM, Irish Grid, latitude/longitude or GPS. Official CSV points are source-derived historical centroids with unspecified positional accuracy; not founder GPS or verified building footprints."
+  },
+  "screening": {
+    "status": "EXACT_REGISTRATION_TITLE_ADDRESS_SCREEN_PASSED_FOOTPRINT_REVIEW_OPEN",
+    "current_main_baseline": {
+      "objects": 615,
+      "public_niah_records": 495,
+      "sources": 735,
+      "visual_records": 615,
+      "commit": "baff31959d56ae418aa8b89239054f2622a5e44c"
+    },
+    "canonical_dataset_result": "Full data/objects.json (615 records) and data/niah-registered-objects.json (495 records) parsed from current main. Zero exact candidate registration matches and zero normalized candidate name/address/alias matches in either array.",
+    "open_pr_result": "Reviewed open PR diffs and comments #28, #29, #30, #32, #33 and #35. None contains registrations 50010039, 50010040, 50010042, 50010043 or 50010044. PR #36 is this candidate packet.",
+    "candidate_registrations_in_official_missing_queue": [
+      "50010039",
+      "50010040",
+      "50010042",
+      "50010043",
+      "50010044"
+    ],
+    "official_audit_baseline": "Latest successful run artifact reports 48,327 national CSV rows, 495 archive NIAH references, 495 unique references and 495/495 matched. The five candidates occur in the official Dublin missing-registration queue.",
+    "normalized_match_policy": "Distinct registered properties in the same terrace or railway complex are not treated as duplicates solely due to proximity. Source centroid distance is a review flag, not a footprint test.",
+    "nearest_main_points": [
+      {
+        "registration": "50010039",
+        "nearest_archive_id": "DUB-BLD-0320",
+        "nearest_registration": "50010038",
+        "nearest_name": "102 Seville Place",
+        "distance_m": 6
+      },
+      {
+        "registration": "50010040",
+        "nearest_archive_id": "DUB-BLD-0320",
+        "nearest_registration": "50010038",
+        "nearest_name": "102 Seville Place",
+        "distance_m": 12
+      },
+      {
+        "registration": "50010042",
+        "nearest_archive_id": "DUB-BLD-0210",
+        "nearest_registration": "50010113",
+        "nearest_name": "108 Amiens Street",
+        "distance_m": 44
+      },
+      {
+        "registration": "50010043",
+        "nearest_archive_id": "DUB-BLD-0086",
+        "nearest_registration": "50010046",
+        "nearest_name": "6 Seville Place",
+        "distance_m": 22
+      },
+      {
+        "registration": "50010044",
+        "nearest_archive_id": "DUB-BLD-0086",
+        "nearest_registration": "50010046",
+        "nearest_name": "6 Seville Place",
+        "distance_m": 14
+      }
+    ],
+    "related_review": [
+      "50010039 and 50010040 are separately registered adjacent houses in a terrace of five; their official CSV points are approximately 7 m apart. Distinct registrations and official descriptions support separate identities; footprint geometry remains unverified.",
+      "50010042 is a separate parcels office registration within the Great Northern Railway Terminus complex. It is about 50 m from existing DUB-INF-0195 / NIAH 50010041 Connolly Station water tower point; proximity is not duplication. Keep separate footprint review open against water tower and locomotive shed NIAH 50010034.",
+      "50010043 and 50010044 are separate individually registered houses in the terrace of seven; points are approximately 9 m apart. Existing DUB-BLD-0086 / NIAH 50010046 at 6 Seville Place is 14–22 m away. These are proximity checks only.",
+      "50010044's NIAH description includes a cast-iron bootscraper. Existing DUB-STR-0073 is explicitly at 6 Seville Place; it is not the same address, but compare the 8 Seville Place entrance detail independently before creating any micro-detail record."
+    ],
+    "limits": "NIAH CSV points are source-derived centroids with unspecified positional accuracy. No map footprint/parcel geometry was visually verified. No new archive IDs, imports or map pins are authorised."
+  },
+  "policy": [
+    "This is a research evidence packet only, not an archive-object import.",
+    "No permanent archive IDs, source IDs or visual record IDs are assigned.",
+    "Do not create map pins or import any coordinate field.",
+    "Do not claim current condition, occupancy, access or founder field verification.",
+    "Run full duplicate, alias, related-footprint and schema checks before any candidate is converted into an archive object.",
+    "Keep the already archived NIAH 50010041 excluded from this batch."
+  ]
+}

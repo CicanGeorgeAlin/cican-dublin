@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 610,
+  "record_count": 615,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -21142,6 +21142,161 @@
         "Triple-span roofline, parapet and moulded cornice",
         "Flemish-bond brickwork, lime pointing and gauged-brick arches",
         "Upper-floor sash windows and shopfront interface"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0316",
+      "name": "Seville Place locomotive shed",
+      "category": "TRANSPORT_HERITAGE",
+      "district": "Dublin 1",
+      "address": "Seville Place, Dublin 1, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Overall shed massing and gable from a lawful public viewpoint",
+        "Eighteen-bay brick elevations and recessed panels, if visible",
+        "Granite coping, yellow-brick oculus and window surrounds",
+        "Roof-mounted water tank and turntable only where safely and lawfully visible"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0317",
+      "name": "Coburg Place railway service building",
+      "category": "TRANSPORT_HERITAGE",
+      "district": "Dublin 1",
+      "address": "Coburg Place, Dublin 1, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Overall two-storey building and its relationship to the railway setting",
+        "Buff/yellow brickwork, vitrified-brick detailing and granite lower storey",
+        "Camber-headed window and door openings, where visible",
+        "Roofline, chimney, timber eaves and limestone kneelers"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0318",
+      "name": "100 Seville Place",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "100 Seville Place, Dublin 1, Ireland",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Full frontage and relationship to adjoining terrace",
+        "Roofline, granite coping and chimneystacks",
+        "Window openings, sash windows and rendered façade",
+        "Entrance surround, shared steps and railings from public space"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0319",
+      "name": "101 Seville Place",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "101 Seville Place, Dublin 1, Ireland",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Full frontage and its place within the terrace of five",
+        "Flemish-bond brickwork, parapet and granite plinth",
+        "Window openings and surviving historic façade composition",
+        "Entrance, granite steps and wrought-iron railings from public space"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0320",
+      "name": "102 Seville Place",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "102 Seville Place, Dublin 1, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full frontage and relationship to the terrace",
+        "Original timber door, Ionic doorcase and cobweb-leaded fanlight",
+        "Flemish-bond brickwork, yellow-brick rear details where visible",
+        "Granite platform, bootscraper, steps and wrought-iron railings from public space"
       ],
       "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
       "original_photo": null,

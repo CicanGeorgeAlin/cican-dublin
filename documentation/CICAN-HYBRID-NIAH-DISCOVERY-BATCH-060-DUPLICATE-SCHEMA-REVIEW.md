@@ -90,3 +90,29 @@ The current `schemas/archive-object.schema.json` requires: `id`, `name`, `catego
 - [ ] Production deployment remains disabled until a separate explicit approval.
 
 **Decision:** Candidate research is ready for independent duplicate/schema review. No import is approved.
+
+
+## Independent full-dataset duplicate screen — 21 November 2026
+
+The complete current `main` JSON blobs were retrieved by blob SHA and parsed, rather than relying on truncated Contents API previews. Dataset counts at this check:
+- `data/objects.json`: 610 objects
+- `data/niah-registered-objects.json`: 490 records
+- `data/sources.json`: 728 sources
+- `data/visual-assets.json`: 610 visual records
+
+For each of the five registrations, an exact eight-digit registration-value scan, candidate archive-ID scan, normalized candidate title/address/alias scan was run across every top-level record in all four datasets. Result: **zero matching records in all four datasets for each of the five candidates**. No existing object with any of the five NIAH registration values was found in the master catalogue. This confirms the initial exact-match screen against the current production snapshot, but does not prove absence of spatial overlap, unrecorded aliases or historic address relationships.
+
+The maximum current master ID by prefix is `DUB-BLD-0315` for buildings. No new ID has been assigned; if accepted later, the next sequential building ID must be recalculated against the target branch at import time.
+
+## Confirmed schema conventions and hold points
+
+- `ARCHITECTURE` is a valid taxonomy category.
+- The schema's `additionalProperties` is `false`; do not add undeclared properties such as NIAH rating or coordinate CRS.
+- The object schema allows `national_inventory_reference`, `national_grid_reference`, latitude/longitude, coordinate source and accuracy, and `coordinate_status`.
+- Existing records commonly use `national_grid_reference` for Irish Grid (EPSG:29902) values and explicitly document transformation to WGS 84. The five candidate pairs are NIAH ITM (EPSG:2157), so they must not be inserted into that field without an explicit CRS-aware schema convention. Keep latitude/longitude, national grid reference, map URL and pins null/unset for this import stage.
+- `NOT_SET` is an allowed coordinate status and is the safe choice while the ITM conversion/CRS storage convention remains unresolved.
+- `SOURCE_VERIFIED_CORE` is not an allowed value for the legacy `verification_status` enum. Use only a schema-accepted value after confirming the validator's status semantics; source transcription must never be described as field verification.
+- The source schema requires `id`, `name`, `publisher`, `url` and `accessed`; it accepts optional `source_type`, `specific_reference` and `notes`. Source IDs must be unique and referenced from each object's `sources` array.
+- The current object validator requires exact one-to-one parity between catalogue IDs and visual inventory IDs. Any eventual five-object import therefore needs five corresponding visual plans with matching IDs, all still marked `TO_PHOTOGRAPH` / `TO_CREATE` and no founder original claimed.
+
+**Independent review outcome:** Exact duplicate screen passed against current full datasets. Schema review identified a coordinate reference-system hold point and a legacy verification-status mapping hold point. The five objects are not yet import-ready; resolve those two points and complete candidate-specific source records before preparing a data-changing import.

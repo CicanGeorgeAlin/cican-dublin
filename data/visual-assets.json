@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 600,
+  "record_count": 605,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -20832,6 +20832,161 @@
         "Carved granite piers, caps and neck details",
         "Cast-iron gates, railings and metalwork",
         "Pedimented pedestrian entrances and granite architraves from public viewpoint"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0306",
+      "name": "Guineys, 93 Talbot Street, Dublin 1, DUBLIN",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "Guineys, 93 Talbot Street, Dublin 1, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full Talbot Street frontage and shopfront",
+        "Upper-floor brickwork, Flemish bond and rendered details",
+        "Timber sash windows and gauged-brick openings",
+        "Roofline, parapet and chimneystacks from a safe public viewpoint"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0307",
+      "name": "Law Centre, 45 Gardiner Street Lower, Dublin 1, DUBLIN",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "Law Centre, 45 Gardiner Street Lower, Dublin 1, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full façade and relationship to the Gardiner Street terrace",
+        "Ionic doorcase, fanlight and panelled entrance",
+        "Granite steps, raised platform and basement railings",
+        "Cast-iron balconettes, brickwork and granite plinth"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0308",
+      "name": "The Granary, 20 Temple Lane South, Cecilia Street, Dublin 2, DUBLIN",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 2",
+      "address": "The Granary, 20 Temple Lane South, Cecilia Street, Dublin 2, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Corner composition showing the gabled east elevation",
+        "Arcaded ground floor and former warehouse openings",
+        "Yellow-brick Flemish-bond masonry and parapet",
+        "Timber sash windows, granite paving and kerbstones"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0309",
+      "name": "Dublin City Council, Wood Quay, Fishamble Street, Dublin 8, DUBLIN",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 8",
+      "address": "Dublin City Council, Wood Quay, Fishamble Street, Dublin 8, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Overall pair of granite-clad towers from public space",
+        "Chamfered corners and horizontal window bands",
+        "Granite cladding, skirt roof and ground-floor entrance details",
+        "The later glazed atrium linking the towers"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0310",
+      "name": "5 Parnell Square East, Dublin 1, DUBLIN",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "5 Parnell Square East, Dublin 1, Ireland",
+      "visual_priority": "HIGH",
+      "planned_shots": [
+        "Full frontage and relationship to No. 6",
+        "Painted stone doorcase, pilasters and open-bed pediment",
+        "Cast-iron lamp posts, bootscrapers, steps and railings",
+        "Commemorative plaque and brickwork details from public space"
       ],
       "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
       "original_photo": null,

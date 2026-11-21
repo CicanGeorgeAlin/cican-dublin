@@ -1,0 +1,449 @@
+{
+  "title": "CICAN Dublin Batch 060 — five candidate record drafts",
+  "status": "REVIEW_ONLY_NOT_FOR_IMPORT",
+  "generated_on": "2026-11-21",
+  "dataset_baseline": {
+    "master_objects": 610,
+    "public_niah_records": 490,
+    "sources": 728,
+    "visual_records": 610,
+    "latest_building_id": "DUB-BLD-0315",
+    "proposed_ids": "DUB-BLD-0326 through DUB-BLD-0330, conditional on PR #28 retaining its ten IDs and merging first",
+    "staged_pr_28_reserved_ids": "DUB-BLD-0316 through DUB-BLD-0325 (ten records in PR #28)"
+  },
+  "coordinate_policy": "The coordinate pairs copied from individual NIAH pages are page-displayed values whose CRS is not explicitly labelled on those pages. Their magnitudes are consistent with the older Irish Grid/National Grid representation, not ITM EPSG:2157. The official NIAH national dataset publishes distinct ITM_E/ITM_N, latitude/longitude and National Grid coordinate fields. Keep page-displayed pairs as raw source evidence only; do not label them ITM, convert them, or import them into national_grid_reference, latitude/longitude or map_url until matched to the correctly identified official coordinate fields and an approved CRS-aware policy.",
+  "object_records": [
+    {
+      "id": "DUB-BLD-0326",
+      "name": "146 Parnell Street, Dublin 1, DUBLIN",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "146 Parnell Street, Dublin 1, Ireland",
+      "historical_period": "1760–1780 (built c.1770)",
+      "historical_description": "Terraced two-bay four-storey house built c.1770, now recorded as a hostel. It has a pitched slate roof behind a rebuilt parapet with squared granite coping; English garden-wall-bond red brick walls; gauged flat-arched window openings with brick reveals and granite sills; and nineteenth-century replacement timber sliding sash windows. The round-headed entrance is set within a tooled sandstone doorcase with channelled pilasters, scrolled brackets and an open-bed pediment.",
+      "historical_significance": "NIAH describes the house as pleasantly proportioned and probably among the earliest surviving buildings in the vicinity. Its mid- to late-eighteenth-century sandstone doorcase and historic timber sash windows are key features; the English garden-wall bond is a notable material distinction.",
+      "national_inventory_reference": "50010983",
+      "national_grid_reference": null,
+      "latitude": null,
+      "longitude": null,
+      "coordinate_source": null,
+      "coordinate_accuracy_m": null,
+      "coordinate_status": "NOT_SET",
+      "address_source": "NIAH-50010983",
+      "verification_status": "VERIFIED",
+      "photography_status": "TO_PHOTOGRAPH",
+      "line_art_status": "TO_CREATE",
+      "publication_status": "NOT_PUBLISHED",
+      "parent_id": null,
+      "access_status": "Hostel/commercial premises. Photograph the exterior from the public footpath only; interior access requires permission.",
+      "photography_restrictions": "No access permission is implied. Respect residents, staff, occupiers and visitors. Do not enter private or restricted areas; obtain permission for interior or commercial photography.",
+      "map_url": null,
+      "photography_brief": [
+        "Full frontage and relationship to No. 145",
+        "Sandstone doorcase, pilasters, scrolled brackets and pediment",
+        "Timber sash windows and gauged brick arches",
+        "Roofline, parapet and English garden-wall-bond brickwork"
+      ],
+      "sources": [
+        "NIAH-50010983"
+      ],
+      "feature_type": "PRIMARY_OBJECT",
+      "research_notes": "CICAN Dublin Batch 060 candidate draft. Official NIAH individual record 50010983 reviewed in the Batch 060 research report. NIAH individual-page displayed coordinate pair: 315928, 235086 (CRS not explicitly labelled; do not treat as ITM).; deliberately not copied into national_grid_reference, latitude/longitude or map_url pending an approved CRS-aware conversion/storage workflow. VERIFIED refers to the NIAH record transcription only; not FIELD_VERIFIED. Current condition, access, occupancy and founder photography remain unverified.",
+      "last_researched": "2026-11-21"
+    },
+    {
+      "id": "DUB-BLD-0327",
+      "name": "156 Parnell Street, Dublin 1, DUBLIN",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "156 Parnell Street, Dublin 1, Ireland",
+      "historical_period": "1790–1810 (built c.1800)",
+      "historical_description": "Terraced two-bay four-storey former house, built c.1800. The NIAH record describes handmade red brick in Flemish bond, raised brick quoins, a hipped slate roof, and a replacement timber shopfront. Upper openings include uPVC casements. The survey record described the property as vacant at the time of survey; that is historical survey information, not a statement about present occupancy.",
+      "historical_significance": "NIAH identifies the building as an early nineteenth-century Georgian townhouse contributing to the varied historic terrace on Parnell Street. Its balanced proportions and plain architectural treatment retain streetscape value despite later alterations.",
+      "national_inventory_reference": "50060606",
+      "national_grid_reference": null,
+      "latitude": null,
+      "longitude": null,
+      "coordinate_source": null,
+      "coordinate_accuracy_m": null,
+      "coordinate_status": "NOT_SET",
+      "address_source": "NIAH-50060606",
+      "verification_status": "VERIFIED",
+      "photography_status": "TO_PHOTOGRAPH",
+      "line_art_status": "TO_CREATE",
+      "publication_status": "NOT_PUBLISHED",
+      "parent_id": null,
+      "access_status": "Commercial premises or property with occupancy to be checked. Photograph only from lawful public space; do not infer current vacancy from the historic NIAH survey.",
+      "photography_restrictions": "No access permission is implied. Respect residents, staff, occupiers and visitors. Do not enter private or restricted areas; obtain permission for interior or commercial photography.",
+      "map_url": null,
+      "photography_brief": [
+        "Full frontage and relationship to neighbouring terrace buildings",
+        "Flemish-bond brickwork and raised brick quoins",
+        "Hipped slate roof and parapet",
+        "Replacement shopfront and upper-floor window treatment"
+      ],
+      "sources": [
+        "NIAH-50060606"
+      ],
+      "feature_type": "PRIMARY_OBJECT",
+      "research_notes": "CICAN Dublin Batch 060 candidate draft. Official NIAH individual record 50060606 reviewed in the Batch 060 research report. NIAH individual-page displayed coordinate pair: 315878, 235048 (CRS not explicitly labelled; do not treat as ITM).; deliberately not copied into national_grid_reference, latitude/longitude or map_url pending an approved CRS-aware conversion/storage workflow. VERIFIED refers to the NIAH record transcription only; not FIELD_VERIFIED. Current condition, access, occupancy and founder photography remain unverified.",
+      "last_researched": "2026-11-21"
+    },
+    {
+      "id": "DUB-BLD-0328",
+      "name": "103–104 Parnell Street, Dublin 1, DUBLIN",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "103–104 Parnell Street, Dublin 1, Ireland",
+      "historical_period": "1810–1830 (built c.1820)",
+      "historical_description": "One combined NIAH record for a terraced four-bay two-storey former pair of houses over a concealed basement. No. 103 retains a c.1900 timber shopfront with fluted Ionic pilasters and a figurative lion in the pediment; No. 104 has a more recent shopfront. The combined registration represents one surveyed property record, not two independent NIAH objects.",
+      "historical_significance": "NIAH notes the unusual massing and later unification as evidence of the property's architectural development. The appraisal records a long association with grocery and spirit dealing and later use as the Blue Lion bar.",
+      "national_inventory_reference": "50010984",
+      "national_grid_reference": null,
+      "latitude": null,
+      "longitude": null,
+      "coordinate_source": null,
+      "coordinate_accuracy_m": null,
+      "coordinate_status": "NOT_SET",
+      "address_source": "NIAH-50010984",
+      "verification_status": "VERIFIED",
+      "photography_status": "TO_PHOTOGRAPH",
+      "line_art_status": "TO_CREATE",
+      "publication_status": "NOT_PUBLISHED",
+      "parent_id": null,
+      "access_status": "Commercial frontage. Photograph from the public footpath only; do not enter premises or photograph staff/customers without permission.",
+      "photography_restrictions": "No access permission is implied. Respect residents, staff, occupiers and visitors. Do not enter private or restricted areas; obtain permission for interior or commercial photography.",
+      "map_url": null,
+      "photography_brief": [
+        "Entire combined 103–104 frontage in one frame",
+        "No. 103 c.1900 timber shopfront, fluted Ionic pilasters and lion pediment",
+        "No. 104 shopfront and the junction between the two bays",
+        "Upper-floor façade and relationship to adjoining terrace"
+      ],
+      "sources": [
+        "NIAH-50010984"
+      ],
+      "feature_type": "PRIMARY_OBJECT",
+      "research_notes": "CICAN Dublin Batch 060 candidate draft. Official NIAH individual record 50010984 reviewed in the Batch 060 research report. NIAH individual-page displayed coordinate pair: 315996, 235102 (CRS not explicitly labelled; do not treat as ITM).; deliberately not copied into national_grid_reference, latitude/longitude or map_url pending an approved CRS-aware conversion/storage workflow. VERIFIED refers to the NIAH record transcription only; not FIELD_VERIFIED. Current condition, access, occupancy and founder photography remain unverified. One combined NIAH registration for 103–104 Parnell Street; do not split into two archive objects.",
+      "last_researched": "2026-11-21"
+    },
+    {
+      "id": "DUB-BLD-0329",
+      "name": "98 Parnell Street, Dublin 1, DUBLIN",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "98 Parnell Street, Dublin 1, Ireland",
+      "historical_period": "1800–1820 (built c.1810)",
+      "historical_description": "Terraced two-bay four-storey former townhouse with a four-storey rear return. The NIAH record describes Flemish-bond red brick, segmental-headed openings with gauged brick voussoirs and stop-chamfered reveals, timber sash windows, and a c.1900 timber shopfront with fluted pilasters, pedimented brackets and cornice.",
+      "historical_significance": "NIAH highlights the unusual stop-chamfered window reveals and the building's role as a local social hub. The record documents the Healy family grocery association from at least the mid-nineteenth century to c.1950.",
+      "national_inventory_reference": "50010986",
+      "national_grid_reference": null,
+      "latitude": null,
+      "longitude": null,
+      "coordinate_source": null,
+      "coordinate_accuracy_m": null,
+      "coordinate_status": "NOT_SET",
+      "address_source": "NIAH-50010986",
+      "verification_status": "VERIFIED",
+      "photography_status": "TO_PHOTOGRAPH",
+      "line_art_status": "TO_CREATE",
+      "publication_status": "NOT_PUBLISHED",
+      "parent_id": null,
+      "access_status": "Commercial/public-house history. Photograph the exterior from the public footpath only; no interior access is implied.",
+      "photography_restrictions": "No access permission is implied. Respect residents, staff, occupiers and visitors. Do not enter private or restricted areas; obtain permission for interior or commercial photography.",
+      "map_url": null,
+      "photography_brief": [
+        "Full frontage and relationship to the terrace",
+        "Stop-chamfered window reveals and gauged brick voussoirs",
+        "c.1900 timber shopfront, fluted pilasters and cornice",
+        "Sash windows and visible rear-return form where observable from public space"
+      ],
+      "sources": [
+        "NIAH-50010986"
+      ],
+      "feature_type": "PRIMARY_OBJECT",
+      "research_notes": "CICAN Dublin Batch 060 candidate draft. Official NIAH individual record 50010986 reviewed in the Batch 060 research report. NIAH individual-page displayed coordinate pair: 315962, 235078 (CRS not explicitly labelled; do not treat as ITM).; deliberately not copied into national_grid_reference, latitude/longitude or map_url pending an approved CRS-aware conversion/storage workflow. VERIFIED refers to the NIAH record transcription only; not FIELD_VERIFIED. Current condition, access, occupancy and founder photography remain unverified.",
+      "last_researched": "2026-11-21"
+    },
+    {
+      "id": "DUB-BLD-0330",
+      "name": "Desmonds / Not to Worry / Talbot Street Business Centre, 19 Talbot Street, Dublin 1, DUBLIN",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "19 Talbot Street, Dublin 1, Ireland",
+      "historical_period": "1830–1850 (built c.1840)",
+      "historical_description": "Terraced three-bay three-storey house recorded with a house/shop use history. The NIAH record describes Flemish-bond brown brick, a hipped slate roof, two-over-two timber sliding sash windows, and a three-centred-arch entrance with moulded surround, painted Ionic doorcase and granite entrance step.",
+      "historical_significance": "NIAH notes that, despite later shopfront alterations, the building retains its original form and fabric, including the Ionic doorcase and sash windows. It contributes to the historic terrace rhythm on the north side of Talbot Street.",
+      "national_inventory_reference": "50010197",
+      "national_grid_reference": null,
+      "latitude": null,
+      "longitude": null,
+      "coordinate_source": null,
+      "coordinate_accuracy_m": null,
+      "coordinate_status": "NOT_SET",
+      "address_source": "NIAH-50010197",
+      "verification_status": "VERIFIED",
+      "photography_status": "TO_PHOTOGRAPH",
+      "line_art_status": "TO_CREATE",
+      "publication_status": "NOT_PUBLISHED",
+      "parent_id": null,
+      "access_status": "Business premises. Photograph the exterior from the public footpath only; interior access requires permission.",
+      "photography_restrictions": "No access permission is implied. Respect residents, staff, occupiers and visitors. Do not enter private or restricted areas; obtain permission for interior or commercial photography.",
+      "map_url": null,
+      "photography_brief": [
+        "Full three-bay frontage and relationship to Talbot Street terrace",
+        "Three-centred-arch entrance, Ionic doorcase and granite step",
+        "Two-over-two timber sash windows",
+        "Brick bond, hipped roofline and surviving historic fabric"
+      ],
+      "sources": [
+        "NIAH-50010197"
+      ],
+      "feature_type": "PRIMARY_OBJECT",
+      "research_notes": "CICAN Dublin Batch 060 candidate draft. Official NIAH individual record 50010197 reviewed in the Batch 060 research report. NIAH individual-page displayed coordinate pair: 316257, 234790 (CRS not explicitly labelled; do not treat as ITM).; deliberately not copied into national_grid_reference, latitude/longitude or map_url pending an approved CRS-aware conversion/storage workflow. VERIFIED refers to the NIAH record transcription only; not FIELD_VERIFIED. Current condition, access, occupancy and founder photography remain unverified.",
+      "last_researched": "2026-11-21"
+    }
+  ],
+  "source_records": [
+    {
+      "id": "NIAH-50010983",
+      "name": "National Inventory of Architectural Heritage — 146 Parnell Street, Dublin 1, DUBLIN",
+      "publisher": "National Inventory of Architectural Heritage (NIAH), Department of Housing, Local Government and Heritage",
+      "url": "https://www.buildingsofireland.ie/buildings-search/building/50010983/146-parnell-street-dublin-1-co-dublin",
+      "accessed": "2026-11-21",
+      "source_type": "OFFICIAL_HERITAGE_RECORD",
+      "specific_reference": "NIAH registration 50010983; official survey description, appraisal, rating, date range and published ITM coordinate pair 315928, 235086.",
+      "notes": "Primary statutory-inventory research source. The NIAH ITM coordinate is retained in this candidate review packet only; it is not imported as latitude/longitude or founder GPS. Current condition, occupancy, exact field position and access remain unverified."
+    },
+    {
+      "id": "NIAH-50060606",
+      "name": "National Inventory of Architectural Heritage — 156 Parnell Street, Dublin 1, DUBLIN",
+      "publisher": "National Inventory of Architectural Heritage (NIAH), Department of Housing, Local Government and Heritage",
+      "url": "https://www.buildingsofireland.ie/buildings-search/building/50060606/156-parnell-street-dublin-1-dublin",
+      "accessed": "2026-11-21",
+      "source_type": "OFFICIAL_HERITAGE_RECORD",
+      "specific_reference": "NIAH registration 50060606; official survey description, appraisal, rating, date range and published ITM coordinate pair 315878, 235048.",
+      "notes": "Primary statutory-inventory research source. The NIAH ITM coordinate is retained in this candidate review packet only; it is not imported as latitude/longitude or founder GPS. Current condition, occupancy, exact field position and access remain unverified."
+    },
+    {
+      "id": "NIAH-50010984",
+      "name": "National Inventory of Architectural Heritage — 103–104 Parnell Street, Dublin 1, DUBLIN",
+      "publisher": "National Inventory of Architectural Heritage (NIAH), Department of Housing, Local Government and Heritage",
+      "url": "https://www.buildingsofireland.ie/buildings-search/building/50010984/103-104-parnell-street-dublin-1-co-dublin",
+      "accessed": "2026-11-21",
+      "source_type": "OFFICIAL_HERITAGE_RECORD",
+      "specific_reference": "NIAH registration 50010984; official survey description, appraisal, rating, date range and published ITM coordinate pair 315996, 235102.",
+      "notes": "Primary statutory-inventory research source. The NIAH ITM coordinate is retained in this candidate review packet only; it is not imported as latitude/longitude or founder GPS. Current condition, occupancy, exact field position and access remain unverified."
+    },
+    {
+      "id": "NIAH-50010986",
+      "name": "National Inventory of Architectural Heritage — 98 Parnell Street, Dublin 1, DUBLIN",
+      "publisher": "National Inventory of Architectural Heritage (NIAH), Department of Housing, Local Government and Heritage",
+      "url": "https://www.buildingsofireland.ie/buildings-search/building/50010986/98-parnell-street-dublin-1-dublin",
+      "accessed": "2026-11-21",
+      "source_type": "OFFICIAL_HERITAGE_RECORD",
+      "specific_reference": "NIAH registration 50010986; official survey description, appraisal, rating, date range and published ITM coordinate pair 315962, 235078.",
+      "notes": "Primary statutory-inventory research source. The NIAH ITM coordinate is retained in this candidate review packet only; it is not imported as latitude/longitude or founder GPS. Current condition, occupancy, exact field position and access remain unverified."
+    },
+    {
+      "id": "NIAH-50010197",
+      "name": "National Inventory of Architectural Heritage — Desmonds / Not to Worry / Talbot Street Business Centre, 19 Talbot Street, Dublin 1, DUBLIN",
+      "publisher": "National Inventory of Architectural Heritage (NIAH), Department of Housing, Local Government and Heritage",
+      "url": "https://www.buildingsofireland.ie/buildings-search/building/50010197/desmonds-not-to-worry-talbot-street-business-centre-19-talbot-street-dublin-1-co-dublin",
+      "accessed": "2026-11-21",
+      "source_type": "OFFICIAL_HERITAGE_RECORD",
+      "specific_reference": "NIAH registration 50010197; official survey description, appraisal, rating, date range and published ITM coordinate pair 316257, 234790.",
+      "notes": "Primary statutory-inventory research source. The NIAH ITM coordinate is retained in this candidate review packet only; it is not imported as latitude/longitude or founder GPS. Current condition, occupancy, exact field position and access remain unverified."
+    }
+  ],
+  "visual_records": [
+    {
+      "record_id": "DUB-BLD-0326",
+      "name": "146 Parnell Street, Dublin 1, DUBLIN",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "146 Parnell Street, Dublin 1, Ireland",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Full frontage and relationship to No. 145",
+        "Sandstone doorcase, pilasters, scrolled brackets and pediment",
+        "Timber sash windows and gauged brick arches",
+        "Roofline, parapet and English garden-wall-bond brickwork"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0327",
+      "name": "156 Parnell Street, Dublin 1, DUBLIN",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "156 Parnell Street, Dublin 1, Ireland",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Full frontage and relationship to neighbouring terrace buildings",
+        "Flemish-bond brickwork and raised brick quoins",
+        "Hipped slate roof and parapet",
+        "Replacement shopfront and upper-floor window treatment"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0328",
+      "name": "103–104 Parnell Street, Dublin 1, DUBLIN",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "103–104 Parnell Street, Dublin 1, Ireland",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Entire combined 103–104 frontage in one frame",
+        "No. 103 c.1900 timber shopfront, fluted Ionic pilasters and lion pediment",
+        "No. 104 shopfront and the junction between the two bays",
+        "Upper-floor façade and relationship to adjoining terrace"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0329",
+      "name": "98 Parnell Street, Dublin 1, DUBLIN",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "98 Parnell Street, Dublin 1, Ireland",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Full frontage and relationship to the terrace",
+        "Stop-chamfered window reveals and gauged brick voussoirs",
+        "c.1900 timber shopfront, fluted pilasters and cornice",
+        "Sash windows and visible rear-return form where observable from public space"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0330",
+      "name": "Desmonds / Not to Worry / Talbot Street Business Centre, 19 Talbot Street, Dublin 1, DUBLIN",
+      "category": "ARCHITECTURE",
+      "district": "Dublin 1",
+      "address": "19 Talbot Street, Dublin 1, Ireland",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Full three-bay frontage and relationship to Talbot Street terrace",
+        "Three-centred-arch entrance, Ionic doorcase and granite step",
+        "Two-over-two timber sash windows",
+        "Brick bond, hipped roofline and surviving historic fabric"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    }
+  ],
+  "source_coordinate_evidence": [
+    {
+      "national_inventory_reference": "50010983",
+      "source_coordinate_system": "NIAH individual-page displayed coordinates; CRS not explicitly labelled (likely National Grid/Irish Grid; not confirmed)",
+      "easting_northing": "315928, 235086",
+      "imported_to_object": false
+    },
+    {
+      "national_inventory_reference": "50060606",
+      "source_coordinate_system": "NIAH individual-page displayed coordinates; CRS not explicitly labelled (likely National Grid/Irish Grid; not confirmed)",
+      "easting_northing": "315878, 235048",
+      "imported_to_object": false
+    },
+    {
+      "national_inventory_reference": "50010984",
+      "source_coordinate_system": "NIAH individual-page displayed coordinates; CRS not explicitly labelled (likely National Grid/Irish Grid; not confirmed)",
+      "easting_northing": "315996, 235102",
+      "imported_to_object": false
+    },
+    {
+      "national_inventory_reference": "50010986",
+      "source_coordinate_system": "NIAH individual-page displayed coordinates; CRS not explicitly labelled (likely National Grid/Irish Grid; not confirmed)",
+      "easting_northing": "315962, 235078",
+      "imported_to_object": false
+    },
+    {
+      "national_inventory_reference": "50010197",
+      "source_coordinate_system": "NIAH individual-page displayed coordinates; CRS not explicitly labelled (likely National Grid/Irish Grid; not confirmed)",
+      "easting_northing": "316257, 234790",
+      "imported_to_object": false
+    }
+  ],
+  "id_allocation_policy": "PR #28 already uses DUB-BLD-0316 through DUB-BLD-0325 in its staged ten-record import. These Batch 060 IDs are therefore moved to 0326–0330. Recalculate against main and all open PRs immediately before import; do not treat these IDs as reserved or final."
+}

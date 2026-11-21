@@ -11,7 +11,7 @@
     "proposed_ids": "DUB-BLD-0326 through DUB-BLD-0330, conditional on PR #28 retaining its ten IDs and merging first",
     "staged_pr_28_reserved_ids": "DUB-BLD-0316 through DUB-BLD-0325 (ten records in PR #28)"
   },
-  "coordinate_policy": "NIAH coordinates are ITM EPSG:2157 and are preserved only as source evidence in candidate research_notes. Do not import them into national_grid_reference, latitude/longitude or map_url until CRS-aware policy is approved.",
+  "coordinate_policy": "The coordinate pairs copied from individual NIAH pages are page-displayed values whose CRS is not explicitly labelled on those pages. Their magnitudes are consistent with the older Irish Grid/National Grid representation, not ITM EPSG:2157. The official NIAH national dataset publishes distinct ITM_E/ITM_N, latitude/longitude and National Grid coordinate fields. Keep page-displayed pairs as raw source evidence only; do not label them ITM, convert them, or import them into national_grid_reference, latitude/longitude or map_url until matched to the correctly identified official coordinate fields and an approved CRS-aware policy.",
   "object_records": [
     {
       "id": "DUB-BLD-0326",
@@ -48,7 +48,7 @@
         "NIAH-50010983"
       ],
       "feature_type": "PRIMARY_OBJECT",
-      "research_notes": "CICAN Dublin Batch 060 candidate draft. Official NIAH individual record 50010983 reviewed in the Batch 060 research report. Published NIAH ITM coordinate pair: 315928, 235086 (EPSG:2157); deliberately not copied into national_grid_reference, latitude/longitude or map_url pending an approved CRS-aware conversion/storage workflow. VERIFIED refers to the NIAH record transcription only; not FIELD_VERIFIED. Current condition, access, occupancy and founder photography remain unverified.",
+      "research_notes": "CICAN Dublin Batch 060 candidate draft. Official NIAH individual record 50010983 reviewed in the Batch 060 research report. NIAH individual-page displayed coordinate pair: 315928, 235086 (CRS not explicitly labelled; do not treat as ITM).; deliberately not copied into national_grid_reference, latitude/longitude or map_url pending an approved CRS-aware conversion/storage workflow. VERIFIED refers to the NIAH record transcription only; not FIELD_VERIFIED. Current condition, access, occupancy and founder photography remain unverified.",
       "last_researched": "2026-11-21"
     },
     {
@@ -86,7 +86,7 @@
         "NIAH-50060606"
       ],
       "feature_type": "PRIMARY_OBJECT",
-      "research_notes": "CICAN Dublin Batch 060 candidate draft. Official NIAH individual record 50060606 reviewed in the Batch 060 research report. Published NIAH ITM coordinate pair: 315878, 235048 (EPSG:2157); deliberately not copied into national_grid_reference, latitude/longitude or map_url pending an approved CRS-aware conversion/storage workflow. VERIFIED refers to the NIAH record transcription only; not FIELD_VERIFIED. Current condition, access, occupancy and founder photography remain unverified.",
+      "research_notes": "CICAN Dublin Batch 060 candidate draft. Official NIAH individual record 50060606 reviewed in the Batch 060 research report. NIAH individual-page displayed coordinate pair: 315878, 235048 (CRS not explicitly labelled; do not treat as ITM).; deliberately not copied into national_grid_reference, latitude/longitude or map_url pending an approved CRS-aware conversion/storage workflow. VERIFIED refers to the NIAH record transcription only; not FIELD_VERIFIED. Current condition, access, occupancy and founder photography remain unverified.",
       "last_researched": "2026-11-21"
     },
     {
@@ -124,7 +124,7 @@
         "NIAH-50010984"
       ],
       "feature_type": "PRIMARY_OBJECT",
-      "research_notes": "CICAN Dublin Batch 060 candidate draft. Official NIAH individual record 50010984 reviewed in the Batch 060 research report. Published NIAH ITM coordinate pair: 315996, 235102 (EPSG:2157); deliberately not copied into national_grid_reference, latitude/longitude or map_url pending an approved CRS-aware conversion/storage workflow. VERIFIED refers to the NIAH record transcription only; not FIELD_VERIFIED. Current condition, access, occupancy and founder photography remain unverified. One combined NIAH registration for 103–104 Parnell Street; do not split into two archive objects.",
+      "research_notes": "CICAN Dublin Batch 060 candidate draft. Official NIAH individual record 50010984 reviewed in the Batch 060 research report. NIAH individual-page displayed coordinate pair: 315996, 235102 (CRS not explicitly labelled; do not treat as ITM).; deliberately not copied into national_grid_reference, latitude/longitude or map_url pending an approved CRS-aware conversion/storage workflow. VERIFIED refers to the NIAH record transcription only; not FIELD_VERIFIED. Current condition, access, occupancy and founder photography remain unverified. One combined NIAH registration for 103–104 Parnell Street; do not split into two archive objects.",
       "last_researched": "2026-11-21"
     },
     {
@@ -162,7 +162,7 @@
         "NIAH-50010986"
       ],
       "feature_type": "PRIMARY_OBJECT",
-      "research_notes": "CICAN Dublin Batch 060 candidate draft. Official NIAH individual record 50010986 reviewed in the Batch 060 research report. Published NIAH ITM coordinate pair: 315962, 235078 (EPSG:2157); deliberately not copied into national_grid_reference, latitude/longitude or map_url pending an approved CRS-aware conversion/storage workflow. VERIFIED refers to the NIAH record transcription only; not FIELD_VERIFIED. Current condition, access, occupancy and founder photography remain unverified.",
+      "research_notes": "CICAN Dublin Batch 060 candidate draft. Official NIAH individual record 50010986 reviewed in the Batch 060 research report. NIAH individual-page displayed coordinate pair: 315962, 235078 (CRS not explicitly labelled; do not treat as ITM).; deliberately not copied into national_grid_reference, latitude/longitude or map_url pending an approved CRS-aware conversion/storage workflow. VERIFIED refers to the NIAH record transcription only; not FIELD_VERIFIED. Current condition, access, occupancy and founder photography remain unverified.",
       "last_researched": "2026-11-21"
     },
     {
@@ -200,7 +200,7 @@
         "NIAH-50010197"
       ],
       "feature_type": "PRIMARY_OBJECT",
-      "research_notes": "CICAN Dublin Batch 060 candidate draft. Official NIAH individual record 50010197 reviewed in the Batch 060 research report. Published NIAH ITM coordinate pair: 316257, 234790 (EPSG:2157); deliberately not copied into national_grid_reference, latitude/longitude or map_url pending an approved CRS-aware conversion/storage workflow. VERIFIED refers to the NIAH record transcription only; not FIELD_VERIFIED. Current condition, access, occupancy and founder photography remain unverified.",
+      "research_notes": "CICAN Dublin Batch 060 candidate draft. Official NIAH individual record 50010197 reviewed in the Batch 060 research report. NIAH individual-page displayed coordinate pair: 316257, 234790 (CRS not explicitly labelled; do not treat as ITM).; deliberately not copied into national_grid_reference, latitude/longitude or map_url pending an approved CRS-aware conversion/storage workflow. VERIFIED refers to the NIAH record transcription only; not FIELD_VERIFIED. Current condition, access, occupancy and founder photography remain unverified.",
       "last_researched": "2026-11-21"
     }
   ],
@@ -416,31 +416,31 @@
   "source_coordinate_evidence": [
     {
       "national_inventory_reference": "50010983",
-      "source_coordinate_system": "ITM (EPSG:2157)",
+      "source_coordinate_system": "NIAH individual-page displayed coordinates; CRS not explicitly labelled (likely National Grid/Irish Grid; not confirmed)",
       "easting_northing": "315928, 235086",
       "imported_to_object": false
     },
     {
       "national_inventory_reference": "50060606",
-      "source_coordinate_system": "ITM (EPSG:2157)",
+      "source_coordinate_system": "NIAH individual-page displayed coordinates; CRS not explicitly labelled (likely National Grid/Irish Grid; not confirmed)",
       "easting_northing": "315878, 235048",
       "imported_to_object": false
     },
     {
       "national_inventory_reference": "50010984",
-      "source_coordinate_system": "ITM (EPSG:2157)",
+      "source_coordinate_system": "NIAH individual-page displayed coordinates; CRS not explicitly labelled (likely National Grid/Irish Grid; not confirmed)",
       "easting_northing": "315996, 235102",
       "imported_to_object": false
     },
     {
       "national_inventory_reference": "50010986",
-      "source_coordinate_system": "ITM (EPSG:2157)",
+      "source_coordinate_system": "NIAH individual-page displayed coordinates; CRS not explicitly labelled (likely National Grid/Irish Grid; not confirmed)",
       "easting_northing": "315962, 235078",
       "imported_to_object": false
     },
     {
       "national_inventory_reference": "50010197",
-      "source_coordinate_system": "ITM (EPSG:2157)",
+      "source_coordinate_system": "NIAH individual-page displayed coordinates; CRS not explicitly labelled (likely National Grid/Irish Grid; not confirmed)",
       "easting_northing": "316257, 234790",
       "imported_to_object": false
     }

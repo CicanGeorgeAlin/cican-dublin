@@ -7405,5 +7405,55 @@
     "source_type": "OFFICIAL_HERITAGE_REGISTER",
     "specific_reference": "Official NIAH title: 56 Bayview Avenue, Dublin 3, DUBLIN; NIAH registration 50120246. Rating: Regional. Special interest: Architectural, Artistic. Original use: House; recorded current use: House. Date range: 1820–1840 (built c.1830); date recorded: 29/11/2017. Official description and appraisal captured from the individual Buildings of Ireland record.",
     "notes": "Transcribed from the individual public NIAH record page, accessed 2026-11-20. The page coordinate pair is not imported pending national dataset coordinate-field/CRS reconciliation. The national CSV exact REG_NO audit is performed by the repository quality workflow. No NIAH photographs are reused; this source citation does not establish image reuse rights."
+  },
+  {
+    "id": "NIAH-50010864",
+    "name": "10 Gardiner Place, Dublin 1, DUBLIN",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010864/10-gardiner-place-dublin-1-co-dublin",
+    "accessed": "2026-11-21",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "Official NIAH title: 10 Gardiner Place, Dublin 1, DUBLIN; registration 50010864. Rating: Regional. Special interest: Architectural, Artistic. Original use: House; recorded current use: Apartment/flat (converted). Date range: 1780–1800 (built c.1790); date recorded: 10/10/2011. Page coordinate pair displayed: 315886, 235401; coordinate reference system is not labelled and the pair is not imported. Official description and appraisal consulted.",
+    "notes": "Transcribed from the individual public Buildings of Ireland NIAH record. Supports the exact registration number, official title, rating, special-interest categories, recorded uses, date range, date recorded, and the summarised description/appraisal. The page coordinate pair is not used as a map point because the CRS is not labelled. No NIAH photograph is reused; this source citation does not establish image reuse rights."
+  },
+  {
+    "id": "NIAH-50010963",
+    "name": "21 Denmark Street Great, North Great George's Street, Dublin 1, DUBLIN",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010963/denmark-street-great-north-great-georges-street-dublin-dublin-city",
+    "accessed": "2026-11-21",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "Official NIAH title: 21 Denmark Street Great, North Great George's Street, Dublin 1, DUBLIN; registration 50010963. Rating: Regional. Special interest: Architectural, Artistic. Original use: House; recorded current use: Apartment/flat (converted). Date range: 1780–1800 (built c.1790); date recorded: 26/09/2011. Page coordinate pair displayed: 315796, 235292; coordinate reference system is not labelled and the pair is not imported. Official description and appraisal consulted.",
+    "notes": "Transcribed from the individual public Buildings of Ireland NIAH record. Supports the exact registration number, official title, rating, special-interest categories, recorded uses, date range, date recorded, and the summarised description/appraisal. The page coordinate pair is not used as a map point because the CRS is not labelled. No NIAH photograph is reused; this source citation does not establish image reuse rights."
+  },
+  {
+    "id": "NIAH-50010915",
+    "name": "Dublin City Gallery, 22 Parnell Square North, Dublin 1, DUBLIN",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50010915/dublin-city-gallery-22-parnell-square-north-dublin-1-dublin",
+    "accessed": "2026-11-21",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "Official NIAH title: Dublin City Gallery, 22 Parnell Square North, Dublin 1, DUBLIN; registration 50010915. Rating: National. Special interest: Architectural, Artistic, Cultural, Historical, Social, Technical. Original use: House; historical use: Office; recorded current use: Museum/gallery. Date range: 1760–1935; date recorded: 27/09/2011. Page coordinate pair displayed: 315593, 235152; coordinate reference system is not labelled and the pair is not imported. Official description and appraisal consulted.",
+    "notes": "Transcribed from the individual public Buildings of Ireland NIAH record. Supports the exact registration number, official title, rating, special-interest categories, recorded uses, date range, date recorded, and the summarised description/appraisal. The page coordinate pair is not used as a map point because the CRS is not labelled. No NIAH photograph is reused; this source citation does not establish image reuse rights."
+  },
+  {
+    "id": "NIAH-50070329",
+    "name": "Saint Paul's Christian Brothers School, Brunswick Street North, Dublin 7, DUBLIN",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50070329/saint-pauls-christian-brothers-school-brunswick-street-north-dublin-7-dublin",
+    "accessed": "2026-11-21",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "Official NIAH title: Saint Paul's Christian Brothers School, Brunswick Street North, Dublin 7, DUBLIN; registration 50070329. Rating: Regional. Special interest: Architectural, Historical, Social. Previous name: Saint Patrick's National School. Original and recorded current use: School. Date range: 1885–1895 (dated 1890); date recorded: 14/11/2012. Page coordinate pair displayed: 314822, 234688; coordinate reference system is not labelled and the pair is not imported. Official description and appraisal consulted.",
+    "notes": "Transcribed from the individual public Buildings of Ireland NIAH record. Supports the exact registration number, official title, rating, special-interest categories, recorded uses, date range, date recorded, and the summarised description/appraisal. The page coordinate pair is not used as a map point because the CRS is not labelled. No NIAH photograph is reused; this source citation does not establish image reuse rights."
+  },
+  {
+    "id": "NIAH-50080523",
+    "name": "HSE Mental Health Day Centre, 9 Usher's Island, Dublin 8, DUBLIN",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/50080523/hse-mental-health-day-centre-ushers-island-dublin-8-dublin-city",
+    "accessed": "2026-11-21",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "Official NIAH title: HSE Mental Health Day Centre, 9 Usher's Island, Dublin 8, DUBLIN; registration 50080523. Rating: Regional. Special interest: Architectural, Artistic, Historical, Social. Previous name: Mendicity Institution/Moira House. Original and recorded current use: Gates/railings/walls. Date range: 1840–1860; gate screen erected c.1850; date recorded: 28/10/2013. Page coordinate pair displayed: 314476, 234240; coordinate reference system is not labelled and the pair is not imported. Official description and appraisal consulted.",
+    "notes": "Transcribed from the individual public Buildings of Ireland NIAH record. Supports the exact registration number, official title, rating, special-interest categories, recorded uses, date range, date recorded, and the summarised description/appraisal. The page coordinate pair is not used as a map point because the CRS is not labelled. No NIAH photograph is reused; this source citation does not establish image reuse rights."
   }
 ]

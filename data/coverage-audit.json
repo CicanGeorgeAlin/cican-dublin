@@ -2,7 +2,7 @@
   "version": "1.0",
   "audited_on": "2026-11-21",
   "scope": "Dublin City and County Dublin",
-  "catalogue_total": 610,
+  "catalogue_total": 615,
   "administrative_assignment_status": "NOT_SPATIALLY_VERIFIED",
   "administrative_assignment_note": "No local-authority record counts are published in this audit. Postal-district labels cannot be substituted for point-in-polygon checks. The official 2026 polygon dataset has been identified; geometry import and spatial assignment await reuse-licence confirmation and a coordinate-precision review.",
   "local_authorities": [
@@ -96,9 +96,9 @@
     },
     {
       "name": "Dublin 1",
-      "record_count": 144,
+      "record_count": 149,
       "status": "RESEARCH_IN_PROGRESS",
-      "coverage_note": "Count reconciled from data/objects.json; includes Batch 140 additions. Coverage remains a sample, not exhaustive. Updated after NIAH Hybrid Batch 052; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 053; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 054; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 055; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 056; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 057; reconciled from data/objects.json."
+      "coverage_note": "Count reconciled from data/objects.json; includes Batch 140 additions. Coverage remains a sample, not exhaustive. Updated after NIAH Hybrid Batch 052; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 053; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 054; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 055; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 056; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 057; reconciled from data/objects.json. Batch 064 adds five NIAH records (50010034–50010038); count reconciled from data/objects.json. Coverage remains a sample, not exhaustive."
     },
     {
       "name": "Dublin 11",
@@ -327,6 +327,7 @@
     "Batch 030 added 100 and Batch 031 added six source-derived NIAH Building Survey records. District labels are derived from official NIAH town or townland fields; they do not establish spatial local-authority assignment.",
     "Batch 032 adds one individually checked NIAH weir record in Lucan. Settlement work-zone labels remain distinct from spatial local-authority assignments.",
     "Batch 033 adds five individually checked NIAH Building Survey records in Cooldrinagh / Leixlip. Settlement work-zone labels remain distinct from spatial local-authority assignments.",
-    "Batch 054 adds five individually checked Dublin City NIAH Building Survey records across Dublin 1, Dublin 2 and Dublin 3. District counts are work-zone labels only and do not establish spatial local-authority assignment."
+    "Batch 054 adds five individually checked Dublin City NIAH Building Survey records across Dublin 1, Dublin 2 and Dublin 3. District counts are work-zone labels only and do not establish spatial local-authority assignment.",
+    "Batch 064 adds five individually checked Dublin City NIAH records (50010034–50010038) in Dublin 1. Catalogue and district counts are reconciled from data/objects.json; source-derived coordinates do not establish founder field verification or local-authority polygon assignment."
   ]
 }

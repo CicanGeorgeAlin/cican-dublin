@@ -8,12 +8,13 @@
     "sources": 728,
     "visual_records": 610,
     "latest_building_id": "DUB-BLD-0315",
-    "proposed_ids": "DUB-BLD-0316 through DUB-BLD-0320"
+    "proposed_ids": "DUB-BLD-0326 through DUB-BLD-0330, conditional on PR #28 retaining its ten IDs and merging first",
+    "staged_pr_28_reserved_ids": "DUB-BLD-0316 through DUB-BLD-0325 (ten records in PR #28)"
   },
   "coordinate_policy": "NIAH coordinates are ITM EPSG:2157 and are preserved only as source evidence in candidate research_notes. Do not import them into national_grid_reference, latitude/longitude or map_url until CRS-aware policy is approved.",
   "object_records": [
     {
-      "id": "DUB-BLD-0316",
+      "id": "DUB-BLD-0326",
       "name": "146 Parnell Street, Dublin 1, DUBLIN",
       "category": "ARCHITECTURE",
       "district": "Dublin 1",
@@ -51,7 +52,7 @@
       "last_researched": "2026-11-21"
     },
     {
-      "id": "DUB-BLD-0317",
+      "id": "DUB-BLD-0327",
       "name": "156 Parnell Street, Dublin 1, DUBLIN",
       "category": "ARCHITECTURE",
       "district": "Dublin 1",
@@ -89,7 +90,7 @@
       "last_researched": "2026-11-21"
     },
     {
-      "id": "DUB-BLD-0318",
+      "id": "DUB-BLD-0328",
       "name": "103–104 Parnell Street, Dublin 1, DUBLIN",
       "category": "ARCHITECTURE",
       "district": "Dublin 1",
@@ -127,7 +128,7 @@
       "last_researched": "2026-11-21"
     },
     {
-      "id": "DUB-BLD-0319",
+      "id": "DUB-BLD-0329",
       "name": "98 Parnell Street, Dublin 1, DUBLIN",
       "category": "ARCHITECTURE",
       "district": "Dublin 1",
@@ -165,7 +166,7 @@
       "last_researched": "2026-11-21"
     },
     {
-      "id": "DUB-BLD-0320",
+      "id": "DUB-BLD-0330",
       "name": "Desmonds / Not to Worry / Talbot Street Business Centre, 19 Talbot Street, Dublin 1, DUBLIN",
       "category": "ARCHITECTURE",
       "district": "Dublin 1",
@@ -257,7 +258,7 @@
   ],
   "visual_records": [
     {
-      "record_id": "DUB-BLD-0316",
+      "record_id": "DUB-BLD-0326",
       "name": "146 Parnell Street, Dublin 1, DUBLIN",
       "category": "ARCHITECTURE",
       "district": "Dublin 1",
@@ -288,7 +289,7 @@
       "reference_images": []
     },
     {
-      "record_id": "DUB-BLD-0317",
+      "record_id": "DUB-BLD-0327",
       "name": "156 Parnell Street, Dublin 1, DUBLIN",
       "category": "ARCHITECTURE",
       "district": "Dublin 1",
@@ -319,7 +320,7 @@
       "reference_images": []
     },
     {
-      "record_id": "DUB-BLD-0318",
+      "record_id": "DUB-BLD-0328",
       "name": "103–104 Parnell Street, Dublin 1, DUBLIN",
       "category": "ARCHITECTURE",
       "district": "Dublin 1",
@@ -350,7 +351,7 @@
       "reference_images": []
     },
     {
-      "record_id": "DUB-BLD-0319",
+      "record_id": "DUB-BLD-0329",
       "name": "98 Parnell Street, Dublin 1, DUBLIN",
       "category": "ARCHITECTURE",
       "district": "Dublin 1",
@@ -381,7 +382,7 @@
       "reference_images": []
     },
     {
-      "record_id": "DUB-BLD-0320",
+      "record_id": "DUB-BLD-0330",
       "name": "Desmonds / Not to Worry / Talbot Street Business Centre, 19 Talbot Street, Dublin 1, DUBLIN",
       "category": "ARCHITECTURE",
       "district": "Dublin 1",
@@ -443,5 +444,6 @@
       "easting_northing": "316257, 234790",
       "imported_to_object": false
     }
-  ]
+  ],
+  "id_allocation_policy": "PR #28 already uses DUB-BLD-0316 through DUB-BLD-0325 in its staged ten-record import. These Batch 060 IDs are therefore moved to 0326–0330. Recalculate against main and all open PRs immediately before import; do not treat these IDs as reserved or final."
 }

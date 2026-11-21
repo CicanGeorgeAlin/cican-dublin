@@ -27,7 +27,16 @@
         "northing": 234902,
         "crs": "not labelled on individual page; not imported"
       },
-      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010024/45-seville-place-marion-terrace-dublin-1-dublin"
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010024/45-seville-place-marion-terrace-dublin-1-dublin",
+      "official_niah_csv_coordinates": {
+        "itm_e": 716981,
+        "itm_n": 734928,
+        "latitude": 53.351617,
+        "longitude": -6.242882,
+        "itm_crs": "EPSG:2157",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data"
+      }
     },
     {
       "registration": "50010025",
@@ -49,7 +58,16 @@
         "northing": 234910,
         "crs": "not labelled on individual page; not imported"
       },
-      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010025/44-seville-place-emerald-street-dublin-1-dublin"
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010025/44-seville-place-emerald-street-dublin-1-dublin",
+      "official_niah_csv_coordinates": {
+        "itm_e": 716976,
+        "itm_n": 734934,
+        "latitude": 53.351667,
+        "longitude": -6.242949,
+        "itm_crs": "EPSG:2157",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data"
+      }
     },
     {
       "registration": "50010026",
@@ -72,7 +90,16 @@
         "northing": 234921,
         "crs": "not labelled on individual page; not imported"
       },
-      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010026/emerald-dairy-seville-place-emerald-street-dublin-1-dublin"
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010026/emerald-dairy-seville-place-emerald-street-dublin-1-dublin",
+      "official_niah_csv_coordinates": {
+        "itm_e": 716964,
+        "itm_n": 734949,
+        "latitude": 53.351809,
+        "longitude": -6.243135,
+        "itm_crs": "EPSG:2157",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data"
+      }
     },
     {
       "registration": "50010027",
@@ -92,7 +119,16 @@
         "northing": 234929,
         "crs": "not labelled on individual page; not imported"
       },
-      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010027/42-seville-place-dublin-1-co-dublin"
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010027/42-seville-place-dublin-1-co-dublin",
+      "official_niah_csv_coordinates": {
+        "itm_e": 716959,
+        "itm_n": 734954,
+        "latitude": 53.351853,
+        "longitude": -6.2432,
+        "itm_crs": "EPSG:2157",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data"
+      }
     },
     {
       "registration": "50010028",
@@ -114,7 +150,16 @@
         "northing": 234933,
         "crs": "not labelled on individual page; not imported"
       },
-      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010028/41-seville-place-dublin-1-co-dublin"
+      "official_url": "https://www.buildingsofireland.ie/buildings-search/building/50010028/41-seville-place-dublin-1-co-dublin",
+      "official_niah_csv_coordinates": {
+        "itm_e": 716956,
+        "itm_n": 734958,
+        "latitude": 53.351894,
+        "longitude": -6.243254,
+        "itm_crs": "EPSG:2157",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data"
+      }
     }
   ],
   "duplicate_screen": {
@@ -137,5 +182,16 @@
     "address": "48 Seville Place, Dublin 1",
     "reason": "Carried forward from Batch 061 as an unresolved source-access exclusion; do not infer invalidity or duplicate status."
   },
-  "status_note": "Research candidates only. No archive IDs, catalogue/source/visual records, coordinates, map pins, founder photography claims, merge or production deployment."
+  "status_note": "Research candidates only. No archive IDs, catalogue/source/visual records, coordinates, map pins, founder photography claims, merge or production deployment.",
+  "official_dataset_reconciliation": {
+    "source": "Official NIAH Dublin CSV bulk dataset",
+    "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
+    "audit_artifact": "niah-dublin-missing-registrations.json",
+    "audit_workflow_run": "44909511525",
+    "audited_at": "2026-11-21T13:34:40.111Z",
+    "official_source_row_count": 48327,
+    "official_dublin_unique_registration_count": 7535,
+    "registration_status": "ALL_BATCH_CANDIDATES_PRESENT_IN_OFFICIAL_DUBLIN_MISSING_REGISTRATION_QUEUE",
+    "coordinate_note": "ITM_E and ITM_N are the separately labelled official Irish Transverse Mercator fields (EPSG:2157); LATITUDE and LONGITUDE are separate official CSV fields. Values are source-derived, not founder GPS or field-verified footprint coordinates."
+  }
 }

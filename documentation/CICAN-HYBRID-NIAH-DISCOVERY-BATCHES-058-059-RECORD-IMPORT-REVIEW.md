@@ -2,7 +2,7 @@
 
 **Research and import preparation date:** 21 November 2026  
 **Scope:** Ten individually reviewed Dublin City NIAH registrations  
-**Status:** Corrected draft review branch based on current main; awaiting quality gate; not merged or deployed  
+**Status:** Corrected draft review branch based on current main; automated quality gate passed; manual review remains open; not merged or deployed  
 **Evidence status:** SOURCE_VERIFIED_CORE; not field-verified
 
 ## Review outcome
@@ -14,7 +14,7 @@ Ten records from the Batch 058 and 059 research reviews have been staged in the 
 - `data/sources.json` — source registry
 - `data/visual-assets.json` — photography and visual inventory
 
-The current draft branch uses archive IDs DUB-BLD-0326 through DUB-BLD-0330. Each record has one matching source entry and one visual inventory entry. The NIAH registration is unique within the current master catalogue and public NIAH register.
+The current draft branch uses archive IDs DUB-BLD-0321 through DUB-BLD-0330. Each record has one matching source entry and one visual inventory entry. The NIAH registration is unique within the current master catalogue and public NIAH register.
 
 The exact-collision audit screened registration numbers and exact normalized name/address values against the complete pre-import master catalogue, public NIAH register, source registry and visual inventory. No exact collision was found. This method does not rule out every possible alternate spelling, alias or address variant; human review remains appropriate.
 
@@ -22,11 +22,11 @@ The exact-collision audit screened registration numbers and exact normalized nam
 
 | Archive ID | NIAH registration | Official subject | NIAH page |
 |---|---:|---|---|
-| DUB-BLD-0326 | 50010559 | The Parnell Mooney, 72–74 Parnell Street | [Official record](https://www.buildingsofireland.ie/buildings-search/building/50010559/the-parnell-mooney-72-74-parnell-street-dublin-dublin) |
-| DUB-BLD-0327 | 50010561 | Patrick Conway, 70 Parnell Street | [Official record](https://www.buildingsofireland.ie/buildings-search/building/50010561/patrick-conway-70-parnell-street-dublin-dublin) |
-| DUB-BLD-0328 | 50010562 | 71 Parnell Street | [Official record](https://www.buildingsofireland.ie/buildings-search/building/50010562/71-parnell-street-dublin-dublin) |
-| DUB-BLD-0329 | 50010615 | 76 Parnell Street | [Official record](https://www.buildingsofireland.ie/buildings-search/building/50010615/76-parnell-street-dublin-1-dublin) |
-| DUB-BLD-0330 | 50010617 | 78 Parnell Street | [Official record](https://www.buildingsofireland.ie/buildings-search/building/50010617/78-parnell-street-dublin-dublin) |
+| DUB-BLD-0321 | 50010559 | The Parnell Mooney, 72–74 Parnell Street | [Official record](https://www.buildingsofireland.ie/buildings-search/building/50010559/the-parnell-mooney-72-74-parnell-street-dublin-dublin) |
+| DUB-BLD-0322 | 50010561 | Patrick Conway, 70 Parnell Street | [Official record](https://www.buildingsofireland.ie/buildings-search/building/50010561/patrick-conway-70-parnell-street-dublin-dublin) |
+| DUB-BLD-0323 | 50010562 | 71 Parnell Street | [Official record](https://www.buildingsofireland.ie/buildings-search/building/50010562/71-parnell-street-dublin-dublin) |
+| DUB-BLD-0324 | 50010615 | 76 Parnell Street | [Official record](https://www.buildingsofireland.ie/buildings-search/building/50010615/76-parnell-street-dublin-1-dublin) |
+| DUB-BLD-0325 | 50010617 | 78 Parnell Street | [Official record](https://www.buildingsofireland.ie/buildings-search/building/50010617/78-parnell-street-dublin-dublin) |
 | DUB-BLD-0326 | 50010997 | 12 North Great George’s Street | [Official record](https://www.buildingsofireland.ie/buildings-search/building/50010997/north-great-georges-street-dublin-dublin) |
 | DUB-BLD-0327 | 50010998 | 11 North Great George’s Street | [Official record](https://www.buildingsofireland.ie/buildings-search/building/50010998/north-great-georges-street-dublin-dublin-city) |
 | DUB-BLD-0328 | 50011004 | 5 North Great George’s Street | [Official record](https://www.buildingsofireland.ie/buildings-search/building/50011004/north-great-georges-street-dublin-dublin) |
@@ -88,7 +88,7 @@ The validator also confirmed that catalogue, public NIAH register and visual inv
 | Source registry | 745 |
 | Visual inventory | 625 |
 
-The coverage audit was reconciled to 620 master objects. Dublin 1 now has 159 catalogue records. Settlement/postal-district labels remain work-zone labels and are not treated as verified local-authority assignments.
+The coverage audit was reconciled to 625 master objects. Dublin 1 now has 159 catalogue records. Settlement/postal-district labels remain work-zone labels and are not treated as verified local-authority assignments.
 
 ## Publication status and next actions
 
@@ -102,4 +102,4 @@ Before merge:
 
 **Supersedes:** initial draft PR #28, which is retained for audit and must not be merged.
 
-**ID reconciliation:** Current main already uses DUB-BLD-0316–0320 for NIAH 50010034–50010038. This corrected branch therefore assigns DUB-BLD-0321–0330 to the ten 058–059 records. The original PR #28 remains open as a draft and has a review comment explaining the collision.
+**ID reconciliation:** Current main already uses DUB-BLD-0316–0320 for NIAH 50010034–50010038. This corrected branch assigns DUB-BLD-0321–0325 to Batch 058 and DUB-BLD-0326–0330 to Batch 059. The original PR #28 remains open as a draft and has a review comment explaining the collision.

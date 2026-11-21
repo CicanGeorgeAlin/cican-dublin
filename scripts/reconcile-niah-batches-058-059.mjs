@@ -65,8 +65,8 @@ const results = candidates.map(candidate => {
     const matches = list.flatMap((record,index) => {
       const vals = strings(record);
       const hasReg = vals.some(v => v.trim().replace(/\.0$/,"") === candidate.registration);
-      const hasName = vals.some(v => norm(v).includes(norm(candidate.name)));
-      const hasAddress = vals.some(v => norm(v).includes(norm(candidate.address)));
+      const hasName = vals.some(v => norm(v) === norm(candidate.name));
+      const hasAddress = vals.some(v => norm(v) === norm(candidate.address));
       return hasReg || hasName || hasAddress ? [{ index, record_id: record?.id ?? record?.record_id ?? record?.archive_id ?? null, exact_registration: hasReg, normalized_name: hasName, normalized_address: hasAddress }] : [];
     });
     perFile[key] = { matching_records: matches };
@@ -81,7 +81,7 @@ const results = candidates.map(candidate => {
 const report = {
   title: "CICAN Dublin — Batch 058/059 candidate reconciliation",
   generated_at: new Date().toISOString(),
-  method: "Complete current JSON files parsed on the GitHub Actions runner. Exact registration values and normalized candidate names/addresses are searched within each top-level record. Official national NIAH CSV is downloaded at run time; matching source rows and available coordinate/location fields are retained.",
+  method: "Complete current JSON files parsed on the GitHub Actions runner. Exact registration values and exact normalized string-field equality for candidate names/addresses are searched within each top-level record; substring matches are intentionally excluded to avoid false positives such as street number 5 matching number 35. Official national NIAH CSV is downloaded at run time; matching source rows and available coordinate/location fields are retained.",
   source_url: sourceUrl,
   official_csv_row_count: officialRows.length,
   official_registration_field: regField,

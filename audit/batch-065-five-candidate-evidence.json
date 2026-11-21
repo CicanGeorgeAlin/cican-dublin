@@ -33,7 +33,25 @@
       "relationship_flags": [
         "Part of an early nineteenth-century terrace of five; compare with NIAH 50010040 and adjacent registered Seville Place properties without merging separate registrations.",
         "Nearby current-main Batch 064 records include 100–102 Seville Place (NIAH 50010036–50010038); distinct addresses and registrations."
-      ]
+      ],
+      "official_niah_csv_coordinates": {
+        "itm_e": 716803,
+        "itm_n": 735197,
+        "latitude": 53.35407,
+        "longitude": -6.245464,
+        "local_authority": "Dublin City Council",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
+        "source_fields": {
+          "registration": "REG_NO",
+          "easting": "ITM_E",
+          "northing": "ITM_N",
+          "latitude": "LATITUDE",
+          "longitude": "LONGITUDE"
+        },
+        "crs": "EPSG:2157 for ITM_E/ITM_N; latitude/longitude separately supplied by CSV",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "positional_accuracy": "unspecified by dataset"
+      }
     },
     {
       "registration": "50010040",
@@ -59,7 +77,25 @@
       "duplicate_screen": "preliminary exact-string repository search returned no hit; full current-main dataset and all-open-PR duplicate review pending",
       "relationship_flags": [
         "Part of the same NIAH-described early nineteenth-century terrace of five as 103 Seville Place (NIAH 50010039); retain separate building identities."
-      ]
+      ],
+      "official_niah_csv_coordinates": {
+        "itm_e": 716800,
+        "itm_n": 735203,
+        "latitude": 53.354125,
+        "longitude": -6.245492,
+        "local_authority": "Dublin City Council",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
+        "source_fields": {
+          "registration": "REG_NO",
+          "easting": "ITM_E",
+          "northing": "ITM_N",
+          "latitude": "LATITUDE",
+          "longitude": "LONGITUDE"
+        },
+        "crs": "EPSG:2157 for ITM_E/ITM_N; latitude/longitude separately supplied by CSV",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "positional_accuracy": "unspecified by dataset"
+      }
     },
     {
       "registration": "50010042",
@@ -91,7 +127,25 @@
         "Part of the Great Northern Railway Terminus / Connolly Station complex.",
         "NIAH 50010041 (water tower and adjacent turntable) is already represented in the archive as DUB-INF-0195 Connolly Station; this parcels office is a separately described building and registration, but shared-complex footprint review is required.",
         "Nearby NIAH 50010034 locomotive shed and turntable is already in current main; preserve distinct registered feature boundaries."
-      ]
+      ],
+      "official_niah_csv_coordinates": {
+        "itm_e": 716659,
+        "itm_n": 735095,
+        "latitude": 53.353186,
+        "longitude": -6.247663,
+        "local_authority": "Dublin City Council",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
+        "source_fields": {
+          "registration": "REG_NO",
+          "easting": "ITM_E",
+          "northing": "ITM_N",
+          "latitude": "LATITUDE",
+          "longitude": "LONGITUDE"
+        },
+        "crs": "EPSG:2157 for ITM_E/ITM_N; latitude/longitude separately supplied by CSV",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "positional_accuracy": "unspecified by dataset"
+      }
     },
     {
       "registration": "50010043",
@@ -117,7 +171,25 @@
       "duplicate_screen": "preliminary exact-string repository search returned no hit; full current-main dataset and all-open-PR duplicate review pending",
       "relationship_flags": [
         "Part of a terrace of seven; compare with NIAH 50010044 (8 Seville Place) and nearby NIAH 50010045–50010046 as distinct individual registrations."
-      ]
+      ],
+      "official_niah_csv_coordinates": {
+        "itm_e": 716760,
+        "itm_n": 735177,
+        "latitude": 53.3539,
+        "longitude": -6.246102,
+        "local_authority": "Dublin City Council",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
+        "source_fields": {
+          "registration": "REG_NO",
+          "easting": "ITM_E",
+          "northing": "ITM_N",
+          "latitude": "LATITUDE",
+          "longitude": "LONGITUDE"
+        },
+        "crs": "EPSG:2157 for ITM_E/ITM_N; latitude/longitude separately supplied by CSV",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "positional_accuracy": "unspecified by dataset"
+      }
     },
     {
       "registration": "50010044",
@@ -144,7 +216,25 @@
       "relationship_flags": [
         "Part of a terrace of seven; preserve as a separate NIAH identity from 9 Seville Place (50010043) and neighbouring registered houses.",
         "NIAH describes a cast-iron bootscraper; any future micro-detail record must first check the existing DUB-STR-0073 bootscraper at 6 Seville Place and avoid assuming a shared object."
-      ]
+      ],
+      "official_niah_csv_coordinates": {
+        "itm_e": 716761,
+        "itm_n": 735186,
+        "latitude": 53.353981,
+        "longitude": -6.246098,
+        "local_authority": "Dublin City Council",
+        "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
+        "source_fields": {
+          "registration": "REG_NO",
+          "easting": "ITM_E",
+          "northing": "ITM_N",
+          "latitude": "LATITUDE",
+          "longitude": "LONGITUDE"
+        },
+        "crs": "EPSG:2157 for ITM_E/ITM_N; latitude/longitude separately supplied by CSV",
+        "coordinate_status": "SOURCE_DERIVED_NOT_FIELD_VERIFIED",
+        "positional_accuracy": "unspecified by dataset"
+      }
     }
   ],
   "exclusions": [
@@ -155,14 +245,16 @@
     }
   ],
   "coordinate_policy": {
-    "page_display_pairs_crs": "individual NIAH page coordinate display is not labelled with a CRS",
-    "official_csv_itm_and_latitude_longitude": "not yet extracted and matched by registration number for this batch",
+    "page_display_pairs_crs": "Individual NIAH page coordinates are not labelled with a CRS and remain raw page evidence only.",
+    "official_csv_itm_and_latitude_longitude": "Extracted and matched by REG_NO from the official NIAH national CSV; ITM_E/ITM_N are EPSG:2157 and LATITUDE/LONGITUDE are separate fields.",
+    "source_csv_version": "Official national dataset metadata last updated 10 November 2026; accessed via Batch 065 successful quality-run artifact on 21 November 2026.",
+    "source_csv_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
     "imported_to_archive": false,
     "map_pins_authorised": false,
-    "notes": "Do not relabel the page-displayed coordinate pairs as ITM, Irish Grid, latitude/longitude or GPS. Retrieve the official national CSV fields ITM_E, ITM_N, LATITUDE and LONGITUDE by registration number and preserve their provenance before any future coordinate adoption."
+    "notes": "Do not relabel page-displayed coordinate pairs as ITM, Irish Grid, latitude/longitude or GPS. Official CSV points are source-derived historical centroids with unspecified positional accuracy; not founder GPS or verified building footprints."
   },
   "screening": {
-    "status": "PRELIMINARY_ONLY",
+    "status": "EXACT_REGISTRATION_TITLE_ADDRESS_SCREEN_PASSED_FOOTPRINT_REVIEW_OPEN",
     "current_main_baseline": {
       "objects": 615,
       "public_niah_records": 495,
@@ -170,20 +262,61 @@
       "visual_records": 615,
       "commit": "baff31959d56ae418aa8b89239054f2622a5e44c"
     },
-    "exact_registration_repository_search": [
+    "canonical_dataset_result": "Full data/objects.json (615 records) and data/niah-registered-objects.json (495 records) parsed from current main. Zero exact candidate registration matches and zero normalized candidate name/address/alias matches in either array.",
+    "open_pr_result": "Reviewed open PR diffs and comments #28, #29, #30, #32, #33 and #35. None contains registrations 50010039, 50010040, 50010042, 50010043 or 50010044. PR #36 is this candidate packet.",
+    "candidate_registrations_in_official_missing_queue": [
       "50010039",
       "50010040",
       "50010042",
       "50010043",
       "50010044"
     ],
-    "search_result": "No hits in indexed current-main code search for the five proposed registrations; this is not a substitute for parsing all canonical datasets.",
-    "cross_reference": "Batch 064 covers NIAH 50010034–50010038. Batch 061–063 cover 50010017–50010033. PR #29 and PR #35 concern separate Parnell Street candidates. Full canonical-dataset and all-open-PR reconciliation remains required.",
-    "known_related_current_main_records": [
-      "DUB-INF-0195 / NIAH 50010041 Connolly Station water tower and turntable",
-      "NIAH 50010034 Seville Place locomotive shed and turntable",
-      "NIAH 50010036–50010038 Seville Place 100–102"
-    ]
+    "official_audit_baseline": "Latest successful run artifact reports 48,327 national CSV rows, 495 archive NIAH references, 495 unique references and 495/495 matched. The five candidates occur in the official Dublin missing-registration queue.",
+    "normalized_match_policy": "Distinct registered properties in the same terrace or railway complex are not treated as duplicates solely due to proximity. Source centroid distance is a review flag, not a footprint test.",
+    "nearest_main_points": [
+      {
+        "registration": "50010039",
+        "nearest_archive_id": "DUB-BLD-0320",
+        "nearest_registration": "50010038",
+        "nearest_name": "102 Seville Place",
+        "distance_m": 6
+      },
+      {
+        "registration": "50010040",
+        "nearest_archive_id": "DUB-BLD-0320",
+        "nearest_registration": "50010038",
+        "nearest_name": "102 Seville Place",
+        "distance_m": 12
+      },
+      {
+        "registration": "50010042",
+        "nearest_archive_id": "DUB-BLD-0210",
+        "nearest_registration": "50010113",
+        "nearest_name": "108 Amiens Street",
+        "distance_m": 44
+      },
+      {
+        "registration": "50010043",
+        "nearest_archive_id": "DUB-BLD-0086",
+        "nearest_registration": "50010046",
+        "nearest_name": "6 Seville Place",
+        "distance_m": 22
+      },
+      {
+        "registration": "50010044",
+        "nearest_archive_id": "DUB-BLD-0086",
+        "nearest_registration": "50010046",
+        "nearest_name": "6 Seville Place",
+        "distance_m": 14
+      }
+    ],
+    "related_review": [
+      "50010039 and 50010040 are separately registered adjacent houses in a terrace of five; their official CSV points are approximately 7 m apart. Distinct registrations and official descriptions support separate identities; footprint geometry remains unverified.",
+      "50010042 is a separate parcels office registration within the Great Northern Railway Terminus complex. It is about 50 m from existing DUB-INF-0195 / NIAH 50010041 Connolly Station water tower point; proximity is not duplication. Keep separate footprint review open against water tower and locomotive shed NIAH 50010034.",
+      "50010043 and 50010044 are separate individually registered houses in the terrace of seven; points are approximately 9 m apart. Existing DUB-BLD-0086 / NIAH 50010046 at 6 Seville Place is 14–22 m away. These are proximity checks only.",
+      "50010044's NIAH description includes a cast-iron bootscraper. Existing DUB-STR-0073 is explicitly at 6 Seville Place; it is not the same address, but compare the 8 Seville Place entrance detail independently before creating any micro-detail record."
+    ],
+    "limits": "NIAH CSV points are source-derived centroids with unspecified positional accuracy. No map footprint/parcel geometry was visually verified. No new archive IDs, imports or map pins are authorised."
   },
   "policy": [
     "This is a research evidence packet only, not an archive-object import.",

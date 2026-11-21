@@ -413,3 +413,14 @@ Batch 056 adds five individually consulted official Dublin City NIAH registratio
 ## Latest hybrid discovery checkpoint — Batch 057 (21 November 2026)
 
 Batch 057 adds five individually consulted official Dublin City NIAH registrations: 50010616 (77 Parnell Street; DUB-BLD-0311), 50100219 (National Library of Ireland, Kildare Street; DUB-BLD-0312), 50110133 (2 Lennox Place; DUB-BLD-0313), 50110205 (1 Harrington Street; DUB-BLD-0314), and 50010446 (The Goodwill Thrift Shop, 142 Capel Street; DUB-BLD-0315). Five master objects, five public NIAH core records, five official sources and five visual photography plans were added. Totals: 610 master objects, 490 public NIAH records, 728 sources and 610 visual records. All five are SOURCE_VERIFIED_CORE; the official national CSV exact REG_NO audit is pending workflow execution. All coordinates remain unset pending exact national-row and ITM reconciliation with accuracy assessment; no map pins or NIAH photographs were added. Full master/NIAH registration collision checks, master archive-ID/name/address checks and source-ID checks found no collisions. Quality gate and GitHub Pages deployment are pending.
+
+
+## Batch 057 — official national CSV audit result (21 November 2026)
+
+The completed GitHub Actions audit cross-checked all **490** public NIAH archive registrations against the official national NIAH CSV. All **490/490** matched exactly by registration number; the source contained 48,327 rows and the audit confirmed all archive registrations were found. The four-authority Dublin denominator contained 7,535 unique registrations: Dublin City Council 5,692; Fingal County Council 667; South Dublin County Council 790; Dún Laoghaire-Rathdown County Council 386. No unassigned authority rows or duplicate official registration numbers were found. The 7,045 unmatched registrations are a combined four-authority research queue, not a Dublin City-only count. This validates registration identity, not field condition or precise coordinates.
+
+- [Archive quality gate — run 44862701796](https://github.com/CicanGeorgeAlin/cican-dublin/actions/runs/44862701796)
+- [CICAN Pages deployment — run 44862701807](https://github.com/CicanGeorgeAlin/cican-dublin/actions/runs/44862701807)
+- [Pages build/deployment — run 44862701626](https://github.com/CicanGeorgeAlin/cican-dublin/actions/runs/44862701626)
+
+The quality gate generated **490 crawlable NIAH place pages** and a sitemap with **493 URLs**; archive preflight, official CSV registration audit, four-authority coverage audit and artifact upload all succeeded. GitHub Pages deployment succeeded. The generated place-page URLs are included in the sitemap; web-reader direct access to individual generated URLs was unavailable during this check, so no separate browser rendering claim is made.

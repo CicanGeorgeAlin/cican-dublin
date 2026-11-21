@@ -135,3 +135,14 @@ The five new entries are SOURCE_VERIFIED_CORE. The automated quality workflow wi
 2. Confirm the generated place pages, sitemap, archive validator and GitHub Pages deployment.
 3. Keep coordinate reconciliation separate: recover each exact official national row, preserve ITM easting/northing and corresponding latitude/longitude, document CRS/source version and positional accuracy, then validate before adding map points.
 4. Continue with five more individually consulted Dublin City NIAH records only after the quality gate passes.
+
+
+## Batch 057 — official national CSV audit result (21 November 2026)
+
+The completed GitHub Actions audit cross-checked all **490** public NIAH archive registrations against the official national NIAH CSV. All **490/490** matched exactly by registration number; the source contained 48,327 rows and the audit confirmed all archive registrations were found. The four-authority Dublin denominator contained 7,535 unique registrations: Dublin City Council 5,692; Fingal County Council 667; South Dublin County Council 790; Dún Laoghaire-Rathdown County Council 386. No unassigned authority rows or duplicate official registration numbers were found. The 7,045 unmatched registrations are a combined four-authority research queue, not a Dublin City-only count. This validates registration identity, not field condition or precise coordinates.
+
+- [Archive quality gate — run 44862701796](https://github.com/CicanGeorgeAlin/cican-dublin/actions/runs/44862701796)
+- [CICAN Pages deployment — run 44862701807](https://github.com/CicanGeorgeAlin/cican-dublin/actions/runs/44862701807)
+- [Pages build/deployment — run 44862701626](https://github.com/CicanGeorgeAlin/cican-dublin/actions/runs/44862701626)
+
+The quality gate generated **490 crawlable NIAH place pages** and a sitemap with **493 URLs**; archive preflight, official CSV registration audit, four-authority coverage audit and artifact upload all succeeded. GitHub Pages deployment succeeded. The generated place-page URLs are included in the sitemap; web-reader direct access to individual generated URLs was unavailable during this check, so no separate browser rendering claim is made.

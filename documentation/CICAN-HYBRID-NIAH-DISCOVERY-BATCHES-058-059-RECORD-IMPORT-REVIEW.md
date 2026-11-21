@@ -103,3 +103,6 @@ Before merge:
 **Supersedes:** initial draft PR #28, which is retained for audit and must not be merged.
 
 **ID reconciliation:** Current main already uses DUB-BLD-0316–0320 for NIAH 50010034–50010038. This corrected branch assigns DUB-BLD-0321–0325 to Batch 058 and DUB-BLD-0326–0330 to Batch 059. The original PR #28 remains open as a draft and has a review comment explaining the collision.
+
+
+**Publication-state correction:** The ten imported objects are staged on this draft branch only. Their `publication_status` is `NOT_PUBLISHED` in both canonical object registers until an approved merge and successful GitHub Pages deployment. `SOURCE_VERIFIED_CORE` does not itself mean the CICAN archive page is live.

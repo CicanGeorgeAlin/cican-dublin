@@ -7607,7 +7607,7 @@
     "publisher": "DART+ West project / Environmental Impact Assessment Report",
     "url": "https://www.dartplus.ie/S3mvc/media/DART-West-Railway-Order/4%20EIAR/Volume%204%20Appendices/Chapter%2021%20Architectural%20Heritage/A21-2-Built-Heritage-Structures.pdf",
     "accessed": "2026-11-21",
-    "source_type": "ENVIRONMENTAL_IMPACT_ASSESSMENT_HERITAGE_APPENDIX",
+    "source_type": "ENVIRONMENTAL_IMPACT_ASSESSMENT_HERITAGE_SURVEY",
     "specific_reference": "Appendix A21.2, built heritage entries for 100–102 Seville Place, Coburg Place railway service building and Seville Place locomotive shed; project-area relationships and NIAH references."
   },
   {
@@ -7616,7 +7616,7 @@
     "publisher": "DART+ West project / Environmental Impact Assessment Report",
     "url": "https://www.dartplus.ie/S3mvc/media/DART-West-Railway-Order/4%20EIAR/Volume%202%20Main%20Text/Chapter-21-Architectural-Heritage.pdf",
     "accessed": "2026-11-21",
-    "source_type": "ENVIRONMENTAL_IMPACT_ASSESSMENT_HERITAGE_REPORT",
+    "source_type": "ENVIRONMENTAL_IMPACT_ASSESSMENT_HERITAGE_SURVEY",
     "specific_reference": "Chapter 21, built heritage receiving environment and assessment of 100–102 Seville Place and the surrounding railway corridor."
   }
 ]

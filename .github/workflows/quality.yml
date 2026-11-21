@@ -34,6 +34,8 @@ jobs:
         run: node scripts/audit-niah-registrations.mjs
       - name: Build four-authority Dublin NIAH coverage and missing-registration queue
         run: node scripts/audit-niah-dublin-coverage.mjs
+      - name: Reconcile Batch 058 and 059 research candidates against complete catalogues and official CSV
+        run: node scripts/reconcile-niah-batches-058-059.mjs
       - name: Upload official NIAH audit reports and review queue
         uses: actions/upload-artifact@v4
         with:
@@ -42,4 +44,5 @@ jobs:
             audit/niah-340-official-register-audit.json
             audit/niah-dublin-coverage-audit.json
             audit/niah-dublin-missing-registrations.json
+            audit/niah-batches-058-059-candidate-reconciliation.json
           if-no-files-found: error

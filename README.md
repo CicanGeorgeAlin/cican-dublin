@@ -10,7 +10,7 @@ https://cicangeorgealin.github.io/cican-dublin/
 
 ## Stage 1: NIAH-registered Dublin catalogue
 
-The live map and archive use `data/niah-registered-objects.json`, a curated Stage 1 collection containing **475 unique eight-digit NIAH registration numbers**. The 595-record master catalogue remains preserved in `data/objects.json` for provenance and later research; it is not the live Stage 1 display source. All 475 public registrations were exact-matched to the official national CSV in the 20 November 2026 Batch 054 quality run. This is a growing, partly researched tranche, not the complete Dublin NIAH inventory. The audited Building Survey denominator is 7,535 unique registrations across the four Dublin local authorities; the earlier 3,396 planning target is superseded.
+The live map and archive use `data/niah-registered-objects.json`, a curated Stage 1 collection containing **480 unique eight-digit NIAH registration numbers**. The 595-record master catalogue remains preserved in `data/objects.json` for provenance and later research; it is not the live Stage 1 display source. All 475 public registrations were exact-matched to the official national CSV in the 20 November 2026 Batch 054 quality run. This is a growing, partly researched tranche, not the complete Dublin NIAH inventory. The audited Building Survey denominator is 7,535 unique registrations across the four Dublin local authorities; the earlier 3,396 planning target is superseded.
 
 Selection rules: only records whose `national_inventory_reference` field is exactly one eight-digit numeric NIAH reference are eligible. Repeated catalogue records carrying the same NIAH number are consolidated to one canonical record for the live Stage 1 collection. A canonical building/primary-object record is preferred over a separately catalogued detail when both share the same parent registration. The excluded records remain in the master catalogue; they have not been deleted.
 
@@ -110,3 +110,8 @@ GitHub Actions runs JavaScript syntax checks, generates crawlable place pages an
 
 **CICAN GEORGE ALIN**  
 Dublin, Ireland
+
+
+## Latest research checkpoint — Batch 055 (21 November 2026)
+
+Batch 055 adds five individually consulted official Dublin City NIAH records: 50010864 (10 Gardiner Place; DUB-BLD-0301), 50010963 (21 Denmark Street Great; DUB-BLD-0302), 50010915 (Dublin City Gallery / Charlemont House; DUB-BLD-0303), 50070329 (Saint Paul's Christian Brothers School; DUB-BLD-0304), and 50080523 (Mendicity Institution gate screen; DUB-BLD-0305). Five master objects, five public NIAH records, five official sources and five visual photography plans were added. New totals: 600 master objects, 480 public NIAH records, 718 sources and 600 visual records. All five are SOURCE_VERIFIED_CORE, not FIELD_VERIFIED. Individual-page coordinate pairs are not labelled with a CRS and were not imported; no map pins were added. No NIAH photographs were reused. Founder photography remains outstanding. The batch duplicate audit found no exact REG_NO, archive ID, source ID, normalized-name or exact-address collision; Saint Paul's shares a street-address string with a different, separately registered Carmichael House gate-lodge record, not the same object. See [Batch 055](documentation/CICAN-HYBRID-NIAH-DISCOVERY-BATCH-055.md). Quality/official CSV audit and deployment confirmation are pending the workflow run.

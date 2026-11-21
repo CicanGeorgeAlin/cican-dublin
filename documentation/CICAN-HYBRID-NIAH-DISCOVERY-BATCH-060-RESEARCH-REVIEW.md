@@ -21,7 +21,7 @@ No exact registration-number, normalized-name or normalized-address collision wa
 - **NIAH rating / interests:** Regional; Architectural, Artistic
 - **Date range:** 1760–1780; described as built c.1770
 - **Original / current use in record:** House / hostel
-- **NIAH ITM coordinates:** 315928, 235086
+- **NIAH page-displayed coordinates (CRS not explicitly labelled):** 315928, 235086
 - **Architectural evidence:** Terraced two-bay, four-storey house; English garden-wall-bond red brick; gauged flat arches; granite sills; timber sliding sash windows; round-headed entrance with a substantial tooled sandstone doorcase and scrolled-bracket open-bed pediment.
 - **Appraisal significance:** NIAH identifies it as probably one of the earliest surviving buildings in the vicinity and highlights its eighteenth-century doorcase and historic sash windows.
 - **Primary source:** https://www.buildingsofireland.ie/buildings-search/building/50010983/146-parnell-street-dublin-1-co-dublin
@@ -31,7 +31,7 @@ No exact registration-number, normalized-name or normalized-address collision wa
 - **NIAH rating / interests:** Regional; Architectural
 - **Date range:** 1790–1810; described as built c.1800
 - **Original use / recorded condition:** House; the NIAH record describes a replacement shopfront and records the building as vacant at the time of survey. That occupancy statement is historical survey data, not a current-status claim.
-- **NIAH ITM coordinates:** 315878, 235048
+- **NIAH page-displayed coordinates (CRS not explicitly labelled):** 315878, 235048
 - **Architectural evidence:** Terraced two-bay, four-storey former house; handmade red brick in Flemish bond; raised brick quoins; hipped slate roof; replacement timber shopfront and uPVC casements.
 - **Appraisal significance:** NIAH describes it as an early nineteenth-century Georgian townhouse contributing to a varied terrace, with balanced proportions and plain detailing.
 - **Primary source:** https://www.buildingsofireland.ie/buildings-search/building/50060606/156-parnell-street-dublin-1-dublin
@@ -41,7 +41,7 @@ No exact registration-number, normalized-name or normalized-address collision wa
 - **NIAH rating / interests:** Regional; Architectural, Artistic
 - **Date range:** 1810–1830; described as built c.1820
 - **Original / historical / current uses in record:** Shop/retail outlet; public house; restaurant
-- **NIAH ITM coordinates:** 315996, 235102
+- **NIAH page-displayed coordinates (CRS not explicitly labelled):** 315996, 235102
 - **Architectural evidence:** One combined NIAH record for a terraced four-bay, two-storey former pair of houses over a concealed basement. No. 103 retains a c.1900 timber shopfront with fluted Ionic pilasters and a figurative lion in the pediment; No. 104 has a more recent shopfront.
 - **Appraisal significance:** The unusual massing and later unification contribute evidence of architectural development. The appraisal records a long association with grocery and spirit dealing and later use as the Blue Lion bar.
 - **Record-boundary note:** This is one NIAH registration for the combined 103–104 property, not two separate candidate records.
@@ -52,7 +52,7 @@ No exact registration-number, normalized-name or normalized-address collision wa
 - **NIAH rating / interests:** Regional; Architectural, Artistic
 - **Date range:** 1800–1820; described as built c.1810
 - **Original / historical / current uses in record:** House; shop/retail outlet; public house
-- **NIAH ITM coordinates:** 315962, 235078
+- **NIAH page-displayed coordinates (CRS not explicitly labelled):** 315962, 235078
 - **Architectural evidence:** Terraced two-bay, four-storey former townhouse; four-storey rear return; Flemish-bond red brick; segmental-headed openings with gauged brick voussoirs and stop-chamfered reveals; timber sash windows; c.1900 timber shopfront with fluted pilasters, pedimented brackets and cornice.
 - **Appraisal significance:** NIAH notes the unusual stop-chamfered window reveals and the building's role as a local social hub. The record also documents the Healy family grocery association from at least the mid-nineteenth century to c.1950.
 - **Primary source:** https://www.buildingsofireland.ie/buildings-search/building/50010986/98-parnell-street-dublin-1-dublin
@@ -62,14 +62,14 @@ No exact registration-number, normalized-name or normalized-address collision wa
 - **NIAH rating / interests:** Regional; Architectural
 - **Date range:** 1830–1850; described as built c.1840
 - **Original / current uses in record:** House / shop-retail outlet
-- **NIAH ITM coordinates:** 316257, 234790
+- **NIAH page-displayed coordinates (CRS not explicitly labelled):** 316257, 234790
 - **Architectural evidence:** Terraced three-bay, three-storey house; Flemish-bond brown brick; hipped slate roof; two-over-two timber sliding sash windows; three-centred-arch entrance with a moulded surround and painted Ionic doorcase; granite entrance step.
 - **Appraisal significance:** Although later shopfronts altered the ground floor, the building retains its original form and fabric, including the Ionic doorcase and sash windows, and maintains the north-side Talbot Street terrace rhythm.
 - **Primary source:** https://www.buildingsofireland.ie/buildings-search/building/50010197/desmonds-not-to-worry-talbot-street-business-centre-19-talbot-street-dublin-1-co-dublin
 
 ## Coordinate handling
 
-The coordinate pairs above are copied as published by NIAH in **ITM (Irish Transverse Mercator)**. They are not GPS field fixes and have not been independently checked against the building footprint. They must not be copied directly into latitude/longitude fields. Coordinate conversion, parcel/footprint reconciliation and founder GPS verification remain separate tasks. No map URLs or map pins are authorised by this research review.
+The coordinate pairs above are transcribed from the individual NIAH pages. Those pages display the numbers but do not explicitly label their coordinate reference system. The values are consistent with the older Irish Grid/National Grid representation, not ITM EPSG:2157; this interpretation remains provisional until reconciled against the official national dataset. NIAH's national dataset provides distinct ITM, latitude/longitude and National Grid fields, and its ITM_E/ITM_N fields are the appropriate official ITM source. These page-displayed pairs are not GPS field fixes and must not be copied into latitude/longitude or ITM fields. Coordinate reconciliation, parcel/footprint review and founder GPS verification remain separate tasks. No map URLs or map pins are authorised by this research review.
 
 ## Photography and access
 

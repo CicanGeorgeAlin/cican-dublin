@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 595,
+  "record_count": 600,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -20852,5 +20852,5 @@
       "reference_images": []
     }
   ],
-  "last_updated": "2026-11-20"
+  "last_updated": "2026-11-21"
 }

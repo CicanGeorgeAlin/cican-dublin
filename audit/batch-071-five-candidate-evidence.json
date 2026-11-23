@@ -1,0 +1,122 @@
+{
+  "batch": "071",
+  "purpose": "Research-only evidence packet for five individually registered Dublin City NIAH structures",
+  "repository": "CicanGeorgeAlin/cican-dublin",
+  "branch": "research/batch-071-niah-candidates",
+  "source_snapshot": {
+    "workflow_run": 45261671304,
+    "workflow_run_number": 1923,
+    "artifact_id": 14859254447,
+    "artifact_name": "niah-dublin-bulk-coverage-audit",
+    "queue_file": "niah-dublin-missing-registrations.json",
+    "queue_entries": 7040,
+    "queue_rule": "Each selected registration number was checked as an exact entry in the workflow-generated Dublin missing-registration queue."
+  },
+  "official_dataset_reference": {
+    "title": "NIAH Data Download",
+    "url": "https://www.buildingsofireland.ie/niah-data-download/",
+    "note": "The official NIAH data download describes the register fields and provides location information in ITM, latitude/longitude and National Grid. Coordinates below labelled csv_* are copied from the official national CSV row."
+  },
+  "candidate_records": [
+    {
+      "reg_no": "50010082",
+      "name": "Aldborough House",
+      "address": "Portland Row / Killarney Street, Dublin 1, Ireland",
+      "rating": "National",
+      "date_from": 1790,
+      "date_to": 1800,
+      "original_use": "House",
+      "historical_use": "Barracks",
+      "official_niah_page": "https://www.buildingsofireland.ie/buildings-search/building/50010082/aldborough-house-portland-row-killarney-street-dublin-1-dublin",
+      "page_coordinates_raw_unlabelled_crs": [316696, 235287],
+      "csv_itm_epsg_2157": [716622, 735313],
+      "csv_latitude_longitude": [53.355152, -6.248138],
+      "queue_membership": "Exact REG_NO 50010082 present in Dublin missing-registration queue.",
+      "research_notes": "Corner-sited detached seven-bay three-storey mansion over raised basement, dated 1796 and attributed by NIAH to Richard Johnson. The official page explicitly identifies the former theatre pavilion (50010083) and former barracks building (50010084) as associated but separately registered structures. NIAH's description of derelict condition is historical survey wording, not a present-day field verification."
+    },
+    {
+      "reg_no": "50010083",
+      "name": "Aldborough House - former theatre pavilion",
+      "address": "Aldborough House grounds, Portland Row / Killarney Street, Dublin 1, Ireland",
+      "rating": "Regional",
+      "date_from": 1790,
+      "date_to": 1810,
+      "original_use": "Building misc",
+      "historical_use": "Theatre/opera house/concert hall",
+      "official_niah_page": "https://www.buildingsofireland.ie/buildings-search/building/50010083/aldborough-house-portland-row-killarney-street-dublin-1-dublin",
+      "page_coordinates_raw_unlabelled_crs": [316728, 235276],
+      "csv_itm_epsg_2157": [716654, 735302],
+      "csv_latitude_longitude": [53.355046, -6.247662],
+      "queue_membership": "Exact REG_NO 50010083 present in Dublin missing-registration queue.",
+      "research_notes": "Attached three-bay single-storey former theatre pavilion, built c.1800, terminating the south quadrant wing of Aldborough House. NIAH describes a decorative Neo-Classical structure with Coade stone ornament and records the matching north pavilion as demolished. Keep as a distinct registered structure, not a duplicate of the mansion."
+    },
+    {
+      "reg_no": "50010084",
+      "name": "Aldborough House - former barracks building",
+      "address": "Aldborough House forecourt, Portland Row / Killarney Street, Dublin 1, Ireland",
+      "rating": "Regional",
+      "date_from": 1840,
+      "date_to": 1860,
+      "original_use": "Building misc",
+      "official_niah_page": "https://www.buildingsofireland.ie/buildings-search/building/50010084/aldborough-house-portland-row-killarney-street-dublin-1-dublin",
+      "page_coordinates_raw_unlabelled_crs": [316712, 235317],
+      "csv_itm_epsg_2157": [716638, 735343],
+      "csv_latitude_longitude": [53.355418, -6.247887],
+      "queue_membership": "Exact REG_NO 50010084 present in Dublin missing-registration queue.",
+      "research_notes": "Detached four-bay single-storey stone former barracks building, built c.1850, within the forecourt and forming part of Aldborough House boundary walls. NIAH explicitly describes it as a separate building and separate registration from 50010082."
+    },
+    {
+      "reg_no": "50010108",
+      "name": "4 Preston Street",
+      "address": "4 Preston Street, Dublin 1, Ireland",
+      "rating": "Regional",
+      "date_from": 1805,
+      "date_to": 1815,
+      "original_use": "House",
+      "official_niah_page": "https://www.buildingsofireland.ie/buildings-search/building/50010108/4-preston-street-dublin-1-dublin",
+      "page_coordinates_raw_unlabelled_crs": [316725, 235038],
+      "csv_itm_epsg_2157": [716651, 735064],
+      "csv_latitude_longitude": [53.352909, -6.247794],
+      "queue_membership": "Exact REG_NO 50010108 present in Dublin missing-registration queue.",
+      "research_notes": "End-of-terrace three-bay three-storey house over raised basement, built c.1810, one of a terrace of four. NIAH describes some upper-floor historic fabric and notes lower levels were not visible behind hoardings at survey time. Its recorded poor condition is not a present-day verification."
+    },
+    {
+      "reg_no": "50010109",
+      "name": "Preston House, 3 Preston Street",
+      "address": "3 Preston Street, Dublin 1, Ireland",
+      "rating": "Regional",
+      "date_from": 1805,
+      "date_to": 1815,
+      "original_use": "House",
+      "in_use_as": "Apartment/flat (converted)",
+      "official_niah_page": "https://www.buildingsofireland.ie/buildings-search/building/50010109/preston-house-preston-street-dublin-1-dublin",
+      "page_coordinates_raw_unlabelled_crs": [316719, 235045],
+      "csv_itm_epsg_2157": [716645, 735071],
+      "csv_latitude_longitude": [53.352974, -6.247882],
+      "queue_membership": "Exact REG_NO 50010109 present in Dublin missing-registration queue.",
+      "research_notes": "Terraced three-bay three-storey house over raised basement, built c.1810, one of a terrace of four. NIAH highlights the Adamesque doorcase and surviving early fabric. It is a separate building from 4 Preston Street, though both belong to the same terrace."
+    }
+  ],
+  "duplicate_screen": {
+    "method": "Exact registration-number searches against open repository issues/pull requests.",
+    "registration_numbers_checked": ["50010082", "50010083", "50010084", "50010108", "50010109"],
+    "result": "No open issue or pull request matches returned for any of the five exact registration numbers at time of research."
+  },
+  "spatial_and_identity_cautions": [
+    "50010082, 50010083 and 50010084 are three distinct NIAH registrations within the Aldborough House complex. Preserve their individual identities and relationships; do not merge them into one record.",
+    "50010108 and 50010109 are distinct adjoining houses in a terrace of four on Preston Street. Do not collapse the terrace into one building record.",
+    "The Aldborough House complex and Preston Street terrace are separate groups. They are not represented as one architectural ensemble.",
+    "NIAH individual-page coordinate pairs are preserved as raw values because the page does not label their CRS. Do not treat those values as EPSG:2157 or overwrite the official CSV ITM/latitude-longitude fields.",
+    "All condition and use descriptions are NIAH survey-time statements, not present-day field observations.",
+    "No physical access, ownership, public access or current condition has been verified."
+  ],
+  "stage": "research_only",
+  "explicitly_not_done": [
+    "No archive IDs assigned",
+    "No catalogue imports",
+    "No visual inventory or source registry imports",
+    "No map pins or coordinate imports",
+    "No production website changes",
+    "No merge or deployment"
+  ]
+}

@@ -183,6 +183,43 @@
     "Raw coordinate pairs shown on individual official pages are retained separately; no CRS is inferred.",
     "National CSV DESCRIPTION and APPRAISAL fields for 50010262–50010264 contain U+FFFD replacement-character encoding anomalies; clean page transcriptions are stored separately, raw values remain untouched.",
     "The 92 and 93 Marlborough Street buildings are adjacent but separately registered structures; coordinate proximity is not treated as duplicate identity.",
-    "No present-day occupancy, condition, access or photography permission is inferred from survey-era NIAH text."
-  ]
+    "No present-day occupancy, condition, access or photography permission is inferred from survey-era NIAH text.",
+    "Manual review confirms that 92 Marlborough Street (50010262) and 93 Marlborough Street (50010263) are distinct adjacent NIAH buildings and neither duplicates 23 Marlborough Street (50010218 / DUB-BLD-0006)."
+  ],
+  "manual_proximity_review": {
+    "reviewed_on": "2026-11-24",
+    "existing_neighbour": {
+      "archive_id": "DUB-BLD-0006",
+      "niah_registration": "50010218",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010218/ladbrokes-marlborough-street-dublin-1-co-dublin",
+      "address": "23 Marlborough Street, Dublin 1, Ireland",
+      "description_distinction": "Official NIAH 50010218 describes a terraced two-bay four-storey late eighteenth-century house built c.1780, with a different address and façade composition from 92 and 93 Marlborough Street."
+    },
+    "existing_object_outcomes": [
+      {
+        "registration": "50010262",
+        "archive_id": "DUB-BLD-0006",
+        "distance_m": 22.9,
+        "decision": "KNOWN_DISTINCT_NEIGHBOUR",
+        "evidence": "Candidate is 92 Marlborough Street, NIAH 50010262, a separately registered c.1750 two-bay four-storey house. Existing archive object is 23 Marlborough Street, NIAH 50010218, a different late eighteenth-century two-bay house with a separate address and official registration."
+      },
+      {
+        "registration": "50010263",
+        "archive_id": "DUB-BLD-0006",
+        "distance_m": 25.4,
+        "decision": "KNOWN_DISTINCT_NEIGHBOUR",
+        "evidence": "Candidate is 93 Marlborough Street, NIAH 50010263, a separately registered c.1750 two-bay four-storey house. Existing archive object is 23 Marlborough Street, NIAH 50010218, a different late eighteenth-century two-bay house with a separate address and official registration."
+      }
+    ],
+    "intra_batch_outcomes": [
+      {
+        "registration": "50010262",
+        "related_registration": "50010263",
+        "distance_m": 6.5,
+        "decision": "KNOWN_DISTINCT_NEIGHBOURS",
+        "evidence": "92 and 93 Marlborough Street are separate consecutive street addresses with separate official NIAH registrations 50010262 and 50010263. Both official pages describe a two-bay four-storey c.1750 house, each as one of a pair. Their proximity reflects adjacent paired buildings, not duplicate identity."
+      }
+    ],
+    "conclusion": "Both existing-object proximity hits and the one intra-batch proximity pair were manually reviewed against separate official NIAH registrations, addresses and descriptions. All are distinct buildings; zero unresolved proximity hits remain."
+  }
 }

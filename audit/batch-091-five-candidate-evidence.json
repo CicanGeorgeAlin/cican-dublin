@@ -12,7 +12,7 @@
   "candidates": [
     {
       "registration": "50010249",
-      "display_name": "Dunnes Stores",
+      "display_name": "Dunnes Stores — 28 Earl Street North",
       "page_title": "Dunnes Stores, 28 Earl Street North, Dublin 1, DUBLIN",
       "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010249/dunnes-stores-28-earl-street-north-dublin-1-dublin",
       "page_verified": true,
@@ -40,7 +40,7 @@
       "description": "Terraced three-bay four-storey commercial premises, built 1917-19, to designs by George L. O'Connor. Double-pile hipped slate roof behind granite parapet having granite triangular pediment with acroteria, cast-iron rainwater goods to west. Stepped granite cornice course, red brick walling laid down in Flemish Bond, four giant Ionic order engaged pilasters surmounted by stepped frieze, first floor entirely in channelled rusticated granite. Square-headed window openings within moulded stone surrounds, having corbelled granite window sills, recessed aprons and keystones, holding timber casement windows. Double-height oriel window to central bay of first and second floors, having timber casement windows to second floor and fixed timber framed windows to first floor. Recent timber shopfront to ground floor level flanked by engaged granite pilasters terminating in projecting consoles having carved swags and curved caps holding engraved letters 'R'. Square-headed central door opening with recent automatic sliding doors opening onto tiled porch.",
       "appraisal": "Named after the Earl of Drogheda, Viscount Henry Moore, North Earl Street was badly damaged in the fighting of the Easter Rising in 1916. Much of the street was rebuilt between 1917 and 1919 as retail premises in a classical style. Number 28 has much attractive detailing to its front elevation. A high level of craftsmanship is demonstrated in the stonework which provides an attractive contrast to the red brick and is testament to skillful design by the architect, George L. O'Connor. The double-height oriel window is repeated in other facades in North Earl Street and contributes to the variety of the streetscape.",
       "source_csv_text_has_replacement_character": true,
-      "notes": "The national CSV DESCRIPTION and APPRAISAL contain U+FFFD replacement characters in quoted lettering and the architect's name. The clean transcription is taken from the individual official NIAH page; retain the raw CSV values separately.",
+      "notes": "The national CSV DESCRIPTION and APPRAISAL contain U+FFFD replacement characters in quoted lettering and the architect's name. The clean transcription is taken from the individual official NIAH page; retain the raw CSV values separately. The archive display heading includes the street number to distinguish this separately registered building from the existing Dunnes Stores premises at 23–24 Earl Street North (NIAH 50010243 / DUB-BLD-0334).",
       "display_address": "28 Earl Street North, Dublin 1, Ireland"
     },
     {
@@ -136,7 +136,7 @@
       "latitude": 53.350061,
       "longitude": -6.259301,
       "official_page_coordinates_raw": "315965, 234704",
-      "description": "Terraced three-bay four-storey red brick and granite public house, built 1917-19, designed by Laurence McDonnell. Flat roof behind red brick parapet having stone coping, cast-iron downwater pipes to east. Red brick walling laid down in Flemish bond, projecting moulded stone modillion cornice to third floor level, moulded string course to second floor. Diminishing gauged brick flat-arched window openings with granite keystones and sills, six-over-six pane timber sliding sashes to third floor central window opening within moulded stone surround. Square-headed openings to second floor having granite sills, four-over-four pane timber sliding sashes to east and west bays, having aedicule over dressed stone surround to central bay with six-over-six pane timber sliding sash window. Square-headed window openings to first floor having shared stone sill course and one-over-one pane timber sliding windows. Central bay having triangular pediment and dressed stone surround. Tiled, marble and timber shopfront, inserted c.1990. Wrought-iron pole holds timber sign. Fronts onto pedestrianized street.",
+      "description": "Terraced three-bay four-storey red brick and granite public house, built 1917-19, designed by Laurence McDonnell. Flat roof behind red brick parapet having stone coping, cast-iron downwater pipes to east. Red brick walling laid down in Flemish bond, projecting moulded stone modillion cornice to third floor level, moulded string course to second floor. Diminishing gauged brick flat-arched window openings with granite keystones and sills, six-over-six pane timber sliding sashes to third floor central window opening within moulded stone surround. Square-headed openings to second floor having granite sills, four-over-four pane timber sliding sashes to east and west bays, having aedicule over dressed stone surround to central bay with six-over-six pane timber sliding sash window. Square-headed window openings to first floor having shared stone sill course and one-over-one pane timber sliding sash windows. Central bay having triangular pediment and dressed stone surround. Tiled, marble and timber shopfront, inserted c.1990. Wrought-iron pole holds timber sign. Fronts onto pedestrianized street.",
       "appraisal": "Named after the Earl of Drogheda, Viscount Henry Moore, North Earl Street was badly damaged in the fighting of the Easter Rising in 1916. Much of the street was rebuilt between 1917 and 1919 as retail premises in a classical style. Number 25 displays a great deal of attractive detailing within its front elevation and a high level of craftsmanship is demonstrated in the exuberant stonework which provides an attractive contrast to the red brick standing as s testament to skillful design of the architect. The variety of the fenestration contributes greatly to its appeal. The heavy modillion cornice is a design element which is repeated in North Earl Street to great effect. The timber and mosaic shopfront is comparatively recent but contributes to the character of the composition and enlivens the streetscape.",
       "source_csv_text_has_replacement_character": true,
       "notes": "The national CSV NAME field contains a U+FFFD replacement character. The official individual page title supplies the correctly rendered display name Madigan’s Bar; do not overwrite the raw CSV value. The page transcription preserves the appraisal wording as displayed.",
@@ -182,7 +182,7 @@
     },
     "issue_search_matches": 0,
     "pull_request_search_matches": 0,
-    "complete_master_address_name_and_proximity_screen": "PENDING_AUTOMATED_CI_REVIEW"
+    "complete_master_address_name_and_proximity_screen": "AUTOMATED_SCREEN_COMPLETE; FOUR_PROXIMITY_HITS_MANUALLY_CONFIRMED_AS_DISTINCT_ADJACENT_NIAH_BUILDINGS; SHARED_DUNNES_STORES_TRADING_NAME_REVIEWED"
   },
   "cautions": [
     "The national CSV contains U+FFFD replacement-character anomalies in several NAME, DESCRIPTION and APPRAISAL fields. The clean display text in this packet is transcribed from individual official NIAH pages; raw queue values remain separate.",
@@ -190,5 +190,53 @@
     "The raw coordinate pair shown on each individual NIAH page is stored separately; its CRS is not inferred from the page display.",
     "No present-day occupancy, condition, access or photography permission is inferred from survey-era data.",
     "The five entries are distinct adjacent addresses on North Earl Street; close coordinates are expected and do not by themselves establish duplicate identity."
-  ]
+  ],
+  "manual_proximity_review": {
+    "reviewed_on": "2026-11-24",
+    "existing_neighbour": {
+      "archive_id": "DUB-BLD-0334",
+      "niah_registration": "50010243",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010243/dunnes-stores-23-24-earl-street-north-cathedral-street-dublin-1-dublin",
+      "official_page_title": "Dunnes Stores, 23-24 Earl Street North, Cathedral Street, Dublin 1, DUBLIN",
+      "address": "23-24 Earl Street North, Cathedral Street, Dublin 1, County Dublin, Ireland",
+      "description_distinction": "The existing record is a six-bay four-storey stucco-fronted commercial building, built c.1920 and largely rebuilt c.2000, with a rear brick block fronting Cathedral Street."
+    },
+    "outcomes": [
+      {
+        "registration": "50010250",
+        "archive_id": "DUB-BLD-0334",
+        "distance_m": 23,
+        "decision": "KNOWN_DISTINCT_NEIGHBOUR",
+        "evidence": "The candidate is the separately registered 27 Earl Street North premises: a four-storey commercial building dated 1918, designed by George Sheridan, with its own official NIAH page and description. The existing archive object is NIAH 50010243 at 23–24 Earl Street North."
+      },
+      {
+        "registration": "50010251",
+        "archive_id": "DUB-BLD-0334",
+        "distance_m": 16.1,
+        "decision": "KNOWN_DISTINCT_NEIGHBOUR",
+        "evidence": "The candidate is the separately registered 26 Earl Street North premises: a four-storey retail building built 1917–19, designed by George L. O’Connor, with a double-height bow-fronted oriel window. The existing archive object is NIAH 50010243 at 23–24 Earl Street North."
+      },
+      {
+        "registration": "50010252",
+        "archive_id": "DUB-BLD-0334",
+        "distance_m": 10.3,
+        "decision": "KNOWN_DISTINCT_NEIGHBOUR",
+        "evidence": "The candidate is the separately registered 25 Earl Street North premises: a four-storey red brick and granite public house built 1917–19, designed by Laurence McDonnell. The existing archive object is NIAH 50010243 at 23–24 Earl Street North."
+      },
+      {
+        "registration": "50010253",
+        "archive_id": "DUB-BLD-0334",
+        "distance_m": 19.9,
+        "decision": "KNOWN_DISTINCT_NEIGHBOUR",
+        "evidence": "The candidate is the separately registered 19–22 Earl Street North premises: a nine-bay four-storey retail building dated 1908, designed by Frederick Higginbotham. The existing archive object is NIAH 50010243 at 23–24 Earl Street North."
+      }
+    ],
+    "same_name_review": {
+      "registration": "50010249",
+      "display_name": "Dunnes Stores — 28 Earl Street North",
+      "distinct_from_archive_id": "DUB-BLD-0334",
+      "distinct_from_niah_registration": "50010243",
+      "evidence": "The candidate's official page is for 28 Earl Street North and describes a separate three-bay four-storey commercial building designed by George L. O’Connor. The existing archive page and official NIAH registration 50010243 concern 23–24 Earl Street North and describe a different six-bay building with a rear block fronting Cathedral Street. The shared Dunnes Stores name is a trading-name overlap, not a building-identity match."
+    }
+  }
 }

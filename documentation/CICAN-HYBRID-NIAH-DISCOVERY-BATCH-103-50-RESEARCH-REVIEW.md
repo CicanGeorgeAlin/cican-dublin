@@ -1,0 +1,60 @@
+# CICAN Dublin — NIAH Batch 103 (50-record normal batch)
+
+**Status:** research-only; twelfth standard 50-record batch.
+
+## Selection and official queue
+
+The batch contains the first 50 Dublin City Council / County Dublin entries after Batch 102's final registration 50010862 in the refreshed four-authority NIAH missing-registration queue.
+
+- Exactly 50 unique registrations, each required to occur exactly once in the refreshed queue.
+- Selected queue range begins at 50010863 and ends at 50010916, retaining official gaps.
+- Areas include Gardiner Place, Temple Street, George's Place, Gardiner Street Upper, Frederick Street North, Hardwicke Street and Parnell Square North.
+
+## Individual NIAH page status
+
+44 canonical individual pages have been located and checked against their registration numbers. Six remain on HOLD:
+
+| Registration | Candidate | Hold reason |
+|---|---|---|
+| 50010865 | 9 Gardiner Place | Canonical individual page not independently located |
+| 50010867 | 7 Gardiner Place | Canonical individual page not independently located |
+| 50010869 | 5 Gardiner Place | Canonical individual page not independently located |
+| 50010893 | 1 Hardwicke Street / Frederick Street North | Canonical individual page not independently located |
+| 50010903 | 8 Frederick Street North | Canonical individual page not independently located |
+| 50010908 | 3 Frederick Street North | Canonical individual page not independently located |
+
+The national CSV legacy URLs are preserved for these six but do not count as canonical individual-page verification.
+
+## Source anomalies and display rules
+
+- 37 selected rows have blank raw CSV NAME values. Raw blanks are retained; verified official page titles are stored separately where available.
+- 19 selected rows contain U+FFFD replacement characters somewhere in raw national CSV values. This overlaps the blank-name group.
+- No selected NUMBER field was identified as malformed/date-like.
+- For 50010874 and 50010875, the national CSV has the same institution name, Temple Street Children's University Hospital. The individual page title for 50010874 identifies the chapel; the two separate title fields are preserved.
+- For 50010904 and 50010905, the national CSV has the same Harry Clarke Stained Glass Limited / Joshua Clarke & Sons name at 7 and 6 Frederick Street North. The two addresses and individual page titles remain separate.
+- The reconciliation report preserves raw CSV NAME, NUMBER and street fields separately from display headings.
+
+## Related but distinct structures
+
+- 50010874 is the Temple Street Children's University Hospital chapel; 50010875 is the separate hospital building at 14–15 Temple Street. They share an institutional name but are separately registered structures.
+- 50010876 (Saint George's Parochial Hall) and 50010878 (Saint George's Church) are separate structures on the George's Place / Hardwicke Place site.
+- 50010877 is the presbytery at 54 Gardiner Street Upper. It is a separate structure from the Catholic Church of Saint Francis Xavier church building, registration 50010824, researched in Batch 102. This cross-batch relationship is recorded explicitly; the presbytery is not treated as a second copy of the church.
+- 50010904 and 50010905 are separately registered neighbouring buildings at 7 and 6 Frederick Street North, both historically associated with Harry Clarke Stained Glass / Joshua Clarke & Sons. Their shared business name does not collapse the two properties.
+
+## Automated reconciliation
+
+`scripts/reconcile-niah-batch-103-50.mjs` verifies:
+- exactly 50 unique candidates;
+- exact membership in the refreshed official four-authority queue;
+- Dublin City Council / County Dublin scope;
+- WGS84 and ITM coordinate presence and plausible bounds;
+- canonical individual-page status;
+- exact registration, address, source-ID and same-batch address conflicts;
+- exact-name matches and 30-metre proximity against the existing archive and within the batch;
+- raw CSV anomalies and page holds.
+
+The report is written to `audit/batch-103-50-candidate-reconciliation.json`. Unexplained exact identity conflicts block the batch. Proximity and exact-name matches remain visible for manual review.
+
+## Publication boundary
+
+Research-only. No permanent archive IDs, master objects, public NIAH register entries, source records, visual records, map pins or SEO pages are created. Coordinates remain source-derived, not founder GPS or field verified. No NIAH photographs are reused.

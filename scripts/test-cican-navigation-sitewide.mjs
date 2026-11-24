@@ -7,6 +7,7 @@ const archive = read("archive.html");
 const notebook = read("my-dublin.html");
 const generator = read("scripts/generate-seo-pages.mjs");
 const generatedPlace = read("places/DUB-BLD-0079.html");
+const placeFiles = fs.readdirSync(new URL("../places/", import.meta.url)).filter(name => name.endsWith(".html"));
 const app = read("preview/app/app.js");
 
 test("archive catalogue card and detail directions route into CICAN", () => {

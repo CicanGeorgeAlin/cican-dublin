@@ -13,7 +13,8 @@ function makeHarness() {
   let now = 1000;
   let nextFrameId = 0;
   const frames = new Map();
-  const coords = { latitude: "", longitude: "", accuracy: "" };
+  const coords = { latitude: "", longitude: "", accuracy: "", session: "" };
+  const exportButton = { onclick: null };
   const panel = {
     hidden: true,
     dataset: {},
@@ -21,6 +22,8 @@ function makeHarness() {
     querySelector(selector) {
       if (selector === ".live-location-coords") return { set textContent(value) { coords.coordinates = value; } };
       if (selector === ".live-location-accuracy") return { set textContent(value) { coords.accuracy = value; } };
+      if (selector === ".live-location-session") return { set textContent(value) { coords.session = value; } };
+      if (selector === ".live-location-export") return exportButton;
       return null;
     }
   };

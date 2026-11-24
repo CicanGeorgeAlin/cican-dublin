@@ -1,0 +1,304 @@
+{
+  "batch": "100",
+  "title": "NIAH Dublin City — 50-record normal batch, Dorset Street to Gardiner Street Upper",
+  "reviewed_on": "2026-11-24",
+  "target_count": 50,
+  "source_queue": "audit/niah-dublin-missing-registrations.json",
+  "selection_method": "First 50 Dublin City Council / County Dublin rows after Batch 099's final selected registration 50010699 in the refreshed four-authority missing-registration queue. Exact queue membership is validated in CI; numeric continuity alone is not used.",
+  "candidates": [
+    {
+      "registration": "50010700",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010700/pat-hickey-auctioneers-79-dorset-street-upper-dublin-co-dublin",
+      "page_verified": true
+    },
+    {
+      "registration": "50010701",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010701/dorset-street-upper-dublin-dublin-city-4",
+      "page_verified": true,
+      "display_name": "78 Dorset Street Upper"
+    },
+    {
+      "registration": "50010703",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010703/dorset-street-upper-dublin-dublin",
+      "page_verified": true,
+      "display_name": "76 Dorset Street Upper"
+    },
+    {
+      "registration": "50010704",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010704/75-dorset-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "75 Dorset Street Upper"
+    },
+    {
+      "registration": "50010705",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010705/aurora-bar-and-grill-72-73-dorset-street-upper-eccles-street-dublin-co-dublin",
+      "page_verified": true
+    },
+    {
+      "registration": "50010706",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010706/t-j-hogan-bleecker-st-dorset-street-upper-hardwicke-lane-dublin-dublin",
+      "page_verified": true
+    },
+    {
+      "registration": "50010707",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010707/the-temple-kavanaghs-71-72-dorset-street-upper-hardwicke-place-dublin-dublin",
+      "page_verified": true
+    },
+    {
+      "registration": "50010708",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010708/23-24-dorset-street-lower-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "25 Dorset Street Lower"
+    },
+    {
+      "registration": "50010709",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010709",
+      "page_verified": false,
+      "display_name": "38 Dorset Street Lower / North Circular Road"
+    },
+    {
+      "registration": "50010710",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010710/chartbusters-38-dorset-street-lower-north-circular-road-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Big Tree Tavern"
+    },
+    {
+      "registration": "50010711",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010711/big-tree-tavern-493-north-circular-road-dorset-street-lower-dublin-dublin",
+      "page_verified": true,
+      "display_name": "492 North Circular Road"
+    },
+    {
+      "registration": "50010712",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010712",
+      "page_verified": false,
+      "display_name": "Ulster Bank/Violets/Home Appliance Centre"
+    },
+    {
+      "registration": "50010713",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010713/saint-francis-xavier-community-centre-ltd-65-dorset-street-lower-dublin-dublin",
+      "page_verified": true
+    },
+    {
+      "registration": "50010714",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010714/red-parrot-bar-grille-57-dorset-street-lower-portland-place-dublin-dublin",
+      "page_verified": true
+    },
+    {
+      "registration": "50010716",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010716",
+      "page_verified": false,
+      "display_name": "15 Sherrard Street Lower"
+    },
+    {
+      "registration": "50010717",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010717/14-sherrard-street-lower-dublin-dublin",
+      "page_verified": true,
+      "display_name": "14 Sherrard Street Lower"
+    },
+    {
+      "registration": "50010718",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010718/13-sherrard-street-lower-dublin-dublin",
+      "page_verified": true,
+      "display_name": "13 Sherrard Street Lower"
+    },
+    {
+      "registration": "50010719",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010719/12-sherrard-street-lower-dublin-dublin",
+      "page_verified": true,
+      "display_name": "12 Sherrard Street Lower"
+    },
+    {
+      "registration": "50010720",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010720",
+      "page_verified": false,
+      "display_name": "11 Sherrard Street Lower"
+    },
+    {
+      "registration": "50010721",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010721",
+      "page_verified": false,
+      "display_name": "10 Sherrard Street Lower"
+    },
+    {
+      "registration": "50010722",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010722",
+      "page_verified": false,
+      "display_name": "9 Sherrard Street Lower"
+    },
+    {
+      "registration": "50010723",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010723/sherrard-street-lower-dublin-dublin-city",
+      "page_verified": true,
+      "display_name": "8 Sherrard Street Lower"
+    },
+    {
+      "registration": "50010724",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010724",
+      "page_verified": false,
+      "display_name": "7 Sherrard Street Lower"
+    },
+    {
+      "registration": "50010725",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010725/6-sherrard-street-lower-dublin-co-dublin",
+      "page_verified": true,
+      "display_name": "6 Sherrard Street Lower"
+    },
+    {
+      "registration": "50010726",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010726/sherrard-street-lower-dublin-dublin-city-11",
+      "page_verified": true,
+      "display_name": "5 Sherrard Street Lower"
+    },
+    {
+      "registration": "50010728",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010728/3-sherrard-street-lower-dublin-dublin",
+      "page_verified": true,
+      "display_name": "3 Sherrard Street Lower"
+    },
+    {
+      "registration": "50010729",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010729/dublin-city",
+      "page_verified": true,
+      "display_name": "2 Sherrard Street Lower"
+    },
+    {
+      "registration": "50010731",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010731/27-belvidere-road-north-circular-road-dublin-dublin",
+      "page_verified": true,
+      "display_name": "27 Belvidere Road"
+    },
+    {
+      "registration": "50010732",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010732/18-sherrard-street-upper-belvedere-place-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "18 Sherrard Street Upper"
+    },
+    {
+      "registration": "50010733",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010733/19-sherrard-street-upper-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "19 Sherrard Street Upper"
+    },
+    {
+      "registration": "50010734",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010734/sherrard-street-upper-dublin-dublin-city-3",
+      "page_verified": true,
+      "display_name": "20 Sherrard Street Upper"
+    },
+    {
+      "registration": "50010735",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010735",
+      "page_verified": false,
+      "display_name": "460 North Circular Road"
+    },
+    {
+      "registration": "50010736",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010736/458-north-circular-road-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "458 North Circular Road"
+    },
+    {
+      "registration": "50010737",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010737/456-north-circular-road-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "456 North Circular Road"
+    },
+    {
+      "registration": "50010738",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010738/454-north-circular-road-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "454 North Circular Road"
+    },
+    {
+      "registration": "50010739",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010739/452-north-circular-road-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "452 North Circular Road"
+    },
+    {
+      "registration": "50010740",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010740/450-north-circular-road-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "450 North Circular Road"
+    },
+    {
+      "registration": "50010741",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010741/26-sherrard-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "26 Sherrard Street Upper"
+    },
+    {
+      "registration": "50010742",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010742/8-sherrard-street-upper-dorset-lane-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "8 Sherrard Street Upper"
+    },
+    {
+      "registration": "50010743",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010743/saint-francis-xaviers-boys-club-7-sherrard-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Saint Francis Xavier's Boys Club"
+    },
+    {
+      "registration": "50010745",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010745/sherrard-street-upper-dublin-dublin-city-4",
+      "page_verified": true,
+      "display_name": "5 Sherrard Street Upper"
+    },
+    {
+      "registration": "50010746",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010746",
+      "page_verified": false,
+      "display_name": "4 Sherrard Street Upper"
+    },
+    {
+      "registration": "50010747",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010747/3-sherrard-street-upper-dublin-dublin",
+      "page_verified": true,
+      "display_name": "3 Sherrard Street Upper"
+    },
+    {
+      "registration": "50010748",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010748/2-sherrard-street-upper-dublin-dublin",
+      "page_verified": true,
+      "display_name": "2 Sherrard Street Upper"
+    },
+    {
+      "registration": "50010752",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010752",
+      "page_verified": false,
+      "display_name": "52 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010753",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010753/51-gardiner-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "51 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010754",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010754/50-gardiner-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "50 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010755",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010755/49-gardiner-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "49 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010756",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010756",
+      "page_verified": false,
+      "display_name": "48 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010757",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010757",
+      "page_verified": false,
+      "display_name": "47 Gardiner Street Upper"
+    }
+  ]
+}

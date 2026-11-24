@@ -14,7 +14,7 @@ Each individual Buildings of Ireland NIAH page was located and reviewed. The nat
 
 | NIAH registration | Official page heading | CSV NAME | Address |
 |---|---|---|---|
-| 50010249 | Dunnes Stores | Dunnes Stores | 28 Earl Street North, Dublin 1 |
+| 50010249 | Dunnes Stores — 28 Earl Street North | Dunnes Stores | 28 Earl Street North, Dublin 1 |
 | 50010250 | Duffy’s Fabrics | Contains U+FFFD replacement character | 27 Earl Street North, Dublin 1 |
 | 50010251 | The Earl Bakery and Restaurant | The Earl Bakery and Restaurant | 26 Earl Street North, Dublin 1 |
 | 50010252 | Madigan’s Bar | Contains U+FFFD replacement character | 25 Earl Street North, Dublin 1 |
@@ -35,7 +35,7 @@ Full official-page descriptions, appraisals, source values and coordinate pairs 
 1. The CSV NAME fields for 50010250, 50010252 and 50010253 contain U+FFFD replacement characters. Preserve those raw values; do not silently repair them in the source layer.
 2. The CSV DESCRIPTION and/or APPRAISAL fields for 50010249, 50010251 and 50010253 also contain replacement-character corruption. The clean text is transcribed from the corresponding individual official NIAH pages and is stored separately.
 3. Official CSV WGS84 and ITM coordinates are separate fields. Raw coordinate pairs shown on individual pages are retained independently; their CRS is not inferred.
-4. The five addresses are separate adjacent premises. Their close coordinates are expected for a continuous terrace; proximity alone is not a duplicate finding.
+4. The five addresses are separate adjacent premises. Their close coordinates are expected for a continuous terrace; proximity alone is not a duplicate finding. The archive display heading for 50010249 includes its street number to distinguish it from the already archived Dunnes Stores premises at 23–24 Earl Street North.
 5. Survey-era use and descriptions do not establish current occupancy, condition, access or permission to photograph.
 
 ## Duplicate and proximity review
@@ -56,3 +56,22 @@ This batch is research-only. No permanent archive IDs, master objects, public NI
 - [50010251 — The Earl Bakery and Restaurant](https://www.buildingsofireland.ie/buildings-search/building/50010251/the-earl-bakery-and-restaurant-26-earl-street-north-dublin-1-dublin)
 - [50010252 — Madigan’s Bar](https://www.buildingsofireland.ie/buildings-search/building/50010252/madigans-bar-25-earl-street-north-dublin-1-dublin)
 - [50010253 — Boyer’s Department Store](https://www.buildingsofireland.ie/buildings-search/building/50010253/boyers-department-store-19-22-earl-street-north-dublin-1-co-dublin)
+
+## Manual proximity and shared-name review
+
+The automated Batch 091 report identified four proximity hits against **DUB-BLD-0334**, NIAH registration **50010243**, at 23–24 Earl Street North. The existing official NIAH page describes a six-bay four-storey stucco-fronted commercial building, built c.1920 and largely rebuilt c.2000, with a rear brick block fronting Cathedral Street. Each nearby candidate has a different official NIAH registration, street number/address and separately described building:
+
+| Candidate | Distance from DUB-BLD-0334 | Distinguishing official-page evidence | Manual outcome |
+|---|---:|---|---|
+| 50010250 — 27 Earl Street North | 23.0 m | Four-storey commercial premises dated 1918, designed by George Sheridan | Known distinct neighbour |
+| 50010251 — 26 Earl Street North | 16.1 m | Four-storey retail premises built 1917–19, designed by George L. O’Connor, with bow-fronted oriel | Known distinct neighbour |
+| 50010252 — 25 Earl Street North | 10.3 m | Four-storey red brick and granite public house built 1917–19, designed by Laurence McDonnell | Known distinct neighbour |
+| 50010253 — 19–22 Earl Street North | 19.9 m | Nine-bay four-storey retail premises dated 1908, designed by Frederick Higginbotham | Known distinct neighbour |
+
+The separate official page for existing registration 50010243 confirms the address 23–24 Earl Street North and the different six-bay building description. The four hits are therefore adjacent, separately registered buildings, not duplicate records.
+
+A separate name-overlap review was completed for **50010249**. Its official page concerns 28 Earl Street North and describes a three-bay four-storey commercial building designed by George L. O’Connor. Existing registration 50010243 concerns 23–24 Earl Street North and a different six-bay building. The shared “Dunnes Stores” trading name does not identify the same building. The archive display heading is therefore disambiguated as **Dunnes Stores — 28 Earl Street North**.
+
+Official neighbour source: [NIAH 50010243 — Dunnes Stores, 23–24 Earl Street North](https://www.buildingsofireland.ie/buildings-search/building/50010243/dunnes-stores-23-24-earl-street-north-cathedral-street-dublin-1-dublin).
+
+Manual review outcome: all four coordinate-nearby hits and the shared trading-name overlap have been resolved as distinct buildings. No candidate is being merged with DUB-BLD-0334.

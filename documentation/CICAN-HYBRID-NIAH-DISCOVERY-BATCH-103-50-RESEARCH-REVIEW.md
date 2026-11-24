@@ -85,3 +85,20 @@ Sources:
 - NIAH listing extract filed with An Bord Pleanála: https://www.pleanala.ie/publicaccess/EIAR-NIS/302881/EIAR%20%26%20Screening/Volume%202/Appendix_5.3.1_NIAH%20Listing%20Extract.pdf?r=736119
 
 **Hold count remains six.** The evidence status is refined, not promoted to canonical-page verification. No candidate is published or silently corrected.
+
+## Dublin City Council RPS corroboration for Gardiner Place
+
+The current Dublin City Council Record of Protected Structures, Volume 3, independently lists:
+- RPS reference 3039 — 9 Gardiner Place (candidate NIAH 50010865).
+- RPS reference 3037 — 7 Gardiner Place (candidate NIAH 50010867).
+- RPS reference 3035 — 5 Gardiner Place (candidate NIAH 50010869).
+
+This corroborates that the numbered Gardiner Place structures are represented in the Council's protected-structures record. It does **not** itself prove that the corresponding NIAH registration numbers are linked to those exact addresses, and it is not an individual NIAH page. The three candidates therefore remain held.
+
+Official source: Dublin City Council, Record of Protected Structures, Volume 3: https://www.dublincity.ie/sites/default/files/2026-01/volume-3.pdf
+
+## Clarification of 50010893 address evidence
+
+The refreshed official national NIAH CSV queue row for 50010893 records number **1**, STREET1 **Hardwicke Street**, STREET2 **Frederick Street North**, Dublin 1. This supports the manifest's corner-address wording, **1 Hardwicke Street / Frederick Street North**. However, the TII report also contains a separate entry assigning 50010893 to 11 Frederick Street North. The discrepancy remains unresolved and must be checked against the individual NIAH record before publication. The CSV address is preserved as source data; no correction or merge is inferred.
+
+**Updated evidence position:** three Gardiner Place candidates now have DCC RPS address corroboration; 50010903 and 50010908 have planning-document corroboration; 50010893 has a national CSV address plus a conflicting secondary planning-document reference. All six remain on canonical individual-page hold.

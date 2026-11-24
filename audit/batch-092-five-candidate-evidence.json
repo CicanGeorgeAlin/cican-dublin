@@ -3,7 +3,7 @@
   "title": "NIAH Dublin City candidates — North Earl Street and Marlborough Street",
   "reviewed_on": "2026-11-24",
   "status": "research-only; no catalogue import or production publication",
-  "selection_method": "Five next verified Dublin City NIAH registrations from the refreshed official four-authority missing-registration queue after Batch 091. Registration 50010257 is intentionally held out because an independently accessible individual official NIAH page could not be verified in this review; this is not treated as evidence that the record is ineligible.",
+  "selection_method": "Five verified Dublin City Council records from the refreshed official four-authority missing-registration queue after Batch 091. Registration 50010257 is held because the individual official NIAH page could not be independently verified. Registration 50010259 is excluded because the official queue assigns it to South Dublin County Council, despite its Dublin 1 address. Authority is determined from the official queue, not inferred from the postal address.",
   "queue_artifact": {
     "workflow_run": 45323257382,
     "artifact_id": 14888702160,
@@ -138,36 +138,36 @@
       "display_address": "4 Earl Street North, Dublin 1, Ireland"
     },
     {
-      "registration": "50010259",
-      "display_name": "Zumo Juice Bar",
-      "page_title": "Zumo Juice Bar, 3 Earl Street North, Dublin 1, DUBLIN",
-      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010259/zumo-juice-bar-earl-street-north-dublin-1-dublin",
+      "registration": "50010260",
+      "display_name": "Hot Wok Thai Noodle Bar",
+      "page_title": "Hot Wok Thai Noodle Bar, 2 Earl Street North, Dublin 1, DUBLIN",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010260/hot-wok-thai-noodle-bar-2-earl-street-north-dublin-1-dublin",
       "page_verified": true,
       "local_authority": "Dublin City Council",
       "county": "DUBLIN",
-      "csv_name": "Zumo Juice Bar",
-      "csv_number": "3",
+      "csv_name": "Hot Wok Thai Noodle Bar",
+      "csv_number": "2",
       "street1": "Earl Street North",
       "street2": "",
       "town": "Dublin 1",
       "original_use": "shop/retail outlet",
       "recorded_use": "restaurant",
       "date_from": 1915,
-      "date_to": 1920,
+      "date_to": 1930,
       "rating": "Regional",
       "special_interest": [
-        "Architectural",
-        "Artistic"
+        "Architectural"
       ],
-      "itm_e": 715879,
-      "itm_n": 734698,
-      "latitude": 53.349796,
-      "longitude": -6.259511,
-      "official_page_coordinates_raw": "315952, 234672",
-      "description": "Terraced three-bay four-storey red brick and granite retail premises, built 1917-19, to designs by Fuller & Jermyn. Single-bay central breakfront with engaged pilasters to east and west of front (north) elevation. Flat roof concealed behind red brick parapet having squared granite coping and central blank granite panel. Red brick chimneystack, shared cast-iron downpipes to west. Red brick walling laid in Flemish bond with granite dressings. Granite modillion cornice to eaves, first floor entirely of ashlar granite. Moulded granite cornice between first and second floors having central apron panel with swag motif. Square-headed window openings to third floor having granite string course forming continuous lintel and corniced sills with apron panels. Square-headed window openings with gauged brick voussoirs to second floor with granite keystones. Central bays to first and second floor contained within double-height moulded granite surround comprising flat-topped entablature with moulded stone archivolt, holding timber casement oriel windows. Timber casement windows with overlights elsewhere, first floor openings having fixed single-pane windows with decorative overlights. Recent timber shopfront to ground floor flanked by earlier engaged granite Ionic pilasters. Fronts onto pedestrianized street.",
-      "appraisal": "Named after the Earl of Drogheda, Viscount Henry Moore, North Earl Street was badly damaged in the fighting of the Easter Rising in 1916. Much of the local building fabric was rebuilt in the classical style in the years 1917-19 under the Dublin Reconstruction Act, 1916. Number 2 retains most of its form and fabric dating from this period. A near replica of neighbouring number 3, the front elevation is of red brick and granite displaying a pleasant yet heavy modillion cornice which is a motif that is repeated frequently along the street. The double height Oriel window is another element that finds echoes along North Earl Street and contributes greatly to a consistent and yet varied streetscape.",
-      "notes": "The official page heading and national CSV identify number 3, but the official page appraisal text refers to 'Number 2'. Preserve the page appraisal wording verbatim and flag the internal address inconsistency; do not silently correct it.",
-      "display_address": "3 Earl Street North, Dublin 1, Ireland"
+      "itm_e": 715873,
+      "itm_n": 734697,
+      "latitude": 53.349783,
+      "longitude": -6.259605,
+      "official_page_coordinates_raw": "315946, 234671",
+      "description": "Terraced two-bay four-storey red brick and granite retail premises, built c.1920, to designs by Fuller & Jermyn. Flat-roof concealed behind red brick parapet with squared granite coping, red brick chimneystack, shared cast-iron downpipes to west. Red brick walling laid down in Flemish bond, having granite dressings. Engaged pilasters flanking façade to second, third and fourth floors having Doric capitals carrying moulded granite cornices over granite platbands forming window heads. Engaged granite pilasters to first floor having gabled capitals, moulded cornice forming sill course to first floor. Square-headed window openings having shared granite lintel courses, chamfered granite soffits, granite sills and replacement one-over-one pane timber sliding sash windows throughout. Recently inserted shopfront flanked by granite engaged Doric pilasters surmounted by cornice and frieze terminating in bipartite console brackets. Fronts onto pedestrianized street.",
+      "appraisal": "Named after the Earl of Drogheda, Viscount Henry Moore, North Earl Street was badly damaged in the fighting of the Easter Rising in 1916. Much of the local building fabric was rebuilt in the classical style in the years 1917-19 under the Dublin Reconstruction Act, 1916. Number 2 retains most of its form and fabric dating from this period. A near replica of neighbouring number 3, the front elevation in red brick and granite and the heavy modillion cornice is a motif that is repeated several times along the street.",
+      "source_csv_text_has_replacement_character": true,
+      "notes": "The national CSV DESCRIPTION contains a U+FFFD replacement character in 'façade'. The clean description is transcribed from the individually verified official NIAH page and stored separately; the raw CSV value remains unchanged in the source queue. The national CSV description contains a U+FFFD replacement-character encoding error in 'façade'; the official individual page provides the clean transcription.",
+      "display_address": "2 Earl Street North, Dublin 1, Ireland"
     }
   ],
   "held_candidates": [
@@ -176,8 +176,18 @@
       "csv_name": "Bonavox Hearing Aids",
       "csv_number": "9",
       "street1": "Earl Street North",
+      "authority": "Dublin City Council",
       "queue_status": "present exactly once in queue",
-      "hold_reason": "Searches did not retrieve an independently verifiable individual official NIAH building page for this registration. A separate current business listing for 9 North Earl Street is not a substitute for the official heritage record."
+      "hold_reason": "An independently verifiable individual official NIAH page could not be retrieved in this review. A current business listing for 9 North Earl Street is not a substitute for the heritage record."
+    },
+    {
+      "registration": "50010259",
+      "csv_name": "Zumo Juice Bar",
+      "csv_number": "3",
+      "street1": "Earl Street North",
+      "authority": "South Dublin County Council",
+      "queue_status": "present exactly once in queue",
+      "hold_reason": "Official queue assigns this record to South Dublin County Council despite the Dublin 1 street address. Excluded from this Dublin City batch and retained for separate authority review."
     }
   ],
   "duplicate_screen": {

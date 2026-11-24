@@ -58,7 +58,13 @@ for(const c of packet.candidates){
  }
 }
 const blocking=exactRegistrationMatches.length||exactAddressMatches.length||sourceIdMatches.length||sameBatchAddressMatches.length;
-const unresolvedProximity=proximity.slice();
+const knownDistinctNeighbours={
+ "50010254":[
+  {archive_id:"DUB-BLD-0006",niah_registration:"50010218",decision:"KNOWN_DISTINCT_NEIGHBOUR",evidence:"Official NIAH 50010218 is 23 Marlborough Street, a terraced two-bay four-storey late eighteenth-century house. Candidate 50010254 is the separately registered corner-sited three-bay former townhouse at 14 North Earl Street / Marlborough Street."},
+  {archive_id:"DUB-BLD-0333",niah_registration:"50010242",decision:"KNOWN_DISTINCT_NEIGHBOUR",evidence:"Official NIAH 50010242 is 89 Marlborough Street, a terraced four-bay four-storey stucco-fronted house built c.1820. Candidate 50010254 is the separately registered corner-sited three-bay former townhouse at 14 North Earl Street / Marlborough Street."}
+ ]
+};
+const unresolvedProximity=proximity.filter(p=>!(knownDistinctNeighbours[p.registration]||[]).some(n=>n.archive_id===p.archive_id&&n.decision==="KNOWN_DISTINCT_NEIGHBOUR"));
 const report={
  batch:"092",generated_at:new Date().toISOString(),
  decision:blocking?"HOLD":unresolvedProximity.length?"READY_FOR_MANUAL_PROXIMITY_REVIEW":"READY_FOR_INDEPENDENT_REVIEW",
@@ -66,8 +72,8 @@ const report={
  held_candidates:packet.held_candidates,
  catalogues:{master_object_count:objects.length,public_niah_count:publicNiah.length,source_count:sources.length,visual_record_count:visual.records.length,official_register_audit_matches:officialAudit.all_records_matched},
  duplicate_screen:{exact_registration_matches:exactRegistrationMatches,exact_address_matches:exactAddressMatches,exact_name_matches:exactNameMatches,source_id_matches:sourceIdMatches,same_batch_address_matches:sameBatchAddressMatches},
- coordinate_proximity_review:proximity.sort((a,b)=>a.registration.localeCompare(b.registration)||a.distance_m-b.distance_m),
- manual_review:{unresolved_proximity_count:unresolvedProximity.length,requires_individual_identity_comparison:true},
+ coordinate_proximity_review:proximity.sort((a,b)=>a.registration.localeCompare(b.registration)||a.distance_m-b.distance_m).map(p=>({...p,known_distinct_neighbours:knownDistinctNeighbours[p.registration]||[]})),
+ manual_review:{unresolved_proximity_count:unresolvedProximity.length,requires_individual_identity_comparison:unresolvedProximity.length>0,reviewed_neighbours:packet.manual_proximity_review},
  source_anomalies:packet.source_controls,
  safeguards:["Queue membership is required; numeric sequence alone is not evidence.","National CSV ITM (EPSG:2157) and WGS84 coordinates remain separate.","Raw page coordinate pairs are retained separately and no CRS is inferred.","CSV NAME and NUMBER values are preserved verbatim even when blank or malformed.","No candidate is imported, assigned a permanent archive ID, or published by this research batch.","Nearby records are reported for manual identity review; proximity alone is not a duplicate."]
 };

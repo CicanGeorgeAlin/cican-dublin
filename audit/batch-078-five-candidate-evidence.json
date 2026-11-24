@@ -1,0 +1,125 @@
+{
+  "batch": "078",
+  "purpose": "Research-only evidence packet for five individually registered Georgian-era houses at Nos.77-81 Gardiner Street Lower, Dublin 1",
+  "repository": "CicanGeorgeAlin/cican-dublin",
+  "branch": "research/batch-078-niah-candidates",
+  "source_snapshot": {
+    "workflow_run": 45313453203,
+    "workflow_run_number": 1951,
+    "artifact_id": 14883942097,
+    "artifact_name": "niah-dublin-bulk-coverage-audit",
+    "queue_file": "niah-dublin-missing-registrations.json",
+    "queue_entries": 7040,
+    "queue_rule": "Each selected registration number was checked as an exact entry in the workflow-generated Dublin missing-registration queue."
+  },
+  "official_dataset_reference": {
+    "title": "NIAH Data Download",
+    "url": "https://www.buildingsofireland.ie/niah-data-download/",
+    "note": "Official national CSV provides ITM coordinates and latitude/longitude. Individual NIAH page coordinate pairs are preserved separately as raw values because the page does not label their CRS."
+  },
+  "candidate_records": [
+    {
+      "reg_no": "50010172",
+      "name": "Georgian Court",
+      "address": "77 Gardiner Street Lower, Dublin 1, Ireland",
+      "rating": "Regional",
+      "date_from": 1810,
+      "date_to": 1830,
+      "original_use": "House",
+      "in_use_as": "Hostel",
+      "official_niah_page": "https://www.buildingsofireland.ie/buildings-search/building/50010172/georgian-court-77-gardiner-street-lower-dublin-1-dublin",
+      "page_coordinates_raw_unlabelled_crs": [316282, 234842],
+      "csv_itm_epsg_2157": [716208, 734868],
+      "csv_latitude_longitude": [53.351247, -6.254516],
+      "queue_membership": "Exact REG_NO 50010172 present in Dublin missing-registration queue.",
+      "research_notes": "Terraced two-bay four-storey house over raised basement, built c.1820. The NIAH describes a Flemish-bond yellow-brick façade, moulded granite plinth, rebuilt third floor, diminishing window openings, timber sliding sashes, later balconettes and steel guards, and a Roman Doric stone doorcase with triglyph-and-metope frieze. A five-storey rear building on Mabbot Lane spans the triple plot width across Nos.77-79; individual façades are expressed separately while sharing a roof. The appraisal identifies No.77 as part of the surviving early nineteenth-century Gardiner Street terrace."
+    },
+    {
+      "reg_no": "50010173",
+      "name": "Georgian Court",
+      "address": "78 Gardiner Street Lower, Dublin 1, Ireland",
+      "rating": "Regional",
+      "date_from": 1810,
+      "date_to": 1830,
+      "original_use": "House",
+      "in_use_as": "Hostel",
+      "official_niah_page": "https://www.buildingsofireland.ie/buildings-search/building/50010173/georgian-court-78-gardiner-street-lower-dublin-1-dublin",
+      "page_coordinates_raw_unlabelled_crs": [316280, 234848],
+      "csv_itm_epsg_2157": [716206, 734874],
+      "csv_latitude_longitude": [53.351301, -6.254544],
+      "queue_membership": "Exact REG_NO 50010173 present in Dublin missing-registration queue.",
+      "research_notes": "Two-bay four-storey house over raised basement, built c.1820, described as in guesthouse use occupying Nos.77-79. The NIAH records Flemish-bond yellow brick, moulded granite plinth, diminishing windows, replacement timber sashes, recent balconettes and steel guards, and a Roman Doric doorcase with floral and egg-and-dart capitals and a Doric frieze. A five-storey rear building on Mabbot Lane occupies significant plot depth across Nos.77-79; the street façades remain individually expressed. The appraisal identifies No.78 as part of the surviving terrace along the route from Beresford Place to Mountjoy Square."
+    },
+    {
+      "reg_no": "50010174",
+      "name": "Georgian Court",
+      "address": "79 Gardiner Street Lower, Dublin 1, Ireland",
+      "rating": "Regional",
+      "date_from": 1810,
+      "date_to": 1830,
+      "original_use": "House",
+      "in_use_as": "Hostel",
+      "official_niah_page": "https://www.buildingsofireland.ie/buildings-search/building/50010174/georgian-court-gardiner-street-lower-dublin-1-dublin-city-3",
+      "page_coordinates_raw_unlabelled_crs": [316277, 234855],
+      "csv_itm_epsg_2157": [716203, 734881],
+      "csv_latitude_longitude": [53.351365, -6.254586],
+      "queue_membership": "Exact REG_NO 50010174 present in Dublin missing-registration queue.",
+      "research_notes": "Terraced two-bay four-storey house over raised basement, built c.1820. The NIAH describes Flemish-bond yellow brick, granite plinth, rendered basement, diminishing windows, timber sliding sashes, balconettes, steel guards, a Roman Doric doorcase and an original wrought-iron bootscraper. The five-storey rear building on Mabbot Lane spans the triple plot width across Nos.77-79. The appraisal describes No.79 as part of the surviving early nineteenth-century Gardiner Street terrace."
+    },
+    {
+      "reg_no": "50010175",
+      "name": "City Manor",
+      "address": "80 Gardiner Street Lower, Dublin 1, Ireland",
+      "rating": "Regional",
+      "date_from": 1810,
+      "date_to": 1830,
+      "original_use": "House",
+      "in_use_as": "Hostel",
+      "official_niah_page": "https://www.buildingsofireland.ie/buildings-search/building/50010175/city-manor-80-gardiner-street-lower-dublin-1-dublin",
+      "page_coordinates_raw_unlabelled_crs": [316275, 234861],
+      "csv_itm_epsg_2157": [716201, 734887],
+      "csv_latitude_longitude": [53.351419, -6.254614],
+      "queue_membership": "Exact REG_NO 50010175 present in Dublin missing-registration queue.",
+      "research_notes": "Terraced two-bay four-storey house over raised basement, built c.1820. The NIAH records Flemish-bond yellow brick, moulded granite plinth, a Roman Doric doorcase, decorative wrought-iron balconettes, granite platform and approach, and spearheaded railings. The appraisal notes some alterations and poor condition of façade brickwork at survey time, while identifying the survival of historic form and features. A small mews building is set back from Mabbot Lane. Survey-time condition is not evidence of present condition."
+    },
+    {
+      "reg_no": "50010176",
+      "name": null,
+      "address": "81 Gardiner Street Lower, Dublin 1, Ireland",
+      "rating": "Regional",
+      "date_from": 1810,
+      "date_to": 1830,
+      "original_use": "House",
+      "in_use_as": "Apartment/flat (converted)",
+      "official_niah_page": "https://www.buildingsofireland.ie/buildings-search/building/50010176/81-gardiner-street-lower-dublin-1-co-dublin",
+      "page_coordinates_raw_unlabelled_crs": [316271, 234868],
+      "csv_itm_epsg_2157": [716197, 734894],
+      "csv_latitude_longitude": [53.351483, -6.254671],
+      "queue_membership": "Exact REG_NO 50010176 present in Dublin missing-registration queue. The queue's NAME field is blank; no alternative building name is inferred.",
+      "research_notes": "Terraced two-bay four-storey house over raised basement, built c.1820, with a three-storey rendered rear return. The NIAH records yellow Flemish-bond brick, chamfered granite plinth, replacement timber sliding sashes, a Roman Doric doorcase, granite platform and bull-nosed steps, and original wrought-iron railings. The original stone mews structure survives on Mabbot Lane but has altered façade, roof and interior. The appraisal notes the paired doorcase rhythm of Nos.74-80 and says the doorcase at No.81 belongs to the same broader architectural grouping, without claiming that the registrations form one object."
+    }
+  ],
+  "duplicate_screen": {
+    "method": "Exact registration-number searches against open repository issues and pull requests.",
+    "registration_numbers_checked": ["50010172", "50010173", "50010174", "50010175", "50010176"],
+    "result": "No open issue or pull request matches returned for any of the five exact registration numbers at time of research."
+  },
+  "spatial_and_identity_cautions": [
+    "Nos.77, 78 and 79 are three separately registered street-front houses. A later five-storey rear building on Mabbot Lane spans the triple plot width and shares a roof, while the NIAH describes the street façades individually. Do not create an extra archive object for the shared rear structure or merge the three registrations without independent footprint-level evidence.",
+    "No.80 is a separate registered house. Its mews building and the shared Georgian terrace context do not make it part of the triple-plot rear structure at Nos.77-79.",
+    "No.81 is a separate registered house. The appraisal describes paired doorcase patterns across a group of houses; this is an architectural relationship, not a merged building identity.",
+    "The queue's NAME field for 50010176 is blank. The evidence record preserves null rather than inventing a name.",
+    "Individual NIAH page coordinate pairs are preserved as raw values because the page does not label their CRS. Do not interpret them as EPSG:2157 or overwrite official CSV coordinates.",
+    "NIAH descriptions of use, condition and alterations are survey-time source statements, not present-day field verification.",
+    "No physical access, ownership, public access or current condition has been verified."
+  ],
+  "stage": "research_only",
+  "explicitly_not_done": [
+    "No archive IDs assigned",
+    "No catalogue imports",
+    "No visual inventory or source registry imports",
+    "No map pins or coordinate imports",
+    "No production website changes",
+    "No merge or deployment"
+  ]
+}

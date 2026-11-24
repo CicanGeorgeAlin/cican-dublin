@@ -1,0 +1,189 @@
+{
+  "batch": "084",
+  "purpose": "Research-only evidence packet for five individually registered Dublin City NIAH buildings selected from the official Dublin missing-registration queue",
+  "repository": "CicanGeorgeAlin/cican-dublin",
+  "branch": "research/batch-084-niah-candidates",
+  "source_snapshot": {
+    "workflow_run": 45316198118,
+    "workflow_run_number": 1975,
+    "artifact_id": 14884049842,
+    "artifact_name": "niah-dublin-bulk-coverage-audit",
+    "queue_file": "niah-dublin-missing-registrations.json",
+    "queue_entries": 7040
+  },
+  "official_dataset_reference": {
+    "title": "NIAH Data Download",
+    "url": "https://www.buildingsofireland.ie/niah-data-download/",
+    "note": "The official national CSV provides location fields in ITM and latitude/longitude. Individual NIAH page coordinate pairs are retained separately as raw values because the page does not label their coordinate reference system."
+  },
+  "candidate_records": [
+    {
+      "reg_no": "50010205",
+      "name": "O'Neills Shoes",
+      "address": "11 Talbot Street, Dublin 1, Ireland",
+      "rating": "Regional",
+      "special_interest": [
+        "Architectural"
+      ],
+      "date_from": 1830,
+      "date_to": 1850,
+      "original_use": "House",
+      "in_use_as": "Shop/retail outlet",
+      "official_niah_page": "https://www.buildingsofireland.ie/buildings-search/building/50010205/oneills-shoes-11-talbot-street-dublin-1-dublin",
+      "page_coordinates_raw_unlabelled_crs": [
+        316196,
+        234775
+      ],
+      "csv_itm_epsg_2157": [
+        716125,
+        734799
+      ],
+      "csv_latitude_longitude": [
+        53.350648,
+        -6.255787
+      ],
+      "research_notes": "End-of-terrace two-bay three-storey house, built c.1840, now in use as retail premises, with a two-storey extension to the west. The NIAH records red-brick Flemish-bond walls, gauged square-headed openings, retained single-pane timber sliding sash windows and a timber-panelled shopfront with canted bay windows flanking the central entrance. The appraisal identifies the retained sash windows and shopfront as contributing to the streetscape.",
+      "queue_membership": "Exact REG_NO 50010205 present in the workflow-generated Dublin missing-registration queue."
+    },
+    {
+      "reg_no": "50010208",
+      "name": "Playland/Mayfair Furniture",
+      "address": "8 Talbot Street, Dublin 1, Ireland",
+      "rating": "Regional",
+      "special_interest": [
+        "Architectural"
+      ],
+      "date_from": 1830,
+      "date_to": 1850,
+      "original_use": "House",
+      "in_use_as": "Shop/retail outlet",
+      "official_niah_page": "https://www.buildingsofireland.ie/buildings-search/building/50010208/playland-mayfair-furniture-8-talbot-street-dublin-1-co-dublin",
+      "page_coordinates_raw_unlabelled_crs": [
+        316118,
+        234747
+      ],
+      "csv_itm_epsg_2157": [
+        716045,
+        734772
+      ],
+      "csv_latitude_longitude": [
+        53.350423,
+        -6.256994
+      ],
+      "research_notes": "Terraced two-bay four-storey house, built c.1840, with a recent ground-floor shopfront. The NIAH records a flat roof, red-brick chimneystacks, rebuilt red-brick parapet, Flemish-bond brickwork, gauged square-headed window openings, granite sills and single-pane timber sliding sash windows. The recent polished-granite shopfront has fluted pilasters and pedimented consoles. The appraisal notes retained upper-floor form and fabric.",
+      "queue_membership": "Exact REG_NO 50010208 present in the workflow-generated Dublin missing-registration queue."
+    },
+    {
+      "reg_no": "50010209",
+      "name": "Shoe Zone/Pillar Bed & Breakfast",
+      "address": "9 Talbot Street, Dublin 1, Ireland",
+      "rating": "Regional",
+      "special_interest": [
+        "Architectural"
+      ],
+      "date_from": 1830,
+      "date_to": 1850,
+      "original_use": "House",
+      "in_use_as": "Shop/retail outlet",
+      "official_niah_page": "https://www.buildingsofireland.ie/buildings-search/building/50010209/shoe-zone-pillar-bed-breakfast-9-talbot-street-dublin-1-dublin",
+      "page_coordinates_raw_unlabelled_crs": [
+        316104,
+        234744
+      ],
+      "csv_itm_epsg_2157": [
+        716032,
+        734769
+      ],
+      "csv_latitude_longitude": [
+        53.350394,
+        -6.257183
+      ],
+      "research_notes": "Terraced three-bay four-storey house, built c.1840, with a ground-floor shopfront. The NIAH records an M-profile slate roof, shared red-brick chimneystacks, Flemish-bond upper walls, gauged camber-headed window openings, painted masonry sills and single-pane timber sliding sash windows. The appraisal notes that, despite shopfront alteration, the building retains its overall external character and forms part of a uniform streetscape.",
+      "queue_membership": "Exact REG_NO 50010209 present in the workflow-generated Dublin missing-registration queue."
+    },
+    {
+      "reg_no": "50010210",
+      "name": "HPJ Jewellers",
+      "address": "6 Talbot Street, Dublin 1, Ireland",
+      "rating": "Regional",
+      "special_interest": [
+        "Architectural"
+      ],
+      "date_from": 1830,
+      "date_to": 1850,
+      "original_use": "House",
+      "in_use_as": "Shop/retail outlet",
+      "official_niah_page": "https://www.buildingsofireland.ie/buildings-search/building/50010210/hpj-jewellers-talbot-street-dublin-1-dublin-city",
+      "page_coordinates_raw_unlabelled_crs": [
+        316098,
+        234742
+      ],
+      "csv_itm_epsg_2157": [
+        716026,
+        734767
+      ],
+      "csv_latitude_longitude": [
+        53.350378,
+        -6.257284
+      ],
+      "research_notes": "Terraced three-bay four-storey house, built c.1840, now in commercial use with accommodation over. The NIAH records an M-profile slate roof, shared red-brick chimneystacks, Flemish-bond upper walls, diminishing gauged square-headed openings, masonry sills and replacement uPVC windows. The recent ground-floor shopfront has fluted engaged pilasters and consoles; a separate timber-panelled door provides access to the east. The appraisal highlights the maintained parapet height and fenestration rhythm.",
+      "queue_membership": "Exact REG_NO 50010210 present in the workflow-generated Dublin missing-registration queue."
+    },
+    {
+      "reg_no": "50010212",
+      "name": "Nice Price/Canning Landy & Co",
+      "address": "4 Talbot Street, Dublin 1, Ireland",
+      "rating": "Regional",
+      "special_interest": [
+        "Architectural"
+      ],
+      "date_from": 1830,
+      "date_to": 1850,
+      "original_use": "House",
+      "in_use_as": "Shop/retail outlet",
+      "official_niah_page": "https://www.buildingsofireland.ie/buildings-search/building/50010212/nice-price-canning-landy-co-4-talbot-street-dublin-1-dublin",
+      "page_coordinates_raw_unlabelled_crs": [
+        316085,
+        234739
+      ],
+      "csv_itm_epsg_2157": [
+        716013,
+        734763
+      ],
+      "csv_latitude_longitude": [
+        53.350346,
+        -6.257477
+      ],
+      "research_notes": "Terraced three-bay four-storey house, built c.1840, now in commercial use. The NIAH records a hipped slate roof set perpendicular to the street, shared red-brick chimneystacks, Flemish-bond brickwork, diminishing gauged square-headed openings, masonry sills and single-pane timber sliding sash windows throughout. The recent timber shopfront has engaged pilasters and plain consoles. The appraisal notes the retained historic features and contribution to the north-side Talbot Street terrace.",
+      "queue_membership": "Exact REG_NO 50010212 present in the workflow-generated Dublin missing-registration queue."
+    }
+  ],
+  "duplicate_screen": {
+    "method": "Exact registration-number searches against repository issues and pull requests.",
+    "registration_numbers_checked": [
+      "50010205",
+      "50010208",
+      "50010209",
+      "50010210",
+      "50010212"
+    ],
+    "result": "No issue or pull request matches returned for any of the five exact registration numbers at time of research."
+  },
+  "selection_note": "The next queue entry after Batch 083 was 50010205. Registration 50010211 (Shu Krazy) is also present in the queue but was held outside this batch because its individual NIAH page could not be independently retrieved during this review. Registration 50010212 was used as the fifth source-verified candidate instead. Registrations 50010206 and 50010207 do not appear in the missing-registration queue snapshot.",
+  "identity_and_spatial_cautions": [
+    "The five registrations are distinct NIAH building records; preserve each registration as its own building entity.",
+    "Neighbouring buildings share a terrace context and some architectural relationships. Shared parapets, party-wall chimneystacks and street rhythm are not additional archive objects without independent object-level evidence.",
+    "NIAH names and in-use classifications are register survey fields, not verification of present-day tenant identity, occupancy or business operation.",
+    "All page coordinate pairs are raw unlabelled values. Official CSV ITM and latitude/longitude values are stored independently; do not substitute page coordinates for CSV coordinates.",
+    "No current condition, ownership, public access or field condition has been verified."
+  ],
+  "stage": "research_only",
+  "explicitly_not_done": [
+    "No archive IDs assigned",
+    "No catalogue imports",
+    "No source registry or visual inventory imports",
+    "No map pins or coordinate imports",
+    "No production website changes",
+    "No merge or deployment"
+  ]
+}

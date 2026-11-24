@@ -102,7 +102,8 @@
       "registration": "50010451",
       "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010451",
       "page_verified": false,
-      "notes": null
+      "notes": "Official NIAH North City heritage guide identifies this registration as AXA Insurance on Wolfe Tone Street (guide registration index, p.107); canonical individual page not independently verified, so retain HOLD.",
+      "display_name": "AXA Insurance"
     },
     {
       "registration": "50010452",
@@ -136,14 +137,20 @@
       "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010456/jervis-centre-jervis-street-dublin-1-dublin",
       "page_verified": true,
       "display_name": "Jervis Centre",
-      "notes": null
+      "notes": null,
+      "known_distinct_neighbours": [
+        "50010457"
+      ]
     },
     {
       "registration": "50010457",
       "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010457/jervis-centre-jervis-street-dublin-1-dublin",
       "page_verified": true,
       "display_name": "Jervis Centre",
-      "notes": null
+      "notes": null,
+      "known_distinct_neighbours": [
+        "50010456"
+      ]
     },
     {
       "registration": "50010459",
@@ -251,7 +258,7 @@
       "registration": "50010476",
       "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010476/pull-and-bear-22-23-henry-street-dublin-1-dublin",
       "page_verified": true,
-      "display_name": "Pull and Bear",
+      "display_name": "22–23 Henry Street",
       "notes": null
     },
     {
@@ -272,7 +279,7 @@
       "registration": "50010480",
       "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010480/42-43-henry-street-moore-street-dublin-1-dublin",
       "page_verified": true,
-      "display_name": "42-43 Henry Street",
+      "display_name": "42–43 Henry Street",
       "notes": null
     },
     {

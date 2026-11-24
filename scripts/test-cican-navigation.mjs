@@ -148,7 +148,7 @@ test("one-tap WALK THERE immediately switches to full-map navigation without a m
 });
 
 test("walking navigation uses shorter camera transitions for faster perceived response",()=>{
-  assert.match(app,/pitch:48,duration:260/);
+  assert.match(app,/pitch:48,duration:180/);
   assert.match(app,/maxZoom:17,duration:280/);
   assert.match(app,/AbortSignal\.timeout\(15000\)/);
 });

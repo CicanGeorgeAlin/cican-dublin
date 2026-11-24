@@ -172,7 +172,9 @@
     {
       "registration": "50010520",
       "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010520",
-      "page_verified": false
+      "page_verified": false,
+      "notes": "The official NIAH North City guide index identifies Clerys Department Store, 18–27 O'Connell Street Lower, registration 50010520; canonical individual page not independently verified, so retain HOLD.",
+      "supplementary_source": "https://www.buildingsofireland.ie/app/uploads/2019/10/Dublin-North-City.pdf"
     },
     {
       "registration": "50010521",

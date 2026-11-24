@@ -35,8 +35,32 @@ jobs:
       - name: Build four-authority Dublin NIAH coverage and missing-registration queue
         run: node scripts/audit-niah-dublin-coverage.mjs
       - name: Preflight 14 core publication candidates from research Batches 087–089
-        if: github.event_name == 'pull_request'
+        if: github.event_name == 'pull_request' && hashFiles('audit/niah-batches-087-089-publication.json') == ''
         run: node scripts/publish-niah-batches-087-089.mjs --check
+      - name: Verify previously published 14 core candidates from research Batches 087–089
+        if: github.event_name == 'pull_request' && hashFiles('audit/niah-batches-087-089-publication.json') != ''
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from "node:fs";
+          import assert from "node:assert/strict";
+          const report = JSON.parse(fs.readFileSync("audit/niah-batches-087-089-publication.json", "utf8"));
+          const objects = JSON.parse(fs.readFileSync("data/objects.json", "utf8"));
+          const publicNiah = JSON.parse(fs.readFileSync("data/niah-registered-objects.json", "utf8"));
+          const sources = JSON.parse(fs.readFileSync("data/sources.json", "utf8"));
+          const visual = JSON.parse(fs.readFileSync("data/visual-assets.json", "utf8"));
+          assert.equal(report.decision, "PUBLISHED");
+          assert.equal(report.published_candidate_count, 14);
+          assert.equal(report.registrations.length, 14);
+          for (const item of report.registrations) {
+            assert.equal(publicNiah.filter(x => x.national_inventory_reference === item.registration).length, 1, item.registration + " must occur once in the public NIAH register");
+            const object = objects.find(x => x.id === item.archive_id);
+            assert.ok(object, item.archive_id + " must exist in the master catalogue");
+            assert.equal(object.national_inventory_reference, item.registration);
+            assert.ok(sources.some(x => x.id === "NIAH-" + item.registration), "source record missing for " + item.registration);
+            assert.ok(visual.records.some(x => x.record_id === item.archive_id), "visual record missing for " + item.archive_id);
+          }
+          console.log("PASS: all 14 previously published NIAH records reconcile across the publication report, master catalogue, public register, source registry and visual inventory.");
+          NODE
       - name: Reconcile Batch 090 candidates against the full catalogue and refreshed official queue
         run: node scripts/reconcile-niah-batch-090.mjs
       - name: Reconcile Batch 058 and 059 research candidates against complete catalogues and official CSV

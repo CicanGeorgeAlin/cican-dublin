@@ -115,7 +115,7 @@ test("walking navigation returns to the full map and uses a compact independent 
 });
 
 test("live GPS does not pull the map away from the complete walking route", () => {
-  assert.ok(app.includes("!state.navigationRoute)state.map.setCenter(point)"));
+  assert.ok(app.includes("if(!state.navigationRoute&&state.map&&typeof state.map.setCenter===\"function\""));
 });
 
 test("hidden route summary can be reopened from the map", () => {

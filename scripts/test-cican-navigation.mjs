@@ -152,3 +152,32 @@ test("walking navigation uses shorter camera transitions for faster perceived re
   assert.match(app,/maxZoom:17,duration:280/);
   assert.match(app,/AbortSignal\.timeout\(15000\)/);
 });
+
+test("route matching is constrained to plausible forward progress and uses heading as a tie-breaker",()=>{
+  const start=app.indexOf("function liveDistanceAndBearing");
+  const end=app.indexOf("function updateNavigationProgress",start);
+  assert.ok(start>=0&&end>start,"route geometry helpers must be present");
+  const context={};
+  vm.createContext(context);
+  vm.runInContext(app.slice(start,end),context);
+  const coordinates=[[-6.2600,53.3500],[-6.2590,53.3500],[-6.2580,53.3500],[-6.2570,53.3500]];
+  const cumulative=context.routeCumulativeDistances(coordinates);
+  const point={latitude:53.3500,longitude:-6.2585};
+  const local=context.nearestRouteProgress(point,coordinates,cumulative,0,{minimumProgressMetres:0,maximumProgressMetres:75,heading:90,speed:2,accuracy:8});
+  assert.ok(local.progressMetres<=75,"matcher must not jump far ahead to a later route segment");
+  assert.ok(local.distance<3,"the correct local route segment should be matched closely");
+  const outside=context.nearestRouteProgress(point,coordinates,cumulative,0,{minimumProgressMetres:0,maximumProgressMetres:20,heading:90,speed:2,accuracy:8});
+  assert.equal(outside.distance,Infinity,"segments outside the plausible progress window must not be selected");
+});
+
+test("route matching does not regress behind accepted progress",()=>{
+  const start=app.indexOf("function liveDistanceAndBearing");
+  const end=app.indexOf("function updateNavigationProgress",start);
+  const context={};
+  vm.createContext(context);
+  vm.runInContext(app.slice(start,end),context);
+  const coordinates=[[-6.2600,53.3500],[-6.2590,53.3500],[-6.2580,53.3500]];
+  const cumulative=context.routeCumulativeDistances(coordinates);
+  const result=context.nearestRouteProgress({latitude:53.3500,longitude:-6.2598},coordinates,cumulative,0,{minimumProgressMetres:25,maximumProgressMetres:100});
+  assert.ok(result.progressMetres>=25-8,"GPS jitter must not pull route progress backwards");
+});

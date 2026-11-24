@@ -67,8 +67,11 @@ for (const c of manifest.candidates) {
   }
 
   const csvName = clean(row.NAME), csvNumber = clean(row.NUMBER);
-  const streetCore = [csvNumber, clean(row.STREET1)].filter(Boolean).join(" ");
-  const displayAddress = [streetCore, clean(row.STREET2), clean(row.TOWN), "Dublin", "Ireland"].filter(Boolean).join(", ");
+  const numberIsDateLike = /^(?:\d{1,2}[-/](?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)|(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[-/]\d{1,2})$/i.test(csvNumber);
+  const displayNumber = numberIsDateLike ? "" : csvNumber;
+  const streetCore = [displayNumber, clean(row.STREET1)].filter(Boolean).join(" ");
+  const locality = clean(row.TOWN) || "Dublin";
+  const displayAddress = [streetCore, clean(row.STREET2), locality, "Ireland"].filter(Boolean).join(", ");
   const displayName = displayName || (csvName && !csvName.includes("\uFFFD") ? csvName : (streetCore || ("NIAH registration " + c.registration)));
   if (Object.values(row).some(value => String(value ?? "").includes("\uFFFD"))) {
     sourceAnomalies.push({ registration: c.registration, issue: "Official national CSV values contain U+FFFD replacement characters; preserve raw values and use only individually verified transcription for display.", csv_name: csvName, csv_number: csvNumber });

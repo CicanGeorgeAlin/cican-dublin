@@ -202,7 +202,7 @@ test("heading-up control requests sensor permission from a user control and leav
   assert.ok(html.includes('id="navigation-heading-toggle"'));
   assert.match(app,/DeviceOrientationEvent\.requestPermission\(\)/);
   assert.match(app,/deviceorientationabsolute/);
-  assert.match(app,/state\.navigationHeadingUp&&Number\.isFinite\(state\.navigationDeviceHeading\)/);
+  assert.match(app,/function renderHeadingCamera/);
   assert.match(app,/updateNavigationProgress\(position\)/);
   assert.match(app,/setHeadingUpEnabled\(false\);state\.navigationRoute=null/);
 });

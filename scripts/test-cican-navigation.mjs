@@ -7,6 +7,7 @@ const app = fs.readFileSync(new URL("../preview/app/app.js", import.meta.url), "
 const html = fs.readFileSync(new URL("../preview/app.html", import.meta.url), "utf8");
 const css = fs.readFileSync(new URL("../preview/app/app.css", import.meta.url), "utf8");
 const sw = fs.readFileSync(new URL("../preview/service-worker.js", import.meta.url), "utf8");
+const rootSw = fs.readFileSync(new URL("../service-worker.js", import.meta.url), "utf8");
 
 function encodePolyline6(points) {
   let lastLat = 0, lastLng = 0, output = "";
@@ -30,6 +31,7 @@ test("archive place details use CICAN walking navigation, not Google Maps handof
   assert.doesNotMatch(app, /google\.com\/maps\/dir\//);
   assert.match(app, /id="navigation-panel"/);
   assert.match(html, /id="locate-button"/);
+  assert.match(app, /new URLSearchParams\(location\.search\)\.get\("destination"\)/);
 });
 
 test("walking route requests use live GPS origin and archived destination with pedestrian costing", () => {
@@ -67,5 +69,6 @@ test("Valhalla polyline6 decoder accurately restores route coordinates", () => {
 });
 
 test("app cache is refreshed for the navigation release", () => {
-  assert.match(sw, /cican-dublin-app-v57/);
+  assert.match(sw, /cican-dublin-app-v58/);
+  assert.match(rootSw, /cican-dublin-root-v17/);
 });

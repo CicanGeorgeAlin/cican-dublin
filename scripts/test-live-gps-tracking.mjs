@@ -114,7 +114,7 @@ test("live GPS starts high-accuracy watch, updates marker/readout, and stops cle
   assert.match(h.status.textContent, /LIVE GPS/);
 
   h.callbacks.success({ ...fix, coords: { ...fix.coords, latitude: 53.2, longitude: -6.2 } });
-  assert.equal(h.calls.markerPositions.length, 2, "later GPS fixes must move the same marker");
+  assert.equal(h.calls.markerPositions.length, 3, "a new GPS fix and the animation frame should both reposition the marker");
   assert.ok(h.pendingFrames() > 0, "the marker animation should keep running between fixes");
 
   h.context.toggleLiveLocationTracking();

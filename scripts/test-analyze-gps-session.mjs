@@ -32,7 +32,6 @@ test("GPS report summarizes accuracy, route offsets, gaps and progress", () => {
 
 test("invalid coordinates and missing required fields are not silently accepted", () => {
   const bad = parseCsv(header + "\n2026-11-24T12:00:00.000Z,999,-6.2,5,1,90,,,");
-  const report = analyzeGpsSession(bad);
-  assert.equal(report.valid_sample_count, 0);
+  assert.throws(() => analyzeGpsSession(bad), /No valid GPS samples found/);
   assert.throws(() => analyzeGpsSession([{ latitude: "53" }]), /Missing required CSV columns/);
 });

@@ -112,7 +112,7 @@ function liveProjectedPoint(latitude,longitude,distance,bearing){const rad=value
 function renderLiveLocationFrame(){state.locationAnimationFrame=null;}
 function gpsNoiseFloor(previousAccuracy,accuracy){return Math.max(4,Math.min(12,((Number(previousAccuracy)||0)+(Number(accuracy)||0))*0.28));}
 function gpsMovementIsSignificant(distance,previousAccuracy,accuracy){return Number.isFinite(distance)&&distance>gpsNoiseFloor(previousAccuracy,accuracy)*1.35;}
-function gpsShouldHoldPosition(speed,reportedMoving,movementDistance,noiseFloor,accuracy){return !reportedMoving&&(!Number.isFinite(movementDistance)||movementDistance<=Math.max(noiseFloor*2,(Number(accuracy)||0)*0.55));}
+function gpsShouldHoldPosition(speed,reportedMoving,movementDistance,noiseFloor,accuracy,meaningfulMovement=false){return !meaningfulMovement&&!reportedMoving&&(!Number.isFinite(movementDistance)||movementDistance<=Math.max(noiseFloor*2,(Number(accuracy)||0)*0.55));}
 function gpsDisplayAlpha(accuracy){return Math.max(0.18,Math.min(0.48,12/((Number(accuracy)||0)+12)));}
 function acceptLiveLocationFix(position){
 if(!state.locationTracking||!position||!position.coords)return;
@@ -137,7 +137,7 @@ state.locationLastFix={latitude,longitude,timestamp,accuracy};
 const raw={latitude,longitude,timestamp,accuracy};
 let display=state.locationDisplayFix;
 if(!display){display={...raw};}
-else if(gpsShouldHoldPosition(speed,reportedMoving,movement?.distance,noiseFloor,accuracy)){display={...display,timestamp,accuracy};}
+else if(gpsShouldHoldPosition(speed,reportedMoving,movement?.distance,noiseFloor,accuracy,meaningfulMovement)){display={...display,timestamp,accuracy};}
 else{const alpha=gpsDisplayAlpha(accuracy);display={...display,latitude:display.latitude+(latitude-display.latitude)*alpha,longitude:display.longitude+(longitude-display.longitude)*alpha,timestamp,accuracy};}
 state.locationDisplayFix=display;
 state.locationMotion={latitude:display.latitude,longitude:display.longitude,speed,heading,accuracy,receivedAt:performance.now()};

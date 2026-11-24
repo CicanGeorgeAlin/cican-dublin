@@ -109,7 +109,6 @@ test("live GPS starts high-accuracy watch, updates marker/readout, and stops cle
   };
   h.callbacks.success(fix);
   assert.equal([...h.calls.markerPositions[0]].join(","), "-6.123456,53.123456");
-  h.advanceFrame(1034);
   assert.ok(h.calls.mapMoves.length > 0, "the map should centre on the accepted GPS position");
   assert.equal(h.calls.mapMoves[0][0], -6.123456, "the map must not extrapolate a noisy GPS position between fixes");
   assert.equal(h.coords.coordinates, "53.123456, -6.123456");

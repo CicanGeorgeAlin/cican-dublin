@@ -58,3 +58,14 @@ The report is written to `audit/batch-103-50-candidate-reconciliation.json`. Une
 ## Publication boundary
 
 Research-only. No permanent archive IDs, master objects, public NIAH register entries, source records, visual records, map pins or SEO pages are created. Coordinates remain source-derived, not founder GPS or field verified. No NIAH photographs are reused.
+
+## Proximity review outcome
+
+The full reconciliation returned **zero exact registration conflicts, zero exact address conflicts, zero source-ID conflicts and zero unexplained same-batch exact-address conflicts**. Two same-name pairs remain explicitly distinct by address and registration:
+
+- 50010874 (hospital chapel) and 50010875 (hospital building at 14–15 Temple Street).
+- 50010904 (7 Frederick Street North) and 50010905 (6 Frederick Street North), separately registered neighbouring properties associated with the same stained-glass business.
+
+The 125 candidate-to-candidate pairs within 30 metres were reviewed as close neighbouring buildings along the selected Gardiner Place, Frederick Street North, Hardwicke Street and Parnell Square North streetscapes, plus the Temple Street hospital site. Proximity is a review trigger, not evidence that two registrations describe the same object. The 16 hits against existing archive objects all relate to the existing 47 Hardwicke Street building and its entrance bootscraper; selected records at 48 Hardwicke Street and nearby Frederick Street North are neighbouring structures. The corner-sited 12C Frederick Street North / 48 Hardwicke Street relationship is retained as a connection/access relationship, not a merged identity.
+
+No archive objects, visual records, map pins or source records are added by this research batch.

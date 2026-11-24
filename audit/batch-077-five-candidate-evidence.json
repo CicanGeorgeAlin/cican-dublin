@@ -1,0 +1,125 @@
+{
+  "batch": "077",
+  "purpose": "Research-only evidence packet for five individually registered Georgian-era buildings on Gardiner Street Lower, Dublin 1",
+  "repository": "CicanGeorgeAlin/cican-dublin",
+  "branch": "research/batch-077-niah-candidates",
+  "source_snapshot": {
+    "workflow_run": 45313219375,
+    "workflow_run_number": 1947,
+    "artifact_id": 14883942097,
+    "artifact_name": "niah-dublin-bulk-coverage-audit",
+    "queue_file": "niah-dublin-missing-registrations.json",
+    "queue_entries": 7040,
+    "queue_rule": "Each selected registration number was checked as an exact entry in the workflow-generated Dublin missing-registration queue."
+  },
+  "official_dataset_reference": {
+    "title": "NIAH Data Download",
+    "url": "https://www.buildingsofireland.ie/niah-data-download/",
+    "note": "Official national CSV provides ITM coordinates and latitude/longitude. Individual NIAH page coordinate pairs are preserved separately as raw values because the page does not label their CRS."
+  },
+  "candidate_records": [
+    {
+      "reg_no": "50010161",
+      "name": "Anchor House Bed and Breakfast",
+      "address": "49 Gardiner Street Lower, Dublin 1, Ireland",
+      "rating": "Regional",
+      "date_from": 1820,
+      "date_to": 1830,
+      "original_use": "House",
+      "in_use_as": "Guest house/B&B",
+      "official_niah_page": "https://www.buildingsofireland.ie/buildings-search/building/50010161/anchor-house-bed-and-breakfast-49-gardiner-street-lower-dublin-1-dublin",
+      "page_coordinates_raw_unlabelled_crs": [316299, 234722],
+      "csv_itm_epsg_2157": [716225, 734748],
+      "csv_latitude_longitude": [53.350165, -6.254305],
+      "queue_membership": "Exact REG_NO 50010161 present in Dublin missing-registration queue.",
+      "research_notes": "End-of-terrace two-bay four-storey house over raised basement, built c.1825, with two-storey return. The NIAH describes yellow brick in Flemish bond, granite plinth, timber sliding sash windows, cast-iron balconettes, Ionic doorcase and original petal fanlight. It terminates a terrace of eight houses and frames the former Trinity Church in the street vista."
+    },
+    {
+      "reg_no": "50010162",
+      "name": "The Town House/Globetrotters Accommodation",
+      "address": "48 Gardiner Street Lower, Dublin 1, Ireland",
+      "rating": "Regional",
+      "date_from": 1820,
+      "date_to": 1830,
+      "original_use": "House",
+      "in_use_as": "Guest house/B&B",
+      "official_niah_page": "https://www.buildingsofireland.ie/buildings-search/building/50010162/the-town-house-globetrotters-accommodation-48-gardiner-street-lower-dublin-1-dublin",
+      "page_coordinates_raw_unlabelled_crs": [316295, 234729],
+      "csv_itm_epsg_2157": [716221, 734755],
+      "csv_latitude_longitude": [53.350229, -6.254362],
+      "queue_membership": "Exact REG_NO 50010162 present in Dublin missing-registration queue.",
+      "research_notes": "Terraced two-bay four-storey house over raised basement, built c.1825, described as operating together with Nos. 47 and 46. The NIAH records Flemish-bond brown brick, granite plinth, timber windows, cast-iron balconettes, original eleven-panel timber door, Ionic doorcase, petal fanlight and decorative railings. Its appraisal identifies the building as the boyhood home of Lafcadio Hearn, also known as Koizumi Yakumo, and notes its cultural significance."
+    },
+    {
+      "reg_no": "50010164",
+      "name": "Globetrotters Budget Accommodation",
+      "address": "46 Gardiner Street Lower, Dublin 1, Ireland",
+      "rating": "Regional",
+      "date_from": 1820,
+      "date_to": 1830,
+      "original_use": "House",
+      "in_use_as": "Hostel",
+      "official_niah_page": "https://www.buildingsofireland.ie/buildings-search/building/50010164/globetrotters-budget-accommodation-46-gardiner-street-lower-dublin-1-dublin",
+      "page_coordinates_raw_unlabelled_crs": [316289, 234741],
+      "csv_itm_epsg_2157": [716215, 734768],
+      "csv_latitude_longitude": [53.350344, -6.254448],
+      "queue_membership": "Exact REG_NO 50010164 present in Dublin missing-registration queue.",
+      "research_notes": "Terraced two-bay four-storey house over raised basement, built c.1825, with three-storey brick return, described as in guesthouse use together with Nos. 47 and 48. The NIAH records Flemish-bond brown brick, granite plinth, sash windows, wrought-iron balconettes, original eleven-panel timber door, Ionic doorcase, bootscraper, granite steps and railings. Its appraisal places it in the Georgian terrace laid out by Luke Gardiner in 1790 and developed in the 1820s."
+    },
+    {
+      "reg_no": "50010168",
+      "name": "O'Shea's Hotel",
+      "address": "73 Gardiner Street Lower, Dublin 1, Ireland",
+      "rating": "Regional",
+      "date_from": 1810,
+      "date_to": 1830,
+      "original_use": "House",
+      "in_use_as": "Hotel",
+      "official_niah_page": "https://www.buildingsofireland.ie/buildings-search/building/50010168/osheas-hotel-73-gardiner-street-lower-dublin-1-dublin",
+      "page_coordinates_raw_unlabelled_crs": [316292, 234817],
+      "csv_itm_epsg_2157": [716218, 734843],
+      "csv_latitude_longitude": [53.35102, -6.254375],
+      "queue_membership": "Exact REG_NO 50010168 present in Dublin missing-registration queue.",
+      "research_notes": "Terraced two-bay four-storey house over raised basement, built c.1820. The NIAH says it currently forms part of a hotel occupying Nos. 71-73 Gardiner Street Lower and notes that the façade appears to have been substantially rebuilt above ground-floor level. Remaining historic features include granite plinth and stepped approach, enclosing railings and an associated brick mews building addressing Mabbot Lane. This is one NIAH registration within a hotel operation spanning multiple street numbers; do not merge adjacent registrations."
+    },
+    {
+      "reg_no": "50010171",
+      "name": "National Adult Literacy Agency",
+      "address": "76 Gardiner Street Lower, Dublin 1, Ireland",
+      "rating": "Regional",
+      "date_from": 1810,
+      "date_to": 1830,
+      "original_use": "House",
+      "in_use_as": "Office",
+      "official_niah_page": "https://www.buildingsofireland.ie/buildings-search/building/50010171/national-adult-literacy-agency-76-gardiner-street-lower-dublin-1-dublin",
+      "page_coordinates_raw_unlabelled_crs": [316286, 234835],
+      "csv_itm_epsg_2157": [716212, 734861],
+      "csv_latitude_longitude": [53.35118, -6.254457],
+      "queue_membership": "Exact REG_NO 50010171 present in Dublin missing-registration queue.",
+      "research_notes": "Terraced two-bay four-storey house over raised basement, built c.1820, recorded in office use. The NIAH describes yellow brick in Flemish bond, a granite plinth, coursed limestone basement walls, timber sliding sash windows, original wrought-iron balconettes, Roman Doric doorcase, granite approach and railings. A surviving decorative sandstone water tank in the basement area is specifically identified as significant, as is the surviving façade of an original stone mews building facing Mabbot Lane."
+    }
+  ],
+  "duplicate_screen": {
+    "method": "Exact registration-number searches against open repository issues and pull requests.",
+    "registration_numbers_checked": ["50010161", "50010162", "50010164", "50010168", "50010171"],
+    "result": "No open issue or pull request matches returned for any of the five exact registration numbers at time of research."
+  },
+  "spatial_and_identity_cautions": [
+    "50010161 is an end-of-terrace house at No.49 and is distinct from the separately registered former Trinity Church across the street.",
+    "50010162 and 50010164 are separately registered houses at Nos.48 and 46. The NIAH describes their guesthouse operation as shared with No.47 (registration 50010163); do not merge their architectural registrations into one building record.",
+    "50010168 is one registered house within a hotel operation spanning Nos.71-73. Do not treat the operating hotel footprint as proof that the three registered street numbers are one heritage object.",
+    "50010171 is distinct from neighbouring houses at Nos.75, 77 and 78. The NIAH notes paired doorcase patterns and group development but preserves individual building identity.",
+    "Individual NIAH page coordinate pairs are preserved as raw values because the page does not label their CRS. Do not interpret them as EPSG:2157 or overwrite official CSV coordinates.",
+    "NIAH descriptions of use, condition and alterations are survey-time source statements, not present-day field verification.",
+    "No physical access, ownership, public access or current condition has been verified."
+  ],
+  "stage": "research_only",
+  "explicitly_not_done": [
+    "No archive IDs assigned",
+    "No catalogue imports",
+    "No visual inventory or source registry imports",
+    "No map pins or coordinate imports",
+    "No production website changes",
+    "No merge or deployment"
+  ]
+}

@@ -43,6 +43,7 @@ const pageHolds = [];
 const sourceAnomalies = [];
 const selectedRows = [];
 const documentedAddressRelationships = [];
+const documentedArchiveAddressRelationships = [];
 const blocking = [];
 
 for (const c of manifest.candidates) {
@@ -95,7 +96,11 @@ for (const c of manifest.candidates) {
   for (const x of objects) {
     if (x.address && addressKey(x.address) === candidateAddressKey) {
       const hit = { registration: c.registration, archive_id: x.id, name: x.name, address: x.address };
-      exactAddressMatches.push(hit); blocking.push({ type: "exact_address", ...hit });
+      if ((c.known_distinct_archive_ids ?? []).includes(x.id)) {
+        documentedArchiveAddressRelationships.push({ ...hit, relationship: c.distinct_archive_reason || "Explicitly documented distinct archive object; see batch review." });
+      } else {
+        exactAddressMatches.push(hit); blocking.push({ type: "exact_address", ...hit });
+      }
     }
     if (x.name && norm(x.name) === candidateNameKey) exactNameMatches.push({ registration: c.registration, archive_id: x.id, name: x.name, address: x.address ?? null });
     if (typeof x.latitude === "number" && typeof x.longitude === "number") {
@@ -107,7 +112,7 @@ for (const c of manifest.candidates) {
     const hit = { registration: c.registration, source_id: "NIAH-" + c.registration };
     sourceIdMatches.push(hit); blocking.push({ type: "source_id", ...hit });
   }
-  selectedRows.push({ registration: c.registration, display_name: displayName, display_address: displayAddress, source_name_raw: row.NAME ?? "", source_number_raw: row.NUMBER ?? "", source_street1_raw: row.STREET1 ?? "", source_street2_raw: row.STREET2 ?? "", address_key: candidateAddressKey, name_key: candidateNameKey, latitude: lat, longitude: lon, itm_e: itmE, itm_n: itmN, page_verified: c.page_verified, known_distinct_neighbours: c.known_distinct_neighbours ?? [], distinct_neighbour_reason: c.distinct_neighbour_reason ?? null });
+  selectedRows.push({ registration: c.registration, display_name: displayName, display_address: displayAddress, source_name_raw: row.NAME ?? "", source_number_raw: row.NUMBER ?? "", source_street1_raw: row.STREET1 ?? "", source_street2_raw: row.STREET2 ?? "", address_key: candidateAddressKey, name_key: candidateNameKey, latitude: lat, longitude: lon, itm_e: itmE, itm_n: itmN, page_verified: c.page_verified, known_distinct_neighbours: c.known_distinct_neighbours ?? [], distinct_neighbour_reason: c.distinct_neighbour_reason ?? null, known_distinct_archive_ids: c.known_distinct_archive_ids ?? [], distinct_archive_reason: c.distinct_archive_reason ?? null });
 }
 
 for (let i = 0; i < selectedRows.length; i++) {
@@ -136,6 +141,7 @@ const report = {
   catalogues: { master_object_count: objects.length, public_niah_count: publicNiah.length, source_count: sources.length, visual_record_count: visual.records.length },
   duplicate_screen: { exact_registration_matches: exactRegistrationMatches, exact_address_matches: exactAddressMatches, exact_name_matches: exactNameMatches, source_id_matches: sourceIdMatches, same_batch_address_matches: sameBatchAddressMatches, same_batch_name_matches: sameBatchNameMatches },
   documented_address_relationships: documentedAddressRelationships,
+  documented_archive_address_relationships: documentedArchiveAddressRelationships,
   coordinate_proximity_review: proximity.sort((a,b) => a.registration.localeCompare(b.registration) || a.distance_m - b.distance_m),
   candidate_to_candidate_proximity: candidateProximity,
   page_holds: pageHolds,
@@ -153,5 +159,5 @@ const report = {
   ]
 };
 await fs.writeFile("audit/batch-096-50-candidate-reconciliation.json", JSON.stringify(report, null, 2) + "\n");
-console.log(JSON.stringify({ decision: report.decision, queue: report.queue, catalogues: report.catalogues, duplicates: report.duplicate_screen, documented_address_relationships: documentedAddressRelationships, existing_proximity: proximity.length, candidate_proximity: candidateProximity.length, page_holds: pageHolds.length, source_anomalies: sourceAnomalies.length, blocking_conflicts: blocking.length }, null, 2));
+console.log(JSON.stringify({ decision: report.decision, queue: report.queue, catalogues: report.catalogues, duplicates: report.duplicate_screen, documented_address_relationships: documentedAddressRelationships, documented_archive_address_relationships: documentedArchiveAddressRelationships, existing_proximity: proximity.length, candidate_proximity: candidateProximity.length, page_holds: pageHolds.length, source_anomalies: sourceAnomalies.length, blocking_conflicts: blocking.length }, null, 2));
 if (blocking.length) throw new Error("Batch 096 contains blocking exact duplicate/provenance conflicts; see reconciliation report.");

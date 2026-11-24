@@ -53,7 +53,7 @@ This batch is research-only. No permanent archive IDs, master objects, public NI
 ## Official individual NIAH pages
 
 - [50010244 — M. & L. Szechuan Chinese Restaurant](https://www.buildingsofireland.ie/buildings-search/building/50010244/m-l-szechuan-chinese-restaurant-cathedral-street-dublin-1-dublin)
-- [50010245 — Brannigan's](https://www.buildingsofireland.ie/buildings-search/building/50010245/brannigans-cathedral-street-dublin-1-dublin)
+- [50010245 — Brannigan's](https://www.buildingsofireland.ie/buildings-search/building/50010245/brannigans-cathedral-street-dublin-1-dublin-city)
 - [50010246 — M.J. Boylan & Son Ltd](https://www.buildingsofireland.ie/buildings-search/building/50010246/m-j-boylan-son-ltd-10-cathedral-street-dublin-1-co-dublin)
 - [50010247 — 8 O'Connell Street Upper](https://www.buildingsofireland.ie/buildings-search/building/50010247/8-oconnell-street-upper-cathedral-street-dublin-1-dublin)
-- [50010248 — Irish American Oil Company](https://www.buildingsofireland.ie/buildings-search/building/50010248/irish-american-oil-company-1-2-oconnell-street-upper-north-earl-street-dublin-1-dublin)
+- [50010248 — Irish American Oil Company](https://www.buildingsofireland.ie/buildings-search/building/50010248/kylemore-oconnell-street-upper-earl-street-north-dublin-1-dublin-city)

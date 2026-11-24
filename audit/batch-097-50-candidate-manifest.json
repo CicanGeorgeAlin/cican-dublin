@@ -1,0 +1,358 @@
+{
+  "batch": "097",
+  "title": "NIAH Dublin City — 50-record normal batch, O'Connell Street Upper to Capel Street",
+  "reviewed_on": "2026-11-24",
+  "target_count": 50,
+  "source_queue": "audit/niah-dublin-missing-registrations.json",
+  "selection_method": "First 50 Dublin City Council / County Dublin rows after Batch 096's final selected registration 50010543 in the refreshed official four-authority missing-registration queue. Exact queue membership is validated in CI; numeric continuity alone is not used.",
+  "candidates": [
+    {
+      "registration": "50010544",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010544/arus-brugha-9-10-oconnell-street-upper-cathedral-street-dublin-1-dublin",
+      "page_verified": true,
+      "display_address": "9–10 O'Connell Street Upper, Cathedral Street, Dublin 1, Ireland",
+      "notes": null
+    },
+    {
+      "registration": "50010545",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010545/hammam-buildings-11-13-oconnell-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_address": "11–13 O'Connell Street Upper, Dublin 1, Ireland",
+      "notes": null
+    },
+    {
+      "registration": "50010546",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010546/savoy-16-17-oconnell-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010547",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010547/prescott-18-oconnell-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Prescott",
+      "notes": null
+    },
+    {
+      "registration": "50010548",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010548/meagher-and-hayes-19-oconnell-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Meagher and Hayes",
+      "notes": null
+    },
+    {
+      "registration": "50010549",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010549/the-gresham-hotel-20-22-oconnell-street-upper-dublin-dublin",
+      "page_verified": true,
+      "display_address": "20–22 O'Connell Street Upper, Dublin 1, Ireland",
+      "notes": null
+    },
+    {
+      "registration": "50010550",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010550/the-gresham-hotel-23-oconnell-street-upper-cathal-brugha-street-dublin-1-dublin",
+      "page_verified": true,
+      "display_address": "23 O'Connell Street Upper, Cathal Brugha Street, Dublin 1, Ireland",
+      "notes": null
+    },
+    {
+      "registration": "50010551",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010551/45-oconnell-street-upper-dublin-dublin",
+      "page_verified": true,
+      "display_name": "45 O'Connell Street Upper",
+      "notes": null
+    },
+    {
+      "registration": "50010552",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010552/oconnell-street-upper-garda-station-44-oconnell-street-upper-dublin-dublin-city",
+      "page_verified": true,
+      "display_name": "Adam Scott and Company",
+      "notes": null
+    },
+    {
+      "registration": "50010554",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010554/catholic-commercial-club-oconnell-street-upper-dublin-dublin-city",
+      "page_verified": true,
+      "display_name": "Catholic Commercial Club",
+      "notes": null
+    },
+    {
+      "registration": "50010557",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010557/charles-stewart-parnell-monument-dublin-city",
+      "page_verified": true,
+      "display_name": "Charles Stewart Parnell Monument",
+      "notes": null,
+      "known_distinct_neighbours": [
+        "50010558"
+      ],
+      "distinct_neighbour_reason": "50010557 is the freestanding Charles Stewart Parnell Monument on a round traffic island at the north end of O'Connell Street; 50010558 is a separate corner-sited neo-Classical bank building at 37–38 O'Connell Street Upper/Parnell Street. Their separate physical forms, locations and NIAH descriptions establish distinct structures despite the broad shared junction address."
+    },
+    {
+      "registration": "50010558",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010558/allied-irish-bank-37-38-oconnell-street-upper-parnell-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Allied Irish Bank",
+      "notes": null,
+      "known_distinct_neighbours": [
+        "50010557"
+      ],
+      "distinct_neighbour_reason": "50010557 is the freestanding Charles Stewart Parnell Monument on a round traffic island at the north end of O'Connell Street; 50010558 is a separate corner-sited neo-Classical bank building at 37–38 O'Connell Street Upper/Parnell Street. Their separate physical forms, locations and NIAH descriptions establish distinct structures despite the broad shared junction address."
+    },
+    {
+      "registration": "50010559",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010559/the-parnell-mooney-72-74-parnell-street-dublin-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010560",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010560/catholic-commercial-club-moore-lane-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Catholic Commercial Club",
+      "display_address": "Moore Lane, Dublin 1, Ireland",
+      "notes": null
+    },
+    {
+      "registration": "50010561",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010561/patrick-conway-70-parnell-street-dublin-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010562",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010562/71-parnell-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "71 Parnell Street",
+      "notes": null
+    },
+    {
+      "registration": "50010563",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010563/new-star-sichuan-style-chinese-restaurant-123-capel-street-dublin-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010564",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010564/centra-king-7-bar-restaurant-121-122-capel-street-dublin-co-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010565",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010565/dublin-pet-stores-hua-wei-computer-systems-117-118-capel-street-dublin-co-dublin",
+      "page_verified": true,
+      "display_name": "Dublin Pet Stores/Hua Wei Computer Systems",
+      "notes": null
+    },
+    {
+      "registration": "50010566",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010566/oman-antique-galleries-114-116-capel-street-dublin-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010567",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010567/hilan-chinese-korean-restaurant-palm-beauty-palace-45-capel-street-dublin-co-dublin",
+      "page_verified": true,
+      "display_name": "Hilan Chinese & Korean Restaurant/Palm Beauty Palace",
+      "notes": null
+    },
+    {
+      "registration": "50010568",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010568/is-organic-hair-beauty-salon-47-capel-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "IS Organic Hair & Beauty Salon",
+      "notes": null
+    },
+    {
+      "registration": "50010569",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010569/makati-avenue-capel-street-dublin-dublin-city",
+      "page_verified": true,
+      "display_name": "Makati Avenue",
+      "notes": null
+    },
+    {
+      "registration": "50010570",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010570/bonga-bbq-restaurant-bar-51-52-capel-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Bonga BBQ Restaurant & Bar",
+      "notes": null
+    },
+    {
+      "registration": "50010571",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010571/codys-of-capel-street-gallery-53-53-capel-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Codys of Capel Street/Gallery 53",
+      "notes": null
+    },
+    {
+      "registration": "50010572",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010572/dublin-furniture-centre-capel-street-dublin-dublin-city",
+      "page_verified": true,
+      "display_name": "Dublin Furniture Centre",
+      "notes": null
+    },
+    {
+      "registration": "50010573",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010573/national-leprechaun-museum-ben-dunne-gym-1-jervis-street-abbey-street-upper-dublin-co-dublin",
+      "page_verified": true,
+      "display_name": "National Leprechaun Museum/Ben Dunne Gym",
+      "notes": null
+    },
+    {
+      "registration": "50010574",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010574/a-j-furniture-design-56-capel-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "A.J. Furniture Design",
+      "notes": null
+    },
+    {
+      "registration": "50010575",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010575/sunny-sue-solarium-beauty-nails-capel-street-dublin-dublin-city",
+      "page_verified": true,
+      "display_name": "Sunny Sue Solarium",
+      "notes": null
+    },
+    {
+      "registration": "50010577",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010577",
+      "page_verified": false,
+      "notes": null
+    },
+    {
+      "registration": "50010578",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010578/locks-111-capel-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Locks",
+      "notes": null
+    },
+    {
+      "registration": "50010579",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010579",
+      "page_verified": false,
+      "display_name": "Capel Court Upholstery",
+      "notes": null
+    },
+    {
+      "registration": "50010580",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010580",
+      "page_verified": false,
+      "notes": null
+    },
+    {
+      "registration": "50010581",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010581/john-brereton-jewellers-108-capel-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "John Brereton Jewellers",
+      "notes": null
+    },
+    {
+      "registration": "50010582",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010582/john-brereton-jewellers-107-capel-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "John Brereton Jewellers",
+      "notes": null
+    },
+    {
+      "registration": "50010583",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010583/belle-cheminee-106-capel-street-dublin-co-dublin",
+      "page_verified": true,
+      "display_name": "Belle Cheminée",
+      "notes": null
+    },
+    {
+      "registration": "50010584",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010584/outhouse-capel-street-dublin-dublin-city",
+      "page_verified": true,
+      "display_name": "Outhouse",
+      "notes": null
+    },
+    {
+      "registration": "50010585",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010585/3-parnell-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "3 Parnell Street",
+      "notes": null
+    },
+    {
+      "registration": "50010586",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010586",
+      "page_verified": false,
+      "notes": null
+    },
+    {
+      "registration": "50010587",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010587/capel-street-dublin-dublin-city-3",
+      "page_verified": true,
+      "display_name": "101 Capel Street",
+      "notes": null
+    },
+    {
+      "registration": "50010588",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010588/the-factory-space-99-100-capel-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "The Factory Space",
+      "notes": null
+    },
+    {
+      "registration": "50010590",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010590/dublin-college-of-advanced-studies-98-capel-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Dublin College of Advanced Studies",
+      "notes": null
+    },
+    {
+      "registration": "50010591",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010591/97-capel-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "97 Capel Street",
+      "notes": null
+    },
+    {
+      "registration": "50010592",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010592",
+      "page_verified": false,
+      "notes": null
+    },
+    {
+      "registration": "50010593",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010593/divine-guidance-66-capel-street-ryders-row-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Divine Guidance",
+      "notes": null
+    },
+    {
+      "registration": "50010594",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010594/denis-darcy-tailor-capel-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Denis Darcy Tailor",
+      "notes": null
+    },
+    {
+      "registration": "50010595",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010595/johns-restaurant-64-capel-street-dublin-co-dublin",
+      "page_verified": true,
+      "display_name": "John's Restaurant",
+      "notes": null
+    },
+    {
+      "registration": "50010596",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010596",
+      "page_verified": false,
+      "notes": null
+    },
+    {
+      "registration": "50010597",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010597/brendan-dunne-78-79-capel-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Brendan Dunne",
+      "notes": null
+    },
+    {
+      "registration": "50010598",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010598/thai-chinese-massage-capel-street-dublin-dublin-city",
+      "page_verified": true,
+      "display_name": "Thai & Chinese Massage",
+      "notes": null
+    }
+  ]
+}

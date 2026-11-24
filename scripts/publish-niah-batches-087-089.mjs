@@ -28,7 +28,7 @@ const sourceById=new Map(sources.map(x=>[x.id,x]));
 const visualIds=new Set(visual.records.map(x=>clean(x.record_id)));
 const usedIds=new Set(objects.map(x=>clean(x.id)));
 const maxIds={};for(const x of objects){const m=clean(x.id).match(/^DUB-([A-Z]{3})-(\d+)$/);if(m)maxIds[m[1]]=Math.max(maxIds[m[1]]||0,Number(m[2]));}
-const prepared=[],conflicts=[],proximity=[];
+const prepared=[],conflicts=[],proximity=[],addressRelationships=[];
 for(const c of input.candidates){
  const hits=qmap.get(c.registration)||[];if(hits.length!==1)throw new Error("Expected one latest official queue row for "+c.registration+"; found "+hits.length);
  const r=hits[0],required=["REG_NO","ORIGINAL_TYPE","DESCRIPTION","DATEFROM","DATETO","RATING","ITM_E","ITM_N","LATITUDE","LONGITUDE","WEBSITE_LINK","COUNTY","LOCAL_AUTHORITY�"];
@@ -47,7 +47,7 @@ for(const c of input.candidates){
  const addressKey=normAddress(address),nameKey=norm(c.display_name);
  for(const [dn,list]of Object.entries(datasets))for(const rec of list){
   if(clean(rec.national_inventory_reference)===c.registration)conflicts.push({registration:c.registration,type:"registration_in_"+dn,record_id:rec.id||rec.record_id||null});
-  if(rec.address&&normAddress(rec.address)===addressKey&&!(c.known_distinct_neighbours||[]).includes(clean(rec.national_inventory_reference)))conflicts.push({registration:c.registration,type:"normalized_address_in_"+dn,record_id:rec.id||rec.record_id||null,matched_address:rec.address});
+  if(rec.address&&normAddress(rec.address)===addressKey){const known=(c.known_distinct_neighbours||[]).includes(clean(rec.national_inventory_reference));if(known)addressRelationships.push({registration:c.registration,related_registration:clean(rec.national_inventory_reference),related_archive_id:rec.id||rec.record_id||null,matched_address:rec.address,relationship:"documented separately registered campus/building component"});else conflicts.push({registration:c.registration,type:"normalized_address_in_"+dn,record_id:rec.id||rec.record_id||null,matched_address:rec.address});}
   if(rec.name&&norm(rec.name)===nameKey&&!(rec.address&&normAddress(rec.address)===addressKey))conflicts.push({registration:c.registration,type:"name_collision_review_"+dn,record_id:rec.id||rec.record_id||null,matched_name:rec.name});
  }
  const sid="NIAH-"+c.registration,existing=sourceById.get(sid);
@@ -56,8 +56,9 @@ for(const c of input.candidates){
  for(const old of objects){const la=Number(old.latitude),lo=Number(old.longitude);if(Number.isFinite(la)&&Number.isFinite(lo)){const d=distance(lat,lon,la,lo);if(d<=20)proximity.push({registration:c.registration,nearby_archive_id:old.id,nearby_name:old.name,distance_m:Math.round(d*10)/10,known_distinct_neighbour:(c.known_distinct_neighbours||[]).includes(clean(old.national_inventory_reference))});}}
  prepared.push({candidate:c,row:r,lat,lon,e,n,address,district:districtFor(r),description,appraisal,sourceId:sid});
 }
+for(let i=0;i<prepared.length;i++)for(let j=i+1;j<prepared.length;j++){const a=prepared[i],b=prepared[j];if(normAddress(a.address)===normAddress(b.address)){const ab=(a.candidate.known_distinct_neighbours||[]).includes(b.candidate.registration),ba=(b.candidate.known_distinct_neighbours||[]).includes(a.candidate.registration);if(ab&&ba)addressRelationships.push({registration:a.candidate.registration,related_registration:b.candidate.registration,related_archive_id:null,matched_address:a.address,relationship:"two separately registered structures within the National Model Schools campus"});else conflicts.push({registration:a.candidate.registration,type:"same_batch_normalized_address",related_registration:b.candidate.registration,matched_address:a.address});}}
 const blocking=conflicts.filter(x=>!x.type.startsWith("name_collision_review_"));
-if(blocking.length){await write(PRECHECK,{generated_at:new Date().toISOString(),decision:"HOLD",blocking_conflicts:blocking,name_collisions:conflicts.filter(x=>x.type.startsWith("name_collision_review_")),coordinate_proximity:proximity,held:input.held});throw new Error("Blocking duplicate/provenance conflicts: "+JSON.stringify(blocking));}
+if(blocking.length){await write(PRECHECK,{generated_at:new Date().toISOString(),decision:"HOLD",blocking_conflicts:blocking,name_collisions:conflicts.filter(x=>x.type.startsWith("name_collision_review_")),coordinate_proximity:proximity,address_relationships:addressRelationships,held:input.held});throw new Error("Blocking duplicate/provenance conflicts: "+JSON.stringify(blocking));}
 for(const p of prepared){if(conflicts.some(x=>x.registration===p.candidate.registration&&x.type.startsWith("name_collision_review_")))p.candidate.display_name+=" — "+p.address;}
 const newObjects=[],newSources=[],newVisuals=[],results=[];
 for(const p of prepared){
@@ -93,11 +94,11 @@ const oldDistricts=new Map((coverage.postal_districts||[]).map(x=>[x.name,x]));
 coverage.postal_districts=[...districtCounts.entries()].sort(([a],[b])=>a.localeCompare(b)).map(([name,count])=>oldDistricts.has(name)?{...oldDistricts.get(name),record_count:count}:{name,record_count:count,status:"RESEARCH_IN_PROGRESS",coverage_note:"NIAH settlement or townland work-zone label; not proof of postal district or local-authority boundary. Count reconciled from data/objects.json."});
 coverage.catalogue_total=finalObjects.length;coverage.audited_on=DATE;coverage.totals=coverage.totals||{};coverage.totals.postal_districts_with_records=coverage.postal_districts.length;coverage.methodology=coverage.methodology||[];
 coverage.methodology.push("Publication of 14 individually consulted NIAH core records from research Batches 087–089. National CSV WGS84 coordinates are retained as SOURCE_DERIVED, not founder GPS; no NIAH-linked photographs are reused.");
-const report={title:"CICAN Dublin — NIAH core publication, research Batches 087–089",generated_at:new Date().toISOString(),decision:"CORE_PUBLICATION_READY",published_candidate_count:results.length,held:input.held,registrations:results,coordinate_proximity_review:proximity,
+const report={title:"CICAN Dublin — NIAH core publication, research Batches 087–089",generated_at:new Date().toISOString(),decision:"CORE_PUBLICATION_READY",published_candidate_count:results.length,held:input.held,registrations:results,coordinate_proximity_review:proximity,address_relationships:addressRelationships,
  duplicate_screen:{datasets_checked:Object.keys(datasets),master_records_checked:objects.length,public_niah_records_checked:pub.length,source_records_checked:sources.length,visual_records_checked:visual.records.length,blocking_conflicts:[],name_collisions:conflicts.filter(x=>x.type.startsWith("name_collision_review_"))},
  post_import_counts:{master_objects:finalObjects.length,public_niah_records:finalPublic.length,source_records:finalSources.length,visual_records:finalVisuals.length},
  safeguards:["No archive record or map point was created for held registration 50010240.","Official CSV NAME blanks are preserved in research notes; page titles are kept separate.","Official CSV WGS84 coordinates are SOURCE_DERIVED with unspecified positional accuracy; they are not founder GPS.","No NIAH photographs are reused; all 14 visual records await founder photography and A4 line art.","No candidate is marked FIELD_VERIFIED."]};
-await write(PRECHECK,{generated_at:report.generated_at,decision:"PASS",candidate_count:results.length,registrations:results,coordinate_proximity_review:proximity,duplicate_screen:report.duplicate_screen,held:input.held});
+await write(PRECHECK,{generated_at:report.generated_at,decision:"PASS",candidate_count:results.length,registrations:results,coordinate_proximity_review:proximity,address_relationships:addressRelationships,duplicate_screen:report.duplicate_screen,held:input.held});
 if(check){console.log(JSON.stringify({decision:"PASS",candidate_count:results.length,master_records_checked:objects.length,public_records_checked:pub.length,source_records_checked:sources.length,visual_records_checked:visual.records.length,nearby_records:proximity.length,held:input.held},null,2));process.exit(0);}
 await write("data/objects.json",finalObjects);await write("data/niah-registered-objects.json",finalPublic);await write("data/sources.json",finalSources);
 visual.records=finalVisuals;visual.record_count=finalVisuals.length;visual.last_updated=DATE;

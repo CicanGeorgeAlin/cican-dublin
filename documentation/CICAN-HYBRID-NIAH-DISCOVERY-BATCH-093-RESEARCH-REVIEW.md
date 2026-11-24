@@ -54,3 +54,18 @@ This batch is research-only. No permanent archive IDs, master objects, public NI
 - [50010263 — 93 Marlborough Street](https://www.buildingsofireland.ie/buildings-search/building/50010263/the-compassion-centre-marlborough-street-dublin-1-co-dublin)
 - [50010264 — Dublin United Transport Company](https://www.buildingsofireland.ie/buildings-search/building/50010264/dublin-united-transport-company-marlborough-street-dublin-1-dublin)
 - [50010265 — Ladbrokes](https://www.buildingsofireland.ie/buildings-search/building/50010265/ladbrokes-sackville-place-dublin-dublin-city)
+
+
+## Manual proximity and identity review
+
+The automated reconciliation found two existing-object proximity hits and one candidate-to-candidate proximity pair. All three have been manually checked against the official NIAH pages:
+
+| Candidate | Nearby record | Distance | Official distinction | Manual outcome |
+|---|---|---:|---|---|
+| 50010262 — 92 Marlborough Street | DUB-BLD-0006 — 23 Marlborough Street / NIAH 50010218 | 22.9 m | 92 Marlborough is a separately registered c.1750 two-bay house; 23 Marlborough is a different late eighteenth-century house with a separate address and registration | Known distinct neighbour |
+| 50010263 — 93 Marlborough Street | DUB-BLD-0006 — 23 Marlborough Street / NIAH 50010218 | 25.4 m | 93 Marlborough is a separately registered c.1750 two-bay house; 23 Marlborough is a different late eighteenth-century house with a separate address and registration | Known distinct neighbour |
+| 50010262 — 92 Marlborough Street | 50010263 — 93 Marlborough Street | 6.5 m | Consecutive street numbers and separate official NIAH registrations; both pages describe one of a pair of c.1750 houses | Known distinct adjacent buildings |
+
+Official comparison source for the existing archive object: [NIAH 50010218 — 23 Marlborough Street](https://www.buildingsofireland.ie/buildings-search/building/50010218/ladbrokes-marlborough-street-dublin-1-co-dublin).
+
+The two candidates 92 and 93 Marlborough Street are a separately registered adjacent pair. Their close coordinates are expected and do not indicate duplicate identity. Manual review outcome: zero unresolved proximity hits.

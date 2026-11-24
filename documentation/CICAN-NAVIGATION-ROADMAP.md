@@ -27,6 +27,12 @@ The first prototype calls the public FOSSGIS Valhalla demonstration server at `h
 
 The current map style and map tiles are also externally hosted. The website is not yet fully self-hosted or offline independent.
 
+## Site-wide integration completed
+
+The navigation entry points across the website now lead into the CICAN map using the selected archive ID: the main archive catalogue, archive record detail, My Dublin fieldwork queue and generated permanent SEO place pages. The map reads the `destination` query parameter and opens the matching archive record before the visitor requests a route. No Google Maps directions handoff is used by these website walking actions.
+
+The root and preview service-worker cache identifiers were incremented to invalidate stale app JavaScript. Regression tests regenerate all SEO pages and scan every generated permanent place page for Google Maps directions links. A live Valhalla pedestrian-route smoke test checks that the service returns route geometry, distance, duration and manoeuvres.
+
 ## Stage 2 — Navigation reliability
 
 - Add route progress and remaining-distance calculation from fresh GPS fixes.

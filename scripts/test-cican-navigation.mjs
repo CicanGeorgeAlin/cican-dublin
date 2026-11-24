@@ -113,3 +113,7 @@ test("walking navigation returns to the full map and uses a compact independent 
   assert.ok(css.includes("position:absolute;z-index:680"));
   assert.ok(css.includes("max-height:min(42dvh,390px)"));
 });
+
+test("live GPS does not pull the map away from the complete walking route", () => {
+  assert.ok(app.includes("!state.navigationRoute)state.map.setCenter(point)"));
+});

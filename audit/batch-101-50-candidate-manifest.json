@@ -1,0 +1,308 @@
+{
+  "batch": "101",
+  "title": "NIAH Dublin City — 50-record normal batch, Gardiner Street Upper to Mountjoy Square North",
+  "reviewed_on": "2026-11-24",
+  "target_count": 50,
+  "source_queue": "audit/niah-dublin-missing-registrations.json",
+  "selection_method": "First 50 Dublin City Council / County Dublin rows after Batch 100's final selected registration 50010757 in the refreshed four-authority missing-registration queue. Exact queue membership is validated in CI; numeric continuity alone is not used.",
+  "candidates": [
+    {
+      "registration": "50010758",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010758/46-gardiner-street-upper-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "46 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010759",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010759/gardiner-street-upper-dublin-dublin-city",
+      "page_verified": true,
+      "display_name": "45 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010763",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010763/dublin-city",
+      "page_verified": true,
+      "display_name": "34 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010764",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010764",
+      "page_verified": false
+    },
+    {
+      "registration": "50010765",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010765/36-gardiner-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "36 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010766",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010766/37-gardiner-street-upper-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "37 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010767",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010767/38-gardiner-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "38 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010768",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010768/gardiner-street-upper-dublin-dublin-city",
+      "page_verified": true,
+      "display_name": "39 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010769",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010769",
+      "page_verified": false
+    },
+    {
+      "registration": "50010770",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010770/41-gardiner-street-upper-dorset-street-lower-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "41 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010771",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010771/24-belvedere-place-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "24 Belvedere Place"
+    },
+    {
+      "registration": "50010772",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010772/25-belvedere-place-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "25 Belvedere Place"
+    },
+    {
+      "registration": "50010773",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010773/26-belvedere-place-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "26 Belvedere Place"
+    },
+    {
+      "registration": "50010774",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010774/27-belvedere-place-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "27 Belvedere Place"
+    },
+    {
+      "registration": "50010775",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010775/rawlton-house-sherrard-street-lower-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "Rawlton House"
+    },
+    {
+      "registration": "50010776",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010776",
+      "page_verified": false,
+      "display_name": "Eirden House"
+    },
+    {
+      "registration": "50010777",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010777/21-belvedere-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "21 Belvedere Place"
+    },
+    {
+      "registration": "50010778",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010778/20-belvedere-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "20 Belvedere Place"
+    },
+    {
+      "registration": "50010779",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010779/19-belvedere-place-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "19 Belvedere Place"
+    },
+    {
+      "registration": "50010780",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010780/18-belvedere-place-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "18 Belvedere Place"
+    },
+    {
+      "registration": "50010781",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010781/17-belvedere-place-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "17 Belvedere Place"
+    },
+    {
+      "registration": "50010782",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010782/16-belvidere-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "16 Belvedere Place"
+    },
+    {
+      "registration": "50010783",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010783/15-belvedere-place-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "15 Belvedere Place"
+    },
+    {
+      "registration": "50010784",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010784/14-belvedere-place-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "14 Belvedere Place"
+    },
+    {
+      "registration": "50010785",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010785/13-belvedere-place-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "13 Belvedere Place"
+    },
+    {
+      "registration": "50010786",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010786/12-belvedere-place-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "12 Belvedere Place"
+    },
+    {
+      "registration": "50010787",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010787/11-belvedere-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "11 Belvedere Place"
+    },
+    {
+      "registration": "50010788",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010788/10-belvedere-place-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "10 Belvedere Place"
+    },
+    {
+      "registration": "50010789",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010789/9-belvedere-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "9 Belvedere Place"
+    },
+    {
+      "registration": "50010790",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010790/8-belvedere-place-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "8 Belvedere Place"
+    },
+    {
+      "registration": "50010791",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010791/7-belvidere-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "7 Belvedere Place"
+    },
+    {
+      "registration": "50010792",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010792/6-belvedere-place-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "6 Belvedere Place"
+    },
+    {
+      "registration": "50010793",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010793/5-belvedere-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "5 Belvedere Place"
+    },
+    {
+      "registration": "50010794",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010794/belvedere-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "4 Belvedere Place"
+    },
+    {
+      "registration": "50010795",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010795/kincora-house-3-belvedere-place-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "Kincora House"
+    },
+    {
+      "registration": "50010796",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010796/2-belvedere-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "2 Belvedere Place"
+    },
+    {
+      "registration": "50010797",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010797/1-belvedere-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "1 Belvedere Place"
+    },
+    {
+      "registration": "50010798",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010798/17-mountjoy-square-east-dublin-dublin",
+      "page_verified": true,
+      "display_name": "17 Mountjoy Square East"
+    },
+    {
+      "registration": "50010799",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010799/18-mountjoy-square-east-fitzgibbon-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "18 Mountjoy Square East"
+    },
+    {
+      "registration": "50010800",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010800/saint-monicas-nursing-home-35-38-belvedere-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Saint Monica's Nursing Home"
+    },
+    {
+      "registration": "50010801",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010801/39-belvedere-place-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "39 Belvedere Place"
+    },
+    {
+      "registration": "50010802",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010802/gray-murray-chartered-accountants-belvidere-place-dublin-dublin-city",
+      "page_verified": true,
+      "display_name": "40 Belvedere Place"
+    },
+    {
+      "registration": "50010803",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010803/41-belvedere-place-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "41 Belvedere Place"
+    },
+    {
+      "registration": "50010804",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010804/42-belvedere-place-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "42 Belvedere Place"
+    },
+    {
+      "registration": "50010805",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010805/43-belvedere-place-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "43 Belvedere Place"
+    },
+    {
+      "registration": "50010806",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010806/44-belvedere-place-mountjoy-square-north-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "44 Belvedere Place"
+    },
+    {
+      "registration": "50010807",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010807/16-mountjoy-square-north-dublin-dublin",
+      "page_verified": true,
+      "display_name": "16 Mountjoy Square North"
+    },
+    {
+      "registration": "50010808",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010808/15-mountjoy-square-north-dublin-dublin",
+      "page_verified": true,
+      "display_name": "15 Mountjoy Square North"
+    },
+    {
+      "registration": "50010809",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010809/14-mountjoy-square-north-dublin-dublin",
+      "page_verified": true,
+      "display_name": "14 Mountjoy Square North"
+    },
+    {
+      "registration": "50010810",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010810/13-mountjoy-square-north-dublin-dublin",
+      "page_verified": true,
+      "display_name": "13 Mountjoy Square North"
+    }
+  ]
+}

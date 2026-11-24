@@ -18,7 +18,8 @@ The map's location control supports continuous phone-position updates using the 
 - The user must enable device Location and grant the browser location permission.
 - `enableHighAccuracy: true` asks the browser/device for its best available fix. The browser may combine GNSS/GPS, Wi-Fi, cellular and other device signals. The web app cannot force a particular chipset or guarantee that A-GPS is available.
 - Position accuracy is reported by the device and is not a guarantee of survey-grade accuracy. Urban canyons, indoor use, multipath and poor satellite visibility can reduce accuracy.
-- The map follows each received fix; update frequency and precision are controlled by the operating system, browser and device.
+- The browser is asked for fresh fixes (`maximumAge: 0`) with high accuracy. The phone and browser still control the actual fix frequency; a web page cannot force the GNSS chipset to report at a fixed rate.
+- Between fixes, the map animates the marker continuously using the latest reported speed and heading, or a conservative estimate derived from consecutive fixes when the browser omits those values. This short dead-reckoning step is capped at 3.5 seconds and is a visual estimate, not a new GPS measurement. The coordinate readout always shows the latest actual device fix.
 - No location history is uploaded or stored by this feature. Position updates are held in page memory while tracking and are used to position the map marker and nearby-discovery origin.
 - This feature does not change archive object coordinates or mark any heritage record as field-verified. A founder must deliberately record and verify a separate field observation before archive data is changed.
 

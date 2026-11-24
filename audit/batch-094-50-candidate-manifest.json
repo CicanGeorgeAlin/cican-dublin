@@ -1,0 +1,310 @@
+{
+  "batch": "094",
+  "title": "NIAH Dublin City — 50-record normal batch, Middle Abbey Street to Capel Street",
+  "reviewed_on": "2026-11-24",
+  "target_count": 50,
+  "source_queue": "audit/niah-dublin-missing-registrations.json",
+  "selection_method": "First 50 Dublin City Council / County Dublin rows after Batch 093's final selected registration 50010383 in the refreshed official four-authority missing-registration queue. CI validates exact queue membership; numeric continuity alone is not used.",
+  "candidates": [
+    {
+      "registration": "50010384",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010384/irish-traditional-music-65-middle-abbey-street-dublin-1-co-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010385",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010385",
+      "page_verified": false,
+      "notes": null
+    },
+    {
+      "registration": "50010386",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010386/cruise-holidays-63-middle-abbey-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010387",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010387/tour-america-62-middle-abbey-street-dublin-1-co-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010388",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010388/j-j-lalor-ltd-printers-a-one-alterations-61-middle-abbey-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010389",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010389",
+      "page_verified": false,
+      "notes": null
+    },
+    {
+      "registration": "50010390",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010390/full-house-59-middle-abbey-street-dublin-co-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010391",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010391/a-d-wears-american-design-58-middle-abbey-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010392",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010392/ana-liffey-drug-project-dublin-city",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010394",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010394/middle-abbey-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010395",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010395/47-middle-abbey-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010396",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010396/base-camp-108-109-middle-abbey-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010397",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010397/the-adelphi-102-middle-abbey-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010398",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010398/city-news-curtin-lawlor-ltd-97-middle-abbey-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010399",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010399/abbey-chambers-arnotts-bargain-basement-middle-abbey-street-williams-lane-dublin-1-dublin-city",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010400",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010400/independent-house-middle-abbey-street-dublin-1-dublin-city",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010401",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010401/independent-house-87-90-middle-abbey-street-princes-street-north-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010402",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010402/cafe-aroma-84-middle-abbey-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010403",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010403/govinda-83-middle-abbey-street-dublin-1-co-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010404",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010404/eason-79-82-middle-abbey-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010405",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010405/the-oval-78-middle-abbey-street-dublin-1-co-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010406",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010406/manfield-chambers-abbey-street-middle-oconnell-street-lower-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010407",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010407/the-bagel-bar-peekaboo-dress-for-success-41-middle-abbey-street-liffey-street-lower-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010408",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010408/94-marlborough-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010409",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010409/today-fm-123-124-upper-abbey-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010410",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010410/today-fm-125-upper-abbey-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010411",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010411",
+      "page_verified": false,
+      "notes": "National CSV NUMBER is date-like/malformed (09-Oct); preserve it verbatim."
+    },
+    {
+      "registration": "50010412",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010412/wolfes-irish-artisan-bistro-153-capel-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010413",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010413/95-marlborough-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010414",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010414/sounds-around-9-capel-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010415",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010415/fusciardis-restaurant-takeaway-capel-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010416",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010416/capel-street-clothing-11-capel-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010417",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010417/ristorante-romano-capel-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010418",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010418/the-model-shop-13-capel-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010419",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010419/the-rubber-stamp-company-14-capel-street-dublin-dublin-city",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010420",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010420/irish-italian-food-restaurant-15-capel-street-dublin-1-co-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010421",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010421/wisteria-16-capel-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010422",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010422/excel-17-capel-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010423",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010423/j-nails-american-style-18-capel-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010424",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010424/brendan-kidd-ltd-master-tailor-19-capel-street-dublin-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010425",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010425/ephesus-kebab-pizza-house-20-capel-street-abbey-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010426",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010426/enable-ireland-25-capel-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010427",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010427",
+      "page_verified": false,
+      "notes": null
+    },
+    {
+      "registration": "50010428",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010428/syrena-dobro-polski-fryzjer-28-capel-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010429",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010429/mitchells-car-accessories-29-capel-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010430",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010430/dublin-city",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010431",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010431/metro-tools-hardware-32-capel-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010432",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010432/mcquillan-tools-34-36-capel-street-dublin-1-co-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010433",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010433/37-capel-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010434",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010434/moldova-capel-street-dublin-1-dublin-city",
+      "page_verified": true,
+      "notes": null
+    }
+  ]
+}

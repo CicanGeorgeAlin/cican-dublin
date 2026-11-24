@@ -22,6 +22,7 @@ if(input.candidates.length!==14||new Set(input.candidates.map(x=>x.registration)
 if(!sources.some(s=>s.id==="SRC-NIAH-NATIONAL-DATASET"))throw new Error("Official NIAH dataset provenance source missing.");
 const datasets={master_objects:objects,public_niah_register:pub,source_registry:sources,visual_inventory:visual.records};
 const qmap=new Map();for(const r of queue){const k=clean(r.REG_NO);if(!qmap.has(k))qmap.set(k,[]);qmap.get(k).push(r);}
+const objectById=new Map(objects.map(x=>[clean(x.id),x]));
 const masterRefs=new Set(objects.map(x=>clean(x.national_inventory_reference)));
 const publicRefs=new Set(pub.map(x=>clean(x.national_inventory_reference)));
 const sourceById=new Map(sources.map(x=>[x.id,x]));
@@ -47,7 +48,7 @@ for(const c of input.candidates){
  const addressKey=normAddress(address),nameKey=norm(c.display_name);
  for(const [dn,list]of Object.entries(datasets))for(const rec of list){
   if(clean(rec.national_inventory_reference)===c.registration)conflicts.push({registration:c.registration,type:"registration_in_"+dn,record_id:rec.id||rec.record_id||null});
-  if(rec.address&&normAddress(rec.address)===addressKey){const known=(c.known_distinct_neighbours||[]).includes(clean(rec.national_inventory_reference));if(known)addressRelationships.push({registration:c.registration,related_registration:clean(rec.national_inventory_reference),related_archive_id:rec.id||rec.record_id||null,matched_address:rec.address,relationship:"documented separately registered campus/building component"});else conflicts.push({registration:c.registration,type:"normalized_address_in_"+dn,record_id:rec.id||rec.record_id||null,matched_address:rec.address});}
+  if(rec.address&&normAddress(rec.address)===addressKey){const relatedReg=clean(rec.national_inventory_reference)||clean(objectById.get(clean(rec.record_id||rec.id))?.national_inventory_reference);const known=(c.known_distinct_neighbours||[]).includes(relatedReg);if(known)addressRelationships.push({registration:c.registration,related_registration:relatedReg,related_archive_id:rec.id||rec.record_id||null,matched_address:rec.address,relationship:"documented separately registered campus/building component"});else conflicts.push({registration:c.registration,type:"normalized_address_in_"+dn,record_id:rec.id||rec.record_id||null,matched_address:rec.address});}
   if(rec.name&&norm(rec.name)===nameKey&&!(rec.address&&normAddress(rec.address)===addressKey))conflicts.push({registration:c.registration,type:"name_collision_review_"+dn,record_id:rec.id||rec.record_id||null,matched_name:rec.name});
  }
  const sid="NIAH-"+c.registration,existing=sourceById.get(sid);

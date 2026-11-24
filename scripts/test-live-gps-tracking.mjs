@@ -110,16 +110,16 @@ test("live GPS starts high-accuracy watch, updates marker/readout, and stops cle
   h.callbacks.success(fix);
   assert.equal([...h.calls.markerPositions[0]].join(","), "-6.123456,53.123456");
   h.advanceFrame(1034);
-  assert.ok(h.calls.mapMoves.length > 0, "the map should follow the animation frame");
-  assert.ok(h.calls.mapMoves[0][0] > -6.123456, "the marker should move east between GPS fixes");
+  assert.ok(h.calls.mapMoves.length > 0, "the map should centre on the accepted GPS position");
+  assert.equal(h.calls.mapMoves[0][0], -6.123456, "the map must not extrapolate a noisy GPS position between fixes");
   assert.equal(h.coords.coordinates, "53.123456, -6.123456");
   assert.match(h.coords.accuracy, /±8 m/);
   assert.equal(h.panel.hidden, false);
   assert.match(h.status.textContent, /LIVE GPS/);
 
   h.callbacks.success({ ...fix, timestamp: fix.timestamp + 1000, coords: { ...fix.coords, latitude: 53.123636, longitude: -6.123456, speed: 2, heading: 0 } });
-  assert.equal(h.calls.markerPositions.length, 3, "a new GPS fix and the animation frame should both reposition the marker");
-  assert.ok(h.pendingFrames() > 0, "the marker animation should keep running between fixes");
+  assert.equal(h.calls.markerPositions.length, 2, "the marker should update only from the filtered GPS fix, not dead-reckoning animation");
+  assert.equal(h.pendingFrames(), 0, "no speculative marker animation should run between GPS fixes");
 
   h.context.toggleLiveLocationTracking();
   assert.equal(h.state.locationTracking, false);

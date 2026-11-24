@@ -179,10 +179,10 @@
     },
     {
       "registration": "50010571",
-      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010571/codys-of-capel-street-gallery-53-53-capel-street-dublin-dublin",
-      "page_verified": true,
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010571",
+      "page_verified": false,
       "display_name": "Codys of Capel Street/Gallery 53",
-      "notes": null
+      "notes": "Canonical individual NIAH page not independently located; hold from publication."
     },
     {
       "registration": "50010572",
@@ -227,9 +227,9 @@
     },
     {
       "registration": "50010579",
-      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010579",
-      "page_verified": false,
-      "display_name": "Capel Court Upholstery",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010579/capel-court-upholstery-fabric-foam-supplies-110-capel-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Capel Court Upholstery Fabric & Foam Supplies",
       "notes": null
     },
     {

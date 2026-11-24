@@ -95,8 +95,8 @@ test("live GPS starts high-accuracy watch, updates marker/readout, and stops cle
     timestamp: 1795500000000
   };
   h.callbacks.success(fix);
-  assert.deepEqual(h.calls.markerPositions[0], [-6.123456, 53.123456]);
-  assert.deepEqual(h.calls.mapMoves[0].center, [-6.123456, 53.123456]);
+  assert.equal([...h.calls.markerPositions[0]].join(","), "-6.123456,53.123456");
+  assert.equal([...h.calls.mapMoves[0].center].join(","), "-6.123456,53.123456");
   assert.equal(h.coords.coordinates, "53.123456, -6.123456");
   assert.match(h.coords.accuracy, /±8 m/);
   assert.equal(h.panel.hidden, false);

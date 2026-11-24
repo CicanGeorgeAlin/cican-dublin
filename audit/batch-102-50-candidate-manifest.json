@@ -1,0 +1,312 @@
+{
+  "batch": "102",
+  "title": "NIAH Dublin City — 50-record normal batch, Mountjoy Square North to Gardiner Place",
+  "reviewed_on": "2026-11-24",
+  "target_count": 50,
+  "source_queue": "audit/niah-dublin-missing-registrations.json",
+  "selection_method": "First 50 Dublin City Council / County Dublin rows after Batch 101's final selected registration 50010810 in the refreshed four-authority missing-registration queue. Exact queue membership is validated in CI; numeric continuity alone is not used.",
+  "candidates": [
+    {
+      "registration": "50010811",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010811/mountjoy-square-north-dublin-dublin-city-5",
+      "page_verified": true,
+      "display_name": "12 Mountjoy Square North"
+    },
+    {
+      "registration": "50010812",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010812/11-mountjoy-square-north-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "11 Mountjoy Square North"
+    },
+    {
+      "registration": "50010813",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010813/10-mountjoy-square-north-dublin-dublin",
+      "page_verified": true,
+      "display_name": "10 Mountjoy Square North"
+    },
+    {
+      "registration": "50010814",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010814/9-mountjoy-square-north-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "9 Mountjoy Square North"
+    },
+    {
+      "registration": "50010815",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010815/8-mountjoy-square-north-dublin-co-dublin",
+      "page_verified": true,
+      "display_name": "8 Mountjoy Square North"
+    },
+    {
+      "registration": "50010816",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010816/mountjoy-school-mountjoy-square-north-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Mountjoy School"
+    },
+    {
+      "registration": "50010817",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010817/mountjoy-school-6-mountjoy-square-north-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Mountjoy School"
+    },
+    {
+      "registration": "50010818",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010818/5-mountjoy-square-north-co-dublin",
+      "page_verified": true,
+      "display_name": "5 Mountjoy Square North"
+    },
+    {
+      "registration": "50010821",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010821",
+      "page_verified": false,
+      "display_name": "2 Mountjoy Square North"
+    },
+    {
+      "registration": "50010822",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010822/1-mountjoy-square-north-gardiner-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "1 Mountjoy Square North"
+    },
+    {
+      "registration": "50010823",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010823/convent-of-the-sisters-of-charity-gardiner-street-upper-belvedere-court-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Convent of the Sisters of Charity"
+    },
+    {
+      "registration": "50010824",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010824/catholic-church-of-saint-francis-xavier-gardiner-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Catholic Church of Saint Francis Xavier"
+    },
+    {
+      "registration": "50010825",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010825/gardiner-street-upper-dublin-dublin-city",
+      "page_verified": true,
+      "display_name": "27 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010826",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010826/26-gardiner-street-upper-dublin-dublin",
+      "page_verified": true,
+      "display_name": "26 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010827",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010827/gardiner-street-upper-dublin-dublin-city",
+      "page_verified": true,
+      "display_name": "25 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010828",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010828/gardiner-street-upper-dublin-dublin-city",
+      "page_verified": true,
+      "display_name": "24 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010829",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010829/23-gardiner-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "23 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010830",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010830/mcelroy-budget-accommodation-gardiner-street-upper-dublin-dublin",
+      "page_verified": true,
+      "display_name": "22 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010831",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010831/marian-guest-house-21-gardiner-street-upper-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Marian Guest House"
+    },
+    {
+      "registration": "50010832",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010832/20-gardiner-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "20 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010833",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010833/19-gardiner-street-upper-dublin-dublin",
+      "page_verified": true,
+      "display_name": "19 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010834",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010834/gardiner-street-upper-dublin-dublin-city",
+      "page_verified": true,
+      "display_name": "18 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010835",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010835/gable-house-17-gardiner-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Gable House"
+    },
+    {
+      "registration": "50010836",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010836/carmel-house-16-gardiner-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Carmel House"
+    },
+    {
+      "registration": "50010837",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010837/15-gardiner-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "15 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010838",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010838/14-gardiner-street-upper-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "14 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010839",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010839/13-gardiner-street-upper-dublin-dublin-city",
+      "page_verified": true,
+      "display_name": "13 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010840",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010840/12-gardiner-street-upper-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "12 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010841",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010841/11-gardiner-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "11 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010842",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010842/10-gardiner-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "10 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010843",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010843/9-gardiner-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "9 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010844",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010844/8-gardiner-street-upper-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "8 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010845",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010845/7-gardiner-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "7 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010846",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010846/6-gardiner-street-upper-dublin-dublin",
+      "page_verified": true,
+      "display_name": "6 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010847",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010847/5-gardiner-street-upper-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "5 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010848",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010848/4-gardiner-street-upper-dublin-dublin",
+      "page_verified": true,
+      "display_name": "4 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010849",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010849/3-gardiner-street-upper-dublin-dublin",
+      "page_verified": true,
+      "display_name": "3 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010850",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010850",
+      "page_verified": false,
+      "display_name": "2 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010851",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010851/1-gardiner-street-upper-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "1 Gardiner Street Upper"
+    },
+    {
+      "registration": "50010852",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010852/68-mountjoy-square-west-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "68 Mountjoy Square West"
+    },
+    {
+      "registration": "50010853",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010853/21-gardiner-place-mountjoy-square-west-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "21 Gardiner Place"
+    },
+    {
+      "registration": "50010854",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010854/20-gardiner-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "20 Gardiner Place"
+    },
+    {
+      "registration": "50010855",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010855",
+      "page_verified": false,
+      "display_name": "19 Gardiner Place",
+      "notes": "The official NIAH North City guide index lists 19 Gardiner Place, registration 50010855; canonical individual page not independently verified, so hold.",
+      "supplementary_source": "https://www.buildingsofireland.ie/app/uploads/2019/10/Dublin-North-City.pdf"
+    },
+    {
+      "registration": "50010856",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010856/richard-trehy-co-chartered-accountants-18-gardiner-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "18 Gardiner Place"
+    },
+    {
+      "registration": "50010857",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010857/17-gardiner-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "17 Gardiner Place"
+    },
+    {
+      "registration": "50010858",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010858/16-gardiner-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "16 Gardiner Place"
+    },
+    {
+      "registration": "50010859",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010859/15-gardiner-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "15 Gardiner Place"
+    },
+    {
+      "registration": "50010860",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010860",
+      "page_verified": false,
+      "display_name": "14 Gardiner Place"
+    },
+    {
+      "registration": "50010861",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010861/13-gardiner-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "13 Gardiner Place"
+    },
+    {
+      "registration": "50010862",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010862/12-gardiner-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "12 Gardiner Place"
+    }
+  ]
+}

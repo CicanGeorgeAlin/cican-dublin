@@ -101,3 +101,15 @@ test("live Valhalla pedestrian routing service returns usable Dublin route geome
   assert.ok(Number(data.trip.summary?.time) > 0, "Valhalla must return a positive route duration");
   assert.ok(Array.isArray(data.trip.legs[0].maneuvers), "Valhalla must return walking instructions");
 });
+
+
+test("walking navigation returns to the full map and uses a compact independent route sheet", () => {
+  assert.ok(html.includes('id="navigation-panel" hidden aria-label="CICAN walking navigation"'));
+  assert.ok(html.includes('id="hide-cican-navigation"'));
+  assert.ok(html.includes('id="clear-cican-route"'));
+  assert.ok(html.includes("VIEW ALL WALKING DIRECTIONS"));
+  assert.ok(app.includes('closeDetail(false);const navPanel=$("navigation-panel");if(navPanel)navPanel.hidden=false;'));
+  assert.ok(app.includes("initNavigationControls()"));
+  assert.ok(css.includes("position:absolute;z-index:680"));
+  assert.ok(css.includes("max-height:min(42dvh,390px)"));
+});

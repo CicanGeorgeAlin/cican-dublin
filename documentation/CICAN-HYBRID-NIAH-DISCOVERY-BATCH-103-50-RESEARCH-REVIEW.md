@@ -69,3 +69,19 @@ The full reconciliation returned **zero exact registration conflicts, zero exact
 The 125 candidate-to-candidate pairs within 30 metres were reviewed as close neighbouring buildings along the selected Gardiner Place, Frederick Street North, Hardwicke Street and Parnell Square North streetscapes, plus the Temple Street hospital site. Proximity is a review trigger, not evidence that two registrations describe the same object. The 16 hits against existing archive objects all relate to the existing 47 Hardwicke Street building and its entrance bootscraper; selected records at 48 Hardwicke Street and nearby Frederick Street North are neighbouring structures. The corner-sited 12C Frederick Street North / 48 Hardwicke Street relationship is retained as a connection/access relationship, not a merged identity.
 
 No archive objects, visual records, map pins or source records are added by this research batch.
+
+## Supplemental planning-document checks for the six page holds
+
+A further search found independent planning documentation for three of the six held registrations. These sources are useful corroboration but are **not canonical individual NIAH pages**, so the manifest deliberately keeps all three `page_verified: false`.
+
+- **50010903 — 8 Frederick Street North:** the Transport Infrastructure Ireland MetroLink Architectural Heritage report identifies this address and registration together (PDF lines 2824–2828). The separate NIAH listing extract filed in an An Bord Pleanála case also identifies No. 8 Frederick Street North at 50010903 (PDF lines 112–115). This supports the candidate address, but does not replace individual-page verification.
+- **50010908 — 3 Frederick Street North:** the NIAH listing extract filed with An Bord Pleanála identifies No. 3 Frederick Street North at 50010908 (PDF lines 125–127). The TII report independently groups 2–5 Frederick Street North and includes 50010908 (PDF lines 2803–2807). The candidate remains held pending its canonical NIAH page.
+- **50010893 — address conflict discovered:** the TII report associates 50010893 with **11 Frederick Street North** (PDF lines 2845–2849) and also with **1 Hardwicke Street** (PDF lines 3006–3009). These are different addresses. This is a material source conflict, not a harmless naming variation. The record remains held and must not be assigned to either address until the official individual NIAH record or another authoritative correction resolves it.
+
+No independently useful corroborating page was located in this search for **50010865, 50010867 or 50010869** (9, 7 and 5 Gardiner Place respectively). They remain held without an alternative address claim.
+
+Sources:
+- TII MetroLink Architectural Heritage report: https://www.pleanala.ie/publicaccess/EIAR-NIS/314724/5_EIAR/Volume%203%20Environmental%20Baseline%20and%20Assessment/Chapter%2026%20Architectural%20Heritage.pdf
+- NIAH listing extract filed with An Bord Pleanála: https://www.pleanala.ie/publicaccess/EIAR-NIS/302881/EIAR%20%26%20Screening/Volume%202/Appendix_5.3.1_NIAH%20Listing%20Extract.pdf?r=736119
+
+**Hold count remains six.** The evidence status is refined, not promoted to canonical-page verification. No candidate is published or silently corrected.

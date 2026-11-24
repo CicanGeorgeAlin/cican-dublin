@@ -1,0 +1,514 @@
+{
+  "batch": "092",
+  "title": "NIAH Dublin City — 50-record normal-size research batch",
+  "reviewed_on": "2026-11-24",
+  "target_count": 50,
+  "source_queue": "audit/niah-dublin-missing-registrations.json",
+  "selection_method": "First 50 Dublin City Council registrations after Batch 091's final selected registration 50010274 in the refreshed official four-authority missing-registration queue. Every registration must occur exactly once in that queue; numeric continuity alone is not sufficient.",
+  "candidates": [
+    {
+      "registration": "50010275",
+      "display_name": "Munster and Leinster Bank",
+      "display_address": "Abbey Street Lower, O'Connell Street Lower, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010275/grand-central-10-11-oconnell-street-lower-abbey-street-lower-dublin-1-dublin",
+      "page_verified": true,
+      "notes": "National CSV NAME is blank; page title supplies the display heading.",
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010276",
+      "display_name": "Wynns Hotel",
+      "display_address": "36-38 Lower Abbey Street, Harbour Court, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010276/wynns-hotel-36-38-lower-abbey-street-harbour-court-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010277",
+      "display_name": "Iarnród Éireann Travel Centre",
+      "display_address": "35 Lower Abbey Street, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010277/iarnrod-eireann-travel-centre-35-lower-abbey-street-dublin-1-co-dublin",
+      "page_verified": true,
+      "notes": "National CSV NAME contains replacement characters; official individual page title supplies the display spelling.",
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010278",
+      "display_name": "34 Lower Abbey Street",
+      "display_address": "34 Lower Abbey Street, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010278/34-lower-abbey-street-dublin-1-co-dublin",
+      "page_verified": true,
+      "notes": "National CSV NAME is blank; page title supplies the display heading.",
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010279",
+      "display_name": "Euro2",
+      "display_address": "32-33 Lower Abbey Street, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010279/euro2-32-33-lower-abbey-street-dublin-1-co-dublin",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010280",
+      "display_name": "Photocare",
+      "display_address": "31 Lower Abbey Street, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010280/photocare-lower-abbey-street-dublin-dublin-city",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010281",
+      "display_name": "Club Travel",
+      "display_address": "30 Lower Abbey Street, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010281/club-travel-lower-abbey-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010282",
+      "display_name": "Budget Travelshop",
+      "display_address": "29 Lower Abbey Street, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010282",
+      "page_verified": false,
+      "notes": "Only the legacy NIAH URL is available in the national CSV; canonical individual page not independently verified.",
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010283",
+      "display_name": "109 Marlborough Street",
+      "display_address": "109 Marlborough Street, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010283/the-plough-109-marlborough-street-dublin-1-co-dublin",
+      "page_verified": true,
+      "notes": "National CSV NAME is blank; official page title supplies the display heading.",
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010285",
+      "display_name": "111 Marlborough Street",
+      "display_address": "111 Marlborough Street, Harbour Court, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010285",
+      "page_verified": false,
+      "notes": "Official planning EIAR independently identifies NIAH 50010285 at 111 Marlborough Street, but the canonical individual NIAH page was not independently verified. Keep on HOLD.",
+      "supplementary_source": "https://www.pleanala.ie/publicaccess/Case%20Documentation/314724/Applicant%20Documents/Application%20Documents/5_EIAR/Volume%203%20Environmental%20Baseline%20and%20Assessment/Chapter%2026%20Architectural%20Heritage.pdf",
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010286",
+      "display_name": "Scots Presbyterian Hall",
+      "display_address": "Lower Abbey Street, Old Abbey Street, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010286/scots-presbyterian-hall-lower-abbey-street-old-abbey-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": "Distinct separately registered hall connected to Scots Presbyterian Church, registration 50010287.",
+      "supplementary_source": null,
+      "known_distinct_neighbours": [
+        "50010287"
+      ]
+    },
+    {
+      "registration": "50010287",
+      "display_name": "Scots Presbyterian Church",
+      "display_address": "Lower Abbey Street, Old Abbey Street, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010287/scots-presbyterian-church-lower-abbey-street-old-abbey-street-dublin-dublin-city",
+      "page_verified": true,
+      "notes": "Distinct separately registered church connected to Scots Presbyterian Hall, registration 50010286.",
+      "supplementary_source": null,
+      "known_distinct_neighbours": [
+        "50010286"
+      ]
+    },
+    {
+      "registration": "50010288",
+      "display_name": "Age Action",
+      "display_address": "12B Lower Abbey Street, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010288/age-action-12b-lower-abbey-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010289",
+      "display_name": "FBC",
+      "display_address": "12C Lower Abbey Street, Northumberland Square, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010289/fbc-12c-lower-abbey-street-northumberland-square-dublin-1-co-dublin",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010290",
+      "display_name": "The Salvation Army",
+      "display_address": "Lower Abbey Street, Northumberland Square, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010290/the-salvation-army-lower-abbey-street-northumberland-square-dublin-1-co-dublin",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010292",
+      "display_name": "The Irish Catholic",
+      "display_address": "55 Gardiner Street Lower, Frenchman's Lane, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010292/the-irish-catholic-55-gardiner-street-lower-frenchmans-lane-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010293",
+      "display_name": "Isaac's Hostel",
+      "display_address": "56 Gardiner Street Lower, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010293/isaacs-hostel-56-gardiner-street-lower-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010294",
+      "display_name": "Isaac's Hostel/Beauty Angel",
+      "display_address": "57 Gardiner Street Lower, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010294/isaacs-hostel-beauty-angel-57-gardiner-street-lower-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010295",
+      "display_name": "Paddy's Palace",
+      "display_address": "5 Beresford Place, Gardiner Street Lower, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010295/paddys-palace-beresford-place-gardiner-street-lower-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010296",
+      "display_name": "4 Beresford Place",
+      "display_address": "4 Beresford Place, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010296/beresford-place-dublin-1-dublin",
+      "page_verified": true,
+      "notes": "National CSV NAME is blank; page title supplies the display heading.",
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010297",
+      "display_name": "Apostolatus Maris/Stella Maris",
+      "display_address": "3 Beresford Place, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010297/apostolatus-maris-stella-maris-3-beresford-place-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010298",
+      "display_name": "Isaac's Hotel",
+      "display_address": "2 Beresford Place, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010298",
+      "page_verified": false,
+      "notes": "Only the legacy NIAH URL is available in the national CSV; canonical individual page not independently verified.",
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010299",
+      "display_name": "Hotel Isaac's/Gandon House",
+      "display_address": "1 Beresford Place, Store Street, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010299/hotel-isaacs-gandon-house-1-beresford-place-store-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010300",
+      "display_name": "Chariot of Life",
+      "display_address": "Lower Abbey Street, Dublin, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010300/chariot-of-life-lower-abbey-street-dublin-dublin",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010302",
+      "display_name": "Liberty Hall",
+      "display_address": "Eden Quay, Beresford Place, Dublin, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010302/liberty-hall-eden-quay-beresford-place-dublin-dublin",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010303",
+      "display_name": "The Pint",
+      "display_address": "28 Eden Quay, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010303/the-pint-28-eden-quay-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010304",
+      "display_name": "An Oifig Mhuir-Thráchtála/Mercantile Marine Office",
+      "display_address": "26-27 Eden Quay, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010304/an-oifig-mhuir-thrachtala-mercantile-marine-office-26-27-eden-quay-dublin-1-dublin",
+      "page_verified": true,
+      "notes": "National CSV NAME contains replacement characters; official individual page title supplies the display spelling.",
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010305",
+      "display_name": "Custom House Global Fund Services Ltd",
+      "display_address": "25 Eden Quay, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010305/custom-house-global-fund-services-ltd-25-eden-quay-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010306",
+      "display_name": "Ronanz",
+      "display_address": "24 Eden Quay, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010306/ronanz-24-eden-quay-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010307",
+      "display_name": "23 Eden Quay",
+      "display_address": "23 Eden Quay, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010307/eden-quay-dublin-1-dublin",
+      "page_verified": true,
+      "notes": "National CSV NAME is blank; page title supplies the display heading.",
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010308",
+      "display_name": "22 Eden Quay",
+      "display_address": "22 Eden Quay, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010308/eden-quay-dublin-1-dublin-city",
+      "page_verified": true,
+      "notes": "National CSV NAME is blank; page title supplies the display heading.",
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010309",
+      "display_name": "The Car Boot Shop",
+      "display_address": "21 Eden Quay, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010309",
+      "page_verified": false,
+      "notes": "Official planning EIAR independently identifies NIAH 50010309 at 21 Eden Quay, but the canonical individual NIAH page was not independently verified. Keep on HOLD.",
+      "supplementary_source": "https://www.pleanala.ie/publicaccess/EIAR-NIS/314724/5_EIAR/Volume%203%20Environmental%20Baseline%20and%20Assessment/Chapter%2026%20Architectural%20Heritage.pdf",
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010310",
+      "display_name": "Cleopatra Hairdressing/Eden School of English",
+      "display_address": "20 Eden Quay, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010310/cleopatra-hairdressing-eden-school-of-english-eden-quay-dublin-1-dublin-city",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010311",
+      "display_name": "Eden House",
+      "display_address": "15-17 Eden Quay, Marlborough Street, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010311/eden-house-eden-quay-marlborough-street-dublin-1-dublin-city",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010312",
+      "display_name": "Lefroy House",
+      "display_address": "12-14 Eden Quay, Marlborough Street, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010312/lefroy-house-12-14-eden-quay-marlborough-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": "National CSV NUMBER is the malformed date-like value 'Dec-14'; preserve it verbatim and use the official page address separately.",
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010313",
+      "display_name": "Lanigan's",
+      "display_address": "11 Eden Quay, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010313/lanigans-11-eden-quay-dublin-1-co-dublin",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010314",
+      "display_name": "Clifton Court Hotel",
+      "display_address": "10 Eden Quay, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010314/clifton-court-hotel-10-eden-quay-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010315",
+      "display_name": "Eden Quay Casino",
+      "display_address": "9 Eden Quay, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010315/eden-quay-casino-eden-quay-dublin-dublin-city",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010316",
+      "display_name": "3 Eden Quay",
+      "display_address": "3 Eden Quay, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010316/3-eden-quay-dublin-1-dublin",
+      "page_verified": true,
+      "notes": "National CSV NAME is blank; page title supplies the display heading.",
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010317",
+      "display_name": "Gala",
+      "display_address": "2 Eden Quay, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010317/gala-eden-quay-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010318",
+      "display_name": "Hopkins and Hopkins",
+      "display_address": "1 O'Connell Street Lower, Eden Quay, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010318/irish-nationwide-1-oconnell-street-lower-eden-quay-dublin-1-dublin",
+      "page_verified": true,
+      "notes": "National CSV NAME is blank; official page title and previous-name field supply the display heading.",
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010321",
+      "display_name": "Kapp and Peterson once M. Kelly and Son",
+      "display_address": "O'Connell Street Lower, Bachelors Walk, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010321/oconnell-street-lower-bachelors-walk-dublin-1-co-dublin",
+      "page_verified": true,
+      "notes": "National CSV NAME is blank; official page title and previous-name field supply the display heading.",
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010322",
+      "display_name": "Hair Inc.",
+      "display_address": "34 Bachelor's Walk, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010322/hair-inc-34-bachelors-walk-dublin-1-co-dublin",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010323",
+      "display_name": "Dublin Tourist Office",
+      "display_address": "33 Bachelor's Walk, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010323/dublin-tourist-office-33-bachelors-walk-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010324",
+      "display_name": "32 Bachelor's Walk",
+      "display_address": "32 Bachelor's Walk, Bachelor's Way, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010324/bachelors-walk-bachelors-way-dublin-1-dublin-city",
+      "page_verified": true,
+      "notes": "National CSV NAME is blank; page title supplies the display heading.",
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010325",
+      "display_name": "Bachelor Inn",
+      "display_address": "31 Bachelor's Walk, Bachelor's Way, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010325/bachelor-inn-31-bachelors-walk-bachelors-way-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010326",
+      "display_name": "Carr & O'Connell",
+      "display_address": "30 Bachelor's Walk, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010326/carr-oconnell-30-bachelors-walk-dublin-1-co-dublin",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010327",
+      "display_name": "Irish Church Missions",
+      "display_address": "28 Bachelor's Walk, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010327/irish-church-missions-28-bachelors-walk-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010328",
+      "display_name": "Arlington Hotel",
+      "display_address": "25 Bachelor's Walk, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010328/arlington-hotel-25-bachelors-walk-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010329",
+      "display_name": "Knightsbridge Bar/Arlington Hotel",
+      "display_address": "23-24 Bachelor's Walk, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010329/knightsbridge-bar-arlington-hotel-23-24-bachelors-walk-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "supplementary_source": null,
+      "known_distinct_neighbours": []
+    }
+  ]
+}

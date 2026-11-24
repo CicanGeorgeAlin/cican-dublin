@@ -72,3 +72,32 @@ test("app cache is refreshed for the navigation release", () => {
   assert.match(sw, /cican-dublin-app-v58/);
   assert.match(rootSw, /cican-dublin-root-v17/);
 });
+
+
+test("live Valhalla pedestrian routing service returns usable Dublin route geometry", { timeout: 30000 }, async () => {
+  const response = await fetch("https://valhalla1.openstreetmap.de/route", {
+    method: "POST",
+    headers: { "Content-Type": "application/json", "Accept": "application/json", "X-Client-Id": "cican-dublin.github.io" },
+    signal: AbortSignal.timeout(25000),
+    body: JSON.stringify({
+      locations: [
+        { lat: 53.3498, lon: -6.2603, type: "break" },
+        { lat: 53.3438, lon: -6.2546, type: "break" }
+      ],
+      costing: "pedestrian",
+      units: "kilometers",
+      language: "en-IE",
+      directions_type: "instructions",
+      shape_format: "polyline6",
+      id: "cican-dublin-live-smoke-test"
+    })
+  });
+  assert.equal(response.ok, true, "Valhalla HTTP status: " + response.status);
+  const data = await response.json();
+  assert.ok(data.trip, "Valhalla response must contain a trip: " + JSON.stringify(data).slice(0, 500));
+  assert.ok(Array.isArray(data.trip.legs) && data.trip.legs.length > 0, "Valhalla must return at least one route leg");
+  assert.ok(typeof data.trip.legs[0].shape === "string" && data.trip.legs[0].shape.length > 10, "Valhalla must return encoded route geometry");
+  assert.ok(Number(data.trip.summary?.length) > 0, "Valhalla must return a positive route distance");
+  assert.ok(Number(data.trip.summary?.time) > 0, "Valhalla must return a positive route duration");
+  assert.ok(Array.isArray(data.trip.legs[0].maneuvers), "Valhalla must return walking instructions");
+});

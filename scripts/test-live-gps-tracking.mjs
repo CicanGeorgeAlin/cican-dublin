@@ -95,7 +95,7 @@ test("live GPS starts high-accuracy watch, updates marker/readout, and stops cle
   assert.equal(h.state.locationTracking, true);
   assert.equal(h.state.locationWatchId, 17);
   assert.equal(h.calls.watchOptions.enableHighAccuracy, true);
-  assert.equal(h.calls.watchOptions.maximumAge, 1000);
+  assert.equal(h.calls.watchOptions.maximumAge, 0);
   assert.equal(h.button.attrs["aria-pressed"], "true");
   assert.match(h.status.textContent, /WAITING FOR LIVE GPS FIX/);
 

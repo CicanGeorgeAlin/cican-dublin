@@ -27,7 +27,8 @@
       "known_distinct_neighbours": [
         "50010220",
         "50010222",
-        "50010226"
+        "50010226",
+        "50010238"
       ]
     },
     {
@@ -45,7 +46,10 @@
       "display_name": "Pro-Cathedral House",
       "official_page_title": "Pro-Cathedral House, Marlborough Street, Dublin 1, DUBLIN CITY",
       "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010229/pro-cathedral-house-marlborough-street-dublin-1-dublin-city",
-      "page_verified": true
+      "page_verified": true,
+      "known_distinct_neighbours": [
+        "50010230"
+      ]
     },
     {
       "batch": "087",
@@ -54,7 +58,10 @@
       "official_page_title": "81 Marlborough Street, Dublin 1, DUBLIN",
       "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010231/marlborough-street-dublin-1-dublin-city-3",
       "page_verified": true,
-      "significance_override": "The NIAH appraisal describes a fine Georgian red-brick townhouse. Marlborough Street was opened from 1700 by the Moore family, Earls of Drogheda; the restrained façade is enlivened by red brickwork and an elegant doorcase."
+      "significance_override": "The NIAH appraisal describes a fine Georgian red-brick townhouse. Marlborough Street was opened from 1700 by the Moore family, Earls of Drogheda; the restrained façade is enlivened by red brickwork and an elegant doorcase.",
+      "known_distinct_neighbours": [
+        "50010230"
+      ]
     },
     {
       "batch": "088",
@@ -63,7 +70,11 @@
       "official_page_title": "80 Marlborough Street, Dublin 1, DUBLIN",
       "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010232/80-marlborough-street-dublin-1-dublin",
       "page_verified": true,
-      "significance_override": "The NIAH appraisal identifies this as a fine Georgian red-brick townhouse, with early fabric and an elegant entrance contributing to the historic streetscape."
+      "significance_override": "The NIAH appraisal identifies this as a fine Georgian red-brick townhouse, with early fabric and an elegant entrance contributing to the historic streetscape.",
+      "known_distinct_neighbours": [
+        "50010230",
+        "50010235"
+      ]
     },
     {
       "batch": "088",
@@ -71,7 +82,11 @@
       "display_name": "79 Marlborough Street",
       "official_page_title": "Guy's n Dolls Hairdressers, Dublin City",
       "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010233/guys-n-dolls-hairdressers-dublin-city",
-      "page_verified": true
+      "page_verified": true,
+      "known_distinct_neighbours": [
+        "50010230",
+        "50010235"
+      ]
     },
     {
       "batch": "088",
@@ -79,7 +94,10 @@
       "display_name": "78 Marlborough Street",
       "official_page_title": "Irish Rubies Ltd, 78 Marlborough Street, Dublin 1, Co. Dublin",
       "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010234/irish-rubies-ltd-78-marlborough-street-dublin-1-co-dublin",
-      "page_verified": true
+      "page_verified": true,
+      "known_distinct_neighbours": [
+        "50010235"
+      ]
     },
     {
       "batch": "088",

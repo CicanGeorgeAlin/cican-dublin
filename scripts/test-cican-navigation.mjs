@@ -29,7 +29,7 @@ test("archive place details use CICAN walking navigation, not Google Maps handof
   assert.match(app, /WALK THERE WITH CICAN/);
   assert.match(app, /requestWalkingNavigation\(id\)/);
   assert.doesNotMatch(app, /google\.com\/maps\/dir\//);
-  assert.match(app, /id="navigation-panel"/);
+  assert.match(html, /id="navigation-panel"/);
   assert.match(html, /id="locate-button"/);
   assert.match(app, /new URLSearchParams\(location\.search\)\.get\("destination"\)/);
 });
@@ -69,8 +69,8 @@ test("Valhalla polyline6 decoder accurately restores route coordinates", () => {
 });
 
 test("app cache is refreshed for the navigation release", () => {
-  assert.match(sw, /cican-dublin-app-v58/);
-  assert.match(rootSw, /cican-dublin-root-v17/);
+  assert.match(sw, /cican-dublin-app-v59/);
+  assert.match(rootSw, /cican-dublin-root-v18/);
 });
 
 
@@ -100,4 +100,25 @@ test("live Valhalla pedestrian routing service returns usable Dublin route geome
   assert.ok(Number(data.trip.summary?.length) > 0, "Valhalla must return a positive route distance");
   assert.ok(Number(data.trip.summary?.time) > 0, "Valhalla must return a positive route duration");
   assert.ok(Array.isArray(data.trip.legs[0].maneuvers), "Valhalla must return walking instructions");
+});
+
+
+test("walking navigation returns to the full map and uses a compact independent route sheet", () => {
+  assert.ok(html.includes('id="navigation-panel" hidden aria-label="CICAN walking navigation"'));
+  assert.ok(html.includes('id="hide-cican-navigation"'));
+  assert.ok(html.includes('id="clear-cican-route"'));
+  assert.ok(html.includes("VIEW ALL WALKING DIRECTIONS"));
+  assert.ok(app.includes('closeDetail(false);const navPanel=$("navigation-panel");if(navPanel)navPanel.hidden=false;'));
+  assert.ok(app.includes("initNavigationControls()"));
+  assert.ok(css.includes("position:absolute;z-index:680"));
+  assert.ok(css.includes("max-height:min(42dvh,390px)"));
+});
+
+test("live GPS does not pull the map away from the complete walking route", () => {
+  assert.ok(app.includes("!state.navigationRoute)state.map.setCenter(point)"));
+});
+
+test("hidden route summary can be reopened from the map", () => {
+  assert.ok(html.includes('id="show-cican-navigation"'));
+  assert.ok(app.includes('if(show)show.addEventListener("click",()=>{$("navigation-panel").hidden=false;show.hidden=true;})'));
 });

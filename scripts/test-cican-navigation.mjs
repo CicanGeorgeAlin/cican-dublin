@@ -219,6 +219,32 @@ test("GPS stationary gating rejects ordinary jitter and uses a bounded display f
   assert.equal(context.gpsShouldHoldPosition(1.5,true,8,floor,20),false);
   assert.ok(context.gpsDisplayAlpha(25)>=0.18&&context.gpsDisplayAlpha(25)<=0.48);
 });
+test("successive GPS fixes prove movement even when the device omits speed",()=>{
+  const start=app.indexOf("function gpsNoiseFloor");
+  const end=app.indexOf("function acceptLiveLocationFix",start);
+  assert.ok(start>=0&&end>start,"GPS stability helpers must be present");
+  const context={};vm.createContext(context);vm.runInContext(app.slice(start,end),context);
+  const accuracy=20;
+  const floor=context.gpsNoiseFloor(accuracy,accuracy);
+  const independentlyMeasuredDistance=16;
+  assert.equal(context.gpsMovementIsSignificant(independentlyMeasuredDistance,accuracy,accuracy),true,
+    "successive coordinates and timestamps establish meaningful movement");
+  assert.equal(context.gpsShouldHoldPosition(0,false,independentlyMeasuredDistance,floor,accuracy,true),false,
+    "missing speed must not hold a marker when successive fixes independently establish movement");
+  assert.match(app,/gpsShouldHoldPosition\(speed,reportedMoving,movement\?\.distance,noiseFloor,accuracy,meaningfulMovement\)/,
+    "the live fix handler must pass its independent movement decision into the display gate");
+});
+test("GPS smoothing response is measured in fixes before changing the movement gate",()=>{
+  const start=app.indexOf("function gpsDisplayAlpha");
+  const end=app.indexOf("function acceptLiveLocationFix",start);
+  assert.ok(start>=0&&end>start,"GPS smoothing helper must be present");
+  const context={};vm.createContext(context);vm.runInContext(app.slice(start,end),context);
+  const alpha=context.gpsDisplayAlpha(20);
+  const fixesTo90Percent=Math.log(0.1)/Math.log(1-alpha);
+  assert.ok(Math.abs(alpha-0.375)<1e-9);
+  assert.ok(Math.abs(fixesTo90Percent-4.899)<0.01,
+    "at ±20 m accuracy the existing filter needs about 4.9 fixes for 90% response");
+});
 test("heading camera no longer restarts eased animations for every compass event",()=>{
   const start=app.indexOf("function smoothCompassHeading");
   const end=app.indexOf("async function setHeadingUpEnabled",start);

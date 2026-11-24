@@ -1,0 +1,318 @@
+{
+  "batch": "103",
+  "title": "NIAH Dublin City — 50-record normal batch, Gardiner Place to Parnell Square North",
+  "reviewed_on": "2026-11-24",
+  "target_count": 50,
+  "source_queue": "audit/niah-dublin-missing-registrations.json",
+  "selection_method": "First 50 Dublin City Council / County Dublin rows after Batch 102's final selected registration 50010862 in the refreshed four-authority missing-registration queue. Exact queue membership is validated in CI; numeric continuity alone is not used.",
+  "candidates": [
+    {
+      "registration": "50010863",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010863/11-gardiner-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "11 Gardiner Place"
+    },
+    {
+      "registration": "50010865",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010865",
+      "page_verified": false,
+      "display_name": "9 Gardiner Place"
+    },
+    {
+      "registration": "50010866",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010866/8-gardiner-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "8 Gardiner Place"
+    },
+    {
+      "registration": "50010867",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010867",
+      "page_verified": false,
+      "display_name": "7 Gardiner Place"
+    },
+    {
+      "registration": "50010868",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010868/6-gardiner-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "6 Gardiner Place"
+    },
+    {
+      "registration": "50010869",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010869",
+      "page_verified": false,
+      "display_name": "5 Gardiner Place"
+    },
+    {
+      "registration": "50010870",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010870/dergvale-4-gardiner-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Dergvale"
+    },
+    {
+      "registration": "50010871",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010871/kameleon-3-gardiner-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Kameleon"
+    },
+    {
+      "registration": "50010872",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010872/2-gardiner-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "2 Gardiner Place"
+    },
+    {
+      "registration": "50010873",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010873/1-gardiner-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "1 Gardiner Place"
+    },
+    {
+      "registration": "50010874",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010874/temple-street-childrens-university-hospital-chapel-temple-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Temple Street Children's University Hospital",
+      "page_title": "Temple Street Children's University Hospital Chapel"
+    },
+    {
+      "registration": "50010875",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010875/temple-street-childrens-university-hospital-14-15-temple-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Temple Street Children's University Hospital",
+      "page_title": "Temple Street Children's University Hospital"
+    },
+    {
+      "registration": "50010876",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010876/saint-georges-parochial-hall-29-34-georges-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Saint George's Parochial Hall"
+    },
+    {
+      "registration": "50010877",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010877/presbytery-of-the-catholic-church-of-saint-francis-xavier-54-gardiner-street-upper-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Catholic Church of Saint Francis Xavier",
+      "known_related_research_records": [
+        "50010824"
+      ],
+      "related_structure_note": "Presbytery at 54 Gardiner Street Upper; separately registered from the Catholic Church of Saint Francis Xavier church building (50010824) researched in Batch 102."
+    },
+    {
+      "registration": "50010878",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010878/saint-georges-church-hardwicke-place-georges-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Saint George's Church"
+    },
+    {
+      "registration": "50010879",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010879/20-frederick-street-north-dublin-dublin",
+      "page_verified": true,
+      "display_name": "20 Frederick Street North"
+    },
+    {
+      "registration": "50010880",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010880/21-frederick-street-north-dublin-dublin",
+      "page_verified": true,
+      "display_name": "21 Frederick Street North"
+    },
+    {
+      "registration": "50010881",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010881/22-frederick-street-north-dublin-dublin",
+      "page_verified": true,
+      "display_name": "22 Frederick Street North"
+    },
+    {
+      "registration": "50010882",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010882/23-frederick-street-north-dublin-dublin",
+      "page_verified": true,
+      "display_name": "23 Frederick Street North"
+    },
+    {
+      "registration": "50010883",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010883/15-frederick-street-north-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "15 Frederick Street North"
+    },
+    {
+      "registration": "50010884",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010884/14-frederick-street-north-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "14 Frederick Street North"
+    },
+    {
+      "registration": "50010886",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010886/12-12a-frederick-street-north-dublin-dublin",
+      "page_verified": true,
+      "display_name": "12–12A Frederick Street North"
+    },
+    {
+      "registration": "50010887",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010887/12c-frederick-street-north-hardwicke-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "12C Frederick Street North"
+    },
+    {
+      "registration": "50010888",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010888/48-hardwicke-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "48 Hardwicke Street"
+    },
+    {
+      "registration": "50010890",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010890/4-hardwicke-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "4 Hardwicke Street"
+    },
+    {
+      "registration": "50010891",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010891/3-hardwicke-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "3 Hardwicke Street"
+    },
+    {
+      "registration": "50010892",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010892/frederick-house-2-hardwicke-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Frederick House"
+    },
+    {
+      "registration": "50010893",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010893",
+      "page_verified": false,
+      "display_name": "1 Hardwicke Street / Frederick Street North"
+    },
+    {
+      "registration": "50010894",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010894/28-frederick-street-north-dublin-dublin",
+      "page_verified": true,
+      "display_name": "28 Frederick Street North"
+    },
+    {
+      "registration": "50010895",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010895/29-frederick-street-north-dublin-dublin",
+      "page_verified": true,
+      "display_name": "29 Frederick Street North"
+    },
+    {
+      "registration": "50010896",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010896/an-stad-30-frederick-street-north-dublin-dublin",
+      "page_verified": true,
+      "display_name": "An Stad"
+    },
+    {
+      "registration": "50010897",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010897/31-frederick-street-north-dublin-dublin",
+      "page_verified": true,
+      "display_name": "31 Frederick Street North"
+    },
+    {
+      "registration": "50010898",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010898/32-frederick-street-north-dublin-dublin",
+      "page_verified": true,
+      "display_name": "32 Frederick Street North"
+    },
+    {
+      "registration": "50010899",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010899/33-frederick-street-north-dublin-dublin",
+      "page_verified": true,
+      "display_name": "33 Frederick Street North"
+    },
+    {
+      "registration": "50010900",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010900/34-frederick-street-north-frederick-lane-dublin-dublin",
+      "page_verified": true,
+      "display_name": "34 Frederick Street North"
+    },
+    {
+      "registration": "50010901",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010901/10-frederick-street-north-dublin-dublin",
+      "page_verified": true,
+      "display_name": "10 Frederick Street North"
+    },
+    {
+      "registration": "50010902",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010902/9-frederick-street-north-dublin-dublin",
+      "page_verified": true,
+      "display_name": "9 Frederick Street North"
+    },
+    {
+      "registration": "50010903",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010903",
+      "page_verified": false,
+      "display_name": "8 Frederick Street North"
+    },
+    {
+      "registration": "50010904",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010904/7-frederick-street-north-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Harry Clarke Stained Glass Limited (formerly Joshua Clarke & Sons)",
+      "page_title": "7 Frederick Street North"
+    },
+    {
+      "registration": "50010905",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010905/harry-clarke-house-6-frederick-street-north-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Harry Clarke Stained Glass Limited (formerly Joshua Clarke & Sons)",
+      "page_title": "Harry Clarke House, 6 Frederick Street North"
+    },
+    {
+      "registration": "50010906",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010906/5-frederick-street-north-dublin-dublin",
+      "page_verified": true,
+      "display_name": "5 Frederick Street North"
+    },
+    {
+      "registration": "50010907",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010907/4-frederick-street-north-dublin-dublin",
+      "page_verified": true,
+      "display_name": "4 Frederick Street North"
+    },
+    {
+      "registration": "50010908",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010908",
+      "page_verified": false,
+      "display_name": "3 Frederick Street North"
+    },
+    {
+      "registration": "50010909",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010909/2-frederick-street-north-dublin-dublin",
+      "page_verified": true,
+      "display_name": "2 Frederick Street North"
+    },
+    {
+      "registration": "50010910",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010910/abbey-presbyterian-church-parnell-square-north-frederick-street-north-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Abbey Presbyterian Church"
+    },
+    {
+      "registration": "50010911",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010911/dublin-writers-museum-18-parnell-square-north-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Dublin Writers Museum"
+    },
+    {
+      "registration": "50010912",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010912/19-parnell-square-north-dublin-dublin",
+      "page_verified": true,
+      "display_name": "19 Parnell Square North"
+    },
+    {
+      "registration": "50010913",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010913/halla-banba-20-parnell-square-north-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Halla Banba"
+    },
+    {
+      "registration": "50010914",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010914/21-parnell-square-north-dublin-dublin",
+      "page_verified": true,
+      "display_name": "21 Parnell Square North"
+    },
+    {
+      "registration": "50010916",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010916/23-parnell-square-north-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "23 Parnell Square North"
+    }
+  ]
+}

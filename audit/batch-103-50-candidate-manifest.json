@@ -16,7 +16,9 @@
       "registration": "50010865",
       "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010865",
       "page_verified": false,
-      "display_name": "9 Gardiner Place"
+      "display_name": "9 Gardiner Place",
+      "supplementary_source": "https://www.dublincity.ie/sites/default/files/2026-01/volume-3.pdf",
+      "notes": "Dublin City Council Volume 3 Record of Protected Structures corroborates the street number and Gardiner Place address (RPS references 3039 for No. 9, 3037 for No. 7, 3035 for No. 5). This RPS source does not independently establish the NIAH registration-number link and is not a canonical NIAH page; keep page hold."
     },
     {
       "registration": "50010866",
@@ -28,7 +30,9 @@
       "registration": "50010867",
       "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010867",
       "page_verified": false,
-      "display_name": "7 Gardiner Place"
+      "display_name": "7 Gardiner Place",
+      "supplementary_source": "https://www.dublincity.ie/sites/default/files/2026-01/volume-3.pdf",
+      "notes": "Dublin City Council Volume 3 Record of Protected Structures corroborates the street number and Gardiner Place address (RPS references 3039 for No. 9, 3037 for No. 7, 3035 for No. 5). This RPS source does not independently establish the NIAH registration-number link and is not a canonical NIAH page; keep page hold."
     },
     {
       "registration": "50010868",
@@ -40,7 +44,9 @@
       "registration": "50010869",
       "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010869",
       "page_verified": false,
-      "display_name": "5 Gardiner Place"
+      "display_name": "5 Gardiner Place",
+      "supplementary_source": "https://www.dublincity.ie/sites/default/files/2026-01/volume-3.pdf",
+      "notes": "Dublin City Council Volume 3 Record of Protected Structures corroborates the street number and Gardiner Place address (RPS references 3039 for No. 9, 3037 for No. 7, 3035 for No. 5). This RPS source does not independently establish the NIAH registration-number link and is not a canonical NIAH page; keep page hold."
     },
     {
       "registration": "50010870",
@@ -180,7 +186,7 @@
       "page_verified": false,
       "display_name": "1 Hardwicke Street / Frederick Street North",
       "supplementary_source": "https://www.pleanala.ie/publicaccess/EIAR-NIS/314724/5_EIAR/Volume%203%20Environmental%20Baseline%20and%20Assessment/Chapter%2026%20Architectural%20Heritage.pdf",
-      "notes": "TII MetroLink Architectural Heritage report contains conflicting address associations for NIAH 50010893: 11 Frederick Street North (lines 2845–2849) and 1 Hardwicke Street (lines 3006–3009). Do not resolve by inference; canonical NIAH page and authoritative address must be checked. Keep page hold."
+      "notes": "Official national NIAH CSV queue row gives number 1, STREET1 Hardwicke Street and STREET2 Frederick Street North (corner address). TII report also lists 1 Hardwicke Street at 50010893 but separately lists 11 Frederick Street North at the same registration. Preserve the national CSV address while recording the TII inconsistency; do not mark canonical page verified."
     },
     {
       "registration": "50010894",

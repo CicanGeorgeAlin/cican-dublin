@@ -154,12 +154,14 @@ test("walking navigation uses shorter camera transitions for faster perceived re
 });
 
 test("route matching is constrained to plausible forward progress and uses heading as a tie-breaker",()=>{
-  const start=app.indexOf("function liveDistanceAndBearing");
-  const end=app.indexOf("function updateNavigationProgress",start);
-  assert.ok(start>=0&&end>start,"route geometry helpers must be present");
+  const geometryStart=app.indexOf("function routeCumulativeDistances");
+  const geometryEnd=app.indexOf("function updateNavigationProgress",geometryStart);
+  const distanceStart=app.indexOf("function liveDistanceAndBearing");
+  const distanceEnd=app.indexOf("function renderLiveLocationFrame",distanceStart);
+  assert.ok(geometryStart>=0&&geometryEnd>geometryStart&&distanceStart>=0&&distanceEnd>distanceStart,"route geometry helpers must be present");
   const context={};
   vm.createContext(context);
-  vm.runInContext(app.slice(start,end),context);
+  vm.runInContext(app.slice(distanceStart,distanceEnd)+"\\n"+app.slice(geometryStart,geometryEnd),context);
   const coordinates=[[-6.2600,53.3500],[-6.2590,53.3500],[-6.2580,53.3500],[-6.2570,53.3500]];
   const cumulative=context.routeCumulativeDistances(coordinates);
   const point={latitude:53.3500,longitude:-6.2585};
@@ -171,11 +173,13 @@ test("route matching is constrained to plausible forward progress and uses headi
 });
 
 test("route matching does not regress behind accepted progress",()=>{
-  const start=app.indexOf("function liveDistanceAndBearing");
-  const end=app.indexOf("function updateNavigationProgress",start);
+  const geometryStart=app.indexOf("function routeCumulativeDistances");
+  const geometryEnd=app.indexOf("function updateNavigationProgress",geometryStart);
+  const distanceStart=app.indexOf("function liveDistanceAndBearing");
+  const distanceEnd=app.indexOf("function renderLiveLocationFrame",distanceStart);
   const context={};
   vm.createContext(context);
-  vm.runInContext(app.slice(start,end),context);
+  vm.runInContext(app.slice(distanceStart,distanceEnd)+"\\n"+app.slice(geometryStart,geometryEnd),context);
   const coordinates=[[-6.2600,53.3500],[-6.2590,53.3500],[-6.2580,53.3500]];
   const cumulative=context.routeCumulativeDistances(coordinates);
   const result=context.nearestRouteProgress({latitude:53.3500,longitude:-6.2598},coordinates,cumulative,0,{minimumProgressMetres:25,maximumProgressMetres:100});

@@ -20,7 +20,7 @@ function makeHarness() {
       return null;
     }
   };
-  const stage = { appendChild(node) { calls.readoutAttached = node === panel; } };
+  const stage = { appendChild(node) { calls.readoutAttached = node === panel; elements["live-location-readout"] = node; } };
   const button = {
     attrs: {},
     classList: { add() {}, remove() {} },

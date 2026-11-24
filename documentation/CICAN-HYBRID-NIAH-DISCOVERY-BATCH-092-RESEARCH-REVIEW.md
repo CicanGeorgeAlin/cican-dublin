@@ -18,7 +18,7 @@ Registration **50010257 — Bonavox Hearing Aids** is intentionally held out. Al
 | 50010255 | Meteor | Meteor | 13 Earl Street North |
 | 50010256 | Guineys | Guineys | 10 Earl Street North |
 | 50010258 | Nice Price | Nice Price | 4 Earl Street North |
-| 50010259 | Zumo Juice Bar | Zumo Juice Bar | 3 Earl Street North |
+| 50010260 | Hot Wok Thai Noodle Bar | Hot Wok Thai Noodle Bar | 2 Earl Street North |
 
 ## Record summaries and anomalies
 
@@ -26,7 +26,7 @@ Registration **50010257 — Bonavox Hearing Aids** is intentionally held out. Al
 - **50010255 — Meteor:** A two-bay four-storey commercial premises built c.1920, with red brick walls, sliding timber sash windows and a replacement shopfront.
 - **50010256 — Guineys:** A two-bay four-storey former house built c.1820 as one of a pair, retaining red brick walls, historic sash windows and a later shopfront.
 - **50010258 — Nice Price:** A three-bay four-storey retail premises built 1917–19, with a central breakfront, granite dressings, modillion cornice and bowed tripartite windows. **Source-text anomaly:** the individual page appraisal refers to “Number 3”, although the official page heading and national CSV identify number 4. The wording is preserved as published and not silently corrected.
-- **50010259 — Zumo Juice Bar:** A three-bay four-storey red brick and granite retail premises built 1917–19 to designs by Fuller & Jermyn, with a double-height oriel window. **Source-text anomaly:** the individual page appraisal refers to “Number 2”, although the official page heading and national CSV identify number 3. The wording is preserved as published and not silently corrected.
+- **50010260 — Hot Wok Thai Noodle Bar:** A two-bay four-storey red brick and granite retail premises built c.1920 to designs by Fuller & Jermyn, with granite dressings and pilasters. The national CSV DESCRIPTION contains a U+FFFD replacement character in “façade”; the clean page transcription is stored separately.
 
 Full official-page descriptions, appraisals, national CSV values, and both coordinate systems are preserved separately in `audit/batch-092-five-candidate-evidence.json`.
 
@@ -35,7 +35,7 @@ Full official-page descriptions, appraisals, national CSV values, and both coord
 1. National CSV values are retained verbatim. In particular, 50010254 has a blank CSV NAME and that field is not backfilled.
 2. National CSV WGS84 latitude/longitude and ITM coordinates (EPSG:2157) are distinct source fields.
 3. Raw coordinate pairs displayed by individual NIAH pages are retained separately. Their CRS is not inferred from display alone.
-4. The appraisal-number inconsistencies for 50010258 and 50010259 are recorded, not editorially repaired.
+4. The appraisal-number inconsistency for 50010258 is recorded, not editorially repaired. The national CSV DESCRIPTION for 50010260 contains a replacement-character encoding error in “façade”; the raw value remains preserved separately.
 5. Survey-era uses and descriptions do not establish present-day occupancy, condition, access or permission to photograph.
 
 ## Duplicate and proximity review
@@ -55,4 +55,10 @@ This batch is research-only. No permanent archive IDs, master objects, public NI
 - [50010255 — Meteor](https://www.buildingsofireland.ie/buildings-search/building/50010255/meteor-13-earl-street-north-dublin-1-co-dublin)
 - [50010256 — Guineys](https://www.buildingsofireland.ie/buildings-search/building/50010256/guineys-earl-street-north-dublin-1-dublin-city)
 - [50010258 — Nice Price](https://www.buildingsofireland.ie/buildings-search/building/50010258/nice-price-4-earl-street-north-dublin-1-dublin)
-- [50010259 — Zumo Juice Bar](https://www.buildingsofireland.ie/buildings-search/building/50010259/zumo-juice-bar-earl-street-north-dublin-1-dublin)
+- [50010260 — Hot Wok Thai Noodle Bar](https://www.buildingsofireland.ie/buildings-search/building/50010260/hot-wok-thai-noodle-bar-2-earl-street-north-dublin-1-dublin)
+
+
+## Held and excluded records
+
+- **50010257 — Bonavox Hearing Aids:** present in the queue but held pending independent verification of the individual official NIAH page.
+- **50010259 — Zumo Juice Bar:** present in the queue but assigned to **South Dublin County Council** by the official authority field. It is excluded from this Dublin City batch and retained for separate authority review. The postal address does not override the authority assignment.

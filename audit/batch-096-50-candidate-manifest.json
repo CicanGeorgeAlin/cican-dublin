@@ -1,0 +1,304 @@
+{
+  "batch": "096",
+  "title": "NIAH Dublin City — 50-record normal batch, Moore Street to O'Connell Street Upper",
+  "reviewed_on": "2026-11-24",
+  "target_count": 50,
+  "source_queue": "audit/niah-dublin-missing-registrations.json",
+  "selection_method": "First 50 Dublin City Council / County Dublin rows after Batch 095's final selected registration 50010489 in the refreshed official four-authority missing-registration queue. Exact queue membership is validated in CI; numeric continuity alone is not used.",
+  "candidates": [
+    {
+      "registration": "50010490",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010490/china-room-restaurant-15-moore-street-dublin-1-co-dublin",
+      "page_verified": true
+    },
+    {
+      "registration": "50010491",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010491/plunkett-just-4-kids-moore-street-dublin-1-dublin-city",
+      "page_verified": true
+    },
+    {
+      "registration": "50010492",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010492/studio-zhee-hair-salon-17-moore-street-dublin-1-dublin",
+      "page_verified": true
+    },
+    {
+      "registration": "50010493",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010493/tourism-office-69-oconnell-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "69 O'Connell Street Upper"
+    },
+    {
+      "registration": "50010494",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010494",
+      "page_verified": false
+    },
+    {
+      "registration": "50010495",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010495/permanent-tsb-36-henry-street-henry-place-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "36 Henry Street"
+    },
+    {
+      "registration": "50010496",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010496/emobile-henry-street-dublin-1-dublin-city",
+      "page_verified": true,
+      "display_name": "Marks and Company"
+    },
+    {
+      "registration": "50010497",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010497",
+      "page_verified": false
+    },
+    {
+      "registration": "50010498",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010498",
+      "page_verified": false
+    },
+    {
+      "registration": "50010499",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010499",
+      "page_verified": false
+    },
+    {
+      "registration": "50010500",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010500/gpo-buildings-gpo-arcade-gpo-buildings-24-25-henry-street-princes-street-north-dublin-1-dublin-city",
+      "page_verified": true
+    },
+    {
+      "registration": "50010501",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010501/55-oconnell-street-lower-dublin-1-co-dublin",
+      "page_verified": true
+    },
+    {
+      "registration": "50010502",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010502/53-54-oconnell-street-lower-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "53–54 O'Connell Street Lower"
+    },
+    {
+      "registration": "50010503",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010503/pollock-and-company-52-oconnell-street-lower-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Pollock and Company"
+    },
+    {
+      "registration": "50010504",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010504/mcdonalds-51-oconnell-street-lower-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "The Astor (formerly The Picture House)"
+    },
+    {
+      "registration": "50010505",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010505/50-oconnell-street-lower-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "50 O'Connell Street Lower"
+    },
+    {
+      "registration": "50010506",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010506/foot-locker-oconnell-street-lower-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "The Confectioners Hall"
+    },
+    {
+      "registration": "50010507",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010507",
+      "page_verified": false
+    },
+    {
+      "registration": "50010508",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010508",
+      "page_verified": false
+    },
+    {
+      "registration": "50010509",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010509/bank-of-ireland-6-7-oconnell-street-lower-dublin-1-dublin",
+      "page_verified": true,
+      "display_address": "6–7 O'Connell Street Lower, Dublin 1, Ireland"
+    },
+    {
+      "registration": "50010510",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010510/hamilton-long-5-oconnell-street-lower-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Hamilton Long"
+    },
+    {
+      "registration": "50010511",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010511/ulster-bank-3-4-oconnell-street-lower-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_address": "3–4 O'Connell Street Lower, Dublin 1, Ireland"
+    },
+    {
+      "registration": "50010512",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010512/2-oconnell-street-lower-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "Great Northern Railway Company"
+    },
+    {
+      "registration": "50010513",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010513/william-smith-obrien-monument-oconnell-street-lower-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "William Smith O'Brien Monument",
+      "known_distinct_neighbours": [
+        "50010514"
+      ],
+      "distinct_neighbour_reason": "Separate official NIAH individual records: William Smith O'Brien Monument (50010513), a freestanding Portland limestone statue on the O'Connell Street pedestrian median, and Sir John Gray Monument (50010514), a separate sculpted figure on its own granite plinth and base. Both have distinct descriptions and registrations."
+    },
+    {
+      "registration": "50010514",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010514/sir-john-gray-monument-oconnell-street-lower-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Sir John Gray Monument",
+      "known_distinct_neighbours": [
+        "50010513"
+      ],
+      "distinct_neighbour_reason": "Separate official NIAH individual records: William Smith O'Brien Monument (50010513), a freestanding Portland limestone statue on the O'Connell Street pedestrian median, and Sir John Gray Monument (50010514), a separate sculpted figure on its own granite plinth and base. Both have distinct descriptions and registrations."
+    },
+    {
+      "registration": "50010516",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010516/eason-40-42-oconnell-street-lower-dublin-1-dublin",
+      "page_verified": true
+    },
+    {
+      "registration": "50010517",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010517",
+      "page_verified": false,
+      "notes": "National CSV NUMBER is date-like/malformed (Dec-13); preserve raw value and do not interpret as a street number."
+    },
+    {
+      "registration": "50010518",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010518/american-chambers-14-15-oconnell-street-lower-dublin-1-dublin",
+      "page_verified": true
+    },
+    {
+      "registration": "50010520",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010520",
+      "page_verified": false
+    },
+    {
+      "registration": "50010521",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010521/bank-of-ireland-28-oconnell-street-lower-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Bank of Ireland"
+    },
+    {
+      "registration": "50010522",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010522/f-ofarrell-29-oconnell-street-lower-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "F. O'Farrell"
+    },
+    {
+      "registration": "50010523",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010523/ann-summers-30-oconnell-street-lower-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Montague Burton or The Palace"
+    },
+    {
+      "registration": "50010524",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010524/saxone-31-oconnell-street-lower-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Saxone"
+    },
+    {
+      "registration": "50010525",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010525/dunn-and-company-32-oconnell-street-lower-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Dunn and Company"
+    },
+    {
+      "registration": "50010526",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010526/jameson-and-company-33-oconnell-street-lower-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Jameson and Company"
+    },
+    {
+      "registration": "50010529",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010529/londis-subway-68-oconnell-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "68 O'Connell Street Upper"
+    },
+    {
+      "registration": "50010530",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010530/67-oconnell-street-upper-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "Cow Pock Institution"
+    },
+    {
+      "registration": "50010531",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010531/standard-life-assurance-company-65-66-oconnell-street-upper-dublin-dublin",
+      "page_verified": true
+    },
+    {
+      "registration": "50010532",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010532/royal-bank-of-ireland-63-64-oconnell-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Royal Bank of Ireland"
+    },
+    {
+      "registration": "50010533",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010533/pillar-picture-house-62-oconnell-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Pillar Picture House"
+    },
+    {
+      "registration": "50010534",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010534/w-f-wells-and-son-61-oconnell-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "W.F. Wells and Son"
+    },
+    {
+      "registration": "50010535",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010535/60-oconnell-street-upper-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "Colonial Insurance Company"
+    },
+    {
+      "registration": "50010536",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010536/mcdowell-or-the-happy-ring-house-3-oconnell-street-upper-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "McDowell or The Happy Ring House"
+    },
+    {
+      "registration": "50010537",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010537/4-oconnell-street-upper-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "4 O'Connell Street Upper"
+    },
+    {
+      "registration": "50010538",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010538/prosperity-chambers-5-6-oconnell-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Prosperity Chambers",
+      "display_address": "5–6 O'Connell Street Upper, Dublin 1, Ireland"
+    },
+    {
+      "registration": "50010539",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010539/7-oconnell-street-upper-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "7 O'Connell Street Upper"
+    },
+    {
+      "registration": "50010540",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010540/carrolls-irish-gifts-58-oconnell-street-upper-dublin-dublin",
+      "page_verified": true,
+      "display_name": "J. and G. Campbell"
+    },
+    {
+      "registration": "50010541",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010541/a-and-r-thwaites-and-company-57-oconnell-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "A. and R. Thwaites and Company"
+    },
+    {
+      "registration": "50010542",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010542/monument-bakery-and-cafe-55-56-oconnell-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Monument Bakery and Café"
+    },
+    {
+      "registration": "50010543",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010543/xd-theatre-52-54-oconnell-street-upper-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Carlton"
+    }
+  ]
+}

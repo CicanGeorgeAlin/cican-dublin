@@ -32,6 +32,8 @@ jobs:
         run: node --check scripts/generate-seo-pages.mjs
       - name: Generate crawlable place pages and full sitemap
         run: node scripts/generate-seo-pages.mjs
+      - name: Test site-wide CICAN navigation links after page generation
+        run: node --test scripts/test-cican-navigation-sitewide.mjs
       - name: Validate catalogue, images, links and page scripts
         run: node scripts/validate-archive.mjs
       - name: Audit existing NIAH registrations against the official national CSV

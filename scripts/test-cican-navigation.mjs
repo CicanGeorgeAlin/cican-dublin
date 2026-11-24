@@ -122,3 +122,17 @@ test("hidden route summary can be reopened from the map", () => {
   assert.ok(html.includes('id="show-cican-navigation"'));
   assert.ok(app.includes('if(show)show.addEventListener("click",()=>{$("navigation-panel").hidden=false;show.hidden=true;})'));
 });
+
+test("Stage 2 live navigation calculates route progress, next maneuver and off-route recovery", () => {
+  assert.match(app, /function nearestRouteProgress/);
+  assert.match(app, /function updateNavigationProgress/);
+  assert.match(app, /progress\.distance>55/);
+  assert.match(app, /requestWalkingNavigation\(route\.destinationId,\{silent:true\}\)/);
+  assert.match(app, /function followNavigationCamera/);
+  assert.match(app, /pitch:48/);
+  assert.match(app, /followNavigationCamera\(point,heading,speed\)/);
+  assert.ok(html.includes('id="navigation-next-turn"'));
+  assert.ok(html.includes('id="navigation-next-distance"'));
+  assert.ok(html.includes('id="navigation-follow-toggle"'));
+  assert.ok(css.includes(".navigation-next-turn"));
+});

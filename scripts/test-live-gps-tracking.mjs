@@ -102,7 +102,7 @@ test("live GPS starts high-accuracy watch, updates marker/readout, and stops cle
 
   const fix = {
     coords: { latitude: 53.123456, longitude: -6.123456, accuracy: 8.4, speed: 20, heading: 90 },
-    timestamp: 1795500000000
+    timestamp: Date.now()
   };
   h.callbacks.success(fix);
   assert.equal([...h.calls.markerPositions[0]].join(","), "-6.123456,53.123456");
@@ -147,7 +147,7 @@ test("secure context and geolocation support are required", () => {
 test("poor, stale and physically implausible GPS fixes are rejected",()=>{
   const h=makeHarness();
   h.context.toggleLiveLocationTracking();
-  const base={timestamp:1795500000000,coords:{latitude:53.123456,longitude:-6.123456,accuracy:8,speed:1,heading:90}};
+  const base={timestamp:Date.now(),coords:{latitude:53.123456,longitude:-6.123456,accuracy:8,speed:1,heading:90}};
   h.callbacks.success({...base,coords:{...base.coords,accuracy:150}});
   assert.equal(h.state.locationLastFix,null,"very poor accuracy must not seed navigation");
   h.callbacks.success({...base,timestamp:base.timestamp-60000});
@@ -161,7 +161,7 @@ test("poor, stale and physically implausible GPS fixes are rejected",()=>{
 test("GPS confidence label distinguishes high, usable and weak estimates",()=>{
   const h=makeHarness();
   h.context.toggleLiveLocationTracking();
-  const base={timestamp:1795500000000,coords:{latitude:53.123456,longitude:-6.123456,accuracy:7,speed:0,heading:0}};
+  const base={timestamp:Date.now(),coords:{latitude:53.123456,longitude:-6.123456,accuracy:7,speed:0,heading:0}};
   h.callbacks.success(base);
   assert.match(h.coords.accuracy,/HIGH CONFIDENCE/);
   h.callbacks.success({...base,timestamp:base.timestamp+1000,coords:{...base.coords,accuracy:20}});

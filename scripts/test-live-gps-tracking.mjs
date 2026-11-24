@@ -78,7 +78,13 @@ function makeHarness() {
   const end = app.indexOf("function loadMapLibraryFallback", start);
   assert.ok(start >= 0 && end > start, "live GPS functions must exist in the map application");
   vm.createContext(context);
-  vm.runInContext(app.slice(start, end), context);
+  const distanceStart = app.indexOf("function liveDistanceAndBearing");
+  const distanceEnd = app.indexOf("function renderLiveLocationFrame", distanceStart);
+  const stabilityStart = app.indexOf("function gpsNoiseFloor");
+  const stabilityEnd = app.indexOf("function acceptLiveLocationFix", stabilityStart);
+  assert.ok(distanceStart >= 0 && distanceEnd > distanceStart && stabilityStart >= 0 && stabilityEnd > stabilityStart,
+    "GPS distance and stability helpers must be present");
+  vm.runInContext(app.slice(distanceStart, distanceEnd) + "\\n" + app.slice(stabilityStart, stabilityEnd) + "\\n" + app.slice(start, end), context);
   return {
     context, callbacks, calls, coords, panel, button, status, state,
     advanceFrame(time) { now = time; const entry = frames.entries().next().value; assert.ok(entry, "a live animation frame should be queued"); frames.delete(entry[0]); entry[1](time); },
@@ -131,6 +137,27 @@ test("live GPS starts high-accuracy watch, updates marker/readout, and stops cle
   assert.equal(h.button.attrs["aria-pressed"], "false");
 });
 
+test("successive fixes move the live marker when speed is omitted", () => {
+  const h = makeHarness();
+  h.context.toggleLiveLocationTracking();
+  const firstTimestamp = Date.now();
+  const first = {
+    timestamp: firstTimestamp,
+    coords: { latitude: 53.123456, longitude: -6.123456, accuracy: 20, speed: null, heading: null }
+  };
+  h.callbacks.success(first);
+  const firstDisplayedLatitude = h.calls.markerPositions[0][1];
+  const second = {
+    timestamp: firstTimestamp + 1000,
+    coords: { latitude: 53.123600, longitude: -6.123456, accuracy: 20, speed: null, heading: null }
+  };
+  h.callbacks.success(second);
+  assert.equal(h.calls.markerPositions.length, 2, "both accepted GPS fixes should update the live marker");
+  assert.ok(h.calls.markerPositions[1][1] > firstDisplayedLatitude,
+    "independently measured displacement must move the filtered marker without a speed reading");
+  assert.ok(h.state.locationDisplayFix.latitude > firstDisplayedLatitude,
+    "the display position must advance instead of remaining held at the first fix");
+});
 test("GPS permission errors stop tracking and report the reason", () => {
   const h = makeHarness();
   h.context.toggleLiveLocationTracking();

@@ -1,0 +1,460 @@
+{
+  "batch": "093",
+  "title": "NIAH Dublin City — 50-record normal batch, Ormond Quay to Middle Abbey Street",
+  "reviewed_on": "2026-11-24",
+  "target_count": 50,
+  "source_queue": "audit/niah-dublin-missing-registrations.json",
+  "selection_method": "First 50 Dublin City Council / County Dublin rows after Batch 092's final selected registration 50010329 in the refreshed official four-authority missing-registration queue. Each candidate must be present exactly once; numeric continuity alone is not used.",
+  "candidates": [
+    {
+      "registration": "50010330",
+      "display_name": "Irish Architecture Foundation",
+      "display_address": "15 Bachelor's Walk, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010330/irish-architecture-foundation-15-bachelors-walk-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010331",
+      "display_name": "Ha’penny Bridge Café",
+      "display_address": "14 Bachelor's Walk, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010331/hapenny-bridge-cafe-bachelors-walk-dublin-1-dublin-city",
+      "page_verified": true,
+      "notes": "National CSV NAME contains replacement characters; use the verified official page title separately.",
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010332",
+      "display_name": "Reservations Network Ltd",
+      "display_address": "13 Bachelor's Walk, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010332",
+      "page_verified": false,
+      "notes": "Canonical individual NIAH page not independently located; hold.",
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010333",
+      "display_name": "Yellow Brick Road",
+      "display_address": "8 Bachelor's Walk, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010333/yellow-brick-road-bachelors-walk-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010334",
+      "display_name": "7 Bachelor's Walk",
+      "display_address": "7 Bachelor's Walk, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010334/7-bachelors-walk-dublin-1-dublin",
+      "page_verified": true,
+      "notes": "National CSV NAME is blank; preserve it as blank and use the official page title separately.",
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010335",
+      "display_name": "Dublin Woollen Mills",
+      "display_address": "41 Ormond Quay Lower, Liffey Street Lower, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010335/dublin-woollen-mills-41-ormond-quay-lower-liffey-street-lower-dublin-1-co-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010336",
+      "display_name": "The Winding Stair",
+      "display_address": "40 Ormond Quay Lower, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010336/the-winding-stair-40-ormond-quay-lower-dublin-1-dublin-city",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010337",
+      "display_name": "Yamamori",
+      "display_address": "39 Ormond Quay Lower, Dublin, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010337/yamamori-39-ormond-quay-lower-dublin-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010339",
+      "display_name": "36-37 Ormond Quay Lower",
+      "display_address": "36-37 Ormond Quay Lower, Dublin, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010339/dublin-city",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010340",
+      "display_name": "Bondi Beach Club",
+      "display_address": "34-35 Ormond Quay Lower, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010340/bondi-beach-club-34-35-ormond-quay-lower-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010341",
+      "display_name": "Unicef",
+      "display_address": "33 Ormond Quay Lower, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010341/unicef-ormond-quay-lower-dublin-1-dublin-city",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010342",
+      "display_name": "Zulu Tattoo",
+      "display_address": "32 Ormond Quay Lower, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010342",
+      "page_verified": false,
+      "notes": "Canonical individual NIAH page not independently located; hold.",
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010343",
+      "display_name": "29 Ormond Quay Lower",
+      "display_address": "29 Ormond Quay Lower, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010343/29-ormond-quay-lower-dublin-1-dublin",
+      "page_verified": true,
+      "notes": "National CSV NAME is blank; use the official page title separately.",
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010344",
+      "display_name": "23 Ormond Quay Lower",
+      "display_address": "23 Ormond Quay Lower, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010344",
+      "page_verified": false,
+      "notes": "National CSV NAME is blank; canonical individual NIAH page not independently located; hold.",
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010345",
+      "display_name": "Morrison Hotel",
+      "display_address": "15 Ormond Quay Lower, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010345/morrison-hotel-15-ormond-quay-lower-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010346",
+      "display_name": "Morrison Hotel",
+      "display_address": "14 Ormond Quay Lower, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010346/morrison-hotel-14-ormond-quay-lower-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010347",
+      "display_name": "Evad",
+      "display_address": "13 Ormond Quay Lower, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010347/evad-13-ormond-quay-lower-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010348",
+      "display_name": "Marcus A. Lynch & Son",
+      "display_address": "12 Ormond Quay Lower, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010348/marcus-a-lynch-son-12-ormond-quay-lower-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010349",
+      "display_name": "Ormond Court",
+      "display_address": "11-11A Ormond Quay Lower, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010349/ormond-court-11-11a-ormond-quay-lower-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010350",
+      "display_name": "10 Ormond Quay Lower",
+      "display_address": "10 Ormond Quay Lower, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010350/10-ormond-quay-lower-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010351",
+      "display_name": "9 Ormond Quay Lower",
+      "display_address": "9 Ormond Quay Lower, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010351/ormond-quay-lower-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010353",
+      "display_name": "Clone Ireland",
+      "display_address": "6 Ormond Quay Lower, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010353/clone-ireland-6-ormond-quay-lower-dublin-1-co-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010354",
+      "display_name": "Angel Cruiser",
+      "display_address": "5 Ormond Quay Lower, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010354",
+      "page_verified": false,
+      "notes": "Canonical individual NIAH page not independently located; hold.",
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010355",
+      "display_name": "4 Ormond Quay Lower",
+      "display_address": "4 Ormond Quay Lower, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010355/4-ormond-quay-lower-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010356",
+      "display_name": "3 Ormond Quay Lower",
+      "display_address": "3 Ormond Quay Lower, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010356/ormond-quay-lower-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010357",
+      "display_name": "Bowler Geraghty & Co. Solicitors",
+      "display_address": "2 Ormond Quay Lower, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010357/bowler-geraghty-co-solicitors-ormond-quay-lower-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010358",
+      "display_name": "Zeus",
+      "display_address": "1B Ormond Quay Lower, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010358",
+      "page_verified": false,
+      "notes": "Canonical individual NIAH page not independently located; hold.",
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010359",
+      "display_name": "1-1A Ormond Quay Lower, Capel Street",
+      "display_address": "1-1A Ormond Quay Lower, Capel Street, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010359/ormond-quay-lower-capel-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010360",
+      "display_name": "Soup Dragon",
+      "display_address": "168 Capel Street, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010360/soup-dragon-168-capel-street-dublin-1-co-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010361",
+      "display_name": "Jack Nealon",
+      "display_address": "165-166 Capel Street, Little Strand Street, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010361/jack-nealon-dublin-city",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010362",
+      "display_name": "Slovakia Shop",
+      "display_address": "2 Capel Street, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010362/slovakia-shop-capel-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010363",
+      "display_name": "House of Colour Creative Hairdressing",
+      "display_address": "3 Capel Street, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010363",
+      "page_verified": false,
+      "notes": "Canonical individual NIAH page not independently located; hold.",
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010364",
+      "display_name": "Boutiqua",
+      "display_address": "4 Capel Street, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010364/boutiqua-4-capel-street-dublin-1-co-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010365",
+      "display_name": "Boland Ryan Ltd Insurance Brokers",
+      "display_address": "5 Capel Street, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010365",
+      "page_verified": false,
+      "notes": "Canonical individual NIAH page not independently located; hold.",
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010366",
+      "display_name": "Beds R Us",
+      "display_address": "6 Capel Street, Great Strand Street, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010366/beds-r-us-6-capel-street-great-strand-street-dublin-1-co-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010367",
+      "display_name": "Pantibar",
+      "display_address": "7-8 Capel Street, Great Strand Street, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010367/pantibar-7-8-capel-street-great-strand-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": "National CSV NUMBER is malformed/date-like '07-Aug'; preserve it verbatim and use official page address separately.",
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010369",
+      "display_name": "Gerald Kenyon Fine Art & Antiques",
+      "display_address": "10 Strand Street Great, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010369/10-strand-street-great-dublin-1-co-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010370",
+      "display_name": "Strand Street Institute",
+      "display_address": "66-67 Strand Street Great, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010370/strand-street-institute-strand-street-great-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010371",
+      "display_name": "Zulu Tattoo/Accident & General Travel Insurance/Language Communications Company Ltd",
+      "display_address": "25-28 Strand Street Great, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010371/zulu-tattoo-accident-general-travel-insurance-language-communications-company-ltd-25-28-strand-street-great-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010373",
+      "display_name": "The Lotts",
+      "display_address": "9 Liffey Street Lower, North Lotts, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010373/the-lotts-dublin-city",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010374",
+      "display_name": "Litton Lane Hostel",
+      "display_address": "Litton Lane, The Lotts, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010374/litton-lane-hostel-litton-lane-the-lotts-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010375",
+      "display_name": "Elvery and Company",
+      "display_address": "45-46 O'Connell Street Lower, Abbey Street Middle, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010375/elvery-and-company-45-46-oconnell-street-lower-abbey-street-middle-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010376",
+      "display_name": "Bookworms/Café Manila/Ladbrokes/Delfin English School/C.J. Osborne & Son",
+      "display_address": "73-75 Abbey Street Middle, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010376/bookworms-cafe-manila-ladbrokes-delfin-english-school-c-j-osborne-son-73-75-abbey-street-middle-dublin-1-dublin",
+      "page_verified": true,
+      "notes": "National CSV NAME contains replacement characters in Café; official individual page title supplies display spelling.",
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010377",
+      "display_name": "Net House/Bar Beige Ltd",
+      "display_address": "72 Abbey Street Middle, North Lotts, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010377/net-house-bar-beige-ltd-72-abbey-street-middle-north-lotts-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010378",
+      "display_name": "Terrisales Hairdressing Services Ltd",
+      "display_address": "71 Abbey Street Middle, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010378/terrisales-hairdressing-services-ltd-71-abbey-street-middle-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010379",
+      "display_name": "The Office Centre",
+      "display_address": "70 Abbey Street Middle, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010379/the-office-centre-70-abbey-street-middle-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010380",
+      "display_name": "New York Cleaners",
+      "display_address": "69 Middle Abbey Street, Dublin, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010380/new-york-cleaners-69-middle-abbey-street-dublin-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010381",
+      "display_name": "New York",
+      "display_address": "68 Abbey Street Middle, Dublin, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010381",
+      "page_verified": false,
+      "notes": "Canonical individual NIAH page not independently located; hold.",
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010382",
+      "display_name": "CRU",
+      "display_address": "67 Middle Abbey Street, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010382/cru-67-middle-abbey-street-dublin-1-co-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    },
+    {
+      "registration": "50010383",
+      "display_name": "Alto Food",
+      "display_address": "66 Middle Abbey Street, Dublin 1, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010383/alto-food-66-middle-abbey-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null,
+      "known_distinct_neighbours": []
+    }
+  ]
+}

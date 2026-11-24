@@ -33,7 +33,7 @@ for(const c of input.candidates){
  const hits=qmap.get(c.registration)||[];if(hits.length!==1)throw new Error("Expected one latest official queue row for "+c.registration+"; found "+hits.length);
  const r=hits[0],required=["REG_NO","ORIGINAL_TYPE","DESCRIPTION","DATEFROM","DATETO","RATING","ITM_E","ITM_N","LATITUDE","LONGITUDE","WEBSITE_LINK","COUNTY","LOCAL_AUTHORITY�"];
  for(const k of required)if(!clean(r[k]))throw new Error(c.registration+" missing official CSV field "+k);
- if(clean(r.REG_NO)!==c.registration||!/^\\d{8}$/.test(clean(r.REG_NO)))throw new Error("Registration mismatch "+c.registration);
+ if(clean(r.REG_NO)!==c.registration||!/^[0-9]{8}$/.test(clean(r.REG_NO)))throw new Error("Registration mismatch "+c.registration);
  if(clean(r.COUNTY).toUpperCase()!=="DUBLIN"||!AUTHORITIES.includes(clean(r["LOCAL_AUTHORITY�"])))throw new Error("Unexpected Dublin authority "+c.registration);
  const lat=Number(r.LATITUDE),lon=Number(r.LONGITUDE),e=Number(r.ITM_E),n=Number(r.ITM_N);
  if(![lat,lon,e,n].every(Number.isFinite)||lat<51||lat>56||lon< -11||lon> -5||e<=0||e>900000||n<=0||n>900000)throw new Error("Invalid official coordinates "+c.registration);
@@ -52,7 +52,7 @@ for(const c of input.candidates){
  }
  const sid="NIAH-"+c.registration,existing=sourceById.get(sid);
  if(existing)conflicts.push({registration:c.registration,type:clean(existing.url)===c.official_page?"existing_source_id":"conflicting_source_id",record_id:sid});
- if(visualIds.has(c.registration))conflicts.push({registration:c.registration,type:"visual_id_collision"});
+ 
  for(const old of objects){const la=Number(old.latitude),lo=Number(old.longitude);if(Number.isFinite(la)&&Number.isFinite(lo)){const d=distance(lat,lon,la,lo);if(d<=20)proximity.push({registration:c.registration,nearby_archive_id:old.id,nearby_name:old.name,distance_m:Math.round(d*10)/10,known_distinct_neighbour:(c.known_distinct_neighbours||[]).includes(clean(old.national_inventory_reference))});}}
  prepared.push({candidate:c,row:r,lat,lon,e,n,address,district:districtFor(r),description,appraisal,sourceId:sid});
 }
@@ -62,7 +62,7 @@ for(const p of prepared){if(conflicts.some(x=>x.registration===p.candidate.regis
 const newObjects=[],newSources=[],newVisuals=[],results=[];
 for(const p of prepared){
  const c=p.candidate,r=p.row,reg=c.registration,category=categoryFor(r.ORIGINAL_TYPE),prefix=prefixFor(category);
- maxIds[prefix]=(maxIds[prefix]||0)+1;const id="DUB-"+prefix+"-"+String(maxIds[prefix]).padStart(4,"0");if(usedIds.has(id))throw new Error("Archive ID collision "+id);usedIds.add(id);
+ maxIds[prefix]=(maxIds[prefix]||0)+1;const id="DUB-"+prefix+"-"+String(maxIds[prefix]).padStart(4,"0");if(usedIds.has(id)||visualIds.has(id))throw new Error("Archive or visual ID collision "+id);usedIds.add(id);
  const csvName=clean(r.NAME),rating=clean(r.RATING),special=clean(r.CSI),period=dateRange(r),lat=p.lat,lon=p.lon;
  const object={id,name:c.display_name,category,district:p.district,address:p.address,historical_period:period,historical_description:p.description,historical_significance:p.appraisal||("NIAH rating: "+rating+". Special interest categories: "+(special||"not stated")+"."),
   national_inventory_reference:reg,national_grid_reference:null,latitude:lat,longitude:lon,

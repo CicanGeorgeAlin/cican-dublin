@@ -67,7 +67,7 @@ for (const c of manifest.candidates) {
   }
 
   const csvName = clean(row.NAME), csvNumber = clean(row.NUMBER);
-  if (JSON.stringify(row).includes("\uFFFD")) {
+  if (Object.values(row).some(value => String(value ?? "").includes("\uFFFD"))) {
     sourceAnomalies.push({ registration: c.registration, issue: "Official national CSV row contains U+FFFD replacement character; preserve raw source values and use only individually verified transcription for display.", csv_name: csvName, csv_number: csvNumber });
   }
   if (c.notes) sourceAnomalies.push({ registration: c.registration, issue: c.notes, csv_name: csvName, csv_number: csvNumber });

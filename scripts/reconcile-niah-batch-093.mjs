@@ -61,18 +61,28 @@ for(const c of packet.candidates){
   }
  }
 }
+const knownDistinctNeighbours={
+ "50010262":[{archive_id:"DUB-BLD-0006",niah_registration:"50010218",decision:"KNOWN_DISTINCT_NEIGHBOUR",evidence:"NIAH 50010218 is 23 Marlborough Street, a different late eighteenth-century two-bay house. Candidate 50010262 is the separately registered c.1750 house at 92 Marlborough Street."}],
+ "50010263":[{archive_id:"DUB-BLD-0006",niah_registration:"50010218",decision:"KNOWN_DISTINCT_NEIGHBOUR",evidence:"NIAH 50010218 is 23 Marlborough Street, a different late eighteenth-century two-bay house. Candidate 50010263 is the separately registered c.1750 house at 93 Marlborough Street."}]
+};
+const knownDistinctIntraBatch=[
+ {registration:"50010262",related_registration:"50010263",decision:"KNOWN_DISTINCT_NEIGHBOURS",evidence:"92 and 93 Marlborough Street are separate consecutive addresses with separate NIAH registrations 50010262 and 50010263; both official pages describe one of a pair of c.1750 houses."}
+];
+const unresolvedProximity=proximity.filter(p=>!(knownDistinctNeighbours[p.registration]||[]).some(n=>n.archive_id===p.archive_id&&n.decision==="KNOWN_DISTINCT_NEIGHBOUR"));
+const unresolvedIntraBatch=intraBatchProximity.filter(p=>!knownDistinctIntraBatch.some(n=>n.registration===p.registration&&n.related_registration===p.related_registration&&n.decision==="KNOWN_DISTINCT_NEIGHBOURS"));
 const blocking=exactRegistrationMatches.length||exactAddressMatches.length||sourceIdMatches.length||sameBatchAddressMatches.length;
 const report={
  batch:"093",generated_at:new Date().toISOString(),
- decision:blocking?"HOLD":(proximity.length||intraBatchProximity.length)?"READY_FOR_MANUAL_PROXIMITY_REVIEW":"READY_FOR_INDEPENDENT_REVIEW",
+ decision:blocking?"HOLD":(unresolvedProximity.length||unresolvedIntraBatch.length)?"READY_FOR_MANUAL_PROXIMITY_REVIEW":"READY_FOR_INDEPENDENT_REVIEW",
  queue:{entries:queue.length,selected_registrations:packet.candidates.map(x=>x.registration),all_five_present_exactly_once:true},
  catalogues:{master_object_count:objects.length,public_niah_count:publicNiah.length,source_count:sources.length,visual_record_count:visual.records.length,official_register_audit_matches:officialAudit.all_records_matched},
  duplicate_screen:{exact_registration_matches:exactRegistrationMatches,exact_address_matches:exactAddressMatches,exact_name_matches:exactNameMatches,source_id_matches:sourceIdMatches,same_batch_address_matches:sameBatchAddressMatches},
- coordinate_proximity_review:proximity.sort((a,b)=>a.registration.localeCompare(b.registration)||a.distance_m-b.distance_m),
- intra_batch_proximity_review:intraBatchProximity.sort((a,b)=>a.registration.localeCompare(b.registration)||a.distance_m-b.distance_m),
+ coordinate_proximity_review:proximity.sort((a,b)=>a.registration.localeCompare(b.registration)||a.distance_m-b.distance_m).map(p=>({...p,known_distinct_neighbours:knownDistinctNeighbours[p.registration]||[]})),
+ intra_batch_proximity_review:intraBatchProximity.sort((a,b)=>a.registration.localeCompare(b.registration)||a.distance_m-b.distance_m).map(p=>({...p,manual_decision:(knownDistinctIntraBatch.find(n=>n.registration===p.registration&&n.related_registration===p.related_registration)||{}).decision??"UNREVIEWED",manual_evidence:(knownDistinctIntraBatch.find(n=>n.registration===p.registration&&n.related_registration===p.related_registration)||{}).evidence??null})),
+ manual_review:{unresolved_existing_proximity_count:unresolvedProximity.length,unresolved_intra_batch_proximity_count:unresolvedIntraBatch.length,requires_individual_identity_comparison:!!(unresolvedProximity.length||unresolvedIntraBatch.length),reviewed_neighbours:packet.manual_proximity_review},
  source_anomalies:packet.source_controls,
  safeguards:["Queue membership and the official local-authority field are required; address or registration sequence alone is not evidence.","National CSV ITM (EPSG:2157) and WGS84 coordinates remain separate.","Raw page coordinate pairs are retained separately and no CRS is inferred.","CSV NAME and NUMBER values are preserved verbatim even when blank or malformed.","No candidate is imported, assigned a permanent archive ID, or published by this research batch.","Existing-object and intra-batch nearby records are reported for manual identity review; proximity alone is not a duplicate."]
 };
 await fs.writeFile("audit/batch-093-candidate-reconciliation.json",JSON.stringify(report,null,2)+"\n");
-console.log(JSON.stringify({decision:report.decision,queue:report.queue,catalogues:report.catalogues,duplicate_screen:report.duplicate_screen,existing_nearby_count:proximity.length,intra_batch_nearby_count:intraBatchProximity.length},null,2));
+console.log(JSON.stringify({decision:report.decision,queue:report.queue,catalogues:report.catalogues,duplicate_screen:report.duplicate_screen,existing_nearby_count:proximity.length,intra_batch_nearby_count:intraBatchProximity.length,unresolved_existing_nearby_count:unresolvedProximity.length,unresolved_intra_batch_nearby_count:unresolvedIntraBatch.length},null,2));
 if(blocking)throw new Error("Batch 093 has a blocking exact duplicate/provenance conflict; see reconciliation report.");

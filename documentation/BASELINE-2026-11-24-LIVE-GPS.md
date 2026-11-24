@@ -8,13 +8,18 @@
 
 - Browser Geolocation API with `watchPosition()`, high-accuracy request and fresh fixes.
 - Live blue position marker and map follow.
-- Smooth animation between location fixes, with short dead-reckoning projection capped at 3.5 seconds.
-- Coordinate and accuracy readout represents the latest actual device GPS fix, not the projected marker position.
+- The displayed marker uses accepted GPS fixes with stationary-position gating and bounded coordinate smoothing.
+- Speculative marker dead-reckoning between GPS fixes is disabled; the displayed marker is not intentionally projected ahead using reported speed or heading.
+- GPS session exports retain raw accepted coordinates and reported accuracy separately from the filtered display position.
 - Tracking can be stopped; the watch and animation frame are cancelled.
 - No location history is uploaded or stored by this feature.
 - Live GPS does not overwrite archive coordinates or mark heritage records as field-verified.
 
 ## Verification evidence
+
+- The current deployed implementation includes the PR #82 stability changes merged as `78ae8d71cf0896fd04bf76d925bd59b2eb914215`.
+- Main-branch `Validate CICAN DUBLIN`, `Archive quality gate` and `pages build and deployment` workflows all completed successfully for that commit.
+- Automated checks establish software behaviour, not ground-truth GPS accuracy. The new stationary filter and compass camera behaviour still require repeatable outdoor field tests on the target phone.
 
 - Founder supplied a real-device screenshot showing live GPS active, coordinates **53.362256, -6.272746**, and reported horizontal accuracy **±3 m**.
 - Automated GPS integration tests and repository quality workflow passed.

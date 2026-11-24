@@ -69,8 +69,8 @@ test("Valhalla polyline6 decoder accurately restores route coordinates", () => {
 });
 
 test("app cache is refreshed for the navigation release", () => {
-  assert.match(sw, /cican-dublin-app-v66/);
-  assert.match(rootSw, /cican-dublin-root-v25/);
+  assert.match(sw, /cican-dublin-app-v67/);
+  assert.match(rootSw, /cican-dublin-root-v26/);
 });
 
 
@@ -184,4 +184,25 @@ test("route matching does not regress behind accepted progress",()=>{
   const cumulative=context.routeCumulativeDistances(coordinates);
   const result=context.nearestRouteProgress({latitude:53.3500,longitude:-6.2598},coordinates,cumulative,0,{minimumProgressMetres:25,maximumProgressMetres:100});
   assert.ok(result.progressMetres>=25-8,"GPS jitter must not pull route progress backwards");
+});
+
+test("heading-up navigation uses compass heading, smooths wraparound and respects screen rotation",()=>{
+  const start=app.indexOf("function normalizeCompassHeading");
+  const end=app.indexOf("function updateHeadingCamera",start);
+  assert.ok(start>=0&&end>start,"compass heading helpers must be present");
+  const context={window:{screen:{orientation:{angle:90}}}};
+  vm.createContext(context);
+  vm.runInContext(app.slice(start,end),context);
+  assert.equal(context.normalizeCompassHeading({absolute:true,alpha:180}),270);
+  assert.equal(context.normalizeCompassHeading({webkitCompassHeading:270}),0);
+  assert.equal(context.normalizeCompassHeading({absolute:false,alpha:90}),null);
+  assert.ok(context.smoothCompassHeading(359,1)<361&&context.smoothCompassHeading(359,1)>359,"compass smoothing must cross north by the short arc");
+});
+test("heading-up control requests sensor permission from a user control and leaves GPS route matching separate",()=>{
+  assert.ok(html.includes('id="navigation-heading-toggle"'));
+  assert.match(app,/DeviceOrientationEvent\.requestPermission\(\)/);
+  assert.match(app,/deviceorientationabsolute/);
+  assert.match(app,/state\.navigationHeadingUp&&Number\.isFinite\(state\.navigationDeviceHeading\)/);
+  assert.match(app,/updateNavigationProgress\(position\)/);
+  assert.match(app,/setHeadingUpEnabled\(false\);state\.navigationRoute=null/);
 });

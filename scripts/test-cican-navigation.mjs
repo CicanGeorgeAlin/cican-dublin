@@ -69,8 +69,8 @@ test("Valhalla polyline6 decoder accurately restores route coordinates", () => {
 });
 
 test("app cache is refreshed for the navigation release", () => {
-  assert.match(sw, /cican-dublin-app-v61/);
-  assert.match(rootSw, /cican-dublin-root-v20/);
+  assert.match(sw, /cican-dublin-app-v62/);
+  assert.match(rootSw, /cican-dublin-root-v21/);
 });
 
 

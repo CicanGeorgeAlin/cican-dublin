@@ -123,7 +123,9 @@ test("live GPS starts high-accuracy watch, updates marker/readout, and stops cle
   assert.deepEqual(h.calls.clearWatch, [17]);
   assert.equal(h.calls.markerRemoved, true);
   assert.equal(h.pendingFrames(), 0, "stopping tracking must cancel animation frames");
-  assert.equal(h.panel.hidden, true);
+  assert.equal(h.panel.hidden, false, "completed GPS samples remain available for export after tracking stops");
+  assert.match(h.panel.innerHTML,/EXPORT GPS TEST CSV/);
+  assert.equal(h.state.locationSessionSamples.length,2);
   assert.equal(h.button.attrs["aria-pressed"], "false");
 });
 

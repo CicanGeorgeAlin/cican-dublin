@@ -606,7 +606,7 @@ body.photo-viewer-open{overflow:hidden}
 .live-location-heading{display:flex;align-items:center;gap:7px;font-size:8px;font-weight:800;letter-spacing:.16em;color:#a9caff}
 .live-location-heading i{width:6px;height:6px;border-radius:50%;background:#3988ff;box-shadow:0 0 10px #3988ff}
 .live-location-coords{font:12px/1.3 ui-monospace,monospace;letter-spacing:.02em}
-.live-location-accuracy{font-size:8px;color:#aaa;letter-spacing:.04em}
+.live-location-accuracy{font-size:8px;color:#aaa;letter-spacing:.04em}.live-location-readout[data-quality="high-confidence"]{border-color:#5d9d72}.live-location-readout[data-quality="usable"]{border-color:#8c8c64}.live-location-readout[data-quality="weak-signal"],.live-location-readout[data-quality="low-confidence"]{border-color:#a8794c}.live-location-readout[data-quality="low-confidence"] .live-location-heading{color:#e2ae78}
 #locate-button.is-tracking{color:#9fc6ff;border-color:#3988ff;box-shadow:0 0 0 2px #3988ff35,0 0 20px #3988ff35}
 @media(max-width:850px){.live-location-readout{right:12px;bottom:128px;padding:9px 11px}.live-location-coords{font-size:10px}}
 @media(prefers-reduced-motion:reduce){.user-location-marker.live:after{animation:none}}

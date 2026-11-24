@@ -107,7 +107,7 @@ for (const c of manifest.candidates) {
     const hit = { registration: c.registration, source_id: "NIAH-" + c.registration };
     sourceIdMatches.push(hit); blocking.push({ type: "source_id", ...hit });
   }
-  selectedRows.push({ registration: c.registration, display_name: displayName, display_address: displayAddress, source_name_raw: row.NAME ?? "", source_number_raw: row.NUMBER ?? "", source_street1_raw: row.STREET1 ?? "", source_street2_raw: row.STREET2 ?? "", address_key: candidateAddressKey, name_key: candidateNameKey, latitude: lat, longitude: lon, itm_e: itmE, itm_n: itmN, page_verified: c.page_verified, known_distinct_neighbours: c.known_distinct_neighbours ?? [] });
+  selectedRows.push({ registration: c.registration, display_name: displayName, display_address: displayAddress, source_name_raw: row.NAME ?? "", source_number_raw: row.NUMBER ?? "", source_street1_raw: row.STREET1 ?? "", source_street2_raw: row.STREET2 ?? "", address_key: candidateAddressKey, name_key: candidateNameKey, latitude: lat, longitude: lon, itm_e: itmE, itm_n: itmN, page_verified: c.page_verified, known_distinct_neighbours: c.known_distinct_neighbours ?? [], distinct_neighbour_reason: c.distinct_neighbour_reason ?? null });
 }
 
 for (let i = 0; i < selectedRows.length; i++) {
@@ -117,7 +117,7 @@ for (let i = 0; i < selectedRows.length; i++) {
     if (metres <= 30) candidateProximity.push({ registration: a.registration, related_registration: b.registration, distance_m: Math.round(metres * 10) / 10 });
     if (a.address_key === b.address_key) {
       const known = a.known_distinct_neighbours.includes(b.registration) && b.known_distinct_neighbours.includes(a.registration);
-      if (known) documentedAddressRelationships.push({ registration: a.registration, related_registration: b.registration, address: a.display_address, relationship: "Documented separately registered connected structures: Scots Presbyterian Hall and Scots Presbyterian Church." });
+      if (known) documentedAddressRelationships.push({ registration: a.registration, related_registration: b.registration, address: a.display_address, relationship: a.distinct_neighbour_reason || b.distinct_neighbour_reason || "Separately registered structures; see the batch review document." });
       else {
         const hit = { registration: a.registration, related_registration: b.registration, address: a.display_address };
         sameBatchAddressMatches.push(hit); blocking.push({ type: "same_batch_address", ...hit });

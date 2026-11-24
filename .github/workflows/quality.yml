@@ -39,6 +39,8 @@ jobs:
         run: node scripts/publish-niah-batches-087-089.mjs --check
       - name: Reconcile Batch 058 and 059 research candidates against complete catalogues and official CSV
         run: node scripts/reconcile-niah-batches-058-059.mjs
+      - name: Reconcile Batch 091 candidates against the full catalogue and refreshed official queue
+        run: node scripts/reconcile-niah-batch-091.mjs
       - name: Upload official NIAH audit reports and review queue
         uses: actions/upload-artifact@v4
         with:
@@ -49,4 +51,5 @@ jobs:
             audit/niah-dublin-missing-registrations.json
             audit/niah-batches-058-059-candidate-reconciliation.json
             audit/niah-batches-087-089-publication-preflight.json
+            audit/batch-091-candidate-reconciliation.json
           if-no-files-found: error

@@ -10,6 +10,9 @@ const css = fs.readFileSync(new URL("../preview/app/app.css", import.meta.url), 
 function makeHarness() {
   const callbacks = {};
   const calls = { watchOptions: null, clearWatch: [], mapMoves: [], markerPositions: [], markerRemoved: false };
+  let now = 1000;
+  let nextFrameId = 0;
+  const frames = new Map();
   const coords = { latitude: "", longitude: "", accuracy: "" };
   const panel = {
     hidden: true,
@@ -37,10 +40,10 @@ function makeHarness() {
     },
     querySelector(selector) { return selector === ".map-stage" ? stage : null; }
   };
-  const map = { easeTo(options) { calls.mapMoves.push(options); } };
+  const map = { setCenter(point) { calls.mapMoves.push([...point]); } };
   const state = {
     map, locationWatchId: null, locationTracking: false, userMarker: null,
-    nearbyOrigin: null
+    locationAnimationFrame: null, locationLastFix: null, locationMotion: null, locationLastFrame: 0, nearbyOrigin: null
   };
   class Marker {
     setLngLat(point) { calls.markerPositions.push(point); return this; }
@@ -63,14 +66,20 @@ function makeHarness() {
     window: { maplibregl: {} },
     maplibregl: { Marker },
     $: id => elements[id],
-    console, Date
+    console, Date, performance: { now: () => now },
+    requestAnimationFrame(callback) { const id = ++nextFrameId; frames.set(id, callback); return id; },
+    cancelAnimationFrame(id) { frames.delete(id); }
   };
   const start = app.indexOf("function updateLiveLocationReadout");
   const end = app.indexOf("function loadMapLibraryFallback", start);
   assert.ok(start >= 0 && end > start, "live GPS functions must exist in the map application");
   vm.createContext(context);
   vm.runInContext(app.slice(start, end), context);
-  return { context, callbacks, calls, coords, panel, button, status, state };
+  return {
+    context, callbacks, calls, coords, panel, button, status, state,
+    advanceFrame(time) { now = time; const entry = frames.entries().next().value; assert.ok(entry, "a live animation frame should be queued"); frames.delete(entry[0]); entry[1](time); },
+    pendingFrames: () => frames.size
+  };
 }
 
 test("map HTML exposes the live GPS control and loads the feature script", () => {
@@ -91,12 +100,14 @@ test("live GPS starts high-accuracy watch, updates marker/readout, and stops cle
   assert.match(h.status.textContent, /WAITING FOR LIVE GPS FIX/);
 
   const fix = {
-    coords: { latitude: 53.123456, longitude: -6.123456, accuracy: 8.4 },
+    coords: { latitude: 53.123456, longitude: -6.123456, accuracy: 8.4, speed: 20, heading: 90 },
     timestamp: 1795500000000
   };
   h.callbacks.success(fix);
   assert.equal([...h.calls.markerPositions[0]].join(","), "-6.123456,53.123456");
-  assert.equal([...h.calls.mapMoves[0].center].join(","), "-6.123456,53.123456");
+  h.advanceFrame(1034);
+  assert.ok(h.calls.mapMoves.length > 0, "the map should follow the animation frame");
+  assert.ok(h.calls.mapMoves[0][0] > -6.123456, "the marker should move east between GPS fixes");
   assert.equal(h.coords.coordinates, "53.123456, -6.123456");
   assert.match(h.coords.accuracy, /±8 m/);
   assert.equal(h.panel.hidden, false);
@@ -104,11 +115,13 @@ test("live GPS starts high-accuracy watch, updates marker/readout, and stops cle
 
   h.callbacks.success({ ...fix, coords: { ...fix.coords, latitude: 53.2, longitude: -6.2 } });
   assert.equal(h.calls.markerPositions.length, 2, "later GPS fixes must move the same marker");
+  assert.ok(h.pendingFrames() > 0, "the marker animation should keep running between fixes");
 
   h.context.toggleLiveLocationTracking();
   assert.equal(h.state.locationTracking, false);
   assert.deepEqual(h.calls.clearWatch, [17]);
   assert.equal(h.calls.markerRemoved, true);
+  assert.equal(h.pendingFrames(), 0, "stopping tracking must cancel animation frames");
   assert.equal(h.panel.hidden, true);
   assert.equal(h.button.attrs["aria-pressed"], "false");
 });

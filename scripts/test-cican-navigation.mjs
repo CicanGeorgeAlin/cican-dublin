@@ -69,8 +69,8 @@ test("Valhalla polyline6 decoder accurately restores route coordinates", () => {
 });
 
 test("app cache is refreshed for the navigation release", () => {
-  assert.match(sw, /cican-dublin-app-v59/);
-  assert.match(rootSw, /cican-dublin-root-v18/);
+  assert.match(sw, /cican-dublin-app-v60/);
+  assert.match(rootSw, /cican-dublin-root-v19/);
 });
 
 
@@ -121,4 +121,18 @@ test("live GPS does not pull the map away from the complete walking route", () =
 test("hidden route summary can be reopened from the map", () => {
   assert.ok(html.includes('id="show-cican-navigation"'));
   assert.ok(app.includes('if(show)show.addEventListener("click",()=>{$("navigation-panel").hidden=false;show.hidden=true;})'));
+});
+
+test("Stage 2 live navigation calculates route progress, next maneuver and off-route recovery", () => {
+  assert.match(app, /function nearestRouteProgress/);
+  assert.match(app, /function updateNavigationProgress/);
+  assert.match(app, /progress\.distance>55/);
+  assert.match(app, /requestWalkingNavigation\(route\.destinationId,\{silent:true\}\)/);
+  assert.match(app, /function followNavigationCamera/);
+  assert.match(app, /pitch:48/);
+  assert.match(app, /followNavigationCamera\(point,heading,speed\)/);
+  assert.ok(html.includes('id="navigation-next-turn"'));
+  assert.ok(html.includes('id="navigation-next-distance"'));
+  assert.ok(html.includes('id="navigation-follow-toggle"'));
+  assert.ok(css.includes(".navigation-next-turn"));
 });

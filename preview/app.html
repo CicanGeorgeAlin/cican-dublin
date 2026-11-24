@@ -12,7 +12,7 @@
 <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
 <link rel="manifest" href="./manifest.webmanifest">
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.css">
-<link rel="stylesheet" href="./app/app.css?v=map-first-nav-ui-20261124">
+<link rel="stylesheet" href="./app/app.css?v=stage-2-live-guidance-20261124">
 <title>CICAN DUBLIN — Interactive Dublin Heritage Map</title>
 </head>
 <body>
@@ -41,7 +41,7 @@
  <section class="map-stage" aria-label="Interactive heritage map">
   <div id="map" role="application" aria-label="Map of Dublin heritage locations"></div>
   <section id="location-peek" class="location-peek" hidden aria-live="polite"></section>
-  <section class="navigation-panel" id="navigation-panel" hidden aria-label="CICAN walking navigation"><div class="navigation-panel-head"><div><span class="editorial-label">CICAN WALKING NAVIGATION</span><strong id="navigation-summary"></strong></div><div class="navigation-panel-actions"><button id="hide-cican-navigation" type="button">HIDE</button><button id="clear-cican-route" type="button">END ROUTE</button></div></div><p id="navigation-status" aria-live="polite">Ready to calculate a walking route.</p><details class="navigation-directions"><summary>VIEW ALL WALKING DIRECTIONS</summary><ol id="navigation-steps"></ol></details><p class="navigation-attribution">Walking route by Valhalla · © OpenStreetMap contributors. Live GPS and destination coordinates are sent to the community routing service for this request.</p></section>
+  <section class="navigation-panel" id="navigation-panel" hidden aria-label="CICAN walking navigation"><div class="navigation-panel-head"><div><span class="editorial-label">CICAN WALKING NAVIGATION</span><strong id="navigation-summary"></strong></div><div class="navigation-panel-actions"><button id="hide-cican-navigation" type="button">HIDE</button><button id="clear-cican-route" type="button">END ROUTE</button></div></div><div class="navigation-next-turn"><span class="editorial-label">UP NEXT</span><strong id="navigation-next-turn">Waiting for route…</strong><span id="navigation-next-distance">—</span></div><p id="navigation-status" aria-live="polite">Ready to calculate a walking route.</p><label class="navigation-follow-toggle"><input id="navigation-follow-toggle" type="checkbox" checked> FOLLOW MY POSITION</label><details class="navigation-directions"><summary>VIEW ALL WALKING DIRECTIONS</summary><ol id="navigation-steps"></ol></details><p class="navigation-attribution">Walking route by Valhalla · © OpenStreetMap contributors. Live GPS and destination coordinates are sent to the community routing service for this request.</p></section>
   <button id="show-cican-navigation" class="navigation-reopen" type="button" hidden>SHOW WALKING ROUTE</button>
   <div class="map-overlay top-left">
    <label class="search-box"><span>⌕</span><input id="search" type="search" placeholder="Find a place, street or detail…" autocomplete="off"><kbd>/</kbd></label>
@@ -84,6 +84,6 @@
 <a class="sr-only" href="./my-dublin.html">My Dublin notebook</a>
 </div>
 <script src="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.js" defer></script>
-<script src="./app/app.js?v=map-first-nav-ui-20261124" defer></script>
+<script src="./app/app.js?v=stage-2-live-guidance-20261124" defer></script>
 </body>
 </html>

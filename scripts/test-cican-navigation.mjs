@@ -69,8 +69,8 @@ test("Valhalla polyline6 decoder accurately restores route coordinates", () => {
 });
 
 test("app cache is refreshed for the navigation release", () => {
-  assert.match(sw, /cican-dublin-app-v61/);
-  assert.match(rootSw, /cican-dublin-root-v20/);
+  assert.match(sw, /cican-dublin-app-v62/);
+  assert.match(rootSw, /cican-dublin-root-v21/);
 });
 
 
@@ -135,4 +135,20 @@ test("Stage 2 live navigation calculates route progress, next maneuver and off-r
   assert.ok(html.includes('id="navigation-next-distance"'));
   assert.ok(html.includes('id="navigation-follow-toggle"'));
   assert.ok(css.includes(".navigation-next-turn"));
+});
+
+
+test("one-tap WALK THERE immediately switches to full-map navigation without a manual panel swipe",()=>{
+  assert.match(app,/function activateNavigationMode\(destination\)/);
+  assert.match(app,/activateNavigationMode\(destination\);if\(!state\.locationTracking\|\|!state\.locationLastFix\)/);
+  assert.match(app,/discovery\.hidden=true/);
+  assert.match(app,/if\(nav\)nav\.hidden=false/);
+  assert.match(app,/if\(reopen\)reopen\.hidden=true/);
+  assert.match(app,/maximumAge:5000,timeout:12000/);
+});
+
+test("walking navigation uses shorter camera transitions for faster perceived response",()=>{
+  assert.match(app,/pitch:48,duration:260/);
+  assert.match(app,/maxZoom:17,duration:280/);
+  assert.match(app,/AbortSignal\.timeout\(15000\)/);
 });

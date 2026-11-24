@@ -56,7 +56,9 @@ test("route matching can be constrained to the current progress window",()=>{
 });
 
 test("Stage 2 uses monotonic metre-based progress for turn distance and ETA",()=>{
-  assert.match(app,/route\.progressMetres=Math\.max\(route\.progressMetres\|\|0,progress\.progressMetres\)/);
+  assert.match(app,/route\.progressMetres=Math\.max\(previousProgress,progress\.progressMetres\)/);
+  assert.match(app,/maximumProgressMetres:previousProgress\+forwardWindow/);
+  assert.match(app,/heading,speed,accuracy/);
   assert.match(app,/cumulativeDistances,geometryMetres/);
   assert.match(app,/const nextTurnMetres=Math\.max\(0,\(cumulative\[maneuverPoint\]\|\|0\)-route\.progressMetres\)/);
   assert.match(app,/route\.seconds\*remainingRatio/);

@@ -178,7 +178,9 @@
       "registration": "50010893",
       "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010893",
       "page_verified": false,
-      "display_name": "1 Hardwicke Street / Frederick Street North"
+      "display_name": "1 Hardwicke Street / Frederick Street North",
+      "supplementary_source": "https://www.pleanala.ie/publicaccess/EIAR-NIS/314724/5_EIAR/Volume%203%20Environmental%20Baseline%20and%20Assessment/Chapter%2026%20Architectural%20Heritage.pdf",
+      "notes": "TII MetroLink Architectural Heritage report contains conflicting address associations for NIAH 50010893: 11 Frederick Street North (lines 2845–2849) and 1 Hardwicke Street (lines 3006–3009). Do not resolve by inference; canonical NIAH page and authoritative address must be checked. Keep page hold."
     },
     {
       "registration": "50010894",
@@ -238,7 +240,9 @@
       "registration": "50010903",
       "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010903",
       "page_verified": false,
-      "display_name": "8 Frederick Street North"
+      "display_name": "8 Frederick Street North",
+      "supplementary_source": "https://www.pleanala.ie/publicaccess/EIAR-NIS/314724/5_EIAR/Volume%203%20Environmental%20Baseline%20and%20Assessment/Chapter%2026%20Architectural%20Heritage.pdf",
+      "notes": "TII MetroLink Architectural Heritage report identifies 8 Frederick Street North as NIAH 50010903 (lines 2824–2828); separate NIAH listing extract also identifies 8 Frederick Street North at this registration (lines 112–115). Canonical individual NIAH page remains unverified; keep page hold."
     },
     {
       "registration": "50010904",
@@ -270,7 +274,9 @@
       "registration": "50010908",
       "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010908",
       "page_verified": false,
-      "display_name": "3 Frederick Street North"
+      "display_name": "3 Frederick Street North",
+      "supplementary_source": "https://www.pleanala.ie/publicaccess/EIAR-NIS/302881/EIAR%20%26%20Screening/Volume%202/Appendix_5.3.1_NIAH%20Listing%20Extract.pdf?r=736119",
+      "notes": "NIAH listing extract filed with An Bord Pleanála identifies No. 3 Frederick Street North as NIAH 50010908 (lines 125–127); TII MetroLink report groups 2–5 Frederick Street North and lists 50010908 (lines 2803–2807). Canonical individual NIAH page remains unverified; keep page hold."
     },
     {
       "registration": "50010909",

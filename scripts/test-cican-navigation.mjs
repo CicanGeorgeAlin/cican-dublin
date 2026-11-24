@@ -69,8 +69,8 @@ test("Valhalla polyline6 decoder accurately restores route coordinates", () => {
 });
 
 test("app cache is refreshed for the navigation release", () => {
-  assert.match(sw, /cican-dublin-app-v67/);
-  assert.match(rootSw, /cican-dublin-root-v26/);
+  assert.match(sw, /cican-dublin-app-v68/);
+  assert.match(rootSw, /cican-dublin-root-v27/);
 });
 
 
@@ -205,4 +205,34 @@ test("heading-up control requests sensor permission from a user control and leav
   assert.match(app,/state\.navigationHeadingUp&&Number\.isFinite\(state\.navigationDeviceHeading\)/);
   assert.match(app,/updateNavigationProgress\(position\)/);
   assert.match(app,/setHeadingUpEnabled\(false\);state\.navigationRoute=null/);
+});
+
+test("GPS stationary gating rejects ordinary jitter and uses a bounded display filter",()=>{
+  const start=app.indexOf("function gpsNoiseFloor");
+  const end=app.indexOf("function acceptLiveLocationFix",start);
+  assert.ok(start>=0&&end>start,"GPS stability helpers must be present");
+  const context={};vm.createContext(context);vm.runInContext(app.slice(start,end),context);
+  const floor=context.gpsNoiseFloor(20,20);
+  assert.ok(floor>=4&&floor<=12);
+  assert.equal(context.gpsMovementIsSignificant(5,20,20),false);
+  assert.equal(context.gpsShouldHoldPosition(0,false,8,floor,20),true);
+  assert.equal(context.gpsShouldHoldPosition(1.5,true,8,floor,20),false);
+  assert.ok(context.gpsDisplayAlpha(25)>=0.18&&context.gpsDisplayAlpha(25)<=0.48);
+});
+test("heading camera no longer restarts eased animations for every compass event",()=>{
+  const start=app.indexOf("function smoothCompassHeading");
+  const end=app.indexOf("async function setHeadingUpEnabled",start);
+  assert.ok(start>=0&&end>start);
+  const region=app.slice(start,end);
+  assert.match(region,/0\.42/);
+  assert.match(region,/requestAnimationFrame\(renderHeadingCamera\)/);
+  assert.match(region,/state\.map\.jumpTo\(camera\)/);
+  assert.doesNotMatch(region,/easeTo\(/);
+  assert.match(app,/if\(state\.navigationHeadingUp\)\{queueHeadingCamera\(\);return;\}/);
+});
+test("live GPS marker no longer extrapolates noisy fixes ahead of the measured position",()=>{
+  assert.doesNotMatch(app,/liveProjectedPoint\(motion\.latitude/);
+  assert.match(app,/state\.locationDisplayFix=display/);
+  assert.match(app,/gpsShouldHoldPosition\(/);
+  assert.match(app,/state\.userMarker\.setLngLat\(point\)/);
 });

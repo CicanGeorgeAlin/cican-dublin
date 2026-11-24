@@ -3,7 +3,8 @@
 
 // Analyse a CICAN GPS session export. Reported accuracy is an Android/browser
 // estimate, not measured error against surveyed ground truth.
-const fs = require("node:fs");
+import fs from "node:fs";
+import { pathToFileURL } from "node:url";
 
 function parseCsv(input) {
   const rows = [];
@@ -117,7 +118,7 @@ function analyzeGpsSession(samples) {
   };
 }
 
-if (require.main === module) {
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const file = process.argv[2];
   if (!file || file === "--help") {
     process.stdout.write("Usage: node scripts/analyze-gps-session.mjs <gps-session.csv> [--json]\n");
@@ -138,4 +139,4 @@ if (require.main === module) {
   } catch (error) { process.stderr.write("GPS analysis failed: " + error.message + "\n"); process.exit(1); }
 }
 
-module.exports = { parseCsv, analyzeGpsSession, percentile, haversine };
+export { parseCsv, analyzeGpsSession, percentile, haversine };

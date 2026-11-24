@@ -84,7 +84,7 @@ function makeHarness() {
 
 test("map HTML exposes the live GPS control and loads the feature script", () => {
   assert.match(html, /id="locate-button"/);
-  assert.match(html, /src="\.\/app\/app\.js"/);
+  assert.match(html, /src="\.\/app\/app\.js(?:\?[^"]*)?"/);
   assert.match(css, /\.live-location-readout/);
   assert.match(css, /\.user-location-marker\.live/);
 });

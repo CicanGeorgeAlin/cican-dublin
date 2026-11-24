@@ -3,7 +3,7 @@
 **Project:** CICAN Dublin Archive  
 **Feature:** CICAN Navigation  
 **First implementation stage:** Walking-route prototype  
-**Status:** Prototype implementation on feature branch; not yet accepted for production.
+**Status:** Stage 1 implemented; Stage 2 reliability work in progress. Stages 3–5 remain planned.
 
 ## Product goal
 
@@ -34,6 +34,8 @@ The navigation entry points across the website now lead into the CICAN map using
 The root and preview service-worker cache identifiers were incremented to invalidate stale app JavaScript. Regression tests regenerate all SEO pages and scan every generated permanent place page for Google Maps directions links. A live Valhalla pedestrian-route smoke test checks that the service returns route geometry, distance, duration and manoeuvres.
 
 ## Stage 2 — Navigation reliability
+
+**Current status (2026-11-24): Partially implemented; not complete.** Route progress, manoeuvre distance, ETA, rerouting foundations, GPS filtering, compass heading-up and GPS session diagnostics exist. Automated checks pass on the deployed baseline. Real-device validation across representative Dublin routes, intersections, crossings, parallel streets, weak-signal conditions and deliberate route deviations remains outstanding. The public Valhalla demonstration endpoint and third-party map assets also remain external dependencies.
 
 - Add route progress and remaining-distance calculation from fresh GPS fixes.
 - Detect when the user has moved materially away from the route, accounting for reported GPS accuracy.

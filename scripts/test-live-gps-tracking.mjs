@@ -44,7 +44,7 @@ function makeHarness() {
   const map = { setCenter(point) { calls.mapMoves.push([...point]); } };
   const state = {
     map, locationWatchId: null, locationTracking: false, userMarker: null,
-    locationAnimationFrame: null, locationLastFix: null, locationFixHistory: [], locationMotion: null, locationLastFrame: 0, nearbyOrigin: null
+    locationAnimationFrame: null, locationLastFix: null, locationSessionSamples: [], locationMotion: null, locationLastFrame: 0, nearbyOrigin: null
   };
   class Marker {
     setLngLat(point) { calls.markerPositions.push(point); return this; }
@@ -168,4 +168,16 @@ test("GPS confidence label distinguishes high, usable and weak estimates",()=>{
   assert.match(h.coords.accuracy,/USABLE/);
   h.callbacks.success({...base,timestamp:base.timestamp+2000,coords:{...base.coords,accuracy:40}});
   assert.match(h.coords.accuracy,/WEAK SIGNAL/);
+});
+
+test("GPS test session CSV includes position, reported accuracy and route diagnostics",()=>{
+  const start=app.indexOf("function buildGpsSessionCsv");
+  const end=app.indexOf("function exportLiveGpsSession",start);
+  assert.ok(start>=0&&end>start,"GPS test CSV builder must exist");
+  const context={};
+  vm.createContext(context);
+  vm.runInContext(app.slice(start,end),context);
+  const csv=context.buildGpsSessionCsv([{timestamp_utc:"2026-11-24T10:00:00.000Z",latitude:53.35,longitude:-6.26,reported_horizontal_accuracy_m:8,speed_mps:1.2,heading_degrees:90,route_offset_m:4,route_progress_m:125,next_maneuver_index:2}]);
+  assert.match(csv,/timestamp_utc,latitude,longitude,reported_horizontal_accuracy_m/);
+  assert.match(csv,/53.35,-6.26,8,1.2,90,4,125,2/);
 });

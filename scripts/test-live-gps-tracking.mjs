@@ -84,7 +84,7 @@ function makeHarness() {
   const stabilityEnd = app.indexOf("function acceptLiveLocationFix", stabilityStart);
   assert.ok(distanceStart >= 0 && distanceEnd > distanceStart && stabilityStart >= 0 && stabilityEnd > stabilityStart,
     "GPS distance and stability helpers must be present");
-  vm.runInContext(app.slice(distanceStart, distanceEnd) + "\\n" + app.slice(stabilityStart, stabilityEnd) + "\\n" + app.slice(start, end), context);
+  vm.runInContext(app.slice(distanceStart, distanceEnd) + "\n" + app.slice(stabilityStart, stabilityEnd) + "\n" + app.slice(start, end), context);
   return {
     context, callbacks, calls, coords, panel, button, status, state,
     advanceFrame(time) { now = time; const entry = frames.entries().next().value; assert.ok(entry, "a live animation frame should be queued"); frames.delete(entry[0]); entry[1](time); },

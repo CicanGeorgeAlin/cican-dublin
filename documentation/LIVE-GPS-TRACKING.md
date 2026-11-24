@@ -7,7 +7,7 @@ The map's location control supports continuous phone-position updates using the 
 ## Behaviour
 
 - Tap the map's location control to request browser location permission and start live tracking.
-- The map displays a distinct blue position marker and follows subsequent location fixes.
+- The map displays a distinct blue position marker and follows subsequent accepted location fixes. The current stability layer rejects invalid, stale, inaccurate and implausible fixes; stationary-position gating and bounded smoothing are applied to the displayed coordinate.
 - A compact readout displays latitude, longitude, the device-reported horizontal accuracy in metres, and the time of the latest fix.
 - Tap the control again to stop tracking. The watch is cleared and the live readout and marker are removed.
 - Nearby discovery and the walking planner remain separate existing features.
@@ -18,8 +18,8 @@ The map's location control supports continuous phone-position updates using the 
 - The user must enable device Location and grant the browser location permission.
 - `enableHighAccuracy: true` asks the browser/device for its best available fix. The browser may combine GNSS/GPS, Wi-Fi, cellular and other device signals. The web app cannot force a particular chipset or guarantee that A-GPS is available.
 - Position accuracy is reported by the device and is not a guarantee of survey-grade accuracy. Urban canyons, indoor use, multipath and poor satellite visibility can reduce accuracy.
-- The browser is asked for fresh fixes (`maximumAge: 0`) with high accuracy. The phone and browser still control the actual fix frequency; a web page cannot force the GNSS chipset to report at a fixed rate.
-- Between fixes, the map animates the marker continuously using the latest reported speed and heading, or a conservative estimate derived from consecutive fixes when the browser omits those values. This short dead-reckoning step is capped at 3.5 seconds and is a visual estimate, not a new GPS measurement. The coordinate readout always shows the latest actual device fix.
+- Live tracking requests high-accuracy updates with `maximumAge: 5000` and a 12-second timeout. The browser and phone still control the actual fix frequency; a web page cannot force the GNSS chipset to report at a fixed rate.
+- The current implementation does not project the marker forward between GPS fixes using speed or heading. This avoids displaying speculative movement as if it were a measured position. The displayed coordinate is filtered separately from raw accepted GPS samples; smoothing may introduce some lag during genuine movement and must be assessed during field tests.
 - No location history is uploaded or stored by this feature. Position updates are held in page memory while tracking and are used to position the map marker and nearby-discovery origin.
 - This feature does not change archive object coordinates or mark any heritage record as field-verified. A founder must deliberately record and verify a separate field observation before archive data is changed.
 

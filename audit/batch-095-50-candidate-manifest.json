@@ -1,0 +1,335 @@
+{
+  "batch": "095",
+  "title": "NIAH Dublin City — 50-record normal batch, Capel Street to Moore Street",
+  "reviewed_on": "2026-11-24",
+  "target_count": 50,
+  "source_queue": "audit/niah-dublin-missing-registrations.json",
+  "selection_method": "First 50 Dublin City Council / County Dublin rows after Batch 094's final selected registration 50010434 in the refreshed official four-authority missing-registration queue. Exact queue membership is validated in CI; numeric continuity alone is not used.",
+  "candidates": [
+    {
+      "registration": "50010435",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010435",
+      "page_verified": false,
+      "notes": null
+    },
+    {
+      "registration": "50010436",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010436/louis-copeland-capel-street-dublin-1-dublin-city",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010437",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010437",
+      "page_verified": false,
+      "notes": null
+    },
+    {
+      "registration": "50010438",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010438/slatterys-129-131-capel-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010439",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010439/capel-camping-132-capel-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010440",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010440/gateway-house-133-capel-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010441",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010441/apollo-blinds-goodwin-musical-instruments-134-135-capel-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010442",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010442/gorta-136-capel-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010443",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010443/flamingo-display-137-capel-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010444",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010444",
+      "page_verified": false,
+      "notes": null
+    },
+    {
+      "registration": "50010445",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010445/good-vibrations-141-capel-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010447",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010447/philips-workwear-spice-of-life-146-148-capel-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010448",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010448/capel-street-mary-street-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "Capel Street, Mary Street",
+      "notes": null
+    },
+    {
+      "registration": "50010449",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010449/designer-furniture-2-mary-street-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "2 Mary Street",
+      "notes": null
+    },
+    {
+      "registration": "50010450",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010450",
+      "page_verified": false,
+      "notes": "National CSV NUMBER is date-like/malformed (06-Sep); preserve the raw value and do not interpret it as a street number."
+    },
+    {
+      "registration": "50010451",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010451",
+      "page_verified": false,
+      "notes": null
+    },
+    {
+      "registration": "50010452",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010452/wolfe-tone-house-43-45-wolfe-tone-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010453",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010453/saint-marys-church-wolfe-tone-street-mary-street-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Saint Mary's Church",
+      "notes": null
+    },
+    {
+      "registration": "50010454",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010454/50-mary-street-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "50 Mary Street",
+      "notes": null
+    },
+    {
+      "registration": "50010455",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010455/toymaster-48-mary-street-jervis-street-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Edward Lee and Company",
+      "notes": null
+    },
+    {
+      "registration": "50010456",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010456/jervis-centre-jervis-street-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Jervis Centre",
+      "notes": null
+    },
+    {
+      "registration": "50010457",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010457/jervis-centre-jervis-street-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Jervis Centre",
+      "notes": null
+    },
+    {
+      "registration": "50010459",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010459/jervis-street-mary-street-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "Todd Burns and Company",
+      "notes": null
+    },
+    {
+      "registration": "50010460",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010460/17-mary-street-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "17 Mary Street",
+      "notes": null
+    },
+    {
+      "registration": "50010461",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010461/todd-burns-and-company-18-21-mary-street-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Todd Burns and Company",
+      "notes": null
+    },
+    {
+      "registration": "50010464",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010464/jervis-street-hospital-school-of-nursing-23-mary-street-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Jervis Street Hospital School of Nursing",
+      "notes": null
+    },
+    {
+      "registration": "50010465",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010465/insomnia-20-liffey-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010466",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010466/space-liffey-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010467",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010467/lunatic-fringe-robert-chambers-academy-school-of-hairdressing-25-liffey-street-upper-dublin-1-co-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010468",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010468/freckles-1-liffey-street-upper-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010469",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010469/6-henry-street-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "6 Henry Street",
+      "notes": null
+    },
+    {
+      "registration": "50010470",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010470/arnotts-7-15-henry-street-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Arnotts",
+      "notes": null
+    },
+    {
+      "registration": "50010471",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010471/16-henry-street-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "James O'Dwyer and Company",
+      "notes": null
+    },
+    {
+      "registration": "50010472",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010472/harrison-and-company-17-henry-street-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Harrison and Company",
+      "notes": null
+    },
+    {
+      "registration": "50010473",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010473/bewley-and-sons-18-19-henry-street-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Bewley and Sons",
+      "notes": null
+    },
+    {
+      "registration": "50010474",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010474/20-henry-street-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "20 Henry Street",
+      "notes": null
+    },
+    {
+      "registration": "50010475",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010475/irish-home-produce-company-21-henry-street-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Irish Home Produce Company",
+      "notes": null
+    },
+    {
+      "registration": "50010476",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010476/pull-and-bear-22-23-henry-street-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Pull and Bear",
+      "notes": null
+    },
+    {
+      "registration": "50010478",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010478/a-wear-fat-face-henry-street-dublin-1-dublin-city",
+      "page_verified": true,
+      "display_name": "H. Williams and Company",
+      "notes": null
+    },
+    {
+      "registration": "50010479",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010479/44-henry-street-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "44 Henry Street",
+      "notes": null
+    },
+    {
+      "registration": "50010480",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010480/42-43-henry-street-moore-street-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "42-43 Henry Street",
+      "notes": null
+    },
+    {
+      "registration": "50010481",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010481/moore-street-henry-street-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Moore Street, Henry Street",
+      "notes": null
+    },
+    {
+      "registration": "50010482",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010482/moore-street-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "2 Moore Street",
+      "notes": null
+    },
+    {
+      "registration": "50010483",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010483/internet-cafe-elegant-nails-cash-4-gold-6-moore-street-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "Internet Café/Elegant Nails/Cash 4 Gold",
+      "notes": null
+    },
+    {
+      "registration": "50010484",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010484",
+      "page_verified": false,
+      "notes": null
+    },
+    {
+      "registration": "50010485",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010485",
+      "page_verified": false,
+      "notes": null
+    },
+    {
+      "registration": "50010486",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010486/f-x-buckley-moore-street-dublin-1-dublin-city",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010487",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010487/paddy-power-moore-street-dublin-1-dublin",
+      "page_verified": true,
+      "notes": null
+    },
+    {
+      "registration": "50010488",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010488",
+      "page_verified": false,
+      "notes": null
+    },
+    {
+      "registration": "50010489",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010489",
+      "page_verified": false,
+      "notes": null
+    }
+  ]
+}

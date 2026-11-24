@@ -68,6 +68,6 @@ test("CICAN map opens the requested archive record and starts native pedestrian 
 test("navigation release cache versions are present", () => {
   const sw = read("preview/service-worker.js");
   const rootSw = read("service-worker.js");
-  assert.ok(sw.includes("cican-dublin-app-v62"));
-  assert.ok(rootSw.includes("cican-dublin-root-v21"));
+  assert.ok(sw.includes("cican-dublin-app-v63"));
+  assert.ok(rootSw.includes("cican-dublin-root-v22"));
 });

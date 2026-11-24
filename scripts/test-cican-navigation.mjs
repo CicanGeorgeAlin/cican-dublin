@@ -69,8 +69,8 @@ test("Valhalla polyline6 decoder accurately restores route coordinates", () => {
 });
 
 test("app cache is refreshed for the navigation release", () => {
-  assert.match(sw, /cican-dublin-app-v62/);
-  assert.match(rootSw, /cican-dublin-root-v21/);
+  assert.match(sw, /cican-dublin-app-v63/);
+  assert.match(rootSw, /cican-dublin-root-v22/);
 });
 
 
@@ -151,4 +151,37 @@ test("walking navigation uses shorter camera transitions for faster perceived re
   assert.match(app,/pitch:48,duration:260/);
   assert.match(app,/maxZoom:17,duration:280/);
   assert.match(app,/AbortSignal\.timeout\(15000\)/);
+});
+
+test("route matching is constrained to plausible forward progress and uses heading as a tie-breaker",()=>{
+  const geometryStart=app.indexOf("function routeCumulativeDistances");
+  const geometryEnd=app.indexOf("function updateNavigationProgress",geometryStart);
+  const distanceStart=app.indexOf("function liveDistanceAndBearing");
+  const distanceEnd=app.indexOf("function renderLiveLocationFrame",distanceStart);
+  assert.ok(geometryStart>=0&&geometryEnd>geometryStart&&distanceStart>=0&&distanceEnd>distanceStart,"route geometry helpers must be present");
+  const context={};
+  vm.createContext(context);
+  vm.runInContext(app.slice(distanceStart,distanceEnd)+"\n"+app.slice(geometryStart,geometryEnd),context);
+  const coordinates=[[-6.2600,53.3500],[-6.2590,53.3500],[-6.2580,53.3500],[-6.2570,53.3500]];
+  const cumulative=context.routeCumulativeDistances(coordinates);
+  const point={latitude:53.3500,longitude:-6.2585};
+  const local=context.nearestRouteProgress(point,coordinates,cumulative,0,{minimumProgressMetres:0,maximumProgressMetres:130,heading:90,speed:2,accuracy:8});
+  assert.ok(local.progressMetres<=130,"matcher must not jump far ahead to a later route segment");
+  assert.ok(local.distance<3,"the correct local route segment should be matched closely");
+  const outside=context.nearestRouteProgress(point,coordinates,cumulative,0,{minimumProgressMetres:0,maximumProgressMetres:20,heading:90,speed:2,accuracy:8});
+  assert.equal(outside.distance,Infinity,"segments outside the plausible progress window must not be selected");
+});
+
+test("route matching does not regress behind accepted progress",()=>{
+  const geometryStart=app.indexOf("function routeCumulativeDistances");
+  const geometryEnd=app.indexOf("function updateNavigationProgress",geometryStart);
+  const distanceStart=app.indexOf("function liveDistanceAndBearing");
+  const distanceEnd=app.indexOf("function renderLiveLocationFrame",distanceStart);
+  const context={};
+  vm.createContext(context);
+  vm.runInContext(app.slice(distanceStart,distanceEnd)+"\n"+app.slice(geometryStart,geometryEnd),context);
+  const coordinates=[[-6.2600,53.3500],[-6.2590,53.3500],[-6.2580,53.3500]];
+  const cumulative=context.routeCumulativeDistances(coordinates);
+  const result=context.nearestRouteProgress({latitude:53.3500,longitude:-6.2598},coordinates,cumulative,0,{minimumProgressMetres:25,maximumProgressMetres:100});
+  assert.ok(result.progressMetres>=25-8,"GPS jitter must not pull route progress backwards");
 });

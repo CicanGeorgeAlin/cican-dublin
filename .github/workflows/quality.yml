@@ -87,6 +87,8 @@ jobs:
         run: node scripts/reconcile-niah-batch-101-50.mjs
       - name: Reconcile Batch 102 50-record normal batch
         run: node scripts/reconcile-niah-batch-102-50.mjs
+      - name: Reconcile Batch 103 50-record normal batch
+        run: node scripts/reconcile-niah-batch-103-50.mjs
       - name: Reconcile Batch 058 and 059 research candidates against complete catalogues and official CSV
         run: node scripts/reconcile-niah-batches-058-059.mjs
       - name: Upload official NIAH audit reports and review queue
@@ -112,4 +114,5 @@ jobs:
             audit/batch-100-50-candidate-reconciliation.json
             audit/batch-101-50-candidate-reconciliation.json
             audit/batch-102-50-candidate-reconciliation.json
+            audit/batch-103-50-candidate-reconciliation.json
           if-no-files-found: error

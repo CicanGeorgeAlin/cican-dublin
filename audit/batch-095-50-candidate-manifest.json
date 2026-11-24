@@ -140,7 +140,8 @@
       "notes": null,
       "known_distinct_neighbours": [
         "50010457"
-      ]
+      ],
+      "distinct_neighbour_reason": "Separate official NIAH individual records: 50010456 is the c.1730 three-bay Georgian house retained as a Jervis Centre fire-exit façade; 50010457 is the separate 1884–87 nine-bay former Jervis Street Charitable Infirmary façade. Both have distinct architectural descriptions and registrations."
     },
     {
       "registration": "50010457",
@@ -150,7 +151,8 @@
       "notes": null,
       "known_distinct_neighbours": [
         "50010456"
-      ]
+      ],
+      "distinct_neighbour_reason": "Separate official NIAH individual records: 50010456 is the c.1730 three-bay Georgian house retained as a Jervis Centre fire-exit façade; 50010457 is the separate 1884–87 nine-bay former Jervis Street Charitable Infirmary façade. Both have distinct architectural descriptions and registrations."
     },
     {
       "registration": "50010459",

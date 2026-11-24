@@ -13,7 +13,8 @@ function makeHarness() {
   let now = 1000;
   let nextFrameId = 0;
   const frames = new Map();
-  const coords = { latitude: "", longitude: "", accuracy: "" };
+  const coords = { latitude: "", longitude: "", accuracy: "", session: "" };
+  const exportButton = { onclick: null };
   const panel = {
     hidden: true,
     dataset: {},
@@ -21,6 +22,8 @@ function makeHarness() {
     querySelector(selector) {
       if (selector === ".live-location-coords") return { set textContent(value) { coords.coordinates = value; } };
       if (selector === ".live-location-accuracy") return { set textContent(value) { coords.accuracy = value; } };
+      if (selector === ".live-location-session") return { set textContent(value) { coords.session = value; } };
+      if (selector === ".live-location-export") return exportButton;
       return null;
     }
   };
@@ -44,7 +47,7 @@ function makeHarness() {
   const map = { setCenter(point) { calls.mapMoves.push([...point]); } };
   const state = {
     map, locationWatchId: null, locationTracking: false, userMarker: null,
-    locationAnimationFrame: null, locationLastFix: null, locationFixHistory: [], locationMotion: null, locationLastFrame: 0, nearbyOrigin: null
+    locationAnimationFrame: null, locationLastFix: null, locationSessionSamples: [], locationMotion: null, locationLastFrame: 0, nearbyOrigin: null
   };
   class Marker {
     setLngLat(point) { calls.markerPositions.push(point); return this; }
@@ -123,7 +126,9 @@ test("live GPS starts high-accuracy watch, updates marker/readout, and stops cle
   assert.deepEqual(h.calls.clearWatch, [17]);
   assert.equal(h.calls.markerRemoved, true);
   assert.equal(h.pendingFrames(), 0, "stopping tracking must cancel animation frames");
-  assert.equal(h.panel.hidden, true);
+  assert.equal(h.panel.hidden, false, "completed GPS samples remain available for export after tracking stops");
+  assert.match(h.panel.innerHTML,/EXPORT GPS TEST CSV/);
+  assert.equal(h.state.locationSessionSamples.length,2);
   assert.equal(h.button.attrs["aria-pressed"], "false");
 });
 
@@ -168,4 +173,16 @@ test("GPS confidence label distinguishes high, usable and weak estimates",()=>{
   assert.match(h.coords.accuracy,/USABLE/);
   h.callbacks.success({...base,timestamp:base.timestamp+2000,coords:{...base.coords,accuracy:40}});
   assert.match(h.coords.accuracy,/WEAK SIGNAL/);
+});
+
+test("GPS test session CSV includes position, reported accuracy and route diagnostics",()=>{
+  const start=app.indexOf("function buildGpsSessionCsv");
+  const end=app.indexOf("function exportLiveGpsSession",start);
+  assert.ok(start>=0&&end>start,"GPS test CSV builder must exist");
+  const context={};
+  vm.createContext(context);
+  vm.runInContext(app.slice(start,end),context);
+  const csv=context.buildGpsSessionCsv([{timestamp_utc:"2026-11-24T10:00:00.000Z",latitude:53.35,longitude:-6.26,reported_horizontal_accuracy_m:8,speed_mps:1.2,heading_degrees:90,route_offset_m:4,route_progress_m:125,next_maneuver_index:2}]);
+  assert.match(csv,/timestamp_utc,latitude,longitude,reported_horizontal_accuracy_m/);
+  assert.match(csv,/53.35,-6.26,8,1.2,90,4,125,2/);
 });

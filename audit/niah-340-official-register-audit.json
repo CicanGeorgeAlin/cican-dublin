@@ -1,0 +1,5108 @@
+{
+  "audit_title": "CICAN Dublin — 340 NIAH registration-number audit",
+  "audited_at": "2026-11-24T03:28:49.399Z",
+  "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
+  "source_description": "National Inventory of Architectural Heritage national CSV bulk download, Department of Housing, Local Government and Heritage; data.gov.ie resource metadata last updated 10 November 2026.",
+  "source_row_count": 48327,
+  "source_registration_number_field": "REG_NO",
+  "source_local_authority_field": "LOCAL_AUTHORITY�",
+  "source_county_field": "COUNTY",
+  "archive_record_count": 509,
+  "unique_archive_reference_count": 509,
+  "counts": {
+    "MATCHED": 509
+  },
+  "all_records_matched": true,
+  "results": [
+    {
+      "archive_id": "DUB-ART-0001",
+      "archive_name": "Cactus Provisoire — Alexander Calder",
+      "registration_number": "50020518",
+      "status": "MATCHED",
+      "official_name": "Cactus Provisoire",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-ART-0002",
+      "archive_name": "Reclining Figures — Henry Moore",
+      "registration_number": "50020517",
+      "status": "MATCHED",
+      "official_name": "Reclining Figures",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0001",
+      "archive_name": "General Post Office (GPO)",
+      "registration_number": "50010528",
+      "status": "MATCHED",
+      "official_name": "General Post Office",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0002",
+      "archive_name": "The Custom House",
+      "registration_number": "50010133",
+      "status": "MATCHED",
+      "official_name": "Custom House",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0003",
+      "archive_name": "City Hall (former Royal Exchange)",
+      "registration_number": "50910009",
+      "status": "MATCHED",
+      "official_name": "City Hall",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0004",
+      "archive_name": "Old Detective Office, 1 Exchange Court",
+      "registration_number": "50910280",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0005",
+      "archive_name": "10 Talbot Street",
+      "registration_number": "50010206",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0006",
+      "archive_name": "23 Marlborough Street",
+      "registration_number": "50010218",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0007",
+      "archive_name": "77 Marlborough Street",
+      "registration_number": "50010235",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0008",
+      "archive_name": "82 Marlborough Street",
+      "registration_number": "50010230",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0009",
+      "archive_name": "Talbot House, 9 Talbot Street",
+      "registration_number": "50010207",
+      "status": "MATCHED",
+      "official_name": "Talbot House",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0010",
+      "archive_name": "National Model Schools, Marlborough Street — main school building",
+      "registration_number": "50010222",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0011",
+      "archive_name": "23 Hatch Street Lower — Georgian house with South City Foundry coal-hole cover",
+      "registration_number": "50110521",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0012",
+      "archive_name": "Harrington Hall, 69 Harcourt Street — boot scrapers and coal-hole cover",
+      "registration_number": "50920250",
+      "status": "MATCHED",
+      "official_name": "Harrington Hall",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0013",
+      "archive_name": "67 Harcourt Street — Romanesque Revival doorway and coal-hole cover",
+      "registration_number": "50920252",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0014",
+      "archive_name": "37 Harcourt Street — Georgian frontage and coal-hole cover",
+      "registration_number": "50920231",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0015",
+      "archive_name": "82 Amiens Street — original coal-hole cover and cast-iron bootscraper",
+      "registration_number": "50010086",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0016",
+      "archive_name": "The Moorings, 13 Charleville Mall — coal-hole cover and cast-iron entrance details",
+      "registration_number": "50010072",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0017",
+      "archive_name": "11 Charleville Mall — Georgian frontage and coal-hole cover",
+      "registration_number": "50010070",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0018",
+      "archive_name": "12 Charleville Mall — Georgian house with coal-hole cover",
+      "registration_number": "50010071",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0019",
+      "archive_name": "14 Charleville Mall — Georgian entrance and coal-hole cover",
+      "registration_number": "50010073",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0020",
+      "archive_name": "15 Charleville Mall — paired bootscrapers and coal-hole cover",
+      "registration_number": "50010074",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0021",
+      "archive_name": "2 Buckingham Street Lower — Henshaw coal-hole covers",
+      "registration_number": "50011162",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0022",
+      "archive_name": "1A Sherrard Street Upper — Victorian frontage and coal-hole cover",
+      "registration_number": "50010750",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0023",
+      "archive_name": "60 Amiens Street — original coal-hole cover in granite slab",
+      "registration_number": "50010104",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0024",
+      "archive_name": "17–18 Nassau Street — Georgian house with coal-hole cover and basement light",
+      "registration_number": "50100085",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0025",
+      "archive_name": "3 Mountjoy Square North — Georgian house with historic political use and coal-hole cover",
+      "registration_number": "50010820",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0026",
+      "archive_name": "585 North Circular Road — coal-hole cover and basement ironwork",
+      "registration_number": "50060408",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0027",
+      "archive_name": "83 Amiens Street — Henshaw-inscribed coal-hole cover",
+      "registration_number": "50010087",
+      "status": "MATCHED",
+      "official_name": "G.S. Medical/Meehan Architects",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0028",
+      "archive_name": "8 Charleville Mall — Georgian entrance and coal-hole cover",
+      "registration_number": "50010067",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0029",
+      "archive_name": "9 Charleville Mall — Georgian house with coal-hole cover and balconettes",
+      "registration_number": "50010068",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0030",
+      "archive_name": "10 Charleville Mall — Georgian entrance details and coal-hole cover",
+      "registration_number": "50010069",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0031",
+      "archive_name": "1 Pembroke Street Upper — Georgian embassy frontage with coal-hole cover",
+      "registration_number": "50930231",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0032",
+      "archive_name": "14 Pembroke Street Lower — Victorian townhouse with coal-hole cover",
+      "registration_number": "50930035",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0033",
+      "archive_name": "13 Pembroke Street Upper — Georgian townhouse with coal-hole cover",
+      "registration_number": "50930242",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0034",
+      "archive_name": "4 Sherrard Street Lower — original granite paving and coal-hole cover",
+      "registration_number": "50010727",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0035",
+      "archive_name": "619 North Circular Road — Georgian frontage and cast-iron entrance ironwork",
+      "registration_number": "50011089",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0036",
+      "archive_name": "50 Middle Abbey Street — Georgian house with Harte-marked lamp standards",
+      "registration_number": "50010393",
+      "status": "MATCHED",
+      "official_name": "Dublin 1 Apartments",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0037",
+      "archive_name": "18 Pembroke Street Upper — Georgian frontage with lamp standard and coal-hole cover",
+      "registration_number": "50930293",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0038",
+      "archive_name": "7 Marino Crescent — Georgian doorway and leaded fanlight",
+      "registration_number": "50120103",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0039",
+      "archive_name": "Marino College — 1935–36 technical institute and library",
+      "registration_number": "50120089",
+      "status": "MATCHED",
+      "official_name": "Marino College",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0040",
+      "archive_name": "Vernon Lodge — 1885 carved limestone pedestrian entrance",
+      "registration_number": "50030164",
+      "status": "MATCHED",
+      "official_name": "Vernon Lodge",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0041",
+      "archive_name": "24 Marino Crescent — Georgian house and entrance details",
+      "registration_number": "50120120",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0042",
+      "archive_name": "Marino Institute of Education — former St Patrick’s Monastery",
+      "registration_number": "50130265",
+      "status": "MATCHED",
+      "official_name": "Marino Institute of Education",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0043",
+      "archive_name": "Clontarf Stationmaster’s House — polychrome brick railway architecture",
+      "registration_number": "50030283",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0044",
+      "archive_name": "Clontarf and Scots Presbyterian Church — Gothic Revival church",
+      "registration_number": "50120135",
+      "status": "MATCHED",
+      "official_name": "Clontarf and Scots Presbyterian Church",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0045",
+      "archive_name": "Church of St John the Baptist — seventeenth-century church ruins",
+      "registration_number": "50030311",
+      "status": "MATCHED",
+      "official_name": "Church of St. John the Baptist",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0046",
+      "archive_name": "Central Hall, 71 Clontarf Road — 1906 Methodist hall",
+      "registration_number": "50030188",
+      "status": "MATCHED",
+      "official_name": "Central Hall",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0047",
+      "archive_name": "Clontarf Castle gate lodge — Gothic Revival entrance building",
+      "registration_number": "50030163",
+      "status": "MATCHED",
+      "official_name": "Clontarf Castle",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0048",
+      "archive_name": "Clontarf Castle — Gothic Revival country house, rebuilt 1836–37",
+      "registration_number": "50030310",
+      "status": "MATCHED",
+      "official_name": "Clontarf Castle",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0049",
+      "archive_name": "Warrenpoint gate lodge — 84 Clontarf Road",
+      "registration_number": "50030185",
+      "status": "MATCHED",
+      "official_name": "Warrenpoint",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0050",
+      "archive_name": "86 Clontarf Road",
+      "registration_number": "50030182",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0051",
+      "archive_name": "Clontarf Promenade — Modernist concrete shelter",
+      "registration_number": "50030145",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0052",
+      "archive_name": "Clontarf handball alley — former Garda station recreation structure",
+      "registration_number": "50030337",
+      "status": "MATCHED",
+      "official_name": "Clontarf Garda S�och�na Station",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0053",
+      "archive_name": "Seaview Terrace — 77–81 Clontarf Road",
+      "registration_number": "50030051",
+      "status": "MATCHED",
+      "official_name": "Seaview Terrace",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0054",
+      "archive_name": "Dublin United Tramways cast-iron transformer — Conquer Hill Road",
+      "registration_number": "50030115",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0055",
+      "archive_name": "Clontarf Promenade reinforced-concrete bandstand",
+      "registration_number": "50030149",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0056",
+      "archive_name": "Victoria Terrace, 163–173 Clontarf Road",
+      "registration_number": "50030144",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0057",
+      "archive_name": "Clontarf Promenade — group of eight Modernist concrete shelters",
+      "registration_number": "50030146",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0058",
+      "archive_name": "St Anthony's Hall — former Clontarf Town Hall",
+      "registration_number": "50030192",
+      "status": "MATCHED",
+      "official_name": "St Anthony's Hall",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0059",
+      "archive_name": "Clontarf Garda Station — former Dublin Metropolitan Police Station",
+      "registration_number": "50030274",
+      "status": "MATCHED",
+      "official_name": "Clontarf Garda S�och�na Station",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0060",
+      "archive_name": "Clontarf Baths — historic seafront swimming pool",
+      "registration_number": "50030148",
+      "status": "MATCHED",
+      "official_name": "Clontarf Baths",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0061",
+      "archive_name": "Hillview Terrace — 204 Clontarf Road",
+      "registration_number": "50030124",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0062",
+      "archive_name": "Edward VII cast-iron postbox — Castle Avenue",
+      "registration_number": "50030162",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0063",
+      "archive_name": "Rathmore — former pair of houses, 8–9 Castle Avenue",
+      "registration_number": "50030050",
+      "status": "MATCHED",
+      "official_name": "Rathmore",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0064",
+      "archive_name": "Balmoral Lodge — 17 Castle Avenue",
+      "registration_number": "50030157",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0065",
+      "archive_name": "Clontarf Telephone Exchange",
+      "registration_number": "50030161",
+      "status": "MATCHED",
+      "official_name": "Clontarf Telephone Exchange",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0066",
+      "archive_name": "Ivy Lodge — 18 Castle Avenue",
+      "registration_number": "50030158",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0067",
+      "archive_name": "Clontarf Hospital — former nurses' home",
+      "registration_number": "50030332",
+      "status": "MATCHED",
+      "official_name": "Clontarf Hospital",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0068",
+      "archive_name": "Church of St John the Baptist — historic graveyard and ruined church",
+      "registration_number": "50030312",
+      "status": "MATCHED",
+      "official_name": "Church of St. John the Baptist",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0069",
+      "archive_name": "Brian Boróimhe's Well — 1850 commemorative drinking fountain",
+      "registration_number": "50030154",
+      "status": "MATCHED",
+      "official_name": "Brian Bor�imhe's Well",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0070",
+      "archive_name": "Seafield Road West — Jessop Davis cast-iron postbox",
+      "registration_number": "50030322",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0071",
+      "archive_name": "St John the Baptist Church — First and Second World War Celtic cross memorial",
+      "registration_number": "50030324",
+      "status": "MATCHED",
+      "official_name": "Church of St. John the Baptist",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0072",
+      "archive_name": "54 Vernon Avenue — 1913 detached villa",
+      "registration_number": "50030345",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0073",
+      "archive_name": "Vernon Avenue — Carron cast-iron pillar postbox",
+      "registration_number": "50030098",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0074",
+      "archive_name": "Woodside Villa — 70–72 Vernon Avenue",
+      "registration_number": "50030099",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0075",
+      "archive_name": "Verville — early Georgian house and former private asylum",
+      "registration_number": "50030334",
+      "status": "MATCHED",
+      "official_name": "Verville",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0076",
+      "archive_name": "Church of St John the Baptist — Seafield Road West",
+      "registration_number": "50030323",
+      "status": "MATCHED",
+      "official_name": "Church of St. John the Baptist",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0077",
+      "archive_name": "Hillview Terrace / Rutland Terrace — 205–206 Clontarf Road",
+      "registration_number": "50030123",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0078",
+      "archive_name": "1 Sherrard Street Upper — c.1828 townhouse with surviving historic entrance fabric",
+      "registration_number": "50010749",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0079",
+      "archive_name": "53 Gardiner Street Upper — Sherrard Street corner townhouse",
+      "registration_number": "50010751",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0080",
+      "archive_name": "Beech Lodge — former Clontarf Castle gate lodge",
+      "registration_number": "50030335",
+      "status": "MATCHED",
+      "official_name": "Beech Lodge",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0081",
+      "archive_name": "89 Clontarf Road — 1847 terrace house and entrance fabric",
+      "registration_number": "50030357",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0082",
+      "archive_name": "238 Clonliffe Road — Victorian corner house",
+      "registration_number": "50120194",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0083",
+      "archive_name": "Fairview Park — 1930s former public convenience",
+      "registration_number": "50120133",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0084",
+      "archive_name": "86 Amiens Street — Regency townhouse with surviving street-fabric details",
+      "registration_number": "50010090",
+      "status": "MATCHED",
+      "official_name": "Fulcrum Office Suites",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0085",
+      "archive_name": "46 Merrion Square East — Georgian townhouse and historic setting",
+      "registration_number": "50100511",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0086",
+      "archive_name": "6 Seville Place — Victorian townhouse with historic entrance fabric",
+      "registration_number": "50010046",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0087",
+      "archive_name": "17 Earlsfort Terrace — late-Victorian townhouse and ironwork",
+      "registration_number": "50110448",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0088",
+      "archive_name": "47 Hardwicke Street — early Georgian townhouse with entrance fabric",
+      "registration_number": "50010889",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0089",
+      "archive_name": "6 Sherrard Street Upper — late-Georgian townhouse",
+      "registration_number": "50010744",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0090",
+      "archive_name": "18 Earlsfort Terrace — late-Victorian townhouse with surviving entrance ironwork",
+      "registration_number": "50110449",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0091",
+      "archive_name": "1 Harcourt Terrace — Regency corner house and pavement setting",
+      "registration_number": "50110463",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0092",
+      "archive_name": "2 Pembroke Street Upper — Regency townhouse with historic entrance fittings",
+      "registration_number": "50930232",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0093",
+      "archive_name": "84 Harcourt Street — early-Victorian townhouse with surviving cast-iron entrance fittings",
+      "registration_number": "50920237",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0099",
+      "archive_name": "Magazine Fort — eighteenth-century military powder magazine",
+      "registration_number": "50060115",
+      "status": "MATCHED",
+      "official_name": "Magazine Fort",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0100",
+      "archive_name": "Ashtown Castle — restored fortified tower house",
+      "registration_number": "50060048",
+      "status": "MATCHED",
+      "official_name": "Ashtown Castle",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0101",
+      "archive_name": "Park Gate — Phoenix Park's historic limestone entrance",
+      "registration_number": "50060017",
+      "status": "MATCHED",
+      "official_name": "Park Gate",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0102",
+      "archive_name": "Castleknock Gate — Decimus Burton's granite and iron entrance screen",
+      "registration_number": "50060002",
+      "status": "MATCHED",
+      "official_name": "Phoenix Park (Castleknock Gate)",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0103",
+      "archive_name": "Ashtown Gate — Decimus Burton cast-iron and granite entrance screen",
+      "registration_number": "50060027",
+      "status": "MATCHED",
+      "official_name": "Ashtown Gate",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0104",
+      "archive_name": "CIÉ Goods Depot — former North Wall Railway Station",
+      "registration_number": "50010012",
+      "status": "MATCHED",
+      "official_name": "CI� Goods Depot",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0105",
+      "archive_name": "North Wall Quay — Wool Store",
+      "registration_number": "50010013",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0106",
+      "archive_name": "CIÉ Offices — former London and North Western Railway Hotel",
+      "registration_number": "50010014",
+      "status": "MATCHED",
+      "official_name": "CI� Offices",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0107",
+      "archive_name": "Richford Motors — former Dublin and Glasgow Steam Packet Company building",
+      "registration_number": "50011165",
+      "status": "MATCHED",
+      "official_name": "Richford Motors",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0108",
+      "archive_name": "Vallance & McGrath's — former North Wall public house",
+      "registration_number": "50011166",
+      "status": "MATCHED",
+      "official_name": "Vallence & McGrath",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0109",
+      "archive_name": "82 North Wall Quay — gable-fronted warehouse",
+      "registration_number": "50011167",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0110",
+      "archive_name": "94 North Wall Quay — late-Victorian industrial building",
+      "registration_number": "50011168",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0111",
+      "archive_name": "Point Depot — former North Wall railway goods depot",
+      "registration_number": "50011169",
+      "status": "MATCHED",
+      "official_name": "The 02",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0112",
+      "archive_name": "CHQ Building — former Tobacco Warehouse / Stack A",
+      "registration_number": "50010003",
+      "status": "MATCHED",
+      "official_name": "CHQ Building",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0113",
+      "archive_name": "The Design Tower — former Bewley, Moss & Co. sugar refinery",
+      "registration_number": "50100330",
+      "status": "MATCHED",
+      "official_name": "The Design Tower",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0114",
+      "archive_name": "Grand Canal Quay — triple-gable former malt house",
+      "registration_number": "50100331",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0115",
+      "archive_name": "Grand Canal Quay — Guinness former malt house of 1886",
+      "registration_number": "50100332",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0116",
+      "archive_name": "Grand Canal Quay — skew-plan former malt house",
+      "registration_number": "50100334",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0117",
+      "archive_name": "Pumphouse No. 1 — Alexandra Basin Heritage Zone",
+      "registration_number": "50060587",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0118",
+      "archive_name": "Redbrick Electricity Substation — East Wall Road / Alexandra Road",
+      "registration_number": "50011170",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0119",
+      "archive_name": "R. & H. Hall — monumental reinforced-concrete grain silo",
+      "registration_number": "50060589",
+      "status": "MATCHED",
+      "official_name": "R. & H. Hall",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0120",
+      "archive_name": "Odlum's Mills — c.1920 reinforced-concrete grain silo",
+      "registration_number": "50060590",
+      "status": "MATCHED",
+      "official_name": "Odlum's Mills",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0121",
+      "archive_name": "Odlum's Mills — c.1935 grain tower and steel silo drums",
+      "registration_number": "50060591",
+      "status": "MATCHED",
+      "official_name": "Odlum's Mills",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0122",
+      "archive_name": "Alexandra Road — early steel-frame redbrick industrial building",
+      "registration_number": "50060592",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0123",
+      "archive_name": "Port Centre — Dublin Port Company headquarters",
+      "registration_number": "50120265",
+      "status": "MATCHED",
+      "official_name": "Port Centre",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0124",
+      "archive_name": "2 Sir John Rogerson's Quay — former Tedcastle Steamer Company warehouse (Bushell Ltd. Furniture)",
+      "registration_number": "50020470",
+      "status": "MATCHED",
+      "official_name": "Bushell Ltd. Furniture",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0125",
+      "archive_name": "Dublin Tropical Fruit Company warehouse — Tropical Fruit Warehouse",
+      "registration_number": "50020478",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0126",
+      "archive_name": "British & Irish Steam Packet Company offices — The Shipping Office protected structure",
+      "registration_number": "50020477",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0127",
+      "archive_name": "The Ferryman — former pair of Georgian houses, 35–36 Sir John Rogerson's Quay",
+      "registration_number": "50020479",
+      "status": "MATCHED",
+      "official_name": "The Ferryman",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0128",
+      "archive_name": "Catholic Seamen's Institute — former Georgian house at 4 Sir John Rogerson's Quay",
+      "registration_number": "50020472",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0129",
+      "archive_name": "Columbia Mills — former H.M. Leask & Company mill, 14–15 Sir John Rogerson's Quay",
+      "registration_number": "50020474",
+      "status": "MATCHED",
+      "official_name": "Columbia Mills",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0130",
+      "archive_name": "St Anne’s Park — Roman Tower",
+      "registration_number": "50030021",
+      "status": "MATCHED",
+      "official_name": "The Roman Tower",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0131",
+      "archive_name": "St Anne’s Park — Annie Lee Tower and Bridge",
+      "registration_number": "50030023",
+      "status": "MATCHED",
+      "official_name": "Annie Lee Tower and Bridge",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0132",
+      "archive_name": "St Anne’s Park — Clock Tower and walled-garden entrance",
+      "registration_number": "50030037",
+      "status": "MATCHED",
+      "official_name": "The Clock Tower",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0133",
+      "archive_name": "St Anne’s Park — Herculanean Temple",
+      "registration_number": "50030024",
+      "status": "MATCHED",
+      "official_name": "Herculanean Temple",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0134",
+      "archive_name": "St Anne’s Park — rustic archway and flanking viewing arches",
+      "registration_number": "50030030",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0135",
+      "archive_name": "St Anne’s Park — Yew Circle and former fountain",
+      "registration_number": "50030031",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0136",
+      "archive_name": "St Anne’s Park — remains of the earlier walled garden",
+      "registration_number": "50030026",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0137",
+      "archive_name": "St Anne’s Park — double-arch bridge incorporating a hermitage",
+      "registration_number": "50030034",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0138",
+      "archive_name": "St Anne’s Park — Pompeiian Temple / Boathouse (former tea house)",
+      "registration_number": "50030032",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0139",
+      "archive_name": "4 Mountjoy Square North — Georgian townhouse and historic entrance fabric",
+      "registration_number": "50010819",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0140",
+      "archive_name": "43 Fitzwilliam Place — Georgian townhouse and historic entrance fabric",
+      "registration_number": "50930208",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0141",
+      "archive_name": "21 Pembroke Street Upper — Georgian townhouse and historic entrance fabric",
+      "registration_number": "50930290",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0142",
+      "archive_name": "25 Hatch Street Lower — early nineteenth-century townhouse and entrance fabric",
+      "registration_number": "50110519",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0143",
+      "archive_name": "26 Fitzwilliam Square — Georgian townhouse and historic ironwork",
+      "registration_number": "50930219",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0144",
+      "archive_name": "35 Harcourt Street — Georgian townhouse and historic pavement fabric",
+      "registration_number": "50920229",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0145",
+      "archive_name": "James Joyce Centre, 35 North Great George's Street — 1784 townhouse",
+      "registration_number": "50010980",
+      "status": "MATCHED",
+      "official_name": "James Joyce Centre",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0146",
+      "archive_name": "Whitehall Delivery Office, 263 Griffith Avenue",
+      "registration_number": "50130140",
+      "status": "MATCHED",
+      "official_name": "Whitehall Delivery Office",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0147",
+      "archive_name": "Office of the State Pathologist — former Whitehall Garda Station",
+      "registration_number": "50130143",
+      "status": "MATCHED",
+      "official_name": "Office of the State Pathologist",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0148",
+      "archive_name": "45 Home Farm Road — corner shop and Modernist building",
+      "registration_number": "50130148",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0149",
+      "archive_name": "Drumcondra Railway Station",
+      "registration_number": "50130208",
+      "status": "MATCHED",
+      "official_name": "Drumcondra Railway Station",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0150",
+      "archive_name": "Holy Cross College / Clonliffe College",
+      "registration_number": "50120175",
+      "status": "MATCHED",
+      "official_name": "Holy Cross College\\Clonliffe College",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0151",
+      "archive_name": "Dublin City University St Patrick's Campus — former St Patrick's Training College",
+      "registration_number": "50130152",
+      "status": "MATCHED",
+      "official_name": "Dublin City University St. Patrick's Campus",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0152",
+      "archive_name": "St Patrick's College Chapel (Old)",
+      "registration_number": "50130151",
+      "status": "MATCHED",
+      "official_name": "St. Patrick's College Chapel (Old)",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0153",
+      "archive_name": "St Patrick's College Chapel (New)",
+      "registration_number": "50130154",
+      "status": "MATCHED",
+      "official_name": "St. Patrick's College Chapel (New)",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0154",
+      "archive_name": "Drumcondra Castle — now St Joseph's School",
+      "registration_number": "50120019",
+      "status": "MATCHED",
+      "official_name": "St. Joseph's School for Children with Visual Imp",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0155",
+      "archive_name": "Drumcondra Library, 52 Millmount Avenue",
+      "registration_number": "50130157",
+      "status": "MATCHED",
+      "official_name": "Drumcondra Library",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0156",
+      "archive_name": "National Botanic Gardens — main entrance gate lodges and screen",
+      "registration_number": "50130059",
+      "status": "MATCHED",
+      "official_name": "National Botanic Gardens",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0157",
+      "archive_name": "Botanic View, 176 Botanic Road",
+      "registration_number": "50130063",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0158",
+      "archive_name": "170 Botanic Road — late-Georgian villa",
+      "registration_number": "50130066",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0159",
+      "archive_name": "Three Sisters Craft, 187 Botanic Road",
+      "registration_number": "50130109",
+      "status": "MATCHED",
+      "official_name": "Three Sisters Craft",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0160",
+      "archive_name": "Hart's Buildings, 2–6 Botanic Road",
+      "registration_number": "50130107",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0161",
+      "archive_name": "The Brian Boru, 5 Prospect Road",
+      "registration_number": "50130022",
+      "status": "MATCHED",
+      "official_name": "P. Hedigan\\The Brian Boru",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0162",
+      "archive_name": "The Porterhouse, 22 Prospect Road — former Iona Airways garage",
+      "registration_number": "50130199",
+      "status": "MATCHED",
+      "official_name": "The Porterhouse",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0163",
+      "archive_name": "National Botanic Gardens — Great Palm House",
+      "registration_number": "50130057",
+      "status": "MATCHED",
+      "official_name": "National Botanic Gardens (Great Palm House)",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0164",
+      "archive_name": "National Botanic Gardens — Cactus, Aquatic and Fern Houses",
+      "registration_number": "50130056",
+      "status": "MATCHED",
+      "official_name": "National Botanic Gardens (Cactus, Aquatic and Fern",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0165",
+      "archive_name": "National Botanic Gardens — Teak House",
+      "registration_number": "50130061",
+      "status": "MATCHED",
+      "official_name": "National Botanic Gardens (Teak House)",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0166",
+      "archive_name": "National Botanic Gardens — Curvilinear Range",
+      "registration_number": "50130055",
+      "status": "MATCHED",
+      "official_name": "National Botanic Gardens (Curvilinear Range)",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0167",
+      "archive_name": "National Botanic Gardens — historic corrugated-iron workshop",
+      "registration_number": "50130336",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0168",
+      "archive_name": "Prospect Road — surviving St Vincent de Paul's Male Orphanage gates and railings",
+      "registration_number": "50130021",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0169",
+      "archive_name": "Glasnevin Cemetery — historic boundary wall, watchtowers, entrance gates and railings",
+      "registration_number": "50130070",
+      "status": "MATCHED",
+      "official_name": "Glasnevin Cemetery",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0170",
+      "archive_name": "Prospect — original east entrance gate lodge and screen to Glasnevin Cemetery",
+      "registration_number": "50130104",
+      "status": "MATCHED",
+      "official_name": "Prospect",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0171",
+      "archive_name": "Glasnevin Cemetery — Mortuary Chapel",
+      "registration_number": "50130075",
+      "status": "MATCHED",
+      "official_name": "Mortuary Chapel",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0172",
+      "archive_name": "Farrelly's Cottages, Old Finglas Road",
+      "registration_number": "50130040",
+      "status": "MATCHED",
+      "official_name": "Farrelly's Cottages",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0173",
+      "archive_name": "16 Old Finglas Road — Edwardian-era detached house",
+      "registration_number": "50130335",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0174",
+      "archive_name": "John Kavanagh's — historic Prospect Square public house",
+      "registration_number": "50130105",
+      "status": "MATCHED",
+      "official_name": "John Kavanagh",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0175",
+      "archive_name": "Clay Cottage",
+      "registration_number": "11323024",
+      "status": "MATCHED",
+      "official_name": "Clay Cottage",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0176",
+      "archive_name": "Rathbeale Road — c.1830 thatched cottage",
+      "registration_number": "11335014",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0177",
+      "archive_name": "Saint MacCullin's Church, Lusk",
+      "registration_number": "11323010",
+      "status": "MATCHED",
+      "official_name": "Saint MacCullin's Church (Lusk)",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0178",
+      "archive_name": "Swords Carnegie Free Library",
+      "registration_number": "11335007",
+      "status": "MATCHED",
+      "official_name": "Swords Carnegie Free Library",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0179",
+      "archive_name": "Hearse Road — c.1850 house and associated former forge complex",
+      "registration_number": "11336026",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0180",
+      "archive_name": "The Thatch Cottage, Ballisk, Donabate",
+      "registration_number": "11329015",
+      "status": "MATCHED",
+      "official_name": "The Thatch Cottage",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0181",
+      "archive_name": "Clontarf GAA Club (Belgrove House / Bellgrove House)",
+      "registration_number": "50030101",
+      "status": "MATCHED",
+      "official_name": "Clontarf GAA Club",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0182",
+      "archive_name": "6 Castle Avenue, Clontarf",
+      "registration_number": "50030352",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0183",
+      "archive_name": "40–82 Kincora Road — International Style semi-detached housing group",
+      "registration_number": "50030328",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0184",
+      "archive_name": "25 The Stiles Road — International Modern house",
+      "registration_number": "50030336",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0185",
+      "archive_name": "Clontarf Hospital — historic Blackheath house",
+      "registration_number": "50030329",
+      "status": "MATCHED",
+      "official_name": "Clontarf Hospital",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0186",
+      "archive_name": "Cappaghmore Lodge — former demesne gate lodge",
+      "registration_number": "11205029",
+      "status": "MATCHED",
+      "official_name": "Cappaghmore Lodge",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0187",
+      "archive_name": "Neillstown — nineteenth-century detached house",
+      "registration_number": "11205033",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0189",
+      "archive_name": "Cloverhill Road, Raheen — nineteenth-century house",
+      "registration_number": "11205039",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0190",
+      "archive_name": "Kilcrea House — c.1800 farmhouse",
+      "registration_number": "11336025",
+      "status": "MATCHED",
+      "official_name": "Kilcrea House",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0191",
+      "archive_name": "Corballis House — c.1830 farmhouse and farmyard group",
+      "registration_number": "11336028",
+      "status": "MATCHED",
+      "official_name": "Corballis House",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0192",
+      "archive_name": "Kilbush House — c.1850 thatched house",
+      "registration_number": "11324032",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0001",
+      "archive_name": "Loop Line railway viaduct over Talbot Street",
+      "registration_number": "50010134",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0002",
+      "archive_name": "Huband Bridge — 1791 Grand Canal bridge and parapet lamp standard",
+      "registration_number": "50100594",
+      "status": "MATCHED",
+      "official_name": "Huband Bridge",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0005",
+      "archive_name": "Kilmainham Mill — former flour and textile mill complex",
+      "registration_number": "50080060",
+      "status": "MATCHED",
+      "official_name": "Kilmainham Mill",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0015",
+      "archive_name": "North Wall Quay — western granite quay wall",
+      "registration_number": "50010011",
+      "status": "MATCHED",
+      "official_name": "North Wall Quay",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0016",
+      "archive_name": "North Wall Quay — eastern historic quay and embedded railway track",
+      "registration_number": "50060556",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0017",
+      "archive_name": "Scherzer rolling-lift bridges over the North Wall lock",
+      "registration_number": "50010009",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0018",
+      "archive_name": "George's Dock — Georgian wet dock and lock entrances",
+      "registration_number": "50010005",
+      "status": "MATCHED",
+      "official_name": "George's Dock",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0019",
+      "archive_name": "Custom House Quay — Georgian granite ashlar quay",
+      "registration_number": "50060555",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0020",
+      "archive_name": "Loop Line Railway Viaduct — Beresford Place and Liffey crossing",
+      "registration_number": "50010159",
+      "status": "MATCHED",
+      "official_name": "Loop Line Railway",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0021",
+      "archive_name": "Sheriff Street Lifting Bridge — Spencer Dock bascule bridge",
+      "registration_number": "50010016",
+      "status": "MATCHED",
+      "official_name": "Sheriff Street Lifting Bridge",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0022",
+      "archive_name": "George's Dock Lock — limestone lock to the River Liffey",
+      "registration_number": "50010131",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0023",
+      "archive_name": "Grand Canal Docks — historic L-plan basin",
+      "registration_number": "50020499",
+      "status": "MATCHED",
+      "official_name": "Grand Canal Docks",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0024",
+      "archive_name": "Westmoreland, Buckingham and Camden Sea Locks — Grand Canal Dock entrance",
+      "registration_number": "50020496",
+      "status": "MATCHED",
+      "official_name": "Westmoreland Lock, Buckingham Lock, Camden Lock",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0025",
+      "archive_name": "Grand Canal Dock — former Dublin and Ringsend Dockyard graving docks",
+      "registration_number": "50020497",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0026",
+      "archive_name": "Grand Canal Dockyard — former southern graving dock and boat slipway",
+      "registration_number": "50020498",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0027",
+      "archive_name": "McKenny Bridge — former Conyngham Bridge",
+      "registration_number": "50100535",
+      "status": "MATCHED",
+      "official_name": "McKenny Bridge",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0028",
+      "archive_name": "McKenney Bridge Lock — Grand Canal lock chamber",
+      "registration_number": "50100536",
+      "status": "MATCHED",
+      "official_name": "McKenney Bridge Lock",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0029",
+      "archive_name": "Sir John Rogerson's Quay — granite quay wall and mooring fittings",
+      "registration_number": "50020465",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0030",
+      "archive_name": "Grand Canal Quay Railway Bridge — Dublin and Kingstown Railway",
+      "registration_number": "50100333",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0031",
+      "archive_name": "Hanover Quay — 1790 limestone dockside quay",
+      "registration_number": "50100342",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0033",
+      "archive_name": "Dublin Port Diving Bell — Stoney's compressed-air quay-construction caisson",
+      "registration_number": "50020468",
+      "status": "MATCHED",
+      "official_name": "Diving Bell",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0136",
+      "archive_name": "St Anne’s Park — Rockwork Bridge",
+      "registration_number": "50030028",
+      "status": "MATCHED",
+      "official_name": "Rockwork Bridge",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0137",
+      "archive_name": "St Anne’s Park — Naniken River footbridge with carved stone bracket",
+      "registration_number": "50030025",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0138",
+      "archive_name": "St Anne’s Park — Naniken River segmental-arch footbridge",
+      "registration_number": "50030027",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0139",
+      "archive_name": "St Anne’s Park — former kitchen-garden path bridge with groin-vaulted passage",
+      "registration_number": "50030036",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0140",
+      "archive_name": "Drumcondra Road Lower — historic railway bridge",
+      "registration_number": "50120207",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0141",
+      "archive_name": "Glasnevin Cemetery — Victorian cast-iron water hydrant",
+      "registration_number": "50130083",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0142",
+      "archive_name": "Mill Bridge, Bridge Street, Swords",
+      "registration_number": "11343016",
+      "status": "MATCHED",
+      "official_name": "Mill Bridge",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0143",
+      "archive_name": "Scotchstone Bridge, Balheary Road",
+      "registration_number": "11335008",
+      "status": "MATCHED",
+      "official_name": "Scotchstone Bridge",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0144",
+      "archive_name": "Lissenhall Bridge — 1895 limestone-and-iron bridge",
+      "registration_number": "11335011",
+      "status": "MATCHED",
+      "official_name": "Lissenhall Bridges",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0145",
+      "archive_name": "Lissenhall Bridge — 1903 enlargement and cast-iron beams",
+      "registration_number": "11335012",
+      "status": "MATCHED",
+      "official_name": "Lissenhall Bridges",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0146",
+      "archive_name": "Killeek Bridge",
+      "registration_number": "11342011",
+      "status": "MATCHED",
+      "official_name": "Killeek Bridge",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0147",
+      "archive_name": "Lissen Hall Bridge — five-arch historic road bridge",
+      "registration_number": "11335019",
+      "status": "MATCHED",
+      "official_name": "Lissen Hall Bridge",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0148",
+      "archive_name": "Lusk — c.1925 Tonge and Taggart cast-iron water pump",
+      "registration_number": "11323011",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0149",
+      "archive_name": "Dublin Road, Swords — c.1890 cast-iron water pump and stone trough",
+      "registration_number": "11343015",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0150",
+      "archive_name": "Hearse Road, Lanestown — c.1890 cast-iron water pump",
+      "registration_number": "11336010",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0151",
+      "archive_name": "Newbridge House — c.1800 single-arch road bridge",
+      "registration_number": "11336005",
+      "status": "MATCHED",
+      "official_name": "Newbridge House",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0188",
+      "archive_name": "Lucan-Newlands Road — single-arch railway bridge, Cappagh",
+      "registration_number": "11205034",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0189",
+      "archive_name": "Mack's Bridge — Newbridge Demesne",
+      "registration_number": "11336004",
+      "status": "MATCHED",
+      "official_name": "Newbridge House",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0190",
+      "archive_name": "Kilcrea — metal railway bridge between stone piers",
+      "registration_number": "11336027",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MEM-0001",
+      "archive_name": "Famine Memorial — Rowan Gillespie",
+      "registration_number": "50010002",
+      "status": "MATCHED",
+      "official_name": "'Famine'",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0001",
+      "archive_name": "O'Connell Monument",
+      "registration_number": "50010320",
+      "status": "MATCHED",
+      "official_name": "O'Connell Monument",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0002",
+      "archive_name": "Henry Grattan Monument",
+      "registration_number": "50020253",
+      "status": "MATCHED",
+      "official_name": "Henry Grattan Monument",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0003",
+      "archive_name": "Thomas Davis Monument and Fountain",
+      "registration_number": "50020252",
+      "status": "MATCHED",
+      "official_name": "Thomas Davis Monument",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0004",
+      "archive_name": "George Salmon Statue",
+      "registration_number": "50020521",
+      "status": "MATCHED",
+      "official_name": "George Salmon Statue",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0005",
+      "archive_name": "Lecky Statue",
+      "registration_number": "50020520",
+      "status": "MATCHED",
+      "official_name": "Lecky Statue",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0006",
+      "archive_name": "Edmund Burke Statue",
+      "registration_number": "50020374",
+      "status": "MATCHED",
+      "official_name": "Edmund Burke Statue",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0007",
+      "archive_name": "Jim Larkin Monument",
+      "registration_number": "50010519",
+      "status": "MATCHED",
+      "official_name": "Jim Larkin Monument",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0009",
+      "archive_name": "Wellington Monument (Wellington Testimonial)",
+      "registration_number": "50060116",
+      "status": "MATCHED",
+      "official_name": "Wellington Monument",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0010",
+      "archive_name": "The Phoenix Monument — Portland-stone Corinthian column and phoenix",
+      "registration_number": "50060100",
+      "status": "MATCHED",
+      "official_name": "The Phoenix Monument",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0011",
+      "archive_name": "Papal Cross — 1979 papal mass steel monument",
+      "registration_number": "50060364",
+      "status": "MATCHED",
+      "official_name": "The Papal Cross",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0014",
+      "archive_name": "Glasnevin Cemetery — O'Connell Circle and its sunken vault street",
+      "registration_number": "50130071",
+      "status": "MATCHED",
+      "official_name": "O'Connell Circle",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0015",
+      "archive_name": "Glasnevin Cemetery — O'Connell Monument and round tower",
+      "registration_number": "50130079",
+      "status": "MATCHED",
+      "official_name": "O'Connell Monument",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0016",
+      "archive_name": "Glasnevin Cemetery — Lawler family Gothic Revival monument",
+      "registration_number": "50130088",
+      "status": "MATCHED",
+      "official_name": "Lawler Monument",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0017",
+      "archive_name": "Glasnevin Cemetery — Anne McCabe funerary monument",
+      "registration_number": "50130095",
+      "status": "MATCHED",
+      "official_name": "McCabe Monument",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0018",
+      "archive_name": "Glasnevin Cemetery — Connolly family Gothic Revival monument",
+      "registration_number": "50130102",
+      "status": "MATCHED",
+      "official_name": "Connolly Monument",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0019",
+      "archive_name": "Glasnevin Cemetery — Charles McGauran High Gothic monument",
+      "registration_number": "50130072",
+      "status": "MATCHED",
+      "official_name": "Charles McGauran Monument",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0020",
+      "archive_name": "Glasnevin Cemetery — Meade family monument and Archangel Michael",
+      "registration_number": "50130082",
+      "status": "MATCHED",
+      "official_name": "Meade Monument",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0021",
+      "archive_name": "Glasnevin Cemetery — Archbishop Edward McCabe Celtic Revival mausoleum",
+      "registration_number": "50130091",
+      "status": "MATCHED",
+      "official_name": "Archbishop Edward McCabe Mausoleum",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0022",
+      "archive_name": "Glasnevin Cemetery — Archbishop William Walsh mausoleum",
+      "registration_number": "50130092",
+      "status": "MATCHED",
+      "official_name": "Cardinal William Walsh Monument",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0023",
+      "archive_name": "Glasnevin Cemetery — Boland family Gothic Revival mausoleum",
+      "registration_number": "50130084",
+      "status": "MATCHED",
+      "official_name": "Boland Mausoleum",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0024",
+      "archive_name": "Glasnevin Cemetery — Monahan family Gothic Revival mausoleum",
+      "registration_number": "50130100",
+      "status": "MATCHED",
+      "official_name": "Monahan Mausoleum",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0025",
+      "archive_name": "Glasnevin Cemetery — Fortune family Egyptian Revival mausoleum",
+      "registration_number": "50130101",
+      "status": "MATCHED",
+      "official_name": "Fortune Mausoleum",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0026",
+      "archive_name": "Hamilton Monument, Strand Street, Skerries",
+      "registration_number": "11311010",
+      "status": "MATCHED",
+      "official_name": "Hamilton Monument",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0001",
+      "archive_name": "GPO historic cast-iron lantern bases and wheel guards",
+      "registration_number": "50010527",
+      "status": "MATCHED",
+      "official_name": "General Post Office",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0002",
+      "archive_name": "Talbot Street cast-iron P&T post box",
+      "registration_number": "50010137",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0003",
+      "archive_name": "Victorian cast-iron pillar post box, Gardiner Street Upper",
+      "registration_number": "50010760",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0004",
+      "archive_name": "Marlborough Street Edwardian post box",
+      "registration_number": "50010238",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0005",
+      "archive_name": "Four Victorian cast-iron bollards, north end of O’Connell Street",
+      "registration_number": "50010556",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0006",
+      "archive_name": "Historic Custom House Docks boundary wall on Commons Street",
+      "registration_number": "50060568",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0007",
+      "archive_name": "Edwardian cast-iron pillar post box, Lower Abbey Street",
+      "registration_number": "50010291",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0008",
+      "archive_name": "Early Free State twin-slot post box, Jervis Street",
+      "registration_number": "50010458",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0009",
+      "archive_name": "P&T double-aperture cast-iron post box, O'Connell Street Lower",
+      "registration_number": "50010515",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0010",
+      "archive_name": "Early Free State twin post box, O'Connell Street Upper",
+      "registration_number": "50010555",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0011",
+      "archive_name": "Edward VII cast-iron pillar post box, North Circular Road",
+      "registration_number": "50060629",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0012",
+      "archive_name": "Victorian cast-iron pillar post box, Mountjoy Square West",
+      "registration_number": "50010954",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0013",
+      "archive_name": "Early Free State twin post box, South Great George's Street",
+      "registration_number": "50910076",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0014",
+      "archive_name": "Edward VII cast-iron pillar post box, Burgh Quay",
+      "registration_number": "50020294",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0015",
+      "archive_name": "Early Free State double post box, Dame Street",
+      "registration_number": "50020195",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0016",
+      "archive_name": "P&T double-opening post box with Áth Cliath lettering, Nassau Street",
+      "registration_number": "50100001",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0017",
+      "archive_name": "Handyside cast-iron pillar post box, Townsend Street",
+      "registration_number": "50020308",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0018",
+      "archive_name": "Victorian Handyside pillar post box, Mount Street Crescent",
+      "registration_number": "50100593",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0019",
+      "archive_name": "Tonge & Taggart cast-iron pillar post box, South Richmond Street",
+      "registration_number": "50110429",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0020",
+      "archive_name": "Early Free State double post box, St Andrew Street",
+      "registration_number": "50910194",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0021",
+      "archive_name": "George V cast-iron pillar post box, Westmoreland Street",
+      "registration_number": "50020222",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0022",
+      "archive_name": "Edward VII cast-iron pillar post box, Merrion Square",
+      "registration_number": "50100400",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0023",
+      "archive_name": "Edward VII pillar post box, Fitzwilliam Place",
+      "registration_number": "50930153",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0024",
+      "archive_name": "Victorian anonymous cast-iron pillar post box, Ely Place",
+      "registration_number": "50930014",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0025",
+      "archive_name": "Victorian Handyside pillar post box, Fitzwilliam Square South",
+      "registration_number": "50930229",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0026",
+      "archive_name": "Victorian cast-iron triple gas-lamp standard, Amiens Street",
+      "registration_number": "50010116",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0027",
+      "archive_name": "Art Deco double-headed concrete electric lamp standard, College Street",
+      "registration_number": "50020523",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0028",
+      "archive_name": "The Five Lamps — cast-iron lamp standard and former fountain",
+      "registration_number": "50010060",
+      "status": "MATCHED",
+      "official_name": "The Five Lamps",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0038",
+      "archive_name": "Art Deco double-headed concrete electric lamp standard, Pearse Street",
+      "registration_number": "50020527",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0043",
+      "archive_name": "Clontarf Road — Victorian cast-iron pillar postbox",
+      "registration_number": "50030114",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0044",
+      "archive_name": "Howth Road — Victorian wall-mounted cast-iron postbox",
+      "registration_number": "50030284",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0045",
+      "archive_name": "Haddon Road — W.T. Allen Victorian wall-mounted postbox",
+      "registration_number": "50030046",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0049",
+      "archive_name": "Mount Prospect Avenue — Carron cast-iron P&T pillar postbox",
+      "registration_number": "50030342",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0050",
+      "archive_name": "Kincora Grove — Carron cast-iron pillar postbox",
+      "registration_number": "50030286",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0051",
+      "archive_name": "Dunluce Road — G.L. Murphy Irish cast-iron P&T pillar postbox",
+      "registration_number": "50030333",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0052",
+      "archive_name": "Malahide Road — Jessop Davis P&T cast-iron pillar postbox",
+      "registration_number": "50030291",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0053",
+      "archive_name": "Beresford Place — early Free State twin-aperture cast-iron postbox",
+      "registration_number": "50010301",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0054",
+      "archive_name": "Dorset Street Lower — disused early Free State cast-iron pillar postbox",
+      "registration_number": "50010715",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0055",
+      "archive_name": "Grand Canal Quay — McDowall Steven cast-iron postbox",
+      "registration_number": "50100338",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0056",
+      "archive_name": "North Strand Road — George V McDowall Steven pillar postbox",
+      "registration_number": "50120259",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0057",
+      "archive_name": "North Strand Road / Bayview Avenue — 1820s Howth milestone",
+      "registration_number": "50120248",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0061",
+      "archive_name": "Seafield Road East and West — 1930s Art Deco concrete lamp standards",
+      "registration_number": "50030341",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0094",
+      "archive_name": "London and North Western Hotel — cast-iron gateway and granite wall",
+      "registration_number": "50010015",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0095",
+      "archive_name": "George's Dock Arch — relocated limestone triumphal arch",
+      "registration_number": "50011219",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0096",
+      "archive_name": "St Anne’s Park — shell house with ‘The House that Jack built’ pier",
+      "registration_number": "50030040",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0097",
+      "archive_name": "St Anne’s Park — Naniken River grotto / hermitage",
+      "registration_number": "50030035",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0136",
+      "archive_name": "St Anne’s Park — relocated nineteenth-century iron gate screen and granite piers",
+      "registration_number": "50030039",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0137",
+      "archive_name": "Howth Road, Dublin 3 — c.1825 granite GPO / Howth milestone",
+      "registration_number": "50030295",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0138",
+      "archive_name": "Howth Road, Clontarf — c.1825 granite GPO / Howth milestone",
+      "registration_number": "50030081",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0139",
+      "archive_name": "Howth Road, Raheny North — c.1825 granite GPO / Howth milestone",
+      "registration_number": "50030007",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0140",
+      "archive_name": "Malahide Road, Dublin 9 — c.1850 granite GPO / Malahide milestone",
+      "registration_number": "50120064",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0141",
+      "archive_name": "Malahide Road at Belcamp Lane — c.1890 granite GPO / Malahide milestone",
+      "registration_number": "50130216",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0142",
+      "archive_name": "Malahide Road, Artane — c.1820 granite GPO / Malahide milestone and surround",
+      "registration_number": "50130243",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0143",
+      "archive_name": "Dublin Road, Auburn, Malahide — c.1850 cast-iron GPO / Malahide milestone",
+      "registration_number": "11344043",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0144",
+      "archive_name": "Dublin Road, Burrow, Sutton — c.1850 cast-iron GPO / Howth milestone",
+      "registration_number": "11358047",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0145",
+      "archive_name": "Howth Road, Dublin 3 — c.1850 granite GPO / Howth milestone",
+      "registration_number": "50120131",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0146",
+      "archive_name": "Lady Grattan Fountain, St Stephen’s Green — 1880 marble and granite drinking fountain",
+      "registration_number": "50100257",
+      "status": "MATCHED",
+      "official_name": "Lady Grattan Fountain",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0147",
+      "archive_name": "Inchicore Railway Works — c.1890 Glenfield & Kennedy cast-iron water hydrant",
+      "registration_number": "50080411",
+      "status": "MATCHED",
+      "official_name": "Inchicore Railway Works",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0148",
+      "archive_name": "James’s Street — Francis Sandys 1790 drinking fountain and sundial obelisk",
+      "registration_number": "50080307",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0149",
+      "archive_name": "Stanley Street — surviving Dublin Corporation cast-iron tram rails and point",
+      "registration_number": "50070207",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0150",
+      "archive_name": "Rutland Fountain — 1785 Duke of Rutland public water fountain, Collins Barracks",
+      "registration_number": "50070158",
+      "status": "MATCHED",
+      "official_name": "Rutland Fountain National Museum of Ireland Collins Barracks",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0151",
+      "archive_name": "Gray Street / Reginald Street — former MacFarlane drinking-fountain canopy, now Sacred Heart monument",
+      "registration_number": "50080656",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0152",
+      "archive_name": "74 Eccles Street — cast-iron coal-hole cover in granite pavement",
+      "registration_number": "50070481",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0153",
+      "archive_name": "77 Eccles Street — cast-iron coal-hole cover in granite pavement",
+      "registration_number": "50070484",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0155",
+      "archive_name": "St Andrew Street — carved limestone historic street-name plaque",
+      "registration_number": "50910150",
+      "status": "MATCHED",
+      "official_name": "Trocadero",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0156",
+      "archive_name": "18 Suffolk Street — cast-iron pavement light over basement",
+      "registration_number": "50910139",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0157",
+      "archive_name": "21 Suffolk Street — cast-iron pavement light enclosing basement",
+      "registration_number": "50910142",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0158",
+      "archive_name": "110 Marlborough Street — glazed cast-iron cellar pavement light",
+      "registration_number": "50010284",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0159",
+      "archive_name": "The Long Hall, 51 South Great George’s Street — basement pavement grille",
+      "registration_number": "50910032",
+      "status": "MATCHED",
+      "official_name": "The Long Hall",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0160",
+      "archive_name": "1 Sherrard Street Lower — Ordnance Survey benchmark and 1827 street-name date panel",
+      "registration_number": "50010730",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0161",
+      "archive_name": "Cherrywood Railway Viaduct — Ordnance Survey benchmark in granite pier",
+      "registration_number": "60260097",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dun Laoghaire-Rathdown County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0162",
+      "archive_name": "25 Pleasants Street — full-height cast-iron ventilation pipe",
+      "registration_number": "50110355",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0163",
+      "archive_name": "45 Pearse Street — historic pavement iron grille",
+      "registration_number": "50020369",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0164",
+      "archive_name": "The Lombard, 1 Lombard Street East — cubed-glass basement pavement light",
+      "registration_number": "50020367",
+      "status": "MATCHED",
+      "official_name": "The Lombard",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0165",
+      "archive_name": "Saint Patrick’s House, South Circular Road — Edward VII wall-mounted cast-iron post box",
+      "registration_number": "50080463",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0166",
+      "archive_name": "South Circular Road, Islandbridge — Carron Company cast-iron P&T pillar post box",
+      "registration_number": "50080012",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0168",
+      "archive_name": "29 Fitzwilliam Street Upper — cast-iron entrance boot scraper",
+      "registration_number": "50930104",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0182",
+      "archive_name": "Ballybough Road at O'Sullivan Avenue — Edward VII McDowall Steven cast-iron pillar post box",
+      "registration_number": "50120227",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0183",
+      "archive_name": "Philipsburgh Avenue at Morroch Terrace — P&T cast-iron pillar post box",
+      "registration_number": "50120017",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0187",
+      "archive_name": "Drumcondra Road Lower — Edward VII cast-iron pillar post box",
+      "registration_number": "50130209",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0188",
+      "archive_name": "Drumcondra Road Upper — P&T cast-iron pillar post box",
+      "registration_number": "50120002",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0189",
+      "archive_name": "All Hallows College boundary wall — Saorstát Éireann wall-mounted post box",
+      "registration_number": "50120012",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0190",
+      "archive_name": "Collins Avenue — Carron Company P&T pillar post box",
+      "registration_number": "50130120",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0191",
+      "archive_name": "Swords Road — Carron Company P&T pillar post box",
+      "registration_number": "50130139",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0192",
+      "archive_name": "Collins Avenue — P&T pillar post box with bilingual collection lettering",
+      "registration_number": "50130251",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0193",
+      "archive_name": "Griffith Avenue — Queen Victoria cast-iron pillar post box",
+      "registration_number": "50130259",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0204",
+      "archive_name": "Rathbeale Road — cast-iron post box",
+      "registration_number": "11335013",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0206",
+      "archive_name": "Newbridge House — c.1770 vermiculated granite entrance gate piers",
+      "registration_number": "11336002",
+      "status": "MATCHED",
+      "official_name": "Newbridge House",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0207",
+      "archive_name": "Newbridge House — c.1790 rusticated granite entrance piers and boundary wall",
+      "registration_number": "11336003",
+      "status": "MATCHED",
+      "official_name": "Newbridge House",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0193",
+      "archive_name": "Rose Cottage (Roseville) — c.1860 thatched house",
+      "registration_number": "11323022",
+      "status": "MATCHED",
+      "official_name": "Rose Cottage",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0191",
+      "archive_name": "George's Dock Bridge",
+      "registration_number": "50010001",
+      "status": "MATCHED",
+      "official_name": "George's Dock Bridge",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0192",
+      "archive_name": "Freestanding swivel iron dock crane",
+      "registration_number": "50010004",
+      "status": "MATCHED",
+      "official_name": "Freestanding swivel iron dock crane",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0193",
+      "archive_name": "Wrought-Iron Winches",
+      "registration_number": "50010006",
+      "status": "MATCHED",
+      "official_name": "Wrought-Iron Winches",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0194",
+      "archive_name": "Inner Dock",
+      "registration_number": "50010007",
+      "status": "MATCHED",
+      "official_name": "Inner Dock",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0194",
+      "archive_name": "The Oasis Centre",
+      "registration_number": "50010020",
+      "status": "MATCHED",
+      "official_name": "The Oasis Centre",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0195",
+      "archive_name": "Connolly Station",
+      "registration_number": "50010041",
+      "status": "MATCHED",
+      "official_name": "Connolly Station",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0195",
+      "archive_name": "Saint Agatha's Church Presbytery",
+      "registration_number": "50010065",
+      "status": "MATCHED",
+      "official_name": "Saint Agatha's Church Presbytery",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0196",
+      "archive_name": "Saint Vincent's Boys' National School",
+      "registration_number": "50010066",
+      "status": "MATCHED",
+      "official_name": "Saint Vincent's Boys' National School",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0197",
+      "archive_name": "Charleville Mall Library",
+      "registration_number": "50010075",
+      "status": "MATCHED",
+      "official_name": "Charleville Mall Library",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0198",
+      "archive_name": "Eagle Motors",
+      "registration_number": "50010076",
+      "status": "MATCHED",
+      "official_name": "Eagle Motors",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0199",
+      "archive_name": "Meehan Associates",
+      "registration_number": "50010085",
+      "status": "MATCHED",
+      "official_name": "Meehan Associates",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0200",
+      "archive_name": "Liffey Oil Ltd",
+      "registration_number": "50010088",
+      "status": "MATCHED",
+      "official_name": "Liffey Oil Ltd",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0201",
+      "archive_name": "Fulcrum Office Suites",
+      "registration_number": "50010089",
+      "status": "MATCHED",
+      "official_name": "Fulcrum Office Suites",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0202",
+      "archive_name": "ANSAC Credit Union",
+      "registration_number": "50010093",
+      "status": "MATCHED",
+      "official_name": "ANSAC Credit Union",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0203",
+      "archive_name": "Graffiti Design Consultants",
+      "registration_number": "50010096",
+      "status": "MATCHED",
+      "official_name": "Graffiti Design Consultants",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0204",
+      "archive_name": "DeCare International",
+      "registration_number": "50010097",
+      "status": "MATCHED",
+      "official_name": "DeCare International",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0205",
+      "archive_name": "Portland House",
+      "registration_number": "50010100",
+      "status": "MATCHED",
+      "official_name": "Portland House",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0206",
+      "archive_name": "Old Dubliner Bed & Breakfast",
+      "registration_number": "50010102",
+      "status": "MATCHED",
+      "official_name": "Old Dubliner Bed & Breakfast",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0207",
+      "archive_name": "Amien House",
+      "registration_number": "50010103",
+      "status": "MATCHED",
+      "official_name": "Amien House",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0208",
+      "archive_name": "McMahon Galvin Insurance Brokers",
+      "registration_number": "50010105",
+      "status": "MATCHED",
+      "official_name": "McMahon Galvin Insurance Brokers",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0209",
+      "archive_name": "Inner City Renewal Group",
+      "registration_number": "50010107",
+      "status": "MATCHED",
+      "official_name": "Inner City Renewal Group",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0210",
+      "archive_name": "Health Service Executive — house (NIAH 50010113)",
+      "registration_number": "50010113",
+      "status": "MATCHED",
+      "official_name": "Health Service Executive",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0211",
+      "archive_name": "Health Service Executive — house (NIAH 50010114)",
+      "registration_number": "50010114",
+      "status": "MATCHED",
+      "official_name": "Health Service Executive",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0212",
+      "archive_name": "Burke's Bar",
+      "registration_number": "50010115",
+      "status": "MATCHED",
+      "official_name": "Burke's Bar",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0213",
+      "archive_name": "Tass O'Collections",
+      "registration_number": "50010120",
+      "status": "MATCHED",
+      "official_name": "Tass O'Collections",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0214",
+      "archive_name": "Knocknagin House",
+      "registration_number": "11302001",
+      "status": "MATCHED",
+      "official_name": "Knocknagin House",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0215",
+      "archive_name": "Knocknagin Cottage",
+      "registration_number": "11302002",
+      "status": "MATCHED",
+      "official_name": "Knocknagin Cottage",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0196",
+      "archive_name": "Old Mill Bridge",
+      "registration_number": "11303001",
+      "status": "MATCHED",
+      "official_name": "Old Mill Bridge",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0216",
+      "archive_name": "Whitestown House — gate lodge (NIAH 11303002)",
+      "registration_number": "11303002",
+      "status": "MATCHED",
+      "official_name": "Whitestown House",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0217",
+      "archive_name": "Bremore Cottage",
+      "registration_number": "11304003",
+      "status": "MATCHED",
+      "official_name": "Bremore Cottage",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0218",
+      "archive_name": "Whitestown House — country house",
+      "registration_number": "11304005",
+      "status": "MATCHED",
+      "official_name": "Whitestown House",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0219",
+      "archive_name": "Whitestown House — gate lodge (NIAH 11304006)",
+      "registration_number": "11304006",
+      "status": "MATCHED",
+      "official_name": "Whitestown House",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0220",
+      "archive_name": "Balscaddan House",
+      "registration_number": "11304007",
+      "status": "MATCHED",
+      "official_name": "Balscaddan House",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0221",
+      "archive_name": "Catholic Church of the Assumption",
+      "registration_number": "11304008",
+      "status": "MATCHED",
+      "official_name": "Catholic Church of the Assumption",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0197",
+      "archive_name": "Balbriggan Railway Station — railway station",
+      "registration_number": "11305001",
+      "status": "MATCHED",
+      "official_name": "Balbriggan Railway Station",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0198",
+      "archive_name": "Balbriggan Railway Station — station master's house",
+      "registration_number": "11305002",
+      "status": "MATCHED",
+      "official_name": "Balbriggan Railway Station",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0199",
+      "archive_name": "Balbriggan Railway Station — goods shed",
+      "registration_number": "11305005",
+      "status": "MATCHED",
+      "official_name": "Balbriggan Railway Station",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0222",
+      "archive_name": "Loreto Convent",
+      "registration_number": "11305006",
+      "status": "MATCHED",
+      "official_name": "Loreto Convent",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0223",
+      "archive_name": "Balbriggan Martello Tower",
+      "registration_number": "11305009",
+      "status": "MATCHED",
+      "official_name": "Balbriggan Martello Tower",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0224",
+      "archive_name": "The Fashion Hall",
+      "registration_number": "11305013",
+      "status": "MATCHED",
+      "official_name": "The Fashion Hall",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0200",
+      "archive_name": "Balbriggan Harbour — lighthouse",
+      "registration_number": "11305017",
+      "status": "MATCHED",
+      "official_name": "Balbriggan Harbour",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0201",
+      "archive_name": "Balbriggan Harbour — harbour/dock/port",
+      "registration_number": "11305018",
+      "status": "MATCHED",
+      "official_name": "Balbriggan Harbour",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0225",
+      "archive_name": "Saint George's Church (Balrothery) — rectory/glebe/vicarage/curate's house",
+      "registration_number": "11305022",
+      "status": "MATCHED",
+      "official_name": "Saint George's Church (Balrothery)",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0226",
+      "archive_name": "Saint George's Church (Balrothery) — church/chapel",
+      "registration_number": "11305023",
+      "status": "MATCHED",
+      "official_name": "Saint George's Church (Balrothery)",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0227",
+      "archive_name": "Seapoint House",
+      "registration_number": "11305024",
+      "status": "MATCHED",
+      "official_name": "Seapoint House",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0228",
+      "archive_name": "Croom House",
+      "registration_number": "11305026",
+      "status": "MATCHED",
+      "official_name": "Croom House",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0229",
+      "archive_name": "Georgeville",
+      "registration_number": "11305028",
+      "status": "MATCHED",
+      "official_name": "Georgeville",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0230",
+      "archive_name": "Bedford House",
+      "registration_number": "11305029",
+      "status": "MATCHED",
+      "official_name": "Bedford House",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0231",
+      "archive_name": "Saint George's National School",
+      "registration_number": "11305031",
+      "status": "MATCHED",
+      "official_name": "Saint George's National School",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0232",
+      "archive_name": "Balbriggan Market House",
+      "registration_number": "11305033",
+      "status": "MATCHED",
+      "official_name": "Balbriggan Market House",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0202",
+      "archive_name": "Leixlip Hydro Power Station",
+      "registration_number": "11201001",
+      "status": "MATCHED",
+      "official_name": "Leixlip Hydro Power Station",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0203",
+      "archive_name": "Leixlip Bridge",
+      "registration_number": "11201002",
+      "status": "MATCHED",
+      "official_name": "Leixlip Bridge",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0233",
+      "archive_name": "Salmon Leap Inn",
+      "registration_number": "11201003",
+      "status": "MATCHED",
+      "official_name": "Salmon Leap Inn",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0234",
+      "archive_name": "Lucan House — gate lodge",
+      "registration_number": "11201004",
+      "status": "MATCHED",
+      "official_name": "Lucan House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0002",
+      "archive_name": "Lucan House — demesne walls/gates/railings",
+      "registration_number": "11201006",
+      "status": "MATCHED",
+      "official_name": "Lucan House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0235",
+      "archive_name": "Round House",
+      "registration_number": "11201018",
+      "status": "MATCHED",
+      "official_name": "Round House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0236",
+      "archive_name": "Spa Hotel",
+      "registration_number": "11201020",
+      "status": "MATCHED",
+      "official_name": "Spa Hotel",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0237",
+      "archive_name": "Ardfield House",
+      "registration_number": "11201022",
+      "status": "MATCHED",
+      "official_name": "Ardfield House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0238",
+      "archive_name": "Annadale",
+      "registration_number": "11201026",
+      "status": "MATCHED",
+      "official_name": "Annadale",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0239",
+      "archive_name": "Rose Cottage",
+      "registration_number": "11201027",
+      "status": "MATCHED",
+      "official_name": "Rose Cottage",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0240",
+      "archive_name": "The Forge",
+      "registration_number": "11201028",
+      "status": "MATCHED",
+      "official_name": "The Forge",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0241",
+      "archive_name": "Griffeen Lodge",
+      "registration_number": "11201032",
+      "status": "MATCHED",
+      "official_name": "Griffeen Lodge",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0242",
+      "archive_name": "Canonbrook House",
+      "registration_number": "11201034",
+      "status": "MATCHED",
+      "official_name": "Canonbrook House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0243",
+      "archive_name": "Lucan Methodist Church — church/chapel",
+      "registration_number": "11201035",
+      "status": "MATCHED",
+      "official_name": "Lucan Methodist Church",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0244",
+      "archive_name": "Lucan Methodist Church — manse",
+      "registration_number": "11201036",
+      "status": "MATCHED",
+      "official_name": "Lucan Methodist Church",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0245",
+      "archive_name": "Ard Garon",
+      "registration_number": "11201038",
+      "status": "MATCHED",
+      "official_name": "Ard Garon",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0246",
+      "archive_name": "Griffeen House",
+      "registration_number": "11201051",
+      "status": "MATCHED",
+      "official_name": "Griffeen House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0247",
+      "archive_name": "Lucan Physiotherapy Clinic",
+      "registration_number": "11201052",
+      "status": "MATCHED",
+      "official_name": "Lucan Physiotherapy Clinic",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0248",
+      "archive_name": "Lucan Presbyterian Church",
+      "registration_number": "11201053",
+      "status": "MATCHED",
+      "official_name": "Lucan Presbyterian Church",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0249",
+      "archive_name": "Lucan Family Centre",
+      "registration_number": "11201055",
+      "status": "MATCHED",
+      "official_name": "Lucan Family Centre",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0250",
+      "archive_name": "Lucan Studios",
+      "registration_number": "11201062",
+      "status": "MATCHED",
+      "official_name": "Lucan Studios",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0251",
+      "archive_name": "Cormack's",
+      "registration_number": "11201068",
+      "status": "MATCHED",
+      "official_name": "Cormack's",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0252",
+      "archive_name": "I.F.S. House",
+      "registration_number": "11201070",
+      "status": "MATCHED",
+      "official_name": "I.F.S. House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0253",
+      "archive_name": "Saint Andrew's Church (Lucan)",
+      "registration_number": "11201071",
+      "status": "MATCHED",
+      "official_name": "Saint Andrew's Church (Lucan)",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0254",
+      "archive_name": "The Robin's Nest",
+      "registration_number": "11201072",
+      "status": "MATCHED",
+      "official_name": "The Robin's Nest",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0255",
+      "archive_name": "Central Mental Hospital — hospital/infirmary (NIAH 60220001)",
+      "registration_number": "60220001",
+      "status": "MATCHED",
+      "official_name": "Central Mental Hospital",
+      "official_local_authority": "Dun Laoghaire-Rathdown County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0256",
+      "archive_name": "Central Mental Hospital — church/chapel",
+      "registration_number": "60220002",
+      "status": "MATCHED",
+      "official_name": "Central Mental Hospital",
+      "official_local_authority": "Dun Laoghaire-Rathdown County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0257",
+      "archive_name": "Central Mental Hospital — hospital/infirmary (NIAH 60220003)",
+      "registration_number": "60220003",
+      "status": "MATCHED",
+      "official_name": "Central Mental Hospital",
+      "official_local_authority": "Dun Laoghaire-Rathdown County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0258",
+      "archive_name": "Marlay House — country house",
+      "registration_number": "60220011",
+      "status": "MATCHED",
+      "official_name": "Marlay House",
+      "official_local_authority": "Dun Laoghaire-Rathdown County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0259",
+      "archive_name": "Marlay House — stables",
+      "registration_number": "60220012",
+      "status": "MATCHED",
+      "official_name": "Marlay House",
+      "official_local_authority": "Dun Laoghaire-Rathdown County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0003",
+      "archive_name": "Marlay House — walled garden",
+      "registration_number": "60220013",
+      "status": "MATCHED",
+      "official_name": "Marlay House",
+      "official_local_authority": "Dun Laoghaire-Rathdown County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0260",
+      "archive_name": "Marlay House — worker's house",
+      "registration_number": "60220014",
+      "status": "MATCHED",
+      "official_name": "Marlay House",
+      "official_local_authority": "Dun Laoghaire-Rathdown County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0261",
+      "archive_name": "Marlay House — farmyard complex",
+      "registration_number": "60220016",
+      "status": "MATCHED",
+      "official_name": "Marlay House",
+      "official_local_authority": "Dun Laoghaire-Rathdown County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0004",
+      "archive_name": "Marlay House — gates/railings/walls (NIAH 60220017)",
+      "registration_number": "60220017",
+      "status": "MATCHED",
+      "official_name": "Marlay House",
+      "official_local_authority": "Dun Laoghaire-Rathdown County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0005",
+      "archive_name": "Marlay House — gates/railings/walls (NIAH 60220019)",
+      "registration_number": "60220019",
+      "status": "MATCHED",
+      "official_name": "Marlay House",
+      "official_local_authority": "Dun Laoghaire-Rathdown County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0262",
+      "archive_name": "Marlay House — gate lodge",
+      "registration_number": "60220020",
+      "status": "MATCHED",
+      "official_name": "Marlay House",
+      "official_local_authority": "Dun Laoghaire-Rathdown County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0006",
+      "archive_name": "Marlay House — gates/railings/walls (NIAH 60220021)",
+      "registration_number": "60220021",
+      "status": "MATCHED",
+      "official_name": "Marlay House",
+      "official_local_authority": "Dun Laoghaire-Rathdown County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0027",
+      "archive_name": "Saint Columba's College — monument",
+      "registration_number": "60220028",
+      "status": "MATCHED",
+      "official_name": "Saint Columba's College",
+      "official_local_authority": "Dun Laoghaire-Rathdown County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0263",
+      "archive_name": "Saint Columba's College — church/chapel",
+      "registration_number": "60220029",
+      "status": "MATCHED",
+      "official_name": "Saint Columba's College",
+      "official_local_authority": "Dun Laoghaire-Rathdown County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0264",
+      "archive_name": "Saint Columba's College — library/archive",
+      "registration_number": "60220032",
+      "status": "MATCHED",
+      "official_name": "Saint Columba's College",
+      "official_local_authority": "Dun Laoghaire-Rathdown County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0265",
+      "archive_name": "Saint Columba's College — building misc",
+      "registration_number": "60220033",
+      "status": "MATCHED",
+      "official_name": "Saint Columba's College",
+      "official_local_authority": "Dun Laoghaire-Rathdown County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0266",
+      "archive_name": "Saint Columba's College — laboratory",
+      "registration_number": "60220034",
+      "status": "MATCHED",
+      "official_name": "Saint Columba's College",
+      "official_local_authority": "Dun Laoghaire-Rathdown County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0267",
+      "archive_name": "Saint Columba's College — clubhouse",
+      "registration_number": "60220035",
+      "status": "MATCHED",
+      "official_name": "Saint Columba's College",
+      "official_local_authority": "Dun Laoghaire-Rathdown County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0007",
+      "archive_name": "Saint Columba's College — gates/railings/walls",
+      "registration_number": "60220036",
+      "status": "MATCHED",
+      "official_name": "Saint Columba's College",
+      "official_local_authority": "Dun Laoghaire-Rathdown County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0268",
+      "archive_name": "Saint Mary's National School",
+      "registration_number": "60220038",
+      "status": "MATCHED",
+      "official_name": "Saint Mary's National School",
+      "official_local_authority": "Dun Laoghaire-Rathdown County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0269",
+      "archive_name": "Saint Mary's Catholic Church — church/chapel",
+      "registration_number": "60220042",
+      "status": "MATCHED",
+      "official_name": "Saint Mary's Catholic Church",
+      "official_local_authority": "Dun Laoghaire-Rathdown County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0270",
+      "archive_name": "Saint Mary's Catholic Church — presbytery/parochial/curate's house (NIAH 60220043)",
+      "registration_number": "60220043",
+      "status": "MATCHED",
+      "official_name": "Saint Mary's Catholic Church",
+      "official_local_authority": "Dun Laoghaire-Rathdown County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0271",
+      "archive_name": "Saint Mary's Catholic Church — presbytery/parochial/curate's house (NIAH 60220044)",
+      "registration_number": "60220044",
+      "status": "MATCHED",
+      "official_name": "Saint Mary's Catholic Church",
+      "official_local_authority": "Dun Laoghaire-Rathdown County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0272",
+      "archive_name": "Glencairn — country house",
+      "registration_number": "60230001",
+      "status": "MATCHED",
+      "official_name": "Glencairn",
+      "official_local_authority": "Dun Laoghaire-Rathdown County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0273",
+      "archive_name": "Glencairn — conservatory",
+      "registration_number": "60230002",
+      "status": "MATCHED",
+      "official_name": "Glencairn",
+      "official_local_authority": "Dun Laoghaire-Rathdown County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0274",
+      "archive_name": "Leixlip Road — detached house (NIAH 11201005)",
+      "registration_number": "11201005",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0204",
+      "archive_name": "Leixlip Road — granite milestone (NIAH 11201007)",
+      "registration_number": "11201007",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0275",
+      "archive_name": "1 Cooldrinagh Lane",
+      "registration_number": "11201010",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0276",
+      "archive_name": "2 Cooldrinagh Lane",
+      "registration_number": "11201011",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0277",
+      "archive_name": "3 Cooldrinagh Lane",
+      "registration_number": "11201012",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0278",
+      "archive_name": "Cooldrinagh House",
+      "registration_number": "11201014",
+      "status": "MATCHED",
+      "official_name": "Cooldrinagh House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0205",
+      "archive_name": "Lucan Demesne — weir (NIAH 11201017)",
+      "registration_number": "11201017",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0008",
+      "archive_name": "Cooldrinagh Lane — gate piers and boundary wall (NIAH 11201008)",
+      "registration_number": "11201008",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0279",
+      "archive_name": "Cooldrinagh Lane — former farm outbuilding (NIAH 11201009)",
+      "registration_number": "11201009",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0009",
+      "archive_name": "Cooldrinagh Lane — former walled garden (NIAH 11201013)",
+      "registration_number": "11201013",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0280",
+      "archive_name": "Cooldrinagh Lane — former stables and coach house (NIAH 11201015)",
+      "registration_number": "11201015",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0206",
+      "archive_name": "Cooldrinagh Lane — T & T cast-iron water pump (NIAH 11201016)",
+      "registration_number": "11201016",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0281",
+      "archive_name": "Iveagh Trust Buildings — Patrick Street blocks",
+      "registration_number": "50080685",
+      "status": "MATCHED",
+      "official_name": "Iveagh Trust Buildings",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0282",
+      "archive_name": "Iveagh Trust Buildings — Bride Street blocks",
+      "registration_number": "50080686",
+      "status": "MATCHED",
+      "official_name": "Iveagh Trust Buildings",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0283",
+      "archive_name": "The Whitworth Building (formerly Whitworth Hospital)",
+      "registration_number": "50070337",
+      "status": "MATCHED",
+      "official_name": "The Whitworth Building",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0207",
+      "archive_name": "Bachelor’s Walk",
+      "registration_number": "50060551",
+      "status": "MATCHED",
+      "official_name": "Bachelor's Walk",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0284",
+      "archive_name": "Trinity City Hotel (former Central Fire Station)",
+      "registration_number": "50020320",
+      "status": "MATCHED",
+      "official_name": "Trinity City Hotel",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0285",
+      "archive_name": "Drumcondra Road Upper — St Patrick’s Campus gate screen and boundary walls",
+      "registration_number": "50130155",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0286",
+      "archive_name": "Henrietta Place — c.1810 warehouse",
+      "registration_number": "50011213",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0287",
+      "archive_name": "Chapel Lane — c.1860 warehouse",
+      "registration_number": "50060505",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0288",
+      "archive_name": "21 Sycamore Street — former furniture workshop",
+      "registration_number": "50020082",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0289",
+      "archive_name": "28 Brookfield Road — vernacular house",
+      "registration_number": "50080168",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0290",
+      "archive_name": "National College of Art and Design — former Thomas Street Fire Station",
+      "registration_number": "50080582",
+      "status": "MATCHED",
+      "official_name": "National College of Art and Design",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0291",
+      "archive_name": "Morningstar Hostel — former North Union Workhouse",
+      "registration_number": "50070342",
+      "status": "MATCHED",
+      "official_name": "Morningstar Hostel",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0292",
+      "archive_name": "Carmichael House — pair of gate lodges",
+      "registration_number": "50070345",
+      "status": "MATCHED",
+      "official_name": "Carmichael House",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0293",
+      "archive_name": "Saint James's Hospital — former workhouse linen factory",
+      "registration_number": "50080177",
+      "status": "MATCHED",
+      "official_name": "Saint James's Hospital",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0294",
+      "archive_name": "Saint James's Hospital — former workhouse master's house",
+      "registration_number": "50080178",
+      "status": "MATCHED",
+      "official_name": "Saint James's Hospital",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0295",
+      "archive_name": "The Ireland Institute — former Pearse family house and sculptor's premises",
+      "registration_number": "50020326",
+      "status": "MATCHED",
+      "official_name": "The Ireland Institute",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0296",
+      "archive_name": "43 O'Connell Street Upper — 1925 Portland-stone commercial building",
+      "registration_number": "50010553",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0297",
+      "archive_name": "43 Capel Street — c.1810 former house and shopfront",
+      "registration_number": "50060501",
+      "status": "MATCHED",
+      "official_name": "Ladbrokes",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0298",
+      "archive_name": "2 St. Andrew Street — Georgian townhouse and street-name plaque",
+      "registration_number": "50910149",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0299",
+      "archive_name": "52 Bayview Avenue — late Georgian terraced house",
+      "registration_number": "50120242",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0300",
+      "archive_name": "56 Bayview Avenue — late Georgian terraced house",
+      "registration_number": "50120246",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0301",
+      "archive_name": "10 Gardiner Place — Georgian townhouse",
+      "registration_number": "50010864",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0302",
+      "archive_name": "21 Denmark Street Great — Georgian corner townhouse",
+      "registration_number": "50010963",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0303",
+      "archive_name": "Dublin City Gallery — Charlemont House",
+      "registration_number": "50010915",
+      "status": "MATCHED",
+      "official_name": "Dublin City Gallery",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0304",
+      "archive_name": "Saint Paul's Christian Brothers School — 1890 school building",
+      "registration_number": "50070329",
+      "status": "MATCHED",
+      "official_name": "Saint Paul's Christian Brothers School",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0305",
+      "archive_name": "Mendicity Institution gate screen — Usher's Island",
+      "registration_number": "50080523",
+      "status": "MATCHED",
+      "official_name": "HSE Mental Health Day Centre",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0306",
+      "archive_name": "Guineys, 93 Talbot Street, Dublin 1, DUBLIN",
+      "registration_number": "50010217",
+      "status": "MATCHED",
+      "official_name": "Guineys",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0307",
+      "archive_name": "Law Centre, 45 Gardiner Street Lower, Dublin 1, DUBLIN",
+      "registration_number": "50010165",
+      "status": "MATCHED",
+      "official_name": "Law Centre",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0308",
+      "archive_name": "The Granary, 20 Temple Lane South, Cecilia Street, Dublin 2, DUBLIN",
+      "registration_number": "50020132",
+      "status": "MATCHED",
+      "official_name": "The Granary",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0309",
+      "archive_name": "Dublin City Council, Wood Quay, Fishamble Street, Dublin 8, DUBLIN",
+      "registration_number": "50080528",
+      "status": "MATCHED",
+      "official_name": "Dublin City Council",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0310",
+      "archive_name": "5 Parnell Square East, Dublin 1, DUBLIN",
+      "registration_number": "50011017",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0311",
+      "archive_name": "77 Parnell Street, Dublin 1, DUBLIN",
+      "registration_number": "50010616",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0312",
+      "archive_name": "National Library of Ireland, Kildare Street, Dublin 2, DUBLIN",
+      "registration_number": "50100219",
+      "status": "MATCHED",
+      "official_name": "National Library of Ireland",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0313",
+      "archive_name": "2 Lennox Place, Dublin 8, DUBLIN",
+      "registration_number": "50110133",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0314",
+      "archive_name": "1 Harrington Street, Dublin 8, DUBLIN",
+      "registration_number": "50110205",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0315",
+      "archive_name": "The Goodwill Thrift Shop, 142 Capel Street, Dublin 1, DUBLIN",
+      "registration_number": "50010446",
+      "status": "MATCHED",
+      "official_name": "The Goodwill Thrift Shop",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0316",
+      "archive_name": "Seville Place locomotive shed",
+      "registration_number": "50010034",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0317",
+      "archive_name": "Coburg Place railway service building",
+      "registration_number": "50010035",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0318",
+      "archive_name": "100 Seville Place",
+      "registration_number": "50010036",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0319",
+      "archive_name": "101 Seville Place",
+      "registration_number": "50010037",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0320",
+      "archive_name": "102 Seville Place",
+      "registration_number": "50010038",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0321",
+      "archive_name": "Central Model School",
+      "registration_number": "50010226",
+      "status": "MATCHED",
+      "official_name": "Central Model School",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0322",
+      "archive_name": "National Model Schools — gate lodge",
+      "registration_number": "50010227",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0323",
+      "archive_name": "Saint Mary's Catholic Pro-Cathedral",
+      "registration_number": "50010228",
+      "status": "MATCHED",
+      "official_name": "Saint Mary's Catholic Pro-Cathedral",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0324",
+      "archive_name": "Pro-Cathedral House",
+      "registration_number": "50010229",
+      "status": "MATCHED",
+      "official_name": "Pro-Cathedral House",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0325",
+      "archive_name": "81 Marlborough Street",
+      "registration_number": "50010231",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0326",
+      "archive_name": "80 Marlborough Street",
+      "registration_number": "50010232",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0327",
+      "archive_name": "79 Marlborough Street",
+      "registration_number": "50010233",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0328",
+      "archive_name": "78 Marlborough Street",
+      "registration_number": "50010234",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0329",
+      "archive_name": "School of Culinary Arts and Food Technology",
+      "registration_number": "50010236",
+      "status": "MATCHED",
+      "official_name": "School of Culinary Arts and Food Technology",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0330",
+      "archive_name": "Church of Saint George and Saint Thomas",
+      "registration_number": "50010237",
+      "status": "MATCHED",
+      "official_name": "Church of Saint George and Saint Thomas",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0331",
+      "archive_name": "84 Marlborough Street",
+      "registration_number": "50010239",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0332",
+      "archive_name": "The Confession Box",
+      "registration_number": "50010241",
+      "status": "MATCHED",
+      "official_name": "The Confession Box",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0333",
+      "archive_name": "89 Marlborough Street",
+      "registration_number": "50010242",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0334",
+      "archive_name": "Dunnes Stores — 23–24 Earl Street North",
+      "registration_number": "50010243",
+      "status": "MATCHED",
+      "official_name": "Dunnes Stores",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    }
+  ]
+}

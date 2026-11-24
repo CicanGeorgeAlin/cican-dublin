@@ -1,0 +1,305 @@
+{
+  "title": "CICAN Dublin — NIAH core publication, research Batches 087–089",
+  "generated_at": "2026-11-24T03:28:38.523Z",
+  "decision": "PUBLISHED",
+  "published_candidate_count": 14,
+  "held": [
+    {
+      "batch": "089",
+      "registration": "50010240",
+      "reason": "The individual NIAH page could not be independently opened during the research review. Although the official national CSV row is present, the hybrid core-publication gate requires an individually consulted official record. Keep on HOLD; do not publish."
+    }
+  ],
+  "registrations": [
+    {
+      "batch": "087",
+      "registration": "50010226",
+      "archive_id": "DUB-BLD-0321",
+      "name": "Central Model School",
+      "address": "Marlborough Street, Dublin 1, County Dublin, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010226/central-model-school-marlborough-street-dublin-1-dublin",
+      "coordinate_status": "SOURCE_DERIVED",
+      "latitude": 53.351524,
+      "longitude": -6.255766,
+      "field_verified": false
+    },
+    {
+      "batch": "087",
+      "registration": "50010227",
+      "archive_id": "DUB-BLD-0322",
+      "name": "National Model Schools — gate lodge",
+      "address": "Marlborough Street, Dublin 1, County Dublin, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010227/national-model-schools-marlborough-street-dublin-1-dublin",
+      "coordinate_status": "SOURCE_DERIVED",
+      "latitude": 53.351294,
+      "longitude": -6.258514,
+      "field_verified": false
+    },
+    {
+      "batch": "087",
+      "registration": "50010228",
+      "archive_id": "DUB-BLD-0323",
+      "name": "Saint Mary's Catholic Pro-Cathedral",
+      "address": "Marlborough Street, Cathedral Street, Dublin 1, County Dublin, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010228/saint-marys-catholic-pro-cathedral-marlborough-street-cathedral-street-dublin-1-co-dublin",
+      "coordinate_status": "SOURCE_DERIVED",
+      "latitude": 53.350846,
+      "longitude": -6.259074,
+      "field_verified": false
+    },
+    {
+      "batch": "087",
+      "registration": "50010229",
+      "archive_id": "DUB-BLD-0324",
+      "name": "Pro-Cathedral House",
+      "address": "83 Marlborough Street, Dublin 1, County Dublin, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010229/pro-cathedral-house-marlborough-street-dublin-1-dublin-city",
+      "coordinate_status": "SOURCE_DERIVED",
+      "latitude": 53.351145,
+      "longitude": -6.25882,
+      "field_verified": false
+    },
+    {
+      "batch": "087",
+      "registration": "50010231",
+      "archive_id": "DUB-BLD-0325",
+      "name": "81 Marlborough Street",
+      "address": "81 Marlborough Street, Dublin 1, County Dublin, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010231/marlborough-street-dublin-1-dublin-city-3",
+      "coordinate_status": "SOURCE_DERIVED",
+      "latitude": 53.351315,
+      "longitude": -6.2589,
+      "field_verified": false
+    },
+    {
+      "batch": "088",
+      "registration": "50010232",
+      "archive_id": "DUB-BLD-0326",
+      "name": "80 Marlborough Street",
+      "address": "80 Marlborough Street, Dublin 1, County Dublin, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010232/80-marlborough-street-dublin-1-dublin",
+      "coordinate_status": "SOURCE_DERIVED",
+      "latitude": 53.351374,
+      "longitude": -6.258923,
+      "field_verified": false
+    },
+    {
+      "batch": "088",
+      "registration": "50010233",
+      "archive_id": "DUB-BLD-0327",
+      "name": "79 Marlborough Street",
+      "address": "79 Marlborough Street, Dublin 1, County Dublin, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010233/guys-n-dolls-hairdressers-dublin-city",
+      "coordinate_status": "SOURCE_DERIVED",
+      "latitude": 53.35143,
+      "longitude": -6.25895,
+      "field_verified": false
+    },
+    {
+      "batch": "088",
+      "registration": "50010234",
+      "archive_id": "DUB-BLD-0328",
+      "name": "78 Marlborough Street",
+      "address": "78 Marlborough Street, Dublin 1, County Dublin, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010234/irish-rubies-ltd-78-marlborough-street-dublin-1-co-dublin",
+      "coordinate_status": "SOURCE_DERIVED",
+      "latitude": 53.351483,
+      "longitude": -6.258971,
+      "field_verified": false
+    },
+    {
+      "batch": "088",
+      "registration": "50010236",
+      "archive_id": "DUB-BLD-0329",
+      "name": "School of Culinary Arts and Food Technology",
+      "address": "66-74 Cathal Brugha Street, Marlborough Street, Dublin 1, County Dublin, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010236/school-of-culinary-arts-and-food-technology-66-74-cathal-brugha-street-marlborough-street-dublin-1-dublin",
+      "coordinate_status": "SOURCE_DERIVED",
+      "latitude": 53.352136,
+      "longitude": -6.259585,
+      "field_verified": false
+    },
+    {
+      "batch": "088",
+      "registration": "50010237",
+      "archive_id": "DUB-BLD-0330",
+      "name": "Church of Saint George and Saint Thomas",
+      "address": "Findlater Place, Cathal Brugha Street, Dublin 1, County Dublin, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010237/church-of-saint-george-and-saint-thomas-findlater-place-cathal-brugha-street-dublin-1-dublin",
+      "coordinate_status": "SOURCE_DERIVED",
+      "latitude": 53.352442,
+      "longitude": -6.259546,
+      "field_verified": false
+    },
+    {
+      "batch": "089",
+      "registration": "50010239",
+      "archive_id": "DUB-BLD-0331",
+      "name": "84 Marlborough Street",
+      "address": "84 Marlborough Street, Cathedral Street, Dublin 1, County Dublin, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010239/84-marlborough-street-cathedral-street-dublin-1-dublin",
+      "coordinate_status": "SOURCE_DERIVED",
+      "latitude": 53.35059,
+      "longitude": -6.258556,
+      "field_verified": false
+    },
+    {
+      "batch": "089",
+      "registration": "50010241",
+      "archive_id": "DUB-BLD-0332",
+      "name": "The Confession Box",
+      "address": "88 Marlborough Street, Dublin 1, County Dublin, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010241/the-confession-box-88-marlborough-street-dublin-1-dublin",
+      "coordinate_status": "SOURCE_DERIVED",
+      "latitude": 53.350327,
+      "longitude": -6.258411,
+      "field_verified": false
+    },
+    {
+      "batch": "089",
+      "registration": "50010242",
+      "archive_id": "DUB-BLD-0333",
+      "name": "89 Marlborough Street",
+      "address": "89 Marlborough Street, Dublin 1, County Dublin, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010242/89-marlborough-street-dublin-1-co-dublin",
+      "coordinate_status": "SOURCE_DERIVED",
+      "latitude": 53.350276,
+      "longitude": -6.258387,
+      "field_verified": false
+    },
+    {
+      "batch": "089",
+      "registration": "50010243",
+      "archive_id": "DUB-BLD-0334",
+      "name": "Dunnes Stores — 23–24 Earl Street North",
+      "address": "23-24 Earl Street North, Cathedral Street, Dublin 1, County Dublin, Ireland",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010243/dunnes-stores-23-24-earl-street-north-cathedral-street-dublin-1-dublin",
+      "coordinate_status": "SOURCE_DERIVED",
+      "latitude": 53.350086,
+      "longitude": -6.259151,
+      "field_verified": false
+    }
+  ],
+  "coordinate_proximity_review": [
+    {
+      "registration": "50010227",
+      "nearby_archive_id": "DUB-STR-0004",
+      "nearby_name": "Marlborough Street Edwardian post box",
+      "distance_m": 15.5,
+      "known_distinct_neighbour": true
+    },
+    {
+      "registration": "50010229",
+      "nearby_archive_id": "DUB-BLD-0008",
+      "nearby_name": "82 Marlborough Street",
+      "distance_m": 13.3,
+      "known_distinct_neighbour": true
+    },
+    {
+      "registration": "50010229",
+      "nearby_archive_id": "DUB-STR-0004",
+      "nearby_name": "Marlborough Street Edwardian post box",
+      "distance_m": 10.7,
+      "known_distinct_neighbour": true
+    },
+    {
+      "registration": "50010231",
+      "nearby_archive_id": "DUB-BLD-0008",
+      "nearby_name": "82 Marlborough Street",
+      "distance_m": 6.4,
+      "known_distinct_neighbour": true
+    },
+    {
+      "registration": "50010231",
+      "nearby_archive_id": "DUB-STR-0004",
+      "nearby_name": "Marlborough Street Edwardian post box",
+      "distance_m": 18.8,
+      "known_distinct_neighbour": true
+    },
+    {
+      "registration": "50010232",
+      "nearby_archive_id": "DUB-BLD-0007",
+      "nearby_name": "77 Marlborough Street",
+      "distance_m": 19.2,
+      "known_distinct_neighbour": true
+    },
+    {
+      "registration": "50010232",
+      "nearby_archive_id": "DUB-BLD-0008",
+      "nearby_name": "82 Marlborough Street",
+      "distance_m": 13.1,
+      "known_distinct_neighbour": true
+    },
+    {
+      "registration": "50010233",
+      "nearby_archive_id": "DUB-BLD-0007",
+      "nearby_name": "77 Marlborough Street",
+      "distance_m": 12.7,
+      "known_distinct_neighbour": true
+    },
+    {
+      "registration": "50010233",
+      "nearby_archive_id": "DUB-BLD-0008",
+      "nearby_name": "82 Marlborough Street",
+      "distance_m": 19.6,
+      "known_distinct_neighbour": true
+    },
+    {
+      "registration": "50010234",
+      "nearby_archive_id": "DUB-BLD-0007",
+      "nearby_name": "77 Marlborough Street",
+      "distance_m": 6.7,
+      "known_distinct_neighbour": true
+    }
+  ],
+  "address_relationships": [
+    {
+      "registration": "50010226",
+      "related_registration": "50010222",
+      "related_archive_id": "DUB-BLD-0010",
+      "matched_address": "Marlborough Street, Dublin 1",
+      "relationship": "documented separately registered campus/building component"
+    },
+    {
+      "registration": "50010227",
+      "related_registration": "50010222",
+      "related_archive_id": "DUB-BLD-0010",
+      "matched_address": "Marlborough Street, Dublin 1",
+      "relationship": "documented separately registered campus/building component"
+    },
+    {
+      "registration": "50010226",
+      "related_registration": "50010227",
+      "related_archive_id": null,
+      "matched_address": "Marlborough Street, Dublin 1, County Dublin, Ireland",
+      "relationship": "two separately registered structures within the National Model Schools campus"
+    }
+  ],
+  "duplicate_screen": {
+    "datasets_checked": [
+      "master_objects",
+      "public_niah_register",
+      "source_registry",
+      "visual_inventory"
+    ],
+    "master_records_checked": 615,
+    "public_niah_records_checked": 495,
+    "source_records_checked": 735,
+    "visual_records_checked": 615,
+    "blocking_conflicts": [],
+    "name_collisions": []
+  },
+  "post_import_counts": {
+    "master_objects": 629,
+    "public_niah_records": 509,
+    "source_records": 749,
+    "visual_records": 629
+  },
+  "safeguards": [
+    "No archive record or map point was created for held registration 50010240.",
+    "Official CSV NAME blanks are preserved in research notes; page titles are kept separate.",
+    "Official CSV WGS84 coordinates are SOURCE_DERIVED with unspecified positional accuracy; they are not founder GPS.",
+    "No NIAH photographs are reused; all 14 visual records await founder photography and A4 line art.",
+    "No candidate is marked FIELD_VERIFIED."
+  ]
+}

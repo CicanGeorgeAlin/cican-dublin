@@ -188,7 +188,7 @@ test("route matching does not regress behind accepted progress",()=>{
 
 test("heading-up navigation uses compass heading, smooths wraparound and respects screen rotation",()=>{
   const start=app.indexOf("function normalizeCompassHeading");
-  const end=app.indexOf("function updateHeadingCamera",start);
+  const end=app.indexOf("function renderHeadingCamera",start);
   assert.ok(start>=0&&end>start,"compass heading helpers must be present");
   const context={window:{screen:{orientation:{angle:90}}}};
   vm.createContext(context);

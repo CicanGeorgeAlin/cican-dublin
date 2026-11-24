@@ -62,3 +62,21 @@ This batch is research-only. No permanent archive IDs, master objects, public NI
 
 - **50010257 — Bonavox Hearing Aids:** present in the queue but held pending independent verification of the individual official NIAH page.
 - **50010259 — Zumo Juice Bar:** present in the queue but assigned to **South Dublin County Council** by the official authority field. It is excluded from this Dublin City batch and retained for separate authority review. The postal address does not override the authority assignment.
+
+
+## Manual proximity review
+
+The full-catalogue reconciliation found two objects within 30 metres of candidate 50010254. Both have been manually compared against their existing archive pages and official NIAH records:
+
+| Candidate | Existing archive object | Official registration | Distance | Manual outcome |
+|---|---|---:|---:|---|
+| 50010254 — 14 North Earl Street / Marlborough Street | DUB-BLD-0006 — 23 Marlborough Street | 50010218 | 28.4 m | Known distinct neighbour |
+| 50010254 — 14 North Earl Street / Marlborough Street | DUB-BLD-0333 — 89 Marlborough Street | 50010242 | 28.8 m | Known distinct neighbour |
+
+NIAH 50010218 describes 23 Marlborough Street as a terraced two-bay four-storey late eighteenth-century house. NIAH 50010242 describes 89 Marlborough Street as a terraced four-bay four-storey stucco-fronted house built c.1820. Candidate 50010254 is the separately registered corner-sited three-bay four-storey former townhouse at 14 North Earl Street / Marlborough Street. These are different addresses, official registration numbers and building descriptions. Both proximity hits are therefore documented as distinct neighbouring buildings; neither is a duplicate.
+
+Official comparison sources:
+- [NIAH 50010218 — 23 Marlborough Street](https://www.buildingsofireland.ie/buildings-search/building/50010218/ladbrokes-marlborough-street-dublin-1-co-dublin)
+- [NIAH 50010242 — 89 Marlborough Street](https://www.buildingsofireland.ie/buildings-search/building/50010242/89-marlborough-street-dublin-1-co-dublin)
+
+Manual review result: zero unresolved proximity hits.

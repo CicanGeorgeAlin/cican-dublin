@@ -33,6 +33,8 @@ jobs:
           node --check preview/app/app.js
           node --check preview/service-worker.js
           node --check service-worker.js
+      - name: Test CICAN walking navigation UI and routing integration
+        run: node --test scripts/test-cican-navigation.mjs
       - name: Check SEO page generator syntax
         run: node --check scripts/generate-seo-pages.mjs
       - name: Generate crawlable place pages and full sitemap

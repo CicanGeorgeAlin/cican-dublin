@@ -29,7 +29,7 @@ test("archive place details use CICAN walking navigation, not Google Maps handof
   assert.match(app, /WALK THERE WITH CICAN/);
   assert.match(app, /requestWalkingNavigation\(id\)/);
   assert.doesNotMatch(app, /google\.com\/maps\/dir\//);
-  assert.match(app, /id="navigation-panel"/);
+  assert.match(html, /id="navigation-panel"/);
   assert.match(html, /id="locate-button"/);
   assert.match(app, /new URLSearchParams\(location\.search\)\.get\("destination"\)/);
 });

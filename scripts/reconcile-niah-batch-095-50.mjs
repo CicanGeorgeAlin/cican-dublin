@@ -71,7 +71,7 @@ for (const c of manifest.candidates) {
   const displayNumber = numberIsDateLike ? "" : csvNumber;
   const streetCore = [displayNumber, clean(row.STREET1)].filter(Boolean).join(" ");
   const locality = clean(row.TOWN) || "Dublin";
-  const displayAddress = [streetCore, clean(row.STREET2), locality, "Ireland"].filter(Boolean).join(", ");
+  const displayAddress = c.display_address || [streetCore, clean(row.STREET2), locality, "Ireland"].filter(Boolean).join(", ");
   const displayName = c.display_name || (csvName && !csvName.includes("\uFFFD") ? csvName : (streetCore || ("NIAH registration " + c.registration)));
   if (Object.values(row).some(value => String(value ?? "").includes("\uFFFD"))) {
     sourceAnomalies.push({ registration: c.registration, issue: "Official national CSV values contain U+FFFD replacement characters; preserve raw values and use only individually verified transcription for display.", csv_name: csvName, csv_number: csvNumber });

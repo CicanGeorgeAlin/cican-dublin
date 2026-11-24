@@ -1,0 +1,297 @@
+{
+  "batch": "098",
+  "title": "NIAH Dublin City — 50-record normal batch, Capel Street to Parnell Square West",
+  "reviewed_on": "2026-11-24",
+  "target_count": 50,
+  "source_queue": "audit/niah-dublin-missing-registrations.json",
+  "selection_method": "First 50 Dublin City Council / County Dublin rows after Batch 097's final selected registration 50010598 in the refreshed official four-authority missing-registration queue. Exact queue membership is validated in CI; numeric continuity alone is not used.",
+  "candidates": [
+    {
+      "registration": "50010599",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010599/81-capel-street-dublin-co-dublin",
+      "page_verified": true
+    },
+    {
+      "registration": "50010600",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010600",
+      "page_verified": false
+    },
+    {
+      "registration": "50010601",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010601",
+      "page_verified": false,
+      "display_name": "83 Capel Street"
+    },
+    {
+      "registration": "50010602",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010602",
+      "page_verified": false
+    },
+    {
+      "registration": "50010603",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010603/academic-bridge-88-capel-street-dublin-dublin",
+      "page_verified": true
+    },
+    {
+      "registration": "50010604",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010604",
+      "page_verified": false
+    },
+    {
+      "registration": "50010605",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010605/85-capel-street-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "85 Capel Street"
+    },
+    {
+      "registration": "50010606",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010606",
+      "page_verified": false
+    },
+    {
+      "registration": "50010607",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010607/bodkins-57-bolton-street-dublin-dublin",
+      "page_verified": true
+    },
+    {
+      "registration": "50010608",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010608",
+      "page_verified": false
+    },
+    {
+      "registration": "50010609",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010609/michael-garry-ltd-59-bolton-street-dublin-dublin",
+      "page_verified": true
+    },
+    {
+      "registration": "50010610",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010610/fior-fiore-cafe-61-bolton-street-dublin-dublin",
+      "page_verified": true
+    },
+    {
+      "registration": "50010611",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010611/parnell-street-dublin-dublin-city",
+      "page_verified": true,
+      "display_name": "221–224 Parnell Street"
+    },
+    {
+      "registration": "50010612",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010612/dublin-city",
+      "page_verified": true,
+      "display_name": "1–2A Parnell Street / Capel Street"
+    },
+    {
+      "registration": "50010613",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010613/father-mathew-monument-oconnell-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Father Mathew Monument"
+    },
+    {
+      "registration": "50010614",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010614/parnell-street-oconnell-street-upper-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "Parnell Street / O'Connell Street Upper"
+    },
+    {
+      "registration": "50010615",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010615/76-parnell-street-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "76 Parnell Street"
+    },
+    {
+      "registration": "50010617",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010617/78-parnell-street-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "78 Parnell Street"
+    },
+    {
+      "registration": "50010618",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010618/ambassador-parnell-square-dublin-dublin",
+      "page_verified": true
+    },
+    {
+      "registration": "50010619",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010619/rotunda-hospital-parnell-square-dublin-co-dublin",
+      "page_verified": true,
+      "known_distinct_neighbours": [
+        "50010620"
+      ],
+      "distinct_neighbour_reason": "Separate canonical NIAH structures within the Rotunda Hospital complex: 50010619 is the 1751–57 eleven-bay main hospital designed by Richard Castle; 50010620 is the separate 1906 ten-bay four-storey hospital wing designed by Albert E. Murray. The attached relationship is architectural context, not duplicate identity."
+    },
+    {
+      "registration": "50010620",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010620/rotunda-hospital-parnell-square-dublin-co-dublin",
+      "page_verified": true,
+      "known_distinct_neighbours": [
+        "50010619"
+      ],
+      "distinct_neighbour_reason": "Separate canonical NIAH structures within the Rotunda Hospital complex: 50010619 is the 1751–57 eleven-bay main hospital designed by Richard Castle; 50010620 is the separate 1906 ten-bay four-storey hospital wing designed by Albert E. Murray. The attached relationship is architectural context, not duplicate identity."
+    },
+    {
+      "registration": "50010621",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010621/rotunda-hospital-parnell-street-parnell-square-west-dublin-1-dublin",
+      "page_verified": true
+    },
+    {
+      "registration": "50010622",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010622/rotunda-hospital-parnell-square-west-dublin-dublin",
+      "page_verified": true
+    },
+    {
+      "registration": "50010623",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010623/59-parnell-square-west-parnell-street-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "59 Parnell Square West"
+    },
+    {
+      "registration": "50010624",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010624/sinn-fein-party-hq-58-parnell-square-west-dublin-dublin",
+      "page_verified": true,
+      "display_name": "58 Parnell Square West"
+    },
+    {
+      "registration": "50010625",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010625/57-parnell-square-west-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "57 Parnell Square West"
+    },
+    {
+      "registration": "50010626",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010626",
+      "page_verified": false
+    },
+    {
+      "registration": "50010627",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010627/55-parnell-square-west-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "55 Parnell Square West"
+    },
+    {
+      "registration": "50010628",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010628/54-parnell-square-west-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "54 Parnell Square West"
+    },
+    {
+      "registration": "50010629",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010629",
+      "page_verified": false
+    },
+    {
+      "registration": "50010630",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010630/52-parnell-square-west-dublin-dublin",
+      "page_verified": true,
+      "display_name": "52 Parnell Square West"
+    },
+    {
+      "registration": "50010631",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010631/kent-carty-solicitors-48-parnell-square-west-granby-place-dublin-dublin-city",
+      "page_verified": true,
+      "display_name": "48 Parnell Square West"
+    },
+    {
+      "registration": "50010632",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010632/47-parnell-square-west-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "47 Parnell Square West"
+    },
+    {
+      "registration": "50010633",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010633/46-parnell-square-west-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "46 Parnell Square West"
+    },
+    {
+      "registration": "50010634",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010634/45-parnell-square-west-dublin-dublin",
+      "page_verified": true,
+      "display_name": "45 Parnell Square West"
+    },
+    {
+      "registration": "50010635",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010635/kevin-barry-memorial-hall-sinn-fein-ard-oifig-parnell-square-west-dublin-dublin-city",
+      "page_verified": true,
+      "display_name": "Kevin Barry Memorial Hall"
+    },
+    {
+      "registration": "50010636",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010636",
+      "page_verified": false
+    },
+    {
+      "registration": "50010637",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010637/saint-martins-apostolate-parnell-square-west-dublin-dublin-city",
+      "page_verified": true,
+      "display_name": "42 Parnell Square West"
+    },
+    {
+      "registration": "50010638",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010638/41-parnell-square-west-dublin-dublin",
+      "page_verified": true,
+      "display_name": "41 Parnell Square West"
+    },
+    {
+      "registration": "50010639",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010639/40-parnell-square-west-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "40 Parnell Square West"
+    },
+    {
+      "registration": "50010640",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010640/39-parnell-square-west-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "39 Parnell Square West"
+    },
+    {
+      "registration": "50010641",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010641",
+      "page_verified": false
+    },
+    {
+      "registration": "50010642",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010642/day-break-school-37-parnell-square-west-dublin-co-dublin",
+      "page_verified": true,
+      "display_name": "37 Parnell Square West"
+    },
+    {
+      "registration": "50010643",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010643/36-parnell-square-west-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "36 Parnell Square West"
+    },
+    {
+      "registration": "50010644",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010644/vere-foster-house-irish-national-teachers-organisation-35-parnell-square-west-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Vere Foster House"
+    },
+    {
+      "registration": "50010645",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010645/34-parnell-square-west-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "34 Parnell Square West"
+    },
+    {
+      "registration": "50010646",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010646/33-parnell-square-west-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "33 Parnell Square West"
+    },
+    {
+      "registration": "50010647",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010647",
+      "page_verified": false
+    },
+    {
+      "registration": "50010648",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010648/31-parnell-square-west-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "31 Parnell Square West"
+    },
+    {
+      "registration": "50010649",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010649",
+      "page_verified": false
+    }
+  ]
+}

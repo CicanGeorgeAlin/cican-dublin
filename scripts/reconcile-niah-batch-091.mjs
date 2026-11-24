@@ -24,6 +24,15 @@ for(const c of packet.candidates){
  assert.equal(hits.length,1,reg+" must occur exactly once in the refreshed official missing-registration queue.");
  const row=hits[0];
  assert.equal(String(row["LOCAL_AUTHORITY�"]??"").trim(),"Dublin City Council",reg+" is not a Dublin City Council record.");
+ assert.equal(String(row.NAME??""),c.csv_name,reg+" CSV NAME must be preserved verbatim.");
+ assert.equal(String(row.NUMBER??""),c.csv_number,reg+" CSV NUMBER must be preserved verbatim.");
+ assert.equal(String(row.STREET1??""),c.street1,reg+" CSV STREET1 must match.");
+ assert.equal(String(row.STREET2??""),c.street2,reg+" CSV STREET2 must match.");
+ assert.equal(String(row.TOWN??""),c.town,reg+" CSV TOWN must match.");
+ assert.equal(Number(row.ITM_E),c.itm_e,reg+" CSV ITM_E must match.");
+ assert.equal(Number(row.ITM_N),c.itm_n,reg+" CSV ITM_N must match.");
+ assert.equal(Number(row.LATITUDE),c.latitude,reg+" CSV latitude must match.");
+ assert.equal(Number(row.LONGITUDE),c.longitude,reg+" CSV longitude must match.");
  assert.equal(String(row.COUNTY??"").trim().toUpperCase(),"DUBLIN",reg+" is not in County Dublin.");
  assert.equal(c.page_verified,true,reg+" individual NIAH page has not been verified.");
  const url=new URL(c.official_page);assert.equal(url.protocol,"https:");assert.equal(url.hostname,"www.buildingsofireland.ie");
@@ -48,17 +57,25 @@ for(const c of packet.candidates){
   if(other.registration>reg&&addressKey(other.display_address)===akey)sameBatchAddressMatches.push({registration:reg,related_registration:other.registration,address:c.display_address});
  }
 }
+const knownDistinctNeighbours={
+ "50010250":[{archive_id:"DUB-BLD-0334",niah_registration:"50010243",decision:"KNOWN_DISTINCT_NEIGHBOUR",evidence:"Separate official registration and address 27 Earl Street North; four-storey 1918 premises designed by George Sheridan, distinct from the six-bay c.1920 building at 23-24 Earl Street North."}],
+ "50010251":[{archive_id:"DUB-BLD-0334",niah_registration:"50010243",decision:"KNOWN_DISTINCT_NEIGHBOUR",evidence:"Separate official registration and address 26 Earl Street North; four-storey 1917-19 retail premises with bow-fronted oriel, distinct from the six-bay c.1920 building at 23-24 Earl Street North."}],
+ "50010252":[{archive_id:"DUB-BLD-0334",niah_registration:"50010243",decision:"KNOWN_DISTINCT_NEIGHBOUR",evidence:"Separate official registration and address 25 Earl Street North; four-storey red brick and granite public house, distinct from the six-bay c.1920 building at 23-24 Earl Street North."}],
+ "50010253":[{archive_id:"DUB-BLD-0334",niah_registration:"50010243",decision:"KNOWN_DISTINCT_NEIGHBOUR",evidence:"Separate official registration and address 19-22 Earl Street North; nine-bay 1908 retail premises, distinct from the six-bay c.1920 building at 23-24 Earl Street North."}]
+};
+const unresolvedProximity=proximity.filter(p=>!(knownDistinctNeighbours[p.registration]||[]).some(n=>n.archive_id===p.archive_id&&n.decision==="KNOWN_DISTINCT_NEIGHBOUR"));
 const blocking=exactRegistrationMatches.length||exactAddressMatches.length||sourceIdMatches.length||sameBatchAddressMatches.length;
 const report={
  batch:"091",generated_at:new Date().toISOString(),
- decision:blocking?"HOLD":"READY_FOR_MANUAL_PROXIMITY_REVIEW",
+ decision:blocking?"HOLD":unresolvedProximity.length?"READY_FOR_MANUAL_PROXIMITY_REVIEW":"READY_FOR_INDEPENDENT_REVIEW",
  queue:{entries:queue.length,selected_registrations:packet.candidates.map(x=>x.registration),all_five_present_exactly_once:true},
  catalogues:{master_object_count:objects.length,public_niah_count:publicNiah.length,source_count:sources.length,visual_record_count:visual.records.length,official_register_audit_matches:officialAudit.all_records_matched},
  duplicate_screen:{exact_registration_matches:exactRegistrationMatches,exact_address_matches:exactAddressMatches,exact_name_matches:exactNameMatches,source_id_matches:sourceIdMatches,same_batch_address_matches:sameBatchAddressMatches},
- coordinate_proximity_review:proximity.sort((a,b)=>a.registration.localeCompare(b.registration)||a.distance_m-b.distance_m),
+ coordinate_proximity_review:proximity.sort((a,b)=>a.registration.localeCompare(b.registration)||a.distance_m-b.distance_m).map(p=>({...p,known_distinct_neighbours:knownDistinctNeighbours[p.registration]||[]})),
+ manual_review:{unresolved_proximity_count:unresolvedProximity.length,reviewed_neighbour_archive_id:"DUB-BLD-0334",reviewed_neighbour_niah_registration:"50010243",shared_name_review:{candidate_registration:"50010249",existing_registration:"50010243",outcome:"DISTINCT_BUILDINGS_DIFFERENT_ADDRESSES"}},
  candidate_anomalies:packet.candidates.filter(x=>x.source_csv_text_has_replacement_character).map(x=>({registration:x.registration,notes:x.notes,csv_name:x.csv_name,csv_number:x.csv_number})),
  safeguards:["Queue membership is required; numeric sequence alone is not evidence.","National CSV ITM (EPSG:2157) and WGS84 coordinates remain separate.","Raw page coordinate pairs are retained separately and no CRS is inferred.","CSV NAME and NUMBER values are preserved verbatim even when blank or malformed.","No candidate is imported, assigned a permanent archive ID, or published by this research batch.","Nearby records are reported for manual identity review; proximity alone is not a duplicate."]
 };
 await fs.writeFile("audit/batch-091-candidate-reconciliation.json",JSON.stringify(report,null,2)+"\n");
-console.log(JSON.stringify({decision:report.decision,queue:report.queue,catalogues:report.catalogues,duplicate_screen:report.duplicate_screen,nearby_count:proximity.length},null,2));
+console.log(JSON.stringify({decision:report.decision,queue:report.queue,catalogues:report.catalogues,duplicate_screen:report.duplicate_screen,nearby_count:proximity.length,unresolved_proximity_count:unresolvedProximity.length},null,2));
 if(blocking)throw new Error("Batch 091 has a blocking exact duplicate/provenance conflict; see reconciliation report.");

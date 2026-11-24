@@ -596,3 +596,17 @@ body.photo-viewer-open{overflow:hidden}
 .map-fallback{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:24px;background:#080808;color:#fff;text-align:center;font:800 10px/1.4 Inter,ui-sans-serif,system-ui,sans-serif;letter-spacing:.15em}.map-fallback span{font-size:12px;font-weight:500;letter-spacing:.03em;color:#c9c9c9}
 
 .atlas-intro-brand{display:flex;align-items:flex-start;gap:0!important}.atlas-intro-brand .atlas-brand-mark{display:none!important}.atlas-intro-brand>span:last-child{display:flex;flex-direction:column;gap:7px}.atlas-intro-brand b{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;font-size:clamp(18px,2vw,24px);font-weight:850;letter-spacing:.24em;color:#fff;text-shadow:0 0 18px #ffffff45}.atlas-intro-brand small{font-family:"Arial Narrow","Helvetica Neue",Arial,sans-serif;font-size:clamp(11px,1.2vw,14px);font-weight:900;letter-spacing:.2em;color:#fff;text-shadow:0 0 15px #ffffff55}
+
+/* CICAN LIVE GPS — phone location is displayed independently of the basemap provider. */
+.user-location-marker.live{position:relative;width:20px;height:20px;border:3px solid #fff;border-radius:50%;background:#3988ff;box-shadow:0 0 0 5px #3988ff35,0 0 22px #3988ffb0}
+.user-location-marker.live:after{content:"";position:absolute;inset:-11px;border:1px solid #78b4ff99;border-radius:50%;animation:cican-gps-pulse 2s ease-out infinite}
+@keyframes cican-gps-pulse{0%{transform:scale(.72);opacity:.9}100%{transform:scale(1.55);opacity:0}}
+.live-location-readout{position:absolute;z-index:8;right:16px;bottom:148px;display:flex;flex-direction:column;gap:5px;max-width:min(310px,calc(100% - 32px));padding:11px 13px;border:1px solid #ffffff2a;border-radius:12px;background:#080a0bed;color:#fff;box-shadow:0 8px 28px #0008;backdrop-filter:blur(16px);pointer-events:none}
+.live-location-readout[hidden]{display:none}
+.live-location-heading{display:flex;align-items:center;gap:7px;font-size:8px;font-weight:800;letter-spacing:.16em;color:#a9caff}
+.live-location-heading i{width:6px;height:6px;border-radius:50%;background:#3988ff;box-shadow:0 0 10px #3988ff}
+.live-location-coords{font:12px/1.3 ui-monospace,monospace;letter-spacing:.02em}
+.live-location-accuracy{font-size:8px;color:#aaa;letter-spacing:.04em}
+#locate-button.is-tracking{color:#9fc6ff;border-color:#3988ff;box-shadow:0 0 0 2px #3988ff35,0 0 20px #3988ff35}
+@media(max-width:850px){.live-location-readout{right:12px;bottom:128px;padding:9px 11px}.live-location-coords{font-size:10px}}
+@media(prefers-reduced-motion:reduce){.user-location-marker.live:after{animation:none}}

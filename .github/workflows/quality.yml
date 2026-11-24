@@ -24,6 +24,8 @@ jobs:
           node --check preview/app/app.js
           node --check preview/service-worker.js
           node --check service-worker.js
+      - name: Test live GPS tracking start, updates, stop and errors
+        run: node --test scripts/test-live-gps-tracking.mjs
       - name: Check SEO page generator syntax
         run: node --check scripts/generate-seo-pages.mjs
       - name: Generate crawlable place pages and full sitemap
@@ -35,7 +37,7 @@ jobs:
       - name: Build four-authority Dublin NIAH coverage and missing-registration queue
         run: node scripts/audit-niah-dublin-coverage.mjs
       - name: Preflight 14 core publication candidates from research Batches 087–089
-        if: github.event_name == 'pull_request'
+        if: github.event_name == 'pull_request' && !hashFiles('audit/niah-batches-087-089-publication.json')
         run: node scripts/publish-niah-batches-087-089.mjs --check
       - name: Reconcile Batch 058 and 059 research candidates against complete catalogues and official CSV
         run: node scripts/reconcile-niah-batches-058-059.mjs

@@ -16,6 +16,7 @@ function makeHarness() {
   const coords = { latitude: "", longitude: "", accuracy: "" };
   const panel = {
     hidden: true,
+    dataset: {},
     setAttribute() {},
     querySelector(selector) {
       if (selector === ".live-location-coords") return { set textContent(value) { coords.coordinates = value; } };
@@ -43,7 +44,7 @@ function makeHarness() {
   const map = { setCenter(point) { calls.mapMoves.push([...point]); } };
   const state = {
     map, locationWatchId: null, locationTracking: false, userMarker: null,
-    locationAnimationFrame: null, locationLastFix: null, locationMotion: null, locationLastFrame: 0, nearbyOrigin: null
+    locationAnimationFrame: null, locationLastFix: null, locationFixHistory: [], locationMotion: null, locationLastFrame: 0, nearbyOrigin: null
   };
   class Marker {
     setLngLat(point) { calls.markerPositions.push(point); return this; }
@@ -113,7 +114,7 @@ test("live GPS starts high-accuracy watch, updates marker/readout, and stops cle
   assert.equal(h.panel.hidden, false);
   assert.match(h.status.textContent, /LIVE GPS/);
 
-  h.callbacks.success({ ...fix, coords: { ...fix.coords, latitude: 53.2, longitude: -6.2 } });
+  h.callbacks.success({ ...fix, timestamp: fix.timestamp + 1000, coords: { ...fix.coords, latitude: 53.123636, longitude: -6.123456, speed: 2, heading: 0 } });
   assert.equal(h.calls.markerPositions.length, 3, "a new GPS fix and the animation frame should both reposition the marker");
   assert.ok(h.pendingFrames() > 0, "the marker animation should keep running between fixes");
 
@@ -141,4 +142,30 @@ test("secure context and geolocation support are required", () => {
   h.context.toggleLiveLocationTracking();
   assert.equal(h.state.locationTracking, false);
   assert.match(h.status.textContent, /HTTPS/);
+});
+
+test("poor, stale and physically implausible GPS fixes are rejected",()=>{
+  const h=makeHarness();
+  h.context.toggleLiveLocationTracking();
+  const base={timestamp:1795500000000,coords:{latitude:53.123456,longitude:-6.123456,accuracy:8,speed:1,heading:90}};
+  h.callbacks.success({...base,coords:{...base.coords,accuracy:150}});
+  assert.equal(h.state.locationLastFix,null,"very poor accuracy must not seed navigation");
+  h.callbacks.success({...base,timestamp:base.timestamp-60000});
+  assert.equal(h.state.locationLastFix,null,"stale fixes must be ignored");
+  h.callbacks.success(base);
+  assert.equal(h.state.locationLastFix.latitude,53.123456);
+  h.callbacks.success({...base,timestamp:base.timestamp+1000,coords:{...base.coords,latitude:53.130000}});
+  assert.equal(h.state.locationLastFix.latitude,53.123456,"an implausible GPS jump must not move the accepted position");
+});
+
+test("GPS confidence label distinguishes high, usable and weak estimates",()=>{
+  const h=makeHarness();
+  h.context.toggleLiveLocationTracking();
+  const base={timestamp:1795500000000,coords:{latitude:53.123456,longitude:-6.123456,accuracy:7,speed:0,heading:0}};
+  h.callbacks.success(base);
+  assert.match(h.coords.accuracy,/HIGH CONFIDENCE/);
+  h.callbacks.success({...base,timestamp:base.timestamp+1000,coords:{...base.coords,accuracy:20}});
+  assert.match(h.coords.accuracy,/USABLE/);
+  h.callbacks.success({...base,timestamp:base.timestamp+2000,coords:{...base.coords,accuracy:40}});
+  assert.match(h.coords.accuracy,/WEAK SIGNAL/);
 });

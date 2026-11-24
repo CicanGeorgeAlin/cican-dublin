@@ -64,7 +64,7 @@ for (const record of objects) {
     ? '<ul>' + record.photography_brief.map(item => '<li>' + escapeHtml(item) + '</li>').join("") + '</ul>'
     : '<p class="muted">A founder photography brief has not yet been prepared.</p>';
   const mapLink = lat !== null && lon !== null
-    ? '<a class="action" href="https://www.google.com/maps/dir/?api=1&amp;destination=' + encodeURIComponent(lat.toFixed(7) + "," + lon.toFixed(7)) + '&amp;travelmode=walking" rel="noopener noreferrer">Walk to this location ↗</a>'
+    ? '<a class="action" href="../preview/app.html?destination=' + encodeURIComponent(id) + '">Walk there with CICAN ↗</a>'
     : '<span class="muted">Map coordinates are not yet established.</span>';
   const html = [
     '<!doctype html>',

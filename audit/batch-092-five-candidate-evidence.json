@@ -39,7 +39,7 @@
       "official_page_coordinates_raw": "316029, 234698",
       "description": "Corner-sited three-bay four-storey house, built c.1780, with Victorian stucco detailing, and now in retail use. Slated hipped M-profile roof and rendered chimneystack with lipped pots hidden behind parapet with heavily moulded cornice. Over-painted red brick walls laid in Flemish bond to ground floor shopfront with raised blocked quoins. Flat-arched window openings, with rendered reveals and moulded surrounds, pedimented on first floor and having heavy cornices at second floor levels and painted granite sills except first floor having concrete replacements. Original timber sliding sash windows and early glass largely survive, those to east elevation and corner bay to north elevation with wider eight-over-eight pane timber sliding sashes except four-over-eight pane to third floor windows. Two westernmost bays with three-over-six and six-over six pane windows. Replacement shopfront incorporating access to upper levels.",
       "appraisal": "This imposing middle-sized Georgian former townhouse, with early Victorian Roman cement embellishments has a typical, one-bay deep corner plan and forms a striking termination to this busy street. Although somewhat dilapidated in appearance, the elaborate window treatments, with their alternating segmental and triangular pediments and subtle variations in window size and glazing divisions add interest and charm to the streetscape and contribute to the architectural variety of the inner city.",
-      "notes": "The national CSV NAME field is blank. Keep it blank in source data; use the official individual-page heading only as the display title. The official page title uses the street-number/address rather than a named business.",
+      "notes": "The national CSV NAME field is blank. Keep it blank in source data; use the official individual-page heading only as the display title. The official page title uses the street-number/address rather than a named business. The two nearby archive objects flagged by the 30-metre screen are different registered buildings: 23 Marlborough Street (NIAH 50010218) and 89 Marlborough Street (NIAH 50010242). The candidate is the separately registered corner building at 14 North Earl Street / Marlborough Street.",
       "display_address": "14 North Earl Street / Marlborough Street, Dublin 1, Ireland"
     },
     {
@@ -202,7 +202,31 @@
     "CSV WGS84 latitude/longitude and ITM coordinates EPSG:2157 are separate source fields.",
     "Raw coordinate pairs displayed on individual NIAH pages are stored separately; their CRS is not inferred.",
     "The official NIAH page appraisal text for 50010258 says 'Number 3' although its heading and CSV address say number 4; preserve and flag.",
-    "The official NIAH page appraisal text for 50010259 says 'Number 2' although its heading and CSV address say number 3; preserve and flag.",
-    "Survey-era use, condition or descriptions do not establish current occupancy, condition, access or photography permission."
-  ]
+    "Survey-era use, condition or descriptions do not establish current occupancy, condition, access or photography permission.",
+    "The national CSV DESCRIPTION for 50010260 contains a U+FFFD replacement character in 'façade'; clean page transcription is retained separately, raw CSV value remains unchanged."
+  ],
+  "manual_proximity_review": {
+    "reviewed_on": "2026-11-24",
+    "outcomes": [
+      {
+        "registration": "50010254",
+        "archive_id": "DUB-BLD-0006",
+        "existing_niah_registration": "50010218",
+        "distance_m": 28.4,
+        "decision": "KNOWN_DISTINCT_NEIGHBOUR",
+        "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010218/ladbrokes-marlborough-street-dublin-1-co-dublin",
+        "evidence": "Existing archive record is the separately registered 23 Marlborough Street, a terraced two-bay four-storey late eighteenth-century house (NIAH 50010218). Candidate 50010254 is the distinct corner-sited 14 North Earl Street / Marlborough Street three-bay four-storey former townhouse (NIAH 50010254). Different official registrations, addresses and building descriptions."
+      },
+      {
+        "registration": "50010254",
+        "archive_id": "DUB-BLD-0333",
+        "existing_niah_registration": "50010242",
+        "distance_m": 28.8,
+        "decision": "KNOWN_DISTINCT_NEIGHBOUR",
+        "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010242/89-marlborough-street-dublin-1-co-dublin",
+        "evidence": "Existing archive record is the separately registered 89 Marlborough Street, a terraced four-bay four-storey stucco-fronted house built c.1820 (NIAH 50010242). Candidate 50010254 is the distinct corner-sited 14 North Earl Street / Marlborough Street three-bay four-storey former townhouse (NIAH 50010254). Different official registrations, addresses and building descriptions."
+      }
+    ],
+    "conclusion": "Both automated proximity hits were manually checked against their existing archive pages and corresponding official NIAH records. They are distinct buildings; no candidate is merged with either existing archive object."
+  }
 }

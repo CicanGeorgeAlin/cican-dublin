@@ -102,8 +102,9 @@
       "registration": "50010451",
       "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010451",
       "page_verified": false,
-      "notes": "Official NIAH North City heritage guide identifies this registration as AXA Insurance on Wolfe Tone Street (guide registration index, p.107); canonical individual page not independently verified, so retain HOLD.",
-      "display_name": "AXA Insurance"
+      "notes": "Official NIAH North City heritage guide identifies this registration as AXA Insurance on Wolfe Tone Street (guide registration index, p.107). Canonical individual page not independently verified; retain HOLD. The guide's street-level location is used for display while raw CSV street fields remain separately preserved.",
+      "display_name": "AXA Insurance",
+      "display_address": "Wolfe Tone Street, Dublin 1, Ireland"
     },
     {
       "registration": "50010452",

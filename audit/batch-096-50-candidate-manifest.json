@@ -141,7 +141,13 @@
       "known_distinct_neighbours": [
         "50010514"
       ],
-      "distinct_neighbour_reason": "Separate official NIAH individual records: William Smith O'Brien Monument (50010513), a freestanding Portland limestone statue on the O'Connell Street pedestrian median, and Sir John Gray Monument (50010514), a separate sculpted figure on its own granite plinth and base. Both have distinct descriptions and registrations."
+      "distinct_neighbour_reason": "Separate official NIAH individual records: William Smith O'Brien Monument (50010513), a freestanding Portland limestone statue on the O'Connell Street pedestrian median, and Sir John Gray Monument (50010514), a separate sculpted figure on its own granite plinth and base. Both have distinct descriptions and registrations.",
+      "known_distinct_archive_ids": [
+        "DUB-BLD-0001",
+        "DUB-MON-0001",
+        "DUB-STR-0009"
+      ],
+      "distinct_archive_reason": "NIAH individual page describes this as a freestanding monument on the O'Connell Street pedestrian median; it is physically distinct from the GPO building (DUB-BLD-0001), the separately catalogued O'Connell Monument (DUB-MON-0001), and the street post box (DUB-STR-0009). Their shared broad street-level address is not an exact object identity."
     },
     {
       "registration": "50010514",
@@ -151,7 +157,13 @@
       "known_distinct_neighbours": [
         "50010513"
       ],
-      "distinct_neighbour_reason": "Separate official NIAH individual records: William Smith O'Brien Monument (50010513), a freestanding Portland limestone statue on the O'Connell Street pedestrian median, and Sir John Gray Monument (50010514), a separate sculpted figure on its own granite plinth and base. Both have distinct descriptions and registrations."
+      "distinct_neighbour_reason": "Separate official NIAH individual records: William Smith O'Brien Monument (50010513), a freestanding Portland limestone statue on the O'Connell Street pedestrian median, and Sir John Gray Monument (50010514), a separate sculpted figure on its own granite plinth and base. Both have distinct descriptions and registrations.",
+      "known_distinct_archive_ids": [
+        "DUB-BLD-0001",
+        "DUB-MON-0001",
+        "DUB-STR-0009"
+      ],
+      "distinct_archive_reason": "NIAH individual page describes this as a freestanding monument on the O'Connell Street pedestrian median; it is physically distinct from the GPO building (DUB-BLD-0001), the separately catalogued O'Connell Monument (DUB-MON-0001), and the street post box (DUB-STR-0009). Their shared broad street-level address is not an exact object identity."
     },
     {
       "registration": "50010516",

@@ -77,7 +77,7 @@ test("route matching retains the legacy distance-first result without a movement
   const point={latitude:0.00005,longitude:0.0015};
   const result=context.nearestRouteProgress(point,coordinates,cumulative,0);
   assert.equal(result.index,0);
-  assert.equal(result.continuityPenalty,undefined);
+  assert.equal(result.continuityPenalty,0);
 });
 
 test("off-route rerouting requires two consecutive accurate off-route fixes",()=>{

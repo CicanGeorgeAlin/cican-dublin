@@ -26,6 +26,8 @@ jobs:
           node --check service-worker.js
       - name: Test live GPS tracking start, updates, stop and errors
         run: node --test scripts/test-live-gps-tracking.mjs
+      - name: Test GPS session analysis report
+        run: node --test scripts/test-analyze-gps-session.mjs
       - name: Test CICAN pedestrian navigation route integration and polyline decoding
         run: node --test scripts/test-cican-navigation.mjs
       - name: Check SEO page generator syntax

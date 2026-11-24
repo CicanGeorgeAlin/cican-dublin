@@ -627,3 +627,6 @@ body.photo-viewer-open{overflow:hidden}
 .navigation-next-turn>span:last-child{align-self:center;white-space:nowrap;color:#9dd0ff;font-size:12px;font-weight:700}
 .navigation-follow-toggle{display:flex;align-items:center;gap:8px;color:#b9c8d2;font-size:9px;letter-spacing:.1em;margin:8px 0;cursor:pointer}
 .navigation-follow-toggle input{accent-color:#75baff;width:16px;height:16px}
+
+/* Phone-compass heading-up control */
+.navigation-follow-toggle input{accent-color:#75baff}.navigation-follow-toggle:has(#navigation-heading-toggle){color:#d5e8f7}.navigation-follow-toggle:has(#navigation-heading-toggle) input{accent-color:#75baff}

@@ -1,0 +1,301 @@
+{
+  "batch": "099",
+  "title": "NIAH Dublin City — 50-record normal batch, Parnell Square to Henrietta Street and Dorset Street",
+  "reviewed_on": "2026-11-24",
+  "target_count": 50,
+  "source_queue": "audit/niah-dublin-missing-registrations.json",
+  "selection_method": "First 50 Dublin City Council / County Dublin rows after Batch 098's final selected registration 50010649 in the refreshed four-authority missing-registration queue. Exact queue membership is validated in CI; numeric continuity alone is not used.",
+  "candidates": [
+    {
+      "registration": "50010650",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010650/vaughans-hotel-parnell-square-west-dublin-dublin-city",
+      "page_verified": true,
+      "display_name": "Vaughan's Hotel"
+    },
+    {
+      "registration": "50010651",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010651/15-granby-row-dublin-dublin",
+      "page_verified": true,
+      "display_name": "15 Granby Row"
+    },
+    {
+      "registration": "50010652",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010652/16-granby-row-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "16 Granby Row"
+    },
+    {
+      "registration": "50010653",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010653/1-granby-row-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "1 Granby Row"
+    },
+    {
+      "registration": "50010654",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010654/2-granby-row-dublin-dublin",
+      "page_verified": true,
+      "display_name": "2 Granby Row"
+    },
+    {
+      "registration": "50010655",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010655/3-granby-row-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "3 Granby Row"
+    },
+    {
+      "registration": "50010656",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010656/4-granby-row-dublin-1-co-dublin",
+      "page_verified": true,
+      "display_name": "4 Granby Row"
+    },
+    {
+      "registration": "50010657",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010657/5-granby-row-dublin-dublin",
+      "page_verified": true,
+      "display_name": "5 Granby Row"
+    },
+    {
+      "registration": "50010658",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010658/garden-of-remembrance-parnell-square-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Garden of Remembrance"
+    },
+    {
+      "registration": "50010659",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010659/saint-saviours-amateur-boxing-club-131-132-dorset-street-upper-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Saint Saviour's Amateur Boxing Club"
+    },
+    {
+      "registration": "50010660",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010660/saint-saviours-priory-dominick-street-lower-dorset-street-upper-granby-lane-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Saint Saviour's Priory"
+    },
+    {
+      "registration": "50010661",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010661/saint-saviours-church-dominick-street-lower-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Saint Saviour's Church"
+    },
+    {
+      "registration": "50010662",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010662/31a-dominick-street-lower-dublin-dublin",
+      "page_verified": true,
+      "display_name": "31A Dominick Street Lower"
+    },
+    {
+      "registration": "50010663",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010663/32a-dominick-street-lower-dublin-dublin",
+      "page_verified": true,
+      "display_name": "32A Dominick Street Lower"
+    },
+    {
+      "registration": "50010664",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010664/delfin-english-school-39-dominick-street-lower-dublin-co-dublin",
+      "page_verified": true
+    },
+    {
+      "registration": "50010665",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010665/eden-college-40-dominick-street-lower-dublin-dublin",
+      "page_verified": true
+    },
+    {
+      "registration": "50010666",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010666",
+      "page_verified": false
+    },
+    {
+      "registration": "50010667",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010667/dominick-street-lower-dublin-dublin-city-4",
+      "page_verified": true,
+      "display_name": "42 Dominick Street Lower"
+    },
+    {
+      "registration": "50010668",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010668/portobello-school-43-dominick-street-lower-dominick-lane-dublin-co-dublin",
+      "page_verified": true
+    },
+    {
+      "registration": "50010669",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010669/24-dominick-street-lower-dublin-dublin",
+      "page_verified": true,
+      "display_name": "24 Dominick Street Lower"
+    },
+    {
+      "registration": "50010670",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010670/23-dominick-street-lower-dublin-dublin",
+      "page_verified": true,
+      "display_name": "23 Dominick Street Lower"
+    },
+    {
+      "registration": "50010671",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010671",
+      "page_verified": false
+    },
+    {
+      "registration": "50010672",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010672/21-dominick-street-lower-dublin-dublin",
+      "page_verified": true,
+      "display_name": "21 Dominick Street Lower"
+    },
+    {
+      "registration": "50010673",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010673/youth-work-ireland-20-dominick-street-lower-dominick-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Youth Work Ireland"
+    },
+    {
+      "registration": "50010674",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010674/na-piobairi-uilleann-henrietta-street-henrietta-place-dublin-dublin-city",
+      "page_verified": true,
+      "display_name": "Na Píobairí Uilleann"
+    },
+    {
+      "registration": "50010675",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010675/14-henrietta-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "14 Henrietta Street"
+    },
+    {
+      "registration": "50010676",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010676/13-henrietta-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "13 Henrietta Street"
+    },
+    {
+      "registration": "50010677",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010677/12-henrietta-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "12 Henrietta Street"
+    },
+    {
+      "registration": "50010678",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010678/henrietta-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "11 Henrietta Street"
+    },
+    {
+      "registration": "50010679",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010679/kings-inns-library-henrietta-street-dublin-co-dublin",
+      "page_verified": true,
+      "display_name": "Kings' Inns Library"
+    },
+    {
+      "registration": "50010680",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010680/kings-inns-henrietta-street-constitution-hill-dublin-co-dublin",
+      "page_verified": true,
+      "display_name": "King's Inns"
+    },
+    {
+      "registration": "50010681",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010681/3-henrietta-street-henrietta-lane-dublin-dublin",
+      "page_verified": true,
+      "display_name": "3 Henrietta Street"
+    },
+    {
+      "registration": "50010682",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010682/4-henrietta-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "4 Henrietta Street"
+    },
+    {
+      "registration": "50010683",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010683/james-bryson-house-henrietta-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "James Bryson House"
+    },
+    {
+      "registration": "50010684",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010684/henrietta-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "6 Henrietta Street"
+    },
+    {
+      "registration": "50010685",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010685/henrietta-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "7 Henrietta Street"
+    },
+    {
+      "registration": "50010686",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010686/8-henrietta-street-dublin-co-dublin",
+      "page_verified": true,
+      "display_name": "8 Henrietta Street"
+    },
+    {
+      "registration": "50010687",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010687/9-henrietta-street-dublin-co-dublin",
+      "page_verified": true,
+      "display_name": "9 Henrietta Street"
+    },
+    {
+      "registration": "50010688",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010688/blessington-house-10-henrietta-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Blessington House"
+    },
+    {
+      "registration": "50010689",
+      "official_page": "https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010689",
+      "page_verified": false
+    },
+    {
+      "registration": "50010690",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010690/college-of-technology-dit-bolton-street-kings-inns-street-dublin-1-dublin",
+      "page_verified": true,
+      "display_name": "College of Technology (DIT)"
+    },
+    {
+      "registration": "50010691",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010691/williams-woods-ltd-kings-inns-street-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Williams & Woods Ltd"
+    },
+    {
+      "registration": "50010692",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010692/joxer-dalys-103-104-dorset-street-upper-dublin-co-dublin",
+      "page_verified": true
+    },
+    {
+      "registration": "50010693",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010693/41-dorset-street-upper-dublin-dublin-city",
+      "page_verified": true,
+      "display_name": "41 Dorset Street Upper"
+    },
+    {
+      "registration": "50010694",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010694/wisla-43-dorset-street-upper-dublin-dublin",
+      "page_verified": true
+    },
+    {
+      "registration": "50010695",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010695/90-dorset-street-upper-dublin-co-dublin",
+      "page_verified": true,
+      "display_name": "90 Dorset Street Upper"
+    },
+    {
+      "registration": "50010696",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010696/the-dorset-dental-practice-89-dorset-street-upper-dublin-dublin",
+      "page_verified": true
+    },
+    {
+      "registration": "50010697",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010697/dorset-street-upper-dublin-dublin-city-3",
+      "page_verified": true,
+      "display_name": "88 Dorset Street Upper"
+    },
+    {
+      "registration": "50010698",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010698/mater-hospital-patient-services-general-services-and-project-office-85-86-dorset-street-upper-saint-josephs-place-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Mater Hospital Patient Services"
+    },
+    {
+      "registration": "50010699",
+      "official_page": "https://www.buildingsofireland.ie/buildings-search/building/50010699/saint-raphaels-clinic-the-mater-clinic-dorset-street-81-84-dorset-street-upper-saint-josephs-place-saint-josephs-parade-dublin-dublin",
+      "page_verified": true,
+      "display_name": "Saint Raphael's Clinic / The Mater Clinic"
+    }
+  ]
+}

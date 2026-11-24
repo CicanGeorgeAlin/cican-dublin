@@ -55,6 +55,37 @@ test("route matching can be constrained to the current progress window",()=>{
   assert.ok(progress.index>=1,"GPS matching must not jump behind the allowed progress window");
 });
 
+
+test("route matching uses expected movement progress to disambiguate close parallel segments",()=>{
+  const coordinates=[[0,0],[0.002,0],[0.002,0.0001],[0,0.0001]];
+  const cumulative=context.routeCumulativeDistances(coordinates);
+  const point={latitude:0.00005,longitude:0.0015};
+  const progress=context.nearestRouteProgress(point,coordinates,cumulative,0,{
+    minimumProgressMetres:0,
+    maximumProgressMetres:cumulative[cumulative.length-1],
+    expectedProgressMetres:100,
+    accuracy:20,
+    speed:1.3
+  });
+  assert.equal(progress.index,0,"continuity should prefer the segment near the expected route progress");
+  assert.ok(progress.continuityPenalty>=0);
+});
+
+test("route matching retains the legacy distance-first result without a movement expectation",()=>{
+  const coordinates=[[0,0],[0.002,0],[0.002,0.0001],[0,0.0001]];
+  const cumulative=context.routeCumulativeDistances(coordinates);
+  const point={latitude:0.00005,longitude:0.0015};
+  const result=context.nearestRouteProgress(point,coordinates,cumulative,0);
+  assert.equal(result.index,0);
+  assert.equal(result.continuityPenalty,0);
+});
+
+test("off-route rerouting requires two consecutive accurate off-route fixes",()=>{
+  assert.ok(app.includes("route.offRouteFixes=(route.offRouteFixes||0)+1"));
+  assert.ok(app.includes("route.offRouteFixes>=2"));
+  assert.ok(app.includes("route.offRouteFixes=0;state.navigationLastRerouteAt"));
+});
+
 test("Stage 2 uses monotonic metre-based progress for turn distance and ETA",()=>{
   assert.match(app,/route\.progressMetres=Math\.max\(previousProgress,progress\.progressMetres\)/);
   assert.match(app,/maximumProgressMetres:previousProgress\+forwardWindow/);

@@ -1,0 +1,110 @@
+import fs from "node:fs/promises";
+const DATE="2026-11-24", INPUT="audit/batch-087-089-publication-input.json", MARKER="audit/niah-batches-087-089-publication.json", PRECHECK="audit/niah-batches-087-089-publication-preflight.json";
+const AUTHORITIES=["Dublin City Council","Fingal County Council","South Dublin County Council","Dun Laoghaire-Rathdown County Council"];
+const apply=process.argv.includes("--apply"), check=process.argv.includes("--check");
+if(apply===check) throw new Error("Choose exactly one mode: --check or --apply.");
+const read=async p=>JSON.parse(await fs.readFile(p,"utf8"));
+const write=async(p,v)=>fs.writeFile(p,JSON.stringify(v,null,2)+"\n");
+const clean=v=>String(v??"").trim();
+const norm=v=>clean(v).toLocaleLowerCase("en").normalize("NFKD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]/g,"");
+const normAddress=v=>norm(v).replace(/countydublin/g,"").replace(/ireland/g,"").replace(/dublin$/g,"");
+function categoryFor(v){const t=norm(v);if(t==="monument")return"MONUMENT";if(/railwaystation|stationmaster|goodsshed|crane/.test(t))return"TRANSPORT_HERITAGE";if(/bridge|dam|reservoir|basin|watertower|weir|waterpump|harbour|dock|port|lighthouse/.test(t))return"INFRASTRUCTURE";if(/gates|railings|walls|walledgarden/.test(t))return"LANDSCAPE";return"ARCHITECTURE";}
+function prefixFor(c){return({ARCHITECTURE:"BLD",INFRASTRUCTURE:"INF",TRANSPORT_HERITAGE:"INF",LANDSCAPE:"LND",MONUMENT:"MON"})[c]||"BLD";}
+function districtFor(r){const town=clean(r.TOWN),land=clean(r.TOWNLAND);if(town&&/^dublin\s+\d+$/i.test(town))return town;if(town&&!/^dublin$/i.test(town))return town+", County Dublin";if(land)return land+", County Dublin";if(town)return"Dublin City, County Dublin";return clean(r["LOCAL_AUTHORITY�"])+" (area not specified)";}
+function addressFor(r){const a=[];const first=[clean(r.NUMBER),clean(r.STREET1)].filter(Boolean).join(" ");if(first)a.push(first);for(const v of[clean(r.STREET2),clean(r.TOWN),clean(r.TOWNLAND),"County Dublin","Ireland"])if(v&&!a.some(x=>norm(x)===norm(v)))a.push(v);return a.join(", ");}
+function dateRange(r){const a=clean(r.DATEFROM),b=clean(r.DATETO);return a&&b&&a!==b?a+"–"+b:a||b||"Date not stated in CSV";}
+function distance(a,b,c,d){const rad=x=>x*Math.PI/180,R=6371000,dl=rad(c-a),dn=rad(d-b),x=Math.sin(dl/2)**2+Math.cos(rad(a))*Math.cos(rad(c))*Math.sin(dn/2)**2;return 2*R*Math.atan2(Math.sqrt(x),Math.sqrt(1-x));}
+const input=await read(INPUT);
+const [queue,objects,pub,sources,visual,coverage]=await Promise.all([read("audit/niah-dublin-missing-registrations.json"),read("data/objects.json"),read("data/niah-registered-objects.json"),read("data/sources.json"),read("data/visual-assets.json"),read("data/coverage-audit.json")]);
+if(await fs.access(MARKER).then(()=>true).catch(()=>false))throw new Error("Publication marker already exists; refusing repeat import.");
+if(!Array.isArray(queue)||!Array.isArray(objects)||!Array.isArray(pub)||!Array.isArray(sources)||!Array.isArray(visual.records))throw new Error("Complete archive datasets unavailable.");
+if(input.candidates.length!==14||new Set(input.candidates.map(x=>x.registration)).size!==14)throw new Error("Expected exactly 14 unique candidates.");
+if(!sources.some(s=>s.id==="SRC-NIAH-NATIONAL-DATASET"))throw new Error("Official NIAH dataset provenance source missing.");
+const datasets={master_objects:objects,public_niah_register:pub,source_registry:sources,visual_inventory:visual.records};
+const qmap=new Map();for(const r of queue){const k=clean(r.REG_NO);if(!qmap.has(k))qmap.set(k,[]);qmap.get(k).push(r);}
+const masterRefs=new Set(objects.map(x=>clean(x.national_inventory_reference)));
+const publicRefs=new Set(pub.map(x=>clean(x.national_inventory_reference)));
+const sourceById=new Map(sources.map(x=>[x.id,x]));
+const visualIds=new Set(visual.records.map(x=>clean(x.record_id)));
+const usedIds=new Set(objects.map(x=>clean(x.id)));
+const maxIds={};for(const x of objects){const m=clean(x.id).match(/^DUB-([A-Z]{3})-(\d+)$/);if(m)maxIds[m[1]]=Math.max(maxIds[m[1]]||0,Number(m[2]));}
+const prepared=[],conflicts=[],proximity=[];
+for(const c of input.candidates){
+ const hits=qmap.get(c.registration)||[];if(hits.length!==1)throw new Error("Expected one latest official queue row for "+c.registration+"; found "+hits.length);
+ const r=hits[0],required=["REG_NO","ORIGINAL_TYPE","DESCRIPTION","DATEFROM","DATETO","RATING","ITM_E","ITM_N","LATITUDE","LONGITUDE","WEBSITE_LINK","COUNTY","LOCAL_AUTHORITY�"];
+ for(const k of required)if(!clean(r[k]))throw new Error(c.registration+" missing official CSV field "+k);
+ if(clean(r.REG_NO)!==c.registration||!/^\\d{8}$/.test(clean(r.REG_NO)))throw new Error("Registration mismatch "+c.registration);
+ if(clean(r.COUNTY).toUpperCase()!=="DUBLIN"||!AUTHORITIES.includes(clean(r["LOCAL_AUTHORITY�"])))throw new Error("Unexpected Dublin authority "+c.registration);
+ const lat=Number(r.LATITUDE),lon=Number(r.LONGITUDE),e=Number(r.ITM_E),n=Number(r.ITM_N);
+ if(![lat,lon,e,n].every(Number.isFinite)||lat<51||lat>56||lon< -11||lon> -5||e<=0||e>900000||n<=0||n>900000)throw new Error("Invalid official coordinates "+c.registration);
+ const u=new URL(c.official_page);if(u.protocol!=="https:"||u.hostname!=="www.buildingsofireland.ie"||c.page_verified!==true)throw new Error("Individual NIAH page not verified "+c.registration);
+ const description=c.description_override||r.DESCRIPTION,appraisal=c.significance_override||r.APPRAISAL||"";
+ if(!description||description.includes("\uFFFD"))throw new Error("Missing/corrupt official description "+c.registration);
+ if(appraisal.includes("\uFFFD"))throw new Error("Corrupt appraisal needs reviewed override "+c.registration);
+ if(!clean(c.display_name))throw new Error("Missing public display name "+c.registration);
+ const address=addressFor(r);if(!address)throw new Error("No supportable address "+c.registration);
+ if(masterRefs.has(c.registration)||publicRefs.has(c.registration))conflicts.push({registration:c.registration,type:"exact_registration"});
+ const addressKey=normAddress(address),nameKey=norm(c.display_name);
+ for(const [dn,list]of Object.entries(datasets))for(const rec of list){
+  if(clean(rec.national_inventory_reference)===c.registration)conflicts.push({registration:c.registration,type:"registration_in_"+dn,record_id:rec.id||rec.record_id||null});
+  if(rec.address&&normAddress(rec.address)===addressKey)conflicts.push({registration:c.registration,type:"normalized_address_in_"+dn,record_id:rec.id||rec.record_id||null,matched_address:rec.address});
+  if(rec.name&&norm(rec.name)===nameKey&&!(rec.address&&normAddress(rec.address)===addressKey))conflicts.push({registration:c.registration,type:"name_collision_review_"+dn,record_id:rec.id||rec.record_id||null,matched_name:rec.name});
+ }
+ const sid="NIAH-"+c.registration,existing=sourceById.get(sid);
+ if(existing)conflicts.push({registration:c.registration,type:clean(existing.url)===c.official_page?"existing_source_id":"conflicting_source_id",record_id:sid});
+ if(visualIds.has(c.registration))conflicts.push({registration:c.registration,type:"visual_id_collision"});
+ for(const old of objects){const la=Number(old.latitude),lo=Number(old.longitude);if(Number.isFinite(la)&&Number.isFinite(lo)){const d=distance(lat,lon,la,lo);if(d<=20)proximity.push({registration:c.registration,nearby_archive_id:old.id,nearby_name:old.name,distance_m:Math.round(d*10)/10,known_distinct_neighbour:(c.known_distinct_neighbours||[]).includes(clean(old.national_inventory_reference))});}}
+ prepared.push({candidate:c,row:r,lat,lon,e,n,address,district:districtFor(r),description,appraisal,sourceId:sid});
+}
+const blocking=conflicts.filter(x=>!x.type.startsWith("name_collision_review_"));
+if(blocking.length){await write(PRECHECK,{generated_at:new Date().toISOString(),decision:"HOLD",blocking_conflicts:blocking,name_collisions:conflicts.filter(x=>x.type.startsWith("name_collision_review_")),coordinate_proximity:proximity,held:input.held});throw new Error("Blocking duplicate/provenance conflicts: "+JSON.stringify(blocking));}
+for(const p of prepared){if(conflicts.some(x=>x.registration===p.candidate.registration&&x.type.startsWith("name_collision_review_")))p.candidate.display_name+=" — "+p.address;}
+const newObjects=[],newSources=[],newVisuals=[],results=[];
+for(const p of prepared){
+ const c=p.candidate,r=p.row,reg=c.registration,category=categoryFor(r.ORIGINAL_TYPE),prefix=prefixFor(category);
+ maxIds[prefix]=(maxIds[prefix]||0)+1;const id="DUB-"+prefix+"-"+String(maxIds[prefix]).padStart(4,"0");if(usedIds.has(id))throw new Error("Archive ID collision "+id);usedIds.add(id);
+ const csvName=clean(r.NAME),rating=clean(r.RATING),special=clean(r.CSI),period=dateRange(r),lat=p.lat,lon=p.lon;
+ const object={id,name:c.display_name,category,district:p.district,address:p.address,historical_period:period,historical_description:p.description,historical_significance:p.appraisal||("NIAH rating: "+rating+". Special interest categories: "+(special||"not stated")+"."),
+  national_inventory_reference:reg,national_grid_reference:null,latitude:lat,longitude:lon,
+  coordinate_source:"Official NIAH national CSV exact row "+reg+": ITM_E="+p.e+", ITM_N="+p.n+" (EPSG:2157); LATITUDE="+clean(r.LATITUDE)+", LONGITUDE="+clean(r.LONGITUDE)+" copied directly from the same row. NIAH metadata states that point centroids were digitised relative to OSI 6-inch mapping and may require revision against larger-scale mapping; positional accuracy is unspecified. This is source-derived location data, not founder GPS.",
+  coordinate_accuracy_m:null,coordinate_status:"SOURCE_DERIVED",address_source:p.sourceId,verification_status:"PARTIALLY_VERIFIED",photography_status:"TO_PHOTOGRAPH",line_art_status:"TO_CREATE",publication_status:"NOT_PUBLISHED",parent_id:null,
+  access_status:"Not field assessed. Photograph only from lawful public viewpoints; do not enter private or restricted property. Confirm current site rules before visiting.",
+  photography_restrictions:"NIAH registration does not grant entry or photography rights. Do not enter private or restricted property; confirm owner/operator permission and site-specific photography rules.",
+  map_url:"https://www.google.com/maps/dir/?api=1&destination="+encodeURIComponent(lat.toFixed(6)+","+lon.toFixed(6))+"&travelmode=walking",
+  photography_brief:["Overall view of the registered building from a lawful public viewpoint","Document the architectural or structural features described in the official NIAH record","Capture materials, façade details and setting only where visible and accessible","Record present condition without entering private or restricted property"],
+  sources:[p.sourceId,"SRC-NIAH-NATIONAL-DATASET"],feature_type:"PRIMARY_OBJECT",
+  research_notes:"CICAN hybrid publication from research Batch "+c.batch+". Official NIAH page title: "+c.official_page_title+". Individual official NIAH page consulted during the research batch: "+c.official_page+". National CSV NAME field: "+(csvName||"[blank in source; not inferred]")+". Original use: "+clean(r.ORIGINAL_TYPE)+". Survey-recorded use: "+(clean(r.IN_USE_AS_TYPE)||"not stated")+". Local authority in official CSV: "+clean(r["LOCAL_AUTHORITY�"])+". Rating: "+rating+". Special interest: "+(special||"not stated")+". Exact national CSV row present in latest workflow-generated four-authority missing-registration queue. Survey-time descriptions and use are not present-day condition or occupancy verification. No NIAH-linked photograph is reused. Coordinate provenance is source-derived and not founder GPS.",last_researched:DATE};
+ newObjects.push(object);
+ if(!sourceById.has(p.sourceId))newSources.push({id:p.sourceId,name:"NIAH record "+reg+" — "+c.official_page_title,publisher:"Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",url:c.official_page,accessed:DATE,source_type:"OFFICIAL_HERITAGE_REGISTER",
+  specific_reference:"NIAH registration "+reg+"; official page title: "+c.official_page_title+"; national CSV NAME: "+(csvName||"[blank]")+"; local authority: "+clean(r["LOCAL_AUTHORITY�"])+"; rating: "+rating+"; original use: "+clean(r.ORIGINAL_TYPE)+"; recorded use: "+clean(r.IN_USE_AS_TYPE)+"; date range: "+period+"; special interest: "+(special||"not stated")+"; official CSV ITM EPSG:2157 E "+p.e+" N "+p.n+"; CSV latitude "+clean(r.LATITUDE)+" longitude "+clean(r.LONGITUDE)+".",
+  notes:"Individual official NIAH record page consulted in research Batch "+c.batch+". Exact official national CSV registration row separately matched through the workflow-generated four-authority queue. This source supports documentary identity and survey fields, not present-day condition, occupancy, access or field verification. NIAH-linked photographs are not reused.",
+  licence:"NIAH dataset record data: CC BY 4.0. Linked photographs are excluded unless separately licensed.",licenceUrl:"https://creativecommons.org/licenses/by/4.0/"});
+ newVisuals.push({record_id:id,name:c.display_name,category,district:p.district,address:p.address,visual_priority:rating==="National"||rating==="International"?"HIGH":"STANDARD",
+  planned_shots:["Overall view of the registered building from a lawful public viewpoint","Architectural details described in the official NIAH record","Materials, workmanship and setting where visible and accessible","Present condition from public access without entering private or restricted property"],
+  photo_status:"AWAITING_FOUNDER_PHOTOGRAPH",original_photo:null,photo_credit:null,capture_date:null,capture_location_verification:"NOT_FIELD_VERIFIED",line_art_status:"WAITING_FOR_ORIGINAL_PHOTO",line_art_file:null,
+  line_art_spec:{paper:"A4",orientation:"Choose to suit original composition",resolution_dpi:300,pixel_size_portrait:"2480x3508",style:"Faithful black outlines on clean white background; no invented details, labels, shading or added objects",source_requirement:"Corresponding founder-captured original photograph"},gallery_status:"NOT_YET_PUBLISHED",reference_images:[]});
+ results.push({batch:c.batch,registration:reg,archive_id:id,name:c.display_name,address:p.address,official_page:c.official_page,coordinate_status:"SOURCE_DERIVED",latitude:lat,longitude:lon,field_verified:false});
+}
+const finalObjects=[...objects,...newObjects],finalPublic=[...pub,...newObjects],finalSources=[...sources,...newSources],finalVisuals=[...visual.records,...newVisuals];
+const refs=finalPublic.map(x=>clean(x.national_inventory_reference));if(new Set(refs).size!==refs.length||refs.some(x=>!/^\d{8}$/.test(x)))throw new Error("Public register unique exact REG_NO validation failed.");
+if(finalObjects.length!==objects.length+14||finalPublic.length!==pub.length+14||finalVisuals.length!==visual.records.length+14)throw new Error("Post-import count validation failed.");
+const districtCounts=new Map();for(const x of finalObjects)districtCounts.set(x.district,(districtCounts.get(x.district)||0)+1);
+const oldDistricts=new Map((coverage.postal_districts||[]).map(x=>[x.name,x]));
+coverage.postal_districts=[...districtCounts.entries()].sort(([a],[b])=>a.localeCompare(b)).map(([name,count])=>oldDistricts.has(name)?{...oldDistricts.get(name),record_count:count}:{name,record_count:count,status:"RESEARCH_IN_PROGRESS",coverage_note:"NIAH settlement or townland work-zone label; not proof of postal district or local-authority boundary. Count reconciled from data/objects.json."});
+coverage.catalogue_total=finalObjects.length;coverage.audited_on=DATE;coverage.totals=coverage.totals||{};coverage.totals.postal_districts_with_records=coverage.postal_districts.length;coverage.methodology=coverage.methodology||[];
+coverage.methodology.push("Publication of 14 individually consulted NIAH core records from research Batches 087–089. National CSV WGS84 coordinates are retained as SOURCE_DERIVED, not founder GPS; no NIAH-linked photographs are reused.");
+const report={title:"CICAN Dublin — NIAH core publication, research Batches 087–089",generated_at:new Date().toISOString(),decision:"CORE_PUBLICATION_READY",published_candidate_count:results.length,held:input.held,registrations:results,coordinate_proximity_review:proximity,
+ duplicate_screen:{datasets_checked:Object.keys(datasets),master_records_checked:objects.length,public_niah_records_checked:pub.length,source_records_checked:sources.length,visual_records_checked:visual.records.length,blocking_conflicts:[],name_collisions:conflicts.filter(x=>x.type.startsWith("name_collision_review_"))},
+ post_import_counts:{master_objects:finalObjects.length,public_niah_records:finalPublic.length,source_records:finalSources.length,visual_records:finalVisuals.length},
+ safeguards:["No archive record or map point was created for held registration 50010240.","Official CSV NAME blanks are preserved in research notes; page titles are kept separate.","Official CSV WGS84 coordinates are SOURCE_DERIVED with unspecified positional accuracy; they are not founder GPS.","No NIAH photographs are reused; all 14 visual records await founder photography and A4 line art.","No candidate is marked FIELD_VERIFIED."]};
+await write(PRECHECK,{generated_at:report.generated_at,decision:"PASS",candidate_count:results.length,registrations:results,coordinate_proximity_review:proximity,duplicate_screen:report.duplicate_screen,held:input.held});
+if(check){console.log(JSON.stringify({decision:"PASS",candidate_count:results.length,master_records_checked:objects.length,public_records_checked:pub.length,source_records_checked:sources.length,visual_records_checked:visual.records.length,nearby_records:proximity.length,held:input.held},null,2));process.exit(0);}
+await write("data/objects.json",finalObjects);await write("data/niah-registered-objects.json",finalPublic);await write("data/sources.json",finalSources);
+visual.records=finalVisuals;visual.record_count=finalVisuals.length;visual.last_updated=DATE;
+await write("data/visual-assets.json",visual);await write("data/coverage-audit.json",coverage);await write(MARKER,report);
+const lines=["# CICAN Dublin — NIAH Core Publication, Batches 087–089","","**Publication date:** "+DATE,"**Status:** 14 SOURCE_VERIFIED_CORE records added to the public NIAH collection. No field verification is claimed.","","## Published records","","| Research batch | NIAH registration | Archive ID | Public record |","|---|---:|---|---|",...results.map(x=>"| "+x.batch+" | "+x.registration+" | "+x.archive_id+" | ["+x.name+"](../places/"+x.archive_id+".html) |"),"","## Held record","","- **50010240 — 85 Marlborough Street:** remains on HOLD because its individual NIAH page was not independently opened during the research review. The CSV row alone was not treated as sufficient for core publication.","","## Publication and verification controls","","- All 14 published registrations were present exactly once in the latest workflow-generated official four-authority missing-registration queue.","- Complete master objects, public NIAH register, source registry and visual inventory were checked for exact registration, normalized address, name and source/visual ID collisions.","- Official national CSV latitude/longitude values are published as SOURCE_DERIVED map positions. Positional accuracy is unspecified; they are not founder GPS or FIELD_VERIFIED.","- Official CSV ITM values (EPSG:2157) and WGS84 latitude/longitude are recorded separately.","- No linked NIAH photographs are reused. All 14 visual records await founder photography and A4 line art.","- Separately registered gate lodges remain distinct; the Pro-Cathedral and Pro-Cathedral House remain separate records.","- Present-day occupancy, condition, access and photography permission are not inferred from survey-era information.","","## Post-publication catalogue totals","","- Master objects: **"+finalObjects.length+"**","- Public NIAH records: **"+finalPublic.length+"**","- Source records: **"+finalSources.length+"**","- Visual records: **"+finalVisuals.length+"**","- New records: **14**","- New source-derived map positions: **14**","- New founder photographs: **0**","- New field-verified records: **0**","","## Official source and audit","","Each record links to its individual official Buildings of Ireland NIAH page. National row reconciliation was performed against the official four-authority queue generated from the national NIAH dataset. The detailed duplicate and coordinate-proximity report is audit/niah-batches-087-089-publication.json.","","Production was changed only by this validated publication workflow after complete catalogue checks passed."];
+await fs.writeFile("documentation/CICAN-HYBRID-NIAH-PUBLICATION-BATCHES-087-089.md",lines.join("\n")+"\n");
+const readme=await fs.readFile("README.md","utf8");
+const checkpoint="\n\n## Latest publication checkpoint — Research Batches 087–089 (24 November 2026)\n\nThe public NIAH collection has been expanded by 14 individually consulted Dublin City NIAH records from research Batches 087–089. One candidate, 50010240, remains on HOLD because its individual record page was not independently opened. The publication workflow checked the complete master catalogue, public NIAH register, source registry and visual inventory before adding records. Official CSV WGS84 positions are labelled SOURCE_DERIVED with unspecified positional accuracy; they are not founder GPS. All 14 new visual records await founder photography and A4 line art. None is FIELD_VERIFIED. See the publication report at documentation/CICAN-HYBRID-NIAH-PUBLICATION-BATCHES-087-089.md and machine-readable audit at audit/niah-batches-087-089-publication.json. Current counts: "+finalObjects.length+" master objects, "+finalPublic.length+" public NIAH records, "+finalSources.length+" sources and "+finalVisuals.length+" visual records.";
+if(!readme.includes("Latest publication checkpoint — Research Batches 087–089"))await fs.writeFile("README.md",readme+checkpoint+"\n");
+console.log(JSON.stringify({decision:"APPLIED",published:results.length,held:input.held,counts:report.post_import_counts},null,2));

@@ -165,8 +165,8 @@ test("route matching is constrained to plausible forward progress and uses headi
   const coordinates=[[-6.2600,53.3500],[-6.2590,53.3500],[-6.2580,53.3500],[-6.2570,53.3500]];
   const cumulative=context.routeCumulativeDistances(coordinates);
   const point={latitude:53.3500,longitude:-6.2585};
-  const local=context.nearestRouteProgress(point,coordinates,cumulative,0,{minimumProgressMetres:0,maximumProgressMetres:75,heading:90,speed:2,accuracy:8});
-  assert.ok(local.progressMetres<=75,"matcher must not jump far ahead to a later route segment");
+  const local=context.nearestRouteProgress(point,coordinates,cumulative,0,{minimumProgressMetres:0,maximumProgressMetres:130,heading:90,speed:2,accuracy:8});
+  assert.ok(local.progressMetres<=130,"matcher must not jump far ahead to a later route segment");
   assert.ok(local.distance<3,"the correct local route segment should be matched closely");
   const outside=context.nearestRouteProgress(point,coordinates,cumulative,0,{minimumProgressMetres:0,maximumProgressMetres:20,heading:90,speed:2,accuracy:8});
   assert.equal(outside.distance,Infinity,"segments outside the plausible progress window must not be selected");

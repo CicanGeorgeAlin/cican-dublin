@@ -537,7 +537,7 @@ function hasGps(record){
 function walkingUrl(record){
  if(!hasGps(record))return null;
  const destination=record.latitude.toFixed(7)+","+record.longitude.toFixed(7);
- return "https://www.google.com/maps/dir/?api=1&destination="+encodeURIComponent(destination)+"&travelmode=walking";
+ return "./preview/app.html?destination="+encodeURIComponent(record.id);
 }
 function render(){
  const query=clean($("#search").value);
@@ -559,7 +559,7 @@ function render(){
   const photo=image
    ?'<div class="archive-photo"><img src="'+esc(safeUrl(image.image_url))+'" alt="'+esc(image.title||record.name)+'" loading="lazy" onerror="this.remove()"><span class="photo-type">'+esc(imageLabel)+'</span></div><div class="photo-credit"><span>'+esc(image.attribution||image.photographer||"Attribution pending")+' · '+esc(image.licence||"Licence details pending")+'</span><small>'+esc(image.location_note||"Reference photograph; object match not yet confirmed.")+'</small><a href="'+esc(safeUrl(image.source_url))+'" target="_blank" rel="noopener noreferrer">SOURCE RECORD &amp; LICENCE ↗</a></div>'
    :'<div class="archive-photo photo-pending" aria-label="Photograph pending for '+esc(record.name)+'"><div class="pending-mark" aria-hidden="true">C</div><span class="pending-title">PHOTOGRAPH PENDING</span><span class="pending-subtitle">Original field photograph to be added</span></div>';
-  const walkAction=walk?'<a class="card-action walk-action" href="'+esc(walk)+'" target="_blank" rel="noopener noreferrer">WALK THERE <span aria-hidden="true">↗</span></a>':'<span class="card-action disabled-action" aria-disabled="true">GPS PENDING</span>';
+  const walkAction=walk?'<a class="card-action walk-action" href="'+esc(walk)+'">WALK THERE WITH CICAN <span aria-hidden="true">↗</span></a>':'<span class="card-action disabled-action" aria-disabled="true">GPS PENDING</span>';
   const description=record.historical_description||"Historical research is in progress.";
   const summary=description.length>230?description.slice(0,227).replace(/\s+\S*$/,"")+"…":description;
   return '<article class="place-card">'+photo+
@@ -623,7 +623,7 @@ function openRecord(id,updateUrl=true){
   referenceMarkup+photo+
   '<section class="place-facts"><div><span>PERIOD</span><b>'+esc(record.historical_period||"Not established")+'</b></div><div><span>ADDRESS</span><b>'+esc(record.address)+', '+esc(record.district)+'</b></div><div><span>GPS POINT</span><b>'+(hasGps(record)?esc(record.latitude.toFixed(7)+", "+record.longitude.toFixed(7)):"Not yet sourced")+'</b></div><div><span>COORDINATE STATUS</span><b>'+(record.coordinate_status==="FIELD_VERIFIED"?"FIELD VERIFIED":"SOURCE-DERIVED · FIELD CHECK PENDING")+'</b></div><div><span>ACCESS</span><b>'+esc(record.access_status||"Check local access conditions")+'</b></div></section>'+
   evidenceMarkup(record)+
-  '<div class="detail-actions">'+(mapHref?'<a class="action-primary" href="'+esc(mapHref)+'" target="_blank" rel="noopener noreferrer">WALK THERE ↗</a>':'<span class="fieldwork-note">GPS LOCATION PENDING — walking directions are not available until a source coordinate is recorded.</span>')+'</div>'+
+  '<div class="detail-actions">'+(mapHref?'<a class="action-primary" href="'+esc(mapHref)+'">WALK THERE WITH CICAN ↗</a>':'<span class="fieldwork-note">GPS LOCATION PENDING — walking directions are not available until a source coordinate is recorded.</span>')+'</div>'+
   '<details class="fold source-fold"><summary>SOURCES · '+linkedSources.length+'</summary>'+sourceSection+'</details>';
  const photoInput=$("#placePhoto");
  photoInput.addEventListener("change",()=>{

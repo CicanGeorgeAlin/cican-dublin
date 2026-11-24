@@ -77,7 +77,7 @@ const progressKey="cican-fieldwork-progress";
 const statusLabel={TO_PHOTOGRAPH:"READY TO PHOTOGRAPH",PHOTOGRAPHED:"PHOTOGRAPHED",LINE_ART_CREATED:"LINE ART CREATED",PUBLISHED:"PUBLISHED"};
 let records=[];
 function progress(){try{return JSON.parse(localStorage.getItem(progressKey)||"{}")}catch{return {}}}
-function maps(r){return r.map_url||("https://www.google.com/maps/dir/?api=1&destination="+encodeURIComponent(r.latitude+","+r.longitude)+"&travelmode=walking")}
+function maps(r){return "./preview/app.html?destination="+encodeURIComponent(r.id)}
 function showNext(){
 const p=progress(),next=records.find(r=>!p[r.id]||p[r.id].status!=="PUBLISHED");
 if(!next){root.innerHTML='<p class="sub">Every current catalogue record is marked published. The research queue can grow as new discoveries are verified.</p>';return;}
@@ -92,7 +92,7 @@ brief.forEach(x=>{const li=document.createElement("li");li.textContent=x;list.ap
 const status=document.createElement("p");status.className="hint";status.textContent="ID "+next.id+" · "+(statusLabel[p[next.id]?.status]||"READY TO PHOTOGRAPH")+" · Coordinates are research-derived; confirm the exact detail on site.";
 const actions=document.createElement("div");actions.className="actions";
 const start=document.createElement("button");start.className="btn";start.textContent="START THIS DISCOVERY";start.onclick=()=>{idField.value=next.id;document.getElementById("place").value=next.name;document.getElementById("notes").value="Archive ID: "+next.id+"\n"+(next.photography_brief||[]).join("\n");document.getElementById("coords").value="";document.getElementById("photo").scrollIntoView({behavior:"smooth",block:"center"});document.getElementById("message").textContent="Selected "+next.id+". Take your photograph, capture your exact GPS position, then save.";};
-const walk=document.createElement("a");walk.className="btn secondary";walk.href=maps(next);walk.target="_blank";walk.rel="noopener";walk.textContent="WALK TO DISCOVERY ↗";
+const walk=document.createElement("a");walk.className="btn secondary";walk.href=maps(next);walk.textContent="WALK TO DISCOVERY ↗";
 actions.append(start,walk);root.append(tag,name,addr,desc);if(brief.length)root.append(list);root.append(status,actions);
 }
 try{const response=await fetch("./data/objects.json",{cache:"no-store"});if(!response.ok)throw Error("Catalogue unavailable ("+response.status+")");records=(await response.json()).filter(r=>r.verification_status==="VERIFIED");records.sort((a,b)=>String(a.id).localeCompare(String(b.id),undefined,{numeric:true}));showNext();}

@@ -110,6 +110,10 @@ function exportLiveGpsSession(){const samples=state.locationSessionSamples||[];i
 function liveDistanceAndBearing(a,b){const rad=value=>value*Math.PI/180;const dLat=rad(b.latitude-a.latitude),dLon=rad(b.longitude-a.longitude),lat1=rad(a.latitude),lat2=rad(b.latitude);const h=Math.sin(dLat/2)**2+Math.cos(lat1)*Math.cos(lat2)*Math.sin(dLon/2)**2;const distance=6371000*2*Math.atan2(Math.sqrt(h),Math.sqrt(1-h));const y=Math.sin(dLon)*Math.cos(lat2),x=Math.cos(lat1)*Math.sin(lat2)-Math.sin(lat1)*Math.cos(lat2)*Math.cos(dLon);return{distance,bearing:(Math.atan2(y,x)*180/Math.PI+360)%360};}
 function liveProjectedPoint(latitude,longitude,distance,bearing){const rad=value=>value*Math.PI/180,deg=value=>value*180/Math.PI;const angular=distance/6371000,angle=rad(bearing),lat1=rad(latitude),lon1=rad(longitude);const lat2=Math.asin(Math.sin(lat1)*Math.cos(angular)+Math.cos(lat1)*Math.sin(angular)*Math.cos(angle));const lon2=lon1+Math.atan2(Math.sin(angle)*Math.sin(angular)*Math.cos(lat1),Math.cos(angular)-Math.sin(lat1)*Math.sin(lat2));return{latitude:deg(lat2),longitude:((deg(lon2)+540)%360)-180};}
 function renderLiveLocationFrame(){state.locationAnimationFrame=null;}
+function gpsNoiseFloor(previousAccuracy,accuracy){return Math.max(4,Math.min(12,((Number(previousAccuracy)||0)+(Number(accuracy)||0))*0.28));}
+function gpsMovementIsSignificant(distance,previousAccuracy,accuracy){return Number.isFinite(distance)&&distance>gpsNoiseFloor(previousAccuracy,accuracy)*1.35;}
+function gpsShouldHoldPosition(speed,reportedMoving,movementDistance,noiseFloor,accuracy){return !reportedMoving&&(!Number.isFinite(movementDistance)||movementDistance<=Math.max(noiseFloor*2,(Number(accuracy)||0)*0.55));}
+function gpsDisplayAlpha(accuracy){return Math.max(0.18,Math.min(0.48,12/((Number(accuracy)||0)+12)));}
 function acceptLiveLocationFix(position){
 if(!state.locationTracking||!position||!position.coords)return;
 const coords=position.coords,latitude=Number(coords.latitude),longitude=Number(coords.longitude),accuracy=Number(coords.accuracy),timestamp=Number(position.timestamp)||Date.now();
@@ -122,9 +126,9 @@ let speed=Number.isFinite(coords.speed)&&coords.speed>=0?coords.speed:null;
 let heading=Number.isFinite(coords.heading)&&coords.heading>=0?coords.heading:null;
 let movement=null,elapsed=0;
 if(previous){elapsed=(timestamp-previous.timestamp)/1000;movement=liveDistanceAndBearing(previous,{latitude,longitude});if(elapsed>0.2&&elapsed<=20&&previous.accuracy<=35&&accuracy<=35){const plausibleLimit=Math.max(35,elapsed*12+previous.accuracy+accuracy);if(movement.distance>plausibleLimit)return;}}
-const noiseFloor=previous?Math.max(4,Math.min(12,(previous.accuracy+accuracy)*0.28)):0;
+const noiseFloor=previous?gpsNoiseFloor(previous.accuracy,accuracy):0;
 const reportedMoving=speed!==null&&speed>=1.1&&accuracy<=30;
-const meaningfulMovement=!!(movement&&elapsed>0.2&&movement.distance>noiseFloor*1.35);
+const meaningfulMovement=!!(movement&&elapsed>0.2&&gpsMovementIsSignificant(movement.distance,previous.accuracy,accuracy));
 if(!reportedMoving&&!meaningfulMovement){speed=0;heading=state.locationMotion?.heading??heading??0;}else{if(speed===null||speed<0.8){speed=meaningfulMovement?Math.min(5,movement.distance/Math.max(0.5,elapsed)):0;}if(heading===null&&meaningfulMovement)heading=movement.bearing;}
 if(speed===null||!Number.isFinite(speed))speed=0;
 speed=Math.min(8,speed);
@@ -133,8 +137,8 @@ state.locationLastFix={latitude,longitude,timestamp,accuracy};
 const raw={latitude,longitude,timestamp,accuracy};
 let display=state.locationDisplayFix;
 if(!display){display={...raw};}
-else if(speed===0&&(!reportedMoving)&&movement&&movement.distance<=Math.max(noiseFloor*2,accuracy*0.55)){display={...display,timestamp,accuracy};}
-else{const alpha=Math.max(0.18,Math.min(0.48,12/(accuracy+12)));display={...display,latitude:display.latitude+(latitude-display.latitude)*alpha,longitude:display.longitude+(longitude-display.longitude)*alpha,timestamp,accuracy};}
+else if(gpsShouldHoldPosition(speed,reportedMoving,movement?.distance,noiseFloor,accuracy)){display={...display,timestamp,accuracy};}
+else{const alpha=gpsDisplayAlpha(accuracy);display={...display,latitude:display.latitude+(latitude-display.latitude)*alpha,longitude:display.longitude+(longitude-display.longitude)*alpha,timestamp,accuracy};}
 state.locationDisplayFix=display;
 state.locationMotion={latitude:display.latitude,longitude:display.longitude,speed,heading,accuracy,receivedAt:performance.now()};
 state.nearbyOrigin={latitude:display.latitude,longitude:display.longitude};

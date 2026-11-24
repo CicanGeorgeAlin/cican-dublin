@@ -1,0 +1,209 @@
+{
+  "batch": "088",
+  "purpose": "Research-only evidence packet for five consecutive Dublin City NIAH candidates selected from the latest workflow-generated official missing-registration queue.",
+  "repository": "CicanGeorgeAlin/cican-dublin",
+  "branch": "research/batch-088-niah-candidates",
+  "source_snapshot": {
+    "workflow_run": 45317187083,
+    "workflow_run_number": 1991,
+    "artifact_id": 14886505650,
+    "artifact_name": "niah-dublin-bulk-coverage-audit",
+    "queue_file": "niah-dublin-missing-registrations.json",
+    "queue_entries": 7040,
+    "audited_at": "2026-11-24T03:07:23Z"
+  },
+  "official_dataset_reference": {
+    "title": "NIAH Data Download",
+    "url": "https://www.buildingsofireland.ie/niah-data-download/",
+    "coordinate_note": "National CSV ITM values are EPSG:2157; CSV latitude/longitude are separate. Raw coordinate pairs displayed on individual NIAH pages are preserved separately because the page display does not label their CRS."
+  },
+  "candidate_records": [
+    {
+      "reg_no": "50010232",
+      "name": "",
+      "address": "80 Marlborough Street, Dublin 1, Ireland",
+      "official_niah_page": "https://www.buildingsofireland.ie/buildings-search/building/50010232/80-marlborough-street-dublin-1-dublin",
+      "rating": "Regional",
+      "special_interest": [
+        "Architectural",
+        "Artistic"
+      ],
+      "date_from": 1730,
+      "date_to": 1760,
+      "original_use": "House",
+      "in_use_as": "Apartment/flat (converted)",
+      "page_coordinates_raw_unlabelled_crs": [
+        315987,
+        234849
+      ],
+      "csv_itm_epsg_2157": [
+        715914,
+        734875
+      ],
+      "csv_latitude_longitude": [
+        53.351374,
+        -6.258923
+      ],
+      "description_summary": "Terraced two-bay four-storey Georgian house over raised basement, built c.1745, with Flemish-bond red brickwork, gauged brick voussoirs, replacement windows, and a round-headed entrance with a painted stone doorcase, Doric pilasters and fanlight.",
+      "appraisal_summary": "NIAH describes it as a fine Georgian red-brick townhouse; its restrained façade is enlivened by the brickwork and elegant doorcase.",
+      "queue_membership": "Exact registration 50010232 present in workflow #1991 Dublin City missing-registration queue."
+    },
+    {
+      "reg_no": "50010233",
+      "name": "",
+      "address": "79 Marlborough Street, Dublin 1, Ireland",
+      "official_niah_page": "https://www.buildingsofireland.ie/buildings-search/building/50010233/guys-n-dolls-hairdressers-dublin-city",
+      "rating": "Regional",
+      "special_interest": [
+        "Architectural"
+      ],
+      "date_from": 1740,
+      "date_to": 1760,
+      "original_use": "House, shop/retail outlet",
+      "in_use_as": "",
+      "page_coordinates_raw_unlabelled_crs": [
+        315984,
+        234855
+      ],
+      "csv_itm_epsg_2157": [
+        715912,
+        734881
+      ],
+      "csv_latitude_longitude": [
+        53.35143,
+        -6.25895
+      ],
+      "description_summary": "Terraced two-bay four-storey house over raised basement, built c.1750 and described by NIAH as now used as retail premises, with Flemish-bond red brickwork, gauged brick voussoirs, granite plinth and sills, and a blocked former entrance with sidelights.",
+      "appraisal_summary": "NIAH identifies number 79 as retaining much of its early form and character as a Georgian red-brick townhouse; the roof may indicate an earlier Dutch Billy form.",
+      "queue_membership": "Exact registration 50010233 present in workflow #1991 Dublin City missing-registration queue.",
+      "source_field_caution": "National CSV IN_USE_AS_TYPE is blank, although the individual NIAH page description says it is now in use as retail premises. Preserve both source values; do not fill the blank CSV field."
+    },
+    {
+      "reg_no": "50010234",
+      "name": "",
+      "address": "78 Marlborough Street, Dublin 1, Ireland",
+      "official_niah_page": "https://www.buildingsofireland.ie/buildings-search/building/50010234/irish-rubies-ltd-78-marlborough-street-dublin-1-co-dublin",
+      "rating": "Regional",
+      "special_interest": [
+        "Architectural",
+        "Artistic"
+      ],
+      "date_from": 1740,
+      "date_to": 1760,
+      "original_use": "House",
+      "in_use_as": "Shop/retail outlet",
+      "page_coordinates_raw_unlabelled_crs": [
+        315983,
+        234861
+      ],
+      "csv_itm_epsg_2157": [
+        715910,
+        734887
+      ],
+      "csv_latitude_longitude": [
+        53.351483,
+        -6.258971
+      ],
+      "description_summary": "Terraced two-bay three-storey house, built c.1750, now retail premises, with Flemish-bond red brickwork, parapet-concealed slate roof, a round-headed entrance within a block-and-start stone surround, and a late nineteenth-century shopfront with fluted foliate consoles.",
+      "appraisal_summary": "NIAH describes a fine late eighteenth-century red-brick townhouse; the surviving block-and-start doorcase and enriched shopfront contribute to its significance.",
+      "queue_membership": "Exact registration 50010234 present in workflow #1991 Dublin City missing-registration queue.",
+      "source_field_caution": "National CSV NAME is blank although the individual page title includes a business/trading name. Keep the CSV NAME blank; page title is a separate source label."
+    },
+    {
+      "reg_no": "50010236",
+      "name": "School of Culinary Arts and Food Technology",
+      "address": "66–74 Cathal Brugha Street / Marlborough Street, Dublin 1, Ireland",
+      "official_niah_page": "https://www.buildingsofireland.ie/buildings-search/building/50010236/school-of-culinary-arts-and-food-technology-66-74-cathal-brugha-street-marlborough-street-dublin-1-dublin",
+      "rating": "National",
+      "special_interest": [
+        "Architectural",
+        "Artistic",
+        "Social",
+        "Technical"
+      ],
+      "date_from": 1935,
+      "date_to": 1940,
+      "original_use": "College",
+      "in_use_as": "College",
+      "page_coordinates_raw_unlabelled_crs": [
+        315944,
+        234914
+      ],
+      "csv_itm_epsg_2157": [
+        715868,
+        734959
+      ],
+      "csv_latitude_longitude": [
+        53.352136,
+        -6.259585
+      ],
+      "description_summary": "Corner-sited attached four-storey-over-basement Art Deco college, built 1938–39 by Robinson and Keefe, with red brick and granite elevations, a sculptural group of The Three Graces by Gabriel Hayes, and notable original interior finishes.",
+      "appraisal_summary": "NIAH regards it as one of Dublin's best Art Deco examples, retaining substantial original fabric and interiors; it notes the Three Graces sculpture and its sculptor Gabriel Hayes.",
+      "queue_membership": "Exact registration 50010236 present in workflow #1991 Dublin City missing-registration queue."
+    },
+    {
+      "reg_no": "50010237",
+      "name": "Church of Saint George and Saint Thomas",
+      "address": "Findlater Place / Cathal Brugha Street, Dublin 1, Ireland",
+      "official_niah_page": "https://www.buildingsofireland.ie/buildings-search/building/50010237/church-of-saint-george-and-saint-thomas-findlater-place-cathal-brugha-street-dublin-1-dublin",
+      "rating": "Regional",
+      "special_interest": [
+        "Architectural",
+        "Artistic",
+        "Social",
+        "Technical"
+      ],
+      "date_from": 1930,
+      "date_to": 1935,
+      "original_use": "Church/chapel",
+      "in_use_as": "Church/chapel",
+      "page_coordinates_raw_unlabelled_crs": [
+        315944,
+        234967
+      ],
+      "csv_itm_epsg_2157": [
+        715870,
+        734993
+      ],
+      "csv_latitude_longitude": [
+        53.352442,
+        -6.259546
+      ],
+      "description_summary": "Freestanding Church of Ireland church built 1930–32, with a gable-fronted nave, granite west portico and columns, two towers, apsidal chancel, red-brick and granite detailing, leaded and coloured glass, and original wrought-iron railings.",
+      "appraisal_summary": "NIAH identifies the church as a local landmark designed by Frederick Hicks in a Byzantine/Lombardic-Romanesque style, with stained glass by Catherine O'Brien and an apse mosaic by Oppenheimer.",
+      "queue_membership": "Exact registration 50010237 present in workflow #1991 Dublin City missing-registration queue."
+    }
+  ],
+  "duplicate_screen": {
+    "method": "Exact registration-number checks in workflow-generated official register audit plus exact-number searches across repository issues and all pull-request states.",
+    "registration_numbers_checked": [
+      "50010232",
+      "50010233",
+      "50010234",
+      "50010236",
+      "50010237"
+    ],
+    "existing_archive_matches": [],
+    "issue_matches": [],
+    "pull_request_matches": [],
+    "result": "No official-register matches and no repository issue or pull-request matches returned for these five exact registration numbers at time of research."
+  },
+  "identity_and_spatial_cautions": [
+    "The five candidates are five distinct NIAH registrations and must remain separate archive entities.",
+    "50010235 is absent from the missing-registration queue; it was not substituted or inferred.",
+    "National CSV NAME is blank for 50010232, 50010233 and 50010234. Page titles or business labels must not be copied into the CSV NAME field.",
+    "For 50010233 the national CSV IN_USE_AS_TYPE field is blank, while the individual page description says the building is now used as retail premises. Preserve this discrepancy.",
+    "For 50010234 the page title contains a business/trading label but the national CSV NAME field is blank. Preserve the separate source fields.",
+    "NIAH survey-time descriptions do not establish present-day tenant, occupancy, public access or condition.",
+    "Raw page coordinate pairs are stored separately from official CSV ITM and latitude/longitude; do not mix coordinate systems."
+  ],
+  "stage": "research_only",
+  "explicitly_not_done": [
+    "No archive IDs assigned",
+    "No catalogue imports",
+    "No source registry or visual inventory imports",
+    "No map pins or coordinate imports",
+    "No production website changes",
+    "No merge or deployment"
+  ]
+}

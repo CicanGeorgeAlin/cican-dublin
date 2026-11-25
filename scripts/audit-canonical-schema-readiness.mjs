@@ -11,6 +11,24 @@ const ajv = new Ajv2020({ allErrors: true, strict: false, validateFormats: true 
 addFormats(ajv);
 const validate = ajv.compile(schema);
 
+// Prove the coordinate contract rejects partial pairs and contradictory statuses.
+const coordinateSample = objects.find(record =>
+  typeof record.latitude === "number" && typeof record.longitude === "number"
+);
+const notSetSample = objects.find(record => record.coordinate_status === "NOT_SET");
+if (!coordinateSample || !notSetSample) throw new Error("Coordinate contract fixtures are unavailable.");
+const partialPair = { ...coordinateSample };
+delete partialPair.longitude;
+if (validate(partialPair)) throw new Error("Schema must reject a record with only one coordinate property.");
+const sourceDerivedWithoutPair = { ...coordinateSample };
+delete sourceDerivedWithoutPair.latitude;
+delete sourceDerivedWithoutPair.longitude;
+if (validate(sourceDerivedWithoutPair)) throw new Error("Schema must reject SOURCE_DERIVED without a complete coordinate pair.");
+const notSetWithCoordinates = { ...notSetSample, latitude: 53.3, longitude: -6.2 };
+if (validate(notSetWithCoordinates)) throw new Error("Schema must reject numeric coordinates marked NOT_SET.");
+const validNotSet = { ...notSetSample, latitude: null, longitude: null };
+if (!validate(validNotSet)) throw new Error("Schema must accept an explicit null pair marked NOT_SET.");
+
 function validateRecords(records, label) {
   const errors = [];
   let valid = 0;
@@ -207,6 +225,12 @@ console.log(JSON.stringify({
     both_properties_absent: coordinate.both_absent.length,
     other_partial_or_invalid: coordinate.other_invalid_or_partial.length,
     status_counts: coordinate.status_counts
+  },
+  coordinate_schema_contract: {
+    rejects_partial_pair: true,
+    rejects_source_derived_without_pair: true,
+    rejects_not_set_with_numeric_pair: true,
+    accepts_not_set_with_null_pair: true
   },
   report: "audit/canonical-data-contract-readiness.json"
 }, null, 2));

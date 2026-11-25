@@ -234,7 +234,7 @@ test("GPS test session CSV includes position, reported accuracy and route diagno
   assert.match(csv,/timestamp_utc,latitude,longitude,reported_horizontal_accuracy_m,reported_speed_mps,reported_heading_degrees/);
   assert.match(csv,/movement_distance_m,fix_to_fix_distance_m,movement_anchor_elapsed_s,meaningful_movement/);
   assert.match(csv,/53.35,-6.26,8,,,1.2,90/);
-  assert.match(csv,/coordinate-delta,coordinate-bearing,53.35001,-6.26001,12,true,smoothed,0.375,4,125,2/);
+  assert.match(csv,/coordinate-delta,coordinate-bearing,53.35001,-6.26001,12,,,true,smoothed,0.375,4,125,2/);
   assert.doesNotMatch(csv,/"coordinate-delta"/,"plain source labels should not be quoted");
   const escaped=context.buildGpsSessionCsv([{speed_source:"source,with comma"}]);
   assert.match(escaped,/"source,with comma"/,"fields containing commas must be quoted");

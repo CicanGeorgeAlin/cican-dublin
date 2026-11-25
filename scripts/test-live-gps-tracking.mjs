@@ -128,6 +128,7 @@ test("live GPS starts high-accuracy watch, updates marker/readout, and stops cle
 
   h.context.toggleLiveLocationTracking();
   assert.equal(h.state.locationTracking, false);
+  assert.equal(h.state.locationMovementAnchorFix, null,"stopping must reset the cumulative movement anchor");
   assert.deepEqual(h.calls.clearWatch, [17]);
   assert.equal(h.calls.markerRemoved, true);
   assert.equal(h.pendingFrames(), 0, "stopping tracking must cancel animation frames");
@@ -135,6 +136,20 @@ test("live GPS starts high-accuracy watch, updates marker/readout, and stops cle
   assert.match(h.panel.innerHTML,/EXPORT GPS TEST CSV/);
   assert.equal(h.state.locationSessionSamples.length,2);
   assert.equal(h.button.attrs["aria-pressed"], "false");
+});
+
+test("small consecutive fixes accumulate until movement clears the noise gate", () => {
+  const h = makeHarness();
+  h.context.toggleLiveLocationTracking();
+  const base={timestamp:Date.now(),coords:{latitude:53.123456,longitude:-6.123456,accuracy:5,speed:null,heading:null}};
+  h.callbacks.success(base);
+  const initial=h.state.locationDisplayFix.latitude;
+  for(let step=1;step<=4;step++){
+    h.callbacks.success({...base,timestamp:base.timestamp+step*5000,coords:{...base.coords,latitude:base.coords.latitude+step*0.0000225}});
+  }
+  assert.ok(h.state.locationDisplayFix.latitude>initial,"cumulative pedestrian movement must eventually advance the marker even when each individual step is below the movement threshold");
+  assert.ok(h.state.locationSessionSamples.some(sample=>sample.meaningful_movement),"at least one cumulative displacement must clear the gate");
+  assert.ok(h.state.locationSessionSamples.some(sample=>sample.speed_source==="coordinate-delta"),"derived speed must be labelled as coordinate-based");
 });
 
 test("successive fixes move the live marker when speed is omitted", () => {
@@ -157,6 +172,12 @@ test("successive fixes move the live marker when speed is omitted", () => {
     "independently measured displacement must move the filtered marker without a speed reading");
   assert.ok(h.state.locationDisplayFix.latitude > firstDisplayedLatitude,
     "the display position must advance instead of remaining held at the first fix");
+  const sample=h.state.locationSessionSamples[1];
+  assert.equal(sample.reported_speed_mps,"","the export must preserve that the device omitted speed");
+  assert.equal(sample.speed_source,"coordinate-delta","the processed speed must disclose its source");
+  assert.equal(sample.meaningful_movement,true);
+  assert.equal(sample.latitude,second.coords.latitude,"raw device latitude must be retained");
+  assert.notEqual(sample.display_latitude,sample.latitude,"filtered display latitude must be separately recorded");
 });
 test("GPS permission errors stop tracking and report the reason", () => {
   const h = makeHarness();
@@ -194,11 +215,12 @@ test("GPS confidence label distinguishes high, usable and weak estimates",()=>{
   h.context.toggleLiveLocationTracking();
   const base={timestamp:Date.now(),coords:{latitude:53.123456,longitude:-6.123456,accuracy:7,speed:0,heading:0}};
   h.callbacks.success(base);
-  assert.match(h.coords.accuracy,/HIGH CONFIDENCE/);
+  assert.match(h.coords.accuracy,/REPORTED ESTIMATE ≤10 M/);
   h.callbacks.success({...base,timestamp:base.timestamp+1000,coords:{...base.coords,accuracy:20}});
-  assert.match(h.coords.accuracy,/USABLE/);
+  assert.match(h.coords.accuracy,/REPORTED ESTIMATE 10–25 M/);
   h.callbacks.success({...base,timestamp:base.timestamp+2000,coords:{...base.coords,accuracy:40}});
-  assert.match(h.coords.accuracy,/WEAK SIGNAL/);
+  assert.match(h.coords.accuracy,/REPORTED ESTIMATE 25–50 M/);
+  assert.match(h.status.textContent,/LIVE GPS · REPORTED ACCURACY ±40 M · 25–50 M ESTIMATE/,"status must describe reported accuracy without claiming confidence");
 });
 
 test("GPS test session CSV includes position, reported accuracy and route diagnostics",()=>{
@@ -208,7 +230,12 @@ test("GPS test session CSV includes position, reported accuracy and route diagno
   const context={};
   vm.createContext(context);
   vm.runInContext(app.slice(start,end),context);
-  const csv=context.buildGpsSessionCsv([{timestamp_utc:"2026-11-24T10:00:00.000Z",latitude:53.35,longitude:-6.26,reported_horizontal_accuracy_m:8,speed_mps:1.2,heading_degrees:90,route_offset_m:4,route_progress_m:125,next_maneuver_index:2}]);
-  assert.match(csv,/timestamp_utc,latitude,longitude,reported_horizontal_accuracy_m/);
-  assert.match(csv,/53.35,-6.26,8,1.2,90,4,125,2/);
+  const csv=context.buildGpsSessionCsv([{timestamp_utc:"2026-11-24T10:00:00.000Z",latitude:53.35,longitude:-6.26,reported_horizontal_accuracy_m:8,reported_speed_mps:"",reported_heading_degrees:"",speed_mps:1.2,heading_degrees:90,speed_source:"coordinate-delta",heading_source:"coordinate-bearing",display_latitude:53.35001,display_longitude:-6.26001,movement_distance_m:12,meaningful_movement:true,display_update_mode:"smoothed",display_alpha:0.375,route_offset_m:4,route_progress_m:125,next_maneuver_index:2}]);
+  assert.match(csv,/timestamp_utc,latitude,longitude,reported_horizontal_accuracy_m,reported_speed_mps,reported_heading_degrees/);
+  assert.match(csv,/movement_distance_m,fix_to_fix_distance_m,movement_anchor_elapsed_s,meaningful_movement/);
+  assert.match(csv,/53.35,-6.26,8,,,1.2,90/);
+  assert.match(csv,/coordinate-delta,coordinate-bearing,53.35001,-6.26001,12,,,true,smoothed,0.375,4,125,2/);
+  assert.doesNotMatch(csv,/"coordinate-delta"/,"plain source labels should not be quoted");
+  const escaped=context.buildGpsSessionCsv([{speed_source:"source,with comma"}]);
+  assert.match(escaped,/"source,with comma"/,"fields containing commas must be quoted");
 });

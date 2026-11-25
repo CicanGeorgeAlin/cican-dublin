@@ -46,7 +46,7 @@ const allowed = new Set(Object.keys(schema.properties || {}));
 check("canonical catalogue is a non-empty array", () => assert.ok(Array.isArray(objects) && objects.length > 0));
 check("canonical IDs are unique and correctly formatted", () => {
   assert.ok(unique(objects.map((r) => r.id)));
-  assert.ok(objects.every((r) => /^DUB-[A-Z]{3}-\\d{4,}$/.test(r.id)));
+  assert.ok(objects.every((r) => /^DUB-[A-Z]{3}-\d{4,}$/.test(r.id)));
 });
 check("all canonical records satisfy required app/schema fields", () => {
   for (const r of objects) {

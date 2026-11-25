@@ -84,32 +84,54 @@ for (const record of objects) {
   }
 }
 
+const canonicalById = new Map(objects.map(record => [record.id, record]));
+const niahById = new Map(niah.map(record => [record.id, record]));
 const canonicalByRef = new Map();
-const duplicateCanonicalRefs = [];
+const niahByRef = new Map();
 for (const record of objects) {
   const ref = String(record.national_inventory_reference ?? "").trim();
   if (!/^[0-9]{8}$/.test(ref)) continue;
-  if (canonicalByRef.has(ref)) duplicateCanonicalRefs.push(ref);
-  else canonicalByRef.set(ref, record);
+  if (!canonicalByRef.has(ref)) canonicalByRef.set(ref, []);
+  canonicalByRef.get(ref).push(record);
 }
-const niahByRef = new Map();
-const duplicateNiahRefs = [];
 for (const record of niah) {
   const ref = String(record.national_inventory_reference ?? "").trim();
   if (!/^[0-9]{8}$/.test(ref)) continue;
-  if (niahByRef.has(ref)) duplicateNiahRefs.push(ref);
-  else niahByRef.set(ref, record);
+  if (!niahByRef.has(ref)) niahByRef.set(ref, []);
+  niahByRef.get(ref).push(record);
 }
+const duplicateCanonicalRegistrationGroups = [...canonicalByRef.entries()]
+  .filter(([, records]) => records.length > 1)
+  .map(([ref, records]) => ({
+    registration_reference: ref,
+    records: records.map(record => ({
+      id: record.id,
+      name: record.name,
+      parent_id: record.parent_id ?? null,
+      feature_type: record.feature_type ?? null,
+      category: record.category
+    }))
+  }));
+const duplicateNiahRegistrationGroups = [...niahByRef.entries()]
+  .filter(([, records]) => records.length > 1)
+  .map(([ref, records]) => ({ registration_reference: ref, record_ids: records.map(record => record.id) }));
+
 const fieldDifferences = [];
-for (const [ref, canonical] of canonicalByRef) {
-  const derived = niahByRef.get(ref);
+for (const [id, canonical] of canonicalById) {
+  const derived = niahById.get(id);
   if (!derived) continue;
   const keys = [...new Set([...Object.keys(canonical), ...Object.keys(derived)])].sort();
   const differingFields = keys.filter(key => JSON.stringify(canonical[key]) !== JSON.stringify(derived[key]));
   if (differingFields.length) {
-    fieldDifferences.push({ registration_reference: ref, record_id: canonical.id, differing_fields: differingFields });
+    fieldDifferences.push({
+      record_id: id,
+      registration_reference: canonical.national_inventory_reference ?? null,
+      differing_fields: differingFields
+    });
   }
 }
+const niahIdsMissingFromCanonical = [...niahById.keys()].filter(id => !canonicalById.has(id));
+const canonicalIdsMissingFromNiah = [...canonicalById.keys()].filter(id => !niahById.has(id));
 const niahRefsMissingFromCanonical = [...niahByRef.keys()].filter(ref => !canonicalByRef.has(ref));
 const canonicalRefsMissingFromNiah = [...canonicalByRef.keys()].filter(ref => !niahByRef.has(ref));
 
@@ -128,10 +150,12 @@ const report = {
     niah_derived_records: niah.length,
     canonical_unique_eight_digit_niah_references: canonicalByRef.size,
     niah_unique_eight_digit_references: niahByRef.size,
-    duplicate_canonical_registration_references: [...new Set(duplicateCanonicalRefs)],
-    duplicate_niah_registration_references: [...new Set(duplicateNiahRefs)],
-    canonical_references_missing_from_niah_dataset: canonicalRefsMissingFromNiah,
-    niah_references_missing_from_canonical: niahRefsMissingFromCanonical,
+    canonical_records_not_in_niah_derived_dataset: canonicalIdsMissingFromNiah,
+    niah_records_missing_from_canonical: niahIdsMissingFromCanonical,
+    canonical_registration_references_reused_by_multiple_archive_records: duplicateCanonicalRegistrationGroups,
+    duplicate_niah_derived_registration_references: duplicateNiahRegistrationGroups,
+    canonical_registration_references_missing_from_niah_dataset: canonicalRefsMissingFromNiah,
+    niah_registration_references_missing_from_canonical: niahRefsMissingFromCanonical,
     shared_records_with_field_differences: fieldDifferences
   },
   coordinate_audit: {
@@ -171,9 +195,11 @@ console.log(JSON.stringify({
   niah_reconciliation: {
     canonical_unique_refs: canonicalByRef.size,
     niah_unique_refs: niahByRef.size,
-    field_difference_records: fieldDifferences.length,
-    duplicate_canonical_refs: duplicateCanonicalRefs.length,
-    duplicate_niah_refs: duplicateNiahRefs.length
+    canonical_records_not_in_niah: canonicalIdsMissingFromNiah.length,
+    niah_records_missing_from_canonical: niahIdsMissingFromCanonical.length,
+    shared_records_with_field_differences: fieldDifferences.length,
+    canonical_registration_reuse_groups: duplicateCanonicalRegistrationGroups.length,
+    niah_duplicate_registration_groups: duplicateNiahRegistrationGroups.length
   },
   coordinates: {
     complete_numeric_pairs: coordinate.complete_numeric_pairs.length,
@@ -186,11 +212,8 @@ console.log(JSON.stringify({
 }, null, 2));
 
 if (canonicalValidation.invalid || niahValidation.invalid ||
-    duplicateCanonicalRefs.length || duplicateNiahRefs.length ||
-    niahReferencesMismatch()) {
+    niahIdsMissingFromCanonical.length > 0 ||
+    niahRefsMissingFromCanonical.length > 0 ||
+    duplicateNiahRegistrationGroups.length > 0) {
   process.exitCode = 1;
-}
-
-function niahReferencesMismatch() {
-  return niahRefsMissingFromCanonical.length > 0;
 }

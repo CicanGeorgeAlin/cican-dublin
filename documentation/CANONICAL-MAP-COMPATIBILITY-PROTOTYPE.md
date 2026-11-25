@@ -54,3 +54,9 @@ The broader validation job also passed the existing GPS, walking-navigation, SEO
 An isolated copy of the map app is now available in this branch at `preview/canonical-map-prototype.html`. Its companion script loads `data/objects.json` instead of the NIAH subset. It uses the existing map styles and UI code, but intentionally does not register a service worker or manifest. The production `preview/app.html` and `preview/app/app.js` remain unchanged.
 
 This page is a branch-only prototype. It is not deployed to the production GitHub Pages site. A browser-level visual and interaction test is still required before considering any production data-source change.
+
+## Browser-level validation — added, awaiting CI
+
+A Chromium-based end-to-end test now exercises the isolated page using a local static server and a deterministic blank MapLibre style. It checks the full 629-record list, category filter counts, detail/source rendering for a record outside the NIAH subset, safe handling of a record without coordinates, map canvas initialization, and a 390px mobile layout. The test does not contact the live routing service or request the user's GPS position.
+
+CI installs Playwright and Chromium temporarily; no production dependency or application runtime is added. The browser test must pass before the prototype is considered complete.

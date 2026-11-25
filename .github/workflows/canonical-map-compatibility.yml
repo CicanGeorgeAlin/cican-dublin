@@ -1,0 +1,30 @@
+name: Canonical Map Compatibility Prototype
+
+on:
+  pull_request:
+    paths:
+      - "scripts/test-canonical-map-compatibility.mjs"
+      - "data/objects.json"
+      - "data/niah-registered-objects.json"
+      - "data/sources.json"
+      - "data/visual-assets.json"
+      - "schemas/archive-object.schema.json"
+      - "preview/app/app.js"
+      - ".github/workflows/canonical-map-compatibility.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  canonical-map-data-preflight:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Run read-only canonical map compatibility checks
+        run: node scripts/test-canonical-map-compatibility.mjs

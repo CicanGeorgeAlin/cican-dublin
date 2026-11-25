@@ -205,6 +205,7 @@ test("GPS confidence label distinguishes high, usable and weak estimates",()=>{
   assert.match(h.coords.accuracy,/REPORTED ESTIMATE 10–25 M/);
   h.callbacks.success({...base,timestamp:base.timestamp+2000,coords:{...base.coords,accuracy:40}});
   assert.match(h.coords.accuracy,/REPORTED ESTIMATE 25–50 M/);
+  assert.match(h.status,/REPORTED ACCURACY ±40 M · 25–50 M ESTIMATE/,"status must describe reported accuracy without claiming confidence");
 });
 
 test("GPS test session CSV includes position, reported accuracy and route diagnostics",()=>{

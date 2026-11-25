@@ -19,13 +19,24 @@ try {
   const style = await styleResponse.json();
   assert.equal(style.version, 8, "Expected a MapLibre style v8 document");
   assert.ok(style.sources && Object.keys(style.sources).length > 0, "Style must declare at least one source");
-  const tileTemplates = Object.values(style.sources).flatMap(source => source.tiles || []);
-  assert.ok(tileTemplates.length > 0, "Style sources must expose tile templates");
-  checks.at(-1).sourceCount = Object.keys(style.sources).length;
-  checks.at(-1).tileTemplateCount = tileTemplates.length;
+  const sources = Object.entries(style.sources);
+  const vectorSource = sources.find(([, source]) => source.type === "vector" && typeof source.url === "string");
+  assert.ok(vectorSource, "Style must declare a vector source with a TileJSON URL");
+  checks.at(-1).sourceCount = sources.length;
+  checks.at(-1).vectorSource = vectorSource[0];
 
-  const template = tileTemplates[0];
-  const zoom = 12;
+  // The style's raster tile template is low-zoom hillshade, not the vector basemap.
+  // Resolve the vector source's TileJSON before requesting a Dublin vector tile.
+  const tileJsonResponse = await timedFetch(
+    "OpenFreeMap vector TileJSON",
+    vectorSource[1].url,
+    { headers: { accept: "application/json" } }
+  );
+  assert.equal(tileJsonResponse.status, 200, "OpenFreeMap vector TileJSON must return HTTP 200");
+  const tileJson = await tileJsonResponse.json();
+  assert.ok(Array.isArray(tileJson.tiles) && tileJson.tiles.length > 0, "Vector TileJSON must expose tile templates");
+  const template = tileJson.tiles[0];
+  const zoom = Math.min(12, Number(tileJson.maxzoom) || 14);
   const scale = 2 ** zoom;
   const latitude = 53.3477;
   const longitude = -6.2594;
@@ -42,9 +53,9 @@ try {
     tileUrl,
     { headers: { accept: "application/vnd.mapbox-vector-tile, application/x-protobuf, application/octet-stream" } }
   );
-  assert.equal(tileResponse.status, 200, "OpenFreeMap tile request must return HTTP 200");
+  assert.equal(tileResponse.status, 200, "OpenFreeMap vector tile request must return HTTP 200");
   const tileBytes = await tileResponse.arrayBuffer();
-  assert.ok(tileBytes.byteLength > 0, "OpenFreeMap tile response must not be empty");
+  assert.ok(tileBytes.byteLength > 0, "OpenFreeMap vector tile response must not be empty");
   checks.at(-1).zoom = zoom;
   checks.at(-1).tileBytes = tileBytes.byteLength;
 

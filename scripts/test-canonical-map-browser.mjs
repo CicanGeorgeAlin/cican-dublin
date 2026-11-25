@@ -53,9 +53,10 @@ try {
       layers: [{ id: "background", type: "background", paint: { "background-color": "#151715" } }]
     } }));
   await page.goto(base + "/preview/canonical-map-prototype.html", { waitUntil: "domcontentloaded" });
-  await page.waitForFunction(() => document.querySelector("#catalogue-status")?.textContent.includes("629 ARCHIVE RECORDS CONNECTED"), { timeout: 30000 });
+  await page.waitForFunction(() => document.querySelector("#catalogue-status")?.textContent.includes("629 ARCHIVE RECORDS CONNECTED"), null, { timeout: 30000 });
   await page.waitForSelector("#map .maplibregl-canvas", { timeout: 30000 });
   await page.waitForTimeout(1200);
+  await page.locator("#enter-atlas").click();
 
   const totalCards = await page.locator("#results .result-card").count();
   assert.equal(totalCards, objects.length);

@@ -28,7 +28,7 @@ Do not change the production `DATA_URL` based solely on this report.
 
 ## First CI result — 2026-11-25
 
-The read-only preflight completed all **13 checks successfully** on the pull-request validation run.
+The read-only preflight completed all **15 checks successfully** on the pull-request validation run.
 
 | Measure | Current NIAH dataset | Canonical prototype |
 |---|---:|---:|
@@ -45,7 +45,7 @@ The prototype also confirmed:
 - Coordinate pairs are complete and within valid numeric ranges.
 - The production map data URL remains the NIAH subset.
 
-The broader validation job also reached the archive preflight successfully. The overall workflow run was later cancelled during concurrent branch updates, so this is a successful test-step result, not a claim that every workflow completed with a green conclusion.
+The broader validation job also passed the existing GPS, walking-navigation, SEO, site-wide navigation and archive preflight steps. GitHub marked the overall run cancelled during concurrent branch updates after those substantive checks had completed; this is not reported as a fully green workflow conclusion.
 
 **Decision:** The data layer is compatible enough to proceed to a non-production browser build. It is not yet evidence that the full map UI, clustering, visual detail panels or routing have been end-to-end tested with 629 records.
 

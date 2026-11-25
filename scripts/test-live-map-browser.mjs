@@ -83,13 +83,13 @@ try {
   const routeFailure = await browser.newPage({ viewport: { width: 1280, height: 900 } });
   await attachMapLibrary(routeFailure);
   await routeFailure.addInitScript(() => {
-    const position = {
+    const makePosition = () => ({
       coords: { latitude: 53.3477, longitude: -6.2594, accuracy: 8, altitude: null, altitudeAccuracy: null, heading: 90, speed: 1.2 },
       timestamp: Date.now()
-    };
+    });
     Object.defineProperty(navigator, "geolocation", { configurable: true, value: {
-      watchPosition(success) { setTimeout(() => success(position), 50); return 7; },
-      getCurrentPosition(success) { setTimeout(() => success(position), 50); },
+      watchPosition(success) { setTimeout(() => success(makePosition()), 50); return 7; },
+      getCurrentPosition(success) { setTimeout(() => success(makePosition()), 50); },
       clearWatch() {}
     } });
   });

@@ -231,6 +231,7 @@ test("GPS test session CSV includes position, reported accuracy and route diagno
   vm.runInContext(app.slice(start,end),context);
   const csv=context.buildGpsSessionCsv([{timestamp_utc:"2026-11-24T10:00:00.000Z",latitude:53.35,longitude:-6.26,reported_horizontal_accuracy_m:8,reported_speed_mps:"",reported_heading_degrees:"",speed_mps:1.2,heading_degrees:90,speed_source:"coordinate-delta",heading_source:"coordinate-bearing",display_latitude:53.35001,display_longitude:-6.26001,movement_distance_m:12,meaningful_movement:true,display_update_mode:"smoothed",display_alpha:0.375,route_offset_m:4,route_progress_m:125,next_maneuver_index:2}]);
   assert.match(csv,/timestamp_utc,latitude,longitude,reported_horizontal_accuracy_m,reported_speed_mps,reported_heading_degrees/);
+  assert.match(csv,/movement_distance_m,fix_to_fix_distance_m,movement_anchor_elapsed_s,meaningful_movement/);
   assert.match(csv,/53.35,-6.26,8,,,1.2,90/);
   assert.match(csv,/coordinate-delta,coordinate-bearing,53.35001,-6.26001,12,true,smoothed,0.375,4,125,2/);
   assert.doesNotMatch(csv,/"coordinate-delta"/,"plain source labels should not be quoted");

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#050505">
+<meta name="robots" content="noindex,follow">
+<meta name="description" content="Explore Dublin’s historic places and overlooked heritage on the CICAN Dublin interactive heritage map.">
+<meta property="og:title" content="CICAN DUBLIN — Full Archive Map Prototype">
+<meta property="og:description" content="A living map of Dublin's historic places, objects and details.">
+<link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.css">
+<link rel="stylesheet" href="./app/app.css?v=heading-up-compass-20261124">
+<title>CICAN DUBLIN — Full Archive Map Prototype (Non-production)</title>
+</head>
+<body>
+<div class="app-shell">
+<section class="atlas-intro" id="atlas-intro" aria-labelledby="atlas-title">
+ <div class="atlas-intro-grid" aria-hidden="true"></div>
+ <div class="atlas-intro-content">
+  <div class="atlas-intro-brand"><span><b>CICAN</b><small>A DUBLIN EXPERIENCE</small></span></div>
+  <p class="atlas-kicker"><span></span> AN OPEN ARCHIVE OF THE CITY</p>
+  <h1 id="atlas-title">Dublin is<br><em>more than</em><br>what you see.</h1>
+  <p class="atlas-intro-copy">Every street holds a story. Every stone has a past. Open the map and discover the details that make this city extraordinary.</p>
+  <div class="atlas-intro-bottom">
+   <button class="atlas-enter" id="enter-atlas" type="button"><span>OPEN THE ATLAS</span><b>↗</b></button>
+   <div class="atlas-intro-meta"><span id="intro-record-count">A GROWING CITY ARCHIVE</span><span>53°20′N&nbsp; 6°15′W</span></div>
+  </div>
+ </div>
+ <div class="atlas-intro-caption"><span>THE CITY, REMEMBERED</span><span>CREATED BY CICAN GEORGE ALIN</span></div>
+</section>
+
+<header class="topbar">
+ <a class="brand" href="../" aria-label="CICAN — A DUBLIN EXPERIENCE"><span class="brand-lockup"><span class="brand-wordmark">CICAN</span><span class="brand-tagline">A DUBLIN EXPERIENCE</span></span></a>
+ <div class="topbar-center"><span class="live-dot"></span><span id="catalogue-status">CONNECTING TO THE ARCHIVE</span></div>
+ <button class="icon-button desktop-mode-button" id="saved-mode-toggle" type="button" title="Open saved places" aria-label="Open saved places" aria-pressed="false">♡</button><button class="icon-button" id="nearby-button" type="button" title="Discover heritage near me" aria-label="Discover heritage near me" aria-pressed="false">◎</button><button class="icon-button" id="locate-button" type="button" title="Start live GPS tracking" aria-label="Start live GPS tracking">⌖</button>
+</header>
+<main class="workspace">
+ <section class="map-stage" aria-label="Interactive heritage map">
+  <div id="map" role="application" aria-label="Map of Dublin heritage locations"></div>
+  <section id="location-peek" class="location-peek" hidden aria-live="polite"></section>
+  <section class="navigation-panel" id="navigation-panel" hidden aria-label="CICAN walking navigation"><div class="navigation-panel-head"><div><span class="editorial-label">CICAN WALKING NAVIGATION</span><strong id="navigation-summary"></strong></div><div class="navigation-panel-actions"><button id="hide-cican-navigation" type="button">HIDE</button><button id="clear-cican-route" type="button">END ROUTE</button></div></div><div class="navigation-next-turn"><span class="editorial-label">UP NEXT</span><strong id="navigation-next-turn">Waiting for route…</strong><span id="navigation-next-distance">—</span></div><p id="navigation-status" aria-live="polite">Ready to calculate a walking route.</p><label class="navigation-follow-toggle"><input id="navigation-follow-toggle" type="checkbox" checked> FOLLOW MY POSITION</label><label class="navigation-follow-toggle"><input id="navigation-heading-toggle" type="checkbox"> ROTATE MAP WITH PHONE</label><details class="navigation-directions"><summary>VIEW ALL WALKING DIRECTIONS</summary><ol id="navigation-steps"></ol></details><p class="navigation-attribution">Walking route by Valhalla · © OpenStreetMap contributors. Live GPS and destination coordinates are sent to the community routing service for this request.</p></section>
+  <button id="show-cican-navigation" class="navigation-reopen" type="button" hidden>SHOW WALKING ROUTE</button>
+  <div class="map-overlay top-left">
+   <label class="search-box"><span>⌕</span><input id="search" type="search" placeholder="Find a place, street or detail…" autocomplete="off"><kbd>/</kbd></label>
+   <div class="filter-row">
+    <select id="category-filter" aria-label="Filter by category"><option value="">All discoveries</option></select>
+    <select id="district-filter" aria-label="Filter by district"><option value="">All districts</option></select>
+   </div>
+   <div class="filter-row filter-row-secondary">
+    <select id="verification-filter" aria-label="Filter by verification status">
+     <option value="">All verification</option>
+     <option value="VERIFIED">Verified</option>
+     <option value="PARTIALLY_VERIFIED">In review</option>
+     <option value="RESEARCH_LEAD">Research lead</option>
+    </select>
+    <select id="photography-filter" aria-label="Filter by photography status">
+     <option value="">All photography</option>
+     <option value="PHOTOGRAPHED">Photographed</option>
+     <option value="TO_PHOTOGRAPH">Photo needed</option>
+    </select>
+   </div>
+  </div>
+  <div class="map-overlay map-legend"><span><i class="dot verified"></i> DOCUMENTED</span><span><i class="dot partial"></i> IN REVIEW</span></div>
+  
+ </section>
+ <aside class="discovery-panel" id="discovery-panel">
+  <button class="panel-grip" id="panel-grip" type="button" aria-label="Expand discovery panel" aria-expanded="false"><span></span></button>
+  <div class="panel-head"><div><p class="eyebrow">THE CITY, DETAIL BY DETAIL</p><h1 id="panel-title">Discover Dublin.</h1><p class="panel-intro" id="panel-intro">Explore the places and small details that hold the city's memory.</p><div class="archive-stats" id="archive-stats" aria-live="polite"><span><b>—</b><small>ARCHIVE RECORDS</small></span><i></i><span><b>—</b><small>DOCUMENTED</small></span><i></i><span><b>—</b><small>IN REVIEW</small></span></div></div><button class="panel-close" id="close-detail" type="button" aria-label="Close detail" hidden>×</button></div>
+  <div class="panel-toolbar" id="panel-toolbar"><span id="result-count">LOADING ARCHIVE</span><button id="plan-walk-button" class="text-button" type="button" hidden>MULTI-STOP ROUTES COMING SOON</button><button id="saved-toggle" class="text-button" type="button">♡ SAVED</button></div>
+  <div id="results" class="results" aria-live="polite"><div class="loading">Opening the archive…</div></div>
+  <section id="detail-view" class="detail-view" hidden></section>
+  <div class="panel-footer"><span>CREATED BY <b>CICAN GEORGE ALIN</b></span><span>LEAVE NO DETAIL UNNOTICED</span></div>
+ </aside>
+</main>
+<nav class="bottom-nav" aria-label="Main navigation">
+ <button class="nav-item active" data-mode="map" type="button"><span>⌖</span>MAP</button>
+ 
+ <button class="nav-item" data-mode="saved" type="button"><span>♡</span>SAVED</button>
+ <a class="nav-item" href="../archive.html"><span>↗</span>ARCHIVE</a>
+</nav>
+<a class="sr-only" href="../my-dublin.html">My Dublin notebook</a>
+</div>
+<script src="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.js" defer></script>
+<script src="./app/app-canonical.js" defer></script>
+</body>
+</html>

@@ -28,6 +28,7 @@ jobs:
       - name: Check map and service worker JavaScript syntax
         run: |
           node --check preview/app/app.js
+          node --check preview/app/app-canonical.js
           node --check preview/service-worker.js
           node --check service-worker.js
       - name: Test CICAN walking navigation UI and routing integration

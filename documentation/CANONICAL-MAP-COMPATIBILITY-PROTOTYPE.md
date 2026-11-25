@@ -91,3 +91,15 @@ The existing archive safety preflight also passed after the browser test. This r
 ## Map source and filter integration check
 
 A further browser test now verifies the actual GeoJSON feature count handed to MapLibre, not just the archive list. The branch-only app exposes its internal test state only when the prototype URL includes `?cican-test=1`; the production app has no such hook. The test checks that all 557 coordinate-eligible canonical records enter the map source, that cluster/single-point layers exist, and that category/search filters update the map feature set consistently.
+
+## MapLibre source integration results — 2026-11-25
+
+The expanded Chromium suite completed **10/10 checks successfully**.
+
+- The MapLibre GeoJSON source received **557** canonical points (all records meeting the app's current coordinate predicate).
+- Both the `archive-clusters` and `archive-single-points` layers were present.
+- Filtering to `ARCHITECTURE` returned 324 archive records and 278 mapped points.
+- Searching for `DUB-BLD-0094` reduced the map GeoJSON source to exactly one feature.
+- The earlier mapped/unmapped detail, source provenance, desktop canvas and mobile layout checks continued to pass.
+
+The complete GitHub Actions validation run finished with a **success** conclusion. This verifies the data-to-MapLibre source wiring under the isolated deterministic style; it does not validate live tile-service uptime, live tile rendering or route-provider responses.

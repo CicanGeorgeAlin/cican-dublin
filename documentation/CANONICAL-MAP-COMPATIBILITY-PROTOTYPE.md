@@ -25,3 +25,26 @@ The script is read-only. It does not alter the map application or archive data.
 This is a data-contract and compatibility preflight, not a browser end-to-end test. It does not prove MapLibre rendering, clustering, popup behavior, responsive layout, route requests or GPS behavior for the larger dataset. Those require a separate browser test against a non-production app build.
 
 Do not change the production `DATA_URL` based solely on this report.
+
+## First CI result — 2026-11-25
+
+The read-only preflight completed all **13 checks successfully** on the pull-request validation run.
+
+| Measure | Current NIAH dataset | Canonical prototype |
+|---|---:|---:|
+| Records | 509 | 629 |
+| Mapped points under the app's current coordinate predicate | 456 | 557 |
+| Additional mapped points | — | 101 |
+| Additional records without coordinates | — | 19 |
+
+The prototype also confirmed:
+- All 120 records outside the NIAH subset have canonical IDs and matching visual inventory records.
+- All canonical source references resolve.
+- Parent references resolve.
+- Category, district, verification and photography filter fields are present.
+- Coordinate pairs are complete and within valid numeric ranges.
+- The production map data URL remains the NIAH subset.
+
+The broader validation job also reached the archive preflight successfully. The overall workflow run was later cancelled during concurrent branch updates, so this is a successful test-step result, not a claim that every workflow completed with a green conclusion.
+
+**Decision:** The data layer is compatible enough to proceed to a non-production browser build. It is not yet evidence that the full map UI, clustering, visual detail panels or routing have been end-to-end tested with 629 records.

@@ -60,3 +60,5 @@ This page is a branch-only prototype. It is not deployed to the production GitHu
 A Chromium-based end-to-end test now exercises the isolated page using a local static server and a deterministic blank MapLibre style. It checks the full 629-record list, category filter counts, detail/source rendering for a record outside the NIAH subset, safe handling of a record without coordinates, map canvas initialization, and a 390px mobile layout. The test does not contact the live routing service or request the user's GPS position.
 
 CI installs Playwright and Chromium temporarily; no production dependency or application runtime is added. The browser test must pass before the prototype is considered complete.
+
+The first browser dependency installation attempt exposed a runner compatibility issue: the default runner image was Ubuntu 26.04, which Playwright 1.56.1 does not support for dependency installation. The validation workflow is now pinned to Ubuntu 24.04, a supported runner, before retrying Chromium installation. This was an environment setup failure; the browser test itself did not execute in that attempt.

@@ -137,6 +137,20 @@ test("live GPS starts high-accuracy watch, updates marker/readout, and stops cle
   assert.equal(h.button.attrs["aria-pressed"], "false");
 });
 
+test("small consecutive fixes accumulate until movement clears the noise gate", () => {
+  const h = makeHarness();
+  h.context.toggleLiveLocationTracking();
+  const base={timestamp:Date.now(),coords:{latitude:53.123456,longitude:-6.123456,accuracy:5,speed:null,heading:null}};
+  h.callbacks.success(base);
+  const initial=h.state.locationDisplayFix.latitude;
+  for(let step=1;step<=4;step++){
+    h.callbacks.success({...base,timestamp:base.timestamp+step*5000,coords:{...base.coords,latitude:base.coords.latitude+step*0.0000225}});
+  }
+  assert.ok(h.state.locationDisplayFix.latitude>initial,"cumulative pedestrian movement must eventually advance the marker even when each individual step is below the movement threshold");
+  assert.equal(h.state.locationSessionSamples.at(-1).meaningful_movement,true);
+  assert.equal(h.state.locationSessionSamples.at(-1).speed_source,"coordinate-delta");
+});
+
 test("successive fixes move the live marker when speed is omitted", () => {
   const h = makeHarness();
   h.context.toggleLiveLocationTracking();

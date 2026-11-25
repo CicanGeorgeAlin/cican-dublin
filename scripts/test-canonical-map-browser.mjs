@@ -37,7 +37,7 @@ const results = [];
 const record = (name, ok, detail = "") => results.push({ name, result: ok ? "PASS" : "FAIL", detail });
 let page;
 try {
-  page = await browser.newPage({ viewport: { width: 1440, height: 1000 }, deviceScaleFactor: 1 });
+  page = await browser.newPage({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 1 });
   const pageErrors = [];
   page.on("pageerror", (error) => pageErrors.push(error.message));
   await page.route("https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.js", (route) =>
@@ -56,6 +56,9 @@ try {
   await page.waitForFunction(() => document.querySelector("#catalogue-status")?.textContent.includes("629 ARCHIVE RECORDS CONNECTED"), null, { timeout: 30000 });
   await page.waitForSelector("#map .maplibregl-canvas", { timeout: 30000 });
   await page.waitForTimeout(1200);
+  await page.locator("#panel-grip").click();
+  await page.waitForFunction(() => document.querySelector("#discovery-panel")?.classList.contains("expanded"), null, { timeout: 5000 });
+  record("Mobile discovery panel expands to expose the archive", true);
 
   const totalCards = await page.locator("#results .result-card").count();
   assert.equal(totalCards, objects.length);
@@ -89,6 +92,8 @@ try {
   assert.equal(await page.locator("#detail-view .story-walk-disabled").count(), 1);
   record("Unmapped canonical record cannot start walking navigation", true, unmapped.id);
 
+  await page.setViewportSize({ width: 1440, height: 1000 });
+  await page.waitForTimeout(300);
   const canvas = await page.locator("#map canvas").boundingBox();
   assert.ok(canvas && canvas.width > 300 && canvas.height > 300, "Map canvas must have a usable rendered size");
   record("MapLibre map canvas initializes at desktop size", true, Math.round(canvas.width) + "x" + Math.round(canvas.height));

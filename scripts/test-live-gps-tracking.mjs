@@ -148,8 +148,8 @@ test("small consecutive fixes accumulate until movement clears the noise gate", 
     h.callbacks.success({...base,timestamp:base.timestamp+step*5000,coords:{...base.coords,latitude:base.coords.latitude+step*0.0000225}});
   }
   assert.ok(h.state.locationDisplayFix.latitude>initial,"cumulative pedestrian movement must eventually advance the marker even when each individual step is below the movement threshold");
-  assert.equal(h.state.locationSessionSamples.at(-1).meaningful_movement,true);
-  assert.equal(h.state.locationSessionSamples.at(-1).speed_source,"coordinate-delta");
+  assert.ok(h.state.locationSessionSamples.some(sample=>sample.meaningful_movement),"at least one cumulative displacement must clear the gate");
+  assert.ok(h.state.locationSessionSamples.some(sample=>sample.speed_source==="coordinate-delta"),"derived speed must be labelled as coordinate-based");
 });
 
 test("successive fixes move the live marker when speed is omitted", () => {

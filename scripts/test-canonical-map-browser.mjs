@@ -44,6 +44,11 @@ try {
     route.fulfill({ path: path.join(root, "node_modules/maplibre-gl/dist/maplibre-gl.js"), contentType: "text/javascript" }));
   await page.route("https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.css", (route) =>
     route.fulfill({ path: path.join(root, "node_modules/maplibre-gl/dist/maplibre-gl.css"), contentType: "text/css" }));
+  await page.route("**/app-canonical.js", async (route) => {
+    const response = await route.fetch();
+    const source = (await response.text()).replace("start();\\n})();", "window.__CICAN_TEST_STATE__=state;\\nstart();\\n})();");
+    await route.fulfill({ response, body: source });
+  });
   await page.route("https://tiles.openfreemap.org/styles/liberty", (route) =>
     route.fulfill({ json: {
       version: 8,
@@ -55,7 +60,17 @@ try {
   await page.goto(base + "/preview/canonical-map-prototype.html", { waitUntil: "domcontentloaded" });
   await page.waitForFunction(() => document.querySelector("#catalogue-status")?.textContent.includes("629 ARCHIVE RECORDS CONNECTED"), null, { timeout: 30000 });
   await page.waitForSelector("#map .maplibregl-canvas", { timeout: 30000 });
+  await page.waitForFunction(() => window.__CICAN_TEST_STATE__?.mapReady && window.__CICAN_TEST_STATE__?.records.length === 629, null, { timeout: 30000 });
   await page.waitForTimeout(1200);
+  const initialMapState = await page.evaluate(() => ({
+    points: window.__CICAN_TEST_STATE__.geojson.features.length,
+    source: !!window.__CICAN_TEST_STATE__.map.getSource("archive-points"),
+    clusters: !!window.__CICAN_TEST_STATE__.map.getLayer("archive-clusters"),
+    singles: !!window.__CICAN_TEST_STATE__.map.getLayer("archive-single-points")
+  }));
+  assert.equal(initialMapState.points, objects.filter(isPoint).length);
+  assert.ok(initialMapState.source && initialMapState.clusters && initialMapState.singles);
+  record("MapLibre receives all 557 eligible canonical points and both point layers", true, JSON.stringify(initialMapState));
 
   const totalCards = await page.locator("#results .result-card").count();
   assert.equal(totalCards, objects.length);
@@ -66,12 +81,16 @@ try {
   await page.locator("#category-filter").selectOption(category);
   const actualCategoryCount = await page.locator("#results .result-card").count();
   assert.equal(actualCategoryCount, expectedCategoryCount);
-  record("Category filter returns the expected full-catalogue count", true, category + ": " + actualCategoryCount);
+  const expectedCategoryPoints = objects.filter((item) => item.category === category && isPoint(item)).length;
+  const actualCategoryPoints = await page.evaluate(() => window.__CICAN_TEST_STATE__.geojson.features.length);
+  assert.equal(actualCategoryPoints, expectedCategoryPoints);
+  record("Category filter returns expected list and mapped-point counts", true, category + ": " + actualCategoryCount + " records / " + actualCategoryPoints + " points");
 
   await page.locator("#category-filter").selectOption("");
   await page.locator("#search").fill(mapped.id);
   assert.equal(await page.locator("#results .result-card").count(), 1);
-  record("Search finds an additional canonical record by archive ID", true, mapped.id);
+  assert.equal(await page.evaluate(() => window.__CICAN_TEST_STATE__.geojson.features.length), 1);
+  record("Search finds an additional canonical record and updates the map source", true, mapped.id);
   await page.goto(base + "/preview/canonical-map-prototype.html?destination=" + encodeURIComponent(mapped.id), { waitUntil: "domcontentloaded" });
   await page.waitForFunction(() => document.querySelector("#catalogue-status")?.textContent.includes("DESTINATION LOADED"), null, { timeout: 30000 });
   await page.waitForSelector("#detail-view:not([hidden])");

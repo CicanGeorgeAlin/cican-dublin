@@ -48,3 +48,9 @@ The prototype also confirmed:
 The broader validation job also reached the archive preflight successfully. The overall workflow run was later cancelled during concurrent branch updates, so this is a successful test-step result, not a claim that every workflow completed with a green conclusion.
 
 **Decision:** The data layer is compatible enough to proceed to a non-production browser build. It is not yet evidence that the full map UI, clustering, visual detail panels or routing have been end-to-end tested with 629 records.
+
+## Isolated browser prototype page
+
+An isolated copy of the map app is now available in this branch at `preview/canonical-map-prototype.html`. Its companion script loads `data/objects.json` instead of the NIAH subset. It uses the existing map styles and UI code, but intentionally does not register a service worker or manifest. The production `preview/app.html` and `preview/app/app.js` remain unchanged.
+
+This page is a branch-only prototype. It is not deployed to the production GitHub Pages site. A browser-level visual and interaction test is still required before considering any production data-source change.

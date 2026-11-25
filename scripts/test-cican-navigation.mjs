@@ -231,7 +231,7 @@ test("successive GPS fixes prove movement even when the device omits speed",()=>
     "successive coordinates and timestamps establish meaningful movement");
   assert.equal(context.gpsShouldHoldPosition(0,false,independentlyMeasuredDistance,floor,accuracy,true),false,
     "missing speed must not hold a marker when successive fixes independently establish movement");
-  assert.match(app,/gpsShouldHoldPosition\(speed,reportedMoving,movement\?\.distance,noiseFloor,accuracy,meaningfulMovement\)/,
+  assert.match(app,/gpsShouldHoldPosition\(speed,reportedMoving,anchorMovement\?\.distance,noiseFloor,accuracy,meaningfulMovement\)/,
     "the live fix handler must pass its independent movement decision into the display gate");
 });
 test("GPS smoothing response is measured in fixes before changing the movement gate",()=>{

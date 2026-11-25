@@ -10,7 +10,7 @@
 - Live blue position marker and map follow.
 - The displayed marker uses accepted GPS fixes with stationary-position gating and bounded coordinate smoothing.
 - Speculative marker dead-reckoning between GPS fixes is disabled; the displayed marker is not intentionally projected ahead using reported speed or heading.
-- GPS session exports retain raw accepted coordinates and reported accuracy separately from the filtered display position.
+- GPS session exports retain raw accepted coordinates and reported accuracy separately from the filtered display position. Raw device speed/heading are separate from processed values, with their derivation source, movement-gate result and smoothing parameters recorded.
 - Tracking can be stopped; the watch and animation frame are cancelled.
 - No location history is uploaded or stored by this feature.
 - Live GPS does not overwrite archive coordinates or mark heritage records as field-verified.

@@ -68,3 +68,22 @@ The first Chromium run successfully installed and launched the browser, loaded t
 The second Chromium run identified an intentional UI behavior: the discovery sheet starts collapsed and hides its result list until expanded. The test now starts at a mobile viewport and explicitly opens the discovery sheet using its visible grip control before testing the full list and filters. This preserves the actual user interaction rather than bypassing the UI.
 
 The third browser attempt clarified that the app deliberately keeps the discovery sheet hidden in its resting map mode; its records remain loaded but not visible until the map/detail flow opens them. The browser suite now tests list/filter/search data in the DOM and opens both mapped and unmapped records through the app's existing `?destination=ARCHIVE_ID` deep-link behavior. This avoids trying to click elements that the design intentionally hides, while still testing the actual detail UI and navigation safeguards.
+
+## Chromium browser test results — 2026-11-25
+
+The browser test completed successfully in GitHub Actions on Ubuntu 24.04 / Chromium.
+
+**9/9 browser checks passed:**
+1. All 629 records render in the discovery list.
+2. Architecture category filter returns the expected 324 records.
+3. Search finds additional record `DUB-BLD-0094`.
+4. That mapped additional record opens with its walking action.
+5. Its detail view retains four source links/chips.
+6. Unmapped additional record `DUB-ARC-0001` displays the unmapped state and cannot start walking navigation.
+7. MapLibre initializes a 970 × 938 desktop canvas.
+8. The 390px mobile layout has no horizontal overflow; body, map canvas and detail panel measure 390px.
+9. No uncaught browser JavaScript errors occurred.
+
+The test uses a deterministic local blank MapLibre style so the map engine, GeoJSON source and app integration can be exercised without depending on live tile services. It verifies the map canvas and application interactions, but does **not** validate live OpenFreeMap tiles, Valhalla route responses, real device GPS permissions, or real-world map rendering performance.
+
+The existing archive safety preflight also passed after the browser test. This run completed with a successful GitHub Actions conclusion.

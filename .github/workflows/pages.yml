@@ -51,5 +51,7 @@ jobs:
         run: npx playwright install --with-deps chromium
       - name: Test full archive map prototype in Chromium
         run: node scripts/test-canonical-map-browser.mjs
+      - name: Test live OpenFreeMap style and Valhalla pedestrian routing services
+        run: node scripts/test-live-map-services.mjs
       - name: Run archive safety preflight
         run: node scripts/validate-archive.mjs

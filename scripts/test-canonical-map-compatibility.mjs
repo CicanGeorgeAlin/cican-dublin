@@ -13,6 +13,8 @@ const sources = read("data/sources.json");
 const visualData = read("data/visual-assets.json");
 const schema = read("schemas/archive-object.schema.json");
 const app = fs.readFileSync("preview/app/app.js", "utf8");
+const prototypeApp = fs.readFileSync("preview/app/app-canonical.js", "utf8");
+const prototypeHtml = fs.readFileSync("preview/canonical-map-prototype.html", "utf8");
 const visuals = visualData.records;
 const failures = [];
 const checks = [];
@@ -113,6 +115,14 @@ check("source-derived navigation points are visibly distinguishable from field v
   assert.equal(canonicalPoints.filter((r) => r.coordinate_status === "FIELD_VERIFIED").length, 0,
     "Unexpected field-verified coordinates require an explicit review of the test baseline");
 });
+check("prototype app loads the full canonical catalogue", () => {
+  assert.ok(prototypeApp.includes('const DATA_URL="../data/objects.json";'));
+  assert.ok(prototypeHtml.includes('src="./app/app-canonical.js"'));
+});
+check("prototype is isolated from production service-worker registration", () => {
+  assert.ok(!prototypeApp.includes("navigator.serviceWorker.register"));
+  assert.ok(!prototypeHtml.includes('rel="manifest"'));
+});
 check("production map data source remains unchanged during prototype", () => {
   assert.ok(app.includes('const DATA_URL="../data/niah-registered-objects.json";'));
 });
@@ -120,6 +130,7 @@ check("production map data source remains unchanged during prototype", () => {
 const report = {
   prototype: "canonical-map-compatibility",
   productionChanged: false,
+  prototypePage: "preview/canonical-map-prototype.html",
   counts: {
     canonicalRecords: objects.length,
     currentNiahRecords: niah.length,

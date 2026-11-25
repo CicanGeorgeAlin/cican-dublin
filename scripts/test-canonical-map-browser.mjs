@@ -46,7 +46,7 @@ try {
     route.fulfill({ path: path.join(root, "node_modules/maplibre-gl/dist/maplibre-gl.css"), contentType: "text/css" }));
   await page.route("**/app-canonical.js", async (route) => {
     const response = await route.fetch();
-    const source = (await response.text()).replace("start();\\n})();", "window.__CICAN_TEST_STATE__=state;\\nstart();\\n})();");
+    const source = (await response.text()).replace(/start\\(\\);\\s*\\}\\)\\(\\);$/, "window.__CICAN_TEST_STATE__=state;\\nstart();\\n})();");
     await route.fulfill({ response, body: source });
   });
   await page.route("https://tiles.openfreemap.org/styles/liberty", (route) =>

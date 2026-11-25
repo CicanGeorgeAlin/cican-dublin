@@ -42,5 +42,7 @@ jobs:
         run: node scripts/generate-seo-pages.mjs
       - name: Verify every published place page uses CICAN navigation
         run: node --test scripts/test-cican-navigation-sitewide.mjs
+      - name: Test canonical archive map compatibility prototype
+        run: node scripts/test-canonical-map-compatibility.mjs
       - name: Run archive safety preflight
         run: node scripts/validate-archive.mjs

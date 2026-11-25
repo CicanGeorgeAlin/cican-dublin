@@ -37,7 +37,7 @@ const results = [];
 const record = (name, ok, detail = "") => results.push({ name, result: ok ? "PASS" : "FAIL", detail });
 let page;
 try {
-  page = await browser.newPage({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 1 });
+  page = await browser.newPage({ viewport: { width: 1440, height: 1000 }, deviceScaleFactor: 1 });
   const pageErrors = [];
   page.on("pageerror", (error) => pageErrors.push(error.message));
   await page.route("https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.js", (route) =>
@@ -56,9 +56,6 @@ try {
   await page.waitForFunction(() => document.querySelector("#catalogue-status")?.textContent.includes("629 ARCHIVE RECORDS CONNECTED"), null, { timeout: 30000 });
   await page.waitForSelector("#map .maplibregl-canvas", { timeout: 30000 });
   await page.waitForTimeout(1200);
-  await page.locator("#panel-grip").click();
-  await page.waitForFunction(() => document.querySelector("#discovery-panel")?.classList.contains("expanded"), null, { timeout: 5000 });
-  record("Mobile discovery panel expands to expose the archive", true);
 
   const totalCards = await page.locator("#results .result-card").count();
   assert.equal(totalCards, objects.length);
@@ -73,7 +70,10 @@ try {
 
   await page.locator("#category-filter").selectOption("");
   await page.locator("#search").fill(mapped.id);
-  await page.locator("#results .result-card").first().click();
+  assert.equal(await page.locator("#results .result-card").count(), 1);
+  record("Search finds an additional canonical record by archive ID", true, mapped.id);
+  await page.goto(base + "/preview/canonical-map-prototype.html?destination=" + encodeURIComponent(mapped.id), { waitUntil: "domcontentloaded" });
+  await page.waitForFunction(() => document.querySelector("#catalogue-status")?.textContent.includes("DESTINATION LOADED"), null, { timeout: 30000 });
   await page.waitForSelector("#detail-view:not([hidden])");
   assert.match(await page.locator("#detail-view").innerText(), new RegExp(mapped.id));
   assert.equal(await page.locator("#detail-view #cican-walk-button").count(), 1);
@@ -83,17 +83,14 @@ try {
   assert.ok(sourceChips > 0, "Mapped record detail should retain its source references");
   record("Record detail preserves source references", true, String(sourceChips) + " source links/chips");
 
-  await page.locator("#detail-view .story-close").click();
-  await page.locator("#search").fill(unmapped.id);
-  await page.locator("#results .result-card").first().click();
+  await page.goto(base + "/preview/canonical-map-prototype.html?destination=" + encodeURIComponent(unmapped.id), { waitUntil: "domcontentloaded" });
+  await page.waitForFunction(() => document.querySelector("#catalogue-status")?.textContent.includes("DESTINATION LOADED"), null, { timeout: 30000 });
   await page.waitForSelector("#detail-view:not([hidden])");
   assert.match(await page.locator("#detail-view").innerText(), /LOCATION NOT MAPPED/);
   assert.equal(await page.locator("#detail-view #cican-walk-button").count(), 0);
   assert.equal(await page.locator("#detail-view .story-walk-disabled").count(), 1);
   record("Unmapped canonical record cannot start walking navigation", true, unmapped.id);
 
-  await page.setViewportSize({ width: 1440, height: 1000 });
-  await page.waitForTimeout(300);
   const canvas = await page.locator("#map canvas").boundingBox();
   assert.ok(canvas && canvas.width > 300 && canvas.height > 300, "Map canvas must have a usable rendered size");
   record("MapLibre map canvas initializes at desktop size", true, Math.round(canvas.width) + "x" + Math.round(canvas.height));

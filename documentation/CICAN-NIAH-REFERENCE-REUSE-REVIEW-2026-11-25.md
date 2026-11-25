@@ -51,7 +51,7 @@ These nine records have neither a `latitude` nor a `longitude` property and are 
 
 Another 63 records express both coordinate properties explicitly as `null`. There are no partial or invalid coordinate pairs. All 72 records remain unmapped.
 
-**Recommendation:** Standardise absent coordinate properties to explicit `null` only in a separate, reviewed data migration, after adding and testing a schema rule that requires latitude and longitude to appear together. Do not create, infer, transform or copy coordinates during normalisation.
+**Schema hardening now added on this draft branch:** latitude and longitude must appear together; non-`NOT_SET` coordinate statuses require a complete numeric pair; `NOT_SET` cannot carry numeric coordinates. The nine records with both properties absent remain valid and unmapped. Explicit-null normalisation is still a separate optional data migration and is not required for the pair-integrity rule. Do not create, infer, transform or copy coordinates during normalisation.
 
 ## 5. Required follow-up
 
@@ -59,7 +59,7 @@ Another 63 records express both coordinate properties explicitly as `null`. Ther
 2. Preserve the 35 parent/child groups as separate archive objects.
 3. Preserve the two 29 Fitzwilliam Street details as separate objects with host-building locator semantics.
 4. Keep canonical provenance fields from the nine enriched records; generate or parity-check the NIAH subset.
-5. Tighten the coordinate-pair schema contract, then plan a separate null-normalisation change for the nine absent-property records.
+5. Re-run the tightened coordinate-pair schema tests on the final candidate. Consider a separate null-normalisation change for the nine absent-property records only if it provides a clear downstream benefit.
 6. Never upgrade a coordinate to `FIELD_VERIFIED` without a documented field observation.
 
 ## 6. Safety

@@ -87,3 +87,7 @@ The browser test completed successfully in GitHub Actions on Ubuntu 24.04 / Chro
 The test uses a deterministic local blank MapLibre style so the map engine, GeoJSON source and app integration can be exercised without depending on live tile services. It verifies the map canvas and application interactions, but does **not** validate live OpenFreeMap tiles, Valhalla route responses, real device GPS permissions, or real-world map rendering performance.
 
 The existing archive safety preflight also passed after the browser test. This run completed with a successful GitHub Actions conclusion.
+
+## Map source and filter integration check
+
+A further browser test now verifies the actual GeoJSON feature count handed to MapLibre, not just the archive list. The branch-only app exposes its internal test state only when the prototype URL includes `?cican-test=1`; the production app has no such hook. The test checks that all 557 coordinate-eligible canonical records enter the map source, that cluster/single-point layers exist, and that category/search filters update the map feature set consistently.

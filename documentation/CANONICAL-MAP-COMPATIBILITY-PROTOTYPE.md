@@ -62,3 +62,5 @@ A Chromium-based end-to-end test now exercises the isolated page using a local s
 CI installs Playwright and Chromium temporarily; no production dependency or application runtime is added. The browser test must pass before the prototype is considered complete.
 
 The first browser dependency installation attempt exposed a runner compatibility issue: the default runner image was Ubuntu 26.04, which Playwright 1.56.1 does not support for dependency installation. The validation workflow is now pinned to Ubuntu 24.04, a supported runner, before retrying Chromium installation. This was an environment setup failure; the browser test itself did not execute in that attempt.
+
+The first Chromium run successfully installed and launched the browser, loaded the full catalogue, and initialized MapLibre. The test then failed because the intro's enter button was already hidden by the app's initial UI state; the browser test incorrectly attempted to click it. The test has been corrected to exercise the archive directly without depending on that optional intro control. This was a test-harness issue, not a production application failure.

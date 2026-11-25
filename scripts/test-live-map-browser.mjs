@@ -49,6 +49,33 @@ try {
   await live.waitForFunction(() => window.__CICAN_TEST_STATE__?.map?.isStyleLoaded?.() === true, null, { timeout: 60000 });
   await live.waitForFunction(() => window.__CICAN_TEST_STATE__?.map?.getSource("archive-points") && window.__CICAN_TEST_STATE__?.map?.getLayer("archive-clusters"), null, { timeout: 30000 });
   await live.waitForTimeout(1800);
+  const zoomCheck = await live.evaluate(async () => {
+    const state = window.__CICAN_TEST_STATE__;
+    const map = state.map;
+    const initialZoom = map.getZoom();
+    const started = performance.now();
+    map.zoomTo(initialZoom + 2, { duration: 0 });
+    await new Promise(resolve => map.once("idle", resolve));
+    const zoomInMs = Math.round(performance.now() - started);
+    const zoomedIn = map.getZoom();
+    const pointsAfterZoomIn = state.geojson.features.length;
+    const zoomOutStarted = performance.now();
+    map.zoomTo(initialZoom, { duration: 0 });
+    await new Promise(resolve => map.once("idle", resolve));
+    return {
+      initialZoom,
+      zoomedIn,
+      zoomInMs,
+      zoomOutMs: Math.round(performance.now() - zoomOutStarted),
+      pointsAfterZoomIn,
+      layersRemain: !!map.getLayer("archive-clusters") && !!map.getLayer("archive-single-points"),
+      finalZoom: map.getZoom()
+    };
+  });
+  assert.ok(zoomCheck.zoomedIn > zoomCheck.initialZoom + 1.9);
+  assert.equal(zoomCheck.pointsAfterZoomIn, 557);
+  assert.equal(zoomCheck.layersRemain, true);
+  assert.ok(Math.abs(zoomCheck.finalZoom - zoomCheck.initialZoom) < 0.1);
   const liveState = await live.evaluate(() => ({
     styleLoaded: window.__CICAN_TEST_STATE__.map.isStyleLoaded(),
     source: !!window.__CICAN_TEST_STATE__.map.getSource("archive-points"),
@@ -61,7 +88,7 @@ try {
   assert.ok(liveState.canvas && liveState.canvas.width > 300 && liveState.canvas.height > 300);
   assert.equal(liveState.pointCount, 557);
   assert.deepEqual(liveErrors, []);
-  record("Real OpenFreeMap style loads in Chromium and archive map layers initialise", true, JSON.stringify({ ...liveState, elapsedMs: Date.now() - started }));
+  record("Real OpenFreeMap style loads and zoom in/out preserves archive cluster layers and all points", true, JSON.stringify({ ...liveState, zoomCheck, elapsedMs: Date.now() - started }));
   await live.close();
 
   // Style outage: verify archive catalogue and record detail still work.

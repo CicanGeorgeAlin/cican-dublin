@@ -82,23 +82,20 @@ try {
   // Routing outage: provide a deterministic GPS fix, then force the Valhalla request to fail.
   const routeFailure = await browser.newPage({ viewport: { width: 1280, height: 900 } });
   await attachMapLibrary(routeFailure);
-  await routeFailure.addInitScript(() => {
-    const makePosition = () => ({
-      coords: { latitude: 53.3477, longitude: -6.2594, accuracy: 8, altitude: null, altitudeAccuracy: null, heading: 90, speed: 1.2 },
-      timestamp: Date.now()
-    });
-    Object.defineProperty(navigator, "geolocation", { configurable: true, value: {
-      watchPosition(success) { setTimeout(() => success(makePosition()), 50); return 7; },
-      getCurrentPosition(success) { setTimeout(() => success(makePosition()), 50); },
-      clearWatch() {}
-    } });
-  });
-  await routeFailure.route("https://valhalla1.openstreetmap.de/route", route =>
+  await routeFailure.route("**/route*", route =>
     route.fulfill({ status: 503, contentType: "application/json", body: JSON.stringify({ error: "simulated routing outage" }) }));
-  await routeFailure.goto(base + "/preview/canonical-map-prototype.html?destination=" + encodeURIComponent(destination.id), { waitUntil: "domcontentloaded" });
+  await routeFailure.goto(base + "/preview/canonical-map-prototype.html?cican-test=1&destination=" + encodeURIComponent(destination.id), { waitUntil: "domcontentloaded" });
   await routeFailure.waitForFunction(() => document.querySelector("#catalogue-status")?.textContent.includes("DESTINATION LOADED"), null, { timeout: 30000 });
+  await routeFailure.evaluate(() => {
+    const state = window.__CICAN_TEST_STATE__;
+    state.locationTracking = true;
+    state.locationLastFix = { latitude: 53.3477, longitude: -6.2594, accuracy: 8, timestamp: Date.now() };
+  });
+  const routeRequest = routeFailure.waitForRequest(request => request.url().includes("/route"), { timeout: 15000 });
   await routeFailure.locator("#detail-view #cican-walk-button").click();
-  await routeFailure.waitForFunction(() => document.querySelector("#navigation-status")?.textContent.includes("HTTP 503"), null, { timeout: 30000 });
+  const interceptedRequest = await routeRequest;
+  assert.equal(interceptedRequest.method(), "POST");
+  await routeFailure.waitForFunction(() => document.querySelector("#navigation-status")?.textContent.includes("HTTP 503"), null, { timeout: 15000 });
   assert.equal(await routeFailure.locator("#results .result-card").count(), 629);
   assert.equal(await routeFailure.locator("#detail-view:not([hidden])").count(), 1);
   record("Simulated Valhalla outage shows route error without losing archive catalogue or detail", true, destination.id);

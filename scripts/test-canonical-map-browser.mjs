@@ -44,11 +44,6 @@ try {
     route.fulfill({ path: path.join(root, "node_modules/maplibre-gl/dist/maplibre-gl.js"), contentType: "text/javascript" }));
   await page.route("https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.css", (route) =>
     route.fulfill({ path: path.join(root, "node_modules/maplibre-gl/dist/maplibre-gl.css"), contentType: "text/css" }));
-  await page.route("**/app-canonical.js", async (route) => {
-    const response = await route.fetch();
-    const source = (await response.text()).replace(/start\(\);\s*\}\)\(\);$/, "window.__CICAN_TEST_STATE__=state;\nstart();\n})();");
-    await route.fulfill({ response, body: source });
-  });
   await page.route("https://tiles.openfreemap.org/styles/liberty", (route) =>
     route.fulfill({ json: {
       version: 8,
@@ -57,7 +52,7 @@ try {
       sources: {},
       layers: [{ id: "background", type: "background", paint: { "background-color": "#151715" } }]
     } }));
-  await page.goto(base + "/preview/canonical-map-prototype.html", { waitUntil: "domcontentloaded" });
+  await page.goto(base + "/preview/canonical-map-prototype.html?cican-test=1", { waitUntil: "domcontentloaded" });
   await page.waitForFunction(() => document.querySelector("#catalogue-status")?.textContent.includes("629 ARCHIVE RECORDS CONNECTED"), null, { timeout: 30000 });
   await page.waitForSelector("#map .maplibregl-canvas", { timeout: 30000 });
   await page.waitForFunction(() => window.__CICAN_TEST_STATE__?.mapReady && window.__CICAN_TEST_STATE__?.records.length === 629, null, { timeout: 30000 });

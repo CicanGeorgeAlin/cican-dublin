@@ -128,6 +128,7 @@ test("live GPS starts high-accuracy watch, updates marker/readout, and stops cle
 
   h.context.toggleLiveLocationTracking();
   assert.equal(h.state.locationTracking, false);
+  assert.equal(h.state.locationMovementAnchorFix, null,"stopping must reset the cumulative movement anchor");
   assert.deepEqual(h.calls.clearWatch, [17]);
   assert.equal(h.calls.markerRemoved, true);
   assert.equal(h.pendingFrames(), 0, "stopping tracking must cancel animation frames");

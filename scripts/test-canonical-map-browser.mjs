@@ -56,7 +56,6 @@ try {
   await page.waitForFunction(() => document.querySelector("#catalogue-status")?.textContent.includes("629 ARCHIVE RECORDS CONNECTED"), null, { timeout: 30000 });
   await page.waitForSelector("#map .maplibregl-canvas", { timeout: 30000 });
   await page.waitForTimeout(1200);
-  await page.locator("#enter-atlas").click();
 
   const totalCards = await page.locator("#results .result-card").count();
   assert.equal(totalCards, objects.length);

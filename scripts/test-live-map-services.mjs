@@ -24,6 +24,30 @@ try {
   checks.at(-1).sourceCount = Object.keys(style.sources).length;
   checks.at(-1).tileTemplateCount = tileTemplates.length;
 
+  const template = tileTemplates[0];
+  const zoom = 12;
+  const scale = 2 ** zoom;
+  const latitude = 53.3477;
+  const longitude = -6.2594;
+  const x = Math.floor((longitude + 180) / 360 * scale);
+  const latitudeRadians = latitude * Math.PI / 180;
+  const y = Math.floor((1 - Math.asinh(Math.tan(latitudeRadians)) / Math.PI) / 2 * scale);
+  const tileUrl = template
+    .replaceAll("{z}", String(zoom))
+    .replaceAll("{x}", String(x))
+    .replaceAll("{y}", String(y))
+    .replaceAll("{ratio}", "");
+  const tileResponse = await timedFetch(
+    "OpenFreeMap Dublin vector tile",
+    tileUrl,
+    { headers: { accept: "application/vnd.mapbox-vector-tile, application/x-protobuf, application/octet-stream" } }
+  );
+  assert.equal(tileResponse.status, 200, "OpenFreeMap tile request must return HTTP 200");
+  const tileBytes = await tileResponse.arrayBuffer();
+  assert.ok(tileBytes.byteLength > 0, "OpenFreeMap tile response must not be empty");
+  checks.at(-1).zoom = zoom;
+  checks.at(-1).tileBytes = tileBytes.byteLength;
+
   const routeResponse = await timedFetch(
     "Valhalla pedestrian route",
     "https://valhalla1.openstreetmap.de/route",

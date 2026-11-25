@@ -53,5 +53,7 @@ jobs:
         run: node scripts/test-canonical-map-browser.mjs
       - name: Test live OpenFreeMap style and Valhalla pedestrian routing services
         run: node scripts/test-live-map-services.mjs
+      - name: Test live map rendering and external-service failure handling in Chromium
+        run: node scripts/test-live-map-browser.mjs
       - name: Run archive safety preflight
         run: node scripts/validate-archive.mjs

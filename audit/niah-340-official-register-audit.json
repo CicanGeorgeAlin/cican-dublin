@@ -1,16 +1,16 @@
 {
   "audit_title": "CICAN Dublin — 340 NIAH registration-number audit",
-  "audited_at": "2026-11-28T13:51:34.533Z",
+  "audited_at": "2026-11-28T13:53:22.052Z",
   "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
   "source_description": "National Inventory of Architectural Heritage national CSV bulk download, Department of Housing, Local Government and Heritage; data.gov.ie resource metadata last updated 10 November 2026.",
   "source_row_count": 48327,
   "source_registration_number_field": "REG_NO",
   "source_local_authority_field": "LOCAL_AUTHORITY�",
   "source_county_field": "COUNTY",
-  "archive_record_count": 1238,
-  "unique_archive_reference_count": 1238,
+  "archive_record_count": 1338,
+  "unique_archive_reference_count": 1338,
   "counts": {
-    "MATCHED": 1238
+    "MATCHED": 1338
   },
   "all_records_matched": true,
   "results": [
@@ -12390,6 +12390,1006 @@
       "registration_number": "11350011",
       "status": "MATCHED",
       "official_name": "Bohomer",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0944",
+      "archive_name": "Bohomer",
+      "registration_number": "11350012",
+      "status": "MATCHED",
+      "official_name": "Bohomer",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0945",
+      "archive_name": "Springhill",
+      "registration_number": "11350013",
+      "status": "MATCHED",
+      "official_name": "Springhill",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0946",
+      "archive_name": "Lime Hill — house",
+      "registration_number": "11350015",
+      "status": "MATCHED",
+      "official_name": "Lime Hill",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0947",
+      "archive_name": "Saint Doolagh's Church (Balgriffin)",
+      "registration_number": "11350016",
+      "status": "MATCHED",
+      "official_name": "Saint Doolagh's Church (Balgriffin)",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0948",
+      "archive_name": "Saint Doolagh's Well",
+      "registration_number": "11350017",
+      "status": "MATCHED",
+      "official_name": "Saint Doolagh's Well",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0949",
+      "archive_name": "Saint Doolagh's Park — gate lodge",
+      "registration_number": "11350018",
+      "status": "MATCHED",
+      "official_name": "Saint Doolagh's Park",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0950",
+      "archive_name": "Saint Doolagh's Park — country house",
+      "registration_number": "11350019",
+      "status": "MATCHED",
+      "official_name": "Saint Doolagh's Park",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0951",
+      "archive_name": "Wellfield House — house (NIAH 11350020)",
+      "registration_number": "11350020",
+      "status": "MATCHED",
+      "official_name": "Wellfield House",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0952",
+      "archive_name": "Wellfield House — house (NIAH 11350021)",
+      "registration_number": "11350021",
+      "status": "MATCHED",
+      "official_name": "Wellfield House",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0037",
+      "archive_name": "Belcamp Hall — monument",
+      "registration_number": "11350025",
+      "status": "MATCHED",
+      "official_name": "Belcamp Hall",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0953",
+      "archive_name": "Lime Hill — gate lodge",
+      "registration_number": "11350027",
+      "status": "MATCHED",
+      "official_name": "Lime Hill",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0954",
+      "archive_name": "Saint Marnock's Church (Portmarnock)",
+      "registration_number": "11350030",
+      "status": "MATCHED",
+      "official_name": "Saint Marnock's Church (Portmarnock)",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0955",
+      "archive_name": "Belcamp Hall — church/chapel",
+      "registration_number": "11350035",
+      "status": "MATCHED",
+      "official_name": "Belcamp Hall",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0956",
+      "archive_name": "Belcamp Hall — dormitory building",
+      "registration_number": "11350036",
+      "status": "MATCHED",
+      "official_name": "Belcamp Hall",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0957",
+      "archive_name": "Belcamp Hall — school",
+      "registration_number": "11350037",
+      "status": "MATCHED",
+      "official_name": "Belcamp Hall",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0268",
+      "archive_name": "Belcamp Hall — bridge",
+      "registration_number": "11350040",
+      "status": "MATCHED",
+      "official_name": "Belcamp Hall",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0958",
+      "archive_name": "Saint Marnock's Cottage",
+      "registration_number": "11351001",
+      "status": "MATCHED",
+      "official_name": "Saint Marnock's Cottage",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0959",
+      "archive_name": "Saint Marnock's — country house (NIAH 11351003)",
+      "registration_number": "11351003",
+      "status": "MATCHED",
+      "official_name": "Saint Marnock's",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0960",
+      "archive_name": "Saint Marnock's — country house (NIAH 11351004)",
+      "registration_number": "11351004",
+      "status": "MATCHED",
+      "official_name": "Saint Marnock's",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0961",
+      "archive_name": "The Thatch Cottage",
+      "registration_number": "11351006",
+      "status": "MATCHED",
+      "official_name": "The Thatch Cottage",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0269",
+      "archive_name": "Barnhill Bridge",
+      "registration_number": "11352001",
+      "status": "MATCHED",
+      "official_name": "Barnhill Bridge",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0270",
+      "archive_name": "Packenham Bridge",
+      "registration_number": "11352002",
+      "status": "MATCHED",
+      "official_name": "Packenham Bridge",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0962",
+      "archive_name": "Phibblestown House",
+      "registration_number": "11352004",
+      "status": "MATCHED",
+      "official_name": "Phibblestown House",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0963",
+      "archive_name": "Beechpark House — farmyard complex",
+      "registration_number": "11353001",
+      "status": "MATCHED",
+      "official_name": "Beechpark House",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0964",
+      "archive_name": "Beechpark House — country house",
+      "registration_number": "11353002",
+      "status": "MATCHED",
+      "official_name": "Beechpark House",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0271",
+      "archive_name": "Callaghan Bridge",
+      "registration_number": "11353003",
+      "status": "MATCHED",
+      "official_name": "Callaghan Bridge",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0965",
+      "archive_name": "Clonsilla Railway Station",
+      "registration_number": "11353004",
+      "status": "MATCHED",
+      "official_name": "Clonsilla Railway Station",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0966",
+      "archive_name": "Saint Mary's Church (Clonsilla)",
+      "registration_number": "11353005",
+      "status": "MATCHED",
+      "official_name": "Saint Mary's Church (Clonsilla)",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0272",
+      "archive_name": "Mulhuddart Bridge",
+      "registration_number": "11353009",
+      "status": "MATCHED",
+      "official_name": "Mulhuddart Bridge",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0967",
+      "archive_name": "Lady's Well",
+      "registration_number": "11353010",
+      "status": "MATCHED",
+      "official_name": "Lady's Well",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0968",
+      "archive_name": "Saint Brigid's Catholic Church",
+      "registration_number": "11354001",
+      "status": "MATCHED",
+      "official_name": "Saint Brigid's Catholic Church",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0273",
+      "archive_name": "Granard Bridge",
+      "registration_number": "11354002",
+      "status": "MATCHED",
+      "official_name": "Granard Bridge",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0274",
+      "archive_name": "Talbot Bridge",
+      "registration_number": "11354003",
+      "status": "MATCHED",
+      "official_name": "Talbot Bridge",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0275",
+      "archive_name": "Ranelagh Bridge",
+      "registration_number": "11354004",
+      "status": "MATCHED",
+      "official_name": "Ranelagh Bridge",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0969",
+      "archive_name": "Abbotstown",
+      "registration_number": "11354006",
+      "status": "MATCHED",
+      "official_name": "Abbotstown",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0970",
+      "archive_name": "Elmgreen",
+      "registration_number": "11354007",
+      "status": "MATCHED",
+      "official_name": "Elmgreen",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0971",
+      "archive_name": "Dunsink Observatory — observatory/telescope (NIAH 11354008)",
+      "registration_number": "11354008",
+      "status": "MATCHED",
+      "official_name": "Dunsink Observatory",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0972",
+      "archive_name": "Dunsink Observatory — observatory/telescope (NIAH 11354009)",
+      "registration_number": "11354009",
+      "status": "MATCHED",
+      "official_name": "Dunsink Observatory",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0973",
+      "archive_name": "Santa Sabina",
+      "registration_number": "11358001",
+      "status": "MATCHED",
+      "official_name": "Santa Sabina",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0038",
+      "archive_name": "Reverend James Gaffney Monument",
+      "registration_number": "11358003",
+      "status": "MATCHED",
+      "official_name": "Reverend James Gaffney Monument",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0974",
+      "archive_name": "Burrow National School",
+      "registration_number": "11358004",
+      "status": "MATCHED",
+      "official_name": "Burrow National School",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0975",
+      "archive_name": "Sutton Methodist Church",
+      "registration_number": "11358005",
+      "status": "MATCHED",
+      "official_name": "Sutton Methodist Church",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0976",
+      "archive_name": "Ashford House",
+      "registration_number": "11358007",
+      "status": "MATCHED",
+      "official_name": "Ashford House",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0977",
+      "archive_name": "Somerlyton",
+      "registration_number": "11358009",
+      "status": "MATCHED",
+      "official_name": "Somerlyton",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0978",
+      "archive_name": "Bellevue House",
+      "registration_number": "11358010",
+      "status": "MATCHED",
+      "official_name": "Bellevue House",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0979",
+      "archive_name": "Saint Michael's",
+      "registration_number": "11358011",
+      "status": "MATCHED",
+      "official_name": "Saint Michael's",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0980",
+      "archive_name": "Saint Lawrence Lodge",
+      "registration_number": "11358012",
+      "status": "MATCHED",
+      "official_name": "Saint Lawrence Lodge",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0981",
+      "archive_name": "Saffron House",
+      "registration_number": "11358013",
+      "status": "MATCHED",
+      "official_name": "Saffron House",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0276",
+      "archive_name": "Sutton Railway Station — station master's house",
+      "registration_number": "11358014",
+      "status": "MATCHED",
+      "official_name": "Sutton Railway Station",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0277",
+      "archive_name": "Sutton Railway Station — railway station",
+      "registration_number": "11358015",
+      "status": "MATCHED",
+      "official_name": "Sutton Railway Station",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0982",
+      "archive_name": "Sutton Railway Station — signal box",
+      "registration_number": "11358017",
+      "status": "MATCHED",
+      "official_name": "Sutton Railway Station",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0983",
+      "archive_name": "Eskeragh",
+      "registration_number": "11358018",
+      "status": "MATCHED",
+      "official_name": "Eskeragh",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0984",
+      "archive_name": "Caramore",
+      "registration_number": "11358019",
+      "status": "MATCHED",
+      "official_name": "Caramore",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0985",
+      "archive_name": "Seaview",
+      "registration_number": "11358020",
+      "status": "MATCHED",
+      "official_name": "Seaview",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0986",
+      "archive_name": "Howth Lodge Hotel",
+      "registration_number": "11358021",
+      "status": "MATCHED",
+      "official_name": "Howth Lodge Hotel",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0987",
+      "archive_name": "Howth Presbyterian Church — manse",
+      "registration_number": "11358024",
+      "status": "MATCHED",
+      "official_name": "Howth Presbyterian Church",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0988",
+      "archive_name": "Howth Presbyterian Church — church/chapel",
+      "registration_number": "11358025",
+      "status": "MATCHED",
+      "official_name": "Howth Presbyterian Church",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0989",
+      "archive_name": "Saint Mary's Church (Howth)",
+      "registration_number": "11358026",
+      "status": "MATCHED",
+      "official_name": "Saint Mary's Church (Howth)",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0048",
+      "archive_name": "Howth Castle — demesne walls/gates/railings",
+      "registration_number": "11358027",
+      "status": "MATCHED",
+      "official_name": "Howth Castle",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0990",
+      "archive_name": "Saint Fintan's Cemetery",
+      "registration_number": "11358034",
+      "status": "MATCHED",
+      "official_name": "Saint Fintan's Cemetery",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0991",
+      "archive_name": "Catholic Church of Saint Peter and Saint Paul",
+      "registration_number": "11358038",
+      "status": "MATCHED",
+      "official_name": "Catholic Church of Saint Peter and Saint Paul",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0992",
+      "archive_name": "Convent of the Sisters of Charity — school",
+      "registration_number": "11358039",
+      "status": "MATCHED",
+      "official_name": "Convent of the Sisters of Charity",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0993",
+      "archive_name": "Baldoyle Library",
+      "registration_number": "11358040",
+      "status": "MATCHED",
+      "official_name": "Baldoyle Library",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0994",
+      "archive_name": "Saint Mary's",
+      "registration_number": "11358041",
+      "status": "MATCHED",
+      "official_name": "Saint Mary's",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0995",
+      "archive_name": "Convent of the Sisters of Charity — convent/nunnery",
+      "registration_number": "11358042",
+      "status": "MATCHED",
+      "official_name": "Convent of the Sisters of Charity",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0996",
+      "archive_name": "Parochial House",
+      "registration_number": "11358043",
+      "status": "MATCHED",
+      "official_name": "Parochial House",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0997",
+      "archive_name": "Aisling",
+      "registration_number": "11358044",
+      "status": "MATCHED",
+      "official_name": "Aisling",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0998",
+      "archive_name": "Innishowen",
+      "registration_number": "11358046",
+      "status": "MATCHED",
+      "official_name": "Innishowen",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0999",
+      "archive_name": "Saint Laurence's National School",
+      "registration_number": "11358049",
+      "status": "MATCHED",
+      "official_name": "Saint Laurence's National School",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1000",
+      "archive_name": "Howth Castle — castle/fortified house (NIAH 11358050)",
+      "registration_number": "11358050",
+      "status": "MATCHED",
+      "official_name": "Howth Castle",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1001",
+      "archive_name": "Howth Castle — country house",
+      "registration_number": "11358052",
+      "status": "MATCHED",
+      "official_name": "Howth Castle",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1002",
+      "archive_name": "Howth Castle — castle/fortified house (NIAH 11358053)",
+      "registration_number": "11358053",
+      "status": "MATCHED",
+      "official_name": "Howth Castle",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1003",
+      "archive_name": "Howth Castle — castle/fortified house (NIAH 11358054)",
+      "registration_number": "11358054",
+      "status": "MATCHED",
+      "official_name": "Howth Castle",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1004",
+      "archive_name": "Howth Castle — castle/fortified house (NIAH 11358055)",
+      "registration_number": "11358055",
+      "status": "MATCHED",
+      "official_name": "Howth Castle",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1005",
+      "archive_name": "Howth Castle — castle/fortified house (NIAH 11358056)",
+      "registration_number": "11358056",
+      "status": "MATCHED",
+      "official_name": "Howth Castle",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1006",
+      "archive_name": "Howth Castle — castle/fortified house (NIAH 11358057)",
+      "registration_number": "11358057",
+      "status": "MATCHED",
+      "official_name": "Howth Castle",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1007",
+      "archive_name": "Howth Castle — castle/fortified house (NIAH 11358058)",
+      "registration_number": "11358058",
+      "status": "MATCHED",
+      "official_name": "Howth Castle",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1008",
+      "archive_name": "Howth Castle — castle/fortified house (NIAH 11358059)",
+      "registration_number": "11358059",
+      "status": "MATCHED",
+      "official_name": "Howth Castle",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1009",
+      "archive_name": "Howth Castle — stables",
+      "registration_number": "11358061",
+      "status": "MATCHED",
+      "official_name": "Howth Castle",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1010",
+      "archive_name": "Howth Castle — dovecote/pigeon house/aviary",
+      "registration_number": "11358062",
+      "status": "MATCHED",
+      "official_name": "Howth Castle",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0278",
+      "archive_name": "Howth Railway Station",
+      "registration_number": "11359004",
+      "status": "MATCHED",
+      "official_name": "Howth Railway Station",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1011",
+      "archive_name": "Harbour House",
+      "registration_number": "11359005",
+      "status": "MATCHED",
+      "official_name": "Harbour House",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1012",
+      "archive_name": "Howth Courthouse",
+      "registration_number": "11359006",
+      "status": "MATCHED",
+      "official_name": "Howth Courthouse",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1013",
+      "archive_name": "Saint Lawrence Hotel",
+      "registration_number": "11359007",
+      "status": "MATCHED",
+      "official_name": "Saint Lawrence Hotel",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1014",
+      "archive_name": "Saint Mary's Abbey",
+      "registration_number": "11359010",
+      "status": "MATCHED",
+      "official_name": "Saint Mary's Abbey",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1015",
+      "archive_name": "The Abbey Tavern",
+      "registration_number": "11359015",
+      "status": "MATCHED",
+      "official_name": "The Abbey Tavern",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1016",
+      "archive_name": "Howth Catholic Church — church/chapel",
+      "registration_number": "11359017",
+      "status": "MATCHED",
+      "official_name": "Howth Catholic Church",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1017",
+      "archive_name": "Howth Catholic Church — bell tower/stand",
+      "registration_number": "11359018",
+      "status": "MATCHED",
+      "official_name": "Howth Catholic Church",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1018",
+      "archive_name": "Royal Hotel",
+      "registration_number": "11359019",
+      "status": "MATCHED",
+      "official_name": "Royal Hotel",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1019",
+      "archive_name": "Howth Public Library",
+      "registration_number": "11359020",
+      "status": "MATCHED",
+      "official_name": "Howth Public Library",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1020",
+      "archive_name": "Saint Columbanus Hall",
+      "registration_number": "11359021",
+      "status": "MATCHED",
+      "official_name": "Saint Columbanus Hall",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1021",
+      "archive_name": "Catholic Church of the Assumption",
+      "registration_number": "11359024",
+      "status": "MATCHED",
+      "official_name": "Catholic Church of the Assumption",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1022",
+      "archive_name": "Howth National School",
+      "registration_number": "11359027",
+      "status": "MATCHED",
+      "official_name": "Howth National School",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1023",
+      "archive_name": "Bracken Hall",
+      "registration_number": "11359028",
+      "status": "MATCHED",
+      "official_name": "Bracken Hall",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1024",
+      "archive_name": "Kilrock House — gate lodge",
+      "registration_number": "11359029",
+      "status": "MATCHED",
+      "official_name": "Kilrock House",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1025",
+      "archive_name": "Kilrock House — house",
+      "registration_number": "11359030",
+      "status": "MATCHED",
+      "official_name": "Kilrock House",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1026",
+      "archive_name": "Howth Martello Tower",
+      "registration_number": "11359033",
+      "status": "MATCHED",
+      "official_name": "Howth Martello Tower",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0279",
+      "archive_name": "Howth Harbour Lighthouse",
+      "registration_number": "11359034",
+      "status": "MATCHED",
+      "official_name": "Howth Harbour Lighthouse",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1027",
+      "archive_name": "Howth Harbour Mission Hall",
+      "registration_number": "11359038",
+      "status": "MATCHED",
+      "official_name": "Howth Harbour Mission Hall",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1028",
+      "archive_name": "Ireland's Eye Martello Tower",
+      "registration_number": "11359042",
+      "status": "MATCHED",
+      "official_name": "Ireland's Eye Martello Tower",
       "official_local_authority": "Fingal County Council",
       "official_county": "DUBLIN",
       "source_match_count": 1

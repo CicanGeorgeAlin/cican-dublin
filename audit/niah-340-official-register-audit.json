@@ -1,16 +1,16 @@
 {
   "audit_title": "CICAN Dublin — 340 NIAH registration-number audit",
-  "audited_at": "2026-11-28T14:10:28.219Z",
+  "audited_at": "2026-11-28T14:21:27.045Z",
   "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
   "source_description": "National Inventory of Architectural Heritage national CSV bulk download, Department of Housing, Local Government and Heritage; data.gov.ie resource metadata last updated 10 November 2026.",
   "source_row_count": 48327,
   "source_registration_number_field": "REG_NO",
   "source_local_authority_field": "LOCAL_AUTHORITY�",
   "source_county_field": "COUNTY",
-  "archive_record_count": 2038,
-  "unique_archive_reference_count": 2038,
+  "archive_record_count": 2238,
+  "unique_archive_reference_count": 2238,
   "counts": {
-    "MATCHED": 2038
+    "MATCHED": 2238
   },
   "all_records_matched": true,
   "results": [
@@ -20390,6 +20390,2006 @@
       "registration_number": "50030296",
       "status": "MATCHED",
       "official_name": "Furry Park",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1712",
+      "archive_name": "Mount Temple Comprehensive School — clock",
+      "registration_number": "50030306",
+      "status": "MATCHED",
+      "official_name": "Mount Temple Comprehensive School",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1713",
+      "archive_name": "Mount Temple Comprehensive School — gate lodge",
+      "registration_number": "50030307",
+      "status": "MATCHED",
+      "official_name": "Mount Temple Comprehensive School",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0055",
+      "archive_name": "Clontarf Golf Club",
+      "registration_number": "50030308",
+      "status": "MATCHED",
+      "official_name": "Clontarf Golf Club",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1714",
+      "archive_name": "St Dominic's",
+      "registration_number": "50030314",
+      "status": "MATCHED",
+      "official_name": "St Dominic's",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1715",
+      "archive_name": "Clifton",
+      "registration_number": "50030315",
+      "status": "MATCHED",
+      "official_name": "Clifton",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1716",
+      "archive_name": "Calaroga\\Mount Oriel",
+      "registration_number": "50030316",
+      "status": "MATCHED",
+      "official_name": "Calaroga\\Mount Oriel",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1717",
+      "archive_name": "St Michael's/Glenburn",
+      "registration_number": "50030317",
+      "status": "MATCHED",
+      "official_name": "St Michael's/Glenburn",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1718",
+      "archive_name": "The Old Rectory",
+      "registration_number": "50030325",
+      "status": "MATCHED",
+      "official_name": "The Old Rectory",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0056",
+      "archive_name": "Yew Park",
+      "registration_number": "50030327",
+      "status": "MATCHED",
+      "official_name": "Yew Park",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1719",
+      "archive_name": "Copper Beech Court",
+      "registration_number": "50030359",
+      "status": "MATCHED",
+      "official_name": "Copper Beech Court",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1720",
+      "archive_name": "Vista",
+      "registration_number": "50030360",
+      "status": "MATCHED",
+      "official_name": "Vista",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1721",
+      "archive_name": "Phoenix Park — gate lodge (NIAH 50060003)",
+      "registration_number": "50060003",
+      "status": "MATCHED",
+      "official_name": "Phoenix Park",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0057",
+      "archive_name": "Phoenix Park — gates/railings/walls (NIAH 50060005)",
+      "registration_number": "50060005",
+      "status": "MATCHED",
+      "official_name": "Phoenix Park",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0058",
+      "archive_name": "Farmleigh",
+      "registration_number": "50060007",
+      "status": "MATCHED",
+      "official_name": "Farmleigh",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0059",
+      "archive_name": "Phoenix Park — gates/railings/walls (NIAH 50060008)",
+      "registration_number": "50060008",
+      "status": "MATCHED",
+      "official_name": "Phoenix Park",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1722",
+      "archive_name": "Phoenix Park — gate lodge (NIAH 50060009)",
+      "registration_number": "50060009",
+      "status": "MATCHED",
+      "official_name": "Phoenix Park",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0060",
+      "archive_name": "Park Lane Turnstile",
+      "registration_number": "50060010",
+      "status": "MATCHED",
+      "official_name": "Park Lane Turnstile",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0061",
+      "archive_name": "Phoenix Park — gates/railings/walls (NIAH 50060011)",
+      "registration_number": "50060011",
+      "status": "MATCHED",
+      "official_name": "Phoenix Park",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1723",
+      "archive_name": "Phoenix Park — gate lodge (NIAH 50060012)",
+      "registration_number": "50060012",
+      "status": "MATCHED",
+      "official_name": "Phoenix Park",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0062",
+      "archive_name": "Phoenix Park — gates/railings/walls (NIAH 50060013)",
+      "registration_number": "50060013",
+      "status": "MATCHED",
+      "official_name": "Phoenix Park",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1724",
+      "archive_name": "Phoenix Park — gate lodge (NIAH 50060015)",
+      "registration_number": "50060015",
+      "status": "MATCHED",
+      "official_name": "Phoenix Park",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0063",
+      "archive_name": "Phoenix Park — gates/railings/walls (NIAH 50060018)",
+      "registration_number": "50060018",
+      "status": "MATCHED",
+      "official_name": "Phoenix Park",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1725",
+      "archive_name": "Phoenix Park — gate lodge (NIAH 50060019)",
+      "registration_number": "50060019",
+      "status": "MATCHED",
+      "official_name": "Phoenix Park",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0064",
+      "archive_name": "Phoenix Park — gates/railings/walls (NIAH 50060020)",
+      "registration_number": "50060020",
+      "status": "MATCHED",
+      "official_name": "Phoenix Park",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0065",
+      "archive_name": "Phoenix Park — gates/railings/walls (NIAH 50060021)",
+      "registration_number": "50060021",
+      "status": "MATCHED",
+      "official_name": "Phoenix Park",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1726",
+      "archive_name": "Cabra Gate — gate lodge",
+      "registration_number": "50060022",
+      "status": "MATCHED",
+      "official_name": "Cabra Gate",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0066",
+      "archive_name": "Cabra Gate — gates/railings/walls",
+      "registration_number": "50060023",
+      "status": "MATCHED",
+      "official_name": "Cabra Gate",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0067",
+      "archive_name": "Phoenix Park — gates/railings/walls (NIAH 50060024)",
+      "registration_number": "50060024",
+      "status": "MATCHED",
+      "official_name": "Phoenix Park",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0068",
+      "archive_name": "Phoenix Park — gates/railings/walls (NIAH 50060025)",
+      "registration_number": "50060025",
+      "status": "MATCHED",
+      "official_name": "Phoenix Park",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1727",
+      "archive_name": "Bessboro Lodge West",
+      "registration_number": "50060026",
+      "status": "MATCHED",
+      "official_name": "Bessboro Lodge West",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1728",
+      "archive_name": "Ashtown Gate",
+      "registration_number": "50060028",
+      "status": "MATCHED",
+      "official_name": "Ashtown Gate",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1729",
+      "archive_name": "Park Superintendent's Lodge",
+      "registration_number": "50060029",
+      "status": "MATCHED",
+      "official_name": "Park Superintendent's Lodge",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1730",
+      "archive_name": "Ordnance Survey Ireland — ha ha",
+      "registration_number": "50060031",
+      "status": "MATCHED",
+      "official_name": "Ordnance Survey Ireland",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1731",
+      "archive_name": "Ordnance Survey Ireland — library/archive",
+      "registration_number": "50060032",
+      "status": "MATCHED",
+      "official_name": "Ordnance Survey Ireland",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1732",
+      "archive_name": "Ordnance Survey Ireland — store/warehouse",
+      "registration_number": "50060034",
+      "status": "MATCHED",
+      "official_name": "Ordnance Survey Ireland",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1733",
+      "archive_name": "Ordnance Survey Ireland — barracks",
+      "registration_number": "50060035",
+      "status": "MATCHED",
+      "official_name": "Ordnance Survey Ireland",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1734",
+      "archive_name": "Ordnance Survey Ireland — country house",
+      "registration_number": "50060036",
+      "status": "MATCHED",
+      "official_name": "Ordnance Survey Ireland",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1735",
+      "archive_name": "Ordnance Survey Ireland — office",
+      "registration_number": "50060037",
+      "status": "MATCHED",
+      "official_name": "Ordnance Survey Ireland",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1736",
+      "archive_name": "Ordnance Survey Ireland — worker's house",
+      "registration_number": "50060038",
+      "status": "MATCHED",
+      "official_name": "Ordnance Survey Ireland",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1737",
+      "archive_name": "Ordnance Survey Ireland — gate lodge",
+      "registration_number": "50060039",
+      "status": "MATCHED",
+      "official_name": "Ordnance Survey Ireland",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1738",
+      "archive_name": "Rose Cottage",
+      "registration_number": "50060040",
+      "status": "MATCHED",
+      "official_name": "Rose Cottage",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1739",
+      "archive_name": "Constable's Lodge",
+      "registration_number": "50060043",
+      "status": "MATCHED",
+      "official_name": "Constable's Lodge",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0069",
+      "archive_name": "Phoenix Park Visitor Centre — demesne walls/gates/railings (NIAH 50060044)",
+      "registration_number": "50060044",
+      "status": "MATCHED",
+      "official_name": "Phoenix Park Visitor Centre",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0070",
+      "archive_name": "Ashtown Visitor Centre — walled garden",
+      "registration_number": "50060045",
+      "status": "MATCHED",
+      "official_name": "Ashtown Visitor Centre",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1740",
+      "archive_name": "Ashtown Visitor Centre — stables",
+      "registration_number": "50060046",
+      "status": "MATCHED",
+      "official_name": "Ashtown Visitor Centre",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1741",
+      "archive_name": "7th Lock, Royal Canal",
+      "registration_number": "50060047",
+      "status": "MATCHED",
+      "official_name": "7th Lock, Royal Canal",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0071",
+      "archive_name": "Phoenix Park Visitor Centre — demesne walls/gates/railings (NIAH 50060049)",
+      "registration_number": "50060049",
+      "status": "MATCHED",
+      "official_name": "Phoenix Park Visitor Centre",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0072",
+      "archive_name": "Dublin Zoo — gates/railings/walls (NIAH 50060064)",
+      "registration_number": "50060064",
+      "status": "MATCHED",
+      "official_name": "Dublin Zoo",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1742",
+      "archive_name": "Dublin Zoo (Haughton House)",
+      "registration_number": "50060066",
+      "status": "MATCHED",
+      "official_name": "Dublin Zoo (Haughton House)",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1743",
+      "archive_name": "Dublin Zoo (South American House)",
+      "registration_number": "50060067",
+      "status": "MATCHED",
+      "official_name": "Dublin Zoo (South American House)",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1744",
+      "archive_name": "Dublin Zoo (The Roberts House)",
+      "registration_number": "50060068",
+      "status": "MATCHED",
+      "official_name": "Dublin Zoo (The Roberts House)",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1745",
+      "archive_name": "Dublin Zoo (Society House)",
+      "registration_number": "50060069",
+      "status": "MATCHED",
+      "official_name": "Dublin Zoo (Society House)",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1746",
+      "archive_name": "Phoenix Park — public convenience",
+      "registration_number": "50060070",
+      "status": "MATCHED",
+      "official_name": "Phoenix Park",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1747",
+      "archive_name": "Dublin Zoo (Rustic Gate Lodge)",
+      "registration_number": "50060071",
+      "status": "MATCHED",
+      "official_name": "Dublin Zoo (Rustic Gate Lodge)",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0073",
+      "archive_name": "Dublin Zoo — gates/railings/walls (NIAH 50060072)",
+      "registration_number": "50060072",
+      "status": "MATCHED",
+      "official_name": "Dublin Zoo",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1748",
+      "archive_name": "Phoenix Park Tea Rooms",
+      "registration_number": "50060073",
+      "status": "MATCHED",
+      "official_name": "Phoenix Park Tea Rooms",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1749",
+      "archive_name": "Knockmary Lodge",
+      "registration_number": "50060101",
+      "status": "MATCHED",
+      "official_name": "Knockmary Lodge",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0074",
+      "archive_name": "Saint Mary's Hospital — gates/railings/walls",
+      "registration_number": "50060102",
+      "status": "MATCHED",
+      "official_name": "Saint Mary's Hospital",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1750",
+      "archive_name": "Saint Mary's Hospital Chapel",
+      "registration_number": "50060103",
+      "status": "MATCHED",
+      "official_name": "Saint Mary's Hospital Chapel",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1751",
+      "archive_name": "Saint Mary's Hospital — church/chapel",
+      "registration_number": "50060104",
+      "status": "MATCHED",
+      "official_name": "Saint Mary's Hospital",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1752",
+      "archive_name": "Saint Mary's Hospital — building misc",
+      "registration_number": "50060105",
+      "status": "MATCHED",
+      "official_name": "Saint Mary's Hospital",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0043",
+      "archive_name": "Saint Mary's Hospital — monument",
+      "registration_number": "50060108",
+      "status": "MATCHED",
+      "official_name": "Saint Mary's Hospital",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1753",
+      "archive_name": "Hibernian Cottage",
+      "registration_number": "50060111",
+      "status": "MATCHED",
+      "official_name": "Hibernian Cottage",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1754",
+      "archive_name": "Cross Guns Tunnel",
+      "registration_number": "50060112",
+      "status": "MATCHED",
+      "official_name": "Cross Guns Tunnel",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1755",
+      "archive_name": "Phoenix Park — worker's house",
+      "registration_number": "50060113",
+      "status": "MATCHED",
+      "official_name": "Phoenix Park",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1756",
+      "archive_name": "10th Lock",
+      "registration_number": "50060121",
+      "status": "MATCHED",
+      "official_name": "10th Lock",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1757",
+      "archive_name": "8th Lock, Royal Canal",
+      "registration_number": "50060124",
+      "status": "MATCHED",
+      "official_name": "8th Lock, Royal Canal",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0287",
+      "archive_name": "H.S. Reilly Bridge",
+      "registration_number": "50060125",
+      "status": "MATCHED",
+      "official_name": "H.S. Reilly Bridge",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0288",
+      "archive_name": "Broome Bridge",
+      "registration_number": "50060126",
+      "status": "MATCHED",
+      "official_name": "Broome Bridge",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1758",
+      "archive_name": "Saint Vincent's Centre — church/chapel",
+      "registration_number": "50060128",
+      "status": "MATCHED",
+      "official_name": "Saint Vincent's Centre",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1759",
+      "archive_name": "Saint Vincent's Centre — gate lodge",
+      "registration_number": "50060129",
+      "status": "MATCHED",
+      "official_name": "Saint Vincent's Centre",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1760",
+      "archive_name": "Saint Vincent's Centre — workhouse",
+      "registration_number": "50060130",
+      "status": "MATCHED",
+      "official_name": "Saint Vincent's Centre",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1761",
+      "archive_name": "Saint Dominic's Secondary School — country house",
+      "registration_number": "50060133",
+      "status": "MATCHED",
+      "official_name": "Saint Dominic's Secondary School",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0075",
+      "archive_name": "Saint Dominic's Secondary School — gates/railings/walls",
+      "registration_number": "50060134",
+      "status": "MATCHED",
+      "official_name": "Saint Dominic's Secondary School",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1762",
+      "archive_name": "Our Lady Help of Christians",
+      "registration_number": "50060137",
+      "status": "MATCHED",
+      "official_name": "Our Lady Help of Christians",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1763",
+      "archive_name": "The Deaf Village",
+      "registration_number": "50060140",
+      "status": "MATCHED",
+      "official_name": "The Deaf Village",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1764",
+      "archive_name": "Saint Mary's Hospital — orphanage/children's home",
+      "registration_number": "50060141",
+      "status": "MATCHED",
+      "official_name": "Saint Mary's Hospital",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1765",
+      "archive_name": "Church of the Most Precious Blood",
+      "registration_number": "50060145",
+      "status": "MATCHED",
+      "official_name": "Church of the Most Precious Blood",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1766",
+      "archive_name": "Grangegorman Military Cemetery — graveyard/cemetery",
+      "registration_number": "50060151",
+      "status": "MATCHED",
+      "official_name": "Grangegorman Military Cemetery",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1767",
+      "archive_name": "Grangegorman Military Cemetery — building misc",
+      "registration_number": "50060152",
+      "status": "MATCHED",
+      "official_name": "Grangegorman Military Cemetery",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1768",
+      "archive_name": "Church of Christ the King",
+      "registration_number": "50060180",
+      "status": "MATCHED",
+      "official_name": "Church of Christ the King",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1769",
+      "archive_name": "North City Flour Mills",
+      "registration_number": "50060183",
+      "status": "MATCHED",
+      "official_name": "North City Flour Mills",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1770",
+      "archive_name": "5th Lock, Royal Canal",
+      "registration_number": "50060184",
+      "status": "MATCHED",
+      "official_name": "5th Lock, Royal Canal",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0289",
+      "archive_name": "Cross Guns Bridge",
+      "registration_number": "50060185",
+      "status": "MATCHED",
+      "official_name": "Cross Guns Bridge",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1771",
+      "archive_name": "4th Lock, Royal Canal",
+      "registration_number": "50060186",
+      "status": "MATCHED",
+      "official_name": "4th Lock, Royal Canal",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1772",
+      "archive_name": "3rd Lock, Royal Canal",
+      "registration_number": "50060187",
+      "status": "MATCHED",
+      "official_name": "3rd Lock, Royal Canal",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1773",
+      "archive_name": "2nd Lock, Royal Canal",
+      "registration_number": "50060188",
+      "status": "MATCHED",
+      "official_name": "2nd Lock, Royal Canal",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0290",
+      "archive_name": "Binns Bridge",
+      "registration_number": "50060189",
+      "status": "MATCHED",
+      "official_name": "Binns Bridge",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1774",
+      "archive_name": "Churchview Nursing Home — house (NIAH 50060196)",
+      "registration_number": "50060196",
+      "status": "MATCHED",
+      "official_name": "Churchview Nursing Home",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1775",
+      "archive_name": "Churchview Nursing Home — house (NIAH 50060197)",
+      "registration_number": "50060197",
+      "status": "MATCHED",
+      "official_name": "Churchview Nursing Home",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1776",
+      "archive_name": "Churchview Nursing Home — house (NIAH 50060198)",
+      "registration_number": "50060198",
+      "status": "MATCHED",
+      "official_name": "Churchview Nursing Home",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1777",
+      "archive_name": "Orby",
+      "registration_number": "50060199",
+      "status": "MATCHED",
+      "official_name": "Orby",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1778",
+      "archive_name": "Altinure Terrace",
+      "registration_number": "50060200",
+      "status": "MATCHED",
+      "official_name": "Altinure Terrace ",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1779",
+      "archive_name": "The Hut",
+      "registration_number": "50060229",
+      "status": "MATCHED",
+      "official_name": "The Hut",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1780",
+      "archive_name": "Phibsboro Library",
+      "registration_number": "50060231",
+      "status": "MATCHED",
+      "official_name": "Phibsboro Library",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1781",
+      "archive_name": "Mountjoy Garda Station",
+      "registration_number": "50060239",
+      "status": "MATCHED",
+      "official_name": "Mountjoy Garda Station",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1782",
+      "archive_name": "Viatores Christi/Nahori & Co",
+      "registration_number": "50060260",
+      "status": "MATCHED",
+      "official_name": "Viatores Christi/Nahori & Co",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1783",
+      "archive_name": "Saint Laurence House / Saint Peter's Club",
+      "registration_number": "50060261",
+      "status": "MATCHED",
+      "official_name": "Saint Laurence House / Saint Peter's Club",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1784",
+      "archive_name": "The Old Bank",
+      "registration_number": "50060264",
+      "status": "MATCHED",
+      "official_name": "The Old Bank",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1785",
+      "archive_name": "Broadstone Park",
+      "registration_number": "50060268",
+      "status": "MATCHED",
+      "official_name": "Broadstone Park",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1786",
+      "archive_name": "Mater Hospital — hospital/infirmary",
+      "registration_number": "50060275",
+      "status": "MATCHED",
+      "official_name": "Mater Hospital",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1787",
+      "archive_name": "Mater Hospital — church/chapel",
+      "registration_number": "50060276",
+      "status": "MATCHED",
+      "official_name": "Mater Hospital",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1788",
+      "archive_name": "Mater Hospital — house (NIAH 50060278)",
+      "registration_number": "50060278",
+      "status": "MATCHED",
+      "official_name": "Mater Hospital",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1789",
+      "archive_name": "Mater Hospital — house (NIAH 50060279)",
+      "registration_number": "50060279",
+      "status": "MATCHED",
+      "official_name": "Mater Hospital",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1790",
+      "archive_name": "Carndonagh",
+      "registration_number": "50060293",
+      "status": "MATCHED",
+      "official_name": "Carndonagh",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1791",
+      "archive_name": "Shirley",
+      "registration_number": "50060294",
+      "status": "MATCHED",
+      "official_name": "Shirley",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0291",
+      "archive_name": "Binns Bridge",
+      "registration_number": "50060296",
+      "status": "MATCHED",
+      "official_name": "Binns Bridge",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1792",
+      "archive_name": "Saint Laurence House / Saint Peter's Club",
+      "registration_number": "50060297",
+      "status": "MATCHED",
+      "official_name": "Saint Laurence House / Saint Peter's Club",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1793",
+      "archive_name": "Sunnybank",
+      "registration_number": "50060299",
+      "status": "MATCHED",
+      "official_name": "Sunnybank",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0292",
+      "archive_name": "Chapelizod Weir",
+      "registration_number": "50060300",
+      "status": "MATCHED",
+      "official_name": "Chapelizod Weir",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1794",
+      "archive_name": "Vale View",
+      "registration_number": "50060301",
+      "status": "MATCHED",
+      "official_name": "Vale View",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1795",
+      "archive_name": "The Gables",
+      "registration_number": "50060302",
+      "status": "MATCHED",
+      "official_name": "The Gables",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1796",
+      "archive_name": "Drummond House — house (NIAH 50060303)",
+      "registration_number": "50060303",
+      "status": "MATCHED",
+      "official_name": "Drummond House",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1797",
+      "archive_name": "Drummond House — house (NIAH 50060304)",
+      "registration_number": "50060304",
+      "status": "MATCHED",
+      "official_name": "Drummond House",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1798",
+      "archive_name": "The Villager",
+      "registration_number": "50060312",
+      "status": "MATCHED",
+      "official_name": "The Villager",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1799",
+      "archive_name": "Hibernian House",
+      "registration_number": "50060314",
+      "status": "MATCHED",
+      "official_name": "Hibernian House",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1800",
+      "archive_name": "Presbytery",
+      "registration_number": "50060320",
+      "status": "MATCHED",
+      "official_name": "Presbytery",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1801",
+      "archive_name": "Church of the Nativity of the Blessed Virgin Mary",
+      "registration_number": "50060321",
+      "status": "MATCHED",
+      "official_name": "Church of the Nativity of the Blessed Virgin Mary",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0293",
+      "archive_name": "Neptune Rowing Club",
+      "registration_number": "50060324",
+      "status": "MATCHED",
+      "official_name": "Neptune Rowing Club",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1802",
+      "archive_name": "Riverside House",
+      "registration_number": "50060325",
+      "status": "MATCHED",
+      "official_name": "Riverside House",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1803",
+      "archive_name": "Fountain Lodge",
+      "registration_number": "50060328",
+      "status": "MATCHED",
+      "official_name": "Fountain Lodge",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0076",
+      "archive_name": "Phoenix Park",
+      "registration_number": "50060338",
+      "status": "MATCHED",
+      "official_name": "Phoenix Park",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1804",
+      "archive_name": "Parkgate Hall",
+      "registration_number": "50060340",
+      "status": "MATCHED",
+      "official_name": "Parkgate Hall",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0294",
+      "archive_name": "Rory O'More Bridge",
+      "registration_number": "50060353",
+      "status": "MATCHED",
+      "official_name": "Rory O'More Bridge",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0295",
+      "archive_name": "Grattan Bridge",
+      "registration_number": "50060361",
+      "status": "MATCHED",
+      "official_name": "Grattan Bridge",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0077",
+      "archive_name": "Saint Michael's School",
+      "registration_number": "50060362",
+      "status": "MATCHED",
+      "official_name": "Saint Michael's School",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1805",
+      "archive_name": "Dorset College",
+      "registration_number": "50060381",
+      "status": "MATCHED",
+      "official_name": "Dorset College",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1806",
+      "archive_name": "J Dempsey",
+      "registration_number": "50060382",
+      "status": "MATCHED",
+      "official_name": "J Dempsey",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1807",
+      "archive_name": "Araby House,  Irish National Organisation of the Unemployed",
+      "registration_number": "50060409",
+      "status": "MATCHED",
+      "official_name": "Araby House,  Irish National Organisation of the Unemployed",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1808",
+      "archive_name": "Fitzgibbon House",
+      "registration_number": "50060435",
+      "status": "MATCHED",
+      "official_name": "Fitzgibbon House",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1809",
+      "archive_name": "Fitzgibbon Street Garda Office",
+      "registration_number": "50060436",
+      "status": "MATCHED",
+      "official_name": "Fitzgibbon Street Garda Office",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1810",
+      "archive_name": "Jorge Santos",
+      "registration_number": "50060451",
+      "status": "MATCHED",
+      "official_name": "Jorge Santos",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1811",
+      "archive_name": "Killarney Court",
+      "registration_number": "50060455",
+      "status": "MATCHED",
+      "official_name": "Killarney Court",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1812",
+      "archive_name": "The Strand House",
+      "registration_number": "50060458",
+      "status": "MATCHED",
+      "official_name": "The Strand House",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1813",
+      "archive_name": "M & A Motorcycles",
+      "registration_number": "50060459",
+      "status": "MATCHED",
+      "official_name": "M & A Motorcycles",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0296",
+      "archive_name": "Newcomen Bridge and 1st Lock",
+      "registration_number": "50060480",
+      "status": "MATCHED",
+      "official_name": "Newcomen Bridge and 1st Lock",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1814",
+      "archive_name": "Mount Carmel National School",
+      "registration_number": "50060484",
+      "status": "MATCHED",
+      "official_name": "Mount Carmel National School",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1815",
+      "archive_name": "Fabric Select",
+      "registration_number": "50060485",
+      "status": "MATCHED",
+      "official_name": "Fabric Select",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1816",
+      "archive_name": "Mandarin House Restaurant",
+      "registration_number": "50060486",
+      "status": "MATCHED",
+      "official_name": "Mandarin House Restaurant",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1817",
+      "archive_name": "Dublin Central Taxis / Washington Mobile Phone",
+      "registration_number": "50060487",
+      "status": "MATCHED",
+      "official_name": "Dublin Central Taxis / Washington Mobile Phone",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1818",
+      "archive_name": "Obsessions",
+      "registration_number": "50060490",
+      "status": "MATCHED",
+      "official_name": "Obsessions",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1819",
+      "archive_name": "Workwear",
+      "registration_number": "50060491",
+      "status": "MATCHED",
+      "official_name": "Workwear",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1820",
+      "archive_name": "Capel Upholstery/Jorge Santos",
+      "registration_number": "50060494",
+      "status": "MATCHED",
+      "official_name": "Capel Upholstery/Jorge Santos",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1821",
+      "archive_name": "Arisu",
+      "registration_number": "50060495",
+      "status": "MATCHED",
+      "official_name": "Arisu",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1822",
+      "archive_name": "Asian Food Co.",
+      "registration_number": "50060496",
+      "status": "MATCHED",
+      "official_name": "Asian Food Co.",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1823",
+      "archive_name": "Lenehans",
+      "registration_number": "50060497",
+      "status": "MATCHED",
+      "official_name": "Lenehans",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1824",
+      "archive_name": "Is Organic",
+      "registration_number": "50060498",
+      "status": "MATCHED",
+      "official_name": "Is Organic",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1825",
+      "archive_name": "Aobaba",
+      "registration_number": "50060499",
+      "status": "MATCHED",
+      "official_name": "Aobaba",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1826",
+      "archive_name": "Brenfer/Trend",
+      "registration_number": "50060500",
+      "status": "MATCHED",
+      "official_name": "Brenfer/Trend",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1827",
+      "archive_name": "W.M. Trimmings",
+      "registration_number": "50060514",
+      "status": "MATCHED",
+      "official_name": "W.M. Trimmings",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1828",
+      "archive_name": "The Capel Barber",
+      "registration_number": "50060515",
+      "status": "MATCHED",
+      "official_name": "The Capel Barber",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1829",
+      "archive_name": "Super Asia Foods",
+      "registration_number": "50060518",
+      "status": "MATCHED",
+      "official_name": "Super Asia Foods",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1830",
+      "archive_name": "Ordnance Survey Ireland — barracks",
+      "registration_number": "50060522",
+      "status": "MATCHED",
+      "official_name": "Ordnance Survey Ireland",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1831",
+      "archive_name": "Ordnance Survey Ireland — building misc",
+      "registration_number": "50060523",
+      "status": "MATCHED",
+      "official_name": "Ordnance Survey Ireland",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1832",
+      "archive_name": "Saint Dominic's Secondary School",
+      "registration_number": "50060524",
+      "status": "MATCHED",
+      "official_name": "Saint Dominic's Secondary School",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1833",
+      "archive_name": "Permanent TSB — public house",
+      "registration_number": "50060527",
+      "status": "MATCHED",
+      "official_name": "Permanent TSB",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1834",
+      "archive_name": "Permanent TSB — shop/retail outlet",
+      "registration_number": "50060528",
+      "status": "MATCHED",
+      "official_name": "Permanent TSB",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1835",
+      "archive_name": "Sherie's/English School",
+      "registration_number": "50060529",
+      "status": "MATCHED",
+      "official_name": "Sherie's/English School",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1836",
+      "archive_name": "Madigan's",
+      "registration_number": "50060530",
+      "status": "MATCHED",
+      "official_name": "Madigan's",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1837",
+      "archive_name": "Irish Cancer Society",
+      "registration_number": "50060532",
+      "status": "MATCHED",
+      "official_name": "Irish Cancer Society",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1838",
+      "archive_name": "Dr. ML. Acupuncture",
+      "registration_number": "50060533",
+      "status": "MATCHED",
+      "official_name": "Dr. ML. Acupuncture",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1839",
+      "archive_name": "Jervis Place Apartments / GSM Solutions",
+      "registration_number": "50060534",
+      "status": "MATCHED",
+      "official_name": "Jervis Place Apartments / GSM Solutions",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1840",
+      "archive_name": "Mes Amis",
+      "registration_number": "50060536",
+      "status": "MATCHED",
+      "official_name": "Mes Amis",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1841",
+      "archive_name": "Chinese Gospel Church of Dublin /Hidden Hearing",
+      "registration_number": "50060539",
+      "status": "MATCHED",
+      "official_name": "Chinese Gospel Church of Dublin /Hidden Hearing",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1842",
+      "archive_name": "Abbey Court",
+      "registration_number": "50060548",
+      "status": "MATCHED",
+      "official_name": "Abbey Court",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1843",
+      "archive_name": "Ormond Quay",
+      "registration_number": "50060549",
+      "status": "MATCHED",
+      "official_name": "Ormond Quay",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0297",
+      "archive_name": "Ha'penny Bridge/Liffey Bridge",
+      "registration_number": "50060550",
+      "status": "MATCHED",
+      "official_name": "Ha'penny Bridge/Liffey Bridge",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0298",
+      "archive_name": "O'Connell Bridge",
+      "registration_number": "50060552",
+      "status": "MATCHED",
+      "official_name": "O'Connell Bridge",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0299",
+      "archive_name": "Butt Bridge",
+      "registration_number": "50060554",
+      "status": "MATCHED",
+      "official_name": "Butt Bridge",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1844",
+      "archive_name": "Euro Store & More",
+      "registration_number": "50060562",
+      "status": "MATCHED",
+      "official_name": "Euro Store & More",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1845",
+      "archive_name": "Shanore House",
+      "registration_number": "50060564",
+      "status": "MATCHED",
+      "official_name": "Shanore House",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1846",
+      "archive_name": "The Tanning Dock",
+      "registration_number": "50060565",
+      "status": "MATCHED",
+      "official_name": "The Tanning Dock",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1847",
+      "archive_name": "Group Property Management",
+      "registration_number": "50060567",
+      "status": "MATCHED",
+      "official_name": "Group Property Management",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1848",
+      "archive_name": "Celtic Lodge",
+      "registration_number": "50060574",
+      "status": "MATCHED",
+      "official_name": "Celtic Lodge",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1849",
+      "archive_name": "Le Bon Crubeen/The Celt Bar",
+      "registration_number": "50060575",
+      "status": "MATCHED",
+      "official_name": "Le Bon Crubeen/The Celt Bar",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1850",
+      "archive_name": "Molloy's — house (NIAH 50060576)",
+      "registration_number": "50060576",
+      "status": "MATCHED",
+      "official_name": "Molloy's",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1851",
+      "archive_name": "Molloy's — house (NIAH 50060577)",
+      "registration_number": "50060577",
+      "status": "MATCHED",
+      "official_name": "Molloy's",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1852",
+      "archive_name": "Le Phare",
+      "registration_number": "50060580",
+      "status": "MATCHED",
+      "official_name": "Le Phare",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1853",
+      "archive_name": "Smith O'Brien Hegarty Solicitors / Aspire English Language Training",
+      "registration_number": "50060584",
+      "status": "MATCHED",
+      "official_name": "Smith O'Brien Hegarty Solicitors / Aspire English Language Training",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1854",
+      "archive_name": "VHI Healthcare",
+      "registration_number": "50060585",
+      "status": "MATCHED",
+      "official_name": "VHI Healthcare",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0300",
+      "archive_name": "Dublin Graving Dock",
+      "registration_number": "50060588",
+      "status": "MATCHED",
+      "official_name": "Dublin Graving Dock",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1855",
+      "archive_name": "Belvedere College",
+      "registration_number": "50060596",
+      "status": "MATCHED",
+      "official_name": "Belvedere College",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1856",
+      "archive_name": "Byrne Mausoleum",
+      "registration_number": "50060642",
+      "status": "MATCHED",
+      "official_name": "Byrne Mausoleum",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1857",
+      "archive_name": "ISI English Language School Dublin",
+      "registration_number": "50060654",
+      "status": "MATCHED",
+      "official_name": "ISI English Language School Dublin",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1858",
+      "archive_name": "Weir View",
+      "registration_number": "50060657",
+      "status": "MATCHED",
+      "official_name": "Weir View",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1859",
+      "archive_name": "Cycle Bike",
+      "registration_number": "50060659",
+      "status": "MATCHED",
+      "official_name": "Cycle Bike",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1860",
+      "archive_name": "Saint Mary's Abbey Chapter House",
+      "registration_number": "50060660",
+      "status": "MATCHED",
+      "official_name": "Saint Mary's Abbey Chapter House",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0301",
+      "archive_name": "McKee Barracks",
+      "registration_number": "50070001",
+      "status": "MATCHED",
+      "official_name": "McKee Barracks",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1861",
+      "archive_name": "Mayfield",
+      "registration_number": "50070003",
+      "status": "MATCHED",
+      "official_name": "Mayfield",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1862",
+      "archive_name": "John J. Hanlon",
+      "registration_number": "50070024",
+      "status": "MATCHED",
+      "official_name": "John J. Hanlon",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1863",
+      "archive_name": "Kirwan House",
+      "registration_number": "50070026",
+      "status": "MATCHED",
+      "official_name": "Kirwan House",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1864",
+      "archive_name": "Conolly Norman House",
+      "registration_number": "50070027",
+      "status": "MATCHED",
+      "official_name": "Conolly Norman House",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1865",
+      "archive_name": "Spiritan House",
+      "registration_number": "50070030",
+      "status": "MATCHED",
+      "official_name": "Spiritan House",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1866",
+      "archive_name": "Auburn Hill Terrace",
+      "registration_number": "50070037",
+      "status": "MATCHED",
+      "official_name": "Auburn Hill Terrace",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1867",
+      "archive_name": "Marlborough Terrace",
+      "registration_number": "50070038",
+      "status": "MATCHED",
+      "official_name": "Marlborough Terrace",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1868",
+      "archive_name": "Vincent T. Griffin Solicitor",
+      "registration_number": "50070041",
+      "status": "MATCHED",
+      "official_name": "Vincent T. Griffin Solicitor",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1869",
+      "archive_name": "Citywide Estate Agents",
+      "registration_number": "50070042",
+      "status": "MATCHED",
+      "official_name": "Citywide Estate Agents",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1870",
+      "archive_name": "Church of the Holy Family",
+      "registration_number": "50070046",
+      "status": "MATCHED",
+      "official_name": "Church of the Holy Family",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1871",
+      "archive_name": "Church of the Holy Family/Saint Joseph's Parish Office",
+      "registration_number": "50070047",
+      "status": "MATCHED",
+      "official_name": "Church of the Holy Family/Saint Joseph's Parish Office",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1872",
+      "archive_name": "Saint Gabriel's National School",
+      "registration_number": "50070055",
+      "status": "MATCHED",
+      "official_name": "Saint Gabriel's National School",
       "official_local_authority": "Dublin City Council",
       "official_county": "DUBLIN",
       "source_match_count": 1

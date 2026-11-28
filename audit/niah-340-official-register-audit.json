@@ -1,16 +1,16 @@
 {
   "audit_title": "CICAN Dublin — 340 NIAH registration-number audit",
-  "audited_at": "2026-11-28T14:01:27.754Z",
+  "audited_at": "2026-11-28T14:06:04.659Z",
   "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
   "source_description": "National Inventory of Architectural Heritage national CSV bulk download, Department of Housing, Local Government and Heritage; data.gov.ie resource metadata last updated 10 November 2026.",
   "source_row_count": 48327,
   "source_registration_number_field": "REG_NO",
   "source_local_authority_field": "LOCAL_AUTHORITY�",
   "source_county_field": "COUNTY",
-  "archive_record_count": 1738,
-  "unique_archive_reference_count": 1738,
+  "archive_record_count": 1938,
+  "unique_archive_reference_count": 1938,
   "counts": {
-    "MATCHED": 1738
+    "MATCHED": 1938
   },
   "all_records_matched": true,
   "results": [
@@ -17390,6 +17390,2006 @@
       "registration_number": "50011183",
       "status": "MATCHED",
       "official_name": "Temple Street Children's University Hospital",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1418",
+      "archive_name": "Rotunda Hospital",
+      "registration_number": "50011187",
+      "status": "MATCHED",
+      "official_name": "Rotunda Hospital",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1419",
+      "archive_name": "Convent of the Sisters of Charity",
+      "registration_number": "50011188",
+      "status": "MATCHED",
+      "official_name": "Convent of the Sisters of Charity",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1420",
+      "archive_name": "Toto Ristorante Italiano",
+      "registration_number": "50011189",
+      "status": "MATCHED",
+      "official_name": "Toto Ristorante Italiano",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1421",
+      "archive_name": "Temple Street Children's University Hospital — house (NIAH 50011196)",
+      "registration_number": "50011196",
+      "status": "MATCHED",
+      "official_name": "Temple Street Children's University Hospital",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1422",
+      "archive_name": "Regent House",
+      "registration_number": "50011198",
+      "status": "MATCHED",
+      "official_name": "Regent House",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1423",
+      "archive_name": "Linda's Hair Extension Studio",
+      "registration_number": "50011206",
+      "status": "MATCHED",
+      "official_name": "Linda's Hair Extension Studio",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1424",
+      "archive_name": "Temple Street Children's University Hospital — house (NIAH 50011214)",
+      "registration_number": "50011214",
+      "status": "MATCHED",
+      "official_name": "Temple Street Children's University Hospital",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0050",
+      "archive_name": "Custom House",
+      "registration_number": "50011215",
+      "status": "MATCHED",
+      "official_name": "Custom House",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1425",
+      "archive_name": "Rotunda Gardens",
+      "registration_number": "50011218",
+      "status": "MATCHED",
+      "official_name": "Rotunda Gardens",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1426",
+      "archive_name": "King's Inns — park",
+      "registration_number": "50011220",
+      "status": "MATCHED",
+      "official_name": "King's Inns",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1427",
+      "archive_name": "King's Inns — gate lodge",
+      "registration_number": "50011221",
+      "status": "MATCHED",
+      "official_name": "King's Inns",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1428",
+      "archive_name": "Sunlight Chambers",
+      "registration_number": "50020001",
+      "status": "MATCHED",
+      "official_name": "Sunlight Chambers",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1429",
+      "archive_name": "Di Fontaine's New York Pizzeria",
+      "registration_number": "50020002",
+      "status": "MATCHED",
+      "official_name": "Di Fontaine's New York Pizzeria",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1430",
+      "archive_name": "Oxfam Books",
+      "registration_number": "50020003",
+      "status": "MATCHED",
+      "official_name": "Oxfam Books",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1431",
+      "archive_name": "Ciao Bella Roma, The Bridge House — house (NIAH 50020004)",
+      "registration_number": "50020004",
+      "status": "MATCHED",
+      "official_name": "Ciao Bella Roma, The Bridge House",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1432",
+      "archive_name": "Ciao Bella Roma, The Bridge House — house (NIAH 50020005)",
+      "registration_number": "50020005",
+      "status": "MATCHED",
+      "official_name": "Ciao Bella Roma, The Bridge House",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1433",
+      "archive_name": "Memories Bridal Boutique Dublin",
+      "registration_number": "50020008",
+      "status": "MATCHED",
+      "official_name": "Memories Bridal Boutique Dublin",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1434",
+      "archive_name": "The Porter House",
+      "registration_number": "50020009",
+      "status": "MATCHED",
+      "official_name": "The Porter House",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1435",
+      "archive_name": "Turks Head Chop House / Paramount Hotel",
+      "registration_number": "50020011",
+      "status": "MATCHED",
+      "official_name": "Turks Head Chop House / Paramount Hotel",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1436",
+      "archive_name": "The Front Lounge",
+      "registration_number": "50020014",
+      "status": "MATCHED",
+      "official_name": "The Front Lounge",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1437",
+      "archive_name": "Subway",
+      "registration_number": "50020015",
+      "status": "MATCHED",
+      "official_name": "Subway",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1438",
+      "archive_name": "itdirect",
+      "registration_number": "50020016",
+      "status": "MATCHED",
+      "official_name": "itdirect",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1439",
+      "archive_name": "Cafe Topolis",
+      "registration_number": "50020017",
+      "status": "MATCHED",
+      "official_name": "Cafe Topolis",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1440",
+      "archive_name": "Crests and Arms",
+      "registration_number": "50020018",
+      "status": "MATCHED",
+      "official_name": "Crests and Arms",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1441",
+      "archive_name": "Queen of Tarts",
+      "registration_number": "50020019",
+      "status": "MATCHED",
+      "official_name": "Queen of Tarts",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1442",
+      "archive_name": "Toscana",
+      "registration_number": "50020020",
+      "status": "MATCHED",
+      "official_name": "Toscana",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1443",
+      "archive_name": "Fiorentina",
+      "registration_number": "50020021",
+      "status": "MATCHED",
+      "official_name": "Fiorentina",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1444",
+      "archive_name": "Mezza",
+      "registration_number": "50020022",
+      "status": "MATCHED",
+      "official_name": "Mezza",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1445",
+      "archive_name": "Corfu",
+      "registration_number": "50020023",
+      "status": "MATCHED",
+      "official_name": "Corfu",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1446",
+      "archive_name": "Parliament Street Medical Practice",
+      "registration_number": "50020024",
+      "status": "MATCHED",
+      "official_name": "Parliament Street Medical Practice",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1447",
+      "archive_name": "The Larder",
+      "registration_number": "50020027",
+      "status": "MATCHED",
+      "official_name": "The Larder",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1448",
+      "archive_name": "Whetstone Hairdressing Ltd",
+      "registration_number": "50020028",
+      "status": "MATCHED",
+      "official_name": "Whetstone Hairdressing Ltd",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1449",
+      "archive_name": "Papa Pizzeria II",
+      "registration_number": "50020029",
+      "status": "MATCHED",
+      "official_name": "Papa Pizzeria II",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1450",
+      "archive_name": "Reinkarnation",
+      "registration_number": "50020030",
+      "status": "MATCHED",
+      "official_name": "Reinkarnation",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1451",
+      "archive_name": "Thomas Read and Company",
+      "registration_number": "50020031",
+      "status": "MATCHED",
+      "official_name": "Thomas Read and Company",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1452",
+      "archive_name": "Thomas Read",
+      "registration_number": "50020032",
+      "status": "MATCHED",
+      "official_name": "Thomas Read",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1453",
+      "archive_name": "The Clarence Hotel",
+      "registration_number": "50020034",
+      "status": "MATCHED",
+      "official_name": "The Clarence Hotel",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1454",
+      "archive_name": "The Workman's Club — house (NIAH 50020035)",
+      "registration_number": "50020035",
+      "status": "MATCHED",
+      "official_name": "The Workman's Club",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1455",
+      "archive_name": "The Workman's Club — house (NIAH 50020036)",
+      "registration_number": "50020036",
+      "status": "MATCHED",
+      "official_name": "The Workman's Club",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1456",
+      "archive_name": "Bison Bar",
+      "registration_number": "50020037",
+      "status": "MATCHED",
+      "official_name": "Bison Bar",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1457",
+      "archive_name": "The Picture Rooms",
+      "registration_number": "50020038",
+      "status": "MATCHED",
+      "official_name": "The Picture Rooms",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1458",
+      "archive_name": "Dolphin House",
+      "registration_number": "50020049",
+      "status": "MATCHED",
+      "official_name": "Dolphin House",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1459",
+      "archive_name": "Dublin Theatre Festival",
+      "registration_number": "50020051",
+      "status": "MATCHED",
+      "official_name": "Dublin Theatre Festival",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1460",
+      "archive_name": "Connolly Books/The New Theatre",
+      "registration_number": "50020052",
+      "status": "MATCHED",
+      "official_name": "Connolly Books/The New Theatre",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1461",
+      "archive_name": "Project Arts Centre",
+      "registration_number": "50020053",
+      "status": "MATCHED",
+      "official_name": "Project Arts Centre",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1462",
+      "archive_name": "Bad Bobs",
+      "registration_number": "50020054",
+      "status": "MATCHED",
+      "official_name": "Bad Bobs",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1463",
+      "archive_name": "The Olympia Theatre — house (NIAH 50020056)",
+      "registration_number": "50020056",
+      "status": "MATCHED",
+      "official_name": "The Olympia Theatre",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1464",
+      "archive_name": "The Oak",
+      "registration_number": "50020057",
+      "status": "MATCHED",
+      "official_name": "The Oak",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1465",
+      "archive_name": "Fogarty Lock and Safe Company",
+      "registration_number": "50020058",
+      "status": "MATCHED",
+      "official_name": "Fogarty Lock and Safe Company",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1466",
+      "archive_name": "Hackett's Bookmakers",
+      "registration_number": "50020059",
+      "status": "MATCHED",
+      "official_name": "Hackett's Bookmakers",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1467",
+      "archive_name": "Eddie Rocket's City Diner",
+      "registration_number": "50020061",
+      "status": "MATCHED",
+      "official_name": "Eddie Rocket's City Diner",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1468",
+      "archive_name": "Brogan's Bar",
+      "registration_number": "50020063",
+      "status": "MATCHED",
+      "official_name": "Brogan's Bar",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1469",
+      "archive_name": "Les Freres Jacques",
+      "registration_number": "50020064",
+      "status": "MATCHED",
+      "official_name": "Les Freres Jacques",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1470",
+      "archive_name": "The Olympia Theatre — house (NIAH 50020065)",
+      "registration_number": "50020065",
+      "status": "MATCHED",
+      "official_name": "The Olympia Theatre ",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1471",
+      "archive_name": "Beshoff Brothers",
+      "registration_number": "50020066",
+      "status": "MATCHED",
+      "official_name": "Beshoff Brothers",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1472",
+      "archive_name": "Focus Ireland — house (NIAH 50020068)",
+      "registration_number": "50020068",
+      "status": "MATCHED",
+      "official_name": "Focus Ireland",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1473",
+      "archive_name": "Pinxto",
+      "registration_number": "50020070",
+      "status": "MATCHED",
+      "official_name": "Pinxto",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1474",
+      "archive_name": "Folkster",
+      "registration_number": "50020073",
+      "status": "MATCHED",
+      "official_name": "Folkster",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1475",
+      "archive_name": "The Merchant House / Basic Instinct",
+      "registration_number": "50020074",
+      "status": "MATCHED",
+      "official_name": "The Merchant House / Basic Instinct",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1476",
+      "archive_name": "Super Thai Massage / Internet & Call Centre",
+      "registration_number": "50020075",
+      "status": "MATCHED",
+      "official_name": "Super Thai Massage / Internet & Call Centre",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1477",
+      "archive_name": "Irish Film Institute",
+      "registration_number": "50020076",
+      "status": "MATCHED",
+      "official_name": "Irish Film Institute",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1478",
+      "archive_name": "Friends Meeting House / Paul Ryan Music / Eustace Street Buildings",
+      "registration_number": "50020077",
+      "status": "MATCHED",
+      "official_name": "Friends Meeting House / Paul Ryan Music / Eustace Street Buildings",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1479",
+      "archive_name": "Sin",
+      "registration_number": "50020080",
+      "status": "MATCHED",
+      "official_name": "Sin",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1480",
+      "archive_name": "Beirut Express / Falafel Lounge",
+      "registration_number": "50020083",
+      "status": "MATCHED",
+      "official_name": "Beirut Express / Falafel Lounge",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1481",
+      "archive_name": "Cheng Hair Salon",
+      "registration_number": "50020084",
+      "status": "MATCHED",
+      "official_name": "Cheng Hair Salon",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1482",
+      "archive_name": "Abrakebabra",
+      "registration_number": "50020085",
+      "status": "MATCHED",
+      "official_name": "Abrakebabra",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1483",
+      "archive_name": "Peadar Kearney's Pub",
+      "registration_number": "50020087",
+      "status": "MATCHED",
+      "official_name": "Peadar Kearney's Pub",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1484",
+      "archive_name": "Stir Crazy / Sub City",
+      "registration_number": "50020088",
+      "status": "MATCHED",
+      "official_name": "Stir Crazy / Sub City",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1485",
+      "archive_name": "Crackbird / Mr Simms Olde Sweet Shoppe",
+      "registration_number": "50020089",
+      "status": "MATCHED",
+      "official_name": "Crackbird / Mr Simms Olde Sweet Shoppe ",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1486",
+      "archive_name": "Temple Bar Medical Centre",
+      "registration_number": "50020091",
+      "status": "MATCHED",
+      "official_name": "Temple Bar Medical Centre",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1487",
+      "archive_name": "Dillons Hair Salon",
+      "registration_number": "50020093",
+      "status": "MATCHED",
+      "official_name": "Dillons Hair Salon",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1488",
+      "archive_name": "Clone Computer Repairs",
+      "registration_number": "50020095",
+      "status": "MATCHED",
+      "official_name": "Clone Computer Repairs",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1489",
+      "archive_name": "Temple Bar Opticians / Grants/ Mai Thai Massage",
+      "registration_number": "50020096",
+      "status": "MATCHED",
+      "official_name": "Temple Bar Opticians / Grants/ Mai Thai Massage",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1490",
+      "archive_name": "Mexico to Rome",
+      "registration_number": "50020100",
+      "status": "MATCHED",
+      "official_name": "Mexico to Rome",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1491",
+      "archive_name": "The Norseman",
+      "registration_number": "50020101",
+      "status": "MATCHED",
+      "official_name": "The Norseman",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1492",
+      "archive_name": "Brick Alley Cafe",
+      "registration_number": "50020102",
+      "status": "MATCHED",
+      "official_name": "Brick Alley Cafe",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1493",
+      "archive_name": "The Shack Restaurant",
+      "registration_number": "50020103",
+      "status": "MATCHED",
+      "official_name": "The Shack Restaurant",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1494",
+      "archive_name": "Focus Ireland — house (NIAH 50020104)",
+      "registration_number": "50020104",
+      "status": "MATCHED",
+      "official_name": "Focus Ireland",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1495",
+      "archive_name": "Irish Theatre Institute",
+      "registration_number": "50020106",
+      "status": "MATCHED",
+      "official_name": "Irish Theatre Institute",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1496",
+      "archive_name": "Geopal",
+      "registration_number": "50020108",
+      "status": "MATCHED",
+      "official_name": "Geopal",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1497",
+      "archive_name": "Temple Lane Studios",
+      "registration_number": "50020109",
+      "status": "MATCHED",
+      "official_name": "Temple Lane Studios",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1498",
+      "archive_name": "The Temple Bar — house (NIAH 50020110)",
+      "registration_number": "50020110",
+      "status": "MATCHED",
+      "official_name": "The Temple Bar",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1499",
+      "archive_name": "The Temple Bar — house (NIAH 50020111)",
+      "registration_number": "50020111",
+      "status": "MATCHED",
+      "official_name": "The Temple Bar",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1500",
+      "archive_name": "Oysters at the Temple Bar Trading Company/ The Temple Bar Trading Company / The Locksmith Apartments",
+      "registration_number": "50020112",
+      "status": "MATCHED",
+      "official_name": "Oysters at the Temple Bar Trading Company/ The Temple Bar Trading Company / The Locksmith Apartments",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1501",
+      "archive_name": "McDonalds",
+      "registration_number": "50020113",
+      "status": "MATCHED",
+      "official_name": "McDonalds",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1502",
+      "archive_name": "Urban Outfitters",
+      "registration_number": "50020116",
+      "status": "MATCHED",
+      "official_name": "Urban Outfitters",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1503",
+      "archive_name": "Filmbase",
+      "registration_number": "50020117",
+      "status": "MATCHED",
+      "official_name": "Filmbase",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1504",
+      "archive_name": "The Hub / The Mezz",
+      "registration_number": "50020118",
+      "status": "MATCHED",
+      "official_name": "The Hub / The Mezz",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1505",
+      "archive_name": "River House Hotel",
+      "registration_number": "50020119",
+      "status": "MATCHED",
+      "official_name": "River House Hotel",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1506",
+      "archive_name": "Irish Landmark Trust",
+      "registration_number": "50020120",
+      "status": "MATCHED",
+      "official_name": "Irish Landmark Trust",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1507",
+      "archive_name": "GPS Travel",
+      "registration_number": "50020121",
+      "status": "MATCHED",
+      "official_name": "GPS Travel",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1508",
+      "archive_name": "Glycine Temple Bar Jewellery",
+      "registration_number": "50020122",
+      "status": "MATCHED",
+      "official_name": "Glycine Temple Bar Jewellery",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1509",
+      "archive_name": "Montys of Kathmandu",
+      "registration_number": "50020123",
+      "status": "MATCHED",
+      "official_name": "Montys of Kathmandu",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1510",
+      "archive_name": "Apache Hostel",
+      "registration_number": "50020124",
+      "status": "MATCHED",
+      "official_name": "Apache Hostel",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1511",
+      "archive_name": "Melt",
+      "registration_number": "50020126",
+      "status": "MATCHED",
+      "official_name": "Melt",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1512",
+      "archive_name": "KC Peaches — shop/retail outlet (NIAH 50020127)",
+      "registration_number": "50020127",
+      "status": "MATCHED",
+      "official_name": "KC Peaches",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1513",
+      "archive_name": "Club Lapello",
+      "registration_number": "50020130",
+      "status": "MATCHED",
+      "official_name": "Club Lapello",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1514",
+      "archive_name": "KC Peaches — shop/retail outlet (NIAH 50020131)",
+      "registration_number": "50020131",
+      "status": "MATCHED",
+      "official_name": "KC Peaches",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1515",
+      "archive_name": "Beards & Barnets / Shotsy",
+      "registration_number": "50020133",
+      "status": "MATCHED",
+      "official_name": "Beards & Barnets / Shotsy",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1516",
+      "archive_name": "Square Wheels Cycleworks / Shan Indian Restaurant",
+      "registration_number": "50020134",
+      "status": "MATCHED",
+      "official_name": "Square Wheels Cycleworks / Shan Indian Restaurant",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1517",
+      "archive_name": "Shan Restaurant / Irish Film Academy",
+      "registration_number": "50020135",
+      "status": "MATCHED",
+      "official_name": "Shan Restaurant / Irish Film Academy",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1518",
+      "archive_name": "Linda Joyce's Hair Temple",
+      "registration_number": "50020137",
+      "status": "MATCHED",
+      "official_name": "Linda Joyce's Hair Temple",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1519",
+      "archive_name": "Crow Street Bazaar / Cafe Italiano",
+      "registration_number": "50020138",
+      "status": "MATCHED",
+      "official_name": "Crow Street Bazaar / Cafe Italiano",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1520",
+      "archive_name": "Shan Indian Cuisine / Printing and Photocopying Service",
+      "registration_number": "50020139",
+      "status": "MATCHED",
+      "official_name": "Shan Indian Cuisine / Printing and Photocopying Service",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1521",
+      "archive_name": "Anthony Murray Hair and Beauty Group",
+      "registration_number": "50020140",
+      "status": "MATCHED",
+      "official_name": "Anthony Murray Hair and Beauty Group",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1522",
+      "archive_name": "Akina Beauty and Laser Clinic",
+      "registration_number": "50020142",
+      "status": "MATCHED",
+      "official_name": "Akina Beauty and Laser Clinic",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1523",
+      "archive_name": "Nico's",
+      "registration_number": "50020143",
+      "status": "MATCHED",
+      "official_name": "Nico's",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1524",
+      "archive_name": "Bobo's",
+      "registration_number": "50020145",
+      "status": "MATCHED",
+      "official_name": "Bobo's",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1525",
+      "archive_name": "Trinity Bar",
+      "registration_number": "50020147",
+      "status": "MATCHED",
+      "official_name": "Trinity Bar",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1526",
+      "archive_name": "Flip / Helter Skelter",
+      "registration_number": "50020149",
+      "status": "MATCHED",
+      "official_name": "Flip / Helter Skelter",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1527",
+      "archive_name": "Ray's",
+      "registration_number": "50020151",
+      "status": "MATCHED",
+      "official_name": "Ray's",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1528",
+      "archive_name": "The Foggy Dew",
+      "registration_number": "50020152",
+      "status": "MATCHED",
+      "official_name": "The Foggy Dew",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1529",
+      "archive_name": "The Ha'penny Bridge Inn",
+      "registration_number": "50020154",
+      "status": "MATCHED",
+      "official_name": "The Ha'penny Bridge Inn",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1530",
+      "archive_name": "The Merchants' Arch",
+      "registration_number": "50020156",
+      "status": "MATCHED",
+      "official_name": "The Merchants' Arch ",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1531",
+      "archive_name": "Elephant & Castle / Boxty / Pablo Picante / Abrakebabra",
+      "registration_number": "50020166",
+      "status": "MATCHED",
+      "official_name": "Elephant & Castle / Boxty / Pablo Picante / Abrakebabra",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1532",
+      "archive_name": "John J. Cooke & Co. Ltd.",
+      "registration_number": "50020171",
+      "status": "MATCHED",
+      "official_name": "John J. Cooke & Co. Ltd.",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1533",
+      "archive_name": "Bedford Stuy Temple Bar Barbers",
+      "registration_number": "50020172",
+      "status": "MATCHED",
+      "official_name": "Bedford Stuy Temple Bar Barbers",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1534",
+      "archive_name": "Crown Alley Telephone Exchange",
+      "registration_number": "50020176",
+      "status": "MATCHED",
+      "official_name": "Crown Alley Telephone Exchange",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1535",
+      "archive_name": "Leo Burdocks / The Old Storehouse",
+      "registration_number": "50020178",
+      "status": "MATCHED",
+      "official_name": "Leo Burdocks / The Old Storehouse",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1536",
+      "archive_name": "Fresh — house (NIAH 50020180)",
+      "registration_number": "50020180",
+      "status": "MATCHED",
+      "official_name": "Fresh",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1537",
+      "archive_name": "Fresh — house (NIAH 50020181)",
+      "registration_number": "50020181",
+      "status": "MATCHED",
+      "official_name": "Fresh",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1538",
+      "archive_name": "Pho Ta",
+      "registration_number": "50020182",
+      "status": "MATCHED",
+      "official_name": "Pho Ta",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1539",
+      "archive_name": "Graphic Studio Gallery",
+      "registration_number": "50020184",
+      "status": "MATCHED",
+      "official_name": "Graphic Studio Gallery",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1540",
+      "archive_name": "The Auld Dubliner",
+      "registration_number": "50020187",
+      "status": "MATCHED",
+      "official_name": "The Auld Dubliner",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1541",
+      "archive_name": "The Dread Shop",
+      "registration_number": "50020188",
+      "status": "MATCHED",
+      "official_name": "The Dread Shop ",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1542",
+      "archive_name": "Temple Bar House of Horrors",
+      "registration_number": "50020190",
+      "status": "MATCHED",
+      "official_name": "Temple Bar House of Horrors",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1543",
+      "archive_name": "Mongolian Barbeque",
+      "registration_number": "50020193",
+      "status": "MATCHED",
+      "official_name": "Mongolian Barbeque",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1544",
+      "archive_name": "Ladbrokes",
+      "registration_number": "50020198",
+      "status": "MATCHED",
+      "official_name": "Ladbrokes",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1545",
+      "archive_name": "McKenna Distributors",
+      "registration_number": "50020199",
+      "status": "MATCHED",
+      "official_name": "McKenna Distributors",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1546",
+      "archive_name": "Blucaffe — shop/retail outlet (NIAH 50020200)",
+      "registration_number": "50020200",
+      "status": "MATCHED",
+      "official_name": "Blucaffe",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1547",
+      "archive_name": "Blucaffe — shop/retail outlet (NIAH 50020201)",
+      "registration_number": "50020201",
+      "status": "MATCHED",
+      "official_name": "Blucaffe",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1548",
+      "archive_name": "Gypsy Rose",
+      "registration_number": "50020202",
+      "status": "MATCHED",
+      "official_name": "Gypsy Rose",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1549",
+      "archive_name": "The Dublin Barber Shop",
+      "registration_number": "50020204",
+      "status": "MATCHED",
+      "official_name": "The Dublin Barber Shop",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1550",
+      "archive_name": "Advance Hearing",
+      "registration_number": "50020205",
+      "status": "MATCHED",
+      "official_name": "Advance Hearing",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1551",
+      "archive_name": "Temple Bar Laundry and Dry Cleaners",
+      "registration_number": "50020206",
+      "status": "MATCHED",
+      "official_name": "Temple Bar Laundry and Dry Cleaners",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1552",
+      "archive_name": "ESB Central Distributing Station",
+      "registration_number": "50020207",
+      "status": "MATCHED",
+      "official_name": "ESB Central Distributing Station",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1553",
+      "archive_name": "Nasi N Mee",
+      "registration_number": "50020210",
+      "status": "MATCHED",
+      "official_name": "Nasi N Mee",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1554",
+      "archive_name": "Paddy Power",
+      "registration_number": "50020211",
+      "status": "MATCHED",
+      "official_name": "Paddy Power",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1555",
+      "archive_name": "Book Value",
+      "registration_number": "50020215",
+      "status": "MATCHED",
+      "official_name": "Book Value",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1556",
+      "archive_name": "KFC",
+      "registration_number": "50020216",
+      "status": "MATCHED",
+      "official_name": "KFC",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1557",
+      "archive_name": "Carroll's Irish Gifts",
+      "registration_number": "50020217",
+      "status": "MATCHED",
+      "official_name": "Carroll's Irish Gifts",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1558",
+      "archive_name": "Supermac's / Papa John's Pizza",
+      "registration_number": "50020218",
+      "status": "MATCHED",
+      "official_name": "Supermac's / Papa John's Pizza",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1559",
+      "archive_name": "Entertainment Exchange / Waldorf Barbers",
+      "registration_number": "50020219",
+      "status": "MATCHED",
+      "official_name": "Entertainment Exchange / Waldorf Barbers",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1560",
+      "archive_name": "The Palace Bar",
+      "registration_number": "50020224",
+      "status": "MATCHED",
+      "official_name": "The Palace Bar",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1561",
+      "archive_name": "Colemans",
+      "registration_number": "50020225",
+      "status": "MATCHED",
+      "official_name": "Colemans",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1562",
+      "archive_name": "Thomas J. Coleman and Co. Ltd.",
+      "registration_number": "50020226",
+      "status": "MATCHED",
+      "official_name": "Thomas J. Coleman and Co. Ltd.",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1563",
+      "archive_name": "Oliver St John Gogarty's",
+      "registration_number": "50020228",
+      "status": "MATCHED",
+      "official_name": "Oliver St John Gogarty's",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1564",
+      "archive_name": "Oliver St. John Gogarty's",
+      "registration_number": "50020230",
+      "status": "MATCHED",
+      "official_name": "Oliver St. John Gogarty's",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1565",
+      "archive_name": "O'Shea's Irish Restaurant",
+      "registration_number": "50020231",
+      "status": "MATCHED",
+      "official_name": "O'Shea's Irish Restaurant",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1566",
+      "archive_name": "Irish Stock Exchange",
+      "registration_number": "50020233",
+      "status": "MATCHED",
+      "official_name": "Irish Stock Exchange",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1567",
+      "archive_name": "Thai Orchid",
+      "registration_number": "50020244",
+      "status": "MATCHED",
+      "official_name": "Thai Orchid",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1568",
+      "archive_name": "BoyleSports.com",
+      "registration_number": "50020245",
+      "status": "MATCHED",
+      "official_name": "BoyleSports.com",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1569",
+      "archive_name": "Amusement City Casino / Claddagh Records / The Cartridge Shop / Temple Express Newsagents",
+      "registration_number": "50020246",
+      "status": "MATCHED",
+      "official_name": "Amusement City Casino / Claddagh Records / The Cartridge Shop / Temple Express Newsagents",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1570",
+      "archive_name": "O'Brien's / Fexco",
+      "registration_number": "50020249",
+      "status": "MATCHED",
+      "official_name": "O'Brien's / Fexco",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1571",
+      "archive_name": "Cassidy's",
+      "registration_number": "50020261",
+      "status": "MATCHED",
+      "official_name": "Cassidy's",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1572",
+      "archive_name": "Charlies 3",
+      "registration_number": "50020263",
+      "status": "MATCHED",
+      "official_name": "Charlies 3",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1573",
+      "archive_name": "Westin Hotel — bank/financial institution (NIAH 50020266)",
+      "registration_number": "50020266",
+      "status": "MATCHED",
+      "official_name": "Westin Hotel",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1574",
+      "archive_name": "Westin Hotel — bank/financial institution (NIAH 50020268)",
+      "registration_number": "50020268",
+      "status": "MATCHED",
+      "official_name": "Westin Hotel",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1575",
+      "archive_name": "Bowe's",
+      "registration_number": "50020269",
+      "status": "MATCHED",
+      "official_name": "Bowe's ",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1576",
+      "archive_name": "Doyle's — house (NIAH 50020272)",
+      "registration_number": "50020272",
+      "status": "MATCHED",
+      "official_name": "Doyle's",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1577",
+      "archive_name": "Irish Yeast Company",
+      "registration_number": "50020273",
+      "status": "MATCHED",
+      "official_name": "Irish Yeast Company",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1578",
+      "archive_name": "The Barber's",
+      "registration_number": "50020274",
+      "status": "MATCHED",
+      "official_name": "The Barber's",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1579",
+      "archive_name": "The Times",
+      "registration_number": "50020275",
+      "status": "MATCHED",
+      "official_name": "The Times ",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1580",
+      "archive_name": "Doyle's — house (NIAH 50020276)",
+      "registration_number": "50020276",
+      "status": "MATCHED",
+      "official_name": "Doyle's",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1581",
+      "archive_name": "J. W. Sweetman — house (NIAH 50020277)",
+      "registration_number": "50020277",
+      "status": "MATCHED",
+      "official_name": "J. W. Sweetman ",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1582",
+      "archive_name": "J. W. Sweetman — house (NIAH 50020278)",
+      "registration_number": "50020278",
+      "status": "MATCHED",
+      "official_name": "J. W. Sweetman ",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1583",
+      "archive_name": "The Happy Shop News Agents",
+      "registration_number": "50020280",
+      "status": "MATCHED",
+      "official_name": "The Happy Shop News Agents",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0042",
+      "archive_name": "Sheahan Memorial",
+      "registration_number": "50020293",
+      "status": "MATCHED",
+      "official_name": "Sheahan Memorial",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1584",
+      "archive_name": "Birmingham Cameras",
+      "registration_number": "50020296",
+      "status": "MATCHED",
+      "official_name": "Birmingham Cameras\t",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1585",
+      "archive_name": "Jaffa Deli/ Speedy India Ireland/ Visa Care Global",
+      "registration_number": "50020297",
+      "status": "MATCHED",
+      "official_name": "Jaffa Deli/ Speedy India Ireland/ Visa Care Global",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1586",
+      "archive_name": "English Language Tutorial Academy",
+      "registration_number": "50020298",
+      "status": "MATCHED",
+      "official_name": "English Language Tutorial Academy",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1587",
+      "archive_name": "Corn Exchange",
+      "registration_number": "50020299",
+      "status": "MATCHED",
+      "official_name": "Corn Exchange",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1588",
+      "archive_name": "Irish Naturalisation and Immigration Board",
+      "registration_number": "50020300",
+      "status": "MATCHED",
+      "official_name": "Irish Naturalisation and Immigration Board",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1589",
+      "archive_name": "John Mulligan",
+      "registration_number": "50020306",
+      "status": "MATCHED",
+      "official_name": "John Mulligan",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1590",
+      "archive_name": "Pearse Street Garda Station",
+      "registration_number": "50020309",
+      "status": "MATCHED",
+      "official_name": "Pearse Street Garda Station",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1591",
+      "archive_name": "Trinity City Hotel — house (NIAH 50020322)",
+      "registration_number": "50020322",
+      "status": "MATCHED",
+      "official_name": "Trinity City Hotel",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1592",
+      "archive_name": "Trinity City Hotel — house (NIAH 50020323)",
+      "registration_number": "50020323",
+      "status": "MATCHED",
+      "official_name": "Trinity City Hotel",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1593",
+      "archive_name": "Trinity City Hotel — house (NIAH 50020324)",
+      "registration_number": "50020324",
+      "status": "MATCHED",
+      "official_name": "Trinity City Hotel",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1594",
+      "archive_name": "Trinity City Hotel — house (NIAH 50020325)",
+      "registration_number": "50020325",
+      "status": "MATCHED",
+      "official_name": "Trinity City Hotel",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1595",
+      "archive_name": "The Light House",
+      "registration_number": "50020327",
+      "status": "MATCHED",
+      "official_name": "The Light House",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1596",
+      "archive_name": "Sweeney O'Rourke Catering Equipment",
+      "registration_number": "50020330",
+      "status": "MATCHED",
+      "official_name": "Sweeney O'Rourke Catering Equipment",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1597",
+      "archive_name": "World Travel Centre",
+      "registration_number": "50020331",
+      "status": "MATCHED",
+      "official_name": "World Travel Centre",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0051",
+      "archive_name": "Church of the Immaculate Heart of Mary — gates/railings/walls",
+      "registration_number": "50020338",
+      "status": "MATCHED",
+      "official_name": "Church of the Immaculate Heart of Mary",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1598",
+      "archive_name": "Church of the Immaculate Heart of Mary — church/chapel",
+      "registration_number": "50020339",
+      "status": "MATCHED",
+      "official_name": "Church of the Immaculate Heart of Mary",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1599",
+      "archive_name": "The Trinity Inn",
+      "registration_number": "50020348",
+      "status": "MATCHED",
+      "official_name": "The Trinity Inn",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1600",
+      "archive_name": "Countess Markiewicz House",
+      "registration_number": "50020350",
+      "status": "MATCHED",
+      "official_name": "Countess Markiewicz House",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1601",
+      "archive_name": "Saint Mark's Church",
+      "registration_number": "50020352",
+      "status": "MATCHED",
+      "official_name": "Saint Mark's Church",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1602",
+      "archive_name": "The Academy",
+      "registration_number": "50020353",
+      "status": "MATCHED",
+      "official_name": "The Academy",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1603",
+      "archive_name": "The Windjammer",
+      "registration_number": "50020360",
+      "status": "MATCHED",
+      "official_name": "The Windjammer",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1604",
+      "archive_name": "O'Donovan",
+      "registration_number": "50020368",
+      "status": "MATCHED",
+      "official_name": "O'Donovan",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1605",
+      "archive_name": "Thomas Moore Statue",
+      "registration_number": "50020371",
+      "status": "MATCHED",
+      "official_name": "Thomas Moore Statue",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1606",
+      "archive_name": "Oliver Goldsmith Statue",
+      "registration_number": "50020375",
+      "status": "MATCHED",
+      "official_name": "Oliver Goldsmith Statue",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1607",
+      "archive_name": "Trinity College",
+      "registration_number": "50020376",
+      "status": "MATCHED",
+      "official_name": "Trinity College",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1608",
+      "archive_name": "Steward's House",
+      "registration_number": "50020377",
+      "status": "MATCHED",
+      "official_name": "Steward's House ",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1609",
+      "archive_name": "Dining Hall",
+      "registration_number": "50020378",
+      "status": "MATCHED",
+      "official_name": "Dining Hall",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1610",
+      "archive_name": "Chapel",
+      "registration_number": "50020379",
+      "status": "MATCHED",
+      "official_name": "Chapel",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1611",
+      "archive_name": "TRIARC",
+      "registration_number": "50020382",
+      "status": "MATCHED",
+      "official_name": "TRIARC",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1612",
+      "archive_name": "Botany Bay — hall of residence (NIAH 50020383)",
+      "registration_number": "50020383",
+      "status": "MATCHED",
+      "official_name": "Botany Bay",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1613",
+      "archive_name": "Graduates Memorial Building",
+      "registration_number": "50020384",
+      "status": "MATCHED",
+      "official_name": "Graduates Memorial Building",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-1614",
+      "archive_name": "Botany Bay — hall of residence (NIAH 50020385)",
+      "registration_number": "50020385",
+      "status": "MATCHED",
+      "official_name": "Botany Bay",
       "official_local_authority": "Dublin City Council",
       "official_county": "DUBLIN",
       "source_match_count": 1

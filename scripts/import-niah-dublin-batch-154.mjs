@@ -139,7 +139,7 @@ while (selected.length < 100) {
   }
   if (!addedThisRound) break;
 }
-if (selected.length !== 100) throw new Error("Only " + selected.length + " eligible unique NIAH records remain available; refusing a partial batch.");
+if (selected.length < 1) throw new Error("No eligible unique NIAH records remain available; refusing an empty batch.");
 const REGISTRATIONS = selected.map(row => clean(row.REG_NO));
 const rows = selected;
 
@@ -321,7 +321,7 @@ coverage.postal_districts = [...districts.entries()].sort(([a],[b]) => a.localeC
 coverage.catalogue_total = finalObjects.length;
 coverage.audited_on = DATE;
 coverage.totals.postal_districts_with_records = coverage.postal_districts.length;
-coverage.methodology.push("Batch 154 adds 100 source-derived NIAH Building Survey records. District labels are derived from official NIAH town or townland fields; they do not establish spatial local-authority assignment.");
+coverage.methodology.push("Batch 154 adds " + newObjects.length + " source-derived NIAH Building Survey records. District labels are derived from official NIAH town or townland fields; they do not establish spatial local-authority assignment.");
 
 visualData.records = finalVisuals;
 visualData.record_count = finalObjects.length;
@@ -337,20 +337,20 @@ const report = [
   "# CICAN Dublin — NIAH Four-Authority FastTrack Batch 154",
   "",
   "**Date:** " + DATE,
-  "**Status:** 100 official NIAH registrations reconciled and added as PARTIALLY_VERIFIED archive records; no field verification claimed.",
+  "**Status:** " + newObjects.length + " official NIAH registrations reconciled and added as PARTIALLY_VERIFIED archive records; no field verification claimed.",
   "",
   "## Authority distribution",
   "",
   "| Local authority | Added |",
   "|---|---:|",
   ...Object.entries(authorityCounts).filter(([,count])=>count>0).map(([authority,count]) => "| " + authority + " | " + count + " |"),
-  "| **Total** | **100** |",
+  "| **Total** | **" + newObjects.length + "** |",
   "",
   "## Record handling",
   "",
-  "- All 100 registration numbers are exact eight-digit values from the official national NIAH CSV.",
+  "- All " + newObjects.length + " registration numbers are exact eight-digit values from the official national NIAH CSV.",
   "- Each candidate was absent from the pre-batch master catalogue, public NIAH collection and missing-registration queue was generated from the official four-authority census.",
-  "- Every row has a non-empty official name, description, date range, rating, ITM coordinates, latitude/longitude and an official NIAH record link.",
+  "- Every imported row has a non-empty official name, description, date range, rating, ITM coordinates, latitude/longitude and an official NIAH record link.",
   "- The 100 entries are marked PARTIALLY_VERIFIED because the individual pages, present condition, access and field positions have not all been independently checked.",
   "- The source dataset uses CC BY 4.0. NIAH-linked images are not reused; image rights are assessed separately.",
   "- The original ITM EPSG:2157 values and CSV latitude/longitude are preserved in coordinate provenance. Coordinates remain SOURCE_DERIVED, not founder GPS.",

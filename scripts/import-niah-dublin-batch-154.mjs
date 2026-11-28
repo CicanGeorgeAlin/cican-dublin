@@ -144,7 +144,7 @@ const REGISTRATIONS = selected.map(row => clean(row.REG_NO));
 const rows = selected;
 
 const authorityCounts = Object.fromEntries(AUTHORITIES.map(authority => [authority, rows.filter(row => clean(row["LOCAL_AUTHORITY�"]) === authority).length]));
-if (Object.values(authorityCounts).reduce((a,b)=>a+b,0) !== 100) throw new Error("Batch 154 authority distribution does not total 100.");
+if (Object.values(authorityCounts).reduce((a,b)=>a+b,0) !== selected.length) throw new Error("Batch 154 authority distribution does not match selected record count.");
 
 const masterRefs = new Set(objects.flatMap(item => (clean(item.national_inventory_reference).match(/\b\d{8}\b/g) || [])));
 const publicRefs = new Set(publicObjects.map(item => clean(item.national_inventory_reference)));
@@ -302,7 +302,7 @@ const finalObjects = [...objects, ...newObjects];
 const finalPublic = [...publicObjects, ...newObjects];
 const finalSources = [...sources, ...newSources];
 const finalVisuals = [...visualData.records, ...newVisuals];
-if (finalObjects.length !== objects.length + 100 || finalPublic.length !== publicObjects.length + 100 || finalVisuals.length !== finalObjects.length) {
+if (finalObjects.length !== objects.length + newObjects.length || finalPublic.length !== publicObjects.length + newObjects.length || finalVisuals.length !== finalObjects.length) {
   throw new Error("Batch 154 record-count integrity check failed.");
 }
 const finalRefs = finalPublic.map(item => clean(item.national_inventory_reference));

@@ -95,11 +95,12 @@ const alreadyPublished = new Set([
 // the queue's registration-number sort order (which had overrepresented Dublin City).
 const normalizeAddress = value => clean(value).normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("en-IE").replace(/[^a-z0-9]+/g, " ").trim();
 const existingAddressKeys = new Set(objects.map(item => normalizeAddress(item.address)).filter(Boolean));
+const existingSourceIds = new Set(sources.map(source => source.id));
 const eligibleByAuthority = new Map(AUTHORITIES.map(authority => [authority, []]));
 for (const row of queue) {
   const reg = clean(row.REG_NO);
   const authority = clean(row["LOCAL_AUTHORITY�"]);
-  if (!validCandidate(row) || alreadyPublished.has(reg) || !eligibleByAuthority.has(authority)) continue;
+  if (!validCandidate(row) || alreadyPublished.has(reg) || existingSourceIds.has("NIAH-" + reg) || !eligibleByAuthority.has(authority)) continue;
   if (!clean(row.STREET1) && !clean(row.TOWN) && !clean(row.TOWNLAND) && !clean(row.NUMBER)) continue;
   const addressKey = normalizeAddress(addressFor(row));
   if (!addressKey || existingAddressKeys.has(addressKey)) continue;

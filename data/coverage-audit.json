@@ -2,7 +2,7 @@
   "version": "1.0",
   "audited_on": "2026-11-28",
   "scope": "Dublin City and County Dublin",
-  "catalogue_total": 2658,
+  "catalogue_total": 2758,
   "administrative_assignment_status": "NOT_SPATIALLY_VERIFIED",
   "administrative_assignment_note": "No local-authority record counts are published in this audit. Postal-district labels cannot be substituted for point-in-polygon checks. The official 2026 polygon dataset has been identified; geometry import and spatial assignment await reuse-licence confirmation and a coordinate-precision review.",
   "local_authorities": [
@@ -611,6 +611,12 @@
       "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
     },
     {
+      "name": "Dublin 10",
+      "record_count": 14,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
       "name": "Dublin 11",
       "record_count": 19,
       "status": "RESEARCH_IN_PROGRESS",
@@ -618,7 +624,7 @@
     },
     {
       "name": "Dublin 12",
-      "record_count": 7,
+      "record_count": 19,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
     },
@@ -642,7 +648,7 @@
     },
     {
       "name": "Dublin 20",
-      "record_count": 15,
+      "record_count": 19,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
     },
@@ -678,13 +684,13 @@
     },
     {
       "name": "Dublin 8",
-      "record_count": 206,
+      "record_count": 272,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "Count reconciled from data/objects.json; sample only, not exhaustive. Updated after NIAH Hybrid Batch 052; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 053; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 054; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 055; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 056; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 057; reconciled from data/objects.json. Count reconciled against complete master catalogue after Batch 130. Count reconciled against complete master catalogue after Batch 131."
     },
     {
       "name": "Dublin 8/12, County Dublin",
-      "record_count": 3,
+      "record_count": 5,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
     },
@@ -696,7 +702,7 @@
     },
     {
       "name": "Dublin City, County Dublin",
-      "record_count": 79,
+      "record_count": 81,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json. Updated after NIAH Hybrid Batch 052; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 053; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 054; reconciled from data/objects.json. Count reconciled against complete master catalogue after Batch 130. Count reconciled against complete master catalogue after Batch 131."
     },
@@ -1550,7 +1556,7 @@
     "Dublin 24"
   ],
   "totals": {
-    "postal_districts_with_records": 249,
+    "postal_districts_with_records": 250,
     "local_authorities_with_verified_spatial_assignment": 0,
     "records_with_verified_local_authority_assignment": 0
   },
@@ -1581,6 +1587,7 @@
     "Batch 143 adds 100 source-derived NIAH Building Survey records. District labels are derived from official NIAH town or townland fields; they do not establish spatial local-authority assignment.",
     "Batch 144 adds 100 source-derived NIAH Building Survey records. District labels are derived from official NIAH town or townland fields; they do not establish spatial local-authority assignment.",
     "Batch 145 adds 100 source-derived NIAH Building Survey records. District labels are derived from official NIAH town or townland fields; they do not establish spatial local-authority assignment.",
-    "Batch 146 adds 100 source-derived NIAH Building Survey records. District labels are derived from official NIAH town or townland fields; they do not establish spatial local-authority assignment."
+    "Batch 146 adds 100 source-derived NIAH Building Survey records. District labels are derived from official NIAH town or townland fields; they do not establish spatial local-authority assignment.",
+    "Batch 147 adds 100 source-derived NIAH Building Survey records. District labels are derived from official NIAH town or townland fields; they do not establish spatial local-authority assignment."
   ]
 }

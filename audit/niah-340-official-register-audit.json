@@ -1,16 +1,16 @@
 {
   "audit_title": "CICAN Dublin — 340 NIAH registration-number audit",
-  "audited_at": "2026-11-28T15:27:43.128Z",
+  "audited_at": "2026-11-28T15:29:31.178Z",
   "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
   "source_description": "National Inventory of Architectural Heritage national CSV bulk download, Department of Housing, Local Government and Heritage; data.gov.ie resource metadata last updated 10 November 2026.",
   "source_row_count": 48327,
   "source_registration_number_field": "REG_NO",
   "source_local_authority_field": "LOCAL_AUTHORITY�",
   "source_county_field": "COUNTY",
-  "archive_record_count": 3701,
-  "unique_archive_reference_count": 3701,
+  "archive_record_count": 3801,
+  "unique_archive_reference_count": 3801,
   "counts": {
-    "MATCHED": 3701
+    "MATCHED": 3801
   },
   "all_records_matched": true,
   "results": [
@@ -37018,6 +37018,1006 @@
       "archive_id": "DUB-BLD-3204",
       "archive_name": "47 Parnell Square West — house (NIAH 50010632)",
       "registration_number": "50010632",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3205",
+      "archive_name": "46 Parnell Square West — house (NIAH 50010633)",
+      "registration_number": "50010633",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3206",
+      "archive_name": "45 Parnell Square West — house (NIAH 50010634)",
+      "registration_number": "50010634",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3207",
+      "archive_name": "43 Parnell Square West — house (NIAH 50010636)",
+      "registration_number": "50010636",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3208",
+      "archive_name": "42 Parnell Square West — house (NIAH 50010637)",
+      "registration_number": "50010637",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3209",
+      "archive_name": "40 Parnell Square West — house (NIAH 50010639)",
+      "registration_number": "50010639",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3210",
+      "archive_name": "39 Parnell Square West — house (NIAH 50010640)",
+      "registration_number": "50010640",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3211",
+      "archive_name": "38 Parnell Square West — house (NIAH 50010641)",
+      "registration_number": "50010641",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3212",
+      "archive_name": "37 Parnell Square West — house (NIAH 50010642)",
+      "registration_number": "50010642",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3213",
+      "archive_name": "36 Parnell Square West — house (NIAH 50010643)",
+      "registration_number": "50010643",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3214",
+      "archive_name": "34 Parnell Square West — house (NIAH 50010645)",
+      "registration_number": "50010645",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3215",
+      "archive_name": "32 Parnell Square West — house (NIAH 50010647)",
+      "registration_number": "50010647",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3216",
+      "archive_name": "31 Parnell Square West — house (NIAH 50010648)",
+      "registration_number": "50010648",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3217",
+      "archive_name": "30 Parnell Square West — house (NIAH 50010649)",
+      "registration_number": "50010649",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3218",
+      "archive_name": "29 Parnell Square West — house (NIAH 50010650)",
+      "registration_number": "50010650",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3219",
+      "archive_name": "15 Granby Row — house (NIAH 50010651)",
+      "registration_number": "50010651",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3220",
+      "archive_name": "16 Granby Row — house (NIAH 50010652)",
+      "registration_number": "50010652",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3221",
+      "archive_name": "1 Granby Row — house (NIAH 50010653)",
+      "registration_number": "50010653",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3222",
+      "archive_name": "2 Granby Row — house (NIAH 50010654)",
+      "registration_number": "50010654",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3223",
+      "archive_name": "3 Granby Row — house (NIAH 50010655)",
+      "registration_number": "50010655",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3224",
+      "archive_name": "4 Granby Row — house (NIAH 50010656)",
+      "registration_number": "50010656",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3225",
+      "archive_name": "5 Granby Row — house (NIAH 50010657)",
+      "registration_number": "50010657",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3226",
+      "archive_name": "31A Dominick Street Lower — house (NIAH 50010662)",
+      "registration_number": "50010662",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3227",
+      "archive_name": "32A Dominick Street Lower — house (NIAH 50010663)",
+      "registration_number": "50010663",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3228",
+      "archive_name": "42 Dominick Street Lower — house (NIAH 50010667)",
+      "registration_number": "50010667",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3229",
+      "archive_name": "24 Dominick Street Lower — house (NIAH 50010669)",
+      "registration_number": "50010669",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3230",
+      "archive_name": "23 Dominick Street Lower — house (NIAH 50010670)",
+      "registration_number": "50010670",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3231",
+      "archive_name": "22 Dominick Street Lower — house (NIAH 50010671)",
+      "registration_number": "50010671",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3232",
+      "archive_name": "21 Dominick Street Lower — house (NIAH 50010672)",
+      "registration_number": "50010672",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3233",
+      "archive_name": "15 Henrietta Street — house (NIAH 50010674)",
+      "registration_number": "50010674",
+      "status": "MATCHED",
+      "official_name": "Na P�obair� Uilleann",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3234",
+      "archive_name": "14 Henrietta Street — house (NIAH 50010675)",
+      "registration_number": "50010675",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3235",
+      "archive_name": "3 Henrietta Street — house (NIAH 50010681)",
+      "registration_number": "50010681",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3236",
+      "archive_name": "4 Henrietta Street — house (NIAH 50010682)",
+      "registration_number": "50010682",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3237",
+      "archive_name": "6 Henrietta Street — house (NIAH 50010684)",
+      "registration_number": "50010684",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3238",
+      "archive_name": "7 Henrietta Street — house (NIAH 50010685)",
+      "registration_number": "50010685",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3239",
+      "archive_name": "8 Henrietta Street — house (NIAH 50010686)",
+      "registration_number": "50010686",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3240",
+      "archive_name": "9 Henrietta Street — house (NIAH 50010687)",
+      "registration_number": "50010687",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3241",
+      "archive_name": "41 Dorset Street Upper — house (NIAH 50010693)",
+      "registration_number": "50010693",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3242",
+      "archive_name": "90 Dorset Street Upper — house (NIAH 50010695)",
+      "registration_number": "50010695",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3243",
+      "archive_name": "88 Dorset Street Upper — house (NIAH 50010697)",
+      "registration_number": "50010697",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3244",
+      "archive_name": "78 Dorset Street Upper — house (NIAH 50010701)",
+      "registration_number": "50010701",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3245",
+      "archive_name": "76 Dorset Street Upper — house (NIAH 50010703)",
+      "registration_number": "50010703",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3246",
+      "archive_name": "75 Dorset Street Upper — house (NIAH 50010704)",
+      "registration_number": "50010704",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3247",
+      "archive_name": "23-24 Dorset Street Lower — house (NIAH 50010708)",
+      "registration_number": "50010708",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3248",
+      "archive_name": "25 Dorset Street Lower — house (NIAH 50010709)",
+      "registration_number": "50010709",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3249",
+      "archive_name": "38 Dorset Street Lower — shop/retail outlet (NIAH 50010710)",
+      "registration_number": "50010710",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3250",
+      "archive_name": "15 Sherrard Street Lower — house (NIAH 50010716)",
+      "registration_number": "50010716",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3251",
+      "archive_name": "14 Sherrard Street Lower — house (NIAH 50010717)",
+      "registration_number": "50010717",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3252",
+      "archive_name": "13 Sherrard Street Lower — house (NIAH 50010718)",
+      "registration_number": "50010718",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3253",
+      "archive_name": "12 Sherrard Street Lower — house (NIAH 50010719)",
+      "registration_number": "50010719",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3254",
+      "archive_name": "11 Sherrard Street Lower — house (NIAH 50010720)",
+      "registration_number": "50010720",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3255",
+      "archive_name": "10 Sherrard Street Lower — house (NIAH 50010721)",
+      "registration_number": "50010721",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3256",
+      "archive_name": "9 Sherrard Street Lower — house (NIAH 50010722)",
+      "registration_number": "50010722",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3257",
+      "archive_name": "8 Sherrard Street Lower — house (NIAH 50010723)",
+      "registration_number": "50010723",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3258",
+      "archive_name": "7 Sherrard Street Lower — house (NIAH 50010724)",
+      "registration_number": "50010724",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3259",
+      "archive_name": "6 Sherrard Street Lower — house (NIAH 50010725)",
+      "registration_number": "50010725",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3260",
+      "archive_name": "5 Sherrard Street Lower — house (NIAH 50010726)",
+      "registration_number": "50010726",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3261",
+      "archive_name": "3 Sherrard Street Lower — house (NIAH 50010728)",
+      "registration_number": "50010728",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3262",
+      "archive_name": "2 Sherrard Street Lower — house (NIAH 50010729)",
+      "registration_number": "50010729",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3263",
+      "archive_name": "27 Belvidere Road — shop/retail outlet (NIAH 50010731)",
+      "registration_number": "50010731",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3264",
+      "archive_name": "18 Sherrard Street Upper — house (NIAH 50010732)",
+      "registration_number": "50010732",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3265",
+      "archive_name": "460 North Circular Road — house (NIAH 50010735)",
+      "registration_number": "50010735",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3266",
+      "archive_name": "458 North Circular Road — house (NIAH 50010736)",
+      "registration_number": "50010736",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3267",
+      "archive_name": "456 North Circular Road — house (NIAH 50010737)",
+      "registration_number": "50010737",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3268",
+      "archive_name": "454 North Circular Road — house (NIAH 50010738)",
+      "registration_number": "50010738",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3269",
+      "archive_name": "452 North Circular Road — house (NIAH 50010739)",
+      "registration_number": "50010739",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3270",
+      "archive_name": "450 North Circular Road — house (NIAH 50010740)",
+      "registration_number": "50010740",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3271",
+      "archive_name": "26 Sherrard Street Upper — house (NIAH 50010741)",
+      "registration_number": "50010741",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3272",
+      "archive_name": "8 Sherrard Street Upper — house (NIAH 50010742)",
+      "registration_number": "50010742",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3273",
+      "archive_name": "7 Sherrard Street Upper — house (NIAH 50010743)",
+      "registration_number": "50010743",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3274",
+      "archive_name": "5 Sherrard Street Upper — house (NIAH 50010745)",
+      "registration_number": "50010745",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3275",
+      "archive_name": "4 Sherrard Street Upper — house (NIAH 50010746)",
+      "registration_number": "50010746",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3276",
+      "archive_name": "3 Sherrard Street Upper — house (NIAH 50010747)",
+      "registration_number": "50010747",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3277",
+      "archive_name": "2 Sherrard Street Upper — house (NIAH 50010748)",
+      "registration_number": "50010748",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3278",
+      "archive_name": "52 Gardiner Street Upper — house (NIAH 50010752)",
+      "registration_number": "50010752",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3279",
+      "archive_name": "51 Gardiner Street Upper — house (NIAH 50010753)",
+      "registration_number": "50010753",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3280",
+      "archive_name": "50 Gardiner Street Upper — house (NIAH 50010754)",
+      "registration_number": "50010754",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3281",
+      "archive_name": "49 Gardiner Street Upper — house (NIAH 50010755)",
+      "registration_number": "50010755",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3282",
+      "archive_name": "48 Gardiner Street Upper — house (NIAH 50010756)",
+      "registration_number": "50010756",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3283",
+      "archive_name": "47 Gardiner Street Upper — house (NIAH 50010757)",
+      "registration_number": "50010757",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3284",
+      "archive_name": "46 Gardiner Street Upper — house (NIAH 50010758)",
+      "registration_number": "50010758",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3285",
+      "archive_name": "45 Gardiner Street Upper — house (NIAH 50010759)",
+      "registration_number": "50010759",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3286",
+      "archive_name": "34 Gardiner Street Upper — house (NIAH 50010763)",
+      "registration_number": "50010763",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3287",
+      "archive_name": "35 Gardiner Street Upper — house (NIAH 50010764)",
+      "registration_number": "50010764",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3288",
+      "archive_name": "36 Gardiner Street Upper — house (NIAH 50010765)",
+      "registration_number": "50010765",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3289",
+      "archive_name": "37 Gardiner Street Upper — house (NIAH 50010766)",
+      "registration_number": "50010766",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3290",
+      "archive_name": "38 Gardiner Street Upper — house (NIAH 50010767)",
+      "registration_number": "50010767",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3291",
+      "archive_name": "40 Gardiner Street Upper — house (NIAH 50010769)",
+      "registration_number": "50010769",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3292",
+      "archive_name": "41 Gardiner Street Upper — house (NIAH 50010770)",
+      "registration_number": "50010770",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3293",
+      "archive_name": "24 Belvedere Place — house (NIAH 50010771)",
+      "registration_number": "50010771",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3294",
+      "archive_name": "25 Belvedere Place — house (NIAH 50010772)",
+      "registration_number": "50010772",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3295",
+      "archive_name": "26 Belvedere Place — apartment/flat (converted) (NIAH 50010773)",
+      "registration_number": "50010773",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3296",
+      "archive_name": "27 Belvedere Place — house (NIAH 50010774)",
+      "registration_number": "50010774",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3297",
+      "archive_name": "21 Belvedere Place — house (NIAH 50010777)",
+      "registration_number": "50010777",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3298",
+      "archive_name": "20 Belvedere Place — house (NIAH 50010778)",
+      "registration_number": "50010778",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3299",
+      "archive_name": "19 Belvedere Place — house (NIAH 50010779)",
+      "registration_number": "50010779",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3300",
+      "archive_name": "18 Belvedere Place — house (NIAH 50010780)",
+      "registration_number": "50010780",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3301",
+      "archive_name": "17 Belvedere Place — house (NIAH 50010781)",
+      "registration_number": "50010781",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3302",
+      "archive_name": "16 Belvedere Place — house (NIAH 50010782)",
+      "registration_number": "50010782",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3303",
+      "archive_name": "15 Belvedere Place — house (NIAH 50010783)",
+      "registration_number": "50010783",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3304",
+      "archive_name": "14 Belvedere Place — house (NIAH 50010784)",
+      "registration_number": "50010784",
       "status": "MATCHED",
       "official_name": "",
       "official_local_authority": "Dublin City Council",

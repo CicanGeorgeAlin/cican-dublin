@@ -1,16 +1,16 @@
 {
   "audit_title": "CICAN Dublin — 340 NIAH registration-number audit",
-  "audited_at": "2026-11-28T13:27:39.914Z",
+  "audited_at": "2026-11-28T13:42:03.629Z",
   "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
   "source_description": "National Inventory of Architectural Heritage national CSV bulk download, Department of Housing, Local Government and Heritage; data.gov.ie resource metadata last updated 10 November 2026.",
   "source_row_count": 48327,
   "source_registration_number_field": "REG_NO",
   "source_local_authority_field": "LOCAL_AUTHORITY�",
   "source_county_field": "COUNTY",
-  "archive_record_count": 838,
-  "unique_archive_reference_count": 838,
+  "archive_record_count": 938,
+  "unique_archive_reference_count": 938,
   "counts": {
-    "MATCHED": 838
+    "MATCHED": 938
   },
   "all_records_matched": true,
   "results": [
@@ -8390,6 +8390,1006 @@
       "registration_number": "11209026",
       "status": "MATCHED",
       "official_name": "St John's C of I Church",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0589",
+      "archive_name": "Saint Joseph's Convent",
+      "registration_number": "11201130",
+      "status": "MATCHED",
+      "official_name": "Saint Joseph's Convent",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0590",
+      "archive_name": "Quarryvale House",
+      "registration_number": "11202022",
+      "status": "MATCHED",
+      "official_name": "Quarryvale House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0033",
+      "archive_name": "Esker Burial Ground",
+      "registration_number": "11204022",
+      "status": "MATCHED",
+      "official_name": "Esker Burial Ground",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0591",
+      "archive_name": "Finnstown House",
+      "registration_number": "11204047",
+      "status": "MATCHED",
+      "official_name": "Finnstown House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0592",
+      "archive_name": "Clondalkin Village National School",
+      "registration_number": "11209031",
+      "status": "MATCHED",
+      "official_name": "Clondalkin Village National School",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0593",
+      "archive_name": "The Old Schoolhouse",
+      "registration_number": "11209032",
+      "status": "MATCHED",
+      "official_name": "The Old Schoolhouse",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0594",
+      "archive_name": "The Black Lion",
+      "registration_number": "11209035",
+      "status": "MATCHED",
+      "official_name": "The Black Lion",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0595",
+      "archive_name": "Patrick Massey Funeral Home",
+      "registration_number": "11209036",
+      "status": "MATCHED",
+      "official_name": "Patrick Massey Funeral Home",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0596",
+      "archive_name": "Moran's",
+      "registration_number": "11209037",
+      "status": "MATCHED",
+      "official_name": "Moran's",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0597",
+      "archive_name": "Castle View",
+      "registration_number": "11209040",
+      "status": "MATCHED",
+      "official_name": "Castle View",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0598",
+      "archive_name": "Moyle Park House",
+      "registration_number": "11209044",
+      "status": "MATCHED",
+      "official_name": "Moyle Park House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0599",
+      "archive_name": "Presentation Convent",
+      "registration_number": "11209046",
+      "status": "MATCHED",
+      "official_name": "Presentation Convent",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0600",
+      "archive_name": "Oak Lodge",
+      "registration_number": "11209047",
+      "status": "MATCHED",
+      "official_name": "Oak Lodge",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0601",
+      "archive_name": "St Cecilia's",
+      "registration_number": "11209048",
+      "status": "MATCHED",
+      "official_name": "St Cecilia's",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0602",
+      "archive_name": "St Anne's",
+      "registration_number": "11209049",
+      "status": "MATCHED",
+      "official_name": "St Anne's",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0603",
+      "archive_name": "Clondalkin Library",
+      "registration_number": "11209050",
+      "status": "MATCHED",
+      "official_name": "Clondalkin Library",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0604",
+      "archive_name": "Chomer Cottage",
+      "registration_number": "11209051",
+      "status": "MATCHED",
+      "official_name": "Chomer Cottage",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0605",
+      "archive_name": "The Cottages",
+      "registration_number": "11209052",
+      "status": "MATCHED",
+      "official_name": "The Cottages",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0606",
+      "archive_name": "Aras Chronain",
+      "registration_number": "11209070",
+      "status": "MATCHED",
+      "official_name": "Aras Chronain",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0607",
+      "archive_name": "Newlands Farm",
+      "registration_number": "11209071",
+      "status": "MATCHED",
+      "official_name": "Newlands Farm",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0608",
+      "archive_name": "Newlands Farm",
+      "registration_number": "11209072",
+      "status": "MATCHED",
+      "official_name": "Newlands Farm",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0609",
+      "archive_name": "Mooreen House",
+      "registration_number": "11209079",
+      "status": "MATCHED",
+      "official_name": "Mooreen House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0610",
+      "archive_name": "Belgard Cottage",
+      "registration_number": "11209080",
+      "status": "MATCHED",
+      "official_name": "Belgard Cottage",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0611",
+      "archive_name": "Belgard Castle",
+      "registration_number": "11209081",
+      "status": "MATCHED",
+      "official_name": "Belgard Castle",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0612",
+      "archive_name": "Glenhazel",
+      "registration_number": "11209084",
+      "status": "MATCHED",
+      "official_name": "Glenhazel",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0613",
+      "archive_name": "Kingswood",
+      "registration_number": "11209085",
+      "status": "MATCHED",
+      "official_name": "Kingswood",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0614",
+      "archive_name": "Gunpowder Mills",
+      "registration_number": "11209089",
+      "status": "MATCHED",
+      "official_name": "Gunpowder Mills",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0615",
+      "archive_name": "Baldonnell House",
+      "registration_number": "11209091",
+      "status": "MATCHED",
+      "official_name": "Baldonnell House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0616",
+      "archive_name": "Baldonnell House",
+      "registration_number": "11209092",
+      "status": "MATCHED",
+      "official_name": "Baldonnell House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0617",
+      "archive_name": "Casement Aerodrome",
+      "registration_number": "11209093",
+      "status": "MATCHED",
+      "official_name": "Casement Aerodrome",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0618",
+      "archive_name": "Casement Aerodrome",
+      "registration_number": "11209094",
+      "status": "MATCHED",
+      "official_name": "Casement Aerodrome",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0619",
+      "archive_name": "White Hall",
+      "registration_number": "11210002",
+      "status": "MATCHED",
+      "official_name": "White Hall",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0034",
+      "archive_name": "Tynan Memorial Cross",
+      "registration_number": "11210003",
+      "status": "MATCHED",
+      "official_name": "Tynan Memorial Cross",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0620",
+      "archive_name": "Catholic Church of the Holy Spirit",
+      "registration_number": "11210004",
+      "status": "MATCHED",
+      "official_name": "Catholic Church of the Holy Spirit",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0621",
+      "archive_name": "Rathfarnham Religious Society of Friends' Meeting House",
+      "registration_number": "11211002",
+      "status": "MATCHED",
+      "official_name": "Rathfarnham Religious Society of Friends' Meeting House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0622",
+      "archive_name": "Castle Lodge",
+      "registration_number": "11211003",
+      "status": "MATCHED",
+      "official_name": "Castle Lodge",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0623",
+      "archive_name": "Rathfarnham Courthouse",
+      "registration_number": "11211004",
+      "status": "MATCHED",
+      "official_name": "Rathfarnham Courthouse",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0624",
+      "archive_name": "Rathfarnham Church",
+      "registration_number": "11211006",
+      "status": "MATCHED",
+      "official_name": "Rathfarnham Church",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0625",
+      "archive_name": "Ashfield House",
+      "registration_number": "11211009",
+      "status": "MATCHED",
+      "official_name": "Ashfield House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0626",
+      "archive_name": "Tourville Lodge",
+      "registration_number": "11211010",
+      "status": "MATCHED",
+      "official_name": "Tourville Lodge",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0627",
+      "archive_name": "Rathfarnham Castle",
+      "registration_number": "11211012",
+      "status": "MATCHED",
+      "official_name": "Rathfarnham Castle",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0628",
+      "archive_name": "Bushy Park House",
+      "registration_number": "11211013",
+      "status": "MATCHED",
+      "official_name": "Bushy Park House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0629",
+      "archive_name": "Fortfield Lodge",
+      "registration_number": "11211014",
+      "status": "MATCHED",
+      "official_name": "Fortfield Lodge",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0630",
+      "archive_name": "Catholic Church of Saint Pius X",
+      "registration_number": "11211015",
+      "status": "MATCHED",
+      "official_name": "Catholic Church of Saint Pius X",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0631",
+      "archive_name": "Kimmage Manor",
+      "registration_number": "11211016",
+      "status": "MATCHED",
+      "official_name": "Kimmage Manor",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0632",
+      "archive_name": "Kimmage Manor",
+      "registration_number": "11211017",
+      "status": "MATCHED",
+      "official_name": "Kimmage Manor",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0633",
+      "archive_name": "Kimmage Manor",
+      "registration_number": "11211018",
+      "status": "MATCHED",
+      "official_name": "Kimmage Manor",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0634",
+      "archive_name": "Northbrook",
+      "registration_number": "11211019",
+      "status": "MATCHED",
+      "official_name": "Northbrook",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0241",
+      "archive_name": "Pearse Bridge",
+      "registration_number": "11211028",
+      "status": "MATCHED",
+      "official_name": "Pearse Bridge",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0635",
+      "archive_name": "Saint Finian's Catholic Church",
+      "registration_number": "11212002",
+      "status": "MATCHED",
+      "official_name": "Saint Finian's Catholic Church",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0636",
+      "archive_name": "Newcastle National School",
+      "registration_number": "11212003",
+      "status": "MATCHED",
+      "official_name": "Newcastle National School",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0637",
+      "archive_name": "Newcastle National School",
+      "registration_number": "11212004",
+      "status": "MATCHED",
+      "official_name": "Newcastle National School",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0638",
+      "archive_name": "The Old Glebe",
+      "registration_number": "11212007",
+      "status": "MATCHED",
+      "official_name": "The Old Glebe",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0639",
+      "archive_name": "The Old Glebe",
+      "registration_number": "11212008",
+      "status": "MATCHED",
+      "official_name": "The Old Glebe",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0640",
+      "archive_name": "Saint Finian's Church (Newcastle)",
+      "registration_number": "11212009",
+      "status": "MATCHED",
+      "official_name": "Saint Finian's Church (Newcastle)",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0641",
+      "archive_name": "Saint Finian's Church (Newcastle)",
+      "registration_number": "11212010",
+      "status": "MATCHED",
+      "official_name": "Saint Finian's Church (Newcastle)",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0642",
+      "archive_name": "Brian McEvoy",
+      "registration_number": "11212011",
+      "status": "MATCHED",
+      "official_name": "Brian McEvoy",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0643",
+      "archive_name": "Newcastle Farm",
+      "registration_number": "11212012",
+      "status": "MATCHED",
+      "official_name": "Newcastle Farm",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0644",
+      "archive_name": "Newcastle Farm",
+      "registration_number": "11212013",
+      "status": "MATCHED",
+      "official_name": "Newcastle Farm",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0645",
+      "archive_name": "Newcastle Lodge",
+      "registration_number": "11212014",
+      "status": "MATCHED",
+      "official_name": "Newcastle Lodge",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0646",
+      "archive_name": "Newcastle Lodge",
+      "registration_number": "11212015",
+      "status": "MATCHED",
+      "official_name": "Newcastle Lodge",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0647",
+      "archive_name": "Newcastle House",
+      "registration_number": "11212016",
+      "status": "MATCHED",
+      "official_name": "Newcastle House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0648",
+      "archive_name": "Athgoe Castle",
+      "registration_number": "11212020",
+      "status": "MATCHED",
+      "official_name": "Athgoe Castle",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0649",
+      "archive_name": "Athgoe Castle",
+      "registration_number": "11212021",
+      "status": "MATCHED",
+      "official_name": "Athgoe Castle",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0650",
+      "archive_name": "Athgoe Castle",
+      "registration_number": "11212022",
+      "status": "MATCHED",
+      "official_name": "Athgoe Castle",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0651",
+      "archive_name": "The Cottage",
+      "registration_number": "11212023",
+      "status": "MATCHED",
+      "official_name": "The Cottage",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0652",
+      "archive_name": "Ballynakelly House",
+      "registration_number": "11213005",
+      "status": "MATCHED",
+      "official_name": "Ballynakelly House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0653",
+      "archive_name": "Rathcreedan House",
+      "registration_number": "11213006",
+      "status": "MATCHED",
+      "official_name": "Rathcreedan House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0654",
+      "archive_name": "Keatingspark House",
+      "registration_number": "11213007",
+      "status": "MATCHED",
+      "official_name": "Keatingspark House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0655",
+      "archive_name": "Rathcoole National School",
+      "registration_number": "11213012",
+      "status": "MATCHED",
+      "official_name": "Rathcoole National School",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0656",
+      "archive_name": "Glebe House",
+      "registration_number": "11213013",
+      "status": "MATCHED",
+      "official_name": "Glebe House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0657",
+      "archive_name": "Rathcoole Library",
+      "registration_number": "11213015",
+      "status": "MATCHED",
+      "official_name": "Rathcoole Library",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0658",
+      "archive_name": "Hillview",
+      "registration_number": "11213016",
+      "status": "MATCHED",
+      "official_name": "Hillview",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0659",
+      "archive_name": "Rathcoole Lodge",
+      "registration_number": "11213024",
+      "status": "MATCHED",
+      "official_name": "Rathcoole Lodge",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0660",
+      "archive_name": "Rathcoole Church",
+      "registration_number": "11213025",
+      "status": "MATCHED",
+      "official_name": "Rathcoole Church",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0661",
+      "archive_name": "Rathcoole Church",
+      "registration_number": "11213026",
+      "status": "MATCHED",
+      "official_name": "Rathcoole Church",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0662",
+      "archive_name": "Rathcoole House",
+      "registration_number": "11213027",
+      "status": "MATCHED",
+      "official_name": "Rathcoole House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0663",
+      "archive_name": "Rathcoole Garda S�och�na Station",
+      "registration_number": "11213029",
+      "status": "MATCHED",
+      "official_name": "Rathcoole Garda S�och�na Station",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0664",
+      "archive_name": "Saint Mary's National School",
+      "registration_number": "11213036",
+      "status": "MATCHED",
+      "official_name": "Saint Mary's National School",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0665",
+      "archive_name": "Saggart National School",
+      "registration_number": "11213037",
+      "status": "MATCHED",
+      "official_name": "Saggart National School",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0666",
+      "archive_name": "Catholic Church of the Nativity of the Blessed Virgin Mary",
+      "registration_number": "11213041",
+      "status": "MATCHED",
+      "official_name": "Catholic Church of the Nativity of the Blessed Virgin Mary",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0667",
+      "archive_name": "Brown's Barn",
+      "registration_number": "11214001",
+      "status": "MATCHED",
+      "official_name": "Brown's Barn",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0668",
+      "archive_name": "Inistioge",
+      "registration_number": "11214004",
+      "status": "MATCHED",
+      "official_name": "Inistioge",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0669",
+      "archive_name": "Brownstown House",
+      "registration_number": "11214006",
+      "status": "MATCHED",
+      "official_name": "Brownstown House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0670",
+      "archive_name": "Tassagart House",
+      "registration_number": "11214008",
+      "status": "MATCHED",
+      "official_name": "Tassagart House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0671",
+      "archive_name": "Embankment",
+      "registration_number": "11214011",
+      "status": "MATCHED",
+      "official_name": "Embankment",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0672",
+      "archive_name": "St Mark's Youth and Family Centre",
+      "registration_number": "11214013",
+      "status": "MATCHED",
+      "official_name": "St Mark's Youth and Family Centre",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0673",
+      "archive_name": "Clooncora",
+      "registration_number": "11214016",
+      "status": "MATCHED",
+      "official_name": "Clooncora",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0674",
+      "archive_name": "Kiltalown House",
+      "registration_number": "11214023",
+      "status": "MATCHED",
+      "official_name": "Kiltalown House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0675",
+      "archive_name": "Saint Mary's Priory",
+      "registration_number": "11215001",
+      "status": "MATCHED",
+      "official_name": "Saint Mary's Priory",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0676",
+      "archive_name": "Saint Mary's Priory",
+      "registration_number": "11215002",
+      "status": "MATCHED",
+      "official_name": "Saint Mary's Priory",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0677",
+      "archive_name": "Saint Basil's",
+      "registration_number": "11215003",
+      "status": "MATCHED",
+      "official_name": "Saint Basil's",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0678",
+      "archive_name": "Saint Maelruain's Church (Tallaght)",
+      "registration_number": "11215004",
+      "status": "MATCHED",
+      "official_name": "Saint Maelruain's Church (Tallaght)",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0679",
+      "archive_name": "St Aengus's R. C. Church",
+      "registration_number": "11215006",
+      "status": "MATCHED",
+      "official_name": "St Aengus's R. C. Church",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0680",
+      "archive_name": "Bellavista Mill",
+      "registration_number": "11215007",
+      "status": "MATCHED",
+      "official_name": "Bellavista Mill",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0681",
+      "archive_name": "Spawell House",
+      "registration_number": "11215008",
+      "status": "MATCHED",
+      "official_name": "Spawell House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0035",
+      "archive_name": "Knocklyon Cross",
+      "registration_number": "11215009",
+      "status": "MATCHED",
+      "official_name": "Knocklyon Cross",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0682",
+      "archive_name": "Sally Park",
+      "registration_number": "11215010",
+      "status": "MATCHED",
+      "official_name": "Sally Park",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0683",
+      "archive_name": "Tymon South House",
+      "registration_number": "11215011",
+      "status": "MATCHED",
+      "official_name": "Tymon South House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0034",
+      "archive_name": "Prospect House",
+      "registration_number": "11215012",
+      "status": "MATCHED",
+      "official_name": "Prospect House",
       "official_local_authority": "South Dublin County Council",
       "official_county": "DUBLIN",
       "source_match_count": 1

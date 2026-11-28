@@ -15,7 +15,7 @@
 - All 63 registration numbers are exact eight-digit values from the official national NIAH CSV.
 - Each candidate was absent from the pre-batch master catalogue, public NIAH collection and missing-registration queue was generated from the official four-authority census.
 - Every imported row has a non-empty official name, description, date range, rating, ITM coordinates, latitude/longitude and an official NIAH record link.
-- The 100 entries are marked PARTIALLY_VERIFIED because the individual pages, present condition, access and field positions have not all been independently checked.
+- The 63 entries are marked PARTIALLY_VERIFIED because the individual pages, present condition, access and field positions have not all been independently checked.
 - The source dataset uses CC BY 4.0. NIAH-linked images are not reused; image rights are assessed separately.
 - The original ITM EPSG:2157 values and CSV latitude/longitude are preserved in coordinate provenance. Coordinates remain SOURCE_DERIVED, not founder GPS.
 - Repeated NIAH names within registered complexes are kept as separate registrations and disambiguated by official structure type or registration number.

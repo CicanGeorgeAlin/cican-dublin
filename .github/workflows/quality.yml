@@ -5,7 +5,7 @@ on:
   pull_request:
     branches: [main]
 permissions:
-  contents: read
+  contents: write
 concurrency:
   group: archive-quality-${{ github.ref }}
   cancel-in-progress: true
@@ -58,3 +58,15 @@ jobs:
             audit/niah-batches-058-059-candidate-reconciliation.json
             audit/niah-batches-087-089-publication-preflight.json
           if-no-files-found: error
+      - name: Persist fresh NIAH audit and missing-registration queue on main
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit/niah-340-official-register-audit.json audit/niah-dublin-coverage-audit.json audit/niah-dublin-missing-registrations.json
+          if git diff --cached --quiet; then
+            echo "Official NIAH audit and queue are unchanged."
+          else
+            git commit -m "Update official NIAH audit and missing-registration queue"
+            git push origin HEAD:main
+          fi

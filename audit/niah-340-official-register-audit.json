@@ -1,16 +1,16 @@
 {
   "audit_title": "CICAN Dublin — 340 NIAH registration-number audit",
-  "audited_at": "2026-11-28T15:24:23.149Z",
+  "audited_at": "2026-11-28T15:25:56.596Z",
   "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
   "source_description": "National Inventory of Architectural Heritage national CSV bulk download, Department of Housing, Local Government and Heritage; data.gov.ie resource metadata last updated 10 November 2026.",
   "source_row_count": 48327,
   "source_registration_number_field": "REG_NO",
   "source_local_authority_field": "LOCAL_AUTHORITY�",
   "source_county_field": "COUNTY",
-  "archive_record_count": 3501,
-  "unique_archive_reference_count": 3501,
+  "archive_record_count": 3601,
+  "unique_archive_reference_count": 3601,
   "counts": {
-    "MATCHED": 3501
+    "MATCHED": 3601
   },
   "all_records_matched": true,
   "results": [
@@ -35018,6 +35018,1006 @@
       "archive_id": "DUB-BLD-3020",
       "archive_name": "22 Eden Quay — office (NIAH 50010308)",
       "registration_number": "50010308",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3021",
+      "archive_name": "3 Eden Quay — public house (NIAH 50010316)",
+      "registration_number": "50010316",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0364",
+      "archive_name": "Old Street — water pump (NIAH 11344012)",
+      "registration_number": "11344012",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3022",
+      "archive_name": "5 St Patrick's Cottages — house (NIAH 11216070)",
+      "registration_number": "11216070",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3023",
+      "archive_name": "1 O'Connell Street Lower — shop/retail outlet (NIAH 50010318)",
+      "registration_number": "50010318",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0365",
+      "archive_name": "Malahide — bridge (NIAH 11344015)",
+      "registration_number": "11344015",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3024",
+      "archive_name": "6 St Patrick's Cottages — house (NIAH 11216071)",
+      "registration_number": "11216071",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3025",
+      "archive_name": "O'Connell Street Lower — house (NIAH 50010321)",
+      "registration_number": "50010321",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3026",
+      "archive_name": "01-Jun Windsor Terrace — house (NIAH 11344027)",
+      "registration_number": "11344027",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3027",
+      "archive_name": "7 St Patrick's Cottages — house (NIAH 11216072)",
+      "registration_number": "11216072",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3028",
+      "archive_name": "14 Bachelor's Walk — house (NIAH 50010331)",
+      "registration_number": "50010331",
+      "status": "MATCHED",
+      "official_name": "Ha�penny Bridge Caf�",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3029",
+      "archive_name": "2 Church Road — house (NIAH 11344029)",
+      "registration_number": "11344029",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3030",
+      "archive_name": "8 St Patrick's Cottages — house (NIAH 11216073)",
+      "registration_number": "11216073",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3031",
+      "archive_name": "7 Bachelor's Walk — house (NIAH 50010334)",
+      "registration_number": "50010334",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3032",
+      "archive_name": "New Street — lamp standard (NIAH 11344035)",
+      "registration_number": "11344035",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3033",
+      "archive_name": "9 St Patrick's Cottages — house (NIAH 11216074)",
+      "registration_number": "11216074",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3034",
+      "archive_name": "36-37 Ormond Quay Lower — building misc (NIAH 50010339)",
+      "registration_number": "50010339",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3035",
+      "archive_name": "The Diamond — house (NIAH 11344046)",
+      "registration_number": "11344046",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3036",
+      "archive_name": "10 St Patrick's Cottages — house (NIAH 11216075)",
+      "registration_number": "11216075",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3037",
+      "archive_name": "29 Ormond Quay Lower — house (NIAH 50010343)",
+      "registration_number": "50010343",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3038",
+      "archive_name": "01-Aug Carlisle Terrace — house (NIAH 11344048)",
+      "registration_number": "11344048",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3039",
+      "archive_name": "11 St Patrick's Cottages — house (NIAH 11216076)",
+      "registration_number": "11216076",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3040",
+      "archive_name": "23 Ormond Quay Lower — house (NIAH 50010344)",
+      "registration_number": "50010344",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0059",
+      "archive_name": "Church Road — graveyard/cemetery (NIAH 11346003)",
+      "registration_number": "11346003",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3041",
+      "archive_name": "12 St Patrick's Cottages — house (NIAH 11216077)",
+      "registration_number": "11216077",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3042",
+      "archive_name": "10 Ormond Quay Lower — house (NIAH 50010350)",
+      "registration_number": "50010350",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0060",
+      "archive_name": "Saint Margaret's — graveyard/cemetery (NIAH 11348001)",
+      "registration_number": "11348001",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3043",
+      "archive_name": "13 St Patrick's Cottages — house (NIAH 11216078)",
+      "registration_number": "11216078",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3044",
+      "archive_name": "9 Ormond Quay Lower — house (NIAH 50010351)",
+      "registration_number": "50010351",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3045",
+      "archive_name": "COLLINSTOWN (CO. BY.) — house (NIAH 11349003)",
+      "registration_number": "11349003",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3046",
+      "archive_name": "14 St Patrick's Cottages — house (NIAH 11216079)",
+      "registration_number": "11216079",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3047",
+      "archive_name": "4 Ormond Quay Lower — house (NIAH 50010355)",
+      "registration_number": "50010355",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0366",
+      "archive_name": "Feltrim — water pump (NIAH 11350001)",
+      "registration_number": "11350001",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3048",
+      "archive_name": "15 St Patrick's Cottages — house (NIAH 11216080)",
+      "registration_number": "11216080",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3049",
+      "archive_name": "3 Ormond Quay Lower — house (NIAH 50010356)",
+      "registration_number": "50010356",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0367",
+      "archive_name": "Limekiln Lane — water pump (NIAH 11350014)",
+      "registration_number": "11350014",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3050",
+      "archive_name": "16 St Patrick's Cottages — house (NIAH 11216081)",
+      "registration_number": "11216081",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3051",
+      "archive_name": "1-1A Ormond Quay Lower — house (NIAH 50010359)",
+      "registration_number": "50010359",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3052",
+      "archive_name": "Clonsilla Road — house (NIAH 11353006)",
+      "registration_number": "11353006",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3053",
+      "archive_name": "17 St Patrick's Cottages — house (NIAH 11216082)",
+      "registration_number": "11216082",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3054",
+      "archive_name": "10 Strand Street Great — store/warehouse (NIAH 50010369)",
+      "registration_number": "50010369",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0061",
+      "archive_name": "ABBOTSTOWN — graveyard/cemetery (NIAH 11354005)",
+      "registration_number": "11354005",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3055",
+      "archive_name": "18 St Patrick's Cottages — house (NIAH 11216083)",
+      "registration_number": "11216083",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3056",
+      "archive_name": "66-67 Strand Street Great — meeting house (NIAH 50010370)",
+      "registration_number": "50010370",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3057",
+      "archive_name": "04-Jun Station Road — house (NIAH 11358006)",
+      "registration_number": "11358006",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3058",
+      "archive_name": "19 St Patrick's Cottages — house (NIAH 11216084)",
+      "registration_number": "11216084",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3059",
+      "archive_name": "48 Middle Abbey Street — house (NIAH 50010394)",
+      "registration_number": "50010394",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3060",
+      "archive_name": "53 Howth Road — worker's house (NIAH 11358022)",
+      "registration_number": "11358022",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3061",
+      "archive_name": "20 St Patrick's Cottages — house (NIAH 11216085)",
+      "registration_number": "11216085",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3062",
+      "archive_name": "47 Middle Abbey Street — house (NIAH 50010395)",
+      "registration_number": "50010395",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3063",
+      "archive_name": "1 Main Street — house (NIAH 11358037)",
+      "registration_number": "11358037",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3064",
+      "archive_name": "21 St Patrick's Cottages — house (NIAH 11216086)",
+      "registration_number": "11216086",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3065",
+      "archive_name": "84 Middle Abbey Street — shop/retail outlet (NIAH 50010402)",
+      "registration_number": "50010402",
+      "status": "MATCHED",
+      "official_name": "Caf� Aroma",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3066",
+      "archive_name": "22-25A Strand Road — house (NIAH 11358045)",
+      "registration_number": "11358045",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3067",
+      "archive_name": "22 St Patrick's Cottages — house (NIAH 11216087)",
+      "registration_number": "11216087",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3068",
+      "archive_name": "94 Marlborough Street — house (NIAH 50010408)",
+      "registration_number": "50010408",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3069",
+      "archive_name": "53 Harbour Road — store/warehouse (NIAH 11359008)",
+      "registration_number": "11359008",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3070",
+      "archive_name": "23 St Patrick's Cottages — house (NIAH 11216088)",
+      "registration_number": "11216088",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3071",
+      "archive_name": "123-124 Upper Abbey Street — house (NIAH 50010409)",
+      "registration_number": "50010409",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3072",
+      "archive_name": "9 Abbey Street — house (NIAH 11359011)",
+      "registration_number": "11359011",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3073",
+      "archive_name": "24 St Patrick's Cottages — house (NIAH 11216089)",
+      "registration_number": "11216089",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3074",
+      "archive_name": "125 Upper Abbey Street — house (NIAH 50010410)",
+      "registration_number": "50010410",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3075",
+      "archive_name": "18 Abbey Street — house (NIAH 11359012)",
+      "registration_number": "11359012",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3076",
+      "archive_name": "25 St Patrick's Cottages — house (NIAH 11216090)",
+      "registration_number": "11216090",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3077",
+      "archive_name": "95 Marlborough Street — house (NIAH 50010413)",
+      "registration_number": "50010413",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3078",
+      "archive_name": "19-20 Abbey Street — house (NIAH 11359013)",
+      "registration_number": "11359013",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3079",
+      "archive_name": "26 St Patrick's Cottages — house (NIAH 11216091)",
+      "registration_number": "11216091",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3080",
+      "archive_name": "31 Capel Street — house (NIAH 50010430)",
+      "registration_number": "50010430",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3081",
+      "archive_name": "27 Abbey Street — house (NIAH 11359014)",
+      "registration_number": "11359014",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3082",
+      "archive_name": "27 St Patrick's Cottages — house (NIAH 11216092)",
+      "registration_number": "11216092",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3083",
+      "archive_name": "37 Capel Street — house (NIAH 50010433)",
+      "registration_number": "50010433",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3084",
+      "archive_name": "17-18 Church Street — house (NIAH 11359016)",
+      "registration_number": "11359016",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3085",
+      "archive_name": "28 St Patrick's Cottages — house (NIAH 11216093)",
+      "registration_number": "11216093",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3086",
+      "archive_name": "39 Capel Street — house (NIAH 50010435)",
+      "registration_number": "50010435",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3087",
+      "archive_name": "14 Main Street — house (NIAH 11359022)",
+      "registration_number": "11359022",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3088",
+      "archive_name": "235 Whitechurch Road — house (NIAH 11216096)",
+      "registration_number": "11216096",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3089",
+      "archive_name": "Capel Street — house (NIAH 50010448)",
+      "registration_number": "50010448",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3090",
+      "archive_name": "15 Main Street — house (NIAH 11359023)",
+      "registration_number": "11359023",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3091",
+      "archive_name": "236 Whitechurch Road — house (NIAH 11216097)",
+      "registration_number": "11216097",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3092",
+      "archive_name": "2 Mary Street — house (NIAH 50010449)",
+      "registration_number": "50010449",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3093",
+      "archive_name": "4 Main Street — house (NIAH 11359025)",
+      "registration_number": "11359025",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3094",
+      "archive_name": "636 Whitechurch Road — house (NIAH 11216098)",
+      "registration_number": "11216098",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3095",
+      "archive_name": "06-Sep Mary Street — house (NIAH 50010450)",
+      "registration_number": "50010450",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3096",
+      "archive_name": "03-Apr Nashville Terrace — house (NIAH 11359031)",
+      "registration_number": "11359031",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3097",
+      "archive_name": "637 Whitechurch Road — house (NIAH 11216099)",
+      "registration_number": "11216099",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3098",
+      "archive_name": "50 Mary Street — house (NIAH 50010454)",
+      "registration_number": "50010454",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3099",
+      "archive_name": "Sep-14 Nashville Park — house (NIAH 11359032)",
+      "registration_number": "11359032",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3100",
+      "archive_name": "638 Whitechurch Road — house (NIAH 11216100)",
+      "registration_number": "11216100",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3101",
+      "archive_name": "23 Mary Street — faculty building (NIAH 50010464)",
+      "registration_number": "50010464",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3102",
+      "archive_name": "1 West Pier — clubhouse (NIAH 11359035)",
+      "registration_number": "11359035",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3103",
+      "archive_name": "639 Whitechurch Road — house (NIAH 11216101)",
+      "registration_number": "11216101",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3104",
+      "archive_name": "16 Henry Street — shop/retail outlet (NIAH 50010471)",
+      "registration_number": "50010471",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3105",
+      "archive_name": "West Pier — building misc (NIAH 11359036)",
+      "registration_number": "11359036",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3106",
+      "archive_name": "640 Whitechurch Road — house (NIAH 11216102)",
+      "registration_number": "11216102",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3107",
+      "archive_name": "17 Henry Street — shop/retail outlet (NIAH 50010472)",
+      "registration_number": "50010472",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3108",
+      "archive_name": "West Pier — rails (section of) (NIAH 11359040)",
+      "registration_number": "11359040",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3109",
+      "archive_name": "641 Whitechurch Road — house (NIAH 11216103)",
+      "registration_number": "11216103",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3110",
+      "archive_name": "45-47 Henry Street — house (NIAH 50010478)",
+      "registration_number": "50010478",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0368",
+      "archive_name": "Howth — harbour/dock/port (NIAH 11359041)",
+      "registration_number": "11359041",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3111",
+      "archive_name": "642 Whitechurch Road — house (NIAH 11216104)",
+      "registration_number": "11216104",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3112",
+      "archive_name": "44 Henry Street — house (NIAH 50010479)",
+      "registration_number": "50010479",
       "status": "MATCHED",
       "official_name": "",
       "official_local_authority": "Dublin City Council",

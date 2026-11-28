@@ -24,6 +24,10 @@ jobs:
           node --check preview/app/app.js
           node --check preview/service-worker.js
           node --check service-worker.js
+      - name: Install isolated JSON Schema 2020-12 validator
+        run: npm install --no-save --no-package-lock ajv@8 ajv-formats@3
+      - name: Formally validate canonical and NIAH archive records and report migration gaps
+        run: node scripts/audit-canonical-schema-readiness.mjs
       - name: Test live GPS tracking start, updates, stop and errors
         run: node --test scripts/test-live-gps-tracking.mjs
       - name: Test GPS session analysis report
@@ -57,6 +61,7 @@ jobs:
             audit/niah-dublin-missing-registrations.json
             audit/niah-batches-058-059-candidate-reconciliation.json
             audit/niah-batches-087-089-publication-preflight.json
+            audit/canonical-data-contract-readiness.json
           if-no-files-found: error
       - name: Persist fresh NIAH audit and missing-registration queue on main
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'

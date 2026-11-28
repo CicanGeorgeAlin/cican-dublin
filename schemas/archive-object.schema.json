@@ -267,6 +267,80 @@
           "original_photo_paths"
         ]
       }
+    },
+    {
+      "if": {
+        "anyOf": [
+          {
+            "required": [
+              "latitude"
+            ]
+          },
+          {
+            "required": [
+              "longitude"
+            ]
+          }
+        ]
+      },
+      "then": {
+        "required": [
+          "latitude",
+          "longitude"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "coordinate_status": {
+            "const": "NOT_SET"
+          }
+        },
+        "required": [
+          "coordinate_status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "latitude": {
+            "type": "null"
+          },
+          "longitude": {
+            "type": "null"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "coordinate_status": {
+            "enum": [
+              "ADDRESS_APPROXIMATE",
+              "SOURCE_DERIVED",
+              "FIELD_VERIFIED"
+            ]
+          }
+        },
+        "required": [
+          "coordinate_status"
+        ]
+      },
+      "then": {
+        "required": [
+          "latitude",
+          "longitude"
+        ],
+        "properties": {
+          "latitude": {
+            "type": "number"
+          },
+          "longitude": {
+            "type": "number"
+          }
+        }
+      }
     }
   ]
 }

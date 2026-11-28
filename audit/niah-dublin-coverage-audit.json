@@ -1,6 +1,6 @@
 {
   "audit_title": "CICAN Dublin — four-authority NIAH Building Survey coverage audit",
-  "audited_at": "2026-11-28T15:27:23.401Z",
+  "audited_at": "2026-11-28T15:27:53.108Z",
   "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
   "source_description": "Official NIAH national CSV bulk download. The source is retrieved at audit time; the report records the exact source row count and field names used.",
   "source_row_count": 48327,

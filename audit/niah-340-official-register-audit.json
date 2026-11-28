@@ -1,16 +1,16 @@
 {
   "audit_title": "CICAN Dublin — 340 NIAH registration-number audit",
-  "audited_at": "2026-11-28T15:25:56.596Z",
+  "audited_at": "2026-11-28T15:27:43.128Z",
   "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
   "source_description": "National Inventory of Architectural Heritage national CSV bulk download, Department of Housing, Local Government and Heritage; data.gov.ie resource metadata last updated 10 November 2026.",
   "source_row_count": 48327,
   "source_registration_number_field": "REG_NO",
   "source_local_authority_field": "LOCAL_AUTHORITY�",
   "source_county_field": "COUNTY",
-  "archive_record_count": 3601,
-  "unique_archive_reference_count": 3601,
+  "archive_record_count": 3701,
+  "unique_archive_reference_count": 3701,
   "counts": {
-    "MATCHED": 3601
+    "MATCHED": 3701
   },
   "all_records_matched": true,
   "results": [
@@ -36018,6 +36018,1006 @@
       "archive_id": "DUB-BLD-3112",
       "archive_name": "44 Henry Street — house (NIAH 50010479)",
       "registration_number": "50010479",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3113",
+      "archive_name": "42-43 Henry Street — shop/retail outlet (NIAH 50010480)",
+      "registration_number": "50010480",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3114",
+      "archive_name": "01-Jul Mountainview Cottages — house (NIAH 11361014)",
+      "registration_number": "11361014",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3115",
+      "archive_name": "643 Whitechurch Road — house (NIAH 11216105)",
+      "registration_number": "11216105",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3116",
+      "archive_name": "Moore Street — shop/retail outlet (NIAH 50010481)",
+      "registration_number": "50010481",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0369",
+      "archive_name": "Somerton Road — water pump (NIAH 11361021)",
+      "registration_number": "11361021",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3117",
+      "archive_name": "644 Whitechurch Road — house (NIAH 11216106)",
+      "registration_number": "11216106",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3118",
+      "archive_name": "2 Moore Street — shop/retail outlet (NIAH 50010482)",
+      "registration_number": "50010482",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3119",
+      "archive_name": "2 Castleknock Road — house (NIAH 11362006)",
+      "registration_number": "11362006",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3120",
+      "archive_name": "645 Whitechurch Road — house (NIAH 11216107)",
+      "registration_number": "11216107",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3121",
+      "archive_name": "6 Moore Street — shop/retail outlet (NIAH 50010483)",
+      "registration_number": "50010483",
+      "status": "MATCHED",
+      "official_name": "Internet Caf�/Elegant Nails/Cash 4 Gold",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3122",
+      "archive_name": "01-Aug Sandpits — house (NIAH 11362054)",
+      "registration_number": "11362054",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3123",
+      "archive_name": "646 Whitechurch Road — house (NIAH 11216108)",
+      "registration_number": "11216108",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3124",
+      "archive_name": "69 O'Connell Street Upper — house (NIAH 50010493)",
+      "registration_number": "50010493",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0370",
+      "archive_name": "Luttrellstown Road — bridge (NIAH 11362057)",
+      "registration_number": "11362057",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3125",
+      "archive_name": "647 Whitechurch Road — house (NIAH 11216109)",
+      "registration_number": "11216109",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3126",
+      "archive_name": "33 Henry Street — house (NIAH 50010494)",
+      "registration_number": "50010494",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3127",
+      "archive_name": "01-Aug Martello Terrace — coastguard station (NIAH 11366002)",
+      "registration_number": "11366002",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3128",
+      "archive_name": "648 Whitechurch Road — house (NIAH 11216110)",
+      "registration_number": "11216110",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3129",
+      "archive_name": "36 Henry Street — shop/retail outlet (NIAH 50010495)",
+      "registration_number": "50010495",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0371",
+      "archive_name": "01-Feb Bailey Cottages — lighthouse keeper's house (NIAH 11367006)",
+      "registration_number": "11367006",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3130",
+      "archive_name": "649 Whitechurch Road — house (NIAH 11216111)",
+      "registration_number": "11216111",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3131",
+      "archive_name": "37 Henry Street — house (NIAH 50010496)",
+      "registration_number": "50010496",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3132",
+      "archive_name": "650 Whitechurch Road — house (NIAH 11216112)",
+      "registration_number": "11216112",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3133",
+      "archive_name": "38 Henry Street — shop/retail outlet (NIAH 50010497)",
+      "registration_number": "50010497",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3134",
+      "archive_name": "651 Whitechurch Road — house (NIAH 11216113)",
+      "registration_number": "11216113",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3135",
+      "archive_name": "39 Henry Street — shop/retail outlet (NIAH 50010498)",
+      "registration_number": "50010498",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3136",
+      "archive_name": "652 Whitechurch Road — house (NIAH 11216114)",
+      "registration_number": "11216114",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3137",
+      "archive_name": "40 Henry Street — house (NIAH 50010499)",
+      "registration_number": "50010499",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3138",
+      "archive_name": "653 Whitechurch Road — house (NIAH 11216115)",
+      "registration_number": "11216115",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3139",
+      "archive_name": "55 O'Connell Street Lower — factory (NIAH 50010501)",
+      "registration_number": "50010501",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3140",
+      "archive_name": "655 Whitechurch Road — house (NIAH 11216117)",
+      "registration_number": "11216117",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3141",
+      "archive_name": "53-54 O'Connell Street Lower — shop/retail outlet (NIAH 50010502)",
+      "registration_number": "50010502",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3142",
+      "archive_name": "656 Whitechurch Road — house (NIAH 11216118)",
+      "registration_number": "11216118",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3143",
+      "archive_name": "51 O'Connell Street Lower — cinema (NIAH 50010504)",
+      "registration_number": "50010504",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3144",
+      "archive_name": "657 Whitechurch Road — house (NIAH 11216119)",
+      "registration_number": "11216119",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3145",
+      "archive_name": "50 O'Connell Street Lower — house (NIAH 50010505)",
+      "registration_number": "50010505",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3146",
+      "archive_name": "658 Whitechurch Road — house (NIAH 11216120)",
+      "registration_number": "11216120",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3147",
+      "archive_name": "9 O'Connell Street Lower — shop/retail outlet (NIAH 50010507)",
+      "registration_number": "50010507",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3148",
+      "archive_name": "659 Whitechurch Road — house (NIAH 11216121)",
+      "registration_number": "11216121",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3149",
+      "archive_name": "8 O'Connell Street Lower — shop/retail outlet (NIAH 50010508)",
+      "registration_number": "50010508",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3150",
+      "archive_name": "FARMERSVALE — house (NIAH 11217003)",
+      "registration_number": "11217003",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3151",
+      "archive_name": "5 O'Connell Street Lower — shop/retail outlet (NIAH 50010510)",
+      "registration_number": "50010510",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3152",
+      "archive_name": "CALLIAGHSTOWN LOWER — house (NIAH 11217004)",
+      "registration_number": "11217004",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3153",
+      "archive_name": "2 O'Connell Street Lower — shop/retail outlet (NIAH 50010512)",
+      "registration_number": "50010512",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3154",
+      "archive_name": "Carrigeen Lane — house (NIAH 11218003)",
+      "registration_number": "11218003",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3155",
+      "archive_name": "67 O'Connell Street Upper — house (NIAH 50010530)",
+      "registration_number": "50010530",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3156",
+      "archive_name": "CARRIGEEN — house (NIAH 11218004)",
+      "registration_number": "11218004",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3157",
+      "archive_name": "65-66 O'Connell Street Upper — bank/financial institution (NIAH 50010531)",
+      "registration_number": "50010531",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3158",
+      "archive_name": "GLENARANEEN — house (NIAH 11218007)",
+      "registration_number": "11218007",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3159",
+      "archive_name": "61 O'Connell Street Upper — house (NIAH 50010534)",
+      "registration_number": "50010534",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3160",
+      "archive_name": "CROOKSLING — farmyard complex (NIAH 11219002)",
+      "registration_number": "11219002",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3161",
+      "archive_name": "60 O'Connell Street Upper — house (NIAH 50010535)",
+      "registration_number": "50010535",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3162",
+      "archive_name": "PIPERSTOWN — farm house (NIAH 11220010)",
+      "registration_number": "11220010",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3163",
+      "archive_name": "4 O'Connell Street Upper — shop/retail outlet (NIAH 50010537)",
+      "registration_number": "50010537",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3164",
+      "archive_name": "Mount Venus Road — house (NIAH 11221003)",
+      "registration_number": "11221003",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3165",
+      "archive_name": "7 O'Connell Street Upper — shop/retail outlet (NIAH 50010539)",
+      "registration_number": "50010539",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3166",
+      "archive_name": "Brittas — farmyard complex (NIAH 11223001)",
+      "registration_number": "11223001",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3167",
+      "archive_name": "58 O'Connell Street Upper — shop/retail outlet (NIAH 50010540)",
+      "registration_number": "50010540",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3168",
+      "archive_name": "RAHEEN (NE. BY.) — farm house (NIAH 11223002)",
+      "registration_number": "11223002",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3169",
+      "archive_name": "57 O'Connell Street Upper — shop/retail outlet (NIAH 50010541)",
+      "registration_number": "50010541",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3170",
+      "archive_name": "AGHFARRELL — farmyard complex (NIAH 11224001)",
+      "registration_number": "11224001",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3171",
+      "archive_name": "55-56 O'Connell Street Upper — shop/retail outlet (NIAH 50010542)",
+      "registration_number": "50010542",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0062",
+      "archive_name": "R114 — monument (NIAH 11224003)",
+      "registration_number": "11224003",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3172",
+      "archive_name": "52-54 O'Connell Street Upper — cinema (NIAH 50010543)",
+      "registration_number": "50010543",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0372",
+      "archive_name": "CASTLEKELLY, GLASSAVULLAUN — bridge (NIAH 11225005)",
+      "registration_number": "11225005",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3173",
+      "archive_name": "18 O'Connell Street Upper — cinema (NIAH 50010547)",
+      "registration_number": "50010547",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3174",
+      "archive_name": "GLASSAVULLAUN — house (NIAH 11225006)",
+      "registration_number": "11225006",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3175",
+      "archive_name": "19 O'Connell Street Upper — office (NIAH 50010548)",
+      "registration_number": "50010548",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0373",
+      "archive_name": "CUNARD, GLASSAMUCKY BRAKES — bridge (NIAH 11225011)",
+      "registration_number": "11225011",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3176",
+      "archive_name": "45 O'Connell Street Upper — office (NIAH 50010551)",
+      "registration_number": "50010551",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0116",
+      "archive_name": "Glenasmole Lodge — gates/railings/walls (NIAH 11225012)",
+      "registration_number": "11225012",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3177",
+      "archive_name": "44 O'Connell Street Upper — shop/retail outlet (NIAH 50010552)",
+      "registration_number": "50010552",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0063",
+      "archive_name": "R115 — monument (NIAH 11226001)",
+      "registration_number": "11226001",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3178",
+      "archive_name": "42 O'Connell Street Upper — house (NIAH 50010554)",
+      "registration_number": "50010554",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3179",
+      "archive_name": "51 Henry Street — house (NIAH 50010477)",
+      "registration_number": "50010477",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3180",
+      "archive_name": "71 Parnell Street — house (NIAH 50010562)",
+      "registration_number": "50010562",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3181",
+      "archive_name": "3 Parnell Street — house (NIAH 50010585)",
+      "registration_number": "50010585",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3182",
+      "archive_name": "102 Capel Street — house (NIAH 50010586)",
+      "registration_number": "50010586",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3183",
+      "archive_name": "96 Capel Street — house (NIAH 50010592)",
+      "registration_number": "50010592",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3184",
+      "archive_name": "66 Capel Street — house (NIAH 50010593)",
+      "registration_number": "50010593",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3185",
+      "archive_name": "81 Capel Street — house (NIAH 50010599)",
+      "registration_number": "50010599",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3186",
+      "archive_name": "83 Capel Street — house (NIAH 50010601)",
+      "registration_number": "50010601",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3187",
+      "archive_name": "Bachelors Way — store/warehouse (NIAH 50010604)",
+      "registration_number": "50010604",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3188",
+      "archive_name": "85 Capel Street — house (NIAH 50010605)",
+      "registration_number": "50010605",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3189",
+      "archive_name": "King Street North — public house (NIAH 50010606)",
+      "registration_number": "50010606",
+      "status": "MATCHED",
+      "official_name": "R�a",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3190",
+      "archive_name": "59 Bolton Street — house (NIAH 50010609)",
+      "registration_number": "50010609",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3191",
+      "archive_name": "1-2A Parnell Street — house (NIAH 50010612)",
+      "registration_number": "50010612",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3192",
+      "archive_name": "Parnell Street — office (NIAH 50010614)",
+      "registration_number": "50010614",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3193",
+      "archive_name": "76 Parnell Street — house (NIAH 50010615)",
+      "registration_number": "50010615",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3194",
+      "archive_name": "78 Parnell Street — house (NIAH 50010617)",
+      "registration_number": "50010617",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3195",
+      "archive_name": "59 Parnell Square West — house (NIAH 50010623)",
+      "registration_number": "50010623",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3196",
+      "archive_name": "58 Parnell Square West — house (NIAH 50010624)",
+      "registration_number": "50010624",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3197",
+      "archive_name": "57 Parnell Square West — house (NIAH 50010625)",
+      "registration_number": "50010625",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3198",
+      "archive_name": "56 Parnell Square West — house (NIAH 50010626)",
+      "registration_number": "50010626",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3199",
+      "archive_name": "55 Parnell Square West — house (NIAH 50010627)",
+      "registration_number": "50010627",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3200",
+      "archive_name": "54 Parnell Square West — house (NIAH 50010628)",
+      "registration_number": "50010628",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3201",
+      "archive_name": "53 Parnell Square West — house (NIAH 50010629)",
+      "registration_number": "50010629",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3202",
+      "archive_name": "52 Parnell Square West — house (NIAH 50010630)",
+      "registration_number": "50010630",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3203",
+      "archive_name": "48 Parnell Square West — house (NIAH 50010631)",
+      "registration_number": "50010631",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-3204",
+      "archive_name": "47 Parnell Square West — house (NIAH 50010632)",
+      "registration_number": "50010632",
       "status": "MATCHED",
       "official_name": "",
       "official_local_authority": "Dublin City Council",

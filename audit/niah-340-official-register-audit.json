@@ -1,16 +1,16 @@
 {
   "audit_title": "CICAN Dublin — 340 NIAH registration-number audit",
-  "audited_at": "2026-11-24T03:28:49.399Z",
+  "audited_at": "2026-11-28T13:11:36.668Z",
   "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
   "source_description": "National Inventory of Architectural Heritage national CSV bulk download, Department of Housing, Local Government and Heritage; data.gov.ie resource metadata last updated 10 November 2026.",
   "source_row_count": 48327,
   "source_registration_number_field": "REG_NO",
   "source_local_authority_field": "LOCAL_AUTHORITY�",
   "source_county_field": "COUNTY",
-  "archive_record_count": 509,
-  "unique_archive_reference_count": 509,
+  "archive_record_count": 538,
+  "unique_archive_reference_count": 538,
   "counts": {
-    "MATCHED": 509
+    "MATCHED": 538
   },
   "all_records_matched": true,
   "results": [
@@ -5101,6 +5101,296 @@
       "status": "MATCHED",
       "official_name": "Dunnes Stores",
       "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0335",
+      "archive_name": "Lucan Garda Síochána Station",
+      "registration_number": "11201029",
+      "status": "MATCHED",
+      "official_name": "Lucan Garda S�och�na Station",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0336",
+      "archive_name": "Lucan Road — public house (NIAH 11201030)",
+      "registration_number": "11201030",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0337",
+      "archive_name": "Lucan Road / Adamstown Road — house (NIAH 11201031)",
+      "registration_number": "11201031",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0338",
+      "archive_name": "Adamstown Road — domestic outbuilding (NIAH 11201033)",
+      "registration_number": "11201033",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0339",
+      "archive_name": "Main Street / Sarsfield Park — Georgian house (NIAH 11201037)",
+      "registration_number": "11201037",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0340",
+      "archive_name": "1 The Manor",
+      "registration_number": "11201039",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0341",
+      "archive_name": "Main Street — shop (NIAH 11201041)",
+      "registration_number": "11201041",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0342",
+      "archive_name": "Main Street — shop (NIAH 11201042)",
+      "registration_number": "11201042",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0343",
+      "archive_name": "Main Street — former building society branch (NIAH 11201044)",
+      "registration_number": "11201044",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0344",
+      "archive_name": "The Lucan Inn",
+      "registration_number": "11201045",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0208",
+      "archive_name": "Lucan Main Street — canalised river section (NIAH 11201047)",
+      "registration_number": "11201047",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0209",
+      "archive_name": "Lucan — single-arch road bridge (NIAH 11201048)",
+      "registration_number": "11201048",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0345",
+      "archive_name": "Main Street — former bank (NIAH 11201050)",
+      "registration_number": "11201050",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0346",
+      "archive_name": "2 The Manor — semi-detached house (NIAH 11201040)",
+      "registration_number": "11201040",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0347",
+      "archive_name": "Main Street — terraced shop (NIAH 11201043)",
+      "registration_number": "11201043",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0208",
+      "archive_name": "Main Street — cast-iron pillar post box (NIAH 11201049)",
+      "registration_number": "11201049",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0348",
+      "archive_name": "1 Hanbury Lane — vernacular house (NIAH 11201054)",
+      "registration_number": "11201054",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0349",
+      "archive_name": "2 Sarsfield Terrace (NIAH 11201059)",
+      "registration_number": "11201059",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0350",
+      "archive_name": "3 Sarsfield Terrace (NIAH 11201060)",
+      "registration_number": "11201060",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0351",
+      "archive_name": "4 Sarsfield Terrace (NIAH 11201061)",
+      "registration_number": "11201061",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0352",
+      "archive_name": "7 Sarsfield Terrace (NIAH 11201064)",
+      "registration_number": "11201064",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0353",
+      "archive_name": "3 Hanbury Lane — former house now crèche (NIAH 11201056)",
+      "registration_number": "11201056",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0354",
+      "archive_name": "4 Hanbury Lane — end-of-terrace house (NIAH 11201057)",
+      "registration_number": "11201057",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0355",
+      "archive_name": "1 Sarsfield Terrace (NIAH 11201058)",
+      "registration_number": "11201058",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0356",
+      "archive_name": "6 Sarsfield Terrace (NIAH 11201063)",
+      "registration_number": "11201063",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0357",
+      "archive_name": "8 Sarsfield Terrace (NIAH 11201065)",
+      "registration_number": "11201065",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0358",
+      "archive_name": "9 Sarsfield Terrace (NIAH 11201066)",
+      "registration_number": "11201066",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0359",
+      "archive_name": "10 Sarsfield Terrace (NIAH 11201067)",
+      "registration_number": "11201067",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0360",
+      "archive_name": "15 Main Street — Georgian house (NIAH 11201069)",
+      "registration_number": "11201069",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
       "official_county": "DUBLIN",
       "source_match_count": 1
     }

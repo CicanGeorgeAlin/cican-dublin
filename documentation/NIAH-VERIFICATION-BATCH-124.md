@@ -5,10 +5,12 @@
 
 ## Official inventory and queue
 
-The official NIAH data-download page describes the national building survey data as indexed by registration number and containing location, classification, rating, description, appraisal and coordinate fields. The four-authority Dublin audit denominator is 7,535 registrations. The 25 November queue artifact contained 7,026 registrations not yet represented by the archive NIAH register. This batch adds 13; the arithmetic remainder is 7,013, pending a fresh official CSV audit.
+The official NIAH data-download page describes the national building survey data as indexed by registration number and containing location, classification, rating, description, appraisal and coordinate fields. Fresh official NIAH CSV audit run 2026-11-28 at 01:17:24 UTC found 48,327 source rows, 7,535 unique Dublin County registrations across four authorities, 522 registrations represented by the archive, and **7,013 missing registrations available for review**. The audit reports zero unassigned or unrecognised authority values, no duplicate REG_NO values in the four-authority subset, and a complete denominator. This is the exact count for the retrieved dataset snapshot and must be refreshed when the official data changes.
 
 - [NIAH Data Download — Buildings of Ireland](https://www.buildingsofireland.ie/niah-data-download/)
 - [NIAH National Dataset — data.gov.ie](https://data.gov.ie/dataset/national-inventory-of-architectural-heritage-niah-national-dataset)
+
+Authority breakdown in the fresh audit: Dublin City Council 5,692; Fingal County Council 667; South Dublin County Council 790; Dún Laoghaire-Rathdown County Council 386.
 
 ## Thirteen verified records
 
@@ -58,7 +60,7 @@ Street-only address overlaps were reviewed and kept distinct only where the indi
 
 The national CSV provides ITM EPSG:2157 and WGS84 fields. The archive uses the CSV latitude/longitude directly and records the ITM values in provenance. Numeric coordinate pairs displayed on individual NIAH pages without an explicit CRS label were not used or transformed. All thirteen records are SOURCE_DERIVED, not founder GPS or FIELD_VERIFIED. Current condition, occupancy, access and exact field position remain unverified. No NIAH-linked photographs were reused; all thirteen visual records await founder photography.
 
-## Production totals expected after the commit
+## Production totals confirmed after the commit
 
 - Master catalogue: **642**
 - Public NIAH register: **522**
@@ -66,6 +68,15 @@ The national CSV provides ITM EPSG:2157 and WGS84 fields. The archive uses the C
 - Visual records: **642**
 - Lucan settlement work-zone count: **32**
 
-The Lucan label is a settlement work-zone, not a verified spatial local-authority assignment. GitHub Actions quality and Pages deployment must pass before the batch is called live.
+The Lucan label is a settlement work-zone, not a verified spatial local-authority assignment.
+
+### Confirmed checks and deployment
+
+- Archive quality gate run [46092305179](https://github.com/CicanGeorgeAlin/cican-dublin/actions/runs/46092305179): **success**
+- Site validation run [46092305142](https://github.com/CicanGeorgeAlin/cican-dublin/actions/runs/46092305142): **success**
+- GitHub Pages build and deployment run [46092304466](https://github.com/CicanGeorgeAlin/cican-dublin/actions/runs/46092304466): **success**
+- Deployed commit: `b6c286b6454ecbfc17731b88127ce03af4804333`
+
+The archive quality run regenerated the official missing-registration queue and confirmed exactly 7,013 records available for review. At 100 accepted records per day, the raw queue represents about 71 days of work; at 200 per day, about 36 days. These are planning estimates, not promises: rejected, ambiguous or insufficiently evidenced records remain out of production.
 
 **ALWAYS STAY IN THE LIGHT.**

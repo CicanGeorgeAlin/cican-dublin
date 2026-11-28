@@ -11,7 +11,19 @@
     "dublin_four_authority_denominator": 7535,
     "missing_queue_before_batch": 7026,
     "missing_queue_after_batch_arithmetic": 7013,
-    "note": "Queue arithmetic is based on the 25 November 2026 official CSV audit artifact and must be refreshed against the next official download."
+    "note": "Queue arithmetic is based on the 25 November 2026 official CSV audit artifact and must be refreshed against the next official download.",
+    "audit_timestamp": "2026-11-28T01:17:24.624Z",
+    "source_row_count": 48327,
+    "dublin_county_row_count": 7535,
+    "authority_counts": {
+      "Dublin City Council": 5692,
+      "Fingal County Council": 667,
+      "South Dublin County Council": 790,
+      "Dún Laoghaire-Rathdown County Council": 386
+    },
+    "archive_unique_registration_count": 522,
+    "missing_queue_after_batch_confirmed": 7013,
+    "denominator_complete_for_four_authorities": true
   },
   "production_baseline": {
     "master_objects": 629,
@@ -307,5 +319,20 @@
     "unlicensed_images_reused": 0,
     "preexisting_master_reference_values_reused_by_micro_details": 46,
     "preexisting_master_reference_repeats_preserved": true
+  },
+  "deployment": {
+    "commit": "b6c286b6454ecbfc17731b88127ce03af4804333",
+    "archive_quality_gate": {
+      "run_id": 46092305179,
+      "status": "success"
+    },
+    "site_validation": {
+      "run_id": 46092305142,
+      "status": "success"
+    },
+    "github_pages": {
+      "run_id": 46092304466,
+      "status": "success"
+    }
   }
 }

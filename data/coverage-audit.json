@@ -53,6 +53,12 @@
       "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json. Updated after NIAH Hybrid Batch 052; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 053; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 054; reconciled from data/objects.json."
     },
     {
+      "name": "Brooklawn, Fonthill, Palmerstown Lower, Quarryvale, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not proof of postal district or local-authority boundary. Count reconciled from official NIAH records."
+    },
+    {
       "name": "Cappagh, County Dublin",
       "record_count": 2,
       "status": "RESEARCH_IN_PROGRESS",
@@ -69,6 +75,12 @@
       "record_count": 1,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json. Updated after NIAH Hybrid Batch 052; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 053; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 054; reconciled from data/objects.json."
+    },
+    {
+      "name": "Cooldrinagh, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not proof of postal district or local-authority boundary. Count reconciled from official NIAH records."
     },
     {
       "name": "COOLDRINAGH, County Dublin",
@@ -167,10 +179,22 @@
       "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json. Updated after NIAH Hybrid Batch 052; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 053; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 054; reconciled from data/objects.json."
     },
     {
+      "name": "Fonthill, County Dublin",
+      "record_count": 5,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not proof of postal district or local-authority boundary. Count reconciled from official NIAH records."
+    },
+    {
       "name": "HAROLDSGRANGE, County Dublin",
       "record_count": 5,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json. Updated after NIAH Hybrid Batch 052; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 053; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 054; reconciled from data/objects.json."
+    },
+    {
+      "name": "Hermitage, County Dublin",
+      "record_count": 2,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not proof of postal district or local-authority boundary. Count reconciled from official NIAH records."
     },
     {
       "name": "Kilcrea, County Dublin",
@@ -203,6 +227,12 @@
       "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json. Updated after NIAH Hybrid Batch 052; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 053; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 054; reconciled from data/objects.json."
     },
     {
+      "name": "Laraghcon, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not proof of postal district or local-authority boundary. Count reconciled from official NIAH records."
+    },
+    {
       "name": "Leixlip, County Dublin",
       "record_count": 16,
       "status": "RESEARCH_IN_PROGRESS",
@@ -216,7 +246,7 @@
     },
     {
       "name": "Lucan, County Dublin",
-      "record_count": 130,
+      "record_count": 129,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json after NIAH Batch 032. Updated after NIAH Hybrid Batch 052; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 053; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 054; reconciled from data/objects.json. Updated after NIAH Verification Batch 124 (13 records); count reconciled from data/objects.json. This settlement work-zone label is not a verified spatial local-authority assignment. Updated after NIAH Verification Batch 125 (8 SOURCE_VERIFIED_CORE records); count reconciled from data/objects.json. National CSV row matching and spatial authority assignment remain separate. Updated after NIAH Verification Batch 126 (8 SOURCE_VERIFIED_CORE records); count reconciled from data/objects.json. National CSV row matching and spatial authority assignment remain separate."
     },
@@ -275,6 +305,18 @@
       "coverage_note": "Settlement work-zone label, not a postal district or local-authority assignment. Count reconciled from data/objects.json after Discovery Batch 146; coverage remains a sample, not exhaustive. Updated after NIAH Hybrid Batch 052; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 053; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 054; reconciled from data/objects.json."
     },
     {
+      "name": "St. Edmondsbury, County Dublin",
+      "record_count": 8,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not proof of postal district or local-authority boundary. Count reconciled from official NIAH records."
+    },
+    {
+      "name": "St. Edmondsbury, Westmanstown (Ne. By.) Lacan Ed, Woodlands, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not proof of postal district or local-authority boundary. Count reconciled from official NIAH records."
+    },
+    {
       "name": "Sutton, County Dublin",
       "record_count": 1,
       "status": "RESEARCH_IN_PROGRESS",
@@ -297,48 +339,6 @@
       "record_count": 2,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json. Updated after NIAH Hybrid Batch 052; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 053; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 054; reconciled from data/objects.json."
-    },
-    {
-      "name": "Cooldrinagh, County Dublin",
-      "record_count": 1,
-      "status": "RESEARCH_IN_PROGRESS",
-      "coverage_note": "NIAH settlement or townland work-zone label; not proof of postal district or local-authority boundary. Count reconciled from official NIAH records."
-    },
-    {
-      "name": "St. Edmondsbury, Westmanstown (Ne. By.) Lacan Ed, Woodlands, County Dublin",
-      "record_count": 1,
-      "status": "RESEARCH_IN_PROGRESS",
-      "coverage_note": "NIAH settlement or townland work-zone label; not proof of postal district or local-authority boundary. Count reconciled from official NIAH records."
-    },
-    {
-      "name": "Laraghcon, County Dublin",
-      "record_count": 1,
-      "status": "RESEARCH_IN_PROGRESS",
-      "coverage_note": "NIAH settlement or townland work-zone label; not proof of postal district or local-authority boundary. Count reconciled from official NIAH records."
-    },
-    {
-      "name": "St. Edmondsbury, County Dublin",
-      "record_count": 8,
-      "status": "RESEARCH_IN_PROGRESS",
-      "coverage_note": "NIAH settlement or townland work-zone label; not proof of postal district or local-authority boundary. Count reconciled from official NIAH records."
-    },
-    {
-      "name": "Hermitage, County Dublin",
-      "record_count": 2,
-      "status": "RESEARCH_IN_PROGRESS",
-      "coverage_note": "NIAH settlement or townland work-zone label; not proof of postal district or local-authority boundary. Count reconciled from official NIAH records."
-    },
-    {
-      "name": "Brooklawn, Fonthill, Palmerstown Lower, Quarryvale, County Dublin",
-      "record_count": 1,
-      "status": "RESEARCH_IN_PROGRESS",
-      "coverage_note": "NIAH settlement or townland work-zone label; not proof of postal district or local-authority boundary. Count reconciled from official NIAH records."
-    },
-    {
-      "name": "Fonthill, County Dublin",
-      "record_count": 4,
-      "status": "RESEARCH_IN_PROGRESS",
-      "coverage_note": "NIAH settlement or townland work-zone label; not proof of postal district or local-authority boundary. Count reconciled from official NIAH records."
     }
   ],
   "districts_without_catalogue_records": [
@@ -356,7 +356,7 @@
     "Dublin 24"
   ],
   "totals": {
-    "postal_districts_with_records": 43,
+    "postal_districts_with_records": 50,
     "local_authorities_with_verified_spatial_assignment": 0,
     "records_with_verified_local_authority_assignment": 0
   },

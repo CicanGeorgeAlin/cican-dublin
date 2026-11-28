@@ -1,0 +1,73 @@
+name: Import CICAN Dublin NIAH Batch 159
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/import-niah-dublin-batch-159.mjs"
+      - ".github/workflows/import-niah-batch-159.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: niah-batch-159-import
+  cancel-in-progress: false
+
+jobs:
+  import-and-validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      - name: Rebuild latest official NIAH missing-registration queue
+        run: node scripts/audit-niah-dublin-coverage.mjs
+
+      - name: Import next 100 eligible unique Dublin registrations
+        run: node scripts/import-niah-dublin-batch-159.mjs
+
+      - name: Generate all crawlable place pages and sitemap
+        run: node scripts/generate-seo-pages.mjs
+
+      - name: Validate catalogue, sources, coordinates, visual inventory and pages
+        run: node scripts/validate-archive.mjs
+
+      - name: Re-audit all public NIAH registrations against official national CSV
+        run: node scripts/audit-niah-registrations.mjs
+
+      - name: Rebuild four-authority denominator and remaining review queue
+        run: node scripts/audit-niah-dublin-coverage.mjs
+
+      - name: Assert official census, batch integrity and reconciled counts
+        run: |
+          node --input-type=module -e '
+          import fs from "node:fs";
+          const a=JSON.parse(fs.readFileSync("audit/niah-dublin-coverage-audit.json","utf8"));
+          const b=JSON.parse(fs.readFileSync("audit/niah-batch-159-imported.json","utf8"));
+          if(a.four_authority_unique_registration_count!==7535) throw new Error("Official Dublin denominator changed unexpectedly.");
+          if(a.archive_unique_registration_count!==a.master_unique_numeric_registration_count) throw new Error("Public and master NIAH registration counts differ.");
+          if(a.archive_unique_registrations_matched_to_four_authority_source!==a.archive_unique_registration_count) throw new Error("Not all archive NIAH registrations match the official four-authority source.");
+          if(a.missing_official_registrations_available_for_review!==7535-a.archive_unique_registration_count) throw new Error("Remaining queue count does not reconcile to official census.");
+          if(b.batch!=="159" || b.registrations.length<1 || b.registrations.length>100 || new Set(b.registrations).size!==b.registrations.length) throw new Error("Batch 159 registration integrity failed.");
+          if(Object.values(b.authority_counts).reduce((x,y)=>x+y,0)!==b.registrations.length) throw new Error("Batch 159 authority distribution failed.");
+          if(b.master_count!==a.master_record_count || b.public_niah_count!==a.archive_unique_registration_count) throw new Error("Batch 159 published counts do not reconcile.");
+          console.log(JSON.stringify({batch:b.batch,catalogue:a.master_record_count,publicNiah:a.archive_unique_registration_count,remaining:a.missing_official_registrations_available_for_review,authorityCounts:b.authority_counts},null,2));
+          '
+
+      - name: Commit validated Batch 159 and generated pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/objects.json data/niah-registered-objects.json data/sources.json data/visual-assets.json data/coverage-audit.json audit/niah-dublin-coverage-audit.json audit/niah-dublin-missing-registrations.json audit/niah-batch-159-imported.json documentation/NIAH-DUBLIN-FOUR-AUTHORITY-FASTTRACK-BATCH-159.md places sitemap.xml
+          git commit -m "Publish NIAH bulk verification batch 159 — 100 reconciled records"
+          git push origin HEAD:main

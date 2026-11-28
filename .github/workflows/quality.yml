@@ -63,10 +63,21 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add audit/niah-340-official-register-audit.json audit/niah-dublin-coverage-audit.json audit/niah-dublin-missing-registrations.json
-          if git diff --cached --quiet; then
-            echo "Official NIAH audit and queue are unchanged."
-          else
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            node scripts/audit-niah-registrations.mjs
+            node scripts/audit-niah-dublin-coverage.mjs
+            git add audit/niah-340-official-register-audit.json audit/niah-dublin-coverage-audit.json audit/niah-dublin-missing-registrations.json
+            if git diff --cached --quiet; then
+              echo "Official NIAH audit and queue are unchanged."
+              exit 0
+            fi
             git commit -m "Update official NIAH audit and missing-registration queue"
-            git push origin HEAD:main
-          fi
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Main advanced during audit persistence; refreshing and retrying."
+          done
+          echo "Unable to persist audit after three safe fast-forward attempts."
+          exit 1

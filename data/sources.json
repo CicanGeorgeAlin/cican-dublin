@@ -7942,5 +7942,101 @@
     "notes": "Individual Buildings of Ireland record page opened and its description and appraisal checked. Exact registration row matched in the official NIAH national CSV. Coordinate values are source-derived; centroid accuracy is unspecified and this is not founder GPS or field verification. NIAH-linked photographs are not reused.",
     "licence": "CC BY 4.0 — NIAH dataset record data; linked photographs are not reused without separate rights verification.",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "NIAH-11201040",
+    "name": "2 The Manor, Main Street, LUCAN AND PETTYCANON, Lucan, DUBLIN — NIAH registration 11201040",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/11201040/2-the-manor-main-street-lucan-and-pettycanon-lucan-co-dublin",
+    "accessed": "2026-11-28",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH registration 11201040; rating Regional; special interest Architectural; original use House; in-use-as House; date range 1810–1830; date recorded 17/04/2002.",
+    "notes": "Individual Buildings of Ireland record page opened and its official description and appraisal checked. This is SOURCE_VERIFIED_CORE desk research only. Exact national CSV row reconciliation remains pending; no coordinate was imported and no map pin is assigned. Current physical condition, access and founder field verification remain outstanding. No linked NIAH photograph is reused.",
+    "licence": "CC BY 4.0 — NIAH dataset record data; linked photographs are excluded and are not reused.",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "NIAH-11201043",
+    "name": "Main Street, LUCAN DEMESNE, Lucan, DUBLIN — NIAH registration 11201043",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/11201043/main-street-lucan-demesne-lucan-co-dublin",
+    "accessed": "2026-11-28",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH registration 11201043; rating Regional; special interest Architectural; original use Shop/retail outlet; in-use-as Shop/retail outlet; date range 1800–1830; date recorded 22/04/2002.",
+    "notes": "Individual Buildings of Ireland record page opened and its official description and appraisal checked. This is SOURCE_VERIFIED_CORE desk research only. Exact national CSV row reconciliation remains pending; no coordinate was imported and no map pin is assigned. Current physical condition, access and founder field verification remain outstanding. No linked NIAH photograph is reused.",
+    "licence": "CC BY 4.0 — NIAH dataset record data; linked photographs are excluded and are not reused.",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "NIAH-11201049",
+    "name": "Main Street, LUCAN AND PETTYCANON, Lucan, DUBLIN — NIAH registration 11201049",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/11201049/main-street-lucan-and-pettycanon-lucan-co-dublin",
+    "accessed": "2026-11-28",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH registration 11201049; rating Regional; special interest Architectural, Social; original use Post box; in-use-as Post box; date range c.1980; date recorded 21/04/2002.",
+    "notes": "Individual Buildings of Ireland record page opened and its official description and appraisal checked. This is SOURCE_VERIFIED_CORE desk research only. Exact national CSV row reconciliation remains pending; no coordinate was imported and no map pin is assigned. Current physical condition, access and founder field verification remain outstanding. No linked NIAH photograph is reused.",
+    "licence": "CC BY 4.0 — NIAH dataset record data; linked photographs are excluded and are not reused.",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "NIAH-11201054",
+    "name": "1 Hanbury Lane, LUCAN AND PETTYCANON, Lucan, DUBLIN — NIAH registration 11201054",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/11201054/1-hanbury-lane-lucan-and-pettycanon-lucan-co-dublin",
+    "accessed": "2026-11-28",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH registration 11201054; rating Regional; special interest Architectural; original use House; in-use-as House; date range 1905–1915; date recorded 17/04/2002.",
+    "notes": "Individual Buildings of Ireland record page opened and its official description and appraisal checked. This is SOURCE_VERIFIED_CORE desk research only. Exact national CSV row reconciliation remains pending; no coordinate was imported and no map pin is assigned. Current physical condition, access and founder field verification remain outstanding. No linked NIAH photograph is reused.",
+    "licence": "CC BY 4.0 — NIAH dataset record data; linked photographs are excluded and are not reused.",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "NIAH-11201059",
+    "name": "2 Sarsfield Terrace, Main Street, LUCAN AND PETTYCANON, Lucan, DUBLIN — NIAH registration 11201059",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/11201059/2-sarsfield-terrace-main-street-lucan-and-pettycanon-lucan-co-dublin",
+    "accessed": "2026-11-28",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH registration 11201059; rating Regional; special interest Architectural; original use House; in-use-as House; date range 1855–1865; date recorded 18/04/2002.",
+    "notes": "Individual Buildings of Ireland record page opened and its official description and appraisal checked. This is SOURCE_VERIFIED_CORE desk research only. Exact national CSV row reconciliation remains pending; no coordinate was imported and no map pin is assigned. Current physical condition, access and founder field verification remain outstanding. No linked NIAH photograph is reused.",
+    "licence": "CC BY 4.0 — NIAH dataset record data; linked photographs are excluded and are not reused.",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "NIAH-11201060",
+    "name": "3 Sarsfield Terrace, Main Street, LUCAN AND PETTYCANON, Lucan, DUBLIN — NIAH registration 11201060",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/11201060/3-sarsfield-terrace-main-street-lucan-and-pettycanon-lucan-co-dublin",
+    "accessed": "2026-11-28",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH registration 11201060; rating Regional; special interest Architectural; original use House; in-use-as House; date range 1855–1865; date recorded 18/04/2002.",
+    "notes": "Individual Buildings of Ireland record page opened and its official description and appraisal checked. This is SOURCE_VERIFIED_CORE desk research only. Exact national CSV row reconciliation remains pending; no coordinate was imported and no map pin is assigned. Current physical condition, access and founder field verification remain outstanding. No linked NIAH photograph is reused.",
+    "licence": "CC BY 4.0 — NIAH dataset record data; linked photographs are excluded and are not reused.",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "NIAH-11201061",
+    "name": "4 Sarsfield Terrace, Main Street, LUCAN AND PETTYCANON, Lucan, DUBLIN — NIAH registration 11201061",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/11201061/4-sarsfield-terrace-main-street-lucan-and-pettycanon-lucan-co-dublin",
+    "accessed": "2026-11-28",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH registration 11201061; rating Regional; special interest Architectural; original use House; in-use-as House; date range 1855–1865; date recorded 18/04/2002.",
+    "notes": "Individual Buildings of Ireland record page opened and its official description and appraisal checked. This is SOURCE_VERIFIED_CORE desk research only. Exact national CSV row reconciliation remains pending; no coordinate was imported and no map pin is assigned. Current physical condition, access and founder field verification remain outstanding. No linked NIAH photograph is reused.",
+    "licence": "CC BY 4.0 — NIAH dataset record data; linked photographs are excluded and are not reused.",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "NIAH-11201064",
+    "name": "7 Sarsfield Terrace, Main Street, LUCAN AND PETTYCANON, Lucan, DUBLIN — NIAH registration 11201064",
+    "publisher": "Department of Housing, Local Government and Heritage — National Inventory of Architectural Heritage",
+    "url": "https://www.buildingsofireland.ie/buildings-search/building/11201064/7-sarsfield-terrace-main-street-lucan-and-pettycanon-lucan-co-dublin",
+    "accessed": "2026-11-28",
+    "source_type": "OFFICIAL_HERITAGE_REGISTER",
+    "specific_reference": "NIAH registration 11201064; rating Regional; special interest Architectural, Technical; original use House; in-use-as House; date range 1855–1865; date recorded 18/04/2002.",
+    "notes": "Individual Buildings of Ireland record page opened and its official description and appraisal checked. This is SOURCE_VERIFIED_CORE desk research only. Exact national CSV row reconciliation remains pending; no coordinate was imported and no map pin is assigned. Current physical condition, access and founder field verification remain outstanding. No linked NIAH photograph is reused.",
+    "licence": "CC BY 4.0 — NIAH dataset record data; linked photographs are excluded and are not reused.",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/"
   }
 ]

@@ -3,7 +3,7 @@
   "project": "CICAN DUBLIN",
   "policy": "MIXED_REFERENCE_AND_FOUNDER_ORIGINAL",
   "generated_from": "data/objects.json",
-  "record_count": 642,
+  "record_count": 650,
   "rules": [
     "Online reference photographs may be displayed only when their source, creator, date where known, reuse licence and attribution are recorded.",
     "Clearly distinguish street-context/reference images from photographs verified as depicting the exact catalogue object.",
@@ -22134,6 +22134,254 @@
         "Document the architectural or structural features described in the official NIAH record",
         "Capture materials and setting only where visible and accessible",
         "Record current condition without entering private or restricted property"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0346",
+      "name": "2 The Manor — semi-detached house (NIAH 11201040)",
+      "category": "ARCHITECTURE",
+      "district": "Lucan, County Dublin",
+      "address": "2 The Manor, Main Street, Lucan, LUCAN AND PETTYCANON, County Dublin, Ireland",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Overall view of the semi-detached house and its position in Lucan village",
+        "Rendered front wall, quoins and round-headed entrance",
+        "Roofline, chimney stacks and rear extension where visible from public viewpoints",
+        "Relationship of the projecting retail extension to the historic frontage"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0347",
+      "name": "Main Street — terraced shop (NIAH 11201043)",
+      "category": "ARCHITECTURE",
+      "district": "Lucan, County Dublin",
+      "address": "Main Street, Lucan Demesne, Lucan, County Dublin, Ireland",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Full five-bay frontage from a lawful public viewpoint",
+        "Three traditional-style timber shopfronts",
+        "Two roof sections and the chimney stack at their junction",
+        "The building's relationship to the adjoining Main Street group"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-STR-0208",
+      "name": "Main Street — cast-iron pillar post box (NIAH 11201049)",
+      "category": "STREET_DETAIL",
+      "district": "Lucan, County Dublin",
+      "address": "Main Street, Lucan, LUCAN AND PETTYCANON, County Dublin, Ireland",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Whole cast-iron pillar post box and its streetscape setting",
+        "Raised 'an post' plaque and lettering",
+        "Manufacturer's name plate without assuming an unidentified maker",
+        "Base, cap and overall form from safe public viewpoints"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0348",
+      "name": "1 Hanbury Lane — vernacular house (NIAH 11201054)",
+      "category": "ARCHITECTURE",
+      "district": "Lucan, County Dublin",
+      "address": "1 Hanbury Lane, Lucan, County Dublin, Ireland",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Overall end-of-terrace house and its position in the row",
+        "Red brick walling and stone window sills",
+        "Timber casement windows and entrance door with overlight",
+        "Pitched slate roof and red brick chimney stack"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0349",
+      "name": "2 Sarsfield Terrace (NIAH 11201059)",
+      "category": "ARCHITECTURE",
+      "district": "Lucan, County Dublin",
+      "address": "2 Sarsfield Terrace, Main Street, Lucan, County Dublin, Ireland",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Full two-bay, two-storey frontage",
+        "Timber sash windows and raised red-brick surrounds",
+        "Glazed timber door with overlight",
+        "Rendered chimney stack, slate roof and street railings"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0350",
+      "name": "3 Sarsfield Terrace (NIAH 11201060)",
+      "category": "ARCHITECTURE",
+      "district": "Lucan, County Dublin",
+      "address": "3 Sarsfield Terrace, Main Street, Lucan, County Dublin, Ireland",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Full two-bay, two-storey frontage",
+        "uPVC casement windows and raised red-brick surrounds",
+        "Glazed timber door with overlight",
+        "Roofline, rendered chimney stack and street railings"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0351",
+      "name": "4 Sarsfield Terrace (NIAH 11201061)",
+      "category": "ARCHITECTURE",
+      "district": "Lucan, County Dublin",
+      "address": "4 Sarsfield Terrace, Main Street, Lucan, County Dublin, Ireland",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Full two-bay, two-storey frontage",
+        "Timber sash windows and raised red-brick surrounds",
+        "Timber door with overlight",
+        "Rendered chimney stack, slate roof and street railings"
+      ],
+      "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
+      "original_photo": null,
+      "photo_credit": null,
+      "capture_date": null,
+      "capture_location_verification": "NOT_FIELD_VERIFIED",
+      "line_art_status": "WAITING_FOR_ORIGINAL_PHOTO",
+      "line_art_file": null,
+      "line_art_spec": {
+        "paper": "A4",
+        "orientation": "Choose to suit original composition",
+        "resolution_dpi": 300,
+        "pixel_size_portrait": "2480x3508",
+        "style": "Faithful black outlines on clean white background; no invented details, labels, shading or added objects",
+        "source_requirement": "Corresponding founder-captured original photograph"
+      },
+      "gallery_status": "NOT_YET_PUBLISHED",
+      "reference_images": []
+    },
+    {
+      "record_id": "DUB-BLD-0352",
+      "name": "7 Sarsfield Terrace (NIAH 11201064)",
+      "category": "ARCHITECTURE",
+      "district": "Lucan, County Dublin",
+      "address": "7 Sarsfield Terrace, Main Street, Lucan, County Dublin, Ireland",
+      "visual_priority": "STANDARD",
+      "planned_shots": [
+        "Full three-bay, two-storey frontage",
+        "Original 2/2-pane sash windows and unpainted sills",
+        "Timber panelled door with overlight",
+        "Brick chimney stack, slate roof and original street railings"
       ],
       "photo_status": "AWAITING_FOUNDER_PHOTOGRAPH",
       "original_photo": null,

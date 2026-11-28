@@ -1,0 +1,219 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": "NIAH-VERIFICATION-125",
+  "audited_on": "2026-11-28",
+  "scope": "Lucan, South Dublin County Council",
+  "method": "Hybrid NIAH core verification; official individual record pages opened. National CSV row enrichment is pending for this batch.",
+  "official_dataset": {
+    "publisher": "Department of Housing, Local Government and Heritage / NIAH",
+    "source_page": "https://www.buildingsofireland.ie/niah-data-download/",
+    "four_authority_denominator": 7535,
+    "missing_national_row_matches_before_batch": 7013,
+    "new_core_records": 8,
+    "new_national_row_matches_confirmed_in_this_batch": 0,
+    "note": "Do not subtract the eight core records from the national-row missing queue until the official CSV reconciliation workflow confirms their exact REG_NO rows."
+  },
+  "production_baseline": {
+    "master_objects": 642,
+    "public_niah_records": 522,
+    "source_records": 762,
+    "visual_records": 642
+  },
+  "production_after_batch": {
+    "master_objects": 650,
+    "public_niah_records": 530,
+    "source_records": 770,
+    "visual_records": 650
+  },
+  "records": [
+    {
+      "reg_no": "11201040",
+      "archive_id": "DUB-BLD-0346",
+      "official_title": "2 The Manor, Main Street, LUCAN AND PETTYCANON, Lucan, DUBLIN",
+      "individual_page": "https://www.buildingsofireland.ie/buildings-search/building/11201040/2-the-manor-main-street-lucan-and-pettycanon-lucan-co-dublin",
+      "gates": {
+        "individual_page": "PASS",
+        "exact_registration_on_page": "PASS",
+        "archive_registration_collision": "NONE",
+        "archive_id_collision": "NONE",
+        "national_csv_row": "PENDING",
+        "coordinate_provenance": "NOT_ASSIGNED"
+      },
+      "coordinate_status": "NOT_SET",
+      "field_verification": "NOT_DONE",
+      "image_reuse": "NONE",
+      "release_status": "SOURCE_VERIFIED_CORE_ADDED_TO_CATALOGUE"
+    },
+    {
+      "reg_no": "11201043",
+      "archive_id": "DUB-BLD-0347",
+      "official_title": "Main Street, LUCAN DEMESNE, Lucan, DUBLIN",
+      "individual_page": "https://www.buildingsofireland.ie/buildings-search/building/11201043/main-street-lucan-demesne-lucan-co-dublin",
+      "gates": {
+        "individual_page": "PASS",
+        "exact_registration_on_page": "PASS",
+        "archive_registration_collision": "NONE",
+        "archive_id_collision": "NONE",
+        "national_csv_row": "PENDING",
+        "coordinate_provenance": "NOT_ASSIGNED"
+      },
+      "coordinate_status": "NOT_SET",
+      "field_verification": "NOT_DONE",
+      "image_reuse": "NONE",
+      "release_status": "SOURCE_VERIFIED_CORE_ADDED_TO_CATALOGUE"
+    },
+    {
+      "reg_no": "11201049",
+      "archive_id": "DUB-STR-0208",
+      "official_title": "Main Street, LUCAN AND PETTYCANON, Lucan, DUBLIN",
+      "individual_page": "https://www.buildingsofireland.ie/buildings-search/building/11201049/main-street-lucan-and-pettycanon-lucan-co-dublin",
+      "gates": {
+        "individual_page": "PASS",
+        "exact_registration_on_page": "PASS",
+        "archive_registration_collision": "NONE",
+        "archive_id_collision": "NONE",
+        "national_csv_row": "PENDING",
+        "coordinate_provenance": "NOT_ASSIGNED"
+      },
+      "coordinate_status": "NOT_SET",
+      "field_verification": "NOT_DONE",
+      "image_reuse": "NONE",
+      "release_status": "SOURCE_VERIFIED_CORE_ADDED_TO_CATALOGUE"
+    },
+    {
+      "reg_no": "11201054",
+      "archive_id": "DUB-BLD-0348",
+      "official_title": "1 Hanbury Lane, LUCAN AND PETTYCANON, Lucan, DUBLIN",
+      "individual_page": "https://www.buildingsofireland.ie/buildings-search/building/11201054/1-hanbury-lane-lucan-and-pettycanon-lucan-co-dublin",
+      "gates": {
+        "individual_page": "PASS",
+        "exact_registration_on_page": "PASS",
+        "archive_registration_collision": "NONE",
+        "archive_id_collision": "NONE",
+        "national_csv_row": "PENDING",
+        "coordinate_provenance": "NOT_ASSIGNED"
+      },
+      "coordinate_status": "NOT_SET",
+      "field_verification": "NOT_DONE",
+      "image_reuse": "NONE",
+      "release_status": "SOURCE_VERIFIED_CORE_ADDED_TO_CATALOGUE"
+    },
+    {
+      "reg_no": "11201059",
+      "archive_id": "DUB-BLD-0349",
+      "official_title": "2 Sarsfield Terrace, Main Street, LUCAN AND PETTYCANON, Lucan, DUBLIN",
+      "individual_page": "https://www.buildingsofireland.ie/buildings-search/building/11201059/2-sarsfield-terrace-main-street-lucan-and-pettycanon-lucan-co-dublin",
+      "gates": {
+        "individual_page": "PASS",
+        "exact_registration_on_page": "PASS",
+        "archive_registration_collision": "NONE",
+        "archive_id_collision": "NONE",
+        "national_csv_row": "PENDING",
+        "coordinate_provenance": "NOT_ASSIGNED"
+      },
+      "coordinate_status": "NOT_SET",
+      "field_verification": "NOT_DONE",
+      "image_reuse": "NONE",
+      "release_status": "SOURCE_VERIFIED_CORE_ADDED_TO_CATALOGUE"
+    },
+    {
+      "reg_no": "11201060",
+      "archive_id": "DUB-BLD-0350",
+      "official_title": "3 Sarsfield Terrace, Main Street, LUCAN AND PETTYCANON, Lucan, DUBLIN",
+      "individual_page": "https://www.buildingsofireland.ie/buildings-search/building/11201060/3-sarsfield-terrace-main-street-lucan-and-pettycanon-lucan-co-dublin",
+      "gates": {
+        "individual_page": "PASS",
+        "exact_registration_on_page": "PASS",
+        "archive_registration_collision": "NONE",
+        "archive_id_collision": "NONE",
+        "national_csv_row": "PENDING",
+        "coordinate_provenance": "NOT_ASSIGNED"
+      },
+      "coordinate_status": "NOT_SET",
+      "field_verification": "NOT_DONE",
+      "image_reuse": "NONE",
+      "release_status": "SOURCE_VERIFIED_CORE_ADDED_TO_CATALOGUE"
+    },
+    {
+      "reg_no": "11201061",
+      "archive_id": "DUB-BLD-0351",
+      "official_title": "4 Sarsfield Terrace, Main Street, LUCAN AND PETTYCANON, Lucan, DUBLIN",
+      "individual_page": "https://www.buildingsofireland.ie/buildings-search/building/11201061/4-sarsfield-terrace-main-street-lucan-and-pettycanon-lucan-co-dublin",
+      "gates": {
+        "individual_page": "PASS",
+        "exact_registration_on_page": "PASS",
+        "archive_registration_collision": "NONE",
+        "archive_id_collision": "NONE",
+        "national_csv_row": "PENDING",
+        "coordinate_provenance": "NOT_ASSIGNED"
+      },
+      "coordinate_status": "NOT_SET",
+      "field_verification": "NOT_DONE",
+      "image_reuse": "NONE",
+      "release_status": "SOURCE_VERIFIED_CORE_ADDED_TO_CATALOGUE"
+    },
+    {
+      "reg_no": "11201064",
+      "archive_id": "DUB-BLD-0352",
+      "official_title": "7 Sarsfield Terrace, Main Street, LUCAN AND PETTYCANON, Lucan, DUBLIN",
+      "individual_page": "https://www.buildingsofireland.ie/buildings-search/building/11201064/7-sarsfield-terrace-main-street-lucan-and-pettycanon-lucan-co-dublin",
+      "gates": {
+        "individual_page": "PASS",
+        "exact_registration_on_page": "PASS",
+        "archive_registration_collision": "NONE",
+        "archive_id_collision": "NONE",
+        "national_csv_row": "PENDING",
+        "coordinate_provenance": "NOT_ASSIGNED"
+      },
+      "coordinate_status": "NOT_SET",
+      "field_verification": "NOT_DONE",
+      "image_reuse": "NONE",
+      "release_status": "SOURCE_VERIFIED_CORE_ADDED_TO_CATALOGUE"
+    }
+  ],
+  "held_candidates": [
+    {
+      "reg_no": "11201056",
+      "reason": "Official search-index entry located; individual record page not opened in Batch 125."
+    },
+    {
+      "reg_no": "11201057",
+      "reason": "Official search-index entry located; individual record page not opened in Batch 125."
+    },
+    {
+      "reg_no": "11201058",
+      "reason": "Official search-index entry located; individual page retrieval timed out; do not import yet."
+    },
+    {
+      "reg_no": "11201063",
+      "reason": "Search result located; individual record page not opened in Batch 125."
+    },
+    {
+      "reg_no": "11201065",
+      "reason": "Search-index entry located; individual record page not opened in Batch 125."
+    },
+    {
+      "reg_no": "11201066",
+      "reason": "Search-index entry located; individual record page not opened in Batch 125."
+    },
+    {
+      "reg_no": "11201067",
+      "reason": "Search-index entry located; individual record page not opened in Batch 125."
+    }
+  ],
+  "checks": {
+    "new_master_records": 8,
+    "new_public_niah_records": 8,
+    "new_source_records": 8,
+    "new_visual_records": 8,
+    "duplicate_archive_ids": 0,
+    "duplicate_source_ids": 0,
+    "duplicate_visual_ids": 0,
+    "duplicate_candidate_registrations": 0,
+    "coordinates_added": 0,
+    "map_pins_added": 0,
+    "field_verified_records": 0,
+    "images_reused": 0
+  },
+  "next_target": "Open the seven held Lucan records individually, then continue sequentially through the official four-authority missing-registration queue in 20-record research sub-batches, up to 100 candidates per Continue where evidence permits."
+}

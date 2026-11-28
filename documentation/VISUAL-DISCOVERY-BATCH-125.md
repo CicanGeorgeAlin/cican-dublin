@@ -1,49 +1,67 @@
-# Visual Discovery Batch 125 — Catholic Seamen's Institute and Columbia Mills
+# NIAH Verification Batch 125 — Lucan
 
-**Project:** CICAN DUBLIN  
-**Founder:** CICAN GEORGE ALIN  
-**Date:** 8 November 2026  
-**Scope:** Georgian charitable/seamen's heritage and late-Victorian industrial architecture on Sir John Rogerson's Quay.  
-**Outcome:** Three catalogue records, three matching visual records, four source records and one research note added. No third-party photographs imported.
+**Date:** 28 November 2026  
+**Project:** CICAN Dublin Archive  
+**Workstream:** NIAH core discovery and publication  
+**Status:** Eight SOURCE_VERIFIED_CORE records added; national CSV enrichment and field verification remain pending.
 
-## New catalogue records
+## Summary
 
-### DUB-BLD-0128 — Catholic Seamen's Institute, 4 Sir John Rogerson's Quay
+Eight distinct official NIAH registrations were opened individually and checked against the public Buildings of Ireland record pages. Exact registration numbers, official titles, rating, special-interest categories, original/current use, date range, description and appraisal were captured. The complete production master and public NIAH register were checked before assigning new archive IDs. No candidate registration, archive ID, source ID or visual ID collision was found.
 
-NIAH 50020472; DCC RPS 7544. A former c.1825 two-bay, four-storey Georgian house later used as a charitable hostel and Catholic Seamen's Institute. NIAH records Flemish-bond brickwork, rendered quoins and platbands, granite coping and visible lettering. A 2023 planning report describes Nos. 4 and 5 as protected structures retained from a permitted redevelopment scheme.
+## Records added
 
-The NIAH Irish Grid point 316884, 234320 was transformed to WGS84 53.34642834482358, -6.245669222083709. Source-derived only; not founder GPS. The NIAH record describes the property as disused. Current condition, occupancy and access are not confirmed.
+| NIAH registration | Archive ID | Official subject |
+|---|---|---|
+| 11201040 | DUB-BLD-0346 | 2 The Manor |
+| 11201043 | DUB-BLD-0347 | Main Street terraced shop |
+| 11201049 | DUB-STR-0208 | Main Street cast-iron pillar post box |
+| 11201054 | DUB-BLD-0348 | 1 Hanbury Lane |
+| 11201059 | DUB-BLD-0349 | 2 Sarsfield Terrace |
+| 11201060 | DUB-BLD-0350 | 3 Sarsfield Terrace |
+| 11201061 | DUB-BLD-0351 | 4 Sarsfield Terrace |
+| 11201064 | DUB-BLD-0352 | 7 Sarsfield Terrace |
 
-### DUB-BLD-0129 — Columbia Mills, 14–15 Sir John Rogerson's Quay
+All eight individual NIAH pages were opened and reviewed. Each public record links to its individual official source. The descriptions and appraisals remain attributed to NIAH.
 
-NIAH 50020474; DCC RPS 7546. Attached gable-fronted former mill built c.1890. NIAH records the earlier sailcloth and canvas manufacturer Thomas Crosby on the site in 1880 and H.M. Leask & Company in 1894. The inventory describes rendered walls, parapet, central pediment, segmental-headed openings and later replacement fabric. The 2020 planning appeal concerned proposed alterations and additional office accommodation; this is not treated as proof the works were completed.
+## Verification boundaries
 
-The NIAH Irish Grid point 316975, 234310 was transformed to WGS84 53.346318443541236, -6.244307208940531. Source-derived only; not founder GPS. Current condition and occupancy require field verification.
+- **Individual NIAH page:** PASS for all eight.
+- **Archive registration and ID collision checks:** PASS; zero collisions.
+- **National CSV exact-row match:** PENDING for all eight; not claimed in this batch.
+- **Coordinates:** intentionally unset. The individual pages display coordinate pairs, but this batch did not establish a coordinate reference system for those pairs. No coordinate conversion or map pin is inferred.
+- **Field verification:** NOT DONE.
+- **Photography:** no NIAH-linked images reused; eight founder photography plans added.
+- **Rights:** NIAH dataset record data attributed under CC BY 4.0; linked photographs excluded.
 
-### DUB-INS-0010 — Catholic Seamen's Institute vestigial lettering
+## Production totals
 
-A child record of DUB-BLD-0128. NIAH explicitly notes visible lettering on the rendered platbands and vestiges of the former institute sign on the fascia. The exact text and present survival are not established. No independent coordinate is assigned.
+| Dataset | Before | Added | After |
+|---|---:|---:|---:|
+| Master objects | 642 | 8 | 650 |
+| Public NIAH records | 522 | 8 | 530 |
+| Source records | 762 | 8 | 770 |
+| Visual records | 642 | 8 | 650 |
 
-## Sources registered
+The official four-authority denominator remains 7,535. The last confirmed national-row missing queue was 7,013 before this batch. Do not reduce that number until the quality workflow re-runs exact national CSV matching for the eight additions.
 
-- NIAH 50020472 — Catholic Seamen's Institute.
-- NIAH 50020474 — Columbia Mills.
-- Dublin City Council RPS entries 7544 and 7546.
-- Ringsend to City Centre Core Bus Corridor Scheme EIAR, Appendix A2.1 planning report.
+## Held candidates
 
-## Visual and fieldwork status
+11201056, 11201057, 11201058, 11201063, 11201065, 11201066 and 11201067 remain on HOLD because their individual pages were not opened and checked in this cycle. Search snippets alone are not sufficient for publication.
 
-Three matching visual inventory entries were added. No image was embedded because a file-level reuse licence was not independently verified. All three await founder photography.
+## Repository changes
 
-Photograph only from lawful public viewpoints. Do not enter disused/private premises, touch the lettering or attempt to clean or trace historic surfaces. Current condition and access must be checked before fieldwork.
+- `data/objects.json`
+- `data/niah-registered-objects.json`
+- `data/sources.json`
+- `data/visual-assets.json`
+- `data/coverage-audit.json`
+- `audit/niah-batch-125-record-level-audit.json`
+- `documentation/VISUAL-DISCOVERY-BATCH-125.md`
+- `documentation/CONTINUE-AUTOPILOT.md`
 
-## Quality control
+The commit is an atomic data-and-documentation update. GitHub Actions and GitHub Pages must complete before deployment is reported as confirmed.
 
-- Three unique object IDs and three matching visual IDs.
-- Four new source IDs, all linked from the relevant objects and research note.
-- No duplicate NIAH references, archive IDs or source IDs.
-- The lettering detail is parent-linked and has no invented independent coordinate.
-- All new coordinates are labelled SOURCE_DERIVED.
-- All records remain awaiting founder photography; no image, field visit or line art is fabricated.
+## Next step
 
-**ALWAYS STAY IN THE LIGHT.**
+Resolve the seven held individual records, then continue through the official four-authority queue in larger 20-record research sub-batches, up to 100 candidates per Continue where the individual-page, duplicate, source, coordinate, quality and publication gates permit.

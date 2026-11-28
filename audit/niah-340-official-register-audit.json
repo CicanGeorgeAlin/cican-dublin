@@ -1,16 +1,16 @@
 {
   "audit_title": "CICAN Dublin — 340 NIAH registration-number audit",
-  "audited_at": "2026-11-28T13:11:36.668Z",
+  "audited_at": "2026-11-28T13:17:32.737Z",
   "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
   "source_description": "National Inventory of Architectural Heritage national CSV bulk download, Department of Housing, Local Government and Heritage; data.gov.ie resource metadata last updated 10 November 2026.",
   "source_row_count": 48327,
   "source_registration_number_field": "REG_NO",
   "source_local_authority_field": "LOCAL_AUTHORITY�",
   "source_county_field": "COUNTY",
-  "archive_record_count": 538,
-  "unique_archive_reference_count": 538,
+  "archive_record_count": 638,
+  "unique_archive_reference_count": 638,
   "counts": {
-    "MATCHED": 538
+    "MATCHED": 638
   },
   "all_records_matched": true,
   "results": [
@@ -5388,6 +5388,1006 @@
       "archive_id": "DUB-BLD-0360",
       "archive_name": "15 Main Street — Georgian house (NIAH 11201069)",
       "registration_number": "11201069",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0361",
+      "archive_name": "NIAH 11201019 — hotel — Cooldrinagh",
+      "registration_number": "11201019",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0362",
+      "archive_name": "NIAH 11201021 — public house — Lucan",
+      "registration_number": "11201021",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0010",
+      "archive_name": "NIAH 11201023 — walled garden — Lucan",
+      "registration_number": "11201023",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0363",
+      "archive_name": "Gardenville",
+      "registration_number": "11201024",
+      "status": "MATCHED",
+      "official_name": "Gardenville",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0364",
+      "archive_name": "NIAH 11201025 — house — Lucan",
+      "registration_number": "11201025",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0210",
+      "archive_name": "NIAH 11201046 — bridge — Lucan",
+      "registration_number": "11201046",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0365",
+      "archive_name": "NIAH 11201073 — house — Lucan",
+      "registration_number": "11201073",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0366",
+      "archive_name": "Kieran Brady",
+      "registration_number": "11201074",
+      "status": "MATCHED",
+      "official_name": "Kieran Brady",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0367",
+      "archive_name": "EBS Building Society",
+      "registration_number": "11201075",
+      "status": "MATCHED",
+      "official_name": "EBS Building Society",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0368",
+      "archive_name": "Griffin's Pharmacy",
+      "registration_number": "11201076",
+      "status": "MATCHED",
+      "official_name": "Griffin's Pharmacy",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0369",
+      "archive_name": "NIAH 11201077 — house — Lucan",
+      "registration_number": "11201077",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0370",
+      "archive_name": "NIAH 11201078 — house — Lucan",
+      "registration_number": "11201078",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0371",
+      "archive_name": "NIAH 11201079 — house — Lucan",
+      "registration_number": "11201079",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0372",
+      "archive_name": "NIAH 11201080 — house — Lucan",
+      "registration_number": "11201080",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0373",
+      "archive_name": "Bowman and Co. Solicitors",
+      "registration_number": "11201081",
+      "status": "MATCHED",
+      "official_name": "Bowman and Co. Solicitors",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0374",
+      "archive_name": "Liffey Descent",
+      "registration_number": "11201082",
+      "status": "MATCHED",
+      "official_name": "Liffey Descent",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0375",
+      "archive_name": "NIAH 11201083 — house — Lucan",
+      "registration_number": "11201083",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0376",
+      "archive_name": "St Andrew's Lodge and Hall",
+      "registration_number": "11201084",
+      "status": "MATCHED",
+      "official_name": "St Andrew's Lodge and Hall",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0377",
+      "archive_name": "NIAH 11201085 — house — Lucan",
+      "registration_number": "11201085",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0378",
+      "archive_name": "NIAH 11201086 — house — Lucan",
+      "registration_number": "11201086",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0379",
+      "archive_name": "NIAH 11201087 — house — Lucan",
+      "registration_number": "11201087",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0380",
+      "archive_name": "NIAH 11201088 — house — Lucan",
+      "registration_number": "11201088",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0209",
+      "archive_name": "NIAH 11201089 — water pump — Lucan",
+      "registration_number": "11201089",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0211",
+      "archive_name": "Lucan Bridge",
+      "registration_number": "11201090",
+      "status": "MATCHED",
+      "official_name": "Lucan Bridge",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0381",
+      "archive_name": "Stewart's Crafts",
+      "registration_number": "11201091",
+      "status": "MATCHED",
+      "official_name": "Stewart's Crafts",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0382",
+      "archive_name": "NIAH 11201092 — building misc — Lucan",
+      "registration_number": "11201092",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0212",
+      "archive_name": "NIAH 11201093 — weir — Lucan",
+      "registration_number": "11201093",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0383",
+      "archive_name": "NIAH 11201094 — house — Lucan",
+      "registration_number": "11201094",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0384",
+      "archive_name": "NIAH 11201095 — house — Lucan",
+      "registration_number": "11201095",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0385",
+      "archive_name": "NIAH 11201096 — house — Lucan",
+      "registration_number": "11201096",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0386",
+      "archive_name": "NIAH 11201097 — house — Lucan",
+      "registration_number": "11201097",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0387",
+      "archive_name": "NIAH 11201098 — house — Lucan",
+      "registration_number": "11201098",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0388",
+      "archive_name": "NIAH 11201099 — house — Lucan",
+      "registration_number": "11201099",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0389",
+      "archive_name": "NIAH 11201100 — house — Lucan",
+      "registration_number": "11201100",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0390",
+      "archive_name": "NIAH 11201101 — house — Lucan",
+      "registration_number": "11201101",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0391",
+      "archive_name": "NIAH 11201102 — house — Lucan",
+      "registration_number": "11201102",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0392",
+      "archive_name": "NIAH 11201103 — house — Lucan",
+      "registration_number": "11201103",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0393",
+      "archive_name": "NIAH 11201104 — house — Lucan",
+      "registration_number": "11201104",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0394",
+      "archive_name": "NIAH 11201105 — house — Lucan",
+      "registration_number": "11201105",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0395",
+      "archive_name": "NIAH 11201106 — house — Lucan",
+      "registration_number": "11201106",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0396",
+      "archive_name": "NIAH 11201107 — house — Lucan",
+      "registration_number": "11201107",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0397",
+      "archive_name": "NIAH 11201108 — house — Lucan",
+      "registration_number": "11201108",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0398",
+      "archive_name": "NIAH 11201109 — house — Lucan",
+      "registration_number": "11201109",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0399",
+      "archive_name": "NIAH 11201110 — house — Lucan",
+      "registration_number": "11201110",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0400",
+      "archive_name": "NIAH 11201111 — house — Lucan",
+      "registration_number": "11201111",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0401",
+      "archive_name": "Stanford Cottage",
+      "registration_number": "11201112",
+      "status": "MATCHED",
+      "official_name": "Stanford Cottage",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0402",
+      "archive_name": "NIAH 11201113 — house — Lucan",
+      "registration_number": "11201113",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0403",
+      "archive_name": "NIAH 11201114 — chimney — Lucan",
+      "registration_number": "11201114",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0404",
+      "archive_name": "NIAH 11201115 — house — Lucan",
+      "registration_number": "11201115",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0405",
+      "archive_name": "NIAH 11201116 — house — Lucan",
+      "registration_number": "11201116",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0406",
+      "archive_name": "NIAH 11201117 — house — Lucan",
+      "registration_number": "11201117",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0407",
+      "archive_name": "NIAH 11201118 — house — Lucan",
+      "registration_number": "11201118",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0408",
+      "archive_name": "NIAH 11201119 — house — Lucan",
+      "registration_number": "11201119",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0409",
+      "archive_name": "NIAH 11201120 — house — Lucan",
+      "registration_number": "11201120",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0410",
+      "archive_name": "NIAH 11201121 — house — Lucan",
+      "registration_number": "11201121",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0411",
+      "archive_name": "NIAH 11201122 — house — Lucan",
+      "registration_number": "11201122",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0412",
+      "archive_name": "NIAH 11201123 — house — Lucan",
+      "registration_number": "11201123",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0413",
+      "archive_name": "NIAH 11201124 — house — Lucan",
+      "registration_number": "11201124",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0414",
+      "archive_name": "NIAH 11201125 — house — Lucan",
+      "registration_number": "11201125",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0415",
+      "archive_name": "NIAH 11201126 — house — Lucan",
+      "registration_number": "11201126",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0416",
+      "archive_name": "Rose Cottage",
+      "registration_number": "11201127",
+      "status": "MATCHED",
+      "official_name": "Rose Cottage",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0417",
+      "archive_name": "NIAH 11201128 — house — Lucan",
+      "registration_number": "11201128",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0028",
+      "archive_name": "James MacCarten Memorial",
+      "registration_number": "11201129",
+      "status": "MATCHED",
+      "official_name": "James MacCarten Memorial",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0418",
+      "archive_name": "Saint Mary's Catholic Church",
+      "registration_number": "11201131",
+      "status": "MATCHED",
+      "official_name": "Saint Mary's Catholic Church",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0029",
+      "archive_name": "St Mary's Church Graveyard",
+      "registration_number": "11201132",
+      "status": "MATCHED",
+      "official_name": "St Mary's Church Graveyard",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0419",
+      "archive_name": "Vesey Arms",
+      "registration_number": "11201133",
+      "status": "MATCHED",
+      "official_name": "Vesey Arms",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0011",
+      "archive_name": "NIAH 11201134 — gates/railings/walls — Lucan",
+      "registration_number": "11201134",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0012",
+      "archive_name": "A N Blinds",
+      "registration_number": "11201135",
+      "status": "MATCHED",
+      "official_name": "A N Blinds",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0013",
+      "archive_name": "Canonbrook Lodge",
+      "registration_number": "11201136",
+      "status": "MATCHED",
+      "official_name": "Canonbrook Lodge",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0420",
+      "archive_name": "Lucan House",
+      "registration_number": "11201137",
+      "status": "MATCHED",
+      "official_name": "Lucan House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0014",
+      "archive_name": "Lucan House",
+      "registration_number": "11201138",
+      "status": "MATCHED",
+      "official_name": "Lucan House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0421",
+      "archive_name": "Lucan House",
+      "registration_number": "11201139",
+      "status": "MATCHED",
+      "official_name": "Lucan House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0030",
+      "archive_name": "Lucan House",
+      "registration_number": "11201140",
+      "status": "MATCHED",
+      "official_name": "Lucan House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0015",
+      "archive_name": "Lucan House",
+      "registration_number": "11201141",
+      "status": "MATCHED",
+      "official_name": "Lucan House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0213",
+      "archive_name": "Lucan House",
+      "registration_number": "11201142",
+      "status": "MATCHED",
+      "official_name": "Lucan House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0016",
+      "archive_name": "Lucan House",
+      "registration_number": "11201143",
+      "status": "MATCHED",
+      "official_name": "Lucan House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0422",
+      "archive_name": "Lucan House",
+      "registration_number": "11201144",
+      "status": "MATCHED",
+      "official_name": "Lucan House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0214",
+      "archive_name": "Coldblow Bridge",
+      "registration_number": "11201145",
+      "status": "MATCHED",
+      "official_name": "Coldblow Bridge",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0031",
+      "archive_name": "Lucan House",
+      "registration_number": "11201146",
+      "status": "MATCHED",
+      "official_name": "Lucan House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0017",
+      "archive_name": "Lucan House",
+      "registration_number": "11201147",
+      "status": "MATCHED",
+      "official_name": "Lucan House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0423",
+      "archive_name": "Lucan House",
+      "registration_number": "11201148",
+      "status": "MATCHED",
+      "official_name": "Lucan House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0215",
+      "archive_name": "Lucan House",
+      "registration_number": "11201149",
+      "status": "MATCHED",
+      "official_name": "Lucan House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0216",
+      "archive_name": "Anna Liffey Weir",
+      "registration_number": "11202001",
+      "status": "MATCHED",
+      "official_name": "Anna Liffey Weir",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0018",
+      "archive_name": "Anna Liffey Mills",
+      "registration_number": "11202002",
+      "status": "MATCHED",
+      "official_name": "Anna Liffey Mills",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0424",
+      "archive_name": "St Edmondsbury Hospital",
+      "registration_number": "11202003",
+      "status": "MATCHED",
+      "official_name": "St Edmondsbury Hospital",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0425",
+      "archive_name": "NIAH 11202004 — house — St. Edmondsbury",
+      "registration_number": "11202004",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0019",
+      "archive_name": "NIAH 11202005 — gates/railings/walls — St. Edmondsbury",
+      "registration_number": "11202005",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0020",
+      "archive_name": "NIAH 11202006 — walled garden — St. Edmondsbury",
+      "registration_number": "11202006",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0426",
+      "archive_name": "NIAH 11202007 — barn — St. Edmondsbury",
+      "registration_number": "11202007",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0427",
+      "archive_name": "NIAH 11202008 — outbuilding — St. Edmondsbury",
+      "registration_number": "11202008",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0021",
+      "archive_name": "St Edmondsbury Gate Lodge",
+      "registration_number": "11202009",
+      "status": "MATCHED",
+      "official_name": "St Edmondsbury Gate Lodge",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0210",
+      "archive_name": "Milestone",
+      "registration_number": "11202010",
+      "status": "MATCHED",
+      "official_name": "Milestone",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0428",
+      "archive_name": "Hermitage Golf Club",
+      "registration_number": "11202011",
+      "status": "MATCHED",
+      "official_name": "Hermitage Golf Club",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0429",
+      "archive_name": "Sureweld",
+      "registration_number": "11202012",
+      "status": "MATCHED",
+      "official_name": "Sureweld",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0430",
+      "archive_name": "NIAH 11202013 — mill race — Brooklawn, Fonthill, Palmerstown Lower, Quarryvale",
+      "registration_number": "11202013",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0431",
+      "archive_name": "Fonthill House",
+      "registration_number": "11202014",
+      "status": "MATCHED",
+      "official_name": "Fonthill House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0432",
+      "archive_name": "Fonthill House stables",
+      "registration_number": "11202015",
+      "status": "MATCHED",
+      "official_name": "Fonthill House stables",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0433",
+      "archive_name": "Fonthill House Coach House",
+      "registration_number": "11202016",
+      "status": "MATCHED",
+      "official_name": "Fonthill House Coach House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0434",
+      "archive_name": "NIAH 11202017 — house — Fonthill",
+      "registration_number": "11202017",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0435",
+      "archive_name": "NIAH 11202018 — house — Fonthill",
+      "registration_number": "11202018",
       "status": "MATCHED",
       "official_name": "",
       "official_local_authority": "South Dublin County Council",

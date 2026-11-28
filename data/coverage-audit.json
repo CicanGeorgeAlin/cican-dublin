@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "audited_on": "2026-11-24",
+  "audited_on": "2026-11-28",
   "scope": "Dublin City and County Dublin",
-  "catalogue_total": 629,
+  "catalogue_total": 642,
   "administrative_assignment_status": "NOT_SPATIALLY_VERIFIED",
   "administrative_assignment_note": "No local-authority record counts are published in this audit. Postal-district labels cannot be substituted for point-in-polygon checks. The official 2026 polygon dataset has been identified; geometry import and spatial assignment await reuse-licence confirmation and a coordinate-precision review.",
   "local_authorities": [
@@ -216,9 +216,9 @@
     },
     {
       "name": "Lucan, County Dublin",
-      "record_count": 19,
+      "record_count": 32,
       "status": "RESEARCH_IN_PROGRESS",
-      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json after NIAH Batch 032. Updated after NIAH Hybrid Batch 052; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 053; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 054; reconciled from data/objects.json."
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json after NIAH Batch 032. Updated after NIAH Hybrid Batch 052; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 053; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 054; reconciled from data/objects.json. Updated after NIAH Verification Batch 124 (13 records); count reconciled from data/objects.json. This settlement work-zone label is not a verified spatial local-authority assignment."
     },
     {
       "name": "Lusk, County Dublin",
@@ -329,6 +329,7 @@
     "Batch 033 adds five individually checked NIAH Building Survey records in Cooldrinagh / Leixlip. Settlement work-zone labels remain distinct from spatial local-authority assignments.",
     "Batch 054 adds five individually checked Dublin City NIAH Building Survey records across Dublin 1, Dublin 2 and Dublin 3. District counts are work-zone labels only and do not establish spatial local-authority assignment.",
     "Batch 064 adds five individually checked Dublin City NIAH records (50010034–50010038) in Dublin 1. Catalogue and district counts are reconciled from data/objects.json; source-derived coordinates do not establish founder field verification or local-authority polygon assignment.",
-    "Publication of 14 individually consulted NIAH core records from research Batches 087–089. National CSV WGS84 coordinates are retained as SOURCE_DERIVED, not founder GPS; no NIAH-linked photographs are reused."
+    "Publication of 14 individually consulted NIAH core records from research Batches 087–089. National CSV WGS84 coordinates are retained as SOURCE_DERIVED, not founder GPS; no NIAH-linked photographs are reused.",
+    "NIAH Verification Batch 124 adds 13 individually consulted South Dublin County NIAH registrations in Lucan. Counts are reconciled from data/objects.json. National CSV coordinates remain SOURCE_DERIVED and do not establish founder field verification or spatial local-authority assignment."
   ]
 }

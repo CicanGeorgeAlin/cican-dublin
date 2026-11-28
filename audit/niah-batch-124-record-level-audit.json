@@ -1,0 +1,311 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": "NIAH-VERIFICATION-124",
+  "audited_on": "2026-11-28",
+  "scope": "Lucan, South Dublin County Council",
+  "official_dataset": {
+    "publisher": "Department of Housing, Local Government and Heritage / NIAH",
+    "download_page": "https://www.buildingsofireland.ie/niah-data-download/",
+    "dataset_page": "https://data.gov.ie/dataset/national-inventory-of-architectural-heritage-niah-national-dataset",
+    "csv_audit_rows": 48327,
+    "dublin_four_authority_denominator": 7535,
+    "missing_queue_before_batch": 7026,
+    "missing_queue_after_batch_arithmetic": 7013,
+    "note": "Queue arithmetic is based on the 25 November 2026 official CSV audit artifact and must be refreshed against the next official download."
+  },
+  "production_baseline": {
+    "master_objects": 629,
+    "public_niah_records": 509,
+    "source_records": 749,
+    "visual_records": 629
+  },
+  "production_after_staging": {
+    "master_objects": 642,
+    "public_niah_records": 522,
+    "source_records": 762,
+    "visual_records": 642
+  },
+  "records": [
+    {
+      "reg_no": "11201029",
+      "archive_id": "DUB-BLD-0335",
+      "official_title": "Lucan Garda Síochána Station",
+      "individual_page": "https://www.buildingsofireland.ie/buildings-search/building/11201029/lucan-garda-siochana-station-leixlip-road-lucan-and-pettycanon-lucan-dublin",
+      "gates": {
+        "individual_page": "PASS",
+        "national_row": "PASS",
+        "candidate_registration_collision": "NONE",
+        "coordinate_provenance": "PASS"
+      },
+      "coordinate_status": "SOURCE_DERIVED",
+      "field_verification": "NOT_DONE",
+      "image_reuse": "NONE",
+      "release_status": "ADDED_TO_PRODUCTION_DATA"
+    },
+    {
+      "reg_no": "11201030",
+      "archive_id": "DUB-BLD-0336",
+      "official_title": "Lucan Road",
+      "individual_page": "https://www.buildingsofireland.ie/buildings-search/building/11201030/lucan-road-lucan-and-pettycanon-lucan-dublin",
+      "gates": {
+        "individual_page": "PASS",
+        "national_row": "PASS",
+        "candidate_registration_collision": "NONE",
+        "coordinate_provenance": "PASS"
+      },
+      "coordinate_status": "SOURCE_DERIVED",
+      "field_verification": "NOT_DONE",
+      "image_reuse": "NONE",
+      "release_status": "ADDED_TO_PRODUCTION_DATA"
+    },
+    {
+      "reg_no": "11201031",
+      "archive_id": "DUB-BLD-0337",
+      "official_title": "Lucan Road, Adamstown Road",
+      "individual_page": "https://www.buildingsofireland.ie/buildings-search/building/11201031/lucan-road-adamstown-road-lucan-and-pettycanon-lucan-dublin",
+      "gates": {
+        "individual_page": "PASS",
+        "national_row": "PASS",
+        "candidate_registration_collision": "NONE",
+        "coordinate_provenance": "PASS"
+      },
+      "coordinate_status": "SOURCE_DERIVED",
+      "field_verification": "NOT_DONE",
+      "image_reuse": "NONE",
+      "release_status": "ADDED_TO_PRODUCTION_DATA"
+    },
+    {
+      "reg_no": "11201033",
+      "archive_id": "DUB-BLD-0338",
+      "official_title": "Adamstown Road",
+      "individual_page": "https://www.buildingsofireland.ie/buildings-search/building/11201033/adamstown-road-lucan-and-pettycanon-lucan-co-dublin",
+      "gates": {
+        "individual_page": "PASS",
+        "national_row": "PASS",
+        "candidate_registration_collision": "NONE",
+        "coordinate_provenance": "PASS"
+      },
+      "coordinate_status": "SOURCE_DERIVED",
+      "field_verification": "NOT_DONE",
+      "image_reuse": "NONE",
+      "release_status": "ADDED_TO_PRODUCTION_DATA"
+    },
+    {
+      "reg_no": "11201037",
+      "archive_id": "DUB-BLD-0339",
+      "official_title": "Main Street, Sarsfield Park",
+      "individual_page": "https://www.buildingsofireland.ie/buildings-search/building/11201037/dispensary-lane-lucan-and-pettycanon-lucan-co-dublin",
+      "gates": {
+        "individual_page": "PASS",
+        "national_row": "PASS",
+        "candidate_registration_collision": "NONE",
+        "coordinate_provenance": "PASS"
+      },
+      "coordinate_status": "SOURCE_DERIVED",
+      "field_verification": "NOT_DONE",
+      "image_reuse": "NONE",
+      "release_status": "ADDED_TO_PRODUCTION_DATA"
+    },
+    {
+      "reg_no": "11201039",
+      "archive_id": "DUB-BLD-0340",
+      "official_title": "1 The Manor",
+      "individual_page": "https://www.buildingsofireland.ie/buildings-search/building/11201039/the-manor-main-street-lucan-and-pettycanon-lucan-co-dublin",
+      "gates": {
+        "individual_page": "PASS",
+        "national_row": "PASS",
+        "candidate_registration_collision": "NONE",
+        "coordinate_provenance": "PASS"
+      },
+      "coordinate_status": "SOURCE_DERIVED",
+      "field_verification": "NOT_DONE",
+      "image_reuse": "NONE",
+      "release_status": "ADDED_TO_PRODUCTION_DATA"
+    },
+    {
+      "reg_no": "11201041",
+      "archive_id": "DUB-BLD-0341",
+      "official_title": "Main Street",
+      "individual_page": "https://www.buildingsofireland.ie/buildings-search/building/11201041/main-street-lucan-demense-lucan-co-dublin",
+      "gates": {
+        "individual_page": "PASS",
+        "national_row": "PASS",
+        "candidate_registration_collision": "NONE",
+        "coordinate_provenance": "PASS"
+      },
+      "coordinate_status": "SOURCE_DERIVED",
+      "field_verification": "NOT_DONE",
+      "image_reuse": "NONE",
+      "release_status": "ADDED_TO_PRODUCTION_DATA"
+    },
+    {
+      "reg_no": "11201042",
+      "archive_id": "DUB-BLD-0342",
+      "official_title": "Main Street",
+      "individual_page": "https://www.buildingsofireland.ie/buildings-search/building/11201042/centra-main-street-lucan-demesne-lucan-co-dublin",
+      "gates": {
+        "individual_page": "PASS",
+        "national_row": "PASS",
+        "candidate_registration_collision": "NONE",
+        "coordinate_provenance": "PASS"
+      },
+      "coordinate_status": "SOURCE_DERIVED",
+      "field_verification": "NOT_DONE",
+      "image_reuse": "NONE",
+      "release_status": "ADDED_TO_PRODUCTION_DATA"
+    },
+    {
+      "reg_no": "11201044",
+      "archive_id": "DUB-BLD-0343",
+      "official_title": "Main Street",
+      "individual_page": "https://www.buildingsofireland.ie/buildings-search/building/11201044/irish-permanent-main-street-lucan-demesne-lucan-co-dublin",
+      "gates": {
+        "individual_page": "PASS",
+        "national_row": "PASS",
+        "candidate_registration_collision": "NONE",
+        "coordinate_provenance": "PASS"
+      },
+      "coordinate_status": "SOURCE_DERIVED",
+      "field_verification": "NOT_DONE",
+      "image_reuse": "NONE",
+      "release_status": "ADDED_TO_PRODUCTION_DATA"
+    },
+    {
+      "reg_no": "11201045",
+      "archive_id": "DUB-BLD-0344",
+      "official_title": "The Lucan Inn",
+      "individual_page": "https://www.buildingsofireland.ie/buildings-search/building/11201045/the-lucan-inn-main-street-lucan-demense-lucan-dublin",
+      "gates": {
+        "individual_page": "PASS",
+        "national_row": "PASS",
+        "candidate_registration_collision": "NONE",
+        "coordinate_provenance": "PASS"
+      },
+      "coordinate_status": "SOURCE_DERIVED",
+      "field_verification": "NOT_DONE",
+      "image_reuse": "NONE",
+      "release_status": "ADDED_TO_PRODUCTION_DATA"
+    },
+    {
+      "reg_no": "11201047",
+      "archive_id": "DUB-INF-0208",
+      "official_title": "Main Street",
+      "individual_page": "https://www.buildingsofireland.ie/buildings-search/building/11201047/main-street-lucan-and-pettycanon-lucan-dublin",
+      "gates": {
+        "individual_page": "PASS",
+        "national_row": "PASS",
+        "candidate_registration_collision": "NONE",
+        "coordinate_provenance": "PASS"
+      },
+      "coordinate_status": "SOURCE_DERIVED",
+      "field_verification": "NOT_DONE",
+      "image_reuse": "NONE",
+      "release_status": "ADDED_TO_PRODUCTION_DATA"
+    },
+    {
+      "reg_no": "11201048",
+      "archive_id": "DUB-INF-0209",
+      "official_title": "LUCAN AND PETTYCANON",
+      "individual_page": "https://www.buildingsofireland.ie/buildings-search/building/11201048/lucan-and-pettycanon-lucan-dublin",
+      "gates": {
+        "individual_page": "PASS",
+        "national_row": "PASS",
+        "candidate_registration_collision": "NONE",
+        "coordinate_provenance": "PASS"
+      },
+      "coordinate_status": "SOURCE_DERIVED",
+      "field_verification": "NOT_DONE",
+      "image_reuse": "NONE",
+      "release_status": "ADDED_TO_PRODUCTION_DATA"
+    },
+    {
+      "reg_no": "11201050",
+      "archive_id": "DUB-BLD-0345",
+      "official_title": "Main Street",
+      "individual_page": "https://www.buildingsofireland.ie/buildings-search/building/11201050/main-street-lucan-and-pettycanon-lucan-dublin",
+      "gates": {
+        "individual_page": "PASS",
+        "national_row": "PASS",
+        "candidate_registration_collision": "NONE",
+        "coordinate_provenance": "PASS"
+      },
+      "coordinate_status": "SOURCE_DERIVED",
+      "field_verification": "NOT_DONE",
+      "image_reuse": "NONE",
+      "release_status": "ADDED_TO_PRODUCTION_DATA"
+    }
+  ],
+  "held_candidates": [
+    {
+      "reg_no": "11201040",
+      "individual_page": "HOLD",
+      "reason": "Official search-index entry found, but individual record page not opened in Batch 124; not imported."
+    },
+    {
+      "reg_no": "11201043",
+      "individual_page": "HOLD",
+      "reason": "Official search-index entry found, but individual record page not opened in Batch 124; not imported."
+    },
+    {
+      "reg_no": "11201049",
+      "individual_page": "HOLD",
+      "reason": "Official search-index entry found, but individual record page not opened in Batch 124; not imported."
+    },
+    {
+      "reg_no": "11201054",
+      "individual_page": "HOLD",
+      "reason": "Official search-index entry found, but individual record page not opened in Batch 124; not imported."
+    },
+    {
+      "reg_no": "11201056",
+      "individual_page": "HOLD",
+      "reason": "Official search-index entry found, but individual record page not opened in Batch 124; not imported."
+    },
+    {
+      "reg_no": "11201057",
+      "individual_page": "HOLD",
+      "reason": "Official search-index entry found, but individual record page not opened in Batch 124; not imported."
+    },
+    {
+      "reg_no": "11201058",
+      "individual_page": "HOLD",
+      "reason": "Official search-index entry found, but individual record page not opened in Batch 124; not imported."
+    }
+  ],
+  "spatial_flags": [
+    {
+      "reg_no": "11201033",
+      "related_reg_no": "11201032",
+      "note": "NIAH appraisal says related to Griffeen Lodge; separate registration retained, no parent relationship inferred."
+    },
+    {
+      "reg_no": "11201041",
+      "reg_no_2": "11201042",
+      "distance_m_approx": 9.7,
+      "note": "Separate adjoining NIAH shop registrations; points source-derived."
+    },
+    {
+      "reg_no": "11201044",
+      "reg_no_2": "11201045",
+      "distance_m_approx": 12.2,
+      "note": "Separate adjoining NIAH commercial registrations; points source-derived."
+    },
+    {
+      "reg_no": "11201050",
+      "reg_no_2": "11201052",
+      "distance_m_approx": 9.5,
+      "note": "Former bank is a distinct NIAH registration; close source-derived point spacing flagged for field review."
+    }
+  ],
+  "checks": {
+    "duplicate_archive_ids": 0,
+    "candidate_registration_collisions": 0,
+    "duplicate_public_niah_references": 0,
+    "duplicate_source_ids": 0,
+    "duplicate_visual_ids": 0,
+    "unresolved_source_references": 0,
+    "unlicensed_images_reused": 0,
+    "preexisting_master_reference_values_reused_by_micro_details": 46,
+    "preexisting_master_reference_repeats_preserved": true
+  }
+}

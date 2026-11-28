@@ -424,3 +424,18 @@ The completed GitHub Actions audit cross-checked all **490** public NIAH archive
 - [Pages build/deployment — run 44862701626](https://github.com/CicanGeorgeAlin/cican-dublin/actions/runs/44862701626)
 
 The quality gate generated **490 crawlable NIAH place pages** and a sitemap with **493 URLs**; archive preflight, official CSV registration audit, four-authority coverage audit and artifact upload all succeeded. GitHub Pages deployment succeeded. The generated place-page URLs are included in the sitemap; web-reader direct access to individual generated URLs was unavailable during this check, so no separate browser rendering claim is made.
+
+
+## Latest NIAH production checkpoint — Batch 124 (28 November 2026)
+
+Batch 124 researched the next Lucan segment of the official South Dublin NIAH queue. Thirteen records passed the individual-page, exact national-row and full-catalogue duplicate gates and were added to the master catalogue, public NIAH register, official source registry and visual photography plan. Seven additional candidates (11201040, 11201043, 11201049, 11201054, 11201056, 11201057 and 11201058) remain HOLD because this cycle retrieved official search-index entries but did not open their individual record pages.
+
+Published additions: 11201029, 11201030, 11201031, 11201033, 11201037, 11201039, 11201041, 11201042, 11201044, 11201045, 11201047, 11201048 and 11201050. Official individual pages were consulted for all thirteen. Exact rows were matched in the official NIAH national CSV; WGS84 latitude/longitude and ITM EPSG:2157 coordinates were copied from the national row. NIAH page coordinate pairs with no stated CRS were not used. All new locations are SOURCE_DERIVED, not founder GPS or FIELD_VERIFIED. No NIAH-linked photographs were reused; all thirteen visual entries remain awaiting founder photography.
+
+Full current production files were parsed before import: 629 master objects, 509 public NIAH records, 749 source records and 629 visual records. No candidate NIAH registration, archive ID, source ID, visual ID or normalized display-name collision was found. The master catalogue already contains 46 NIAH registration values shared by primary objects and separately catalogued micro-details; this existing model was preserved. Shared street-address strings and close points were manually reviewed; the most notable close pair is 11201050 and existing 11201052 (about 9.5 m between source-derived points), which remains flagged for founder field review.
+
+Post-batch totals: **642 master objects; 522 public NIAH records; 762 source records; 642 visual records.** Four-authority Dublin NIAH denominator remains 7,535. Against the 7,026-record missing queue from the 25 November official CSV audit, the arithmetic remainder is 7,013 before the next refresh. Lucan settlement work-zone count is 32; this is not a verified spatial local-authority assignment.
+
+The operational batch cap is now **up to 100 NIAH records per Continue, researched in 20-record sub-batches**. Daily target: 100–200 accepted records where evidence permits. No quota overrides the individual-page, national-row, duplicate, coordinate-provenance, quality or deployment gates. Next: resolve the seven HOLD candidates, then continue sequentially through the official missing-registration queue.
+
+**Publication and deployment status:** catalogue files and documentation committed together; GitHub Actions quality and Pages deployment must pass before this batch is called live.

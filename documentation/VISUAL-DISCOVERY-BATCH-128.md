@@ -14,8 +14,8 @@ All 100 selected rows in this batch belong to **South Dublin County Council**. T
 
 ## Batch selection
 
-- First selected registration: **11201130**
-- Last selected registration: **11205003**
+- First selected registration: **11202019**
+- Last selected registration: **11205009**
 - Selected: **100 distinct eligible rows; non-contiguous because incomplete or conflicting rows remain on the queue**
 - Four-authority queue before batch: **6,897**
 - Expected queue after the next successful exact-registration audit: **6,797**
@@ -24,10 +24,10 @@ All 100 selected rows in this batch belong to **South Dublin County Council**. T
 
 | Dataset | Before | Added | After |
 |---|---:|---:|---:|
-| Master objects | 858 | 100 | 958 |
-| Public NIAH records | 738 | 100 | 838 |
-| Source records | 978 | 100 | 1,078 |
-| Visual records | 858 | 100 | 958 |
+| Master objects | 758 | 100 | 858 |
+| Public NIAH records | 638 | 100 | 738 |
+| Source records | 878 | 100 | 978 |
+| Visual records | 758 | 100 | 858 |
 
 ## Integrity and limitations
 

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "NIAH-BATCH-128-NATIONAL-CSV-CONFIRMATION",
+  "audited_on": "2026-11-28",
+  "workflow": {
+    "repository": "CicanGeorgeAlin/cican-dublin",
+    "run_id": 46149248955,
+    "run_url": "https://github.com/CicanGeorgeAlin/cican-dublin/actions/runs/46149248955",
+    "conclusion": "success"
+  },
+  "source": {
+    "url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
+    "rows": 48327
+  },
+  "denominator": {
+    "four_authority_unique_registrations": 7535,
+    "authorities": {
+      "Dublin City Council": 5692,
+      "Fingal County Council": 667,
+      "South Dublin County Council": 790,
+      "Dún Laoghaire-Rathdown County Council": 386
+    }
+  },
+  "archive": {
+    "public_niah_records": 738,
+    "unique_archive_registrations": 738,
+    "matched": 738,
+    "not_found": 0,
+    "match_rate": 1,
+    "missing_official_registrations_for_review": 6797
+  },
+  "batch_128": {
+    "added": 100,
+    "first_registration": "11202019",
+    "last_registration": "11205009",
+    "local_authority": "South Dublin County Council"
+  },
+  "interpretation": "All 738 public NIAH registration numbers matched one official row in the 48,327-row national CSV. This confirms REG_NO presence and local-authority assignment only; it does not certify present-day condition, coordinates, CRS or field verification. The 6,797 remaining records form a research queue, not an automatic import list."
+}

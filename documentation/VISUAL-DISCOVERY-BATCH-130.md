@@ -1,37 +1,51 @@
-# Visual Discovery Batch 130 — Poolbeg Lighthouse roundhead rock-armour reinforcement
+# NIAH Bulk Publication Batch 130 — Four-Authority Dublin
 
-**Project:** CICAN DUBLIN  
-**Founder:** CICAN GEORGE ALIN  
-**Date:** 11 November 2026  
-**Scope:** Great South Wall roundhead beside Poolbeg Lighthouse, Dublin 4.  
-**Outcome:** One contemporary infrastructure feature catalogued from an official Dublin Port completion notice; one source and one research note registered; no reference photograph or map pin added.
+**Date:** 28 November 2026  
+**Project:** CICAN Dublin Archive  
+**Batch size:** 100 official NIAH registrations  
+**Scope:** First 100 eligible records from the refreshed four-authority Dublin missing-registration queue  
+**Status:** Published to the master catalogue and public NIAH register; national CSV re-audit pending.
 
-## Finding
+## Method
 
-Dublin Port Company reported on 23 March 2026 that remedial works to the rock armour around the Great South Wall roundhead near Poolbeg Lighthouse had been completed. The release describes approximately 5,000 tonnes of individually sized 6–9 tonne rocks, sourced in Arklow, transported by barge and positioned with a 150-tonne long-reach material handler operating from the barge. The stated purpose was to restore the breakwater's design profile after storm damage.
+The 100 records were selected from the workflow-generated official NIAH four-authority missing-registration queue, after excluding existing archive registrations and rows without a valid registration, official NIAH record URL, name or survey description. Every selected row has a unique eight-digit REG_NO, COUNTY=DUBLIN, recognised Dublin local authority, official NIAH WEBSITE_LINK and survey metadata. Official address, use, date, rating, special-interest, appraisal and coordinate fields were carried through without inventing missing values.
 
-## Catalogue decision
+All selected rows belong to South Dublin County Council. This is bulk official-dataset source verification. Individual pages were not separately opened one by one in this cycle; their official URLs are retained in each record. Records are not field verified. NIAH CSV coordinates are SOURCE_DERIVED with unspecified positional accuracy, not founder GPS. No NIAH-linked images are reused.
 
-- New catalogue records: **1** — `DUB-INF-0035`
-- New registered sources: **1** — `DPC-GSW-ROUNDHEAD-ROCK-ARMOUR-2026`
-- New research notes: **1**
-- New visual inspection records: **1**
-- New reference photographs: **0**
-- New independent coordinates/map pins: **0**
+## Selection
 
-The record is parent-linked to `DUB-INF-0034`, the Great South Wall. It is marked partially verified because the source documents the completed intervention but no founder field inspection has been completed. The record is a contemporary engineering feature, not original eighteenth-century masonry.
+- Eligible rows examined: 3187
+- Selected: 100 distinct eligible rows.
+- First selected registration: **11201130**
+- Last selected registration: **11215012**
+- Queue before batch: **6697**
+- Expected queue after the next successful exact-registration audit: **6597**
 
-## Source
+## Production totals
 
-Dublin Port Company, “Great South Wall roundhead reopens to public, as remedial works completed,” 23 March 2026:  
-https://www.dublinport.ie/great-south-wall-roundhead-reopens-to-public-as-remedial-works-completed/
+| Dataset | Before | Added | After |
+|---|---:|---:|---:|
+| Master objects | 958 | 100 | 1058 |
+| Public NIAH records | 838 | 100 | 938 |
+| Source records | 1078 | 100 | 1178 |
+| Visual records | 958 | 100 | 1058 |
 
-## Limits and fieldwork
+## Distribution
 
-The source gives no exact chainage, surveyed footprint, exact rock count, as-built drawing or independent post-completion condition survey. No point coordinate or pin is inferred from the lighthouse coordinate. The public access reopening was announced on 23 March 2026; current Port safety notices and weather conditions must still be checked before any visit. Photograph only from the public path. Do not climb onto the armour, approach the water or enter restricted port areas.
+- Local authorities: {"South Dublin County Council":100}
+- Categories: {"ARCHITECTURE":95,"LANDSCAPE":2,"MONUMENT":2,"INFRASTRUCTURE":1}
+- Source-coordinate rows: 100/100
+- Individual pages opened: 0/100 (official record URLs retained)
+- Founder field verification: 0/100
+- NIAH-linked photographs reused: 0
 
-The project image is credited to Murphy. It has not been imported because a separate reuse licence was not established.
+## Integrity and limitations
 
-## Integrity
+- 100 unique official REG_NO values selected from the refreshed missing queue.
+- Every selected row has a valid official individual NIAH URL and description.
+- Source records preserve official register metadata and CC BY 4.0 attribution.
+- Coordinates are copied from the national NIAH CSV only; positional accuracy is unspecified and coordinates are not founder GPS.
+- Current condition, present-day use, public access and photography permission remain unverified.
+- No NIAH photographs are reused; 100 photography plans await founder photographs.
 
-This batch adds one documented feature without altering the map interface or inventing a coordinate or image. Catalogue and visual inventory totals are reconciled to 288.
+The next Archive quality gate must confirm all 938 public NIAH references against the official national CSV, regenerate the four-authority missing queue and complete website validation and deployment gates.

@@ -1,6 +1,6 @@
 {
   "audit_title": "CICAN Dublin — four-authority NIAH Building Survey coverage audit",
-  "audited_at": "2026-11-28T01:17:24.624Z",
+  "audited_at": "2026-11-28T13:14:00Z",
   "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
   "source_description": "Official NIAH national CSV bulk download. The source is retrieved at audit time; the report records the exact source row count and field names used.",
   "source_row_count": 48327,
@@ -30,21 +30,22 @@
   "unknown_authority_values": [],
   "rows_with_unassigned_or_unrecognised_authority": 0,
   "duplicate_registration_numbers_in_official_dublin_rows": [],
-  "archive_record_count": 522,
-  "archive_unique_registration_count": 522,
-  "archive_unique_registrations_matched_to_four_authority_source": 522,
+  "archive_record_count": 538,
+  "archive_unique_registration_count": 538,
+  "archive_unique_registrations_matched_to_four_authority_source": 538,
   "archive_registrations_not_found_in_four_authority_source": [],
-  "master_record_count": 642,
-  "master_unique_numeric_registration_count": 522,
+  "master_record_count": 658,
+  "master_unique_numeric_registration_count": 538,
   "master_registrations_not_found_in_four_authority_source": [],
   "archive_registrations_missing_from_master_numeric_references": [],
-  "missing_official_registrations_available_for_review": 7013,
+  "missing_official_registrations_available_for_review": 6997,
   "denominator_complete_for_four_authorities": true,
   "notes": [
     "The four-authority denominator is based on unique eight-digit REG_NO values with one of the four named Dublin local-authority values.",
     "Rows with an unrecognised or blank local-authority value are reported separately and prevent a complete-denominator status.",
     "Official duplicates are reported and are not silently counted twice.",
     "The missing-registration file is a research queue only. It is not a production import and must be individually checked for scope, identity, parent/detail relationships, source quality, coordinate provenance, access and image rights.",
-    "The founder's working target of 3,396 is not used as the denominator unless it independently equals the audited four-authority source count."
+    "The founder's working target of 3,396 is not used as the denominator unless it independently equals the audited four-authority source count.",
+    "Batch 126 quality workflow 46148163120 matched all 538/538 archive NIAH registration numbers against the 48,327-row official national CSV. Four-authority Dublin denominator 7,535; 6,997 registrations remain for review. This is REG_NO presence matching only, not full field-level reconciliation or coordinate verification."
   ]
 }

@@ -1,53 +1,42 @@
-# Visual Discovery Batch 127 — Ringsend boat-slip micro-details
+# NIAH Bulk Publication Batch 127 — South Dublin County
 
-**Project:** CICAN DUBLIN  
-**Founder:** CICAN GEORGE ALIN  
-**Date:** 8 November 2026  
-**Scope:** Historic concrete boat slip, DCIHR 18-12-118, at the Great South Wall / Ringsend maritime-industrial waterfront.  
-**Outcome:** Three child records and three visual workflow entries added. Existing EIAR source reused.
+**Date:** 28 November 2026  
+**Project:** CICAN Dublin Archive  
+**Batch size:** 100 official NIAH registrations  
+**Scope:** South Dublin County Council — Lucan and adjacent townlands  
+**Status:** Published to the master catalogue and public NIAH register; national CSV re-audit pending.
 
-## New catalogue records
+## Method
 
-### DUB-DET-0009 — Iron posts and railings
+The 100 records were selected from the latest workflow-generated official NIAH four-authority missing-registration queue. Every selected row has a unique eight-digit REG_NO, COUNTY=DUBLIN, a recognised Dublin local authority, an official NIAH record URL and a survey description. The official dataset's address, use, date, rating, special-interest, appraisal and coordinate fields were carried through without inventing missing values.
 
-The Dublin Port 3FM EIAR describes the c.1920–30 concrete boat slip as retaining original iron posts and railings. The child record separates this metalwork for detailed photography. Count, maker and present survival are not independently established.
+All 100 selected rows in this batch belong to **South Dublin County Council**. This is a bulk **official-dataset source verification** batch. The individual record pages were not separately opened one by one in this cycle; their official URLs are retained in each record. The records are not field verified. NIAH source coordinates are labelled SOURCE_DERIVED, have unspecified positional accuracy and are not founder GPS. No NIAH-linked images were reused.
 
-### DUB-DET-0010 — Concrete mooring blocks
+## Batch range
 
-The EIAR explicitly lists concrete mooring blocks associated with the slip. Their count, individual locations, dimensions and current condition are not specified.
+- First selected registration: **11201019**
+- Last selected registration: **11202017**
+- Selected: **100**
+- Four-authority queue before batch: **6,997**
+- Expected queue after the next successful exact-registration audit: **6,897**
 
-### DUB-DET-0011 — Cast-iron lamppost at the north-west corner
+## Production totals
 
-The EIAR records a cast-iron lamppost at the north-west corner of the slip. Maker, design, date and present survival remain unknown.
+| Dataset | Before | Added | After |
+|---|---:|---:|---:|
+| Master objects | 658 | 100 | 758 |
+| Public NIAH records | 538 | 100 | 638 |
+| Source records | 778 | 100 | 878 |
+| Visual records | 658 | 100 | 758 |
 
-## Parent and coordinates
+## Integrity and limitations
 
-All three details are parent-linked to **DUB-INF-0006**. They have no independent coordinates or map pins. The parent coordinate is a source-derived site point and is not claimed as the exact position of any individual fitting.
+- 100 unique official REG_NO values selected.
+- All selected rows are within County Dublin and South Dublin County Council.
+- Exact duplicate archive, source and visual IDs: zero.
+- Official page URLs retained for every record.
+- Coordinates copied from the NIAH national CSV where valid; no coordinate is described as founder GPS.
+- Current condition, present-day use, public access and photography permission remain unverified.
+- No NIAH images are reused; 100 photography plans await founder photographs.
 
-## Source provenance
-
-- **DUBLIN-PORT-3FM-EIAR-CH16-APP16-1** — Dublin Port 3FM Environmental Impact Assessment Report, Appendix 16-1, Cultural Heritage Assets, DCIHR 18-12-118.
-
-The report describes a c.1920–30 concrete boat slip, iron posts and railings, concrete mooring blocks, a cast-iron lamppost at the north-west corner, and a limestone masonry quay wall to the east. It notes the slip was built on the site of an earlier wooden pier shown on the 1912 OS map.
-
-## Fieldwork and safety
-
-- The EIAR is a survey-era description, not proof of unchanged current condition.
-- Access is not assumed. Use lawful public viewpoints only.
-- Do not enter operational or private port land, cross barriers, climb onto the slip, or touch or test historic fittings.
-- Record a feature as not located if it cannot be seen; do not assume it was removed.
-
-## Visual workflow
-
-Three visual records created. All await original founder photography. No third-party image reuse licence was newly established, no photographs were fabricated and no line art was marked complete.
-
-## Quality control
-
-- Three unique object IDs: DUB-DET-0009 to DUB-DET-0011.
-- Three matching visual records.
-- Existing source reused; no duplicate source entry.
-- All child records link to DUB-INF-0006.
-- No independent feature coordinates or map pins invented.
-- Current condition and access remain field questions.
-
-**ALWAYS STAY IN THE LIGHT.**
+The next Archive quality gate must confirm 638/638 public NIAH references against the official national CSV, regenerate the four-authority missing queue and complete the website validation and deployment gates.

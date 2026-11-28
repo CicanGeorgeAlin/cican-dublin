@@ -2,7 +2,7 @@
   "version": "1.0",
   "audited_on": "2026-11-28",
   "scope": "Dublin City and County Dublin",
-  "catalogue_total": 1258,
+  "catalogue_total": 1358,
   "administrative_assignment_status": "NOT_SPATIALLY_VERIFIED",
   "administrative_assignment_note": "No local-authority record counts are published in this audit. Postal-district labels cannot be substituted for point-in-polygon checks. The official 2026 polygon dataset has been identified; geometry import and spatial assignment await reuse-licence confirmation and a coordinate-precision review.",
   "local_authorities": [
@@ -83,6 +83,12 @@
       "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json. Updated after NIAH Hybrid Batch 052; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 053; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 054; reconciled from data/objects.json. Count reconciled against complete master catalogue after Batch 130. Count reconciled against complete master catalogue after Batch 131."
     },
     {
+      "name": "BALCARRICK, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
       "name": "BALCUNNIN, County Dublin",
       "record_count": 1,
       "status": "RESEARCH_IN_PROGRESS",
@@ -113,6 +119,12 @@
       "coverage_note": "NIAH settlement or townland work-zone label; not proof of postal district or local-authority boundary. Count reconciled directly from data/objects.json. Count reconciled against complete master catalogue after Batch 130. Count reconciled against complete master catalogue after Batch 131."
     },
     {
+      "name": "BALHEARY, County Dublin",
+      "record_count": 3,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
       "name": "BALLINASCORNEY LOWER, County Dublin",
       "record_count": 1,
       "status": "RESEARCH_IN_PROGRESS",
@@ -129,6 +141,12 @@
       "record_count": 8,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "NIAH settlement or townland work-zone label; not proof of postal district or local-authority boundary. Count reconciled from complete master catalogue after Batch 131."
+    },
+    {
+      "name": "BALLYMADROUGH, County Dublin",
+      "record_count": 2,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
     },
     {
       "name": "Ballymadun, County Dublin",
@@ -197,6 +215,12 @@
       "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
     },
     {
+      "name": "BELCAMP, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
       "name": "BELGARD, County Dublin",
       "record_count": 1,
       "status": "RESEARCH_IN_PROGRESS",
@@ -205,6 +229,18 @@
     {
       "name": "BORRANSTOWN, County Dublin",
       "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
+      "name": "BRACKENSTOWN, BRAZIL, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
+      "name": "BRACKENSTOWN, County Dublin",
+      "record_count": 2,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
     },
@@ -263,6 +299,12 @@
       "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
     },
     {
+      "name": "Chapelmidway, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
       "name": "CLARKSTOWN, HAROLDSGRANGE, County Dublin",
       "record_count": 1,
       "status": "RESEARCH_IN_PROGRESS",
@@ -273,6 +315,12 @@
       "record_count": 1,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json. Updated after NIAH Hybrid Batch 052; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 053; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 054; reconciled from data/objects.json. Count reconciled against complete master catalogue after Batch 130. Count reconciled against complete master catalogue after Batch 131."
+    },
+    {
+      "name": "Cloghran, County Dublin",
+      "record_count": 2,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
     },
     {
       "name": "Clonburris Great, County Dublin",
@@ -341,10 +389,22 @@
       "coverage_note": "NIAH settlement or townland work-zone label; not proof of postal district or local-authority boundary. Count reconciled from complete master catalogue after Batch 130. Count reconciled against complete master catalogue after Batch 131."
     },
     {
+      "name": "CORDUFF (BA. E BY.), County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
       "name": "CORKAGH DEMESNE, County Dublin",
       "record_count": 1,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "NIAH settlement or townland work-zone label; not proof of postal district or local-authority boundary. Count reconciled from complete master catalogue after Batch 130. Count reconciled against complete master catalogue after Batch 131."
+    },
+    {
+      "name": "CORRSTOWN, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
     },
     {
       "name": "COTTRELSTOWN, County Dublin",
@@ -395,6 +455,12 @@
       "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
     },
     {
+      "name": "DARDISTOWN, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
       "name": "Deansrath, County Dublin",
       "record_count": 2,
       "status": "RESEARCH_IN_PROGRESS",
@@ -402,7 +468,7 @@
     },
     {
       "name": "Donabate, County Dublin",
-      "record_count": 7,
+      "record_count": 22,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "Settlement work-zone label, not a postal district or local-authority assignment. Count reconciled from data/objects.json after Discovery Batch 146; coverage remains a sample, not exhaustive. Updated after NIAH Hybrid Batch 052; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 053; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 054; reconciled from data/objects.json. Count reconciled against complete master catalogue after Batch 130. Count reconciled against complete master catalogue after Batch 131."
     },
@@ -611,6 +677,18 @@
       "coverage_note": "NIAH settlement or townland work-zone label; not proof of postal district or local-authority boundary. Count reconciled from official NIAH records. Count reconciled against complete master catalogue after Batch 130. Count reconciled against complete master catalogue after Batch 131."
     },
     {
+      "name": "HOLLYSTOWN, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
+      "name": "HOLLYWOOD, County Dublin",
+      "record_count": 2,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
       "name": "HORESTOWN, County Dublin",
       "record_count": 1,
       "status": "RESEARCH_IN_PROGRESS",
@@ -695,6 +773,12 @@
       "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json. Updated after NIAH Hybrid Batch 052; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 053; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 054; reconciled from data/objects.json. Count reconciled against complete master catalogue after Batch 130. Count reconciled against complete master catalogue after Batch 131."
     },
     {
+      "name": "Kilsallaghan, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
       "name": "KILTIPPER, County Dublin",
       "record_count": 1,
       "status": "RESEARCH_IN_PROGRESS",
@@ -713,6 +797,12 @@
       "coverage_note": "NIAH settlement or townland work-zone label; not proof of postal district or local-authority boundary. Count reconciled from complete master catalogue after Batch 130. Count reconciled against complete master catalogue after Batch 131."
     },
     {
+      "name": "Kinsaley, County Dublin",
+      "record_count": 7,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
       "name": "KNOCKLYON, County Dublin",
       "record_count": 5,
       "status": "RESEARCH_IN_PROGRESS",
@@ -725,10 +815,22 @@
       "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json. Updated after NIAH Hybrid Batch 052; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 053; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 054; reconciled from data/objects.json. Count reconciled against complete master catalogue after Batch 130. Count reconciled against complete master catalogue after Batch 131."
     },
     {
+      "name": "KNOCKSEDAN, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
       "name": "Laraghcon, County Dublin",
       "record_count": 1,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "NIAH settlement or townland work-zone label; not proof of postal district or local-authority boundary. Count reconciled from official NIAH records. Count reconciled against complete master catalogue after Batch 130. Count reconciled against complete master catalogue after Batch 131."
+    },
+    {
+      "name": "LEAS, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
     },
     {
       "name": "Leixlip, County Dublin",
@@ -768,7 +870,7 @@
     },
     {
       "name": "Malahide, County Dublin",
-      "record_count": 1,
+      "record_count": 28,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "Settlement work-zone label, not a postal district or local-authority assignment. Count reconciled from data/objects.json after Discovery Batch 146; coverage remains a sample, not exhaustive. Updated after NIAH Hybrid Batch 052; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 053; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 054; reconciled from data/objects.json. Count reconciled against complete master catalogue after Batch 130. Count reconciled against complete master catalogue after Batch 131."
     },
@@ -795,6 +897,12 @@
       "record_count": 1,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "NIAH settlement or townland work-zone label; not proof of postal district or local-authority boundary. Count reconciled from complete master catalogue after Batch 130. Count reconciled against complete master catalogue after Batch 131."
+    },
+    {
+      "name": "MOUNTAMBROSE LITTLE, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
     },
     {
       "name": "MOUNTPELIER, County Dublin",
@@ -917,6 +1025,12 @@
       "coverage_note": "NIAH settlement or townland work-zone label; not proof of postal district or local-authority boundary. Count reconciled from official NIAH records. Count reconciled against complete master catalogue after Batch 130. Count reconciled against complete master catalogue after Batch 131."
     },
     {
+      "name": "Portmarnock, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
       "name": "Quarryvale, County Dublin",
       "record_count": 5,
       "status": "RESEARCH_IN_PROGRESS",
@@ -942,7 +1056,7 @@
     },
     {
       "name": "RATHBEAL, County Dublin",
-      "record_count": 1,
+      "record_count": 6,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json. Updated after NIAH Hybrid Batch 052; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 053; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 054; reconciled from data/objects.json. Count reconciled against complete master catalogue after Batch 130. Count reconciled against complete master catalogue after Batch 131."
     },
@@ -977,6 +1091,12 @@
       "coverage_note": "NIAH settlement or townland work-zone label; not proof of postal district or local-authority boundary. Count reconciled from official NIAH records. Count reconciled against complete master catalogue after Batch 130. Count reconciled against complete master catalogue after Batch 131."
     },
     {
+      "name": "ROGANSTOWN, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
       "name": "ROGANSTOWN, SKIDOO, County Dublin",
       "record_count": 1,
       "status": "RESEARCH_IN_PROGRESS",
@@ -984,12 +1104,18 @@
     },
     {
       "name": "ROGERSTOWN, County Dublin",
-      "record_count": 2,
+      "record_count": 3,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
     },
     {
       "name": "ROWLESTOWN EAST, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
+      "name": "ROWLESTOWN WEST, County Dublin",
       "record_count": 1,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
@@ -1013,6 +1139,12 @@
       "coverage_note": "NIAH settlement or townland work-zone label; not proof of postal district or local-authority boundary. Count reconciled from complete master catalogue after Batch 130. Count reconciled against complete master catalogue after Batch 131."
     },
     {
+      "name": "Saint Doolagh's, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
+    },
+    {
       "name": "Sandyford, County Dublin",
       "record_count": 4,
       "status": "RESEARCH_IN_PROGRESS",
@@ -1023,6 +1155,12 @@
       "record_count": 3,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "NIAH settlement or townland work-zone label; not proof of postal district or local-authority boundary. Count reconciled from complete master catalogue after Batch 131."
+    },
+    {
+      "name": "SEAPOINT, County Dublin",
+      "record_count": 1,
+      "status": "RESEARCH_IN_PROGRESS",
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json."
     },
     {
       "name": "SHENICK'S ISLAND, County Dublin",
@@ -1080,7 +1218,7 @@
     },
     {
       "name": "Swords, County Dublin",
-      "record_count": 11,
+      "record_count": 28,
       "status": "RESEARCH_IN_PROGRESS",
       "coverage_note": "Settlement work-zone label, not a postal district or local-authority assignment. Count reconciled from data/objects.json after Discovery Batch 146; coverage remains a sample, not exhaustive. Updated after NIAH Hybrid Batch 052; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 053; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 054; reconciled from data/objects.json. Count reconciled against complete master catalogue after Batch 130. Count reconciled against complete master catalogue after Batch 131."
     },
@@ -1178,7 +1316,7 @@
     "Dublin 24"
   ],
   "totals": {
-    "postal_districts_with_records": 187,
+    "postal_districts_with_records": 210,
     "local_authorities_with_verified_spatial_assignment": 0,
     "records_with_verified_local_authority_assignment": 0
   },
@@ -1195,6 +1333,7 @@
     "Batch 064 adds five individually checked Dublin City NIAH records (50010034–50010038) in Dublin 1. Catalogue and district counts are reconciled from data/objects.json; source-derived coordinates do not establish founder field verification or local-authority polygon assignment.",
     "Publication of 14 individually consulted NIAH core records from research Batches 087–089. National CSV WGS84 coordinates are retained as SOURCE_DERIVED, not founder GPS; no NIAH-linked photographs are reused.",
     "NIAH Verification Batch 124 adds 13 individually consulted South Dublin County NIAH registrations in Lucan. Counts are reconciled from data/objects.json. National CSV coordinates remain SOURCE_DERIVED and do not establish founder field verification or spatial local-authority assignment.",
-    "Batch 132 adds 100 source-derived NIAH Building Survey records. District labels are derived from official NIAH town or townland fields; they do not establish spatial local-authority assignment."
+    "Batch 132 adds 100 source-derived NIAH Building Survey records. District labels are derived from official NIAH town or townland fields; they do not establish spatial local-authority assignment.",
+    "Batch 133 adds 100 source-derived NIAH Building Survey records. District labels are derived from official NIAH town or townland fields; they do not establish spatial local-authority assignment."
   ]
 }

@@ -1,52 +1,57 @@
-# Visual Discovery Batch 126 — Sir John Rogerson's Quay micro-details
+# NIAH Verification Batch 126 — Lucan
 
-**Project:** CICAN DUBLIN  
-**Founder:** CICAN GEORGE ALIN  
-**Date:** 8 November 2026  
-**Scope:** Photographable maritime and engineering details documented in NIAH Registration 50020465.  
-**Outcome:** Three parent-linked micro-detail records, three visual workflow entries and one research note added. The existing NIAH source record was reused; no duplicate source was created.
+**Date:** 28 November 2026  
+**Project:** CICAN Dublin Archive  
+**Workstream:** NIAH core discovery and publication  
+**Status:** Eight SOURCE_VERIFIED_CORE records added; national CSV matching is pending the next quality run.
 
-## New catalogue records
+## Summary
 
-### DUB-DET-0006 — Granite landing steps with cast-iron railings
+Batch 126 resolves all seven individual-page HOLD candidates from Batch 125 and adds eight new Lucan registrations. Each individual Buildings of Ireland page was opened and checked for exact REG_NO, title, rating, special-interest category, original/current use, date range, description and appraisal. The production master, public NIAH register, source registry and visual plan were checked for collisions before assigning IDs.
 
-NIAH explicitly records granite steps with cast-iron railings on Sir John Rogerson's Quay. The individual stair positions, number of flights, dimensions and current condition are not specified. The feature is separately catalogued beneath DUB-INF-0029. No independent coordinate or pin is assigned.
+## Records added
 
-### DUB-DET-0007 — Stone setts and inset cast-iron rails to the campshire
+| NIAH registration | Archive ID | Official subject |
+|---|---|---|
+| 11201056 | DUB-BLD-0353 | 3 Hanbury Lane |
+| 11201057 | DUB-BLD-0354 | 4 Hanbury Lane |
+| 11201058 | DUB-BLD-0355 | 1 Sarsfield Terrace |
+| 11201063 | DUB-BLD-0356 | 6 Sarsfield Terrace |
+| 11201065 | DUB-BLD-0357 | 8 Sarsfield Terrace |
+| 11201066 | DUB-BLD-0358 | 9 Sarsfield Terrace |
+| 11201067 | DUB-BLD-0359 | 10 Sarsfield Terrace |
+| 11201069 | DUB-BLD-0360 | 15 Main Street |
 
-NIAH explicitly records stone setts and inset cast-iron rails within the quay's campshire. The source does not specify the original function or exact alignment of the rails. No crane, railway or other specific use is inferred. The detail is parent-linked to DUB-INF-0029 without an independent coordinate.
+## Verification boundaries
 
-### DUB-DET-0008 — Timber fenders north of the B.J. Marine building
+- **Individual NIAH pages:** PASS for all eight.
+- **Archive registration and ID collision checks:** PASS; zero collisions.
+- **National CSV exact-row match:** PENDING for Batch 126 until the next quality workflow. Batch 125's separate run confirmed 530/530 matches and 7,005 registrations remaining.
+- **Coordinates:** intentionally unset; no CRS inferred from page coordinate pairs and no map pins added.
+- **Field verification:** NOT DONE.
+- **Photography:** eight founder photography plans added; no NIAH-linked photographs reused.
+- **Rights:** NIAH dataset record data attributed under CC BY 4.0; linked photographs excluded.
 
-NIAH records timber fenders north of the B.J. Marine building. The source does not give a count, dimensions or precise position, and current survival is unconfirmed. The building is retained as a relative search reference, not converted into a guessed coordinate. The detail is parent-linked to DUB-INF-0029.
+## Production totals
 
-## Source provenance
+| Dataset | Before | Added | After |
+|---|---:|---:|---:|
+| Master objects | 650 | 8 | 658 |
+| Public NIAH records | 530 | 8 | 538 |
+| Source records | 770 | 8 | 778 |
+| Visual records | 650 | 8 | 658 |
 
-All three records use the existing official source:
+All seven held records from Batch 125 (11201056, 11201057, 11201058, 11201063, 11201065, 11201066 and 11201067) were individually opened in this cycle and added. Registration 11201069 was also verified and added. Existing 11201070–11201072 records were left untouched after duplicate checks.
 
-- **NIAH-50020465** — Sir John Rogerson's Quay, National Inventory of Architectural Heritage, Survey Data, Description and Appraisal.
+## Repository changes
 
-NIAH dates the ashlar-granite quay wall to c.1870 and records granite coping, mooring hooks and rings, timber fenders, granite steps, cast-iron railings, stone setts and inset cast-iron rails.
+- `data/objects.json`
+- `data/niah-registered-objects.json`
+- `data/sources.json`
+- `data/visual-assets.json`
+- `data/coverage-audit.json`
+- `audit/niah-batch-125-national-csv-confirmation.json`
+- `audit/niah-batch-126-record-level-audit.json`
+- `documentation/CONTINUE-AUTOPILOT.md`
 
-## Visual and fieldwork status
-
-Three matching visual workflow records were created. No third-party photographs were imported; no reuse licence was newly established. All three entries await founder photography.
-
-Fieldwork cautions:
-- Stay on designated public routes and obey port, traffic and construction barriers.
-- Do not climb onto the quay edge, descend steps, enter the river or approach active port operations.
-- Do not touch, move, clean or test historic fabric.
-- Record exact positions only from a safe public standing point.
-- If a feature is not found, record it as not located; do not assume it has been removed.
-
-## Quality control
-
-- Three unique object IDs: DUB-DET-0006 to DUB-DET-0008.
-- Three matching visual records.
-- Existing NIAH-50020465 source reused; no duplicate source record.
-- All three objects have DUB-INF-0029 as parent.
-- No independent feature coordinates or map pins invented.
-- The original rail function is left unassigned pending further evidence.
-- No photograph, field visit or line art is fabricated.
-
-**ALWAYS STAY IN THE LIGHT.**
+The next quality workflow must verify all 538 public registration numbers against the official CSV, regenerate the 7,535-record four-authority queue and run the complete archive and deployment gates.

@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "NIAH-BATCH-125-NATIONAL-CSV-CONFIRMATION",
+  "audited_on": "2026-11-28",
+  "workflow": {
+    "repository": "CicanGeorgeAlin/cican-dublin",
+    "run_id": 46147775394,
+    "run_url": "https://github.com/CicanGeorgeAlin/cican-dublin/actions/runs/46147775394",
+    "conclusion": "success"
+  },
+  "source": {
+    "publisher": "Department of Housing, Local Government and Heritage / NIAH",
+    "url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
+    "source_rows": 48327,
+    "registration_field": "REG_NO",
+    "authority_field": "LOCAL_AUTHORITY"
+  },
+  "denominator": {
+    "four_authority_unique_registrations": 7535,
+    "authorities": {
+      "Dublin City Council": 5692,
+      "Fingal County Council": 667,
+      "South Dublin County Council": 790,
+      "Dún Laoghaire-Rathdown County Council": 386
+    }
+  },
+  "archive": {
+    "public_niah_records": 530,
+    "unique_archive_registrations": 530,
+    "matched": 530,
+    "not_found": 0,
+    "match_rate": 1,
+    "missing_official_registrations_for_review": 7005
+  },
+  "batch_125_additions": [
+    {
+      "registration_number": "11201040",
+      "archive_id": "DUB-BLD-0346",
+      "status": "MATCHED",
+      "official_local_authority": "South Dublin County Council"
+    },
+    {
+      "registration_number": "11201043",
+      "archive_id": "DUB-BLD-0347",
+      "status": "MATCHED",
+      "official_local_authority": "South Dublin County Council"
+    },
+    {
+      "registration_number": "11201049",
+      "archive_id": "DUB-STR-0208",
+      "status": "MATCHED",
+      "official_local_authority": "South Dublin County Council"
+    },
+    {
+      "registration_number": "11201054",
+      "archive_id": "DUB-BLD-0348",
+      "status": "MATCHED",
+      "official_local_authority": "South Dublin County Council"
+    },
+    {
+      "registration_number": "11201059",
+      "archive_id": "DUB-BLD-0349",
+      "status": "MATCHED",
+      "official_local_authority": "South Dublin County Council"
+    },
+    {
+      "registration_number": "11201060",
+      "archive_id": "DUB-BLD-0350",
+      "status": "MATCHED",
+      "official_local_authority": "South Dublin County Council"
+    },
+    {
+      "registration_number": "11201061",
+      "archive_id": "DUB-BLD-0351",
+      "status": "MATCHED",
+      "official_local_authority": "South Dublin County Council"
+    },
+    {
+      "registration_number": "11201064",
+      "archive_id": "DUB-BLD-0352",
+      "status": "MATCHED",
+      "official_local_authority": "South Dublin County Council"
+    }
+  ],
+  "interpretation": "This audit confirms exact registration-number presence and one official row per archive NIAH reference. It does not certify full field-level equality, coordinates, CRS, property condition, public access or field verification. The 7,005 missing registrations are a research queue, not a bulk import list."
+}

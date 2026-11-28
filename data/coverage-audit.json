@@ -2,7 +2,7 @@
   "version": "1.0",
   "audited_on": "2026-11-28",
   "scope": "Dublin City and County Dublin",
-  "catalogue_total": 650,
+  "catalogue_total": 658,
   "administrative_assignment_status": "NOT_SPATIALLY_VERIFIED",
   "administrative_assignment_note": "No local-authority record counts are published in this audit. Postal-district labels cannot be substituted for point-in-polygon checks. The official 2026 polygon dataset has been identified; geometry import and spatial assignment await reuse-licence confirmation and a coordinate-precision review.",
   "local_authorities": [
@@ -216,9 +216,9 @@
     },
     {
       "name": "Lucan, County Dublin",
-      "record_count": 40,
+      "record_count": 48,
       "status": "RESEARCH_IN_PROGRESS",
-      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json after NIAH Batch 032. Updated after NIAH Hybrid Batch 052; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 053; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 054; reconciled from data/objects.json. Updated after NIAH Verification Batch 124 (13 records); count reconciled from data/objects.json. This settlement work-zone label is not a verified spatial local-authority assignment. Updated after NIAH Verification Batch 125 (8 SOURCE_VERIFIED_CORE records); count reconciled from data/objects.json. National CSV row matching and spatial authority assignment remain separate."
+      "coverage_note": "NIAH settlement or townland work-zone label; not a postal district or verified local-authority assignment. Count reconciled from data/objects.json after NIAH Batch 032. Updated after NIAH Hybrid Batch 052; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 053; reconciled from data/objects.json. Updated after NIAH Hybrid Batch 054; reconciled from data/objects.json. Updated after NIAH Verification Batch 124 (13 records); count reconciled from data/objects.json. This settlement work-zone label is not a verified spatial local-authority assignment. Updated after NIAH Verification Batch 125 (8 SOURCE_VERIFIED_CORE records); count reconciled from data/objects.json. National CSV row matching and spatial authority assignment remain separate. Updated after NIAH Verification Batch 126 (8 SOURCE_VERIFIED_CORE records); count reconciled from data/objects.json. National CSV row matching and spatial authority assignment remain separate."
     },
     {
       "name": "Lusk, County Dublin",

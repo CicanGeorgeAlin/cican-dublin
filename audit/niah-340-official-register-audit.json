@@ -1,16 +1,16 @@
 {
   "audit_title": "CICAN Dublin — 340 NIAH registration-number audit",
-  "audited_at": "2026-11-28T15:10:26.912Z",
+  "audited_at": "2026-11-28T15:21:42.557Z",
   "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
   "source_description": "National Inventory of Architectural Heritage national CSV bulk download, Department of Housing, Local Government and Heritage; data.gov.ie resource metadata last updated 10 November 2026.",
   "source_row_count": 48327,
   "source_registration_number_field": "REG_NO",
   "source_local_authority_field": "LOCAL_AUTHORITY�",
   "source_county_field": "COUNTY",
-  "archive_record_count": 3301,
-  "unique_archive_reference_count": 3301,
+  "archive_record_count": 3401,
+  "unique_archive_reference_count": 3401,
   "counts": {
-    "MATCHED": 3301
+    "MATCHED": 3401
   },
   "all_records_matched": true,
   "results": [
@@ -33020,6 +33020,1006 @@
       "registration_number": "50930341",
       "status": "MATCHED",
       "official_name": "Post Office Garage",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2853",
+      "archive_name": "49 Seville Place — presbytery/parochial/curate's house (NIAH 50010019)",
+      "registration_number": "50010019",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0338",
+      "archive_name": "Balbriggan — bridge (NIAH 11304001)",
+      "registration_number": "11304001",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2854",
+      "archive_name": "4 Church Terrace — almshouse (NIAH 11209027)",
+      "registration_number": "11209027",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2855",
+      "archive_name": "48 Seville Place — house (NIAH 50010021)",
+      "registration_number": "50010021",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0339",
+      "archive_name": "Hamlet Lane — water pump (NIAH 11304004)",
+      "registration_number": "11304004",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2856",
+      "archive_name": "3 Church Terrace — almshouse (NIAH 11209028)",
+      "registration_number": "11209028",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2857",
+      "archive_name": "47 Seville Place — house (NIAH 50010022)",
+      "registration_number": "50010022",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-MON-0054",
+      "archive_name": "Balscaddan — graveyard/cemetery (NIAH 11304010)",
+      "registration_number": "11304010",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2858",
+      "archive_name": "2 Church Terrace — almshouse (NIAH 11209029)",
+      "registration_number": "11209029",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2859",
+      "archive_name": "46 Seville Place — house (NIAH 50010023)",
+      "registration_number": "50010023",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2860",
+      "archive_name": "Convent Lane — chimney (NIAH 11305007)",
+      "registration_number": "11305007",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2861",
+      "archive_name": "1 Church Terrace — almshouse (NIAH 11209030)",
+      "registration_number": "11209030",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2862",
+      "archive_name": "45 Seville Place — house (NIAH 50010024)",
+      "registration_number": "50010024",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2863",
+      "archive_name": "72 Drogheda Street — house (NIAH 11305011)",
+      "registration_number": "11305011",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0340",
+      "archive_name": "Tower Road — water pump (NIAH 11209034)",
+      "registration_number": "11209034",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2864",
+      "archive_name": "44 Seville Place — house (NIAH 50010025)",
+      "registration_number": "50010025",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2865",
+      "archive_name": "Mill Street — house (NIAH 11305012)",
+      "registration_number": "11305012",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2866",
+      "archive_name": "Main Street — house (NIAH 11209038)",
+      "registration_number": "11209038",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2867",
+      "archive_name": "43 Seville Place — shop/retail outlet (NIAH 50010026)",
+      "registration_number": "50010026",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2868",
+      "archive_name": "20 Drogheda Street — bank/financial institution (NIAH 11305014)",
+      "registration_number": "11305014",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0341",
+      "archive_name": "Clondalkin — mill race (NIAH 11209042)",
+      "registration_number": "11209042",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2869",
+      "archive_name": "42 Seville Place — house (NIAH 50010027)",
+      "registration_number": "50010027",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2870",
+      "archive_name": "2 Dublin Street — house (NIAH 11305016)",
+      "registration_number": "11305016",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2871",
+      "archive_name": "39 New Road — house (NIAH 11209053)",
+      "registration_number": "11209053",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2872",
+      "archive_name": "41 Seville Place — house (NIAH 50010028)",
+      "registration_number": "50010028",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2873",
+      "archive_name": "7 Church Street — house (NIAH 11305027)",
+      "registration_number": "11305027",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2874",
+      "archive_name": "40 New Road — house (NIAH 11209054)",
+      "registration_number": "11209054",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2875",
+      "archive_name": "40 Seville Place — house (NIAH 50010029)",
+      "registration_number": "50010029",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2876",
+      "archive_name": "11 High Street — house (NIAH 11305041)",
+      "registration_number": "11305041",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2877",
+      "archive_name": "2 Knockmeenagh Road — house (NIAH 11209055)",
+      "registration_number": "11209055",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2878",
+      "archive_name": "6 Oriel Street Upper — house (NIAH 50010030)",
+      "registration_number": "50010030",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2879",
+      "archive_name": "19 Bridge Street — house (NIAH 11305042)",
+      "registration_number": "11305042",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2880",
+      "archive_name": "4 Knockmeenagh Road — house (NIAH 11209056)",
+      "registration_number": "11209056",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2881",
+      "archive_name": "7 Oriel Street Upper — house (NIAH 50010031)",
+      "registration_number": "50010031",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2882",
+      "archive_name": "9-9A Dublin Street — house (NIAH 11305043)",
+      "registration_number": "11305043",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2883",
+      "archive_name": "6 Knockmeenagh Road — house (NIAH 11209057)",
+      "registration_number": "11209057",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2884",
+      "archive_name": "103 Seville Place — house (NIAH 50010039)",
+      "registration_number": "50010039",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2885",
+      "archive_name": "Naul — church/chapel (NIAH 11308004)",
+      "registration_number": "11308004",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2886",
+      "archive_name": "8 Knockmeenagh Road — house (NIAH 11209058)",
+      "registration_number": "11209058",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2887",
+      "archive_name": "104 Seville Place — house (NIAH 50010040)",
+      "registration_number": "50010040",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2888",
+      "archive_name": "HAZARDSTOWN — post box (NIAH 11308007)",
+      "registration_number": "11308007",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2889",
+      "archive_name": "12 Knockmeenagh Road — house (NIAH 11209060)",
+      "registration_number": "11209060",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2890",
+      "archive_name": "8 Seville Place — house (NIAH 50010044)",
+      "registration_number": "50010044",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2891",
+      "archive_name": "Dermotstown — farmyard complex (NIAH 11309005)",
+      "registration_number": "11309005",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2892",
+      "archive_name": "14 Knockmeenagh Road — house (NIAH 11209061)",
+      "registration_number": "11209061",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2893",
+      "archive_name": "5 Seville Place — house (NIAH 50010047)",
+      "registration_number": "50010047",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2894",
+      "archive_name": "28-31 Harbour Road — house (NIAH 11311004)",
+      "registration_number": "11311004",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2895",
+      "archive_name": "16 Knockmeenagh Road — house (NIAH 11209062)",
+      "registration_number": "11209062",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2896",
+      "archive_name": "4 Seville Place — house (NIAH 50010048)",
+      "registration_number": "50010048",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2897",
+      "archive_name": "18-19 Thomas Hand Street — house (NIAH 11311006)",
+      "registration_number": "11311006",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2898",
+      "archive_name": "18 Knockmeenagh Road — house (NIAH 11209063)",
+      "registration_number": "11209063",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2899",
+      "archive_name": "3 Seville Place — house (NIAH 50010049)",
+      "registration_number": "50010049",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2900",
+      "archive_name": "11 Strand Street — house (NIAH 11311009)",
+      "registration_number": "11311009",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2901",
+      "archive_name": "20 Knockmeenagh Road — house (NIAH 11209064)",
+      "registration_number": "11209064",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2902",
+      "archive_name": "108 Seville Place — house (NIAH 50010050)",
+      "registration_number": "50010050",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2903",
+      "archive_name": "65-66 Church Street — house (NIAH 11311015)",
+      "registration_number": "11311015",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2904",
+      "archive_name": "22 Knockmeenagh Road — house (NIAH 11209065)",
+      "registration_number": "11209065",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2905",
+      "archive_name": "109 Seville Place — house (NIAH 50010051)",
+      "registration_number": "50010051",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2906",
+      "archive_name": "21-21A Church Street — house (NIAH 11311016)",
+      "registration_number": "11311016",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2907",
+      "archive_name": "24 Knockmeenagh Road — house (NIAH 11209066)",
+      "registration_number": "11209066",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2908",
+      "archive_name": "110 Seville Place — house (NIAH 50010052)",
+      "registration_number": "50010052",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2909",
+      "archive_name": "17 Church Street — house (NIAH 11311019)",
+      "registration_number": "11311019",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2910",
+      "archive_name": "26 Knockmeenagh Road — house (NIAH 11209067)",
+      "registration_number": "11209067",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2911",
+      "archive_name": "113 Seville Place — house (NIAH 50010055)",
+      "registration_number": "50010055",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2912",
+      "archive_name": "Church Street — post box (NIAH 11311021)",
+      "registration_number": "11311021",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2913",
+      "archive_name": "28 Knockmeenagh Road — house (NIAH 11209068)",
+      "registration_number": "11209068",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2914",
+      "archive_name": "114 Seville Place — house (NIAH 50010056)",
+      "registration_number": "50010056",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2915",
+      "archive_name": "42 Quay Street — house (NIAH 11311023)",
+      "registration_number": "11311023",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0342",
+      "archive_name": "Knockmeenagh Road — water pump (NIAH 11209069)",
+      "registration_number": "11209069",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2916",
+      "archive_name": "115 Seville Place — house (NIAH 50010057)",
+      "registration_number": "50010057",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2917",
+      "archive_name": "5 Convent Lane — house (NIAH 11311025)",
+      "registration_number": "11311025",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2918",
+      "archive_name": "3 Convent View Cottages — house (NIAH 11209073)",
+      "registration_number": "11209073",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2919",
+      "archive_name": "176 North Strand Road — house (NIAH 50010058)",
+      "registration_number": "50010058",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2920",
+      "archive_name": "5 New Street — house (NIAH 11311027)",
+      "registration_number": "11311027",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2921",
+      "archive_name": "4 Convent View Cottages — house (NIAH 11209074)",
+      "registration_number": "11209074",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2922",
+      "archive_name": "175 North Strand Road — house (NIAH 50010059)",
+      "registration_number": "50010059",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2923",
+      "archive_name": "04-Jul Neptune Terrace — house (NIAH 11311028)",
+      "registration_number": "11311028",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2924",
+      "archive_name": "5 Convent View Cottages — house (NIAH 11209075)",
+      "registration_number": "11209075",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2925",
+      "archive_name": "22 Portland Row — house (NIAH 50010077)",
+      "registration_number": "50010077",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2926",
+      "archive_name": "7 Church Street — bank/financial institution (NIAH 11311039)",
+      "registration_number": "11311039",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2927",
+      "archive_name": "6 Convent View Cottages — house (NIAH 11209076)",
+      "registration_number": "11209076",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2928",
+      "archive_name": "21 Portland Row — house (NIAH 50010078)",
+      "registration_number": "50010078",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2929",
+      "archive_name": "ADAMSTOWN (BA. W BY.) — house (NIAH 11314001)",
+      "registration_number": "11314001",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2930",
+      "archive_name": "7 Convent View Cottages — house (NIAH 11209077)",
+      "registration_number": "11209077",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2931",
+      "archive_name": "20 Portland Row — house (NIAH 50010079)",
+      "registration_number": "50010079",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0343",
+      "archive_name": "Baldwinstown — water pump (NIAH 11314002)",
+      "registration_number": "11314002",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2932",
+      "archive_name": "8 Convent View Cottages — house (NIAH 11209078)",
+      "registration_number": "11209078",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2933",
+      "archive_name": "19 Portland Row — house (NIAH 50010080)",
+      "registration_number": "50010080",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0344",
+      "archive_name": "Damastown — water pump (NIAH 11315001)",
+      "registration_number": "11315001",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2934",
+      "archive_name": "Boot Road — house (NIAH 11209083)",
+      "registration_number": "11209083",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2935",
+      "archive_name": "18 Portland Row — house (NIAH 50010081)",
+      "registration_number": "50010081",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0345",
+      "archive_name": "BLACKLAND — water pump (NIAH 11318001)",
+      "registration_number": "11318001",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0346",
+      "archive_name": "Corkagh Demesne — bridge (NIAH 11209088)",
+      "registration_number": "11209088",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2936",
+      "archive_name": "87 Amiens Street — house (NIAH 50010091)",
+      "registration_number": "50010091",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2937",
+      "archive_name": "CARNHILL — farm house (NIAH 11318002)",
+      "registration_number": "11318002",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0115",
+      "archive_name": "Cookstown Road — gates/railings/walls (NIAH 11210001)",
+      "registration_number": "11210001",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2938",
+      "archive_name": "74 Amiens Street — house (NIAH 50010094)",
+      "registration_number": "50010094",
+      "status": "MATCHED",
+      "official_name": "O�Dwyer & Co. Chartered Accountants and Registered Auditors",
+      "official_local_authority": "Dublin City Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2939",
+      "archive_name": "Loughshinney — boathouse (NIAH 11318005)",
+      "registration_number": "11318005",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "Fingal County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2940",
+      "archive_name": "12A Cranagh Road — dovecote/pigeon house/aviary (NIAH 11211011)",
+      "registration_number": "11211011",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-2941",
+      "archive_name": "73 Amiens Street — house (NIAH 50010095)",
+      "registration_number": "50010095",
+      "status": "MATCHED",
+      "official_name": "",
       "official_local_authority": "Dublin City Council",
       "official_county": "DUBLIN",
       "source_match_count": 1

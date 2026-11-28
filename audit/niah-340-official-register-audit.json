@@ -1,16 +1,16 @@
 {
   "audit_title": "CICAN Dublin — 340 NIAH registration-number audit",
-  "audited_at": "2026-11-28T13:22:10.501Z",
+  "audited_at": "2026-11-28T13:27:39.914Z",
   "source_url": "https://heritagedata.maps.arcgis.com/sharing/rest/content/items/69689ebd654e4a83af76fdb4648f8529/data",
   "source_description": "National Inventory of Architectural Heritage national CSV bulk download, Department of Housing, Local Government and Heritage; data.gov.ie resource metadata last updated 10 November 2026.",
   "source_row_count": 48327,
   "source_registration_number_field": "REG_NO",
   "source_local_authority_field": "LOCAL_AUTHORITY�",
   "source_county_field": "COUNTY",
-  "archive_record_count": 738,
-  "unique_archive_reference_count": 738,
+  "archive_record_count": 838,
+  "unique_archive_reference_count": 838,
   "counts": {
-    "MATCHED": 738
+    "MATCHED": 838
   },
   "all_records_matched": true,
   "results": [
@@ -7390,6 +7390,1006 @@
       "registration_number": "11205009",
       "status": "MATCHED",
       "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0511",
+      "archive_name": "P&P Motor Factors",
+      "registration_number": "11205010",
+      "status": "MATCHED",
+      "official_name": "P&P Motor Factors",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0227",
+      "archive_name": "Omer Lock House",
+      "registration_number": "11205011",
+      "status": "MATCHED",
+      "official_name": "Omer Lock House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0228",
+      "archive_name": "11th Lock",
+      "registration_number": "11205012",
+      "status": "MATCHED",
+      "official_name": "11th Lock",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0229",
+      "archive_name": "10th Lock",
+      "registration_number": "11205013",
+      "status": "MATCHED",
+      "official_name": "10th Lock",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0230",
+      "archive_name": "9th Lock",
+      "registration_number": "11205014",
+      "status": "MATCHED",
+      "official_name": "9th Lock",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0231",
+      "archive_name": "NIAH 11205015 — lock keeper's house — Clonburris Great",
+      "registration_number": "11205015",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0512",
+      "archive_name": "NIAH 11205016 — house — Ballymanaggin",
+      "registration_number": "11205016",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0513",
+      "archive_name": "NIAH 11205017 — house — Ballymanaggin",
+      "registration_number": "11205017",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0514",
+      "archive_name": "NIAH 11205018 — house — Ballymanaggin",
+      "registration_number": "11205018",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0515",
+      "archive_name": "NIAH 11205019 — house — Ballymanaggin",
+      "registration_number": "11205019",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0516",
+      "archive_name": "NIAH 11205020 — house — Ballymanaggin",
+      "registration_number": "11205020",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0517",
+      "archive_name": "NIAH 11205021 — house — Ballymanaggin",
+      "registration_number": "11205021",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0518",
+      "archive_name": "NIAH 11205022 — house — Ballymanaggin",
+      "registration_number": "11205022",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0519",
+      "archive_name": "Anne's Brook Cottage",
+      "registration_number": "11205023",
+      "status": "MATCHED",
+      "official_name": "Anne's Brook Cottage",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0520",
+      "archive_name": "NIAH 11205024 — house — Ballymanaggin",
+      "registration_number": "11205024",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0521",
+      "archive_name": "NIAH 11205025 — house — Ballymanaggin",
+      "registration_number": "11205025",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0522",
+      "archive_name": "NIAH 11205026 — house — Ballymanaggin",
+      "registration_number": "11205026",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0523",
+      "archive_name": "NIAH 11205027 — house — Ballymanaggin",
+      "registration_number": "11205027",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0524",
+      "archive_name": "NIAH 11205028 — house — Ballymanaggin",
+      "registration_number": "11205028",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0525",
+      "archive_name": "NIAH 11205032 — house — Neillstown",
+      "registration_number": "11205032",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0526",
+      "archive_name": "Coolevin House",
+      "registration_number": "11205035",
+      "status": "MATCHED",
+      "official_name": "Coolevin House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0028",
+      "archive_name": "Neilstown Lodge",
+      "registration_number": "11205036",
+      "status": "MATCHED",
+      "official_name": "Neilstown Lodge",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0232",
+      "archive_name": "NIAH 11205037 — railway station — Raheen (Ne. By.)",
+      "registration_number": "11205037",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0233",
+      "archive_name": "NIAH 11205038 — bridge — Clondalkin",
+      "registration_number": "11205038",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0029",
+      "archive_name": "Buck House",
+      "registration_number": "11206001",
+      "status": "MATCHED",
+      "official_name": "Buck House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0234",
+      "archive_name": "Alymer Bridge",
+      "registration_number": "11207001",
+      "status": "MATCHED",
+      "official_name": "Alymer Bridge",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0235",
+      "archive_name": "NIAH 11207002 — bridge — Hazelhatch",
+      "registration_number": "11207002",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0218",
+      "archive_name": "NIAH 11207003 — water pump — Hazelhatch",
+      "registration_number": "11207003",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0527",
+      "archive_name": "River House",
+      "registration_number": "11207004",
+      "status": "MATCHED",
+      "official_name": "River House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0528",
+      "archive_name": "Ringwood House",
+      "registration_number": "11207005",
+      "status": "MATCHED",
+      "official_name": "Ringwood House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0236",
+      "archive_name": "Hazelhatch Bridge",
+      "registration_number": "11207006",
+      "status": "MATCHED",
+      "official_name": "Hazelhatch Bridge",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0529",
+      "archive_name": "NIAH 11207007 — farm house — Newcastle",
+      "registration_number": "11207007",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0530",
+      "archive_name": "Colganstown House",
+      "registration_number": "11207009",
+      "status": "MATCHED",
+      "official_name": "Colganstown House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0237",
+      "archive_name": "Hazelhatch and Celbridge Railway Station",
+      "registration_number": "11207010",
+      "status": "MATCHED",
+      "official_name": "Hazelhatch and Celbridge Railway Station",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0238",
+      "archive_name": "Hazelhatch and Celbridge Railway Station",
+      "registration_number": "11207011",
+      "status": "MATCHED",
+      "official_name": "Hazelhatch and Celbridge Railway Station",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0531",
+      "archive_name": "Hazelhatch House",
+      "registration_number": "11207012",
+      "status": "MATCHED",
+      "official_name": "Hazelhatch House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0030",
+      "archive_name": "Hazelhatch and Celbridge Railway Station",
+      "registration_number": "11207013",
+      "status": "MATCHED",
+      "official_name": "Hazelhatch and Celbridge Railway Station",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0532",
+      "archive_name": "NIAH 11207014 — house — Hazelhatch",
+      "registration_number": "11207014",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0533",
+      "archive_name": "NIAH 11207015 — store/warehouse — Hazelhatch",
+      "registration_number": "11207015",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0534",
+      "archive_name": "McEvoy's",
+      "registration_number": "11207016",
+      "status": "MATCHED",
+      "official_name": "McEvoy's",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0535",
+      "archive_name": "Bank House",
+      "registration_number": "11207017",
+      "status": "MATCHED",
+      "official_name": "Bank House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0536",
+      "archive_name": "The Hatch Bar",
+      "registration_number": "11207018",
+      "status": "MATCHED",
+      "official_name": "The Hatch Bar",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0537",
+      "archive_name": "NIAH 11207019 — forge/smithy — Hazelhatch",
+      "registration_number": "11207019",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0538",
+      "archive_name": "NIAH 11207020 — stables — Hazelhatch",
+      "registration_number": "11207020",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0539",
+      "archive_name": "Hazelhatch House",
+      "registration_number": "11207021",
+      "status": "MATCHED",
+      "official_name": "Hazelhatch House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0031",
+      "archive_name": "Lyons Lodge",
+      "registration_number": "11207022",
+      "status": "MATCHED",
+      "official_name": "Lyons Lodge",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0219",
+      "archive_name": "NIAH 11208001 — water pump — Newcastle",
+      "registration_number": "11208001",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0540",
+      "archive_name": "NIAH 11208002 — house — Newcastle",
+      "registration_number": "11208002",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0541",
+      "archive_name": "Peamount",
+      "registration_number": "11208003",
+      "status": "MATCHED",
+      "official_name": "Peamount",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0542",
+      "archive_name": "Keeloges",
+      "registration_number": "11208004",
+      "status": "MATCHED",
+      "official_name": "Keeloges",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-LND-0032",
+      "archive_name": "NIAH 11208005 — gates/railings/walls — Milltown",
+      "registration_number": "11208005",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0543",
+      "archive_name": "NIAH 11208006 — outbuilding — Milltown",
+      "registration_number": "11208006",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-STR-0220",
+      "archive_name": "NIAH 11208007 — water pump — Newcastle",
+      "registration_number": "11208007",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0544",
+      "archive_name": "NIAH 11208008 — farm house — Milltown",
+      "registration_number": "11208008",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0545",
+      "archive_name": "The Manor",
+      "registration_number": "11208009",
+      "status": "MATCHED",
+      "official_name": "The Manor",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0546",
+      "archive_name": "Castle Bagot House",
+      "registration_number": "11208010",
+      "status": "MATCHED",
+      "official_name": "Castle Bagot House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0547",
+      "archive_name": "Blundelstown House",
+      "registration_number": "11208011",
+      "status": "MATCHED",
+      "official_name": "Blundelstown House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0548",
+      "archive_name": "Westmanstown House",
+      "registration_number": "11208012",
+      "status": "MATCHED",
+      "official_name": "Westmanstown House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0549",
+      "archive_name": "Grange Castle",
+      "registration_number": "11208013",
+      "status": "MATCHED",
+      "official_name": "Grange Castle",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0239",
+      "archive_name": "Gollierstown Bridge",
+      "registration_number": "11208014",
+      "status": "MATCHED",
+      "official_name": "Gollierstown Bridge",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0550",
+      "archive_name": "NIAH 11208015 — farm house — Milltown",
+      "registration_number": "11208015",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0551",
+      "archive_name": "Polly Hop's",
+      "registration_number": "11208016",
+      "status": "MATCHED",
+      "official_name": "Polly Hop's",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0552",
+      "archive_name": "St Finian's R.C. Church",
+      "registration_number": "11208017",
+      "status": "MATCHED",
+      "official_name": "St Finian's R.C. Church",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0553",
+      "archive_name": "NIAH 11208018 — church/chapel — Newcastle",
+      "registration_number": "11208018",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0554",
+      "archive_name": "NIAH 11208019 — tank/silo — Newcastle",
+      "registration_number": "11208019",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0555",
+      "archive_name": "NIAH 11208020 — hospital/infirmary — Newcastle",
+      "registration_number": "11208020",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0556",
+      "archive_name": "St Luke's C. of I. Church",
+      "registration_number": "11208021",
+      "status": "MATCHED",
+      "official_name": "St Luke's C. of I. Church",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0557",
+      "archive_name": "NIAH 11208022 — house — Newcastle",
+      "registration_number": "11208022",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0558",
+      "archive_name": "Reniskey House",
+      "registration_number": "11208023",
+      "status": "MATCHED",
+      "official_name": "Reniskey House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0559",
+      "archive_name": "Casement Aerodrome",
+      "registration_number": "11208024",
+      "status": "MATCHED",
+      "official_name": "Casement Aerodrome",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0560",
+      "archive_name": "Casement Aerodrome",
+      "registration_number": "11208025",
+      "status": "MATCHED",
+      "official_name": "Casement Aerodrome",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-INF-0240",
+      "archive_name": "Casement Aerodrome",
+      "registration_number": "11208026",
+      "status": "MATCHED",
+      "official_name": "Casement Aerodrome",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0561",
+      "archive_name": "Casement Aerodrome",
+      "registration_number": "11208027",
+      "status": "MATCHED",
+      "official_name": "Casement Aerodrome",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0562",
+      "archive_name": "Casement Aerodrome",
+      "registration_number": "11208028",
+      "status": "MATCHED",
+      "official_name": "Casement Aerodrome",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0563",
+      "archive_name": "Kilcarberry House",
+      "registration_number": "11209001",
+      "status": "MATCHED",
+      "official_name": "Kilcarberry House",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0564",
+      "archive_name": "NIAH 11209002 — house — Nangor",
+      "registration_number": "11209002",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0565",
+      "archive_name": "NIAH 11209003 — house — Nangor",
+      "registration_number": "11209003",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0566",
+      "archive_name": "NIAH 11209004 — house — Deansrath",
+      "registration_number": "11209004",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0567",
+      "archive_name": "Sky Lawn",
+      "registration_number": "11209005",
+      "status": "MATCHED",
+      "official_name": "Sky Lawn",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0568",
+      "archive_name": "NIAH 11209006 — house — Clondalkin",
+      "registration_number": "11209006",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0569",
+      "archive_name": "NIAH 11209007 — house — Clondalkin",
+      "registration_number": "11209007",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0570",
+      "archive_name": "NIAH 11209008 — house — Clondalkin",
+      "registration_number": "11209008",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0571",
+      "archive_name": "NIAH 11209009 — house — Clondalkin",
+      "registration_number": "11209009",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0572",
+      "archive_name": "Fairview Oil Mills",
+      "registration_number": "11209010",
+      "status": "MATCHED",
+      "official_name": "Fairview Oil Mills",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0573",
+      "archive_name": "NIAH 11209011 — house — Clondalkin",
+      "registration_number": "11209011",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0574",
+      "archive_name": "NIAH 11209012 — house — Clondalkin",
+      "registration_number": "11209012",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0575",
+      "archive_name": "NIAH 11209013 — house — Clondalkin",
+      "registration_number": "11209013",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0576",
+      "archive_name": "NIAH 11209014 — house — Clondalkin",
+      "registration_number": "11209014",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0577",
+      "archive_name": "NIAH 11209015 — house — Clondalkin",
+      "registration_number": "11209015",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0578",
+      "archive_name": "NIAH 11209016 — house — Clondalkin",
+      "registration_number": "11209016",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0579",
+      "archive_name": "NIAH 11209017 — house — Clondalkin",
+      "registration_number": "11209017",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0580",
+      "archive_name": "NIAH 11209018 — house — Clondalkin",
+      "registration_number": "11209018",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0581",
+      "archive_name": "Riverside",
+      "registration_number": "11209019",
+      "status": "MATCHED",
+      "official_name": "Riverside",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0582",
+      "archive_name": "Millview",
+      "registration_number": "11209020",
+      "status": "MATCHED",
+      "official_name": "Millview",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0583",
+      "archive_name": "NIAH 11209021 — house — Clondalkin",
+      "registration_number": "11209021",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0584",
+      "archive_name": "NIAH 11209022 — house — Clondalkin",
+      "registration_number": "11209022",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0585",
+      "archive_name": "NIAH 11209023 — house — Clondalkin",
+      "registration_number": "11209023",
+      "status": "MATCHED",
+      "official_name": "",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0586",
+      "archive_name": "St Lawrence",
+      "registration_number": "11209024",
+      "status": "MATCHED",
+      "official_name": "St Lawrence",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0587",
+      "archive_name": "Towerville",
+      "registration_number": "11209025",
+      "status": "MATCHED",
+      "official_name": "Towerville",
+      "official_local_authority": "South Dublin County Council",
+      "official_county": "DUBLIN",
+      "source_match_count": 1
+    },
+    {
+      "archive_id": "DUB-BLD-0588",
+      "archive_name": "St John's C of I Church",
+      "registration_number": "11209026",
+      "status": "MATCHED",
+      "official_name": "St John's C of I Church",
       "official_local_authority": "South Dublin County Council",
       "official_county": "DUBLIN",
       "source_match_count": 1
